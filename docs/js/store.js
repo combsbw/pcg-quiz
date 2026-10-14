@@ -126,7 +126,37 @@ export function bumpDaily(kind) {
 }
 
 export function todayCounts() {
-  return loadProgress().daily[todayKey()] || { new: 0, reviews: 0 };
+  const d = loadProgress().daily[todayKey()] || {};
+  return { new: d.new || 0, reviews: d.reviews || 0, bonus: d.bonus || 0 };
+}
+
+/**
+ * Raise *today's* new-card allowance without changing the standing setting.
+ *
+ * The daily intake cap is the right default — it is what stops a 3,000-card
+ * deck turning into an unmanageable review debt three weeks later. But hitting
+ * it silently reads as the app being broken, so the learner needs a visible,
+ * one-tap way to keep going today while the long-run setting stays put.
+ */
+export function grantExtraNew(n = 10) {
+  const st = loadProgress();
+  const k = todayKey();
+  st.daily[k] = st.daily[k] || { new: 0, reviews: 0 };
+  st.daily[k].bonus = (st.daily[k].bonus || 0) + Math.max(0, n | 0);
+  saveProgress(true);
+  emit('settings');
+  return st.daily[k].bonus;
+}
+
+/**
+ * Settings with today's bonus folded into `dailyNew`, which is what the
+ * scheduler and the summary should both read.
+ */
+export function effectiveSettings() {
+  const st = loadProgress();
+  const bonus = todayCounts().bonus;
+  return bonus ? { ...st.settings, dailyNew: st.settings.dailyNew + bonus }
+               : st.settings;
 }
 
 /** Append one review. `card` is the post-scheduling state. */

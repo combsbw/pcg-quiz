@@ -8,7 +8,7 @@ import { loadData, getData, enabledQuestions, taxonomies, taxonomyById,
 import * as store from './store.js';
 import * as srs from './srs.js';
 import { route, setNotFound, start, navigate, bus } from './router.js';
-import { el, mount, toast, humanDays, relTime, plural, confirmDialog } from './ui.js';
+import { el, mount, clear, toast, humanDays, relTime, plural, confirmDialog } from './ui.js';
 
 const view = document.getElementById('view');
 const deps = { store, srs, data: { getData, enabledQuestions, moduleById, sourceLabel }, bus };
@@ -28,7 +28,7 @@ document.getElementById('themeBtn').addEventListener('click', () => {
 
 /* ------------------------------------------------------- shared pieces */
 function queueSummary() {
-  const settings = store.getSettings();
+  const settings = store.effectiveSettings();
   const qs = enabledQuestions(settings);
   // 6th arg is the review log: without it summarize() returns retention: null
   return srs.summarize(qs, store.allCards(), settings, store.todayCounts(),
@@ -66,6 +66,14 @@ function renderHome() {
 
   const s = queueSummary();
   const pctDone = s.total ? s.seen / s.total : 0;
+  const base = store.getSettings();
+  const eff = store.effectiveSettings();
+  const today = store.todayCounts();
+  // "No new cards" has two very different causes: the deck is exhausted, or
+  // today's intake cap is spent. Saying which one it is turns a dead end into
+  // a choice.
+  const untouched = s.total - s.seen;
+  const capped = s.newAvail === 0 && untouched > 0 && today.new >= eff.dailyNew;
 
   mount(view,
     el('.page-head', {}, [
@@ -76,7 +84,9 @@ function renderHome() {
     ]),
     el('.grid.grid-stats', { style: { marginBottom: 'var(--sp-6)' } }, [
       statTile('Due now', s.due, 'scheduled reviews', s.due ? 'var(--accent)' : null),
-      statTile('New available', s.newAvail, `limit ${store.getSettings().dailyNew}/day`),
+      statTile('New available', s.newAvail,
+        capped ? `daily limit of ${base.dailyNew} reached` : `limit ${eff.dailyNew}/day`,
+        capped ? 'var(--warn)' : null),
       statTile('Learned', s.seen, `of ${s.total} in scope`),
       statTile('Retention', s.retention === null ? '—' : `${Math.round(s.retention * 100)}%`,
         'last 30 days', s.retention !== null && s.retention < 0.8 ? 'var(--warn)' : 'var(--ok)'),
@@ -90,6 +100,17 @@ function renderHome() {
       el('p', { style: { margin: 'var(--sp-3) 0 0', color: 'var(--text-3)', fontSize: 'var(--fs-sm)' },
         text: `${s.seen} seen · ${s.young} still settling · ${s.mature} mature · ${s.total - s.seen} untouched` }),
     ]),
+    capped ? el('.card.cap-note', { style: { marginBottom: 'var(--sp-5)' } }, [
+      el('strong', { text: `Today's new-card limit is used up (${today.new} of ${eff.dailyNew}).` }),
+      el('p', { style: { margin: 'var(--sp-2) 0 var(--sp-4)', color: 'var(--text-2)' },
+        text: `${untouched.toLocaleString()} cards in your enabled modules have not been introduced yet. The limit paces how fast new material enters rotation so reviews stay manageable later — but you can take more today, or change the pace for good in Settings.` }),
+      el('div', { style: { display: 'flex', gap: 'var(--sp-3)', flexWrap: 'wrap' } }, [
+        el('button.btn.btn-primary', { text: 'Add 20 more new cards today',
+          onclick: () => { store.grantExtraNew(20); toast('20 more new cards unlocked for today'); renderHome(); } }),
+        el('a.btn', { href: '#/settings', text: 'Change the daily pace' }),
+      ]),
+    ]) : null,
+
     el('div', { style: { display: 'flex', gap: 'var(--sp-3)', flexWrap: 'wrap' } }, [
       el('button.btn.btn-primary', {
         text: s.due + s.newAvail > 0 ? `Study ${Math.min(s.due + s.newAvail, store.getSettings().dailyMax)} cards` : 'Study anyway (ahead of schedule)',
@@ -186,39 +207,69 @@ function renderBrowse({ params }) {
     ...d.content.guidelines.map((g) => ({
       kind: 'guideline', id: g.id, number: g.number, title: g.title,
       sub: `${g.section_title} · p.${g.page}`, levels: g.care_levels, rec: g,
+      search: `${g.number} ${g.title} ${g.section_title}`.toLowerCase(),
     })),
     ...d.content.drugs.map((x) => ({
       kind: 'drug', id: x.id, number: x.number, title: x.name,
       sub: `Formulary · p.${x.page}`, levels: [], rec: x,
+      search: `${x.number} ${x.name} ${(x.info['Trade Name'] || '')} ${(x.info['Pharmacologic Category'] || '')}`.toLowerCase(),
     })),
   ].filter((i) => !q || i.title.toLowerCase().includes(q) || i.number.includes(q));
 
+  // The result list is re-filtered in place rather than by re-routing. Routing
+  // on each keystroke re-rendered the whole view, which destroyed and replaced
+  // the input element — so focus was lost and only one character landed before
+  // the field had to be clicked again.
+  const listEl = el('.browse-list');
+  const moreEl = el('p', { style: { color: 'var(--text-3)' } });
+
+  const matches = (i, q) => !q
+    || i.title.toLowerCase().includes(q)
+    || i.number.includes(q)
+    || (i.search || '').includes(q);
+
+  function paint(q) {
+    const hits = items.filter((i) => matches(i, q));
+    clear(listEl);
+    if (!hits.length) {
+      listEl.append(el('.empty', { style: { padding: 'var(--sp-8)' } }, [
+        el('h3', { text: 'No matches' }),
+        el('p', { text: `Nothing matches “${q}”. Try a guideline number, a drug name, or a keyword.` }),
+      ]));
+    } else {
+      for (const i of hits.slice(0, 400)) {
+        listEl.append(el('a.browse-row', { href: `#/item/${i.id}` }, [
+          el('span.browse-num', { text: i.number }),
+          el('span.browse-title', { text: i.title }),
+          el('span.browse-sub', { text: i.sub }),
+          el('span', {}, i.levels.map((l) => el(`span.chip.chip-${l.toLowerCase()}`, { text: l }))),
+        ]));
+      }
+    }
+    moreEl.textContent = hits.length > 400
+      ? `Showing first 400 of ${hits.length}. Narrow the search to see more.` : '';
+    // Keep the URL shareable without re-rendering: replaceState does not fire
+    // hashchange, so the router stays put and the input keeps focus.
+    const want = q ? `#/browse?q=${encodeURIComponent(q)}` : '#/browse';
+    if (location.hash !== want) history.replaceState(null, '', want);
+  }
+
   const input = el('input.search', {
-    type: 'search', placeholder: 'Search guidelines and drugs…', value: params.q || '',
-    'aria-label': 'Search content',
-    oninput: (e) => {
-      const v = e.target.value;
-      clearTimeout(input._t);
-      input._t = setTimeout(() => navigate(`/browse?q=${encodeURIComponent(v)}`, { replace: true }), 180);
-    },
+    type: 'search', placeholder: 'Search guidelines, drugs, keywords…',
+    value: params.q || '', 'aria-label': 'Search content',
+    autocomplete: 'off', autocapitalize: 'none', spellcheck: 'false',
+    oninput: (e) => paint(e.target.value.trim().toLowerCase()),
   });
 
   mount(view,
     el('.page-head', {}, [
       el('h1', { text: 'Browse the guidelines' }),
-      el('p', { text: `Reference view of all ${d.counts.guidelines} guidelines and ${d.counts.drugs} formulary entries from edition ${d.version}. Every question in the deck links back here.` }),
+      el('p', { text: `All ${d.counts.guidelines} guidelines and ${d.counts.drugs} formulary entries from edition ${d.version}. Every question links back here.` }),
       el('div', { style: { marginTop: 'var(--sp-4)' } }, [input]),
     ]),
-    el('.browse-list', {}, items.slice(0, 400).map((i) => el('a.browse-row', {
-      href: `#/item/${i.id}`,
-    }, [
-      el('span.browse-num', { text: i.number }),
-      el('span.browse-title', { text: i.title }),
-      el('span.browse-sub', { text: i.sub }),
-      el('span', {}, i.levels.map((l) => el(`span.chip.chip-${l.toLowerCase()}`, { text: l }))),
-    ]))),
-    items.length > 400 ? el('p', { style: { color: 'var(--text-3)' }, text: `Showing first 400 of ${items.length}. Narrow the search to see more.` }) : null,
+    listEl, moreEl,
   );
+  paint(q);
 }
 
 function renderItem({ path }) {
@@ -257,23 +308,56 @@ function renderItem({ path }) {
     );
   }
 
+  // Render the nested outline rather than a flat bullet list: the indent is
+  // what tells you which dose belongs to which condition.
+  const LEVEL_LABEL = { BODY: 'Assessment', BLS: 'BLS', ALS: 'ALS',
+                        CCT: 'CCT', PEARLS: 'Pearls' };
+
+  function outline(items) {
+    const wrap = el('.outline');
+    for (const it of items) {
+      if (it.kind === 'heading') {
+        wrap.append(el('h4.ol-head', { text: it.text, dataset: { d: String(it.depth) } }));
+      } else {
+        wrap.append(el('div.ol-item', { dataset: { d: String(Math.min(it.depth, 3)) } }, [
+          el('span.ol-dot', { 'aria-hidden': 'true' }),
+          el('span', { text: it.text }),
+        ]));
+      }
+    }
+    return wrap;
+  }
+
+  const bands = (g.structure && g.structure.length)
+    ? g.structure
+    : g.blocks.filter((b) => b.bullets.length).map((b) => ({
+        care_level: b.care_level, page: b.page,
+        items: b.bullets.map((t) => ({ depth: 1, text: t, kind: 'item' })),
+      }));
+
   mount(view,
     el('.page-head', {}, [
       el('a.btn.btn-ghost.btn-sm', { href: '#/browse', text: '← Browse' }),
       el('h1', { text: `${g.number} ${g.title}` }),
       el('p', { text: `${g.section_title} · page ${g.page} · edition ${d.version}` }),
     ]),
-    ...g.blocks.filter((b) => b.bullets.length).map((b) => el('.card', {
-      style: { marginBottom: 'var(--sp-4)',
-               borderLeft: `4px solid ${b.care_level === 'BODY' ? 'var(--border-strong)' : `var(--${b.care_level.toLowerCase()}, var(--accent))`}` },
+    el('.gl-nav', {}, bands.map((b, i) => el('a.chip', {
+      href: `#gl-band-${i}`,
+      class: b.care_level !== 'BODY' ? `chip-${b.care_level.toLowerCase()}` : '',
+      text: LEVEL_LABEL[b.care_level] || b.care_level,
+    }))),
+    ...bands.map((b, i) => el('.card.gl-band', {
+      id: `gl-band-${i}`,
+      dataset: { lvl: b.care_level.toLowerCase() },
     }, [
-      el('h3', { text: b.care_level === 'BODY' ? 'Assessment' : b.care_level }),
-      el('ul.bullets', {}, b.bullets.map((s) => el('li', { text: s }))),
+      el('.gl-band-head', {}, [
+        el('h3', { text: LEVEL_LABEL[b.care_level] || b.care_level }),
+        el('span.gl-page', { text: `p.${b.page}` }),
+      ]),
+      outline(b.items),
     ])),
     g.images.length ? el('.card', {}, [
       el('h3', { text: 'Figures' }),
-      el('p', { style: { color: 'var(--text-3)', fontSize: 'var(--fs-sm)' },
-        text: `${plural(g.images.length, 'figure')} on page ${g.page}. Figures are shipped with the offline bundle.` }),
       el('.figs', {}, g.images.map((f) => el('img', {
         src: `data/images/${f}`, alt: `Figure from ${g.title}`, loading: 'lazy',
       }))),

@@ -178,7 +178,9 @@ export function mountQuiz(root, deps, route) {
   };
 
   const settings = () => {
-    try { return store.getSettings() || {}; } catch { return {}; }
+    // effectiveSettings folds in any extra new cards granted for today
+    try { return (store.effectiveSettings ? store.effectiveSettings()
+                                          : store.getSettings()) || {}; } catch { return {}; }
   };
   const retention = () => {
     const r = settings().desiredRetention;
@@ -230,6 +232,17 @@ export function mountQuiz(root, deps, route) {
       raw = [];
     }
 
+    // How many in-scope questions have never been graded — needed to tell
+    // "deck exhausted" apart from "daily intake cap reached".
+    let untouched = 0;
+    try {
+      const cards = store.allCards() || {};
+      for (const q of questions) {
+        const c = cards[q.id];
+        if (!c || c.state === 'new') untouched += 1;
+      }
+    } catch { untouched = 0; }
+
     const items = [];
     let skipped = 0;
     for (const it of raw) {
@@ -239,6 +252,7 @@ export function mountQuiz(root, deps, route) {
 
     S.items = items;
     S.skipped = skipped;
+    S.untouched = untouched;
     S.ahead = items.length > 0 && items.every((i) => i.ahead);
     S.index = 0;
     S.answered = 0;
@@ -276,28 +290,47 @@ export function mountQuiz(root, deps, route) {
     }
 
     if (!S.items.length) {
-      const capped = (() => {
-        try {
-          const t = store.todayCounts();
-          return (t.reviews || 0) >= (st.dailyMax || 120);
-        } catch { return false; }
-      })();
+      // Three different reasons the queue can come back empty, and they call
+      // for three different things from the learner. Saying "nothing to study"
+      // for all of them reads as a bug when it is actually a pacing cap.
+      const t = (() => { try { return store.todayCounts(); } catch { return { new: 0, reviews: 0 }; } })();
+      const untouched = Math.max(0, S.untouched || 0);
+      const reviewCapped = (t.reviews || 0) >= (st.dailyMax || 120);
+      const newCapped = !reviewCapped && untouched > 0 && (t.new || 0) >= (st.dailyNew || 15);
+
+      let head, body, extra = null;
+      if (reviewCapped) {
+        head = "That is today's limit";
+        body = `You have hit your cap of ${st.dailyMax} reviews for today. The cap exists so a `
+             + 'backlog never becomes unmanageable; raise it in Settings if you want more.';
+      } else if (newCapped) {
+        head = "Today's new cards are used up";
+        body = `You have introduced ${t.new} new ${t.new === 1 ? 'card' : 'cards'} today, which is your `
+             + `daily limit. ${untouched.toLocaleString()} cards in your enabled modules have not been `
+             + 'introduced yet, and nothing is due for review right now. The limit paces how fast new '
+             + 'material enters rotation so reviews stay manageable weeks from now — but nothing stops '
+             + 'you taking more today.';
+        extra = el('button.btn.btn-primary', {
+          text: 'Add 20 more new cards today',
+          onclick: () => { store.grantExtraNew(20); toast('20 more new cards unlocked');
+                           buildSession(); renderStart(); },
+        });
+      } else {
+        head = 'Nothing to study right now';
+        body = `Every card in your ${plural(enabled.length, 'enabled module')} is scheduled for later. `
+             + 'Enable another module to bring new material in.';
+      }
+
       return paint(el('.quiz.quiz-start', {}, [
         el('.empty', {}, [
-          el('h3', { text: capped ? "That is today's limit" : 'Nothing to study right now' }),
-          el('p', {
-            style: { maxWidth: '54ch', margin: '0 auto var(--sp-5)' },
-            text: capped
-              ? `You have hit your cap of ${st.dailyMax} reviews for today. The cap exists `
-                + 'so a backlog never becomes unmanageable; raise it in settings if you want more.'
-              : `Every card in your ${plural(enabled.length, 'enabled module')} is scheduled `
-                + 'for later. Enable another module to bring new material in.',
-          }),
+          el('h3', { text: head }),
+          el('p', { style: { maxWidth: '58ch', margin: '0 auto var(--sp-5)' }, text: body }),
           el('div.quiz-actions', {}, [
-            el('a.btn.btn-primary', { href: '#/modules', text: 'Manage modules' }),
-            el('a.btn', { href: '#/stats', text: 'View analytics' }),
+            extra,
+            el('a.btn', { href: '#/modules', text: 'Manage modules' }),
+            el('a.btn', { href: '#/settings', text: 'Settings' }),
             el('a.btn', { href: '#/', text: 'Home' }),
-          ]),
+          ].filter(Boolean)),
         ]),
       ]));
     }

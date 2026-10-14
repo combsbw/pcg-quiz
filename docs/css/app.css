@@ -275,3 +275,54 @@ dl.kv dd { margin: 0; }
 .setting-row .num { width: 96px; min-height: 42px; text-align: center;
   border: 1px solid var(--border-strong); border-radius: var(--r-md);
   background: var(--surface); }
+
+/* Pacing notice on Home when the daily new-card allowance is spent. */
+.cap-note { border-left: 4px solid var(--warn); }
+
+/* ------------------------------------------------- guideline outline view */
+.gl-nav { display: flex; gap: var(--sp-2); flex-wrap: wrap; margin-bottom: var(--sp-4);
+          position: sticky; top: 64px; z-index: 5; padding: var(--sp-2) 0;
+          background: var(--bg); }
+.gl-nav .chip { min-height: 34px; padding: 0 var(--sp-3); font-weight: var(--fw-semi); }
+.gl-nav .chip:hover { text-decoration: none; filter: brightness(1.07); }
+
+.gl-band { margin-bottom: var(--sp-4); border-left: 4px solid var(--border-strong);
+           scroll-margin-top: 120px; }
+.gl-band[data-lvl="bls"]    { border-left-color: var(--bls); }
+.gl-band[data-lvl="als"]    { border-left-color: var(--als); }
+.gl-band[data-lvl="cct"]    { border-left-color: var(--cct); }
+.gl-band[data-lvl="pearls"] { border-left-color: var(--pearls); }
+.gl-band-head { display: flex; align-items: baseline; justify-content: space-between;
+                gap: var(--sp-3); margin-bottom: var(--sp-3); }
+.gl-band-head h3 { margin: 0; }
+.gl-page { color: var(--text-3); font-size: var(--fs-xs); font-family: var(--font-mono); }
+
+/* The indent carries the clinical relationship (condition -> drug -> ceiling),
+   so each level is set apart by position, weight and a distinct marker rather
+   than by colour alone. */
+.outline { display: flex; flex-direction: column; gap: 2px; }
+.ol-head { margin: var(--sp-4) 0 var(--sp-2); font-size: var(--fs-sm);
+           font-weight: var(--fw-bold); letter-spacing: .04em; text-transform: uppercase;
+           color: var(--text-2); }
+.ol-head:first-child { margin-top: 0; }
+.ol-head[data-d="1"] { margin-left: var(--sp-5); }
+.ol-head[data-d="2"] { margin-left: var(--sp-10); }
+
+.ol-item { display: grid; grid-template-columns: 16px 1fr; gap: var(--sp-2);
+           align-items: baseline; padding: 3px 0; line-height: var(--lh-snug); }
+.ol-item[data-d="2"] { margin-left: var(--sp-5); }
+.ol-item[data-d="3"] { margin-left: var(--sp-10); }
+.ol-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--text-3);
+          justify-self: center; transform: translateY(-2px); }
+.ol-item[data-d="1"] > .ol-dot { background: var(--accent); width: 7px; height: 7px; }
+.ol-item[data-d="2"] > .ol-dot { background: transparent;
+          border: 1.5px solid var(--text-3); width: 7px; height: 7px; }
+.ol-item[data-d="3"] > .ol-dot { border-radius: 1px; width: 5px; height: 5px; }
+.ol-item[data-d="1"] { font-weight: var(--fw-med); }
+.ol-item[data-d="3"] { color: var(--text-2); font-size: var(--fs-sm); }
+
+@media (max-width: 640px) {
+  .gl-nav { top: 56px; }
+  .ol-item[data-d="2"], .ol-head[data-d="1"] { margin-left: var(--sp-3); }
+  .ol-item[data-d="3"], .ol-head[data-d="2"] { margin-left: var(--sp-6); }
+}

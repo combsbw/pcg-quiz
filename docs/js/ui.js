@@ -29,7 +29,15 @@ export function el(spec, props = {}, children = []) {
 
 export function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
 
-export function mount(root, ...nodes) { clear(root); root.append(...nodes); return root; }
+/** Replace a root's children. Conditional children are common (`cond ? el(…)
+ *  : null`), and Node.append() turns a null into the literal text "null" —
+ *  which is how stray "null" text was appearing under guideline pages. Filter
+ *  here so no caller has to remember. */
+export function mount(root, ...nodes) {
+  clear(root);
+  root.append(...nodes.filter((n) => n !== null && n !== undefined && n !== false));
+  return root;
+}
 
 export function toast(msg, ms = 2600) {
   const wrap = document.getElementById('toasts');
