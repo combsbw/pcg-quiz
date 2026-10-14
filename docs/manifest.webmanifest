@@ -1,0 +1,15 @@
+{
+  "name": "LFN Learn — Patient Care Guidelines",
+  "short_name": "LFN Learn",
+  "description": "Spaced-repetition learning over the Life Flight Network Patient Care Guidelines. Works offline.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0e1116",
+  "theme_color": "#1e63d0",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

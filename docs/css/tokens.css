@@ -1,0 +1,160 @@
+/* ==========================================================================
+   LFN Learn — design tokens.  SHARED. Never hardcode a colour in a module.
+   Light is the default; [data-theme="dark"] on <html> flips it.
+   ========================================================================== */
+
+:root {
+  /* ---- type -------------------------------------------------------- */
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Fluid scale. Body sits at 16-17px: this is read on a phone in a moving
+     aircraft, so nothing below 14px carries meaning. */
+  --fs-xs:   0.8125rem;
+  --fs-sm:   0.9375rem;
+  --fs-base: 1.0625rem;
+  --fs-lg:   1.1875rem;
+  --fs-xl:   1.4375rem;
+  --fs-2xl:  1.875rem;
+  --fs-3xl:  2.375rem;
+
+  --lh-tight: 1.2;
+  --lh-snug:  1.35;
+  --lh-base:  1.55;
+
+  --fw-normal: 450;
+  --fw-med:    550;
+  --fw-semi:   650;
+  --fw-bold:   750;
+
+  /* ---- space (4px base) --------------------------------------------- */
+  --sp-1: 0.25rem;  --sp-2: 0.5rem;   --sp-3: 0.75rem;  --sp-4: 1rem;
+  --sp-5: 1.25rem;  --sp-6: 1.5rem;   --sp-8: 2rem;     --sp-10: 2.5rem;
+  --sp-12: 3rem;    --sp-16: 4rem;
+
+  /* ---- radius / elevation ------------------------------------------- */
+  --r-sm: 8px;  --r-md: 12px;  --r-lg: 16px;  --r-xl: 22px;  --r-full: 999px;
+
+  --shadow-1: 0 1px 2px rgba(16, 24, 40, .06), 0 1px 3px rgba(16, 24, 40, .10);
+  --shadow-2: 0 4px 8px -2px rgba(16, 24, 40, .10), 0 2px 4px -2px rgba(16, 24, 40, .06);
+  --shadow-3: 0 12px 20px -4px rgba(16, 24, 40, .12), 0 4px 8px -4px rgba(16, 24, 40, .08);
+
+  --tap: 48px;                 /* minimum interactive target */
+  --maxw: 1180px;
+
+  /* ---- light palette ------------------------------------------------- */
+  --bg:          #f6f7f9;
+  --bg-sunken:   #eceef2;
+  --surface:     #ffffff;
+  --surface-2:   #f9fafb;
+  --surface-3:   #f2f4f7;
+  --border:      #dfe3ea;
+  --border-strong:#c3cad6;
+
+  --text:        #141a22;
+  --text-2:      #4a5565;
+  --text-3:      #6e7a8a;
+  --text-inv:    #ffffff;
+
+  --accent:      #1e63d0;
+  --accent-hov:  #1a55b4;
+  --accent-soft: #e7effc;
+  --accent-ring: rgba(30, 99, 208, .35);
+
+  --ok:          #0f7b55;
+  --ok-soft:     #e3f5ed;
+  --ok-border:   #8fd3ba;
+
+  --bad:         #c0372b;
+  --bad-soft:    #fdeceb;
+  --bad-border:  #f0a9a2;
+
+  --warn:        #9a6508;
+  --warn-soft:   #fdf3e1;
+
+  /* Care-level colours mirror the printed guidelines: BLS green, ALS red,
+     CCT black, PEARLS neutral. Keeping them identical to the book means a
+     colour already means something to the reader. */
+  --bls:    #0b8a4e;
+  --als:    #c62828;
+  --cct:    #2a2f38;
+  --pearls: #7a5cc4;
+
+  /* Categorical series for charts — distinguishable in both themes and for
+     the common forms of colour-blindness. */
+  --c1: #1e63d0;  --c2: #0f9b8e;  --c3: #d9850b;  --c4: #9b51c7;
+  --c5: #c0372b;  --c6: #2f8f4e;  --c7: #4a5565;  --c8: #c2185b;
+
+  --grid: #e5e8ee;
+  --focus: 0 0 0 3px var(--accent-ring);
+}
+
+[data-theme="dark"] {
+  --bg:          #0e1116;
+  --bg-sunken:   #080a0e;
+  --surface:     #161b22;
+  --surface-2:   #1b2129;
+  --surface-3:   #222932;
+  --border:      #2a323d;
+  --border-strong:#3d4653;
+
+  --text:        #e8ecf2;
+  --text-2:      #a7b2c1;
+  --text-3:      #7d8798;
+  --text-inv:    #0e1116;
+
+  --accent:      #5d9bf5;
+  --accent-hov:  #7cb0f8;
+  --accent-soft: #15243c;
+  --accent-ring: rgba(93, 155, 245, .40);
+
+  --ok:          #3dcb94;
+  --ok-soft:     #0f2a21;
+  --ok-border:   #1f6a4f;
+
+  --bad:         #ff7b6e;
+  --bad-soft:    #2d1512;
+  --bad-border:  #7d342c;
+
+  --warn:        #e2a33c;
+  --warn-soft:   #2b1f0c;
+
+  --bls:    #35c07a;
+  --als:    #ff6b6b;
+  --cct:    #9aa6b6;
+  --pearls: #b095f0;
+
+  --c1: #5d9bf5;  --c2: #35c0b0;  --c3: #e2a33c;  --c4: #bf8ae8;
+  --c5: #ff7b6e;  --c6: #5fc47f;  --c7: #9aa6b6;  --c8: #f06292;
+
+  --grid: #242b35;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, .40);
+  --shadow-2: 0 4px 10px -2px rgba(0, 0, 0, .50);
+  --shadow-3: 0 14px 26px -6px rgba(0, 0, 0, .60);
+}
+
+/* Respect the OS when the user has not chosen explicitly. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg:#0e1116; --bg-sunken:#080a0e; --surface:#161b22; --surface-2:#1b2129;
+    --surface-3:#222932; --border:#2a323d; --border-strong:#3d4653;
+    --text:#e8ecf2; --text-2:#a7b2c1; --text-3:#7d8798; --text-inv:#0e1116;
+    --accent:#5d9bf5; --accent-hov:#7cb0f8; --accent-soft:#15243c;
+    --accent-ring:rgba(93,155,245,.40);
+    --ok:#3dcb94; --ok-soft:#0f2a21; --ok-border:#1f6a4f;
+    --bad:#ff7b6e; --bad-soft:#2d1512; --bad-border:#7d342c;
+    --warn:#e2a33c; --warn-soft:#2b1f0c;
+    --bls:#35c07a; --als:#ff6b6b; --cct:#9aa6b6; --pearls:#b095f0;
+    --c1:#5d9bf5; --c2:#35c0b0; --c3:#e2a33c; --c4:#bf8ae8;
+    --c5:#ff7b6e; --c6:#5fc47f; --c7:#9aa6b6; --c8:#f06292;
+    --grid:#242b35;
+    --shadow-1:0 1px 2px rgba(0,0,0,.40);
+    --shadow-2:0 4px 10px -2px rgba(0,0,0,.50);
+    --shadow-3:0 14px 26px -6px rgba(0,0,0,.60);
+  }
+}
+[data-theme="light"] { color-scheme: light; }
+[data-theme="dark"]  { color-scheme: dark; }

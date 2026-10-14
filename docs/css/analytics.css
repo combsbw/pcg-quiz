@@ -1,0 +1,516 @@
+/* ==========================================================================
+   analytics.css — the dashboard.
+
+   Owned by the analytics module. Colour comes only from tokens.css; the
+   components in app.css (.card, .stat, .grid-stats, .seg, .chip, .meter) are
+   reused rather than restyled.
+
+   Three rules the rest of the file serves:
+
+   1. FOCUS RINGS USE `outline`, NOT `box-shadow`.
+      app.css declares `:focus-visible { box-shadow: var(--focus) }`. Any
+      component that sets its own box-shadow (elevation on .card / .stat, the
+      inset tone bars) is the *later* rule on the same property, so the shared
+      ring is painted over and keyboard focus silently vanishes — on exactly
+      the controls a keyboard user drives the dashboard with. quiz.css solved
+      this by re-declaring the ring composed with the tone bar; here the
+      targets are SVG shapes inside a chart, where box-shadow does not paint at
+      all. So everything focusable in this module gets an `outline` ring, which
+      cannot be clobbered by an elevation shadow and works on SVG.
+
+   2. CHART COLOUR IS A CLASS, NEVER AN ATTRIBUTE.
+      SVG `fill="…"` would need a literal. Every shape instead carries a class
+      that resolves to a token, so a theme flip repaints the charts with no JS
+      and no re-render. `--c1..--c8` are the categorical series; `--ok/--warn/
+      --bad` carry meaning (mature / learning / over-cap).
+
+   3. NOTHING MAY CAUSE HORIZONTAL SCROLL AT 390px.
+      Charts are sized in JS to the measured container width, so the CSS side
+      of that contract is: no fixed widths, no min-widths wider than the
+      column, and `max-width: 100%` on every svg.
+   ========================================================================== */
+
+.analytics { display: block; }
+
+/* ---------------------------------------------------------------- panels */
+
+.an-panel {
+  margin-bottom: var(--sp-5);
+  /* Charts are measured against this box, and a stray overflow here is what
+     gives a phone a horizontal scrollbar. Clip rather than trust. */
+  overflow: hidden;
+  position: relative;          /* tooltip containing block */
+}
+
+.an-head {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: var(--sp-4); flex-wrap: wrap; margin-bottom: var(--sp-4);
+}
+.an-title { margin: 0; font-size: var(--fs-lg); }
+.an-sub {
+  margin: var(--sp-1) 0 0; color: var(--text-2);
+  font-size: var(--fs-sm); line-height: var(--lh-snug); max-width: 62ch;
+}
+.an-sub-panel { min-width: 0; }
+.an-sub-title {
+  margin: 0 0 var(--sp-2); font-size: var(--fs-base);
+  font-weight: var(--fw-semi);
+}
+
+.an-caption {
+  margin: var(--sp-3) 0 0; color: var(--text-2);
+  font-size: var(--fs-sm); line-height: var(--lh-base); max-width: 76ch;
+  text-wrap: pretty;
+}
+.an-note {
+  margin: var(--sp-3) 0 0; padding: var(--sp-3) var(--sp-4);
+  border-radius: var(--r-md); background: var(--surface-3);
+  color: var(--text-2); font-size: var(--fs-sm);
+  border-left: 3px solid var(--border-strong);
+  max-width: 76ch;
+}
+
+.an-empty {
+  padding: var(--sp-5); border-radius: var(--r-md);
+  background: var(--surface-2); border: 1px dashed var(--border-strong);
+  color: var(--text-2);
+}
+.an-empty strong { display: block; color: var(--text); margin-bottom: var(--sp-2); }
+.an-empty p { margin: 0; font-size: var(--fs-sm); line-height: var(--lh-base); max-width: 72ch; }
+
+.an-foot {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: var(--sp-4); flex-wrap: wrap; margin-top: var(--sp-3);
+}
+.an-readout {
+  font-size: var(--fs-xs); color: var(--text-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.an-controls {
+  display: flex; gap: var(--sp-3); flex-wrap: wrap;
+  align-items: center; margin-bottom: var(--sp-4);
+}
+/* The segmented control can hold five taxonomy names; let it wrap rather than
+   widen the panel. app.css already allows wrap — this keeps the rows tight. */
+.an-seg { max-width: 100%; }
+.an-seg-sm button { padding: var(--sp-1) var(--sp-3); min-height: 34px;
+                    font-size: var(--fs-xs); }
+.an-seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px;
+                               box-shadow: none; }
+
+.an-more { margin-top: var(--sp-3); margin-right: var(--sp-2); }
+
+/* Two charts side by side once there is genuinely room for two readable
+   axes; stacked below that. Set from JS (`.is-side-by-side`) because the JS
+   has to know the pixel width it is drawing into anyway, and two sources of
+   truth for one breakpoint is how charts end up clipped. */
+.an-two { display: grid; gap: var(--sp-6); grid-template-columns: 1fr; }
+.an-two.is-side-by-side { grid-template-columns: 1fr 1fr; gap: var(--sp-5); }
+
+/* ----------------------------------------------------------- headline row */
+
+.an-stats { margin: 0; }
+/* 170px minimum from .grid-stats leaves a 390px phone with two tiles per row,
+   which is right — but the value type needs to come down a step so a
+   six-figure review count does not wrap mid-number. */
+.an-stat .v { font-size: var(--fs-xl); }
+@media (min-width: 560px) { .an-stat .v { font-size: var(--fs-2xl); } }
+.an-stat .s { line-height: var(--lh-snug); display: block; margin-top: 2px; }
+.an-stat[data-tone="accent"] .v { color: var(--accent); }
+.an-stat[data-tone="ok"]     .v { color: var(--ok); }
+.an-stat[data-tone="warn"]   .v { color: var(--warn); }
+.an-stat[data-tone="bad"]    .v { color: var(--bad); }
+
+/* --------------------------------------------------------------- charts */
+
+.an-chart-wrap { width: 100%; min-width: 0; }
+.an-svg { display: block; width: 100%; max-width: 100%; overflow: visible; }
+
+.an-grid { stroke: var(--grid); stroke-width: 1; }
+
+.an-axis-label {
+  fill: var(--text-3); font-size: 11px; font-family: var(--font-sans);
+  font-weight: var(--fw-med);
+}
+.an-axis-y { text-anchor: end; }
+
+/* Reference lines (target retention, daily cap) are dashed so they never read
+   as data. */
+.an-ref {
+  stroke: var(--text-3); stroke-width: 1.5; stroke-dasharray: 5 4;
+  opacity: .8;
+}
+.an-ref-bad { stroke: var(--bad); opacity: .9; }
+.an-ref-label {
+  fill: var(--text-3); font-size: 10.5px; font-family: var(--font-sans);
+  font-weight: var(--fw-med);
+}
+
+.an-line { fill: none; stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+.an-thin { stroke-width: 2; }
+.an-area { stroke: none; opacity: .13; }
+
+.an-line-1 { stroke: var(--c1); }
+.an-area-1 { fill: var(--c1); }
+.an-line-2 { stroke: var(--ok); }
+.an-area-2 { fill: var(--ok); }
+/* Forgetting is drawn dashed as well as coloured: in the trajectory panel the
+   two lines are the whole message, and hue alone should not carry it. */
+.an-line-decay { stroke: var(--bad); stroke-dasharray: 6 4; }
+
+.an-line-c1 { stroke: var(--c1); } .an-line-c2 { stroke: var(--c2); }
+.an-line-c3 { stroke: var(--c3); } .an-line-c4 { stroke: var(--c4); }
+.an-line-c5 { stroke: var(--c5); } .an-line-c6 { stroke: var(--c6); }
+
+.an-dot {
+  fill: var(--c1); stroke: var(--surface); stroke-width: 1.5;
+}
+.an-dot.is-under { fill: var(--warn); }
+.an-dot-sm { stroke-width: 1.25; }
+circle.an-line-c1 { fill: var(--c1); } circle.an-line-c2 { fill: var(--c2); }
+circle.an-line-c3 { fill: var(--c3); } circle.an-line-c4 { fill: var(--c4); }
+circle.an-line-c5 { fill: var(--c5); } circle.an-line-c6 { fill: var(--c6); }
+
+.an-annot-line {
+  stroke: var(--text-2); stroke-width: 1; stroke-dasharray: 2 3;
+}
+.an-annot {
+  fill: var(--text-2); font-size: 10.5px; font-family: var(--font-sans);
+  font-weight: var(--fw-semi);
+}
+
+/* ---------------------------------------------------------------- legend */
+
+.an-legend {
+  display: flex; flex-wrap: wrap; gap: var(--sp-2) var(--sp-4);
+  margin-bottom: var(--sp-3);
+}
+.an-legend-item {
+  display: inline-flex; align-items: center; gap: var(--sp-2);
+  font-size: var(--fs-xs); color: var(--text-2); white-space: nowrap;
+}
+.an-swatch {
+  width: 11px; height: 11px; border-radius: 3px; flex: none;
+  background: var(--border-strong);
+}
+.an-sw-1 { background: var(--c1); }
+.an-sw-2 { background: var(--ok); }
+.an-sw-decay {
+  background: linear-gradient(90deg, var(--bad) 0 55%, transparent 55% 100%);
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px var(--bad);
+}
+.an-sw-ref {
+  background: transparent; border-top: 2px dashed var(--text-3);
+  height: 2px; border-radius: 0; align-self: center;
+}
+.an-sw-c1 { background: var(--c1); } .an-sw-c2 { background: var(--c2); }
+.an-sw-c3 { background: var(--c3); } .an-sw-c4 { background: var(--c4); }
+.an-sw-c5 { background: var(--c5); } .an-sw-c6 { background: var(--c6); }
+
+/* -------------------------------------------------------------- heatmap */
+
+.hm-cell {
+  stroke: none;
+  transition: opacity .12s;
+}
+/* Level 0 is a visible well rather than nothing, so the calendar reads as a
+   grid of days even in a week with no activity — otherwise an empty history
+   renders as blank space and looks broken. */
+.hm-l0 { fill: var(--surface-3); }
+.hm-l1 { fill: color-mix(in srgb, var(--accent) 30%, var(--surface-3)); }
+.hm-l2 { fill: color-mix(in srgb, var(--accent) 52%, var(--surface-3)); }
+.hm-l3 { fill: color-mix(in srgb, var(--accent) 76%, var(--surface-3)); }
+.hm-l4 { fill: var(--accent); }
+
+.an-heatmap .hm-cell:hover { opacity: .7; }
+/* SVG ignores box-shadow entirely, so the shared ring could never have worked
+   here; `outline` does paint on SVG shapes in every current engine. */
+.an-heatmap:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px;
+                            box-shadow: none; }
+.hm-cell:focus-visible,
+.hm-cell:focus { outline: 2px solid var(--text); outline-offset: 1px; }
+
+.an-heat-scale {
+  display: inline-flex; align-items: center; gap: var(--sp-1);
+  font-size: var(--fs-xs); color: var(--text-3);
+}
+.an-heat-scale span { margin: 0 var(--sp-1); }
+.hm-sw { width: 10px; height: 10px; border-radius: 2px; }
+/* The legend swatches are HTML, so they need the fills as backgrounds. */
+.an-heat-scale .hm-l0 { background: var(--surface-3); }
+.an-heat-scale .hm-l1 { background: color-mix(in srgb, var(--accent) 30%, var(--surface-3)); }
+.an-heat-scale .hm-l2 { background: color-mix(in srgb, var(--accent) 52%, var(--surface-3)); }
+.an-heat-scale .hm-l3 { background: color-mix(in srgb, var(--accent) 76%, var(--surface-3)); }
+.an-heat-scale .hm-l4 { background: var(--accent); }
+
+/* ------------------------------------------------------------- workload */
+
+.an-bar { fill: var(--c1); transition: opacity .12s; }
+.an-bar:hover { opacity: .75; }
+.an-bar.is-today { fill: var(--accent); }
+.an-bar.is-over  { fill: var(--bad); }
+
+/* Clip marker: the axis-break ticks and the true value above a cut-off bar. */
+.an-clip-break { stroke: var(--surface); stroke-width: 2.5; stroke-linecap: round; }
+.an-clip-label { fill: var(--bad); font-size: 10.5px; font-weight: var(--fw-bold);
+                 font-family: var(--font-sans); }
+
+.an-warn {
+  margin-top: var(--sp-4); padding: var(--sp-4);
+  border-radius: var(--r-md);
+  background: var(--bad-soft); border: 1px solid var(--bad-border);
+}
+.an-warn > strong { display: block; color: var(--bad); margin-bottom: var(--sp-2); }
+.an-warn p { margin: var(--sp-3) 0; font-size: var(--fs-sm); color: var(--text-2);
+             line-height: var(--lh-base); max-width: 72ch; }
+.an-warn .chip-row { margin-bottom: var(--sp-2); }
+.chip-over { background: color-mix(in srgb, var(--bad) 18%, transparent); color: var(--bad);
+             font-variant-numeric: tabular-nums; }
+
+/* -------------------------------------------------------------- coverage */
+
+.cov-groups { display: grid; gap: var(--sp-5); }
+.cov-group-title {
+  margin: 0 0 var(--sp-2); font-size: var(--fs-sm); color: var(--text-3);
+  text-transform: uppercase; letter-spacing: .05em; font-weight: var(--fw-semi);
+}
+.cov-list {
+  display: flex; flex-direction: column;
+  border: 1px solid var(--border); border-radius: var(--r-md);
+  overflow: hidden;
+}
+
+.cov-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(90px, 2fr) 62px;
+  align-items: center; gap: var(--sp-3);
+  padding: var(--sp-2) var(--sp-3); min-height: 48px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text); background: var(--surface);
+  text-decoration: none;
+}
+.cov-row:last-child { border-bottom: 0; }
+.cov-row:hover { background: var(--surface-3); text-decoration: none; }
+.cov-row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px;
+                         box-shadow: none; }
+
+.cov-label { display: flex; align-items: center; gap: var(--sp-2); min-width: 0; }
+.cov-name {
+  font-size: var(--fs-sm); font-weight: var(--fw-med);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.chip-on { background: var(--accent-soft); color: var(--accent); flex: none; }
+
+.cov-bar {
+  display: flex; height: 10px; border-radius: var(--r-full);
+  overflow: hidden; background: var(--surface-3); min-width: 0;
+}
+.cov-seg { display: block; height: 100%; flex-grow: 0; flex-shrink: 1; min-width: 0; }
+.cov-mature   { background: var(--ok); }
+.cov-young    { background: var(--c2); }
+.cov-learning { background: var(--warn); }
+.cov-new      { background: var(--surface-3); box-shadow: inset 0 0 0 1px var(--border); }
+
+.cov-num {
+  text-align: right; font-size: var(--fs-xs); color: var(--text-3);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+
+/* The module label and the bar both want the room; on a phone the bar wins
+   (it is the actual datum) and the label gets a full row to itself. */
+@media (max-width: 560px) {
+  .cov-row {
+    grid-template-columns: minmax(0, 1fr) 56px;
+    grid-template-areas: "label num" "bar bar";
+    row-gap: var(--sp-2); padding: var(--sp-3);
+  }
+  .cov-label { grid-area: label; }
+  .cov-num   { grid-area: num; }
+  .cov-bar   { grid-area: bar; }
+  .cov-name  { white-space: normal; }
+}
+
+/* ----------------------------------------------------------- connections */
+
+.an-tm-cell { cursor: pointer; }
+.an-tm-box { transition: opacity .12s; }
+.an-tm-cell:hover .an-tm-box { opacity: .78; }
+.an-tm-c1 { fill: var(--c1); } .an-tm-c2 { fill: var(--c2); }
+.an-tm-c3 { fill: var(--c3); } .an-tm-c4 { fill: var(--c4); }
+.an-tm-c5 { fill: var(--c5); } .an-tm-c6 { fill: var(--c6); }
+.an-tm-c7 { fill: var(--c7); } .an-tm-c8 { fill: var(--c8); }
+
+/* The eight categorical tokens are chosen for contrast against the page
+   background, not for carrying white text. Rather than guess per-swatch, the
+   labels sit on a short dark scrim that is identical in both themes — the only
+   place in this file where a literal appears, and it is a translucent black
+   over a colour the theme chose, not a themed colour of its own. */
+.an-tm-num, .an-tm-name, .an-tm-val {
+  font-family: var(--font-sans); fill: #fff;
+  paint-order: stroke fill; stroke: rgba(0, 0, 0, .42); stroke-width: 3px;
+  stroke-linejoin: round;
+}
+.an-tm-num  { font-size: 11px; font-weight: var(--fw-bold); opacity: .95; }
+.an-tm-name { font-size: 12.5px; font-weight: var(--fw-semi); }
+.an-tm-val  { font-size: 11px; font-weight: var(--fw-med); opacity: .92; }
+
+.conn-threads {
+  margin-top: var(--sp-5); padding: var(--sp-4);
+  border-radius: var(--r-md); background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+.conn-threads .an-caption { margin-top: 0; margin-bottom: var(--sp-3); }
+.conn-thread {
+  display: flex; align-items: baseline; gap: var(--sp-2);
+  flex-wrap: wrap; padding: var(--sp-2) 0; min-width: 0;
+  border-top: 1px solid var(--border);
+}
+.conn-thread:first-of-type { border-top: 0; }
+.conn-thread-sub { font-size: var(--fs-xs); color: var(--text-3);
+                   min-width: 0; overflow-wrap: anywhere; }
+
+/* .chip in app.css is `white-space: nowrap`, which is right for a short status
+   chip and wrong for a tag like `indication:cardiac-arrest`. These chips carry
+   generated content of unbounded length, so they wrap and truncate instead of
+   forcing their container wide. */
+.chip-thread {
+  font-family: var(--font-mono); font-size: var(--fs-xs);
+  white-space: normal; overflow-wrap: anywhere; max-width: 100%;
+  text-align: left;
+}
+.chip-thread.is-tag { background: var(--accent-soft); color: var(--accent); }
+.chip-thread.is-module {
+  background: color-mix(in srgb, var(--c4) 18%, transparent); color: var(--c4);
+  font-family: var(--font-sans);
+}
+
+.conn-list {
+  display: flex; flex-direction: column; margin-top: var(--sp-5);
+  border: 1px solid var(--border); border-radius: var(--r-md); overflow: hidden;
+}
+.conn-row {
+  display: grid; grid-template-columns: 28px minmax(0, 1fr) auto;
+  align-items: center; gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4); min-height: 56px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text); background: var(--surface); text-decoration: none;
+}
+.conn-row:last-child { border-bottom: 0; }
+a.conn-row:hover { background: var(--surface-3); text-decoration: none; }
+.conn-row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px;
+                          box-shadow: none; }
+.conn-rank {
+  font-family: var(--font-mono); font-size: var(--fs-xs);
+  color: var(--text-3); font-weight: var(--fw-bold); text-align: center;
+}
+/* `grid-template-columns: minmax(0, 1fr)` rather than the implicit `auto`.
+   An implicit grid track is sized to its widest item's max-content, and
+   `.chip` sets `white-space: nowrap` — so a single long tag like
+   `indication:cardiac-arrest-with-shockable-rhythm` blew this track out to
+   509px inside a 262px parent. `min-width: 0` on the grid *item* does not help;
+   the track itself has to be allowed to shrink. */
+.conn-main { min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr);
+             gap: var(--sp-2); }
+.conn-main > * { min-width: 0; }
+.conn-name { font-size: var(--fs-sm); font-weight: var(--fw-semi);
+             line-height: var(--lh-snug); overflow-wrap: anywhere; }
+.conn-meter { height: 6px; }
+.conn-meter > i.is-bad  { background: var(--bad); }
+.conn-meter > i.is-warn { background: var(--warn); }
+.conn-tags { gap: var(--sp-1); min-width: 0; }
+.conn-nums {
+  display: grid; justify-items: end; gap: 2px; text-align: right; white-space: nowrap;
+}
+.conn-nums strong { font-size: var(--fs-sm); font-variant-numeric: tabular-nums; }
+.conn-nums span { font-size: var(--fs-xs); color: var(--text-3); }
+
+@media (max-width: 560px) {
+  .conn-row {
+    grid-template-columns: 24px minmax(0, 1fr);
+    grid-template-areas: "rank main" "nums nums";
+    row-gap: var(--sp-2);
+  }
+  .conn-rank { grid-area: rank; align-self: start; padding-top: 2px; }
+  .conn-main { grid-area: main; }
+  .conn-nums { grid-area: nums; justify-items: start; text-align: left;
+               display: flex; align-items: baseline; gap: var(--sp-2); }
+}
+
+/* ------------------------------------------------------- hardest cards */
+
+.hard-list {
+  display: flex; flex-direction: column; margin-top: var(--sp-4);
+  border: 1px solid var(--border); border-radius: var(--r-md); overflow: hidden;
+}
+.hard-row {
+  display: grid; grid-template-columns: 28px minmax(0, 1fr) auto;
+  gap: var(--sp-3); align-items: center;
+  padding: var(--sp-3) var(--sp-4); min-height: 56px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text); background: var(--surface); text-decoration: none;
+}
+.hard-row:last-child { border-bottom: 0; }
+a.hard-row:hover { background: var(--surface-3); text-decoration: none; }
+.hard-row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px;
+                          box-shadow: none; }
+.hard-rank {
+  font-family: var(--font-mono); font-size: var(--fs-xs);
+  color: var(--text-3); font-weight: var(--fw-bold); text-align: center;
+}
+.hard-main { min-width: 0; }
+.hard-stem {
+  font-size: var(--fs-sm); font-weight: var(--fw-med); line-height: var(--lh-snug);
+  /* Stems run to 222 chars in this deck; two lines is enough to identify the
+     card without the row becoming a paragraph. */
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.hard-src { font-size: var(--fs-xs); color: var(--text-3); margin-top: 2px; }
+.hard-nums { display: flex; gap: var(--sp-1); flex-wrap: wrap; justify-content: flex-end; }
+.chip-lapse { background: var(--bad-soft); color: var(--bad); }
+
+@media (max-width: 640px) {
+  .hard-row {
+    grid-template-columns: 24px minmax(0, 1fr);
+    grid-template-areas: "rank main" "nums nums";
+    row-gap: var(--sp-2);
+  }
+  .hard-rank { grid-area: rank; align-self: start; padding-top: 2px; }
+  .hard-main { grid-area: main; }
+  .hard-nums { grid-area: nums; justify-content: flex-start; }
+}
+
+/* -------------------------------------------------------------- tooltip */
+
+/* One per panel, positioned by JS with a transform and clamped inside the
+   panel box. `position: absolute` against `.an-panel` plus the panel's own
+   `overflow: hidden` means a tooltip can never widen the page — which on a
+   phone would be a horizontal scrollbar triggered by hovering a chart. */
+.an-tip {
+  position: absolute; top: 0; left: 0; z-index: 10;
+  max-width: min(260px, 82%);
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--r-sm);
+  background: var(--text); color: var(--text-inv);
+  font-size: var(--fs-xs); font-weight: var(--fw-med); line-height: var(--lh-snug);
+  pointer-events: none; opacity: 0; visibility: hidden;
+  transition: opacity .1s;
+  box-shadow: var(--shadow-2);
+}
+.an-tip.is-on { opacity: 1; visibility: visible; }
+
+/* --------------------------------------------------------------- motion */
+
+@media (prefers-reduced-motion: reduce) {
+  .hm-cell, .an-bar, .an-tm-box, .an-tip { transition: none; }
+}
+
+/* ------------------------------------------------------- print / narrow */
+
+@media (max-width: 420px) {
+  .an-panel { padding: var(--sp-4); }
+  .an-title { font-size: var(--fs-base); }
+  .an-axis-label { font-size: 10px; }
+}

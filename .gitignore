@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Local build scratch (the generated JSON in docs/data IS committed —
+# the site must work from a clean clone with no build step)
+*.log
