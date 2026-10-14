@@ -52,8 +52,16 @@ Once loaded over `http(s)`, a service worker precaches the app and the question
 bank (~3.6 MB), so it works with no signal. Figures (~10 MB) are cached as you
 open them rather than up front, so the first load stays light on a tether.
 
-On iOS use **Share → Add to Home Screen**; on Android, **Install app**. It then
-launches standalone and runs fully offline.
+**iPhone / iPad:** open the site in **Safari** (Chrome on iOS cannot install
+web apps), tap **Share → Add to Home Screen**. It gets the app icon, launches
+standalone with no browser chrome, and runs fully offline.
+
+**Android:** Chrome will offer **Install app**, or use the ⋮ menu.
+
+A note on your data on iOS: Safari clears script-written storage for sites you
+have not visited in a while, but apps added to the Home Screen are exempt from
+that. Progress still lives only in that one browser profile, so export a copy
+before changing devices or clearing site data.
 
 To carry it without a network at all, copy the `docs/` folder onto the device and
 serve it locally, or just install it once while online.
@@ -120,6 +128,7 @@ edition comes out.
 pip install pymupdf --break-system-packages
 python3 tools/build_content.py  --version 2026.09.15   # -> docs/data/content.json
 python3 tools/build_questions.py                       # -> questions.json, modules.json
+python3 tools/build_icons.py                           # only if the icon changes
 ```
 
 `build_content.py` reads the parsed `subsections.jsonl` produced by
@@ -152,6 +161,9 @@ exists for any future items generated with weaker guarantees.
 docs/                    the published site (GitHub Pages serves this)
   index.html
   sw.js                  offline caching
+  manifest.webmanifest   install metadata
+  apple-touch-icon*.png  iOS home-screen icons (opaque; iOS masks them)
+  icon-*.png             manifest icons, incl. an Android maskable variant
   css/   tokens.css      design tokens — all colour lives here
          app.css         shell + shared components
          quiz.css  analytics.css

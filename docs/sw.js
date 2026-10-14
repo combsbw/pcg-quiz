@@ -10,7 +10,7 @@
  * Bump CACHE_VERSION whenever the app or the guideline edition changes; the
  * activate handler drops every cache that does not match.
  */
-const CACHE_VERSION = 'v1-2026.09.15';
+const CACHE_VERSION = 'v2-2026.09.15';
 const SHELL = `lfn-shell-${CACHE_VERSION}`;
 const MEDIA = `lfn-media-${CACHE_VERSION}`;
 
@@ -18,6 +18,14 @@ const SHELL_ASSETS = [
   './',
   'index.html',
   'manifest.webmanifest',
+  // Icons are precached so an installed home-screen copy keeps its icon and
+  // can be reinstalled offline.
+  'apple-touch-icon.png',
+  'apple-touch-icon-152.png',
+  'apple-touch-icon-167.png',
+  'icon-192.png',
+  'icon-512.png',
+  'icon-maskable-512.png',
   'css/tokens.css',
   'css/app.css',
   'css/quiz.css',

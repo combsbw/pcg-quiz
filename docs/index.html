@@ -5,9 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>LFN Learn — Patient Care Guidelines</title>
 <meta name="description" content="Spaced-repetition learning over the Life Flight Network Patient Care Guidelines. Works offline.">
-<meta name="theme-color" content="#1e63d0">
+<!-- Browser UI colour follows the app background in each theme, so the
+     surrounding chrome does not clash with the page. -->
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6f7f9">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0e1116">
+
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231e63d0'/><path d='M9 21V11h3v7h6v3H9z' fill='white'/></svg>">
+
+<!-- iOS "Add to Home Screen" does NOT read the web manifest: it uses these
+     apple-* tags. The icons are opaque and square-cornered on purpose — iOS
+     has no alpha on home-screen icons (transparency composites to black) and
+     applies its own rounded mask. -->
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="apple-touch-icon-167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="LFN Learn">
+<!-- "default" keeps the web view below the status bar. black-translucent would
+     slide the sticky top bar under the clock unless every inset is handled. -->
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231e63d0'/><rect x='12.2' y='6.4' width='7.5' height='19.2' rx='1.7' fill='white'/><rect x='6.4' y='12.2' width='19.2' height='7.5' rx='1.7' fill='white'/></svg>">
 <link rel="stylesheet" href="css/tokens.css">
 <link rel="stylesheet" href="css/app.css">
 <link rel="stylesheet" href="css/quiz.css">
