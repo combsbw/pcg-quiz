@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-build_content.py — turn parsed LFN guideline data into app/data/content.json
+build_content.py — turn parsed LFN guideline data into docs/data/content.json
 
 Two very different extraction paths, on purpose:
 
