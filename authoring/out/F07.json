@@ -1,0 +1,357 @@
+{
+ "batch": "F07",
+ "questions": [
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult in medical cardiac arrest is still in refractory VF after 20 minutes of guideline-compliant resuscitation. What does the termination of resuscitation algorithm direct at this point?",
+   "options": [
+    "Contact Medical Control",
+    "Continue resuscitation",
+    "Terminate if state scope allows",
+    "Transport to the closest facility"
+   ],
+   "answer_index": 1,
+   "explanation": "The algorithm's first decision requires asystole after 20 minutes of AHA/LFN-compliant resuscitation; a shockable rhythm takes the NO branch to continue resuscitation. (The figure also lists 'agonal rhythm' at this point, but the 9.06 text was updated to asystole only.)",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:cardiac-arrest"
+   ]
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult has been in asystole for 20 minutes of guideline-compliant resuscitation and meets every termination criterion. Medical Control can be reached. What is the next step?",
+   "options": [
+    "Terminate resuscitation",
+    "Transport to the closest facility",
+    "Contact Medical Control",
+    "Continue resuscitation"
+   ],
+   "answer_index": 2,
+   "explanation": "When all criteria are met, the next decision is whether Medical Control can be contacted; if YES the crew contacts Medical Control. Terminating on the crew's own authority under state scope is only reached on the NO branch.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:medical-control"
+   ]
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "scope",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult in asystole after 20 minutes meets every termination criterion. Medical Control cannot be reached, and the crew's state scope of practice allows termination of resuscitation. What does the algorithm permit?",
+   "options": [
+    "The crew may terminate resuscitation",
+    "Transport to the closest facility",
+    "Continue resuscitation until reached",
+    "Rapid transport to an appropriate hospital"
+   ],
+   "answer_index": 0,
+   "explanation": "On the NO branch of 'Are you able to contact Medical Control?', a state scope that allows termination leads to 'You may terminate resuscitation', followed by uploading ETCO2 and two-lead ECG strips to the PCR. If scope does not allow it, the patient is transported to the closest facility.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:scope"
+   ]
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "assessment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult has been in asystole for 20 minutes with an ETCO2-confirmed advanced airway and patent IV access, but neurological responses are still present. What does the termination of resuscitation algorithm direct?",
+   "options": [
+    "Contact Medical Control",
+    "Terminate if state scope allows",
+    "Transport to the closest facility",
+    "Continue resuscitation"
+   ],
+   "answer_index": 3,
+   "explanation": "Every criterion must be met, including that no neurological responses are present. Failing any one criterion takes the NO branch to continue resuscitation.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:cardiac-arrest"
+   ]
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "assessment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A dialysis patient has been in asystole for 20 minutes. Hyperkalemia is suspected but has not yet been treated; all other termination criteria are met. What does the algorithm direct?",
+   "options": [
+    "Continue resuscitation",
+    "Contact Medical Control",
+    "Terminate if state scope allows",
+    "Transport to the closest facility"
+   ],
+   "answer_index": 0,
+   "explanation": "The criterion requires that reversible causes have either been treated appropriately or none identified. An identified but untreated reversible cause fails the criteria, so resuscitation continues.",
+   "priority": "detail",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:reversible-causes"
+   ]
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "sequence",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A 12-year-old in asystole does not meet the termination criteria, so resuscitation continues. After more than 20 further minutes of PALS without change, which decision point does the algorithm lead to next?",
+   "options": [
+    "Does the patient meet all of the criteria?",
+    "Are you able to contact Medical Control?",
+    "Does state scope allow termination?",
+    "Is the rhythm asystole after 20 minutes?"
+   ],
+   "answer_index": 1,
+   "explanation": "From 'Continue Resuscitation' the algorithm asks whether ACLS/PALS has continued for more than 20 minutes without change; YES routes to 'Are you able to contact Medical Control?' rather than back through the adult criteria list. If there has been a change, the NO branch loops back to continued resuscitation.",
+   "priority": "detail",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "population:pediatric",
+    "topic:medical-control"
+   ]
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "sequence",
+   "care_level": null,
+   "population": "adult",
+   "stem": "In what order are the main decision points of the termination of resuscitation algorithm worked through?",
+   "options": [
+    "Criteria list, asystole at 20 min, Medical Control, state scope",
+    "Asystole at 20 min, criteria list, state scope, Medical Control",
+    "Asystole at 20 min, criteria list, Medical Control, state scope",
+    "Medical Control, asystole at 20 min, criteria list, state scope"
+   ],
+   "answer_index": 2,
+   "explanation": "The algorithm first asks about asystole after 20 minutes of resuscitation, then whether ALL criteria are met, then whether Medical Control can be contacted; state scope of practice is only consulted if Medical Control cannot be reached.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation"
+   ]
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "assessment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult has been in asystole for 20 minutes with an ETCO2-confirmed advanced airway, but repeated IV and IO attempts have failed and there is no patent vascular access. What does the algorithm direct?",
+   "options": [
+    "Transport to the closest facility",
+    "Contact Medical Control",
+    "Continue resuscitation",
+    "Terminate if state scope allows"
+   ],
+   "answer_index": 2,
+   "explanation": "Patent vascular access obtained is one of the required criteria; without it the patient does not meet ALL criteria and the NO branch leads to continued resuscitation.",
+   "priority": "detail",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:vascular-access"
+   ]
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "indication",
+   "care_level": null,
+   "population": "both",
+   "stem": "A patient collapses in VF from a presumed cardiac cause and sustains minor scalp abrasions in the fall. Traumatic arrest is not suspected. Which pathway is followed?",
+   "options": [
+    "Address the five reversible causes",
+    "Refer to the ACLS/PALS algorithm",
+    "Consider termination of resuscitation",
+    "Rapid transport to appropriate hospital"
+   ],
+   "answer_index": 1,
+   "explanation": "The traumatic arrest algorithm begins with 'Traumatic arrest suspected?'; a NO answer refers the crew to the ACLS/PALS algorithm, where standard CPR and epinephrine apply.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:cardiac-arrest"
+   ]
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "In a traumatic arrest, the reversible causes have been addressed, there is no ROSC, and the underlying rhythm is not asystole. What is the next step?",
+   "options": [
+    "Consider termination of resuscitation",
+    "Refer to the ACLS/PALS algorithm",
+    "Rapid transport to appropriate hospital",
+    "Begin CPR and give epinephrine"
+   ],
+   "answer_index": 2,
+   "explanation": "After no ROSC the algorithm asks whether the underlying rhythm is asystole. NO leads to rapid transport to an appropriate hospital, the same destination as ROSC; only asystole leads to considering termination.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest"
+   ]
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "In traumatic arrest, how is suspected cardiac tamponade addressed?",
+   "options": [
+    "Rapid transport",
+    "Bilateral finger thoracostomies",
+    "Blood product administration",
+    "Apply a pelvic binder"
+   ],
+   "answer_index": 0,
+   "explanation": "The algorithm addresses tamponade with rapid transport; the field interventions listed alongside it target other causes (decompression for tension pneumothorax, blood for hemorrhage, a binder for the pelvis).",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:cardiac-tamponade"
+   ]
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "A patient in traumatic arrest is in a non-asystolic rhythm with major external hemorrhage. How is the hemorrhage addressed?",
+   "options": [
+    "Pelvic binder and rapid transport",
+    "Bilateral chest decompression",
+    "Begin CPR and give epinephrine",
+    "Control bleeding and give blood products"
+   ],
+   "answer_index": 3,
+   "explanation": "Hemorrhage is the first listed reversible cause: control external bleeding and give blood products. The restriction on blood products applies only when the patient is in asystole.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:hemorrhage",
+    "topic:blood-products"
+   ]
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "sequence",
+   "care_level": null,
+   "population": "both",
+   "stem": "In what order are the decision points of the traumatic arrest algorithm reached?",
+   "options": [
+    "Trauma suspected, reversible causes, ROSC, asystole",
+    "Trauma suspected, ROSC, reversible causes, asystole",
+    "Trauma suspected, asystole, reversible causes, ROSC",
+    "Reversible causes, trauma suspected, asystole, ROSC"
+   ],
+   "answer_index": 0,
+   "explanation": "The crew first decides whether traumatic arrest is suspected, then addresses the reversible causes simultaneously, then checks for ROSC, and only without ROSC asks whether the underlying rhythm is asystole.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest"
+   ]
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "pearl",
+   "care_level": null,
+   "population": "both",
+   "stem": "Why does the traumatic arrest algorithm direct crews not to initiate blood products when the patient is in asystole?",
+   "options": [
+    "Blood worsens cardiac tamponade",
+    "Scarcity of blood resources",
+    "Asystole requires epinephrine first",
+    "Transfusion delays chest decompression"
+   ],
+   "answer_index": 1,
+   "explanation": "The footnote states that, given the scarcity of blood resources, blood products are not initiated if the patient is in asystole; the crew still treats the other reversible causes of traumatic arrest.",
+   "priority": "detail",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:blood-products"
+   ]
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "A CCT crew managing a traumatic arrest suspects tension pneumothorax, with absent breath sounds on the right only. What decompression is performed?",
+   "options": [
+    "Right needle thoracostomy only",
+    "Right finger thoracostomy only",
+    "Bilateral finger thoracostomies",
+    "Bilateral needle thoracostomies"
+   ],
+   "answer_index": 2,
+   "explanation": "In traumatic arrest the algorithm calls for bilateral chest decompression regardless of side, via finger thoracostomies at the CCT level (needle thoracostomies at ALS).",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "procedure:finger-thoracostomy",
+    "topic:tension-pneumothorax"
+   ]
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "A patient in traumatic arrest is in asystole after the reversible causes have been addressed and there is no ROSC. Which algorithm then governs whether resuscitation may stop?",
+   "options": [
+    "The ACLS/PALS algorithm",
+    "Death in the Field criteria only",
+    "Rapid transport protocol",
+    "Termination of resuscitation algorithm"
+   ],
+   "answer_index": 3,
+   "explanation": "Asystole without ROSC leads to 'Consider termination of resuscitation', which is decided using the termination of resuscitation algorithm (asystole after 20 minutes, all criteria, Medical Control, state scope).",
+   "priority": "detail",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:termination-of-resuscitation"
+   ]
+  }
+ ]
+}

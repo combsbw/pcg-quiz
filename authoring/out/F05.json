@@ -1,0 +1,622 @@
+{
+ "batch": "F05",
+ "questions": [
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "calculation",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "A 15 kg child is given rapid crystalloid and SBP remains ≤ 80 mmHg. After what crystalloid volume should blood products be considered?",
+   "options": [
+    "150 mL",
+    "300 mL",
+    "225 mL",
+    "500 mL"
+   ],
+   "answer_index": 1,
+   "explanation": "The pediatric trigger is 20 mL/kg of crystalloid with SBP still ≤ 80 mmHg (20 × 15 kg = 300 mL); 500 mL is the adult trigger and 10 mL/kg is the pediatric blood product volume.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "population:pediatric",
+    "topic:transfusion-trigger"
+   ],
+   "calc": {
+    "formula": "20 * W",
+    "inputs": {
+     "W": 15
+    },
+    "result": 300,
+    "unit": "mL"
+   }
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "After an IV fluid bolus, what shock index (HR/SBP) triggers blood products in a child aged 7 – 12?",
+   "options": [
+    "> 0.9",
+    "> 1.22",
+    "≥ 0.8",
+    "> 1.0"
+   ],
+   "answer_index": 3,
+   "explanation": "Shock index thresholds rise as age falls because normal heart rates are higher: > 0.9 at age ≥ 13, > 1.0 at 7 – 12 and > 1.22 at 4 – 6.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:shock-index",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "calculation",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "A 5-year-old has HR 150 and SBP 120 after an IV fluid bolus. What is the shock index, and does it meet the blood product trigger for that age?",
+   "options": [
+    "1.25 — meets the trigger",
+    "1.25 — below the trigger",
+    "0.8 — below the trigger",
+    "0.8 — meets the trigger"
+   ],
+   "answer_index": 0,
+   "explanation": "Shock index is HR/SBP = 150/120 = 1.25, which exceeds the > 1.22 threshold for age 4 – 6, so blood products should be considered. 0.8 is the inverted SBP/HR mistake.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:shock-index",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "HR / SBP",
+    "inputs": {
+     "HR": 150,
+     "SBP": 120
+    },
+    "result": 1.25
+   }
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "In obvious class III or IV hemorrhagic shock, what is infused in place of crystalloid boluses when it is available?",
+   "options": [
+    "Normal saline",
+    "Lactated Ringer's",
+    "Plasma",
+    "Hypertonic saline 3%"
+   ],
+   "answer_index": 2,
+   "explanation": "Crystalloid dilutes clotting factors in hemorrhage; the guideline directs plasma, when available, in lieu of crystalloid boluses for obvious class III/IV shock.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:hemorrhagic-shock",
+    "drug:plasma"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "sequence",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "An adult in hemorrhagic shock meets criteria for blood products but no LTOWB is carried. What is given?",
+   "options": [
+    "PRBC 1 unit, then plasma 1 unit",
+    "Plasma 1 unit, then PRBC 1 unit",
+    "Plasma and PRBC together on one IV set",
+    "Crystalloid 500 mL, then reassess"
+   ],
+   "answer_index": 1,
+   "explanation": "LTOWB 1 unit is first-line; if it is not available, proceed to component therapy — plasma 1 unit then PRBC 1 unit, each if available. Plasma and RBCs may not run simultaneously through the same set.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "drug:plasma",
+    "drug:prbc",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "A patient develops transfusion-related acute lung injury (TRALI) during a transfusion. Beyond stopping the transfusion, what will likely be required?",
+   "options": [
+    "Epinephrine per the anaphylaxis guideline",
+    "Acetaminophen for fever",
+    "Calcium gluconate 1 – 2 grams IV",
+    "Intubation and positive pressure ventilation"
+   ],
+   "answer_index": 3,
+   "explanation": "TRALI is non-cardiogenic pulmonary edema; oxygen to SpO2 > 93% is the first step but intubation and PPV will likely be required. Anaphylaxis and urticaria are treated via the anaphylaxis guideline.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:transfusion-reaction",
+    "topic:trali"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What is done with the blood units suspected of causing a transfusion reaction?",
+   "options": [
+    "Deliver them to the receiving facility",
+    "Discard them in a biohazard bag",
+    "Return them to the aircraft blood cooler",
+    "Restart them at a slower rate"
+   ],
+   "answer_index": 0,
+   "explanation": "Implicated units are evidence for the reaction work-up: keep them, deliver them to the receiving facility and notify the sending blood bank as required.",
+   "priority": "detail",
+   "tags": [
+    "topic:blood-products",
+    "topic:transfusion-reaction"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 178,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "A child develops fever during a transfusion. What acetaminophen dose is given?",
+   "options": [
+    "15 mg/kg IV, max 1 gram",
+    "10 mg/kg IV, max 750 mg",
+    "15 mg/kg IV, max 750 mg",
+    "50 mg/kg IV, max 1 gram"
+   ],
+   "answer_index": 2,
+   "explanation": "Pediatric transfusion fever gets acetaminophen 15 mg/kg IV over 15 minutes with a 750 mg maximum; 1 gram is the pediatric TXA ceiling and 50 mg/kg is the calcium gluconate dose.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:transfusion-reaction",
+    "population:pediatric",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 178,
+   "type": "special",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "O-negative RBCs are not available. Which patient may receive O-positive RBCs or LTOWB without the extra notification required for at-risk patients?",
+   "options": [
+    "A 30-year-old female, Rh unknown",
+    "A 35-year-old male",
+    "A 16-year-old female, Rh unknown",
+    "A 45-year-old female, Rh unknown"
+   ],
+   "answer_index": 1,
+   "explanation": "O-positive product is acceptable for all males, women s/p hysterectomy or beyond child-bearing age (usually ≥ 50) and females with documented Rh-positive type; females < 50 risk Rh sensitization.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:rh-status",
+    "drug:ltowb"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 178,
+   "type": "procedure",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "In imminent risk of death, O-positive LTOWB is given to a 28-year-old female of unknown Rh type. Who must be notified?",
+   "options": [
+    "Sending physician and sending blood bank",
+    "Receiving facility blood bank only",
+    "CMOC only, at the end of the shift",
+    "Receiving physician, CMOC and LFN Medical Director"
+   ],
+   "answer_index": 3,
+   "explanation": "O-positive product to a female < 50 not known to be Rh positive requires notifying the receiving physician, the Clinical Manager On Call and the LFN Medical Director, plus a QM report for tracking.",
+   "priority": "detail",
+   "tags": [
+    "topic:blood-products",
+    "topic:rh-status",
+    "topic:documentation"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 179,
+   "type": "procedure",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "How may plasma and RBCs be given through the same IV set?",
+   "options": [
+    "Sequentially, but not simultaneously",
+    "Simultaneously, via a Y-connector",
+    "Only with LR between units",
+    "They may never share an IV set"
+   ],
+   "answer_index": 0,
+   "explanation": "Plasma and RBCs may share a set if run one after the other; if multiple lines are available they may be given simultaneously on separate lines.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:administration"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 179,
+   "type": "treatment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "A patient needs a transfusion rate faster than the blood warming device can provide. What is directed?",
+   "options": [
+    "Never exceed the warmer's maximum rate",
+    "Bridge with crystalloid until blood is warmed",
+    "Weigh rapid transfusion against giving cold blood",
+    "Stop and wait for warmed product"
+   ],
+   "answer_index": 2,
+   "explanation": "A warmer is used when possible, but if the required rate exceeds it the crew weighs the benefit of rapid transfusion against the risk of cold blood rather than delaying resuscitation.",
+   "priority": "detail",
+   "tags": [
+    "topic:blood-products",
+    "topic:warming"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 179,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "When is temperature checked to detect a transfusion reaction?",
+   "options": [
+    "Before, and 5 min after starting each unit",
+    "Before, and 15 min after starting each unit",
+    "Only before the first unit is started",
+    "Hourly throughout the transfusion"
+   ],
+   "answer_index": 1,
+   "explanation": "Take a pre-transfusion temperature and recheck 15 minutes after initiation, repeating for every unit; fever (T > 38°C or a 1°C rise) suggests a reaction.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:transfusion-reaction",
+    "topic:monitoring"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 179,
+   "type": "treatment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "A patient arrives with a TXA infusion started before your arrival. What is done with it?",
+   "options": [
+    "Stop it and give a 2 gram bolus",
+    "Stop it, TXA is given only as a bolus",
+    "Stop it until blood products finish",
+    "Continue the infusion"
+   ],
+   "answer_index": 3,
+   "explanation": "A pre-existing TXA infusion is continued (generally run over 8 hours). LFN gives its own TXA as a one-time bolus, which is why the receiving team is told no infusion was started.",
+   "priority": "detail",
+   "tags": [
+    "drug:txa",
+    "topic:blood-products",
+    "topic:interfacility"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 179,
+   "type": "calculation",
+   "care_level": "PEARLS",
+   "population": "pediatric",
+   "stem": "What SBP target applies to a 6-year-old receiving blood products who has a suspected head injury?",
+   "options": [
+    "102 mmHg",
+    "80 mmHg",
+    "110 mmHg",
+    "96 mmHg"
+   ],
+   "answer_index": 0,
+   "explanation": "With head injury the pediatric target is 90 + (age × 2) = 90 + 12 = 102 mmHg; 80 mmHg is the target without head injury and 110 mmHg is the adult head-injury target.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:head-injury",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "90 + A * 2",
+    "inputs": {
+     "A": 6
+    },
+    "result": 102,
+    "unit": "mmHg"
+   }
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 178,
+   "type": "calculation",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What tranexamic acid dose is given to a 24 kg child receiving blood products within 2 hours of injury?",
+   "options": [
+    "240 mg",
+    "1 gram",
+    "360 mg",
+    "1,200 mg"
+   ],
+   "answer_index": 2,
+   "explanation": "Pediatric TXA is 15 mg/kg IV over 10 minutes mixed in 100 mL NS (15 × 24 = 360 mg), well under the 1 gram maximum; 1,200 mg is the calcium gluconate 50 mg/kg error.",
+   "priority": "detail",
+   "tags": [
+    "drug:txa",
+    "topic:blood-products",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "15 * W",
+    "inputs": {
+     "W": 24
+    },
+    "result": 360,
+    "unit": "mg"
+   }
+  },
+  {
+   "number": "8.29",
+   "title": "Push Dose Vasopressors",
+   "page": 242,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A hypotensive patient with suspected cardiac ischemia needs rapid vasopressor support before an infusion. Which push dose agent is preferred?",
+   "options": [
+    "Epinephrine",
+    "Norepinephrine",
+    "Phenylephrine",
+    "Vasopressin"
+   ],
+   "answer_index": 1,
+   "explanation": "Epinephrine is preferred only when the patient is bradycardic with no suspected cardiac ischemia; norepinephrine is preferred for all other patients.",
+   "priority": "core",
+   "tags": [
+    "drug:norepinephrine",
+    "topic:push-dose-pressors",
+    "topic:hypotension"
+   ]
+  },
+  {
+   "number": "8.29",
+   "title": "Push Dose Vasopressors",
+   "page": 242,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which epinephrine concentration is drawn from to prepare push dose epinephrine?",
+   "options": [
+    "1 mg/mL",
+    "10 mcg/mL",
+    "16 mcg/mL",
+    "0.1 mg/mL"
+   ],
+   "answer_index": 3,
+   "explanation": "Push dose epinephrine starts from the 0.1 mg/mL product; 1 mL added to 9 mL of saline yields 10 mcg/mL. Using 1 mg/mL would make a tenfold overdose syringe.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:push-dose-pressors",
+    "topic:mixing"
+   ]
+  },
+  {
+   "number": "8.29",
+   "title": "Push Dose Vasopressors",
+   "page": 242,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "After 1 mL of 0.1 mg/mL epinephrine is added to the prepared saline flush, how much epinephrine does the push dose syringe contain in total?",
+   "options": [
+    "100 mcg",
+    "10 mcg",
+    "1,000 mcg",
+    "160 mcg"
+   ],
+   "answer_index": 0,
+   "explanation": "1 mL × 0.1 mg/mL = 0.1 mg = 100 mcg, spread through 10 mL to give 10 mcg/mL. 10 mcg is the per-mL concentration, not the syringe total.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:push-dose-pressors",
+    "topic:mixing"
+   ],
+   "calc": {
+    "formula": "V * C * 1000",
+    "inputs": {
+     "V": 1,
+     "C": 0.1
+    },
+    "result": 100,
+    "unit": "mcg"
+   }
+  },
+  {
+   "number": "8.29",
+   "title": "Push Dose Vasopressors",
+   "page": 242,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "An ordered push dose of 20 mcg epinephrine is drawn from the 10 mcg/mL syringe. What volume is pushed?",
+   "options": [
+    "0.2 mL",
+    "20 mL",
+    "2 mL",
+    "1 mL"
+   ],
+   "answer_index": 2,
+   "explanation": "Volume = dose ÷ concentration = 20 mcg ÷ 10 mcg/mL = 2 mL. The whole 10 mL syringe holds only 100 mcg.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:push-dose-pressors",
+    "topic:calculation"
+   ],
+   "calc": {
+    "formula": "D / C",
+    "inputs": {
+     "D": 20,
+     "C": 10
+    },
+    "result": 2,
+    "unit": "mL"
+   }
+  },
+  {
+   "number": "8.29",
+   "title": "Push Dose Vasopressors",
+   "page": 242,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Push dose norepinephrine is mixed at 16 mcg/mL and 10 mL is drawn into a syringe. How much norepinephrine is in that syringe?",
+   "options": [
+    "16 mcg",
+    "160 mcg",
+    "100 mcg",
+    "1,600 mcg"
+   ],
+   "answer_index": 1,
+   "explanation": "16 mcg/mL × 10 mL = 160 mcg. The mix is 4 mg (4 mL of 1 mg/mL) in a 250 mL NS bag; 100 mcg is the epinephrine syringe total.",
+   "priority": "detail",
+   "tags": [
+    "drug:norepinephrine",
+    "topic:push-dose-pressors",
+    "topic:mixing"
+   ],
+   "calc": {
+    "formula": "C * V",
+    "inputs": {
+     "C": 16,
+     "V": 10
+    },
+    "result": 160,
+    "unit": "mcg"
+   }
+  },
+  {
+   "number": "8.29",
+   "title": "Push Dose Vasopressors",
+   "page": 242,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What is the first step when preparing and giving push dose epinephrine?",
+   "options": [
+    "Remove 1 mL of saline from the flush",
+    "Connect flush and amp to a 3-way stopcock",
+    "Add 1 mL of epinephrine to the flush",
+    "Verify patency of vascular access"
+   ],
+   "answer_index": 3,
+   "explanation": "Patency is confirmed first so a vasopressor is not extravasated; then 1 mL is removed from the 10 mL flush, the flush and amp are joined at a stopcock, and 1 mL of epinephrine is added.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:push-dose-pressors",
+    "procedure:push-dose"
+   ]
+  },
+  {
+   "number": "8.29",
+   "title": "Push Dose Vasopressors",
+   "page": 242,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "After 10 mL of the push dose norepinephrine mixture is drawn into a syringe, what is done with the 250 mL bag?",
+   "options": [
+    "Spike it with pump tubing and start the infusion ASAP",
+    "Discard it once the syringe is labeled",
+    "Hold it unspiked unless pushes fail",
+    "Dilute it further for pediatric use"
+   ],
+   "answer_index": 0,
+   "explanation": "Push doses are a bridge: the same 16 mcg/mL bag becomes the infusion, so it is labeled, spiked with pump tubing and started as soon as possible.",
+   "priority": "core",
+   "tags": [
+    "drug:norepinephrine",
+    "topic:push-dose-pressors",
+    "procedure:push-dose"
+   ]
+  },
+  {
+   "number": "8.29",
+   "title": "Push Dose Vasopressors",
+   "page": 242,
+   "type": "calculation",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "An adult trauma patient has HR 104 and SBP 128. What is the shock index, and what does it suggest?",
+   "options": [
+    "0.81 — no concern for shock",
+    "1.23 — consistent with occult shock",
+    "0.81 — consistent with occult shock",
+    "1.23 — no concern for shock"
+   ],
+   "answer_index": 2,
+   "explanation": "SI = HR/SBP = 104/128 = 0.81. An SI ≥ 0.8 is highly sensitive for occult shock even with a normal-looking SBP, and can guide fluids and push dose pressors.",
+   "priority": "core",
+   "tags": [
+    "topic:shock-index",
+    "topic:push-dose-pressors"
+   ],
+   "calc": {
+    "formula": "HR / SBP",
+    "inputs": {
+     "HR": 104,
+     "SBP": 128
+    },
+    "result": 0.81
+   }
+  }
+ ]
+}

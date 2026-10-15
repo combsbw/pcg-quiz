@@ -1,0 +1,845 @@
+{
+ "batch": "F06",
+ "questions": [
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "threshold",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the systolic blood pressure target for a pediatric patient in anaphylactic shock?",
+   "options": [
+    "SBP > 80",
+    "SBP > 90 + (age x 2)",
+    "SBP > 90",
+    "SBP > 100"
+   ],
+   "answer_index": 1,
+   "explanation": "Pediatric anaphylactic shock is targeted to an age-adjusted SBP > 90 + (age x 2); the flat SBP > 90 target is the adult value.",
+   "priority": "core",
+   "tags": [
+    "topic:anaphylaxis",
+    "topic:blood-pressure",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "After analgesia and beta blockade, an aortic dissection patient still has an elevated heart rate. Which second-line agent does the chart direct?",
+   "options": [
+    "Nicardipine",
+    "Labetalol",
+    "Diltiazem",
+    "Hydralazine"
+   ],
+   "answer_index": 2,
+   "explanation": "For aortic emergencies the second-line agent for a persistently elevated HR is diltiazem; nicardipine or NTG are reserved for persistently elevated BP.",
+   "priority": "core",
+   "tags": [
+    "topic:aortic-emergency",
+    "drug:diltiazem"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "After analgesia and beta blockade, an aortic dissection patient remains hypertensive with a controlled heart rate. Which second-line agent does the chart direct?",
+   "options": [
+    "Nicardipine or NTG",
+    "Diltiazem",
+    "Labetalol or hydralazine",
+    "Norepinephrine"
+   ],
+   "answer_index": 0,
+   "explanation": "Second line for elevated BP in an aortic emergency is nicardipine or NTG, added only after aggressive analgesia and beta blockade; diltiazem is for an elevated HR.",
+   "priority": "detail",
+   "tags": [
+    "topic:aortic-emergency",
+    "drug:nicardipine",
+    "drug:nitroglycerin"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An aortic emergency patient stays hypotensive after all vasoactive, analgesic and sedative drips are turned off. Norepinephrine is started to what systolic goal?",
+   "options": [
+    "SBP > 80",
+    "SBP > 90",
+    "SBP > 100",
+    "SBP > 60"
+   ],
+   "answer_index": 3,
+   "explanation": "If hypotension persists, norepinephrine is titrated to a palpable radial pulse, SBP > 60 or improved mentation — a deliberately permissive goal to limit shear stress on the aorta.",
+   "priority": "detail",
+   "tags": [
+    "topic:aortic-emergency",
+    "drug:norepinephrine",
+    "topic:hypotension"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Above what systolic pressure is antihypertensive treatment started for an atraumatic intracerebral hemorrhage?",
+   "options": [
+    "SBP > 140",
+    "SBP > 150",
+    "SBP > 180",
+    "SBP > 220"
+   ],
+   "answer_index": 1,
+   "explanation": "Atraumatic ICH is targeted to SBP 140 - 150, so treatment begins once SBP exceeds 150; 180 and 220 are ischemic stroke limits.",
+   "priority": "core",
+   "tags": [
+    "topic:intracerebral-hemorrhage",
+    "topic:blood-pressure"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the second-line antihypertensive for an atraumatic intracerebral hemorrhage above target?",
+   "options": [
+    "Labetalol or hydralazine",
+    "Nicardipine or labetalol",
+    "Nicardipine or NTG",
+    "Diltiazem"
+   ],
+   "answer_index": 1,
+   "explanation": "After elevating the head of bed and treating pain, ICH above SBP 150 is treated with nicardipine or labetalol — titratable agents that avoid overshoot.",
+   "priority": "core",
+   "tags": [
+    "topic:intracerebral-hemorrhage",
+    "drug:nicardipine",
+    "drug:labetalol"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "While a norepinephrine infusion is being set up for cardiogenic shock, what may be used to support blood pressure?",
+   "options": [
+    "IM epinephrine",
+    "Push dose epinephrine",
+    "Fluid bolus only",
+    "Diltiazem"
+   ],
+   "answer_index": 1,
+   "explanation": "Cardiogenic shock (SBP > 90 target) is treated with fluids then norepinephrine; push dose epinephrine may bridge until the infusion is running.",
+   "priority": "core",
+   "tags": [
+    "topic:cardiogenic-shock",
+    "drug:epinephrine",
+    "drug:norepinephrine"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "calculation",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the minimum systolic blood pressure target for a 6-year-old in hemorrhagic shock with head trauma?",
+   "options": [
+    "SBP > 102",
+    "SBP > 80",
+    "SBP > 100",
+    "SBP > 96"
+   ],
+   "answer_index": 0,
+   "explanation": "Children under 10 in hemorrhagic shock with head trauma are targeted to 90 + (age x 2) = 102, higher than the SBP > 80 used without head trauma to protect cerebral perfusion.",
+   "priority": "core",
+   "tags": [
+    "topic:hemorrhagic-shock",
+    "topic:head-trauma",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "90 + A * 2",
+    "inputs": {
+     "A": 6
+    },
+    "result": 102,
+    "unit": "mmHg"
+   }
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "threshold",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the systolic target for a child in hemorrhagic shock without head trauma?",
+   "options": [
+    "SBP > 90",
+    "SBP > 100",
+    "SBP > 80",
+    "SBP > 90 + (age x 2)"
+   ],
+   "answer_index": 2,
+   "explanation": "Without head trauma, pediatric hemorrhagic shock is targeted to SBP > 80 (permissive); the age-adjusted 90 + (age x 2) applies only when there is head trauma.",
+   "priority": "core",
+   "tags": [
+    "topic:hemorrhagic-shock",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "sequence",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Fluids, blood and procedural treatments have not restored the target in hemorrhagic shock. What is the first second-line agent?",
+   "options": [
+    "Norepinephrine infusion",
+    "Epinephrine infusion",
+    "IM epinephrine",
+    "Push dose epinephrine"
+   ],
+   "answer_index": 3,
+   "explanation": "Hemorrhagic shock second line is push dose epinephrine first, then a norepinephrine or epinephrine infusion — and only after fluid/blood resuscitation is under way.",
+   "priority": "core",
+   "tags": [
+    "topic:hemorrhagic-shock",
+    "drug:epinephrine"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the systolic target for an adult with non-traumatic hypovolemia?",
+   "options": [
+    "SBP > 90",
+    "SBP 80 – 90",
+    "SBP > 100",
+    "SBP 140 – 150"
+   ],
+   "answer_index": 1,
+   "explanation": "Non-trauma hypovolemia in adults is targeted to SBP 80 – 90 with fluids; epinephrine or norepinephrine are added only if BP is refractory.",
+   "priority": "core",
+   "tags": [
+    "topic:hypovolemia",
+    "topic:blood-pressure"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Below what mean arterial pressure should an ischemic stroke patient not be allowed to fall?",
+   "options": [
+    "MAP 65",
+    "MAP 60",
+    "MAP 80",
+    "MAP 105"
+   ],
+   "answer_index": 2,
+   "explanation": "Both thrombolytic and non-thrombolytic ischemic stroke rows require maintaining SBP > 100/70 (MAP > 80) to preserve penumbral perfusion while treating the upper limit.",
+   "priority": "core",
+   "tags": [
+    "topic:ischemic-stroke",
+    "topic:blood-pressure"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Which vasopressor is second line for a hypotensive patient with a spinal injury after fluids?",
+   "options": [
+    "Epinephrine",
+    "Norepinephrine",
+    "Push dose epinephrine",
+    "Labetalol infusion"
+   ],
+   "answer_index": 1,
+   "explanation": "Spinal injuries & shock target SBP > 90; fluids are first line and norepinephrine is the second-line vasopressor.",
+   "priority": "core",
+   "tags": [
+    "topic:spinal-injury",
+    "topic:neurogenic-shock",
+    "drug:norepinephrine"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "First-line labetalol or hydralazine has not controlled blood pressure in pre-eclampsia. What is second line?",
+   "options": [
+    "Nicardipine or labetalol",
+    "Nicardipine or NTG",
+    "Labetalol/hydralazine infusion",
+    "Norepinephrine infusion"
+   ],
+   "answer_index": 2,
+   "explanation": "Second line for pre-eclampsia, eclampsia and PIH is a labetalol/hydralazine infusion, treating until both SBP 140 – 150 and DBP 90 - 100 are met.",
+   "priority": "core",
+   "tags": [
+    "topic:pre-eclampsia",
+    "drug:labetalol",
+    "drug:hydralazine"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the blood pressure target after return of spontaneous circulation?",
+   "options": [
+    "SBP > 90 mmHg or MAP > 65",
+    "SBP > 100/70 or MAP > 80",
+    "SBP 80 – 90",
+    "MAP > 65 or SBP > 100"
+   ],
+   "answer_index": 0,
+   "explanation": "Post-ROSC care targets SBP > 90 mmHg or MAP > 65, with fluids first, then epinephrine and norepinephrine.",
+   "priority": "core",
+   "tags": [
+    "topic:post-rosc",
+    "topic:blood-pressure"
+   ]
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Fluids have not met the blood pressure target after ROSC. Which vasopressor is listed first?",
+   "options": [
+    "Norepinephrine",
+    "Push dose epinephrine",
+    "Dopamine",
+    "Epinephrine"
+   ],
+   "answer_index": 3,
+   "explanation": "After ROSC the chart lists epinephrine then norepinephrine — the reverse of adult sepsis, where norepinephrine is first.",
+   "priority": "detail",
+   "tags": [
+    "topic:post-rosc",
+    "drug:epinephrine"
+   ]
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the normal cardiac index?",
+   "options": [
+    "4 - 8 L/min",
+    "2.5 - 4 L/min",
+    "9 - 16 L/min",
+    "5 - 12 L/min"
+   ],
+   "answer_index": 1,
+   "explanation": "Cardiac index is cardiac output adjusted for body size, so its normal 2.5 - 4 is lower than the 4 - 8 L/min cardiac output range (the table prints L/min; it is normally indexed per m2).",
+   "priority": "core",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:cardiac-index"
+   ]
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the normal mean pulmonary artery pressure?",
+   "options": [
+    "9 - 16 mmHg",
+    "5 - 12 mmHg",
+    "0 - 8 mmHg",
+    "2 - 6 mmHg"
+   ],
+   "answer_index": 0,
+   "explanation": "Mean PA pressure, the average pressure in the arteries leading from the heart to the lungs, is normally 9 - 16 mmHg; 5 - 12 is PCWP.",
+   "priority": "core",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:pap"
+   ]
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the normal right atrial pressure?",
+   "options": [
+    "0 - 8 mmHg",
+    "5 - 12 mmHg",
+    "2 - 6 mmHg",
+    "9 - 16 mmHg"
+   ],
+   "answer_index": 2,
+   "explanation": "Right atrial pressure is normally 2 - 6 mmHg; the table lists central venous pressure separately as 0 - 8 mmHg.",
+   "priority": "detail",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:rap"
+   ]
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "mechanism",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What does pulmonary vascular resistance reflect?",
+   "options": [
+    "Left ventricular afterload",
+    "Right ventricular preload",
+    "Left ventricular preload",
+    "Right ventricular afterload"
+   ],
+   "answer_index": 3,
+   "explanation": "PVR (normal 155 - 255 dyn/sec/cm-5) is the resistance to RV ejection offered by pulmonary pressure, i.e. RV afterload; SVR is its LV counterpart.",
+   "priority": "core",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:pvr"
+   ]
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "mechanism",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What does central venous pressure reflect?",
+   "options": [
+    "RV filling pressure and mean systemic venous pressure",
+    "LV filling pressure across the pulmonary capillaries",
+    "Resistance to RV ejection by pulmonary pressure",
+    "Resistance to LV ejection by aortic pressure"
+   ],
+   "answer_index": 0,
+   "explanation": "CVP (0 - 8 mmHg) reflects right-sided filling — RV filling pressure and mean systemic venous pressure — not left-sided filling, which PCWP estimates.",
+   "priority": "detail",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:cvp"
+   ]
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "mechanism",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "Pulmonary capillary wedge pressure is used to estimate which pressure?",
+   "options": [
+    "Right ventricular filling pressure",
+    "Left ventricular filling pressure",
+    "Right ventricular afterload",
+    "Left ventricular afterload"
+   ],
+   "answer_index": 1,
+   "explanation": "PCWP reflects LV filling pressure, valid only if no obstruction exists between the catheter balloon tip and the LV.",
+   "priority": "core",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:pcwp"
+   ]
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "special",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "When is pulmonary capillary wedge pressure a valid reflection of left ventricular filling pressure?",
+   "options": [
+    "When the patient is off positive pressure ventilation",
+    "When cardiac output is within 4 - 8 L/min",
+    "When there is no obstruction between the catheter balloon tip and the LV",
+    "When right atrial pressure is within 2 - 6 mmHg"
+   ],
+   "answer_index": 2,
+   "explanation": "The table qualifies PCWP: it reflects LV filling pressure only if nothing obstructs the path from balloon tip to LV.",
+   "priority": "detail",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:pcwp"
+   ]
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "mechanism",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "How does the table define stroke volume?",
+   "options": [
+    "Blood ejected into the systemic circulation per minute",
+    "Cardiac output adjusted for body size",
+    "Average arterial pressure during one cardiac cycle",
+    "Blood ejected from the left ventricle with each heartbeat"
+   ],
+   "answer_index": 3,
+   "explanation": "Stroke volume is the per-beat LV ejection; multiplied by heart rate it gives cardiac output (blood ejected per minute), and indexed to body size gives cardiac index.",
+   "priority": "detail",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:stroke-volume"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 293,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "During the EMS VAN vision test, what finding is considered positive?",
+   "options": [
+    "Failure to count fingers correctly or double vision",
+    "Inability to follow an object with both eyes",
+    "Forced gaze to one side",
+    "Inability to identify which arm is touched"
+   ],
+   "answer_index": 0,
+   "explanation": "VAN vision is tested by counting fingers in all 4 quadrants and tracking a finger for diplopia; failure to count fingers or double vision is positive. Forced gaze and arm identification belong to neglect.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:van",
+    "topic:lvo"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 293,
+   "type": "procedure",
+   "care_level": null,
+   "population": null,
+   "stem": "How is vision tested in the EMS VAN exam?",
+   "options": [
+    "Ask the patient to follow an object to the left and right",
+    "Count fingers held up in all 4 quadrants while the patient looks at your nose",
+    "Cover each eye and read a near card",
+    "Touch each arm and ask the patient to identify it"
+   ],
+   "answer_index": 1,
+   "explanation": "With the patient looking at your nose, hold up varying numbers of fingers in each quadrant (RU, RL, LU, LL), then have them track a finger and report double vision.",
+   "priority": "detail",
+   "tags": [
+    "topic:stroke",
+    "topic:van"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 294,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "Which two commands does the EMS VAN aphasia test ask the patient to follow?",
+   "options": [
+    "\"Open your eyes\" and \"make a fist\"",
+    "\"Lift both arms\" and \"clap\"",
+    "\"Close your eyes\" and \"make a fist\"",
+    "\"Follow my finger\" and \"squeeze my hand\""
+   ],
+   "answer_index": 2,
+   "explanation": "VAN aphasia has the patient name two objects, repeat a statement, and follow \"close your eyes\" and \"make a fist\"; failing any is positive. \"Open your eyes\" is a C-STAT LOC command.",
+   "priority": "detail",
+   "tags": [
+    "topic:stroke",
+    "topic:van",
+    "topic:aphasia"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 294,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "A patient has gaze deviation (cannot look in one direction with both eyes), holds both arms up for 10 seconds, and answers both LOC questions correctly. What is the C-STAT score and result?",
+   "options": [
+    "1 — negative",
+    "2 — positive",
+    "3 — positive",
+    "0 — negative"
+   ],
+   "answer_index": 1,
+   "explanation": "Abnormal gaze alone scores 2 on C-STAT, and a score ≥ 2 is positive with an LVO likely — gaze carries double weight.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:c-stat",
+    "topic:lvo"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 294,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "A patient with normal gaze cannot hold an arm up for 10 seconds and misses one LOC question but follows both commands. What is the C-STAT score and result?",
+   "options": [
+    "2 — positive",
+    "0 — negative",
+    "1 — negative",
+    "3 — positive"
+   ],
+   "answer_index": 2,
+   "explanation": "Arm weakness scores 1. LOC is normal if the patient answers both questions OR follows both commands, so LOC scores 0; total 1 is below the ≥ 2 positive threshold.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:c-stat",
+    "topic:lvo"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 295,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "A patient has facial droop, an arm that drifts, and a weak grip. What is the LAMS score and result?",
+   "options": [
+    "3 — negative for LVO",
+    "4 — positive for LVO",
+    "2 — negative for LVO",
+    "5 — positive for LVO"
+   ],
+   "answer_index": 0,
+   "explanation": "LAMS: droop present 1 + drift 1 + weak grip 1 = 3, below the ≥ 4 LVO threshold. Falls rapidly and no grip each score 2.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:lams",
+    "topic:lvo"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 295,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "A patient has no facial droop, an arm that falls rapidly, and no grip. What is the LAMS score and result?",
+   "options": [
+    "3 — negative for LVO",
+    "2 — negative for LVO",
+    "5 — positive for LVO",
+    "4 — positive for LVO"
+   ],
+   "answer_index": 3,
+   "explanation": "LAMS: droop absent 0 + arm falls rapidly 2 + no grip 2 = 4, meeting the ≥ 4 threshold for LVO even without facial droop.",
+   "priority": "detail",
+   "tags": [
+    "topic:stroke",
+    "topic:lams",
+    "topic:lvo"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 295,
+   "type": "procedure",
+   "care_level": null,
+   "population": null,
+   "stem": "A patient has left hemiparesis. While showing the patient the paretic arm, what does the RACE agnosia assessment ask?",
+   "options": [
+    "\"Which arm am I touching?\"",
+    "\"Can you make a fist?\"",
+    "\"Whose arm is this?\"",
+    "\"Can you hold your arms up?\""
+   ],
+   "answer_index": 2,
+   "explanation": "Agnosia is scored for left hemiparesis: ask \"Whose arm is this?\" while showing the paretic arm, then \"Can you lift both arms and clap?\" to test recognition of the deficit.",
+   "priority": "detail",
+   "tags": [
+    "topic:stroke",
+    "topic:race",
+    "topic:agnosia"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 295,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "A patient with left hemiparesis has mild facial palsy, severe arm motor weakness, moderate leg weakness, head/gaze deviation present, and recognizes the arm but not the impairment. What is the RACE score?",
+   "options": [
+    "5",
+    "6",
+    "7",
+    "4"
+   ],
+   "answer_index": 1,
+   "explanation": "RACE: facial palsy mild 1 + arm severe 2 + leg moderate 1 + gaze deviation present 1 (it has no 2-point level) + agnosia unable to recognize arm or impairment 1 = 6, above the ≥ 5 LVO threshold.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:race",
+    "topic:lvo"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 295,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "A patient with right hemiparesis has moderate facial palsy, moderate arm weakness, normal leg strength, no gaze deviation, and performs one of two commands. Does the RACE score suggest a large vessel occlusion?",
+   "options": [
+    "Yes — score 5",
+    "No — score 3",
+    "Yes — score 6",
+    "No — score 4"
+   ],
+   "answer_index": 3,
+   "explanation": "RACE: moderate facial palsy 2 + arm moderate 1 + leg 0 + gaze absent 0 + aphasia performs 1 task 1 = 4, below the ≥ 5 LVO threshold.",
+   "priority": "detail",
+   "tags": [
+    "topic:stroke",
+    "topic:race",
+    "topic:lvo"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 296,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "For LAPSS screening, how is a screening item answered \"unknown\" treated?",
+   "options": [
+    "It counts as meeting that criterion",
+    "It makes the screen negative",
+    "It requires a repeat screen",
+    "It is scored as abnormal"
+   ],
+   "answer_index": 0,
+   "explanation": "LAPSS criteria are met when items 4 through 9 are all YES (or unknown), so an unknown seizure history or age does not exclude the patient.",
+   "priority": "detail",
+   "tags": [
+    "topic:stroke",
+    "topic:lapss"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 296,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "Which patient finding means LAPSS screening criteria are not met?",
+   "options": [
+    "Unknown history of seizures",
+    "A known seizure disorder",
+    "Symptom duration under 24 hours",
+    "Age over 45"
+   ],
+   "answer_index": 1,
+   "explanation": "LAPSS requires a history of seizures or epilepsy to be absent (unknown is acceptable); age > 45 and symptoms < 24 hours are criteria that support the screen.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:lapss"
+   ]
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 296,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "LAPSS screening criteria are met. What is the next action?",
+   "options": [
+    "Return to the appropriate treatment protocol",
+    "Complete the EMS VAN exam before transport",
+    "Alert the receiving hospital of a possible stroke",
+    "Repeat the full screen after 15 minutes"
+   ],
+   "answer_index": 2,
+   "explanation": "A positive LAPSS prompts a pre-arrival stroke alert to the receiving hospital; if not met, return to the appropriate protocol — remembering a stroke is still possible.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:lapss",
+    "topic:stroke-alert"
+   ]
+  }
+ ]
+}
