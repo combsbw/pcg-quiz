@@ -1,0 +1,3123 @@
+{
+  "batch": "G04",
+  "questions": [
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 87,
+      "type": "treatment",
+      "care_level": "BLS",
+      "population": "both",
+      "stem": "A hypothermic patient has no signs of life. What does 4.06 direct the crew to do?",
+      "options": [
+        "Begin CPR, including airway management, immediately",
+        "Rewarm the patient to 30°C before starting CPR",
+        "Withhold CPR until a core temperature is obtained",
+        "Begin passive rewarming and reassess in 10 minutes"
+      ],
+      "answer_index": 0,
+      "explanation": "Hypothermic patients can have pulses and respirations that are undetectable at the bedside yet still survive neurologically intact, so 4.06 treats absent signs of life as arrest and starts CPR with airway management immediately rather than waiting on a temperature.",
+      "priority": "core",
+      "tags": [
+        "topic:hypothermia",
+        "procedure:cpr"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 87,
+      "type": "treatment",
+      "care_level": "BLS",
+      "population": "both",
+      "stem": "In 4.06, what rewarming does BLS provide for MILD hypothermia?",
+      "options": [
+        "Passive rewarming: warm environment, dry clothing, blankets",
+        "Active rewarming: wrapped hot packs to axilla, neck and groin",
+        "Immersion of the affected area in 37 – 39°C circulating water",
+        "Warmed NS/LR boluses of 250 mL until shivering stops"
+      ],
+      "answer_index": 0,
+      "explanation": "Mild hypothermia is managed with passive rewarming — move to a warm environment, remove wet clothing and apply blankets, especially around the head. Active rewarming with hot packs is reserved for moderate to severe hypothermia.",
+      "priority": "core",
+      "tags": [
+        "topic:hypothermia",
+        "topic:rewarming"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 87,
+      "type": "treatment",
+      "care_level": "BLS",
+      "population": "both",
+      "stem": "For MODERATE to SEVERE hypothermia, where does 4.06 direct that wrapped hot packs be applied?",
+      "options": [
+        "Axilla, neck, and groin",
+        "Chest, abdomen, and back",
+        "Palms, soles, and scalp",
+        "Over the large joints of all four limbs"
+      ],
+      "answer_index": 0,
+      "explanation": "Active rewarming targets the axilla, neck and groin, where large vessels run close to the surface and warmth is carried into the core. The packs are wrapped so they do not burn vasoconstricted skin.",
+      "priority": "core",
+      "tags": [
+        "topic:hypothermia",
+        "topic:rewarming"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 87,
+      "type": "treatment",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "During active rewarming of a hypothermic patient in cardiac arrest, what does 4.06 allow for epinephrine and defibrillation?",
+      "options": [
+        "Up to three doses of epinephrine and three defibrillations q 6 – 10 min",
+        "Up to three doses of epinephrine and three defibrillations q 3 – 5 min",
+        "Epinephrine q 3 – 5 min with defibrillation every 2 min as usual",
+        "No epinephrine or defibrillation until the core temperature is > 30°C"
+      ],
+      "answer_index": 0,
+      "explanation": "The cold myocardium responds poorly and drugs accumulate, so 4.06 stretches the interval: up to three doses of epinephrine and three defibrillation attempts at q 6-10 min during active rewarming, with further dosing guided by clinical response.",
+      "priority": "core",
+      "tags": [
+        "topic:hypothermia",
+        "drug:epinephrine",
+        "procedure:defibrillation"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 87,
+      "type": "treatment",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "What does 4.06 say about anti-dysrhythmic medications such as amiodarone in the hypothermic arrest?",
+      "options": [
+        "They have not been shown to improve outcomes",
+        "They should be given at double the usual dose",
+        "They are first line once the core temperature is > 30°C",
+        "They should be given only after three defibrillations"
+      ],
+      "answer_index": 0,
+      "explanation": "4.06 states anti-dysrhythmics such as amiodarone have not been shown to improve outcomes in hypothermia; rewarming, not drug therapy, is what restores a perfusing rhythm.",
+      "priority": "detail",
+      "tags": [
+        "topic:hypothermia",
+        "drug:amiodarone"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 87,
+      "type": "mechanism",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "4.06 directs that rocuronium be used if the severely hypothermic patient requires intubation. What is the stated reason?",
+      "options": [
+        "Severe hypothermia often leads to hyperkalemia",
+        "Succinylcholine is inactivated below 30°C",
+        "Rocuronium has a shorter duration when the patient is cold",
+        "Succinylcholine causes fatal bradycardia in the cold heart"
+      ],
+      "answer_index": 0,
+      "explanation": "Severe hypothermia often produces hyperkalemia, and a depolarizing agent would raise potassium further in an already irritable cold myocardium — so 4.06 specifies rocuronium.",
+      "priority": "detail",
+      "tags": [
+        "topic:hypothermia",
+        "drug:rocuronium",
+        "procedure:intubation"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 87,
+      "type": "treatment",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "A hypothermic patient is bradycardic. What does 4.06 direct as the initial treatment?",
+      "options": [
+        "Active rewarming and fluids",
+        "Atropine 1 mg IV",
+        "Transcutaneous pacing",
+        "Push dose epinephrine 5 – 20 mcg"
+      ],
+      "answer_index": 0,
+      "explanation": "Bradycardia in hypothermia is a physiologic response to cold rather than a conduction problem, so 4.06 directs it be treated initially with active rewarming and fluids rather than chronotropic drugs or pacing.",
+      "priority": "core",
+      "tags": [
+        "topic:hypothermia",
+        "topic:bradycardia"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 87,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "What NS/LR bolus volume does 4.06 direct for the adult hypothermic patient?",
+      "options": [
+        "250 mL",
+        "500 mL",
+        "1,000 mL",
+        "10 – 20 mL/kg"
+      ],
+      "answer_index": 0,
+      "explanation": "Adults receive 250 mL NS/LR boluses PRN up to a total of 1 L; the cold heart tolerates volume poorly, so fluid is given in small increments. 10-20 mL/kg is the pediatric bolus.",
+      "priority": "core",
+      "tags": [
+        "topic:hypothermia",
+        "drug:normal-saline",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 88,
+      "type": "max_dose",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "What is the maximum total NS/LR volume for the pediatric hypothermic patient in 4.06?",
+      "options": [
+        "5 mL/kg",
+        "10 mL/kg",
+        "20 mL/kg",
+        "60 mL/kg"
+      ],
+      "answer_index": 3,
+      "explanation": "Pediatric patients get 10-20 mL/kg NS/LR boluses PRN up to 60 mL/kg total, after which further volume is unlikely to help and pulmonary edema becomes the greater risk.",
+      "priority": "detail",
+      "tags": [
+        "topic:hypothermia",
+        "drug:normal-saline",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 87,
+      "type": "treatment",
+      "care_level": "BLS",
+      "population": "both",
+      "stem": "A patient has frostbitten toes and the transport may expose the area to re-freezing. What does 4.06 direct?",
+      "options": [
+        "Do not attempt re-warming if re-freezing is possible",
+        "Rewarm the toes rapidly before leaving the scene",
+        "Rub the affected toes to restore circulation",
+        "Deroof the blisters before applying dressings"
+      ],
+      "answer_index": 0,
+      "explanation": "A freeze-thaw-refreeze cycle causes far more tissue loss than tissue that stays frozen, so 4.06 prohibits re-warming when re-freezing is a possibility. Rubbing is also prohibited, as it shears ice crystals through the tissue.",
+      "priority": "core",
+      "tags": [
+        "topic:frostbite"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 87,
+      "type": "treatment",
+      "care_level": "BLS",
+      "population": "both",
+      "stem": "How does 4.06 direct frostbitten fingers and toes be dressed?",
+      "options": [
+        "Gauze between the digits, covered with dry bulky sterile dressings",
+        "Moist warm compresses applied directly to the digits",
+        "The digits splinted together under a compressive wrap",
+        "Blisters deroofed, then a non-adherent dressing applied"
+      ],
+      "answer_index": 0,
+      "explanation": "Gauze between the digits keeps macerated skin surfaces apart and the dry bulky dressing protects without compressing. Blisters are left intact, as they are a sterile biological dressing.",
+      "priority": "detail",
+      "tags": [
+        "topic:frostbite"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 88,
+      "type": "threshold",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "Below what core temperature does 4.06 warn of increased risk of ventricular dysrhythmias and of medications becoming ineffective?",
+      "options": [
+        "< 35°C (95°F)",
+        "< 32.1°C (89.8°F)",
+        "< 30°C (86°F)",
+        "< 28°C (82.4°F)"
+      ],
+      "answer_index": 2,
+      "explanation": "4.06 flags a rectal/core temperature below 30°C (86°F) as the point where ventricular dysrhythmias including VF become markedly more likely and medications may not be effective — which is why rewarming takes priority over repeat drug dosing.",
+      "priority": "core",
+      "tags": [
+        "topic:hypothermia"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 88,
+      "type": "threshold",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "In 4.06, severe hypothermia is defined by what core temperature?",
+      "options": [
+        "35 – 32.1°C (95 – 89.8°F)",
+        "32 – 28°C (89.7 – 82.5°F)",
+        "< 30°C (86°F)",
+        "< 28°C (82.4°F)"
+      ],
+      "answer_index": 3,
+      "explanation": "4.06 stages hypothermia as mild 35-32.1°C (conscious, shivering), moderate 32-28°C (impaired consciousness, not shivering) and severe below 28°C (82.4°F) — unconscious, not shivering, with deteriorating vital signs.",
+      "priority": "detail",
+      "tags": [
+        "topic:hypothermia"
+      ]
+    },
+    {
+      "number": "4.06",
+      "title": "Hypothermia & Frost Bite",
+      "page": 88,
+      "type": "pearl",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "Why does 4.06 caution against intubating the hypothermic patient?",
+      "options": [
+        "It can result in fatal arrhythmias",
+        "It causes an abrupt rise in serum potassium",
+        "It prevents effective passive rewarming",
+        "It rules the patient out as an ECMO candidate"
+      ],
+      "answer_index": 0,
+      "explanation": "Airway manipulation in a cold, irritable myocardium can precipitate fatal arrhythmias. 4.06 also notes that a very low respiratory rate may seem undetectable and often improves with further warming alone.",
+      "priority": "detail",
+      "tags": [
+        "topic:hypothermia",
+        "procedure:intubation"
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "Altered Mental Status",
+      "page": 91,
+      "type": "dose",
+      "care_level": "BLS",
+      "population": "adult",
+      "stem": "What is the adult intranasal naloxone dose in 5.01 for suspected opioid overdose with respiratory depression?",
+      "options": [
+        "0.4 mg",
+        "0.1 mg/kg",
+        "5 mg",
+        "10 mg"
+      ],
+      "answer_index": 0,
+      "explanation": "Adults get naloxone 0.4 mg IN via MAD, repeated q 3-5 min and titrated to respiratory function rather than to full wakefulness. 0.1 mg/kg is the pediatric dose.",
+      "priority": "core",
+      "tags": [
+        "drug:naloxone",
+        "topic:altered-mental-status",
+        "route:in",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "Altered Mental Status",
+      "page": 91,
+      "type": "max_dose",
+      "care_level": "BLS",
+      "population": "adult",
+      "stem": "What is the maximum total adult naloxone dose in 5.01?",
+      "options": [
+        "0.4 mg",
+        "2 mg",
+        "5 mg",
+        "10 mg"
+      ],
+      "answer_index": 3,
+      "explanation": "The adult ceiling is 10 mg total. Failure to respond by that point should redirect the crew to other causes of altered mental status rather than further naloxone. 5 mg is the pediatric total.",
+      "priority": "detail",
+      "tags": [
+        "drug:naloxone",
+        "topic:altered-mental-status",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "Altered Mental Status",
+      "page": 91,
+      "type": "dose",
+      "care_level": "BLS",
+      "population": "pediatric",
+      "stem": "What is the pediatric intranasal naloxone dose in 5.01?",
+      "options": [
+        "0.01 mg/kg",
+        "0.05 mg/kg",
+        "0.1 mg/kg",
+        "1 mg/kg"
+      ],
+      "answer_index": 2,
+      "explanation": "Children get 0.1 mg/kg IN via MAD, repeatable q 3-5 min, for suspected opioid overdose with respiratory depression.",
+      "priority": "core",
+      "tags": [
+        "drug:naloxone",
+        "topic:altered-mental-status",
+        "route:in",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "Altered Mental Status",
+      "page": 91,
+      "type": "max_dose",
+      "care_level": "BLS",
+      "population": "pediatric",
+      "stem": "What is the maximum single naloxone dose for a pediatric patient in 5.01?",
+      "options": [
+        "0.1 mg",
+        "0.4 mg",
+        "2 mg",
+        "5 mg"
+      ],
+      "answer_index": 1,
+      "explanation": "The weight-based 0.1 mg/kg dose is capped at 0.4 mg per dose, with a 5 mg total ceiling — so a large child does not receive more than an adult would per dose.",
+      "priority": "detail",
+      "tags": [
+        "drug:naloxone",
+        "topic:altered-mental-status",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "Altered Mental Status",
+      "page": 91,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "What is the adult dextrose 10% dose in 5.01 for a blood glucose under 60 mg/dL?",
+      "options": [
+        "250 mL",
+        "500 mL",
+        "1,000 mL",
+        "5 mL/kg"
+      ],
+      "answer_index": 0,
+      "explanation": "Adults receive D10 250 mL IV/IO when the BGL is below 60 mg/dL, with the glucose rechecked q 15 min and the dose repeated as needed. 5 mL/kg is the pediatric dose.",
+      "priority": "core",
+      "tags": [
+        "drug:dextrose",
+        "topic:hypoglycemia",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "Altered Mental Status",
+      "page": 91,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "What is the pediatric dextrose 10% dose in 5.01?",
+      "options": [
+        "2 mL/kg",
+        "5 mL/kg",
+        "10 mL/kg",
+        "20 mL/kg"
+      ],
+      "answer_index": 1,
+      "explanation": "Children get D10 5 mL/kg for a BGL under 60 mg/dL. Neonates get 2 mL/kg, and at a lower trigger of 40 mg/dL.",
+      "priority": "core",
+      "tags": [
+        "drug:dextrose",
+        "topic:hypoglycemia",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "Altered Mental Status",
+      "page": 91,
+      "type": "threshold",
+      "care_level": "ALS",
+      "population": "neonatal",
+      "stem": "At what blood glucose does 5.01 direct dextrose 10% for a neonate?",
+      "options": [
+        "< 40 mg/dL",
+        "< 60 mg/dL",
+        "< 100 mg/dL",
+        "< 150 mg/dL"
+      ],
+      "answer_index": 0,
+      "explanation": "Neonates are treated at a lower threshold — D10 2 mL/kg when the BGL is below 40 mg/dL — rather than the 60 mg/dL trigger used for older children and adults.",
+      "priority": "core",
+      "tags": [
+        "drug:dextrose",
+        "topic:hypoglycemia",
+        "population:neonatal"
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "Altered Mental Status",
+      "page": 91,
+      "type": "assessment",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "Once a combative patient is sedated under 5.01, what must be continuously monitored?",
+      "options": [
+        "ETCO₂ and SpO₂",
+        "ECG and blood pressure",
+        "Temperature and blood glucose",
+        "ETCO₂ and ECG"
+      ],
+      "answer_index": 0,
+      "explanation": "5.01 makes continuous ETCO₂ and SpO₂ mandatory after sedation, because the airway that was stable before the drug is the thing most likely to fail after it.",
+      "priority": "core",
+      "tags": [
+        "topic:sedation",
+        "topic:altered-mental-status"
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "Altered Mental Status",
+      "page": 91,
+      "type": "threshold",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "How often does 5.01 require distal circulation, sensation and movement be checked in a patient in limb restraints?",
+      "options": [
+        "q 5 min",
+        "q 10 min",
+        "q 15 min",
+        "q 30 min"
+      ],
+      "answer_index": 2,
+      "explanation": "Limb restraints require continuous ETCO₂ monitoring plus assessment of distal circulation, sensation and movement every 15 minutes, so a restraint that has become a tourniquet is found early.",
+      "priority": "detail",
+      "tags": [
+        "topic:restraints",
+        "topic:altered-mental-status"
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "Altered Mental Status",
+      "page": 91,
+      "type": "pearl",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "If pre-mixed D10 is unavailable, how does 5.01 direct it be made?",
+      "options": [
+        "Remove 50 mL from a 250 mL bag of saline and add 25 g (50 mL) of D50",
+        "Remove 25 mL from a 250 mL bag of saline and add 12.5 g of D50",
+        "Add 25 g (50 mL) of D50 to a 1,000 mL bag of saline",
+        "Add 50 mL of D50 to a 500 mL bag of saline"
+      ],
+      "answer_index": 0,
+      "explanation": "Removing 50 mL from a 250 mL saline bag and replacing it with 25 grams (50 mL) of D50 yields 250 mL of 10% dextrose — the volume is kept constant so the final concentration is right.",
+      "priority": "detail",
+      "tags": [
+        "drug:dextrose",
+        "topic:hypoglycemia"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "dose",
+      "care_level": "BLS",
+      "population": "adult",
+      "stem": "What is the adult IM epinephrine dose in 5.02 for anaphylaxis with moderate or severe symptoms?",
+      "options": [
+        "0.1 mg IM",
+        "0.3 mg IM",
+        "0.01 mg/kg IM",
+        "1 mg IM"
+      ],
+      "answer_index": 1,
+      "explanation": "Moderate or severe symptoms — hives, dyspnea, hypotension — get epinephrine 0.3 mg IM of the 1 mg/mL concentration, repeatable q 15 min. The 0.1 mg dose is the IV push route, reserved for refractory cases.",
+      "priority": "core",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:im",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "dose",
+      "care_level": "BLS",
+      "population": "pediatric",
+      "stem": "What is the pediatric IM epinephrine dose in 5.02 for anaphylaxis?",
+      "options": [
+        "0.01 mg/kg",
+        "0.05 mg/kg",
+        "0.1 mg/kg",
+        "1 mg/kg"
+      ],
+      "answer_index": 0,
+      "explanation": "Children get 0.01 mg/kg IM of the 1 mg/mL concentration, repeatable q 15 min, for moderate or severe symptoms.",
+      "priority": "core",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:im",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "max_dose",
+      "care_level": "BLS",
+      "population": "pediatric",
+      "stem": "What is the maximum single IM epinephrine dose for a pediatric anaphylaxis patient in 5.02?",
+      "options": [
+        "0.1 mg",
+        "0.3 mg",
+        "1 mg",
+        "5 mg"
+      ],
+      "answer_index": 1,
+      "explanation": "The 0.01 mg/kg IM dose is capped at 0.3 mg — the adult dose — so a heavy adolescent does not receive more than an adult would.",
+      "priority": "detail",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:im",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "What NS/LR bolus volume does 5.02 direct for the adult anaphylaxis patient?",
+      "options": [
+        "250 mL",
+        "500 mL",
+        "1,000 mL",
+        "20 mL/kg"
+      ],
+      "answer_index": 1,
+      "explanation": "Anaphylactic shock is largely distributive, so the adult gets 500 mL NS/LR boluses titrated to an SBP above 90. 20 mL/kg is the pediatric bolus.",
+      "priority": "core",
+      "tags": [
+        "drug:normal-saline",
+        "topic:anaphylaxis",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 93,
+      "type": "threshold",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "What systolic blood pressure target does 5.02 set for the pediatric anaphylaxis patient receiving fluid boluses?",
+      "options": [
+        "SBP > 90",
+        "SBP > 120",
+        "SBP > 90 + (age x 2)",
+        "SBP > 110 + (age x 2)"
+      ],
+      "answer_index": 2,
+      "explanation": "Pediatric boluses of 20 mL/kg are titrated to an SBP above 90 + (age x 2), which scales the target to the child rather than using the adult figure of 90.",
+      "priority": "detail",
+      "tags": [
+        "topic:anaphylaxis",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "indication",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "For which severity of allergic reaction does 5.02 direct diphenhydramine alone?",
+      "options": [
+        "Mild — skin signs only",
+        "Moderate — advancing hives and dyspnea",
+        "Severe — cardiovascular collapse",
+        "Refractory hypotension"
+      ],
+      "answer_index": 0,
+      "explanation": "Diphenhydramine on its own belongs to the mild band — skin signs only. Once hives are advancing or dyspnea appears, albuterol, nebulized epinephrine and methylprednisolone are added.",
+      "priority": "core",
+      "tags": [
+        "drug:diphenhydramine",
+        "topic:anaphylaxis"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "What is the diphenhydramine dose in 5.02?",
+      "options": [
+        "0.5 mg/kg",
+        "1 mg/kg",
+        "2 mg/kg",
+        "5 mg/kg"
+      ],
+      "answer_index": 1,
+      "explanation": "Diphenhydramine is 1 mg/kg IV/IO/IM for both adults and children in 5.02, capped at 50 mg.",
+      "priority": "core",
+      "tags": [
+        "drug:diphenhydramine",
+        "topic:anaphylaxis"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "max_dose",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "What is the maximum diphenhydramine dose in 5.02?",
+      "options": [
+        "25 mg",
+        "50 mg",
+        "60 mg",
+        "125 mg"
+      ],
+      "answer_index": 1,
+      "explanation": "The 1 mg/kg dose is capped at 50 mg. 60 mg is the pediatric methylprednisolone ceiling and 125 mg the adult methylprednisolone dose.",
+      "priority": "detail",
+      "tags": [
+        "drug:diphenhydramine",
+        "topic:anaphylaxis"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "What is the adult methylprednisolone dose in 5.02?",
+      "options": [
+        "60 mg",
+        "125 mg",
+        "1 mg/kg",
+        "2 mg/kg"
+      ],
+      "answer_index": 1,
+      "explanation": "Adults get methylprednisolone 125 mg IV/IO/IM. The steroid does nothing for the acute reaction but blunts the biphasic response hours later, so it is given once the airway and pressure are addressed.",
+      "priority": "core",
+      "tags": [
+        "drug:methylprednisolone",
+        "topic:anaphylaxis",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 93,
+      "type": "max_dose",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "What is the maximum pediatric methylprednisolone dose in 5.02?",
+      "options": [
+        "25 mg",
+        "50 mg",
+        "60 mg",
+        "125 mg"
+      ],
+      "answer_index": 2,
+      "explanation": "The pediatric dose is 2 mg/kg IV/IO/IM, capped at 60 mg — below the 125 mg adult dose.",
+      "priority": "detail",
+      "tags": [
+        "drug:methylprednisolone",
+        "topic:anaphylaxis",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "indication",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "For what finding does 5.02 direct nebulized epinephrine?",
+      "options": [
+        "Stridor or upper airway swelling",
+        "Wheezing without stridor",
+        "Refractory hypotension",
+        "Hives without respiratory symptoms"
+      ],
+      "answer_index": 0,
+      "explanation": "Nebulized epinephrine is aimed at the upper airway — stridor or swelling. Lower-airway wheeze is treated with albuterol, and refractory hypotension with IV push or infused epinephrine.",
+      "priority": "core",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:nebulized"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "What racemic epinephrine dose does 5.02 direct via nebulizer for upper airway swelling?",
+      "options": [
+        "0.5 mL of a 2.25% solution",
+        "0.5 mL/kg of the 1 mg/mL solution",
+        "2 mL of a 2.25% solution",
+        "5 mL of the 1 mg/mL solution"
+      ],
+      "answer_index": 0,
+      "explanation": "Racemic epinephrine is 0.5 mL of the 2.25% solution diluted with 2 mL of NS, repeatable twice at 15 minute intervals, and is the preferred form when available. The 0.5 mL/kg figure belongs to the non-racemic 1 mg/mL preparation.",
+      "priority": "core",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:nebulized"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "max_dose",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "What is the maximum single dose of non-racemic nebulized epinephrine in 5.02?",
+      "options": [
+        "0.5 mL (0.5 mg)",
+        "2 mL (2 mg)",
+        "5 mL (5 mg)",
+        "10 mL (10 mg)"
+      ],
+      "answer_index": 2,
+      "explanation": "Non-racemic epinephrine 1 mg/mL is given 0.5 mL/kg via neb, capped at 5 mL (5 mg) per dose; a dose under 5 mL is topped up with NS to a total of 5 mL in the cup so the nebulizer runs properly.",
+      "priority": "detail",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:nebulized"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "What is the adult IV push epinephrine dose in 5.02 for severe anaphylaxis?",
+      "options": [
+        "0.1 mg slow IVP over 2 minutes",
+        "0.3 mg slow IVP over 2 minutes",
+        "0.01 mg/kg SIVP over 2 minutes",
+        "1 mg IVP over 2 minutes"
+      ],
+      "answer_index": 0,
+      "explanation": "For cardiovascular collapse refractory to everything else, adults get 0.1 mg of the 0.1 mg/mL concentration pushed slowly over 2 minutes, repeatable q 3-5 min. 0.01 mg/kg SIVP is the pediatric equivalent.",
+      "priority": "core",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:iv",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 92,
+      "type": "indication",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "When does 5.02 permit the adult IV push dose of epinephrine?",
+      "options": [
+        "Only if refractory to all other treatments, including IM epinephrine",
+        "As first-line treatment for severe anaphylaxis",
+        "When IM access cannot be obtained",
+        "For moderate symptoms not relieved by albuterol"
+      ],
+      "answer_index": 0,
+      "explanation": "IV push epinephrine is a last step, not a shortcut: 5.02 allows it only after all other treatment — including IM epinephrine — has failed, because pushed epinephrine carries real arrhythmia and ischemia risk.",
+      "priority": "core",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:iv",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 93,
+      "type": "max_dose",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "What is the maximum single IV push epinephrine dose for a pediatric anaphylaxis patient in 5.02?",
+      "options": [
+        "0.01 mg",
+        "0.1 mg",
+        "0.3 mg",
+        "1 mg"
+      ],
+      "answer_index": 1,
+      "explanation": "The pediatric 0.01 mg/kg slow IV push is capped at 0.1 mg per dose — the same amount an adult receives by that route.",
+      "priority": "detail",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:iv",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 93,
+      "type": "special",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "How does 5.02 require pediatric IV push doses of epinephrine be dosed and documented?",
+      "options": [
+        "In mL/kg",
+        "In mcg/kg",
+        "In mg/kg",
+        "In mcg/min"
+      ],
+      "answer_index": 0,
+      "explanation": "Pediatric IV push epinephrine must be dosed AND documented in mL/kg. Writing the volume rather than the mass is what prevents a tenfold error between the 1 mg/mL and 0.1 mg/mL concentrations.",
+      "priority": "detail",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 93,
+      "type": "max_dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "To what maximum rate does 5.02 allow an adult epinephrine infusion to be titrated?",
+      "options": [
+        "0.05 mcg/kg/min",
+        "2 mcg/kg/min",
+        "10 mcg/kg/min",
+        "20 mcg/kg/min"
+      ],
+      "answer_index": 1,
+      "explanation": "The adult infusion starts at 2-10 mcg/min or 0.05 mcg/kg/min and is titrated q 3-5 min to a maximum of 2 mcg/kg/min for refractory hypotension.",
+      "priority": "detail",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:infusion",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 94,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "At what rate does 5.02 direct a pediatric epinephrine infusion be started?",
+      "options": [
+        "0.05 mcg/kg/min",
+        "0.1 mcg/kg/min",
+        "2 mcg/kg/min",
+        "2 – 10 mcg/min"
+      ],
+      "answer_index": 0,
+      "explanation": "Pediatric infusions start at 0.05 mcg/kg/min and are titrated q 3-5 min to a maximum of 2 mcg/kg/min for refractory hypotension. The 2-10 mcg/min figure is an adult-only starting option.",
+      "priority": "core",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:infusion",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "Anaphylaxis & Allergic Reactions",
+      "page": 94,
+      "type": "pearl",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "Under what condition does 5.02 allow the maximum infusion dose to be exceeded?",
+      "options": [
+        "Hypotension persisting after adequate fluids and a second vasopressor",
+        "Any time the patient remains symptomatic",
+        "Only with on-line medical control approval",
+        "Only if the patient has upper airway swelling"
+      ],
+      "answer_index": 0,
+      "explanation": "The ceiling can be exceeded only once the fixable things are fixed: adequate volume resuscitation and a second vasopressor already running, with hypotension still present.",
+      "priority": "detail",
+      "tags": [
+        "drug:epinephrine",
+        "topic:anaphylaxis",
+        "route:infusion"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 95,
+      "type": "threshold",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What vital sign targets does 5.03 set for a patient with an aortic dissection?",
+      "options": [
+        "HR < 50 and SBP < 100",
+        "HR < 60 and SBP < 120",
+        "HR < 80 and SBP < 140",
+        "HR < 100 and SBP < 160"
+      ],
+      "answer_index": 1,
+      "explanation": "Dissection targets are HR under 60 AND SBP under 120 — both must be met, because the shear force on the intimal flap depends on the rate of pressure rise as much as the pressure itself.",
+      "priority": "core",
+      "tags": [
+        "topic:aortic-dissection"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 95,
+      "type": "threshold",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What blood pressure target does 5.03 set for an aortic rupture?",
+      "options": [
+        "SBP > 80",
+        "SBP > 90",
+        "SBP > 110",
+        "SBP < 120"
+      ],
+      "answer_index": 0,
+      "explanation": "A rupture is managed with permissive hypotension — SBP greater than 80 — rather than the aggressive lowering used for dissection, because a clot that has contained the bleed will be blown off by a normal pressure.",
+      "priority": "core",
+      "tags": [
+        "topic:aortic-rupture"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 95,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What initial esmolol loading dose does 5.03 direct?",
+      "options": [
+        "50 mcg/kg over 60 seconds",
+        "200 mcg/kg over 60 seconds",
+        "300 mcg/kg over 60 seconds",
+        "500 mcg/kg over 60 seconds"
+      ],
+      "answer_index": 3,
+      "explanation": "Esmolol is loaded at 500 mcg/kg over 60 seconds before the infusion is started; without the bolus the infusion takes far too long to reach effect in a dissection.",
+      "priority": "core",
+      "tags": [
+        "drug:esmolol",
+        "topic:aortic-dissection"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 95,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "At what rate does 5.03 direct the esmolol infusion be started after the loading bolus?",
+      "options": [
+        "50 mcg/kg/min",
+        "100 mcg/kg/min",
+        "200 mcg/kg/min",
+        "300 mcg/kg/min"
+      ],
+      "answer_index": 0,
+      "explanation": "The infusion begins at 50 mcg/kg/min immediately after the 500 mcg/kg bolus, then steps up by protocol every 4 minutes if the targets are not met.",
+      "priority": "core",
+      "tags": [
+        "drug:esmolol",
+        "topic:aortic-dissection",
+        "route:infusion"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 95,
+      "type": "sequence",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "Four minutes after the initial esmolol bolus and infusion, the vital signs are still above target. What does 5.03 direct next?",
+      "options": [
+        "Repeat the 500 mcg/kg bolus and increase the infusion to 100 mcg/kg/min",
+        "Increase the infusion to 100 mcg/kg/min without re-bolusing",
+        "Repeat the 500 mcg/kg bolus and increase the infusion to 150 mcg/kg/min",
+        "Add nicardipine at 2.5 – 5 mg/hr"
+      ],
+      "answer_index": 0,
+      "explanation": "Each 4 minute step in the esmolol ladder pairs a repeat 500 mcg/kg bolus with the next infusion rate — 100 mcg/kg/min at step 2, then 150 mcg/kg/min at step 3 — because the bolus is what moves the level, the rate is what holds it.",
+      "priority": "detail",
+      "tags": [
+        "drug:esmolol",
+        "topic:aortic-dissection"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 95,
+      "type": "max_dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What is the maximum esmolol infusion rate in 5.03?",
+      "options": [
+        "150 mcg/kg/min",
+        "200 mcg/kg/min",
+        "250 mcg/kg/min",
+        "300 mcg/kg/min"
+      ],
+      "answer_index": 3,
+      "explanation": "Titration continues in 50 mcg/kg/min increments every 4 minutes until target or a maximum rate of 300 mcg/kg/min. Beyond that, nicardipine is added rather than the esmolol pushed higher.",
+      "priority": "detail",
+      "tags": [
+        "drug:esmolol",
+        "topic:aortic-dissection",
+        "route:infusion"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 96,
+      "type": "contraindication",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "In which condition does 5.03 direct that esmolol not be used?",
+      "options": [
+        "Acute decompensated heart failure",
+        "Acute pulmonary edema",
+        "Known cardiac ischemia",
+        "Chronic renal failure"
+      ],
+      "answer_index": 0,
+      "explanation": "Esmolol is prohibited in acute decompensated heart failure, where the negative inotropy would worsen an already failing ventricle. Acute pulmonary edema and cardiac ischemia are the cautions attached to nitroglycerin.",
+      "priority": "core",
+      "tags": [
+        "drug:esmolol",
+        "topic:aortic-dissection"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 96,
+      "type": "treatment",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "Esmolol is contraindicated in a patient with an aortic dissection. Which agent does 5.03 direct be added?",
+      "options": [
+        "Nicardipine",
+        "Labetalol",
+        "Diltiazem",
+        "Nitroglycerin"
+      ],
+      "answer_index": 0,
+      "explanation": "Nicardipine is added when esmolol is contraindicated, when the HR is already below 60, or when maximum esmolol still leaves the SBP above 120. Clevidipine or nitroprusside from the sending facility are the alternatives.",
+      "priority": "core",
+      "tags": [
+        "drug:nicardipine",
+        "topic:aortic-dissection"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 96,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What is the initial labetalol dose in 5.03?",
+      "options": [
+        "5 mg IV",
+        "10 mg IV",
+        "20 mg IV",
+        "40 mg IV"
+      ],
+      "answer_index": 2,
+      "explanation": "Labetalol starts at 20 mg IV and may be repeated with 20-80 mg every 10 minutes, or run as an infusion at 0.5-2 mg/min. 5 mg is the metoprolol dose.",
+      "priority": "core",
+      "tags": [
+        "drug:labetalol",
+        "topic:aortic-dissection"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 96,
+      "type": "max_dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What is the maximum total labetalol dose in 5.03?",
+      "options": [
+        "80 mg over 24 hours",
+        "100 mg over 24 hours",
+        "300 mg over 24 hours",
+        "400 mg over 24 hours"
+      ],
+      "answer_index": 2,
+      "explanation": "Labetalol is capped at 300 mg total over 24 hours. On a long transfer the crew must count what the sending facility already gave against that ceiling.",
+      "priority": "detail",
+      "tags": [
+        "drug:labetalol",
+        "topic:aortic-dissection"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 97,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What diltiazem bolus dose does 5.03 direct when the heart rate stays above target despite beta blockade?",
+      "options": [
+        "0.1 mg/kg",
+        "0.25 mg/kg",
+        "0.5 mg/kg",
+        "2.5 mg/kg"
+      ],
+      "answer_index": 1,
+      "explanation": "Diltiazem is given as a 0.25 mg/kg IV bolus, capped at 20 mg, and then run as an infusion. It is the rate-control fallback when beta blockers fail or are contraindicated.",
+      "priority": "detail",
+      "tags": [
+        "drug:diltiazem",
+        "topic:aortic-dissection"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 97,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "At what rate does 5.03 direct the diltiazem infusion after the bolus?",
+      "options": [
+        "1 – 2 mg/hr",
+        "2.5 – 5 mg/hr",
+        "5 – 20 mg/hr",
+        "0.5 – 2 mg/min"
+      ],
+      "answer_index": 2,
+      "explanation": "The diltiazem infusion runs at 5-20 mg/hr following the 0.25 mg/kg bolus. 2.5-5 mg/hr is the nicardipine start, 1-2 mg/hr the clevidipine start, and 0.5-2 mg/min the labetalol infusion.",
+      "priority": "detail",
+      "tags": [
+        "drug:diltiazem",
+        "topic:aortic-dissection",
+        "route:infusion"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 97,
+      "type": "threshold",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "5.03 withholds vasodilator therapy until the heart rate is consistently below what value?",
+      "options": [
+        "< 50 BPM",
+        "< 60 BPM",
+        "< 80 BPM",
+        "< 100 BPM"
+      ],
+      "answer_index": 2,
+      "explanation": "Vasodilators are not given until heart rate is consistently under 80 BPM with beta blockade in place, because an unopposed vasodilator produces reflex tachycardia and worsens the shear force on the aorta.",
+      "priority": "core",
+      "tags": [
+        "topic:aortic-dissection"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 97,
+      "type": "max_dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "To what maximum rate may nicardipine be titrated in 5.03?",
+      "options": [
+        "5 mg/hr",
+        "15 mg/hr",
+        "20 mg/hr",
+        "21 mg/hr"
+      ],
+      "answer_index": 1,
+      "explanation": "Nicardipine starts at 2.5-5 mg/hr and is titrated by 2.5 mg/hr every 5 minutes to a maximum of 15 mg/hr. 21 mg/hr is the clevidipine ceiling.",
+      "priority": "detail",
+      "tags": [
+        "drug:nicardipine",
+        "topic:aortic-dissection",
+        "route:infusion"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 97,
+      "type": "pearl",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "A patient with traumatic aortic injury is tachycardic and persistently hypotensive without having received any antihypertensive. What does 5.03 say this usually means?",
+      "options": [
+        "Blood loss from another site",
+        "Free rupture of the aorta",
+        "Over-aggressive beta blockade",
+        "Neurogenic shock"
+      ],
+      "answer_index": 0,
+      "explanation": "In traumatic aortic injury the blood is usually contained in a mediastinal hematoma and free rupture is fatal within minutes, so tachycardia with persistent or recurrent hypotension — absent any drug given — points to bleeding somewhere else.",
+      "priority": "core",
+      "tags": [
+        "topic:aortic-injury",
+        "topic:trauma"
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "Aortic Emergencies",
+      "page": 98,
+      "type": "special",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "In the Stanford classification shown in 5.03, which dissections are Type B?",
+      "options": [
+        "Descending aorta distal to the left subclavian artery",
+        "Ascending aorta, which may extend into the arch",
+        "Confined to the ascending aorta",
+        "Abdominal aorta distal to the celiac artery"
+      ],
+      "answer_index": 0,
+      "explanation": "Stanford Type B involves the descending thoracic or thoracoabdominal aorta distal to the left subclavian without involving the ascending aorta; Type A is any dissection involving the ascending aorta and is the surgical emergency.",
+      "priority": "detail",
+      "tags": [
+        "topic:aortic-dissection"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 99,
+      "type": "threshold",
+      "care_level": "BLS",
+      "population": "both",
+      "stem": "What SpO₂ target does 5.04 set for COPD patients?",
+      "options": [
+        "> 90%",
+        "90 – 94%",
+        "94 – 98%",
+        "> 94%"
+      ],
+      "answer_index": 1,
+      "explanation": "COPD patients are targeted to 90-94%, not higher — over-oxygenating a chronic retainer worsens V/Q matching and CO₂ retention.",
+      "priority": "core",
+      "tags": [
+        "topic:copd",
+        "topic:oxygen"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 99,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "What albuterol dose does 5.04 direct via nebulizer for the adult asthma patient?",
+      "options": [
+        "0.5 mg",
+        "5 mg",
+        "20 mg",
+        "125 mg"
+      ],
+      "answer_index": 1,
+      "explanation": "Albuterol is 5 mg via nebulizer every 15 minutes. 0.5 mg is the ipratropium dose given alongside it, and 20 mg/hour is the continuous nebulizer rate.",
+      "priority": "core",
+      "tags": [
+        "drug:albuterol",
+        "topic:asthma",
+        "route:nebulized"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 99,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "What is the ipratropium dose in 5.04, and how many total doses are allowed?",
+      "options": [
+        "0.5 mg, max of three total doses",
+        "0.5 mg, max of two total doses",
+        "5 mg via neb, max of three total doses",
+        "0.5 mg, with no stated maximum"
+      ],
+      "answer_index": 0,
+      "explanation": "Ipratropium 0.5 mg is given concurrently with albuterol, to a maximum of three total doses; the anticholinergic effect plateaus after that and further doses only add side effects.",
+      "priority": "core",
+      "tags": [
+        "drug:ipratropium",
+        "topic:asthma",
+        "route:nebulized"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 99,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "For continuous nebulized albuterol in the adult asthma patient, how many unit doses does 5.04 direct be placed in the nebulizer?",
+      "options": [
+        "Two-unit doses",
+        "Three-unit doses",
+        "Four-unit doses",
+        "Five-unit doses"
+      ],
+      "answer_index": 2,
+      "explanation": "Continuous albuterol at 20 mg/hour is made up with four-unit doses in the nebulizer, with a maximum of 10 mL in the cup. The COPD and pediatric continuous regimens use three-unit doses.",
+      "priority": "detail",
+      "tags": [
+        "drug:albuterol",
+        "topic:asthma",
+        "route:nebulized"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 99,
+      "type": "max_dose",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "How many times may the adult IM epinephrine dose be repeated for severe asthma in 5.04?",
+      "options": [
+        "May repeat q 15 min x 2",
+        "May repeat q 15 min x 3",
+        "May repeat q 5 min x 2",
+        "It may not be repeated"
+      ],
+      "answer_index": 0,
+      "explanation": "Epinephrine 0.3 mg IM of the 1 mg/mL concentration is reserved for severe symptoms and may be repeated every 15 minutes twice — three doses in total.",
+      "priority": "detail",
+      "tags": [
+        "drug:epinephrine",
+        "topic:asthma",
+        "route:im",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 99,
+      "type": "indication",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "For which adult asthma patients does 5.04 direct magnesium sulfate 2 grams IV/IO over 20 minutes?",
+      "options": [
+        "Persistent severe symptoms and/or prolonged transport",
+        "Any patient still wheezing after one albuterol dose",
+        "Only after the patient has been intubated",
+        "COPD exacerbation with CO₂ retention"
+      ],
+      "answer_index": 0,
+      "explanation": "Magnesium is an adjunct for persistent severe symptoms and/or prolonged transport times, not a routine second-line bronchodilator — and it is listed under asthma, not COPD.",
+      "priority": "core",
+      "tags": [
+        "drug:magnesium-sulfate",
+        "topic:asthma",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 99,
+      "type": "threshold",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "How often does 5.04 direct repeat albuterol and ipratropium nebulizer treatments for the COPD patient?",
+      "options": [
+        "q 5 min",
+        "q 10 min",
+        "q 15 min",
+        "q 20 min"
+      ],
+      "answer_index": 1,
+      "explanation": "COPD treatments repeat q 10 min PRN, with continuous albuterol considered after the second dose. The asthma band uses a 15 minute interval.",
+      "priority": "detail",
+      "tags": [
+        "drug:albuterol",
+        "drug:ipratropium",
+        "topic:copd"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 100,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "What magnesium sulfate dose does 5.04 direct for the pediatric asthma patient?",
+      "options": [
+        "0.1 mg/kg",
+        "2 mg/kg",
+        "50 mg/kg",
+        "10 mcg/kg"
+      ],
+      "answer_index": 2,
+      "explanation": "Children get magnesium sulfate 50 mg/kg over 20 minutes, capped at 2 grams. 2 mg/kg is the pediatric methylprednisolone dose and 10 mcg/kg the terbutaline load.",
+      "priority": "core",
+      "tags": [
+        "drug:magnesium-sulfate",
+        "topic:asthma",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 100,
+      "type": "indication",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "Which pediatric asthma patients does 5.04 say should receive magnesium therapy?",
+      "options": [
+        "All children with an IV and status asthmaticus",
+        "Only children under 12 years of age in extremis",
+        "Only children who have failed continuous albuterol",
+        "Only children who are already intubated"
+      ],
+      "answer_index": 0,
+      "explanation": "5.04 is unusually direct here: every child with IV access and status asthmaticus should get magnesium. The under-12-and-in-extremis criterion belongs to terbutaline.",
+      "priority": "core",
+      "tags": [
+        "drug:magnesium-sulfate",
+        "topic:asthma",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 100,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "What is the terbutaline loading dose in 5.04?",
+      "options": [
+        "1 mcg/kg",
+        "10 mcg/kg",
+        "50 mcg/kg",
+        "400 mcg/kg"
+      ],
+      "answer_index": 1,
+      "explanation": "Terbutaline is 10 mcg/kg SQ/IM or IV over 10 minutes, repeatable q 20 min PRN to three total doses and capped at 400 mcg.",
+      "priority": "detail",
+      "tags": [
+        "drug:terbutaline",
+        "topic:asthma",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 100,
+      "type": "indication",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "For which patients does 5.04 reserve terbutaline?",
+      "options": [
+        "Patients < 12 years of age and in extremis",
+        "Any child with status asthmaticus and an IV",
+        "Children with croup and stridor",
+        "Adults with refractory bronchospasm"
+      ],
+      "answer_index": 0,
+      "explanation": "Terbutaline is limited to children under 12 who are in extremis, and the infusion requires consultation with the sending or receiving provider.",
+      "priority": "detail",
+      "tags": [
+        "drug:terbutaline",
+        "topic:asthma",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 100,
+      "type": "max_dose",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "What is the maximum terbutaline infusion rate in 5.04?",
+      "options": [
+        "0.4 mcg/kg/min",
+        "2 mcg/kg/min",
+        "5 mcg/kg/min",
+        "20 mcg/kg/min"
+      ],
+      "answer_index": 2,
+      "explanation": "The infusion starts at 0.4 mcg/kg/min after the IV load and is titrated by 0.1-0.5 mcg/kg/min q 30 min PRN to a maximum of 5 mcg/kg/min.",
+      "priority": "detail",
+      "tags": [
+        "drug:terbutaline",
+        "topic:asthma",
+        "route:infusion",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 101,
+      "type": "treatment",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "An intubated asthmatic has a PIP above 40 and a plateau pressure above 30. What does 5.04 direct be considered?",
+      "options": [
+        "Keeping the patient sedated and paralyzed",
+        "Increasing the respiratory rate",
+        "Increasing the tidal volume",
+        "Switching to pressure-control ventilation"
+      ],
+      "answer_index": 0,
+      "explanation": "High airway pressures in the intubated asthmatic usually mean the patient is fighting the ventilator or stacking breaths; 5.04 directs sedation and paralysis so the long expiratory time the strategy depends on can actually happen.",
+      "priority": "detail",
+      "tags": [
+        "topic:asthma",
+        "topic:ventilation"
+      ]
+    },
+    {
+      "number": "5.04",
+      "title": "Asthma & COPD",
+      "page": 101,
+      "type": "pearl",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "What ventilator strategy does 5.04 direct for the intubated asthmatic?",
+      "options": [
+        "High inspiratory flow, low tidal volumes, low respiratory rate",
+        "Low inspiratory flow, high tidal volumes, high respiratory rate",
+        "High respiratory rate to correct the respiratory acidosis",
+        "High PEEP with a normal rate to stent the airways open"
+      ],
+      "answer_index": 0,
+      "explanation": "The goal is adequate oxygenation and ventilation with the lowest possible airway pressures: high inspiratory flow rates, tidal volumes of 6-8 mL/kg and low rates to give long expiratory times, accepting a rising PaCO₂ as permissive hypercapnia.",
+      "priority": "core",
+      "tags": [
+        "topic:asthma",
+        "topic:ventilation"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 102,
+      "type": "threshold",
+      "care_level": "BLS",
+      "population": "both",
+      "stem": "How often does 5.05 Atraumatic Hemorrhagic Stroke direct a neurologic assessment be documented?",
+      "options": [
+        "q 5 min",
+        "q 10 min",
+        "q 15 min",
+        "q 30 min"
+      ],
+      "answer_index": 2,
+      "explanation": "Neurologic assessment is documented every 15 minutes, because a deteriorating exam is the earliest warning of expanding hemorrhage or herniation.",
+      "priority": "core",
+      "tags": [
+        "topic:stroke",
+        "topic:neuro-assessment"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 102,
+      "type": "treatment",
+      "care_level": "BLS",
+      "population": "both",
+      "stem": "Provided the stroke patient is not hypovolemic or hypotensive, how does 5.05 direct the patient be positioned?",
+      "options": [
+        "Head of the bed elevated 30°",
+        "Flat supine",
+        "Trendelenburg",
+        "Left lateral recumbent"
+      ],
+      "answer_index": 0,
+      "explanation": "Elevating the head of the bed 30° improves venous drainage and lowers intracranial pressure — but only if the patient has the volume status to maintain cerebral perfusion in that position.",
+      "priority": "core",
+      "tags": [
+        "topic:stroke",
+        "topic:icp"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 102,
+      "type": "threshold",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "What ETCO₂ does 5.05 direct be maintained in the intubated stroke patient?",
+      "options": [
+        "25 – 30",
+        "30 – 35",
+        "35 – 45",
+        "45 – 50"
+      ],
+      "answer_index": 2,
+      "explanation": "The ALS band directs an ETCO₂ of 35-45 in the intubated patient. Hyperventilation to a lower number constricts cerebral vessels and worsens ischemia without improving outcome.",
+      "priority": "core",
+      "tags": [
+        "topic:stroke",
+        "topic:ventilation"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 102,
+      "type": "threshold",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "What systolic blood pressure does 5.05 direct be maintained in the adult stroke patient?",
+      "options": [
+        "SBP > 90",
+        "SBP > 100",
+        "SBP > 110",
+        "SBP > 140"
+      ],
+      "answer_index": 2,
+      "explanation": "Hypotension is treated with fluids and vasopressors to keep SBP above 110 so cerebral blood flow is preserved; note this floor is lower than the 140-150 target used when actively lowering a hypertensive patient.",
+      "priority": "core",
+      "tags": [
+        "topic:stroke",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 102,
+      "type": "threshold",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "What systolic blood pressure floor does 5.05 set for pediatric stroke patients?",
+      "options": [
+        "SBP > 90 + (age in years)",
+        "SBP > 90 + (2 x age in years)",
+        "SBP > 110 + (2 x age in years)",
+        "SBP > 120 + (age in years)"
+      ],
+      "answer_index": 1,
+      "explanation": "Children are kept above 90 + (2 x age in years) rather than the adult figure of 110, scaling the perfusion floor to the child's normal pressure.",
+      "priority": "detail",
+      "tags": [
+        "topic:stroke",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 102,
+      "type": "equipment",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "When bag-valve ventilating an adult stroke patient, what does 5.05 direct?",
+      "options": [
+        "Use a pediatric bag to prevent hyperventilation",
+        "Use an adult bag at 10 breaths per minute",
+        "Use an adult bag with an inline PEEP valve",
+        "Ventilate to an ETCO₂ of 30"
+      ],
+      "answer_index": 0,
+      "explanation": "A pediatric bag physically limits the volume a crew can deliver, which is the most reliable way to prevent the inadvertent hyperventilation that drives down ETCO₂ and cerebral blood flow.",
+      "priority": "detail",
+      "tags": [
+        "topic:stroke",
+        "topic:ventilation"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 102,
+      "type": "threshold",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "Above what systolic pressure does 5.05 direct antihypertensive therapy for atraumatic intracranial hemorrhage?",
+      "options": [
+        "SBP > 120",
+        "SBP > 140",
+        "SBP > 150",
+        "SBP > 180"
+      ],
+      "answer_index": 2,
+      "explanation": "Antihypertensive therapy is initiated for an SBP above 150 mmHg in atraumatic intracranial hemorrhage or cerebral edema, with a target of 140-150 once treatment begins.",
+      "priority": "core",
+      "tags": [
+        "topic:stroke",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 102,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "At what rate does 5.05 direct a nicardipine infusion be started for atraumatic intracranial hemorrhage?",
+      "options": [
+        "2.5 mg/hr",
+        "3 mg/hr",
+        "5 mg/hr",
+        "15 mg/hr"
+      ],
+      "answer_index": 2,
+      "explanation": "Nicardipine starts at 5 mg/hr here and is titrated by 2.5 mg/hr every 5 minutes to a maximum of 15 mg/hr; once the SBP goal is reached the rate is reduced, sometimes to 3 mg/hr or lower.",
+      "priority": "core",
+      "tags": [
+        "drug:nicardipine",
+        "topic:stroke",
+        "route:infusion"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 102,
+      "type": "threshold",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What target systolic pressure does 5.05 set once antihypertensive therapy is started?",
+      "options": [
+        "SBP 110 – 120",
+        "SBP 120 – 130",
+        "SBP 140 – 150",
+        "SBP 150 – 160"
+      ],
+      "answer_index": 2,
+      "explanation": "The target is an SBP of 140-150. 5.05 warns explicitly that overshooting and causing hypotension is harmful, since the injured brain has lost its autoregulation.",
+      "priority": "core",
+      "tags": [
+        "drug:nicardipine",
+        "topic:stroke",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 102,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What is the adult hypertonic saline (3%) dose in 5.05 for signs of herniation?",
+      "options": [
+        "250 mL IV over 15 min",
+        "500 mL IV over 15 min",
+        "5 mL/kg IV over 15 min",
+        "1,000 mL IV over 15 min"
+      ],
+      "answer_index": 0,
+      "explanation": "Hypertonic saline 3% 250 mL IV over 15 minutes is the first line agent for herniation in adults, repeatable once PRN. 5 mL/kg is the pediatric dose.",
+      "priority": "core",
+      "tags": [
+        "drug:hypertonic-saline",
+        "topic:herniation",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 103,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "What is the pediatric hypertonic saline (3%) dose in 5.05 for signs of herniation?",
+      "options": [
+        "2 mL/kg IV over 15 min",
+        "5 mL/kg IV over 15 min",
+        "10 mL/kg IV over 15 min",
+        "250 mL IV over 15 min"
+      ],
+      "answer_index": 1,
+      "explanation": "Children get hypertonic saline 3% at 5 mL/kg IV over 15 minutes, first line, repeatable once PRN; mannitol is the alternative if HTS is unavailable or ineffective.",
+      "priority": "core",
+      "tags": [
+        "drug:hypertonic-saline",
+        "topic:herniation",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 102,
+      "type": "assessment",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "Which finding does 5.05 call the hallmark sign of herniation?",
+      "options": [
+        "A unilateral, dilated pupil",
+        "Cushing reflex",
+        "Decerebrate posturing",
+        "Hemiparesis opposite the dilated pupil"
+      ],
+      "answer_index": 0,
+      "explanation": "A unilateral dilated pupil is named the hallmark sign, progressing to bilateral and fixed as herniation worsens. The other findings listed are also signs, but the blown pupil is the one 5.05 singles out.",
+      "priority": "core",
+      "tags": [
+        "topic:herniation",
+        "topic:neuro-assessment"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+      "page": 103,
+      "type": "assessment",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "Which triad does 5.05 list as the Cushing reflex?",
+      "options": [
+        "Hypertension, bradycardia, irregular respirations",
+        "Hypotension, tachycardia, irregular respirations",
+        "Hypertension, tachycardia, hyperventilation",
+        "Hypotension, bradycardia, apnea"
+      ],
+      "answer_index": 0,
+      "explanation": "Cushing reflex is hypertension, bradycardia and irregular respirations or apnea — a late sign of raised intracranial pressure that should trigger herniation treatment, not treatment of the blood pressure.",
+      "priority": "detail",
+      "tags": [
+        "topic:herniation",
+        "topic:icp"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Cardiogenic Shock",
+      "page": 104,
+      "type": "threshold",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "To what mean arterial pressure does 5.05 Cardiogenic Shock direct adult fluid boluses be titrated?",
+      "options": [
+        "MAP ≥ 55 mmHg",
+        "MAP ≥ 65 mmHg",
+        "MAP ≥ 75 mmHg",
+        "MAP ≥ 90 mmHg"
+      ],
+      "answer_index": 1,
+      "explanation": "Adult boluses are titrated to a MAP of at least 65 mmHg — a perfusion endpoint rather than a systolic number, because cardiogenic shock is about flow, not pressure alone.",
+      "priority": "core",
+      "tags": [
+        "topic:cardiogenic-shock",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Cardiogenic Shock",
+      "page": 104,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "What NS/LR bolus volume does 5.05 Cardiogenic Shock direct for the adult?",
+      "options": [
+        "250 mL",
+        "500 mL",
+        "1,000 mL",
+        "5 – 10 mL/kg"
+      ],
+      "answer_index": 0,
+      "explanation": "The failing heart tolerates volume poorly, so boluses are 250 mL, repeatable three times only if there are no signs of pulmonary edema. If fluid fails, a vasopressor is started rather than more volume.",
+      "priority": "core",
+      "tags": [
+        "drug:normal-saline",
+        "topic:cardiogenic-shock",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Cardiogenic Shock",
+      "page": 104,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "What NS/LR bolus does 5.05 Cardiogenic Shock direct for the pediatric patient?",
+      "options": [
+        "5 – 10 mL/kg",
+        "10 – 20 mL/kg",
+        "20 mL/kg",
+        "60 mL/kg"
+      ],
+      "answer_index": 0,
+      "explanation": "Children get 5-10 mL/kg boluses — smaller than the 20 mL/kg used in hypovolemia — repeatable twice to a maximum of 60 mL/kg if there is no pulmonary edema.",
+      "priority": "core",
+      "tags": [
+        "drug:normal-saline",
+        "topic:cardiogenic-shock",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Cardiogenic Shock",
+      "page": 104,
+      "type": "special",
+      "care_level": "ALS",
+      "population": "neonatal",
+      "stem": "Which fluid does 5.05 Cardiogenic Shock direct be avoided in neonates ≤ 28 days?",
+      "options": [
+        "Lactated Ringer's",
+        "Normal saline",
+        "D5NS",
+        "Hypertonic saline 3%"
+      ],
+      "answer_index": 0,
+      "explanation": "Lactated Ringer's is avoided in neonates 28 days or younger, whose immature liver handles the lactate load poorly; normal saline is used instead.",
+      "priority": "detail",
+      "tags": [
+        "topic:cardiogenic-shock",
+        "population:neonatal"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Cardiogenic Shock",
+      "page": 104,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "What is the adult push dose epinephrine dose in 5.05 Cardiogenic Shock?",
+      "options": [
+        "1 – 5 mcg",
+        "5 – 20 mcg",
+        "20 – 50 mcg",
+        "50 – 100 mcg"
+      ],
+      "answer_index": 1,
+      "explanation": "Push dose epinephrine 5-20 mcg IV q 3-5 min PRN is a temporizing measure to hold a pressure while an infusion is being mixed and started — it is not a substitute for the infusion.",
+      "priority": "core",
+      "tags": [
+        "drug:epinephrine",
+        "topic:cardiogenic-shock",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Cardiogenic Shock",
+      "page": 104,
+      "type": "max_dose",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "What is the maximum single push dose epinephrine dose for a pediatric patient in 5.05 Cardiogenic Shock?",
+      "options": [
+        "10 mcg",
+        "20 mcg",
+        "50 mcg",
+        "100 mcg"
+      ],
+      "answer_index": 1,
+      "explanation": "The pediatric push dose is 0.1 mL/kg (1 mcg/kg) of the 10 mcg/mL concentration, capped at 20 mcg per dose — the bottom of the adult range.",
+      "priority": "detail",
+      "tags": [
+        "drug:epinephrine",
+        "topic:cardiogenic-shock",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Cardiogenic Shock",
+      "page": 104,
+      "type": "max_dose",
+      "care_level": "ALS",
+      "population": "both",
+      "stem": "To what maximum does 5.05 Cardiogenic Shock allow norepinephrine to be titrated?",
+      "options": [
+        "20 mcg/min",
+        "30 mcg/min",
+        "45 mcg/min",
+        "60 mcg/min"
+      ],
+      "answer_index": 2,
+      "explanation": "Norepinephrine starts at 2-10 mcg/min (or 0.05 mcg/kg/min) and is titrated every 3-5 minutes to a maximum of 45 mcg/min.",
+      "priority": "detail",
+      "tags": [
+        "drug:norepinephrine",
+        "topic:cardiogenic-shock",
+        "route:infusion"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Cardiogenic Shock",
+      "page": 104,
+      "type": "treatment",
+      "care_level": "ALS",
+      "population": "adult",
+      "stem": "An adult in cardiogenic shock remains hypotensive after fluid boluses. What does 5.05 Cardiogenic Shock direct?",
+      "options": [
+        "Initiate a vasopressor",
+        "Continue 250 mL boluses until the MAP is met",
+        "Start dobutamine as the first agent",
+        "Transport without further intervention"
+      ],
+      "answer_index": 0,
+      "explanation": "Boluses stop and a vasopressor starts once fluid fails — pushing more volume into a failing ventricle produces pulmonary edema, not perfusion. Dobutamine is a CCT-level addition after vasopressors.",
+      "priority": "core",
+      "tags": [
+        "topic:cardiogenic-shock",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Cardiogenic Shock",
+      "page": 105,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "both",
+      "stem": "At what rate does 5.05 Cardiogenic Shock direct a dobutamine infusion be started?",
+      "options": [
+        "2 mcg/kg/min",
+        "5 mcg/kg/min",
+        "10 mcg/kg/min",
+        "20 mcg/kg/min"
+      ],
+      "answer_index": 1,
+      "explanation": "Dobutamine starts at 5 mcg/kg/min for adults and children alike, considered only when the patient is unresponsive to fluids and the vasopressors above it.",
+      "priority": "detail",
+      "tags": [
+        "drug:dobutamine",
+        "topic:cardiogenic-shock",
+        "route:infusion"
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "Cardiogenic Shock",
+      "page": 105,
+      "type": "max_dose",
+      "care_level": "CCT",
+      "population": "both",
+      "stem": "To what maximum rate may dobutamine be titrated in 5.05 Cardiogenic Shock?",
+      "options": [
+        "1 mcg/kg/min",
+        "10 mcg/kg/min",
+        "20 mcg/kg/min",
+        "45 mcg/kg/min"
+      ],
+      "answer_index": 2,
+      "explanation": "Dobutamine is titrated by 0.5-1 mcg/kg/min every 3-5 minutes to a maximum of 20 mcg/kg/min; above that the inotropy is bought with tachycardia and ischemia.",
+      "priority": "detail",
+      "tags": [
+        "drug:dobutamine",
+        "topic:cardiogenic-shock",
+        "route:infusion"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 106,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What initial fluid does 5.06 direct for an adult DKA patient with evidence of dehydration?",
+      "options": [
+        "NS 250 mL",
+        "NS 500 mL",
+        "NS 1000 mL",
+        "NS 10 – 20 mL/kg"
+      ],
+      "answer_index": 2,
+      "explanation": "Adults get NS 1,000 mL, repeated PRN, for evidence of dehydration. 10-20 mL/kg is the pediatric figure, and pediatric resuscitation also requires contacting the receiving provider before continuing.",
+      "priority": "core",
+      "tags": [
+        "drug:normal-saline",
+        "topic:dka",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 106,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What maintenance fluid rate does 5.06 direct for the adult DKA patient?",
+      "options": [
+        "NS at 100 mL/hr",
+        "NS at 150 mL/hr",
+        "NS at 250 mL/hr",
+        "NS at 500 mL/hr"
+      ],
+      "answer_index": 2,
+      "explanation": "Maintenance runs at NS 250 mL/hr after the resuscitation bolus. The 100 mL/hr figure is the rate for the D10 that is added once the glucose falls.",
+      "priority": "detail",
+      "tags": [
+        "drug:normal-saline",
+        "topic:dka",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 106,
+      "type": "threshold",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "At what blood glucose does 5.06 direct D10 be added at 100 mL/hr for the adult?",
+      "options": [
+        "Below 100 mg/dL",
+        "Below 150 mg/dL",
+        "Below 250 mg/dL",
+        "Below 300 mg/dL"
+      ],
+      "answer_index": 2,
+      "explanation": "D10 is added at 100 mL/hr once the glucose falls below 250 mg/dL, holding the BGL at 150-250 so the insulin infusion can keep running and close the anion gap without causing hypoglycemia.",
+      "priority": "core",
+      "tags": [
+        "drug:dextrose",
+        "topic:dka",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 106,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "How much potassium does 5.06 direct be added to adult maintenance fluids when the K⁺ is 4.0 – 5.4?",
+      "options": [
+        "None",
+        "10 mEq/L",
+        "20 mEq/L",
+        "40 mEq/L"
+      ],
+      "answer_index": 2,
+      "explanation": "A K⁺ of 4.0-5.4 gets 20 mEq/L added to the maintenance fluid. Insulin drives potassium intracellularly, so a 'normal' potassium in DKA is already a depleted one.",
+      "priority": "detail",
+      "tags": [
+        "drug:potassium-chloride",
+        "topic:dka",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 106,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "How much potassium does 5.06 direct be added to adult maintenance fluids when the K⁺ is below 4.0?",
+      "options": [
+        "None",
+        "10 mEq/L",
+        "20 mEq/L",
+        "40 mEq/L"
+      ],
+      "answer_index": 3,
+      "explanation": "A K⁺ under 4.0 gets 40 mEq/L. Above 5.4 no potassium is added at all, since insulin and fluids will bring the level down on their own.",
+      "priority": "core",
+      "tags": [
+        "drug:potassium-chloride",
+        "topic:dka",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 106,
+      "type": "max_dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What is the maximum potassium infusion rate in 5.06 through a peripheral line without a cardiac monitor?",
+      "options": [
+        "5 mEq/hr",
+        "10 mEq/hr",
+        "20 mEq/hr",
+        "40 mEq/hr"
+      ],
+      "answer_index": 1,
+      "explanation": "Peripherally without a cardiac monitor the ceiling is 10 mEq/hr; a central line with the patient on a monitor allows 20 mEq/hr.",
+      "priority": "core",
+      "tags": [
+        "drug:potassium-chloride",
+        "topic:dka"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 106,
+      "type": "contraindication",
+      "care_level": "CCT",
+      "population": "both",
+      "stem": "What does 5.06 prohibit with any fluid or line containing potassium?",
+      "options": [
+        "Bolusing it",
+        "Running it peripherally",
+        "Warming it",
+        "Running it with insulin"
+      ],
+      "answer_index": 0,
+      "explanation": "5.06 states in capitals that no fluid or line containing potassium may be bolused — a rapid potassium load can cause fatal arrhythmia, which is also why the hourly rate ceilings exist.",
+      "priority": "core",
+      "tags": [
+        "drug:potassium-chloride",
+        "topic:dka"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 106,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What regular insulin regimen does 5.06 direct for the adult DKA patient?",
+      "options": [
+        "0.1 units/kg bolus, then 0.1 unit/kg/hr infusion",
+        "0.05 – 0.1 unit/kg/hr infusion with no bolus",
+        "10 units IV bolus, then 0.1 unit/kg/hr infusion",
+        "0.1 units/kg bolus only, repeated hourly"
+      ],
+      "answer_index": 0,
+      "explanation": "Adults get a 0.1 units/kg bolus followed by a 0.1 unit/kg/hr infusion. If the sending facility already has an insulin infusion running, that established rate is used as the starting point.",
+      "priority": "core",
+      "tags": [
+        "drug:insulin",
+        "topic:dka",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 106,
+      "type": "threshold",
+      "care_level": "CCT",
+      "population": "both",
+      "stem": "Below what potassium level does 5.06 direct that insulin not be started?",
+      "options": [
+        "3.3 mEq/L",
+        "3.5 mEq/L",
+        "4.0 mEq/L",
+        "5.4 mEq/L"
+      ],
+      "answer_index": 0,
+      "explanation": "Insulin is withheld until the potassium is at least 3.3 mEq/L, because insulin shifts potassium into cells and would push an already low level into arrhythmia territory.",
+      "priority": "core",
+      "tags": [
+        "drug:insulin",
+        "topic:dka"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 106,
+      "type": "threshold",
+      "care_level": "CCT",
+      "population": "both",
+      "stem": "At what rate does 5.06 direct the blood glucose be lowered in DKA?",
+      "options": [
+        "Less than 50 mg/dL/hr",
+        "Less than 100 mg/dL/hr",
+        "Less than 150 mg/dL/hr",
+        "Less than 250 mg/dL/hr"
+      ],
+      "answer_index": 1,
+      "explanation": "The insulin rate is adjusted to drop the glucose by less than 100 mg/dL/hr, with BGL checked at least every 30 minutes. Dropping it faster risks cerebral edema, particularly in children.",
+      "priority": "detail",
+      "tags": [
+        "drug:insulin",
+        "topic:dka"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 107,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "What initial fluid resuscitation does 5.06 direct for a pediatric DKA patient with dehydration?",
+      "options": [
+        "NS 5 mL/kg",
+        "NS 10 – 20 mL/kg",
+        "NS 20 – 40 mL/kg",
+        "NS 1,000 mL"
+      ],
+      "answer_index": 1,
+      "explanation": "Children get NS 10-20 mL/kg if it was not given prior to arrival, and the receiving provider must be contacted before continuing fluid resuscitation — over-resuscitation is linked to cerebral edema in pediatric DKA.",
+      "priority": "core",
+      "tags": [
+        "drug:normal-saline",
+        "topic:dka",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 107,
+      "type": "contraindication",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "What does 5.06 prohibit in the pediatric DKA patient?",
+      "options": [
+        "An insulin bolus",
+        "An insulin infusion",
+        "Potassium replacement",
+        "Dextrose-containing maintenance fluid"
+      ],
+      "answer_index": 0,
+      "explanation": "Children must not receive an insulin bolus — only an infusion. The abrupt osmotic shift from a bolus is implicated in the cerebral edema that carries a 25% mortality in pediatric DKA.",
+      "priority": "core",
+      "tags": [
+        "drug:insulin",
+        "topic:dka",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 107,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "Which regular insulin regimen does 5.06 direct for the pediatric DKA patient?",
+      "options": [
+        "0.05 – 0.1 unit/kg/hr infusion, no bolus",
+        "0.1 units/kg bolus, then 0.1 unit/kg/hr infusion",
+        "0.1 unit/kg/hr infusion after a 10 unit bolus",
+        "0.05 unit/kg/hr infusion after a 0.1 units/kg bolus"
+      ],
+      "answer_index": 0,
+      "explanation": "Pediatric patients get a 0.05-0.1 unit/kg/hr infusion and no bolus at all; the bolus-then-infusion regimen belongs to adults.",
+      "priority": "core",
+      "tags": [
+        "drug:insulin",
+        "topic:dka",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 107,
+      "type": "treatment",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "Which agent does 5.06 direct as first line for signs of cerebral edema in pediatric DKA?",
+      "options": [
+        "Mannitol",
+        "Hypertonic saline 3%",
+        "Sodium bicarbonate",
+        "Dexamethasone"
+      ],
+      "answer_index": 0,
+      "explanation": "Mannitol 0.5-1 gram/kg over 15 minutes is first line here and should be obtained from the sending facility if able; hypertonic saline 3% at 5 mL/kg is the second line if mannitol is unavailable or ineffective.",
+      "priority": "core",
+      "tags": [
+        "drug:mannitol",
+        "topic:dka",
+        "topic:cerebral-edema",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "Diabetic Ketoacidosis",
+      "page": 108,
+      "type": "contraindication",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "What does 5.06 say about sodium bicarbonate in DKA?",
+      "options": [
+        "Contraindicated in children due to cerebral edema risk",
+        "First line for severe acidosis in adults",
+        "Given once the pH falls below 7.0",
+        "Given only after the potassium is corrected"
+      ],
+      "answer_index": 0,
+      "explanation": "There is no proven benefit for severe acidosis in adults, and in children bicarbonate is contraindicated because of increased morbidity and mortality from cerebral edema.",
+      "priority": "core",
+      "tags": [
+        "drug:sodium-bicarbonate",
+        "topic:dka"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 109,
+      "type": "contraindication",
+      "care_level": "BLS",
+      "population": "both",
+      "stem": "To which patients does 5.07 say liquid oral glucose must not be given?",
+      "options": [
+        "Those without a gag reflex or with rapidly diminishing mental status",
+        "Those with a blood glucose above 60 mg/dL",
+        "Those with known type 1 diabetes",
+        "Those who received dextrose within the past hour"
+      ],
+      "answer_index": 0,
+      "explanation": "Oral glucose is withheld from patients without a gag reflex or whose mental status is dropping quickly, because the aspiration risk outweighs the benefit when an IV route is minutes away.",
+      "priority": "core",
+      "tags": [
+        "topic:hypoglycemia",
+        "drug:oral-glucose"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 109,
+      "type": "threshold",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "Below what serum potassium does 5.07 say adult hypokalemia requires emergent therapy?",
+      "options": [
+        "2.5 mEq/L",
+        "3.0 mEq/L",
+        "3.5 mEq/L",
+        "4.0 mEq/L"
+      ],
+      "answer_index": 0,
+      "explanation": "Unless the potassium is below 2.5, hypokalemia rarely requires emergent therapy. The exception is a potassium under 3.0 with symptoms such as dysrhythmias, ischemia or severe weakness.",
+      "priority": "core",
+      "tags": [
+        "topic:hypokalemia"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 109,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What oral potassium chloride dose does 5.07 direct for an adult with a K⁺ of 2.5 – 3.5?",
+      "options": [
+        "20 mEq PO",
+        "40 mEq PO",
+        "60 mEq PO",
+        "2 mEq/kg PO"
+      ],
+      "answer_index": 1,
+      "explanation": "Adults get 40 mEq PO, repeatable once in 30-60 minutes, for a potassium in the 2.5-3.5 range. The pediatric oral dose is 2 mEq/kg with the same 40 mEq cap.",
+      "priority": "detail",
+      "tags": [
+        "drug:potassium-chloride",
+        "topic:hypokalemia",
+        "route:po",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 109,
+      "type": "max_dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What is the maximum IV potassium infusion rate in 5.07 for an adult?",
+      "options": [
+        "5 mEq/hr",
+        "10 mEq/hr",
+        "20 mEq/hr",
+        "40 mEq/hr"
+      ],
+      "answer_index": 1,
+      "explanation": "The adult IV potassium infusion of 40 mEq must not exceed 10 mEq/hr, and is reserved for a K⁺ under 2.5, or under 3.0 with symptoms.",
+      "priority": "core",
+      "tags": [
+        "drug:potassium-chloride",
+        "topic:hypokalemia",
+        "route:iv",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 110,
+      "type": "threshold",
+      "care_level": "CCT",
+      "population": "both",
+      "stem": "At what serum potassium does 5.07 define hyperkalemia requiring treatment?",
+      "options": [
+        "≥ 5.0 mEq/L",
+        "≥ 5.4 mEq/L",
+        "≥ 6 mEq/L",
+        "≥ 6.5 mEq/L"
+      ],
+      "answer_index": 2,
+      "explanation": "5.07 sets hyperkalemia at a potassium of 6 mEq/L or above and directs that it be treated at that level even without ECG changes; levels under 6 rarely require acute treatment.",
+      "priority": "core",
+      "tags": [
+        "topic:hyperkalemia"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 110,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What is the adult calcium gluconate 10% dose in 5.07 for hyperkalemia?",
+      "options": [
+        "1 gram IV over 2 minutes",
+        "3 grams IV over 2 minutes",
+        "50 mg/kg IV over 2 minutes",
+        "10 grams IV over 2 minutes"
+      ],
+      "answer_index": 1,
+      "explanation": "Adults get calcium gluconate 10% 3 grams IV over 2 minutes to stabilise the myocardium. 50 mg/kg is the pediatric dose.",
+      "priority": "core",
+      "tags": [
+        "drug:calcium-gluconate",
+        "topic:hyperkalemia",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 110,
+      "type": "indication",
+      "care_level": "CCT",
+      "population": "both",
+      "stem": "For what findings does 5.07 direct calcium gluconate in hyperkalemia?",
+      "options": [
+        "Peaked T-waves, wide QRS complexes, or ventricular ectopy",
+        "A potassium above 6 mEq/L regardless of the ECG",
+        "Any patient with known renal failure",
+        "Hypotension with a narrow QRS complex"
+      ],
+      "answer_index": 0,
+      "explanation": "Calcium is for ECG evidence of membrane instability — peaked T-waves, a widening QRS or ventricular ectopy. 5.07 notes it is rarely indicated and usually not given in the absence of ECG changes.",
+      "priority": "core",
+      "tags": [
+        "drug:calcium-gluconate",
+        "topic:hyperkalemia"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 110,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What dextrose and insulin does 5.07 direct for adult hyperkalemia?",
+      "options": [
+        "D10 250 mL plus regular insulin 10 units",
+        "D10 250 mL plus regular insulin 5 units",
+        "D50 50 mL plus regular insulin 10 units",
+        "D10 2 mL/kg plus regular insulin 0.1 units/kg"
+      ],
+      "answer_index": 0,
+      "explanation": "Adults get D10 250 mL with regular insulin 10 units to shift potassium intracellularly; the dextrose is omitted if the BGL is already above 250 mg/dL. The weight-based pairing is the pediatric regimen.",
+      "priority": "core",
+      "tags": [
+        "drug:insulin",
+        "drug:dextrose",
+        "topic:hyperkalemia",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 110,
+      "type": "max_dose",
+      "care_level": "CCT",
+      "population": "both",
+      "stem": "What is the maximum sodium bicarbonate dose in 5.07 for hyperkalemia?",
+      "options": [
+        "25 mEq",
+        "50 mEq",
+        "100 mEq",
+        "150 mEq"
+      ],
+      "answer_index": 1,
+      "explanation": "Sodium bicarbonate is 1 mEq/kg IV capped at 50 mEq, repeatable if ECG changes persist or if the patient arrests. It must not be given to a patient in DKA.",
+      "priority": "detail",
+      "tags": [
+        "drug:sodium-bicarbonate",
+        "topic:hyperkalemia"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 110,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What furosemide dose does 5.07 direct for adult hyperkalemia?",
+      "options": [
+        "10 mg IV",
+        "20 mg IV",
+        "40 mg IV",
+        "100 mg IV"
+      ],
+      "answer_index": 1,
+      "explanation": "Furosemide 20 mg IV — or a dose equal to the patient's own daily dose — is given with NS, capped at 100 mg, and only for patients with normal to moderate renal function.",
+      "priority": "detail",
+      "tags": [
+        "drug:furosemide",
+        "topic:hyperkalemia",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 110,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "adult",
+      "stem": "What hypertonic saline 3% rate does 5.07 direct for an adult with severe hyponatremia — seizures, obtundation or cerebral edema?",
+      "options": [
+        "0.5 – 2 mL/kg/hr",
+        "1 – 3 mL/kg/hr",
+        "3 – 6 mL/kg/hr",
+        "5 mL/kg over 15 min"
+      ],
+      "answer_index": 2,
+      "explanation": "Severe symptoms get 3-6 mL/kg/hr; the lower 0.5-2 mL/kg/hr band is for a sodium under 120 with only moderate symptoms such as nausea, malaise, lethargy or headache. Both require provider consult and orders.",
+      "priority": "core",
+      "tags": [
+        "drug:hypertonic-saline",
+        "topic:hyponatremia",
+        "population:adult"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 110,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "What is the pediatric calcium gluconate 10% dose in 5.07 for hyperkalemia?",
+      "options": [
+        "10 mg/kg IV over 2 minutes",
+        "50 mg/kg IV over 2 minutes",
+        "100 mg/kg IV over 2 minutes",
+        "3 grams IV over 2 minutes"
+      ],
+      "answer_index": 1,
+      "explanation": "Children get calcium gluconate 10% at 50 mg/kg IV over 2 minutes, for the same ECG findings as adults — peaked T-waves, wide QRS or ventricular ectopy.",
+      "priority": "detail",
+      "tags": [
+        "drug:calcium-gluconate",
+        "topic:hyperkalemia",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 111,
+      "type": "indication",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "Which finding does 5.07 list as an indication for IV potassium replacement when the potassium is below 3.0?",
+      "options": [
+        "Cardiac irritability or dysrhythmias",
+        "A blood glucose above 250 mg/dL",
+        "Treatment with a potassium-sparing diuretic",
+        "A history of chronic renal failure"
+      ],
+      "answer_index": 0,
+      "explanation": "IV replacement is indicated for K⁺ under 2.5, or under 3.0 with cardiac irritability or dysrhythmias, cardiac ischemia, severe weakness or paralysis, recent potassium-wasting diuretics, digoxin, or as part of DKA management.",
+      "priority": "detail",
+      "tags": [
+        "drug:potassium-chloride",
+        "topic:hypokalemia"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 111,
+      "type": "pearl",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "What does 5.07 say about reversing hyperkalemia with insulin during transport?",
+      "options": [
+        "LFN does not carry insulin — reversal is done at the sending hospital",
+        "Insulin is carried and may be given en route",
+        "Insulin may be given only with provider orders",
+        "Insulin is given only in cardiac arrest"
+      ],
+      "answer_index": 0,
+      "explanation": "Because insulin is not carried, hyperkalemia reversal has to happen before departure — which is why 5.07 insists the crew ask the sending hospital whether a repeat potassium was drawn and whether treatment was already given.",
+      "priority": "core",
+      "tags": [
+        "drug:insulin",
+        "topic:hyperkalemia"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 111,
+      "type": "contraindication",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "5.07 directs that sodium bicarbonate not be given to which patients?",
+      "options": [
+        "Patients in DKA",
+        "Patients in cardiac arrest",
+        "Patients with renal failure",
+        "Patients with peaked T-waves"
+      ],
+      "answer_index": 0,
+      "explanation": "Hyperkalemia associated with DKA corrects with fluids and insulin, so bicarbonate adds nothing and carries the cerebral edema risk noted in 5.06. It may be repeated in cardiac arrest.",
+      "priority": "core",
+      "tags": [
+        "drug:sodium-bicarbonate",
+        "topic:hyperkalemia",
+        "topic:dka"
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "Electrolyte Disturbances",
+      "page": 112,
+      "type": "threshold",
+      "care_level": "PEARLS",
+      "population": "both",
+      "stem": "Over what period does 5.07 direct correction of serum sodium from 120 to normal?",
+      "options": [
+        "12 hours",
+        "24 hours",
+        "48 hours",
+        "72 hours"
+      ],
+      "answer_index": 2,
+      "explanation": "Correction from 120 back to normal is spread over 48 hours; correcting faster risks osmotic demyelination. In seizing, obtunded or cardiac-abnormal patients the immediate goal is only a sodium of 120.",
+      "priority": "detail",
+      "tags": [
+        "topic:hyponatremia"
+      ]
+    },
+    {
+      "number": "5.08",
+      "title": "Epiglottitis & Croup",
+      "page": 113,
+      "type": "threshold",
+      "care_level": "BLS",
+      "population": "both",
+      "stem": "What SpO₂ does 5.08 direct be maintained with supplemental oxygen?",
+      "options": [
+        "> 90%",
+        "> 92%",
+        "> 94%",
+        "90 – 94%"
+      ],
+      "answer_index": 2,
+      "explanation": "5.08 targets an SpO₂ above 94% — unlike COPD, where 90-94% is the goal, there is no reason to tolerate a lower saturation in a child with upper airway obstruction.",
+      "priority": "core",
+      "tags": [
+        "topic:croup",
+        "topic:epiglottitis",
+        "topic:oxygen"
+      ]
+    },
+    {
+      "number": "5.08",
+      "title": "Epiglottitis & Croup",
+      "page": 113,
+      "type": "treatment",
+      "care_level": "BLS",
+      "population": "both",
+      "stem": "How does 5.08 direct a child with suspected epiglottitis or croup be managed at the BLS level?",
+      "options": [
+        "Kept calm and sitting, with stimulation minimized",
+        "Laid supine with the head of the bed flat",
+        "Placed in the recovery position and suctioned",
+        "Sedated and secured in a car seat"
+      ],
+      "answer_index": 0,
+      "explanation": "Agitation increases airway turbulence and oxygen demand and can convert a partial obstruction into a complete one, so the child is kept calm, upright, minimally stimulated, and ideally transported with a parent.",
+      "priority": "core",
+      "tags": [
+        "topic:croup",
+        "topic:epiglottitis"
+      ]
+    },
+    {
+      "number": "5.08",
+      "title": "Epiglottitis & Croup",
+      "page": 113,
+      "type": "equipment",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "When intubating a patient with croup, what endotracheal tube does 5.08 direct?",
+      "options": [
+        "0.5 mm smaller than indicated",
+        "0.5 mm larger than indicated",
+        "1 mm smaller than indicated",
+        "The size indicated by length-based tape"
+      ],
+      "answer_index": 0,
+      "explanation": "Subglottic swelling narrows the airway below the cords, so 5.08 directs an ETT 0.5 mm smaller than the size the child's age or length would otherwise indicate.",
+      "priority": "core",
+      "tags": [
+        "topic:croup",
+        "procedure:intubation",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.08",
+      "title": "Epiglottitis & Croup",
+      "page": 113,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "What is the methylprednisolone dose in 5.08 for suspected croup?",
+      "options": [
+        "0.6 mg/kg IV/IO",
+        "1 mg/kg IV/IO",
+        "2 mg/kg IV/IO",
+        "125 mg IV/IO"
+      ],
+      "answer_index": 2,
+      "explanation": "Methylprednisolone is 2 mg/kg IV/IO for suspected croup, capped at 60 mg. 0.6 mg/kg is the dexamethasone dose, which is preferred at the CCT level when available.",
+      "priority": "core",
+      "tags": [
+        "drug:methylprednisolone",
+        "topic:croup",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.08",
+      "title": "Epiglottitis & Croup",
+      "page": 113,
+      "type": "dose",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "What is the acetaminophen dose in 5.08 for a child with croup and a fever?",
+      "options": [
+        "10 mg/kg IV over 15 minutes",
+        "15 mg/kg IV over 15 minutes",
+        "20 mg/kg IV over 15 minutes",
+        "30 mg/kg IV over 15 minutes"
+      ],
+      "answer_index": 1,
+      "explanation": "Acetaminophen 15 mg/kg IV over 15 minutes every 6 hours, capped at 750 mg. Treating the fever reduces the respiratory and metabolic demand on an already compromised airway.",
+      "priority": "detail",
+      "tags": [
+        "drug:acetaminophen",
+        "topic:croup",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.08",
+      "title": "Epiglottitis & Croup",
+      "page": 113,
+      "type": "treatment",
+      "care_level": "ALS",
+      "population": "pediatric",
+      "stem": "What does 5.08 prohibit in the patient with suspected epiglottitis?",
+      "options": [
+        "Starting an IV or looking into the mouth",
+        "Giving supplemental oxygen",
+        "Transporting with a parent present",
+        "Giving nebulized epinephrine"
+      ],
+      "answer_index": 0,
+      "explanation": "Any manipulation — including starting an IV or examining the mouth — can provoke laryngospasm and complete obstruction, so 5.08 forbids both. For IFTs, anesthesia and/or ENT evaluation at the sending facility should be strongly considered.",
+      "priority": "core",
+      "tags": [
+        "topic:epiglottitis",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.08",
+      "title": "Epiglottitis & Croup",
+      "page": 113,
+      "type": "dose",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "What is the dexamethasone dose in 5.08 for croup?",
+      "options": [
+        "0.15 mg/kg",
+        "0.6 mg/kg",
+        "2 mg/kg",
+        "6 mg/kg"
+      ],
+      "answer_index": 1,
+      "explanation": "Dexamethasone 0.6 mg/kg IV/IM/PO is the preferred steroid for croup when available, capped at 12 mg; methylprednisolone 2 mg/kg is the fallback.",
+      "priority": "core",
+      "tags": [
+        "drug:dexamethasone",
+        "topic:croup",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.08",
+      "title": "Epiglottitis & Croup",
+      "page": 113,
+      "type": "max_dose",
+      "care_level": "CCT",
+      "population": "pediatric",
+      "stem": "What is the maximum dexamethasone dose in 5.08?",
+      "options": [
+        "6 mg",
+        "10 mg",
+        "12 mg",
+        "60 mg"
+      ],
+      "answer_index": 2,
+      "explanation": "Dexamethasone is capped at 12 mg. The 60 mg ceiling belongs to methylprednisolone, the alternative agent.",
+      "priority": "detail",
+      "tags": [
+        "drug:dexamethasone",
+        "topic:croup",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.08",
+      "title": "Epiglottitis & Croup",
+      "page": 114,
+      "type": "assessment",
+      "care_level": "PEARLS",
+      "population": "pediatric",
+      "stem": "Which presentation does 5.08 describe as croup?",
+      "options": [
+        "Inspiratory stridor, barking cough, and hoarseness",
+        "Abrupt drooling with a tripod posture",
+        "Expiratory wheeze with a prolonged expiratory phase",
+        "Fever with unilateral decreased breath sounds"
+      ],
+      "answer_index": 0,
+      "explanation": "Croup is inspiratory stridor, a barking cough and hoarseness, from inflammation of the larynx and subglottic airway. Drooling and tripod posture point instead to epiglottitis.",
+      "priority": "core",
+      "tags": [
+        "topic:croup",
+        "population:pediatric"
+      ]
+    },
+    {
+      "number": "5.08",
+      "title": "Epiglottitis & Croup",
+      "page": 114,
+      "type": "assessment",
+      "care_level": "PEARLS",
+      "population": "pediatric",
+      "stem": "Which features does 5.08 call hallmarks of bacterial epiglottitis?",
+      "options": [
+        "Abrupt onset and rapid progression within hours",
+        "A barking cough that worsens at night",
+        "Gradual onset over several days",
+        "Stridor relieved by nebulized epinephrine"
+      ],
+      "answer_index": 0,
+      "explanation": "Abrupt onset and rapid progression of upper airway obstruction within hours are the hallmarks of bacterial epiglottitis — the reason a child who looks tolerable on arrival may not be by the time the aircraft lands.",
+      "priority": "detail",
+      "tags": [
+        "topic:epiglottitis",
+        "population:pediatric"
+      ]
+    }
+  ]
+}

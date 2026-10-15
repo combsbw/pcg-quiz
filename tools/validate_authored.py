@@ -155,9 +155,10 @@ def check_batch(path: Path, sections_by_number: dict, strict_pages=True):
         if sec is None:
             errs.append(f"{tag}: unknown section number {q.get('number')!r}")
         elif strict_pages:
-            lo, hi = sec["pages"]
-            if not (lo <= q.get("page", -1) <= hi):
-                errs.append(f"{tag}: page {q.get('page')} outside section range {lo}-{hi}")
+            pg = q.get("page", -1)
+            if not any(lo <= pg <= hi for lo, hi in sec["ranges"]):
+                rng = " or ".join(f"{lo}-{hi}" for lo, hi in sec["ranges"])
+                errs.append(f"{tag}: page {pg} outside section range {rng}")
 
         # Grounding: numbers in a numeric answer must appear on the page.
         if q.get("type") in NUMERIC_TYPES:
@@ -182,11 +183,14 @@ def main():
     args = ap.parse_args()
 
     content = json.loads((ROOT / "docs" / "data" / "content.json").read_text())
+    # The document reuses a number for two different guidelines (5.05 is both
+    # "Atraumatic Hemorrhagic Stroke" and "Cardiogenic Shock"), so a number maps
+    # to a LIST of page ranges. Keying on a single range silently made one of
+    # the two unrepresentable and failed every question written against it.
     sections = {}
-    for g in content["guidelines"]:
-        sections[g["number"]] = {"pages": [g["page"], g.get("end_page", g["page"])]}
-    for d in content["drugs"]:
-        sections[d["number"]] = {"pages": [d["page"], d.get("end_page", d["page"])]}
+    for rec in content["guidelines"] + content["drugs"]:
+        sections.setdefault(rec["number"], {"ranges": []})["ranges"].append(
+            [rec["page"], rec.get("end_page", rec["page"])])
 
     total_q = total_e = total_w = 0
     for f in args.files:

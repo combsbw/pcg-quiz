@@ -1,0 +1,3481 @@
+{
+ "batch": "G03",
+ "questions": [
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 57,
+   "type": "contraindication",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "Which cardiac condition does 3.06 list as a contraindication to intra-aortic balloon pump therapy?",
+   "options": [
+    "Aortic insufficiency",
+    "Acute mitral regurgitation",
+    "Ventricular septal defect",
+    "Cardiogenic shock"
+   ],
+   "explanation": "Aortic insufficiency, thoracic aortic aneurysm and severe peripheral vascular disease are the three listed contraindications; balloon inflation in diastole would worsen regurgitant flow back into the ventricle. The other three choices are listed indications for the device.",
+   "priority": "core",
+   "tags": [
+    "topic:iabp",
+    "topic:contraindications"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 57,
+   "type": "scope",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "Auto Mode is unavailable on a Maquet IABP being prepared for transport. What does 3.06 direct?",
+   "options": [
+    "Manually inflate the balloon every 5 minutes",
+    "Contact CMOC",
+    "Transport in the mode the sending facility has set",
+    "Unplug the ECG leads and use the pressure trigger"
+   ],
+   "explanation": "Auto Mode is the default and the only mode LFN will transport in unless a perfusionist or other healthcare professional running the IABP comes along. If Auto Mode is not available, CMOC must be contacted before the transport proceeds.",
+   "priority": "core",
+   "tags": [
+    "topic:iabp",
+    "topic:medical-control"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 57,
+   "type": "scope",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "Who may remove the intra-aortic balloon under 3.06?",
+   "options": [
+    "An LFN crew member after contacting CMOC",
+    "A perfusionist accompanying the transport",
+    "A physician, PA, NP or hospital-trained nurse",
+    "Any LFN flight nurse or paramedic"
+   ],
+   "explanation": "LFN crew members are explicitly not trained to remove the IAB. Removal is limited to a physician, physician assistant, nurse practitioner, or a nurse trained within their own hospital.",
+   "priority": "core",
+   "tags": [
+    "topic:iabp",
+    "topic:scope-of-practice"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 57,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "At what rate does 3.06 direct a dobutamine infusion be started in the event of IABP failure?",
+   "options": [
+    "1 mcg/kg/min",
+    "2 mcg/kg/min",
+    "20 mcg/kg/min",
+    "5 mcg/kg/min"
+   ],
+   "explanation": "If the balloon pump fails the patient loses its afterload reduction and diastolic augmentation, so inotropic support is started at 5 mcg/kg/min and titrated up. 20 mcg/kg/min is the ceiling, not the starting point.",
+   "priority": "core",
+   "tags": [
+    "drug:dobutamine",
+    "topic:iabp",
+    "route:iv"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 57,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "To what maximum rate does 3.06 allow the dobutamine infusion be titrated after IABP failure?",
+   "options": [
+    "20 mcg/kg/min",
+    "5 mcg/kg/min",
+    "1 mcg/kg/min",
+    "2 mcg/kg/min"
+   ],
+   "explanation": "Dobutamine is titrated by 0.5 - 1 mcg/kg/min every 3-5 minutes to a maximum of 20 mcg/kg/min. 5 mcg/kg/min is where the infusion starts, and 0.5-1 mcg/kg/min is the size of each titration step.",
+   "priority": "core",
+   "tags": [
+    "drug:dobutamine",
+    "topic:iabp",
+    "route:iv"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 57,
+   "type": "landmark",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "On chest x-ray, where should the intra-aortic balloon tip be visible per 3.06?",
+   "options": [
+    "Between the right 3rd and 4th intercostal spaces",
+    "Between the left 2nd and 3rd intercostal spaces",
+    "Between the right 2nd and 3rd intercostal spaces",
+    "Between the left 3rd and 4th intercostal spaces"
+   ],
+   "explanation": "If the IAB was not inserted under fluoroscopy, a CXR from within the last 24 hours must confirm placement, with the balloon tip between the left 2nd and 3rd intercostal spaces. Too high risks occluding the great vessels; too low risks occluding the renal arteries.",
+   "priority": "core",
+   "tags": [
+    "topic:iabp",
+    "procedure:placement-confirmation"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 57,
+   "type": "assessment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "On which extremity does 3.06 direct the SpO2 probe be placed in a patient on an IABP?",
+   "options": [
+    "The left foot",
+    "The right foot",
+    "The left hand",
+    "The right hand"
+   ],
+   "explanation": "The balloon sits in the descending aorta just distal to the left subclavian, so left arm perfusion is the earliest casualty of migration. A left-hand SpO2 probe, together with limb pulses, is how the crew detects it.",
+   "priority": "core",
+   "tags": [
+    "topic:iabp",
+    "topic:assessment"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 58,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "A patient supported by an IABP goes into PEA arrest. What does 3.06 direct the crew do with the ECG leads?",
+   "options": [
+    "Leave them connected so the pump keeps its ECG trigger",
+    "Move them to the posterior chest to improve the signal",
+    "Disconnect the pump entirely and begin manual inflation",
+    "Unplug them so the pump does not sense R waves"
+   ],
+   "explanation": "CPR is started immediately and the IABP normally switches itself to a pressure trigger — except in PEA, where organized electrical activity keeps feeding the pump R waves. Unplugging the ECG leads forces the switch to pressure trigger.",
+   "priority": "core",
+   "tags": [
+    "topic:iabp",
+    "topic:cardiac-arrest"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 58,
+   "type": "complication",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "A 'Gas Loss' alarm sounds on an IABP and blood is visible in the catheter tubing. What does 3.06 direct?",
+   "options": [
+    "Turn off the pump and alert the sending physician",
+    "Use the HELP button on the alarm screen to troubleshoot",
+    "Check the tubing for condensation and reconnect it",
+    "Continue the transport and notify the receiving facility"
+   ],
+   "explanation": "Blood in the gas line means the balloon has ruptured. The pump is turned off immediately and the sending physician alerted for assessment and balloon removal, because continued cycling risks gas embolism and clot on a torn balloon.",
+   "priority": "core",
+   "tags": [
+    "topic:iabp",
+    "topic:balloon-rupture"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 58,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "An IABP has been off and non-functional for more than 30 minutes in flight. What does 3.06 direct?",
+   "options": [
+    "Detach the catheter extender and clamp the IAB catheter",
+    "Manually inflate and deflate the IAB to prevent clot formation",
+    "Leave the balloon undisturbed until arrival at the receiving facility",
+    "Remove the balloon and hold pressure at the insertion site"
+   ],
+   "explanation": "A stationary balloon is a thrombogenic surface. After 30 minutes of inactivity the IAB is manually inflated with 40 mL of air or helium and immediately aspirated, repeated every 5 minutes until a functional pump is available.",
+   "priority": "core",
+   "tags": [
+    "topic:iabp",
+    "topic:pump-failure"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 58,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "With what volume does 3.06 direct the IAB be manually inflated when the pump is non-functional?",
+   "options": [
+    "5 mL",
+    "3 mL",
+    "40 mL",
+    "30 mL"
+   ],
+   "explanation": "The balloon is inflated with 40 mL of air or helium and immediately aspirated, repeated every 5 minutes while the IAB is inactive. Aspirating first confirms no blood is returning through the extracorporeal tubing.",
+   "priority": "detail",
+   "tags": [
+    "topic:iabp",
+    "procedure:manual-inflation"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 59,
+   "type": "equipment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "What does 3.06 direct regarding IABP alarms during transport?",
+   "options": [
+    "Alarms may be silenced once the condition is corrected",
+    "Only the gas-loss alarm needs to remain enabled",
+    "Alarms may be muted for the duration of the flight",
+    "All alarms are to remain set and on at all times"
+   ],
+   "explanation": "Every alarm stays set and on. The console prompts when action is needed and suggests troubleshooting options, and the Quick Reference Guide in the Handtevy Additional Materials section backs it up.",
+   "priority": "core",
+   "tags": [
+    "topic:iabp",
+    "topic:alarms"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 60,
+   "type": "contraindication",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "Which finding does 3.07 list as a contraindication to Impella support?",
+   "options": [
+    "Mural thrombus in the left ventricle",
+    "Advanced heart failure",
+    "Unstable patient requiring emergency cardiac catheterization",
+    "Before, during or after open-heart surgery"
+   ],
+   "explanation": "A left ventricular mural thrombus can be dislodged by the inlet cannula sitting in the ventricle and embolized systemically. The other three are listed indications for placing the device.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:contraindications"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 60,
+   "type": "contraindication",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "Which valve finding does 3.07 list as a contraindication to Impella placement?",
+   "options": [
+    "Tricuspid regurgitation",
+    "A mechanical aortic valve",
+    "Acute mitral regurgitation",
+    "A ventricular septal defect"
+   ],
+   "explanation": "The Impella catheter must cross the aortic valve, so a mechanical valve, aortic stenosis/calcification and moderate-to-severe aortic insufficiency are all listed contraindications.",
+   "priority": "detail",
+   "tags": [
+    "topic:impella",
+    "topic:contraindications"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 60,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "An Impella-supported patient goes into cardiac arrest. What does 3.07 direct in addition to BLS and Cardiac Arrest: Medical care?",
+   "options": [
+    "Stop the Impella and remove the catheter",
+    "Switch the patient to the backup controller",
+    "Reduce the P-level to 2",
+    "Increase the P-level to maximum flow"
+   ],
+   "explanation": "Flow is reduced to P2 during arrest because the ventricle is not filling and high flows will only generate suction. Once ROSC is obtained, pulsatile motor current and proper placement signals are verified before returning to the previous P-level.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:cardiac-arrest"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 60,
+   "type": "sequence",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "After ROSC in an Impella patient whose P-level was reduced, what must be verified before returning to the previous P-level?",
+   "options": [
+    "A purge pressure between 300 and 1100 mmHg",
+    "That the Tuohy lock has been tightened clockwise",
+    "That at least 500 mL of purge fluid remains",
+    "Pulsatile motor current and correct placement signals"
+   ],
+   "explanation": "Position can change during CPR, so the console is checked for pulsatile motor current and appropriate placement signal waveforms before flow is increased again. Restoring flow with the pump malpositioned risks suction and haemolysis.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:cardiac-arrest"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 60,
+   "type": "assessment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "Which blood pressure does 3.07 direct the crew to treat in an Impella-supported patient?",
+   "options": [
+    "The mean arterial pressure",
+    "The systolic pressure",
+    "The diastolic pressure",
+    "The pulse pressure"
+   ],
+   "explanation": "Continuous-flow support flattens the arterial waveform, so systolic and diastolic numbers become unreliable. MAP is the treated value, with a target of at least 65.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:hemodynamics"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 60,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "What MAP does 3.07 target in a patient on Impella support?",
+   "options": [
+    "≥ 10 mmHg",
+    "≥ 65 mmHg",
+    "≥ 50 mmHg",
+    "> 100 mmHg"
+   ],
+   "explanation": "A MAP of at least 65 is the target; if it cannot be met, the sending or receiving physician is contacted for orders to change the P level or add vasopressors. 50 mmHg is the LVAD perfusion goal and 10 mmHg is the CVP target during a suction alarm.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:hemodynamics"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 60,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "How long will a fully charged Impella controller run on battery per 3.07?",
+   "options": [
+    "15 minutes",
+    "25 minutes",
+    "60 minutes",
+    "30 minutes"
+   ],
+   "explanation": "A fully charged battery gives 60 minutes of operation, which is why 3.07 directs temporarily unplugging the controller before departure to prove the battery works and minimising time off AC power.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:equipment"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 60,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "What heparin concentration does 3.07 specify for Impella purge fluid?",
+   "options": [
+    "10 units/mL",
+    "100 units/mL",
+    "1000 units/mL",
+    "25 – 50 units/mL"
+   ],
+   "explanation": "Purge fluid is dextrose in water, usually D5W, with heparin at 25-50 units/mL. Where heparin cannot be used, sodium bicarbonate 25-50 mEq/L is the listed alternative.",
+   "priority": "core",
+   "tags": [
+    "drug:heparin",
+    "topic:impella",
+    "topic:purge-fluid"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 60,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "How much purge fluid does 3.07 require be remaining before leaving the sending facility?",
+   "options": [
+    "≥ 500 mL",
+    "≥ 250 mL",
+    "≥ 1000 mL",
+    "≥ 100 mL"
+   ],
+   "explanation": "At least 500 mL of purge fluid must remain to complete the transport; if not, the bag is changed before departure. The purge keeps dextrose flowing through the motor and cannot be allowed to run dry.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:purge-fluid"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 61,
+   "type": "assessment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "What waveform should the red placement signal show when the Impella is correctly positioned?",
+   "options": [
+    "A pulsatile motor current",
+    "An aortic waveform",
+    "A ventricular waveform",
+    "A flat, damped tracing"
+   ],
+   "explanation": "Correct position is confirmed by three findings together: a red placement signal showing an aortic waveform, an LV placement signal showing a ventricular waveform, and a green motor current that is pulsatile.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "procedure:placement-confirmation"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 61,
+   "type": "assessment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "How should the green motor current appear on a correctly positioned Impella?",
+   "options": [
+    "Damped",
+    "Absent",
+    "Pulsatile",
+    "Flat"
+   ],
+   "explanation": "A pulsatile motor current means the inlet and outlet straddle the aortic valve and the pump is seeing the pressure difference across it. A flat or damped motor current means both ends are on the same side of the valve.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "procedure:placement-confirmation"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 61,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "At what angle does 3.07 direct the head of the bed be kept for an Impella patient?",
+   "options": [
+    "45 degrees or less",
+    "15 degrees or less",
+    "60 degrees or less",
+    "30 degrees or less"
+   ],
+   "explanation": "Keeping the head of bed at 30 degrees or less limits hip flexion and trunk angulation that would migrate a femoral catheter. For the same reason a knee immobilizer is considered on the catheter side.",
+   "priority": "detail",
+   "tags": [
+    "topic:impella",
+    "topic:positioning"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 61,
+   "type": "assessment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "How often does 3.07 direct vitals, Impella flow rate, purge pressure and catheter position be documented?",
+   "options": [
+    "Every 15 minutes",
+    "Every 5 minutes",
+    "Every 30 minutes",
+    "Every 60 minutes"
+   ],
+   "explanation": "Flow, purge pressure, placement signal and motor current are documented every 15 minutes, and insertion-site appearance, catheter length and distal pulses are checked before and after each move and PRN.",
+   "priority": "detail",
+   "tags": [
+    "topic:impella",
+    "topic:documentation"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 61,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "Between what rates does the automated Impella purge system run?",
+   "options": [
+    "30 – 60 mL/hr",
+    "2 – 30 mL/hr",
+    "5 – 10 mL/hr",
+    "2 – 10 mL/hr"
+   ],
+   "explanation": "The purge system is automated and varies its infusion between 2 and 30 mL/hr to hold purge pressure in range and protect the motor. The crew does not set this rate manually.",
+   "priority": "detail",
+   "tags": [
+    "topic:impella",
+    "topic:purge-fluid"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 61,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "What purge pressure does the automated Impella purge system maintain?",
+   "options": [
+    "300 – 500 mmHg",
+    "1100 – 1300 mmHg",
+    "300 – 1100 mmHg",
+    "100 – 300 mmHg"
+   ],
+   "explanation": "The automated purge holds pressure between 300 and 1100 mmHg. Pressure falling out of this window is what triggers the purge pressure low and high alarms, each of which has its own troubleshooting path.",
+   "priority": "detail",
+   "tags": [
+    "topic:impella",
+    "topic:purge-fluid"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 62,
+   "type": "equipment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "What is the flush port at the Tuohy lock used for per 3.07?",
+   "options": [
+    "Drawing blood samples during transport",
+    "Connecting the purge fluid to the catheter",
+    "Transducing aortic pressure to the controller",
+    "Insertion only; it cannot be used to draw blood"
+   ],
+   "explanation": "The flush port is an insertion-phase port only and is explicitly not a blood draw site. Aortic pressure is transduced through the red-tubing pressure port, and purge fluid connects at the yellow port.",
+   "priority": "detail",
+   "tags": [
+    "topic:impella",
+    "topic:equipment"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 62,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "What pressure must the pressure bag maintain within the Impella pressure-port tubing?",
+   "options": [
+    "Greater than 300 mmHg",
+    "Greater than 100 mmHg",
+    "Greater than 60 mmHg",
+    "Greater than 1100 mmHg"
+   ],
+   "explanation": "Normal saline on a pressure bag held above 300 mmHg keeps the red-tubing pressure port patent so the controller can transduce aortic pressure. Impella-specific IV tubing is used for this connection.",
+   "priority": "detail",
+   "tags": [
+    "topic:impella",
+    "topic:equipment"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 64,
+   "type": "complication",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "The Impella motor current becomes flat or damped in flight. What does this indicate?",
+   "options": [
+    "Purge fluid dextrose is too concentrated",
+    "Inlet and outlet are on the same side of the valve",
+    "Air has entered the purge system",
+    "The purge tubing is kinked"
+   ],
+   "explanation": "A flat or damped motor current, with an 'Impella Position in Aorta' or 'in Ventricle' message, means both the inlet and outlet sit in the aorta or both in the ventricle. The patient is no longer being supported until the pump is repositioned.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:troubleshooting"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 64,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "An 'Impella Position in Aorta' message appears during transport. What does 3.07 direct?",
+   "options": [
+    "Withdraw the catheter to the documented insertion length",
+    "Stop the pump and begin chest compressions",
+    "Press Flow Control and decrease to P2",
+    "Increase the P-level until flow normalises"
+   ],
+   "explanation": "The P-level is dropped to P2 with the Flow Control soft button and the selector knob, the patient is managed medically, and the receiving facility is told the pump will need repositioning by echocardiogram on arrival. The flight crew cannot reposition the catheter.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:troubleshooting"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 64,
+   "type": "complication",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "Which finding does 3.07 list as a cause of an Impella suction alarm?",
+   "options": [
+    "A kink in the purge tubing",
+    "Air in the purge line",
+    "Purge fluid that is too dilute",
+    "Low volume in the left ventricle"
+   ],
+   "explanation": "Suction alarms come from low LV volume, incorrect pump position, or right heart failure — all states where the ventricle cannot supply the flow being demanded. Kinks, air and purge fluid concentration drive the purge alarms instead.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:troubleshooting"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 64,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "If CVP monitoring is available during an Impella suction alarm, to what CVP does 3.07 direct fluids be given?",
+   "options": [
+    "≥ 10 mmHg",
+    "≥ 5 mmHg",
+    "≥ 8 mmHg",
+    "≥ 15 mmHg"
+   ],
+   "explanation": "Suction usually means the left ventricle is underfilled, so volume status is assessed and fluids are given to hold a CVP of at least 10 mmHg alongside dropping the P level. P levels are not dropped below P2.",
+   "priority": "detail",
+   "tags": [
+    "topic:impella",
+    "topic:troubleshooting"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 65,
+   "type": "complication",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "An Impella purge pressure HIGH alarm usually indicates what?",
+   "options": [
+    "Low volume in the left ventricle",
+    "A kink in the purge tubing",
+    "A leak or a loose connection",
+    "Air in the purge line"
+   ],
+   "explanation": "High purge pressure is nearly always a kink, so the purge tubing and the yellow purge sidearm at the red Impella plug are checked. Low purge pressure, by contrast, points to leaks or loose connections.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:troubleshooting"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 65,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "What does 3.07 direct for an Air-In-Purge System alarm on the Impella?",
+   "options": [
+    "Decrease the P level to P2 and notify the receiving facility",
+    "Replace the purge cassette with the backup in flight",
+    "Press Purge System and select 'De-Air Purge System'",
+    "Press the Mute Alarm button and continue the transport"
+   ],
+   "explanation": "When the controller detects air the purge stops infusing, so the de-air routine is run from the Purge System menu after confirming the bag is not empty or inverted and the tubing is unclamped. The purge tubing is then reconnected at the Luer lock.",
+   "priority": "core",
+   "tags": [
+    "topic:impella",
+    "topic:troubleshooting"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "page": 64,
+   "type": "equipment",
+   "care_level": "CCT",
+   "population": null,
+   "stem": "Where are an Impella's running settings stored when a controller is swapped out?",
+   "options": [
+    "In the purge cassette",
+    "In the controller's display module",
+    "In the catheter repositioning unit",
+    "In the memory chip in the red Impella plug"
+   ],
+   "explanation": "The memory chip in the red Impella plug remembers the settings the pump was running at, so the new controller recognises the device within 10 seconds and offers to resume them. The patient is unsupported during that changeover.",
+   "priority": "detail",
+   "tags": [
+    "topic:impella",
+    "topic:equipment"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 66,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "An unresponsive patient with a durable LVAD is found to have adequate perfusion. What does the 3.08 algorithm direct?",
+   "options": [
+    "Do not perform chest compressions; treat non-LVAD causes",
+    "Begin external chest compressions immediately",
+    "Stop the VAD and begin chest compressions",
+    "Defibrillate at 200 J and reassess"
+   ],
+   "explanation": "If perfusion is adequate the pump is working and compressions risk dislodging the inflow cannula. The crew monitors perfusion and works through non-LVAD causes of unresponsiveness such as dysrhythmia, hypovolemia, hypoglycemia, hypoxia, overdose, RV failure, sepsis and stroke.",
+   "priority": "core",
+   "tags": [
+    "topic:lvad",
+    "topic:cardiac-arrest"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 66,
+   "type": "assessment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which finding does the 3.08 algorithm accept as evidence of adequate perfusion in an LVAD patient?",
+   "options": [
+    "PETCO2 above 30 mmHg",
+    "MAP above 50 mmHg",
+    "A palpable radial pulse",
+    "A systolic above 90 mmHg"
+   ],
+   "explanation": "LVAD patients may have no palpable pulse at all, so perfusion is judged on skin colour and temperature, capillary refill, a MAP above 50 mmHg, and a PETCO2 above 20 mmHg. A non-functioning NIBP cuff is replaced by doppler or an arterial line.",
+   "priority": "core",
+   "tags": [
+    "topic:lvad",
+    "topic:assessment"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 66,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How does 3.08 direct defibrillation pads be placed on an LVAD patient?",
+   "options": [
+    "Over the pump with the VAD stopped",
+    "Anterior/posterior with the VAD stopped",
+    "Anterior/posterior, avoiding the pump",
+    "Anterior/lateral, directly over the pump"
+   ],
+   "explanation": "Defibrillation, cardioversion and pacing are all acceptable in LVAD patients. Pads must not go over the pump, anterior/posterior placement is acceptable, and the VAD is never stopped to deliver the shock.",
+   "priority": "core",
+   "tags": [
+    "topic:lvad",
+    "topic:defibrillation"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 67,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "LVAD function cannot be restored. Alongside unresponsiveness and poor perfusion, what ETCO2 makes CPR indicated under 3.08?",
+   "options": [
+    "Below 10 mmHg",
+    "Below 30 mmHg",
+    "Below 15 mmHg",
+    "Below 20 mmHg"
+   ],
+   "explanation": "CPR is indicated only when all three are present: the patient is unresponsive, there are signs of poor perfusion with an ETCO2 under 20 mmHg, and there are no contraindications from family or a POLST.",
+   "priority": "core",
+   "tags": [
+    "topic:lvad",
+    "topic:cardiac-arrest"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 67,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Where does 3.08 direct auscultation to confirm an LVAD is running?",
+   "options": [
+    "At the lower left rib margin of the anterior chest",
+    "At the left 5th intercostal space in the midclavicular line",
+    "Over the driveline exit site on the abdominal wall",
+    "Over the right upper quadrant below the costal margin"
+   ],
+   "explanation": "The pump sits at the lower left rib margin of the anterior chest, and a distinct continuous 'hum' there means it is functioning. This is often faster than any attempt at a blood pressure.",
+   "priority": "core",
+   "tags": [
+    "topic:lvad",
+    "topic:assessment"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 67,
+   "type": "assessment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 3.08 identify as the best way to obtain a blood pressure on an LVAD patient?",
+   "options": [
+    "The pulse oximetry waveform",
+    "Doppler",
+    "An automatic NIBP cuff",
+    "A manual cuff and stethoscope"
+   ],
+   "explanation": "Continuous-flow VADs give weak or absent pulsatility, so automatic cuffs and auscultation are unreliable and pulse oximetry may read inaccurately. Doppler over the brachial artery is the listed method of choice.",
+   "priority": "core",
+   "tags": [
+    "topic:lvad",
+    "topic:assessment"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 67,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A VAD is alarming and the driveline and two power sources are confirmed connected. What does 3.08 direct next?",
+   "options": [
+    "Change the system controller before touching the batteries",
+    "Disconnect the driveline and reconnect it firmly",
+    "Change the batteries, but never both at once",
+    "Remove both batteries and switch to AC power"
+   ],
+   "explanation": "If alarms continue after confirming connections, the batteries are changed — one at a time, because removing both simultaneously stops the pump. The controller is changed only if a stopped pump fails to restart on two freshly charged batteries.",
+   "priority": "core",
+   "tags": [
+    "topic:lvad",
+    "topic:troubleshooting"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 67,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "An LVAD pump has stopped. What does 3.08 direct first?",
+   "options": [
+    "Change the system controller",
+    "Begin chest compressions immediately",
+    "Contact the VAD coordinator before any intervention",
+    "Replace both batteries with two charged batteries"
+   ],
+   "explanation": "A stopped pump gets two freshly charged batteries first; only if it still fails to restart is the controller changed. The VAD coordinator is contacted for guidance in the event of pump failure, not before the basic power fix is tried.",
+   "priority": "core",
+   "tags": [
+    "topic:lvad",
+    "topic:troubleshooting"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 67,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "An LVAD patient is hypovolemic and treated per Cardiogenic Shock. What MAP goal does 3.08 set?",
+   "options": [
+    "Above 50 mmHg",
+    "Above 65 mmHg",
+    "Above 60 mmHg",
+    "Above 80 mmHg"
+   ],
+   "explanation": "The stated goal in the hypovolemic LVAD patient is a MAP above 50 mmHg, the same threshold the algorithm uses to call perfusion adequate.",
+   "priority": "detail",
+   "tags": [
+    "topic:lvad",
+    "topic:hemodynamics"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 67,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 3.08 require to accompany the patient in the emergency travel pack?",
+   "options": [
+    "A hand pump and a spare outflow cannula",
+    "Extra batteries, a backup controller and a contact number",
+    "A spare driveline and a replacement pump head",
+    "An AC power unit with an aircraft inverter"
+   ],
+   "explanation": "The travel pack must hold extra batteries, a backup controller and the VAD coordinator's emergency contact number, and it stays with the patient at all times. If AC power is used in flight the aircraft inverter must be on.",
+   "priority": "core",
+   "tags": [
+    "topic:lvad",
+    "topic:equipment"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 67,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 3.08 direct regarding the driveline when loading an LVAD patient?",
+   "options": [
+    "Disconnect it for the move and reconnect once loaded",
+    "Loop it around the controller to take up the slack",
+    "Ensure it is not pulled, kinked or left dangling",
+    "Coil it and tape it to the patient's abdomen"
+   ],
+   "explanation": "The driveline must never be cut, twisted or bent, and during loading the controller and battery packs are kept close to the patient so the line is not pulled, kinked or hanging off the side of the stretcher.",
+   "priority": "core",
+   "tags": [
+    "topic:lvad",
+    "topic:equipment"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 68,
+   "type": "mechanism",
+   "care_level": "ALS",
+   "population": null,
+   "stem": "Where does an LVAD pump drive blood to per 3.08?",
+   "options": [
+    "The pulmonary artery",
+    "The left atrium",
+    "The descending aorta",
+    "The ascending aorta"
+   ],
+   "explanation": "Blood takes the normal path to the left ventricle, where an apical cannula drains it into the system pump, which then drives it into the ascending aorta. The driveline exits the abdominal wall to the external controller.",
+   "priority": "detail",
+   "tags": [
+    "topic:lvad",
+    "topic:mechanism"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 68,
+   "type": "complication",
+   "care_level": "ALS",
+   "population": null,
+   "stem": "From what do LVAD complications usually result per 3.08?",
+   "options": [
+    "Anticoagulation or pump thrombus",
+    "Driveline infection",
+    "Battery failure in flight",
+    "Aortic insufficiency"
+   ],
+   "explanation": "LVAD patients are typically anticoagulated, so complications are usually either bleeding (GI or intracranial) or pump thrombus presenting as CVA or pump thrombosis.",
+   "priority": "detail",
+   "tags": [
+    "topic:lvad",
+    "topic:complications"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "page": 68,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": null,
+   "stem": "Which two devices does 3.08 say most of the areas served by LFN use?",
+   "options": [
+    "SynCardia or HeartWare",
+    "Heartmate II or HeartWare",
+    "Heartmate III or Jarvik 2000",
+    "Impella CP or Impella 5.5"
+   ],
+   "explanation": "Most LFN service areas run Heartmate II or HeartWare, and the main difference between them is how they connect to the left ventricle. Heartmate III, Jarvik 2000 and SynCardia appear only at specific VAD centers.",
+   "priority": "detail",
+   "tags": [
+    "topic:lvad",
+    "topic:equipment"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 70,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What position does the BLS band of 3.09 direct for a patient in pulmonary edema or CHF?",
+   "options": [
+    "Left lateral recumbent with the head down",
+    "Flat supine with the head of the bed lowered",
+    "Position of comfort, often high Fowler's",
+    "Supine with the legs elevated above the heart"
+   ],
+   "explanation": "Sitting upright reduces preload and lets the patient use accessory muscles, so BLS care is position of comfort — often high Fowler's — plus supplemental oxygen as needed.",
+   "priority": "core",
+   "tags": [
+    "topic:pulmonary-edema",
+    "topic:positioning"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 70,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What NS/LR bolus does the ALS adult band of 3.09 direct for a hypotensive CHF patient?",
+   "options": [
+    "500 mL",
+    "1 liter",
+    "10 – 20 mL/kg",
+    "250 mL"
+   ],
+   "explanation": "Boluses are kept small at 250 mL and may be repeated up to three times, but only while there are no signs of pulmonary edema. The weight-based volume is the pediatric dose used elsewhere in the guidelines.",
+   "priority": "core",
+   "tags": [
+    "topic:pulmonary-edema",
+    "topic:fluid-resuscitation",
+    "route:iv"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 70,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "To what MAP does 3.09 direct NS/LR boluses be titrated in a hypotensive adult?",
+   "options": [
+    "≥ 65 mmHg",
+    "≥ 50 mmHg",
+    "> 100 mmHg",
+    "> 120 mmHg"
+   ],
+   "explanation": "The fluid endpoint is a MAP of at least 65. The 100 and 120 mmHg figures in this guideline are systolic floors required before nitroglycerin, not fluid targets.",
+   "priority": "core",
+   "tags": [
+    "topic:pulmonary-edema",
+    "topic:hemodynamics"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 70,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult push-dose epinephrine dose in 3.09 when hypotension is unresponsive to fluids?",
+   "options": [
+    "0.1 mL/kg (1 mcg/kg) IV q 3 – 5 min",
+    "5 – 20 mcg IV q 3 – 5 min PRN",
+    "2 – 10 mcg/min by infusion",
+    "0.05 mcg/kg/min by infusion"
+   ],
+   "explanation": "Push-dose epinephrine of 5-20 mcg every 3-5 minutes is a temporizing measure until an infusion is running. The two infusion rates listed are the norepinephrine starting rates, and the weight-based push dose is the pediatric one.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:pulmonary-edema",
+    "route:iv"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 70,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "To what maximum does 3.09 direct a norepinephrine infusion be titrated in an adult?",
+   "options": [
+    "20 mcg/min or 0.5 mcg/kg/min",
+    "10 mcg/min or 0.3 mcg/kg/min",
+    "45 mcg/min or 2 mcg/kg/min",
+    "30 mcg/min or 1 mcg/kg/min"
+   ],
+   "explanation": "Norepinephrine starts at 2-10 mcg/min or 0.05 mcg/kg/min and is titrated every 3-5 minutes to a ceiling of 45 mcg/min or 2 mcg/kg/min. The PEARLS allow exceeding the maximum if the patient stays hypotensive after adequate fluid and a second vasopressor.",
+   "priority": "core",
+   "tags": [
+    "drug:norepinephrine",
+    "topic:pulmonary-edema",
+    "route:iv"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 70,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult sublingual nitroglycerin dose in 3.09?",
+   "options": [
+    "0.5 mg",
+    "5 mg",
+    "20 mg",
+    "0.4 mg"
+   ],
+   "explanation": "Sublingual nitroglycerin is 0.4 mg, repeatable every 3-5 minutes as long as the systolic stays above 100 mmHg. The other values belong to ipratropium, albuterol and furosemide in the same band.",
+   "priority": "core",
+   "tags": [
+    "drug:nitroglycerin",
+    "topic:pulmonary-edema",
+    "route:sl"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 70,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What systolic pressure does 3.09 require before giving sublingual nitroglycerin?",
+   "options": [
+    "Above 100 mmHg",
+    "Above 120 mmHg",
+    "Above 90 mmHg",
+    "Above 80 mmHg"
+   ],
+   "explanation": "Sublingual nitroglycerin and furosemide both require a systolic above 100 mmHg. The higher 120 mmHg floor applies only to the CCT 400 mcg nitroglycerin bolus.",
+   "priority": "core",
+   "tags": [
+    "drug:nitroglycerin",
+    "topic:pulmonary-edema"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 70,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult furosemide dose in 3.09 for pulmonary edema?",
+   "options": [
+    "0.4 mg IV",
+    "20 mg IV",
+    "100 mg IV",
+    "250 mg IV"
+   ],
+   "explanation": "Furosemide is 20 mg IV, or an amount equal to the patient's usual oral dose if that is higher, given over 1-2 minutes with a systolic above 100 mmHg. 100 mg is the ceiling, not the starting dose.",
+   "priority": "core",
+   "tags": [
+    "drug:furosemide",
+    "topic:pulmonary-edema",
+    "route:iv"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 70,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the maximum furosemide dose in 3.09?",
+   "options": [
+    "250 mg",
+    "45 mg",
+    "100 mg",
+    "20 mg"
+   ],
+   "explanation": "The furosemide ceiling is 100 mg. Because the starting dose can be the patient's own oral dose when that exceeds 20 mg, a chronically dosed CHF patient can approach the maximum quickly.",
+   "priority": "core",
+   "tags": [
+    "drug:furosemide",
+    "topic:pulmonary-edema",
+    "route:iv"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 70,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "A CHF patient in 3.09 is wheezing. What does the ALS band direct?",
+   "options": [
+    "Albuterol 2.5 mg and ipratropium 0.5 mg via neb q 20 min",
+    "Albuterol 10 mg and ipratropium 1 mg via neb q 10 min",
+    "Albuterol 5 mg and magnesium 2 g via neb q 10 min",
+    "Albuterol 5 mg and ipratropium 0.5 mg via neb q 10 min"
+   ],
+   "explanation": "Albuterol 5 mg with ipratropium 0.5 mg every 10 minutes, as a DuoNeb when available, may be repeated once; after that only albuterol is used for subsequent doses.",
+   "priority": "core",
+   "tags": [
+    "drug:albuterol",
+    "drug:ipratropium",
+    "topic:pulmonary-edema",
+    "route:neb"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 70,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "A wheezing CHF patient in 3.09 is allergic to albuterol. What does the guideline direct?",
+   "options": [
+    "Ipratropium 0.5 mg via neb q 10 min x 3 doses",
+    "Ipratropium 0.5 mg via neb as a single dose",
+    "A DuoNeb every 10 minutes for three doses",
+    "Albuterol 5 mg via neb every 10 minutes"
+   ],
+   "explanation": "Albuterol allergy is handled by giving ipratropium alone, 0.5 mg by nebulizer every 10 minutes for three doses, rather than withholding bronchodilation altogether.",
+   "priority": "detail",
+   "tags": [
+    "drug:ipratropium",
+    "topic:pulmonary-edema",
+    "route:neb"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 71,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "At what rate does the CCT band of 3.09 start a nitroglycerin infusion?",
+   "options": [
+    "400 mcg/min",
+    "10 mcg/min",
+    "5 mcg/min",
+    "40 mcg/min"
+   ],
+   "explanation": "The infusion is started at 10 mcg/min when sublingual nitroglycerin has not improved the patient, then titrated rapidly every 3-5 minutes. 400 mcg/min is the ceiling of that titration.",
+   "priority": "core",
+   "tags": [
+    "drug:nitroglycerin",
+    "topic:pulmonary-edema",
+    "route:iv"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 71,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "To what maximum does 3.09 direct the nitroglycerin infusion be titrated?",
+   "options": [
+    "100 mcg/min",
+    "40 mcg/min",
+    "400 mcg/min",
+    "200 mcg/min"
+   ],
+   "explanation": "Nitroglycerin is titrated rapidly every 3-5 minutes PRN to a maximum of 400 mcg/min while maintaining a systolic above 100 mmHg.",
+   "priority": "core",
+   "tags": [
+    "drug:nitroglycerin",
+    "topic:pulmonary-edema",
+    "route:iv"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 71,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What nitroglycerin bolus does the CCT band of 3.09 direct for continued respiratory distress?",
+   "options": [
+    "400 mcg over 10 minutes via IV pump",
+    "1000 mcg over 2 minutes via IV pump",
+    "100 mcg over 2 minutes via IV pump",
+    "400 mcg over 2 minutes via IV pump"
+   ],
+   "explanation": "A 400 mcg bolus over 2 minutes by IV pump is given for continued respiratory distress and may be repeated twice, on top of the running infusion.",
+   "priority": "core",
+   "tags": [
+    "drug:nitroglycerin",
+    "topic:pulmonary-edema",
+    "route:iv"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 71,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What systolic pressure does 3.09 require before the 400 mcg nitroglycerin bolus?",
+   "options": [
+    "Above 120 mmHg",
+    "Above 100 mmHg",
+    "Above 90 mmHg",
+    "Above 140 mmHg"
+   ],
+   "explanation": "The bolus requires a systolic above 120 mmHg — a higher bar than the 100 mmHg needed for sublingual dosing or the infusion, because 400 mcg delivered over two minutes can drop pressure abruptly.",
+   "priority": "core",
+   "tags": [
+    "drug:nitroglycerin",
+    "topic:pulmonary-edema"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 71,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "Which agents does 3.09 note a pediatric patient in pulmonary edema may require?",
+   "options": [
+    "Albuterol or ipratropium",
+    "Dobutamine or milrinone",
+    "Furosemide or nitroglycerin",
+    "Norepinephrine or epinephrine"
+   ],
+   "explanation": "Pediatric pulmonary edema is usually cardiogenic in origin, so it is treated as cardiogenic shock with inotropy — dobutamine or milrinone — rather than with the adult nitrate-and-diuretic approach. The sending or receiving provider is consulted on an interfacility transfer.",
+   "priority": "core",
+   "tags": [
+    "topic:pulmonary-edema",
+    "population:pediatric"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 71,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What tidal volume do the 3.09 PEARLS direct for the intubated pulmonary edema patient?",
+   "options": [
+    "4 – 6 mL/kg",
+    "10 – 12 mL/kg",
+    "6 – 8 mL/kg",
+    "8 – 10 mL/kg"
+   ],
+   "explanation": "Ventilation aims at adequate oxygenation with minimal airway pressure: high inspiratory flow rates, tidal volumes of 6-8 mL/kg, and low respiratory rates that allow long expiratory times.",
+   "priority": "core",
+   "tags": [
+    "topic:pulmonary-edema",
+    "topic:mechanical-ventilation"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "page": 71,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "At what airway pressures do the 3.09 PEARLS suggest keeping a patient sedated and paralyzed?",
+   "options": [
+    "PIP above 30 or P-plat above 20",
+    "PIP above 35 or P-plat above 25",
+    "PIP above 50 or P-plat above 40",
+    "PIP above 40 or P-plat above 30"
+   ],
+   "explanation": "Sedation and paralysis are considered once peak inspiratory pressure exceeds 40 or plateau pressure exceeds 30, since patient-ventilator dyssynchrony at those pressures drives barotrauma.",
+   "priority": "detail",
+   "tags": [
+    "topic:pulmonary-edema",
+    "topic:mechanical-ventilation"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 72,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult with a persistent tachyarrhythmia is hypotensive with acutely altered mental status. What does the 3.10 adult algorithm direct?",
+   "options": [
+    "Synchronized cardioversion, sedating whenever feasible",
+    "Adenosine 12 mg IV/IO rapid bolus",
+    "Amiodarone 150 mg IV/IO bolus",
+    "Vagal maneuvers followed by a beta blocker"
+   ],
+   "explanation": "Hypotension, altered mental status, shock, ischemic chest discomfort or acute heart failure in a persistent tachyarrhythmia all send the patient straight to synchronized cardioversion. Adenosine is only considered if the rhythm is regular and narrow-complex.",
+   "priority": "core",
+   "tags": [
+    "topic:tachycardia",
+    "procedure:cardioversion"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 72,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What initial synchronized cardioversion energy does 3.10 give for an adult narrow regular tachycardia?",
+   "options": [
+    "120 J, repeat at 200 J",
+    "100 J, repeat at 200 J PRN",
+    "200 J, repeat PRN",
+    "50 J, repeat at 100 J"
+   ],
+   "explanation": "Narrow regular, narrow irregular and wide regular rhythms all start at 100 J and repeat at 200 J. Only wide irregular rhythms start at 200 J.",
+   "priority": "core",
+   "tags": [
+    "topic:tachycardia",
+    "procedure:cardioversion"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 72,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What initial synchronized cardioversion energy does 3.10 give for an adult wide irregular tachycardia?",
+   "options": [
+    "50 J, repeat at 100 J",
+    "120 J, repeat at 150 J",
+    "200 J, repeat PRN",
+    "100 J, repeat at 200 J PRN"
+   ],
+   "explanation": "Wide irregular is the one adult rhythm that starts at 200 J. If two synchronized cardioversions fail, defibrillation at 200 J is considered.",
+   "priority": "core",
+   "tags": [
+    "topic:tachycardia",
+    "procedure:cardioversion"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 72,
+   "type": "sequence",
+   "care_level": null,
+   "population": "adult",
+   "stem": "After how many synchronized cardioversions does 3.10 direct considering defibrillation at 200 J for a wide irregular rhythm?",
+   "options": [
+    "After one",
+    "After three",
+    "After four",
+    "After two"
+   ],
+   "explanation": "Wide irregular tachycardia is often polymorphic VT, which may not synchronize reliably. After two synchronized attempts the algorithm moves to unsynchronized defibrillation at 200 J.",
+   "priority": "detail",
+   "tags": [
+    "topic:tachycardia",
+    "procedure:defibrillation"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 72,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What adenosine dose does the adult tachycardia algorithm in 3.10 direct?",
+   "options": [
+    "12 mg IV/IO rapid bolus, may repeat once",
+    "6 mg IV/IO rapid bolus, may repeat once",
+    "0.1 mg/kg IV/IO rapid push, max 6 mg",
+    "150 mg IV/IO over 10 minutes"
+   ],
+   "explanation": "The adult dose is a single 12 mg rapid IV/IO bolus followed immediately by a rapid normal saline flush, repeatable once. The weight-based 0.1 mg/kg with a 6 mg cap is the pediatric dose.",
+   "priority": "core",
+   "tags": [
+    "drug:adenosine",
+    "topic:tachycardia",
+    "route:iv"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 72,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What amiodarone regimen does the adult tachycardia algorithm in 3.10 direct?",
+   "options": [
+    "20 mg IV/IO bolus, then 5 mg/hr for 6 hours",
+    "150 mg IV/IO bolus, then 1 mg/min for 6 hours",
+    "150 mg IV/IO bolus, then 1 mg/min for 24 hours",
+    "12 mg IV/IO bolus, then 1 mg/min for 6 hours"
+   ],
+   "explanation": "Amiodarone is a 150 mg IV/IO bolus, repeatable PRN if VT occurs, followed by an infusion at 1 mg/min for the first 6 hours.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:tachycardia",
+    "route:iv"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 72,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What initial diltiazem bolus does the adult tachycardia algorithm in 3.10 direct?",
+   "options": [
+    "0.1 mg/kg IV/IO",
+    "0.5 mg/kg IV/IO",
+    "0.25 mg/kg IV/IO",
+    "0.35 mg/kg IV/IO"
+   ],
+   "explanation": "The first diltiazem bolus is 0.25 mg/kg; a single repeat of 0.35 mg/kg may be given after 15 minutes, with a maximum single dose of 20 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:diltiazem",
+    "topic:tachycardia",
+    "route:iv"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 72,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "After rate control with diltiazem, what infusion does the adult algorithm in 3.10 direct?",
+   "options": [
+    "1 mg/min for the first 6 hours",
+    "2 – 10 mg/hr to a max of 20 mg/hr",
+    "5 – 20 mcg/min titrated to rate",
+    "5 – 10 mg/hr to a max of 15 mg/hr"
+   ],
+   "explanation": "Once the rate is controlled, diltiazem is continued at 5-10 mg/hr up to a ceiling of 15 mg/hr. The 1 mg/min infusion belongs to amiodarone.",
+   "priority": "detail",
+   "tags": [
+    "drug:diltiazem",
+    "topic:tachycardia",
+    "route:iv"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 72,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What metoprolol dosing does the adult tachycardia algorithm in 3.10 direct?",
+   "options": [
+    "2.5 – 5 mg IV/IO, max total 15 mg",
+    "5 – 10 mg IV/IO, max total 20 mg",
+    "2.5 mg IV/IO, max total 10 mg",
+    "10 mg IV/IO, max total 15 mg"
+   ],
+   "explanation": "Metoprolol is 2.5-5 mg IV/IO, repeatable every 15 minutes to a maximum total of 15 mg. Esmolol is the alternative beta blocker, dosed per the aortic emergencies guideline.",
+   "priority": "core",
+   "tags": [
+    "drug:metoprolol",
+    "topic:tachycardia",
+    "route:iv"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 72,
+   "type": "assessment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What QRS duration defines a wide complex in the adult tachycardia algorithm of 3.10?",
+   "options": [
+    "Greater than 0.14 second",
+    "0.12 second or greater",
+    "Greater than 0.09 second",
+    "0.10 second or greater"
+   ],
+   "explanation": "The adult cut-off is 0.12 second or more. The pediatric algorithm uses a narrower threshold, calling 0.09 second or less narrow and anything above that wide.",
+   "priority": "core",
+   "tags": [
+    "topic:tachycardia",
+    "topic:ecg"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 73,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What initial synchronized cardioversion energy does the pediatric algorithm in 3.10 direct?",
+   "options": [
+    "1 – 2 J/kg",
+    "0.25 – 0.5 J/kg",
+    "0.5 – 1 J/kg",
+    "2 J/kg"
+   ],
+   "explanation": "Pediatric cardioversion begins at 0.5-1 J/kg and is increased to 2 J/kg if that is not effective. Sedation is given if needed but must not delay cardioversion.",
+   "priority": "core",
+   "tags": [
+    "topic:tachycardia",
+    "procedure:cardioversion",
+    "population:pediatric"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 73,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What first adenosine dose does the pediatric algorithm in 3.10 direct?",
+   "options": [
+    "0.2 mg/kg, maximum 12 mg",
+    "0.1 mg/kg, maximum 12 mg",
+    "0.2 mg/kg, maximum 6 mg",
+    "0.1 mg/kg, maximum 6 mg"
+   ],
+   "explanation": "The first pediatric dose is 0.1 mg/kg capped at 6 mg, by rapid push with an immediate IV flush. The repeat dose doubles to 0.2 mg/kg with a 12 mg ceiling.",
+   "priority": "core",
+   "tags": [
+    "drug:adenosine",
+    "topic:tachycardia",
+    "population:pediatric"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 73,
+   "type": "assessment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Which finding points to probable SVT rather than sinus tachycardia in a child per 3.10?",
+   "options": [
+    "Absent or abnormal P waves with a fixed RR interval",
+    "Present, normal P waves with a variable RR interval",
+    "An infant rate consistently below 220/min",
+    "A child rate consistently below 180/min"
+   ],
+   "explanation": "Probable SVT shows absent or abnormal P waves, a non-variable RR interval, an infant rate usually at or above 220/min or a child rate at or above 180/min, and a history of abrupt rate change. Sinus tachycardia shows the opposite on each count.",
+   "priority": "core",
+   "tags": [
+    "topic:tachycardia",
+    "topic:ecg",
+    "population:pediatric"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 74,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 3.10 require be in place before any patient receives medications under this guideline?",
+   "options": [
+    "A 12-lead ECG",
+    "Defibrillation pads",
+    "An arterial line",
+    "A second IV site"
+   ],
+   "explanation": "Every rate-control and antiarrhythmic drug in this guideline can precipitate a deteriorating rhythm, so defibrillation pads must be on the patient before any of them is given.",
+   "priority": "core",
+   "tags": [
+    "topic:tachycardia",
+    "topic:safety"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 74,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Before treating a rapid heart rate with medication, what do the 3.10 PEARLS direct?",
+   "options": [
+    "Place defibrillation pads and establish an arterial line",
+    "Administer a 250 mL crystalloid fluid bolus first",
+    "Rule out and treat other causes such as sepsis, trauma or fever",
+    "Obtain a 12-lead ECG before giving any medication"
+   ],
+   "explanation": "A compensatory sinus tachycardia from sepsis, trauma, pain or fever is treated by treating its cause; blunting the rate with a beta blocker or calcium channel blocker removes the compensation and can cause collapse.",
+   "priority": "core",
+   "tags": [
+    "topic:tachycardia",
+    "topic:assessment"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 74,
+   "type": "contraindication",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which agent do the 3.10 PEARLS direct be avoided in atrial fibrillation with Wolff-Parkinson-White?",
+   "options": [
+    "Amiodarone",
+    "Magnesium sulfate",
+    "Procainamide",
+    "Diltiazem"
+   ],
+   "explanation": "AV nodal blockers — adenosine, diltiazem, verapamil, other calcium channel blockers and beta blockers — are avoided in atrial fibrillation or flutter with WPW, because blocking the normal pathway pushes conduction down the accessory pathway and can produce unstable ventricular arrhythmias.",
+   "priority": "core",
+   "tags": [
+    "drug:diltiazem",
+    "topic:wpw",
+    "topic:contraindications"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 74,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which patients do the 3.10 PEARLS flag for caution with adenosine?",
+   "options": [
+    "Patients with asthma",
+    "Patients with renal failure",
+    "Patients with hypothyroidism",
+    "Patients with diabetes"
+   ],
+   "explanation": "Adenosine can provoke bronchospasm, so it is used cautiously in asthmatics. It is also on the list of AV nodal blockers to avoid in atrial fibrillation or flutter with WPW.",
+   "priority": "detail",
+   "tags": [
+    "drug:adenosine",
+    "topic:tachycardia",
+    "topic:contraindications"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 74,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "When choosing between a beta blocker and a calcium channel blocker, what do the 3.10 PEARLS advise?",
+   "options": [
+    "Avoid both and use amiodarone instead",
+    "Use the same class the patient takes orally",
+    "Always prefer a calcium channel blocker",
+    "Always prefer a beta blocker"
+   ],
+   "explanation": "The guideline acknowledges genuine controversy between the two classes and resolves it pragmatically: if the patient's home medication is known, treat with the same class.",
+   "priority": "detail",
+   "tags": [
+    "topic:tachycardia",
+    "topic:rate-control"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "page": 74,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What ECG pattern do the 3.10 PEARLS describe as the classic sign of preexcitation in sinus rhythm?",
+   "options": [
+    "ST elevation in the inferior leads",
+    "A fixed, non-variable RR interval",
+    "A short PR interval with a delta wave",
+    "A prolonged PR interval with a wide QRS"
+   ],
+   "explanation": "In WPW the accessory pathway conducts early and bypasses the AV node, shortening the PR interval to under 0.12 second, while slow muscle-fiber conduction slurs the QRS upstroke into a delta wave.",
+   "priority": "detail",
+   "tags": [
+    "topic:wpw",
+    "topic:ecg"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 76,
+   "type": "threshold",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What SpO2 does the BLS band of 4.01 direct be maintained in altitude illness?",
+   "options": [
+    "Above 94%",
+    "Above 95%",
+    "At least 87%",
+    "Above 90%"
+   ],
+   "explanation": "Supplemental oxygen is titrated to an SpO2 above 90% while descent is underway. The other targets belong to the general respiratory care guideline, not this one.",
+   "priority": "core",
+   "tags": [
+    "topic:altitude-illness",
+    "topic:oxygenation"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 76,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What does the BLS band of 4.01 identify as the treatment for altitude illness?",
+   "options": [
+    "Immediate descent until symptoms resolve",
+    "Supplemental oxygen to keep the SpO2 above 90%",
+    "Nifedipine 20 mg PO as an adjunct to oxygen",
+    "Non-invasive ventilation with CPAP or BiPAP"
+   ],
+   "explanation": "Descent is the treatment; everything else buys time. Oxygen, steroids, nifedipine and non-invasive ventilation are adjuncts applied while the patient is being brought down.",
+   "priority": "core",
+   "tags": [
+    "topic:altitude-illness"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 76,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult methylprednisolone dose in 4.01?",
+   "options": [
+    "324 mg PO",
+    "125 mg IV",
+    "1000 mg IV",
+    "20 mg PO"
+   ],
+   "explanation": "Methylprednisolone is 125 mg IV. The other values in this band are acetaminophen 1000 mg IV, nifedipine 20 mg PO and aspirin 324 mg PO.",
+   "priority": "core",
+   "tags": [
+    "drug:methylprednisolone",
+    "topic:altitude-illness",
+    "route:iv"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 76,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "When does 4.01 direct methylprednisolone be used in a patient with HAPE?",
+   "options": [
+    "Only if descent cannot be achieved",
+    "Only if CPAP has already failed",
+    "Only if there is concurrent HACE",
+    "Only if the SpO2 stays below 90%"
+   ],
+   "explanation": "Steroids are aimed at cerebral edema, so in HAPE they are used only where HACE coexists. Nifedipine is the HAPE-specific adjunct.",
+   "priority": "core",
+   "tags": [
+    "drug:methylprednisolone",
+    "topic:hape",
+    "topic:hace"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 76,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult nifedipine dose in 4.01?",
+   "options": [
+    "15 mg PO",
+    "50 mg PO",
+    "125 mg PO",
+    "20 mg PO"
+   ],
+   "explanation": "Nifedipine is 20 mg orally, given for HAPE only as an adjunct to descent and oxygen therapy; it lowers pulmonary artery pressure but does not substitute for getting the patient down.",
+   "priority": "core",
+   "tags": [
+    "drug:nifedipine",
+    "topic:hape",
+    "route:po"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 76,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "For which altitude illness does 4.01 direct nifedipine?",
+   "options": [
+    "HAPE, as an adjunct to descent and oxygen therapy",
+    "HACE, as an adjunct to descent and oxygen therapy",
+    "AMS, as an adjunct to descent and oxygen therapy",
+    "HAPE, but only when HACE is also present"
+   ],
+   "explanation": "Nifedipine is for high altitude pulmonary edema only. The 'only when HACE is also present' qualifier belongs to methylprednisolone.",
+   "priority": "detail",
+   "tags": [
+    "drug:nifedipine",
+    "topic:hape"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 76,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult IV acetaminophen dose in 4.01 for altitude headache?",
+   "options": [
+    "324 mg PO q 6 hours",
+    "1000 mg IV over 15 minutes q 6 hours",
+    "750 mg IV over 15 minutes q 6 hours",
+    "15 mg/kg IV over 15 minutes q 6 hours"
+   ],
+   "explanation": "The standard adult dose is 1000 mg IV infused over 15 minutes every 6 hours. 750 mg is the single-dose ceiling for the weight-based regimen, and aspirin 324 mg PO is the listed alternative.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:altitude-illness",
+    "route:iv"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 76,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What acetaminophen dose does 4.01 direct for a patient weighing 50 kg or less?",
+   "options": [
+    "10 mg/kg IV, max single dose 750 mg",
+    "20 mg/kg IV, max single dose 1000 mg",
+    "15 mg/kg IV, max single dose 750 mg",
+    "15 mg/kg IV, max single dose 1000 mg"
+   ],
+   "explanation": "Smaller patients are dosed at 15 mg/kg IV with a single-dose ceiling of 750 mg, rather than the flat 1000 mg used above 50 kg.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:altitude-illness",
+    "route:iv"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 76,
+   "type": "scope",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What does the ALS pediatric band of 4.01 direct beyond BLS care?",
+   "options": [
+    "Methylprednisolone 125 mg IV",
+    "Acetaminophen 15 mg/kg IV",
+    "Nifedipine 20 mg PO",
+    "Contact OLMC for treatment options"
+   ],
+   "explanation": "No pediatric pharmacology is authorized in this guideline. Children get the BLS measures — oxygen and descent — and on-line medical control is contacted for anything further.",
+   "priority": "core",
+   "tags": [
+    "topic:altitude-illness",
+    "topic:medical-control",
+    "population:pediatric"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 76,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Above what altitude do the 4.01 PEARLS describe altitude illness arising from lack of acclimatization?",
+   "options": [
+    "8200 feet (2500 meters)",
+    "6550 feet (2000 meters)",
+    "10,000 feet (3000 meters)",
+    "5000 feet (1500 meters)"
+   ],
+   "explanation": "The constellation of altitude illness is described above 8200 feet, usually from ascending too rapidly — and ascent includes automobile and air travel, aeromedical transport among them. Susceptible individuals can develop AMS and HAPE as low as 6550 feet.",
+   "priority": "core",
+   "tags": [
+    "topic:altitude-illness"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 77,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which finding do the 4.01 PEARLS list under HAPE rather than HACE?",
+   "options": [
+    "Lethargy",
+    "Rales",
+    "Ataxia",
+    "Confusion"
+   ],
+   "explanation": "HAPE is a pulmonary picture — extreme fatigue, tachypnea and dyspnea, coughing with pink frothy sputum, rales, chest tightness, cyanosis and drowsiness. Ataxia, confusion, behavioral change and lethargy sit in the HACE column.",
+   "priority": "core",
+   "tags": [
+    "topic:hape",
+    "topic:assessment"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "page": 77,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What symptom must be present for AMS under the 4.01 signs and symptoms table?",
+   "options": [
+    "Dyspnea",
+    "Cyanosis",
+    "Headache",
+    "Ataxia"
+   ],
+   "explanation": "AMS is defined as headache PLUS at least one of loss of appetite, nausea or vomiting, dizziness, fatigue or weakness, or difficulty sleeping. Without headache it is not AMS.",
+   "priority": "core",
+   "tags": [
+    "topic:ams",
+    "topic:assessment"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "page": 78,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "In what position does 4.02 direct a patient with decompression sickness be placed?",
+   "options": [
+    "Right lateral Trendelenburg",
+    "Supine with the head elevated",
+    "High Fowler's position",
+    "Left lateral Trendelenburg"
+   ],
+   "explanation": "Left side down with the head lowered traps gas bubbles in the right heart and away from the cerebral circulation. The patient is also kept calm and handled gently so the embolus is not mobilized.",
+   "priority": "core",
+   "tags": [
+    "topic:decompression-sickness",
+    "topic:positioning"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "page": 78,
+   "type": "mechanism",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Why does 4.02 direct left lateral Trendelenburg in decompression sickness?",
+   "options": [
+    "It helps keep bubbles out of the cerebral circulation",
+    "It improves venous return in hypotension",
+    "It reduces the risk of aspiration in transport",
+    "It lowers intracranial pressure"
+   ],
+   "explanation": "The aim is purely mechanical: keeping gas bubbles away from the cerebral circulation. The same reasoning underlies keeping the patient calm and avoiding rough handling.",
+   "priority": "detail",
+   "tags": [
+    "topic:decompression-sickness",
+    "topic:positioning"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "page": 78,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Why does 4.02 direct 100% oxygen in decompression sickness?",
+   "options": [
+    "To reduce the risk of barotrauma",
+    "To assist in washing out nitrogen",
+    "To prevent oxygen toxicity",
+    "To treat the associated hypothermia"
+   ],
+   "explanation": "High-concentration oxygen steepens the nitrogen gradient and speeds off-gassing. Because that can unmask barotrauma, the crew watches for tension pneumothorax and is prepared to decompress the chest.",
+   "priority": "core",
+   "tags": [
+    "topic:decompression-sickness",
+    "topic:oxygenation"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "page": 78,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "If intubation is required in decompression sickness, what does 4.02 direct?",
+   "options": [
+    "Leave the cuff deflated until arrival",
+    "Use an uncuffed endotracheal tube",
+    "Fill the cuff with saline, not air",
+    "Fill the cuff with air as usual"
+   ],
+   "explanation": "The patient is heading for a hyperbaric chamber, where an air-filled cuff would compress on descent and lose its seal, then over-expand on ascent. A saline-filled cuff is incompressible.",
+   "priority": "core",
+   "tags": [
+    "topic:decompression-sickness",
+    "procedure:intubation"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "page": 78,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What fluid regimen does 4.02 direct for decompression sickness?",
+   "options": [
+    "LR 500 mL over the first hour, then 50 mL/hour",
+    "NS 250 mL boluses titrated to a MAP of 65",
+    "NS 10 – 20 mL/kg boluses titrated to perfusion",
+    "LR 1 – 2 liters over the first hour, then 100 mL/hour"
+   ],
+   "explanation": "Divers are typically dehydrated and bubble formation worsens with hemoconcentration, so 1-2 liters of LR is given in the first hour and then 100 mL/hour, ideally through a fluid warmer.",
+   "priority": "core",
+   "tags": [
+    "topic:decompression-sickness",
+    "topic:fluid-resuscitation",
+    "route:iv"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "page": 78,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "At what altitude does 4.02 direct a patient with decompression sickness be flown?",
+   "options": [
+    "Under 1,000 feet",
+    "Under 2,500 feet",
+    "Under 5,000 feet",
+    "Under 8,200 feet"
+   ],
+   "explanation": "Altitude worsens decompression sickness because falling ambient pressure expands existing bubbles. The crew confers with the pilot and transports at the lowest safe altitude, preferably under 1,000 feet.",
+   "priority": "core",
+   "tags": [
+    "topic:decompression-sickness",
+    "topic:flight-physiology"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "page": 78,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "For a fixed-wing transport of a patient with decompression sickness, what does 4.02 direct?",
+   "options": [
+    "Request the most direct routing available",
+    "Request sea level cabin altitude",
+    "Request a cabin altitude under 1,000 feet",
+    "Fly unpressurized below 1,000 feet"
+   ],
+   "explanation": "A pressurized cabin normally sits several thousand feet above sea level, which would expand the patient's bubbles. For fixed-wing transports a sea level cabin altitude is requested.",
+   "priority": "core",
+   "tags": [
+    "topic:decompression-sickness",
+    "topic:flight-physiology"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "page": 78,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Why does 4.02 direct that narcotics be avoided in decompression sickness?",
+   "options": [
+    "They interfere with hyperbaric therapy",
+    "They mask the joint pain",
+    "They potentiate the narcosis",
+    "They worsen the associated hypothermia"
+   ],
+   "explanation": "Inert gas narcosis is already part of the picture, and opioids compound it — which also removes the mental status changes the crew is using to track Type II disease.",
+   "priority": "core",
+   "tags": [
+    "topic:decompression-sickness",
+    "topic:contraindications"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "page": 78,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 4.02 offer for joint pain in decompression sickness?",
+   "options": [
+    "Narcotic analgesia titrated to effect",
+    "Ice packs applied over the joint",
+    "Immobilization in a padded splint",
+    "An inflated BP cuff over the joint"
+   ],
+   "explanation": "Since narcotics are avoided, 4.02 suggests an inflated blood pressure cuff over the affected joint, which may relieve the pain of Type I bends by raising local tissue pressure.",
+   "priority": "detail",
+   "tags": [
+    "topic:decompression-sickness",
+    "topic:pain-management"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "page": 78,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "By when do the 4.02 PEARLS say most patients with decompression sickness develop symptoms?",
+   "options": [
+    "75% within one hour, 90% within 12 hours",
+    "50% within one hour, 75% within 12 hours",
+    "90% within one hour, 100% within 24 hours",
+    "75% within 12 hours, 90% within 24 hours"
+   ],
+   "explanation": "About 75% of patients are symptomatic within an hour of surfacing and 90% within 12 hours, which is why the dive profile — times, depths and any unusual occurrences — is worth obtaining in writing.",
+   "priority": "detail",
+   "tags": [
+    "topic:decompression-sickness"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "page": 78,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which systems does Type II decompression sickness involve per the 4.02 PEARLS?",
+   "options": [
+    "Renal and hepatic",
+    "Nervous and pulmonary",
+    "Musculoskeletal and cutaneous",
+    "Lymphatic and cutaneous"
+   ],
+   "explanation": "Type II is the severe form, with spinal cord weakness, paresthesia and paraplegia, cerebral manifestations, and pulmonary venous gas emboli causing chest pain, dyspnea and circulatory collapse. Type I is the milder musculoskeletal, cutaneous and lymphatic picture.",
+   "priority": "core",
+   "tags": [
+    "topic:decompression-sickness",
+    "topic:assessment"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 79,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What does 4.03 identify as of primary importance in the drowning patient?",
+   "options": [
+    "Rapid rewarming",
+    "C-spine immobilization",
+    "Ventilatory support",
+    "Chest compressions"
+   ],
+   "explanation": "Drowning is a hypoxic arrest, so ventilation comes first. The patient is placed on 100% oxygen and, at the CCT level, intubation via RSI is preferred for airway management.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:airway"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 79,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Foam appears in the airway during resuscitation of a drowning patient. What does 4.03 direct?",
+   "options": [
+    "Aggressive suctioning until the foam has cleared",
+    "Suction once, then intubate immediately",
+    "Place the patient left lateral and allow it to drain",
+    "Positive pressure ventilation to push the foam back down"
+   ],
+   "explanation": "The foam is lung surfactant mixed with water; it is non-toxic and the lungs need it. Suctioning it wastes time and delays definitive airway management, so PPV is used to push it back down.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:airway"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 81,
+   "type": "indication",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What do the 4.03 PEARLS say foam in the upper airway indicates?",
+   "options": [
+    "An indication for endotracheal intubation",
+    "Pulmonary edema requiring CPAP",
+    "Aspiration of gastric contents",
+    "Impending laryngospasm"
+   ],
+   "explanation": "Foam in the upper airway marks a patient who needs a definitive airway. Suctioning it only delays that, while PPV pushes it back into the lungs where the surfactant belongs.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:airway"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 79,
+   "type": "assessment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What does 4.03 say about cervical spine injury in drowning?",
+   "options": [
+    "Excluded by a normal neurologic examination",
+    "Rare, but consider it if the patient dove into shallow water",
+    "Common enough that routine immobilization is required",
+    "Relevant only in pediatric drownings"
+   ],
+   "explanation": "C-spine injuries are rare in drowning, so immobilization is considered rather than routine — reserved for a dive into shallow water, a boating accident or similar mechanism.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:spinal-immobilization"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 79,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Below what submersion time does 4.03 direct resuscitation be initiated without further criteria?",
+   "options": [
+    "10 minutes",
+    "20 minutes",
+    "30 minutes",
+    "60 minutes"
+   ],
+   "explanation": "Under 30 minutes of submersion, resuscitation is started. Between 30 and 60 minutes it requires an additional factor such as very cold water, possible entrapment in an air pocket, or crew discretion.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:resuscitation"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 79,
+   "type": "indication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "A patient was submerged for 45 minutes. Which finding supports initiating resuscitation under 4.03?",
+   "options": [
+    "Water temperature above 20° C (68° F)",
+    "A submersion depth greater than 10 feet",
+    "A witnessed loss of consciousness before submersion",
+    "Water temperature below 5° C (41° F)"
+   ],
+   "explanation": "In the 30-60 minute window, resuscitation is initiated if the water was below 5° C, if entrapment in an underwater air pocket is possible, if the water was 5-20° C and the patient had been swimming on the surface for a prolonged period first, or at crew discretion.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:resuscitation"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 79,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What temperature does 4.03 target after ROSC in a drowning patient?",
+   "options": [
+    "36 – 37.5° C",
+    "32 – 34° C",
+    "34 – 36° C",
+    "35 – 37° C"
+   ],
+   "explanation": "Normothermia of 36-37.5° C is targeted after ROSC for cerebral protection. Note this is a target to maintain, not a cooling strategy.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:post-rosc"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 79,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What fluid bolus does the adult band of 4.03 direct for hypotension?",
+   "options": [
+    "NS/LR 10 – 20 mL/kg to maintain a MAP of at least 65",
+    "NS/LR 250 mL to maintain a MAP of at least 65",
+    "NS/LR 500 mL to maintain a MAP of at least 65",
+    "NS/LR 1 liter to maintain a MAP of at least 65"
+   ],
+   "explanation": "Adults get repeated 250 mL boluses to hold a MAP of at least 65; if they remain refractory a vasopressor is started. The weight-based volume is the pediatric dose in the band below.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:fluid-resuscitation",
+    "route:iv"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 80,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What fluid bolus does the pediatric band of 4.03 direct for hypotension?",
+   "options": [
+    "20 – 40 mL/kg",
+    "5 – 10 mL/kg",
+    "10 – 20 mL/kg",
+    "250 mL boluses"
+   ],
+   "explanation": "Children get 10-20 mL/kg boluses titrated to an age-appropriate systolic pressure, repeated PRN, before a vasopressor is started.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:fluid-resuscitation",
+    "population:pediatric"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 80,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What is the pediatric push-dose epinephrine dose in 4.03?",
+   "options": [
+    "0.1 mg/kg IV q 3 – 5 min PRN",
+    "5 – 20 mcg IV q 3 – 5 min PRN",
+    "0.05 mcg/kg/min by infusion",
+    "0.1 mL/kg (1 mcg/kg) IV q 3 – 5 min PRN"
+   ],
+   "explanation": "Pediatric push-dose epinephrine is 0.1 mL/kg of the 10 mcg/mL concentration, which is 1 mcg/kg. The guideline specifically requires these doses be both dosed and documented in mL/kg to avoid concentration errors.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:drowning",
+    "population:pediatric",
+    "route:iv"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 80,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What is the maximum single pediatric push-dose of epinephrine in 4.03?",
+   "options": [
+    "20 mcg",
+    "10 mcg",
+    "40 mcg",
+    "5 mcg"
+   ],
+   "explanation": "The single-dose ceiling is 20 mcg, which is the point at which a weight-based 1 mcg/kg dose meets the adult 5-20 mcg push-dose range.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:drowning",
+    "population:pediatric"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 80,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "At what rate does 4.03 start an epinephrine infusion in a pediatric drowning patient?",
+   "options": [
+    "2 mcg/kg/min",
+    "0.05 mcg/kg/min",
+    "0.1 mcg/kg/min",
+    "0.3 mcg/kg/min"
+   ],
+   "explanation": "The infusion starts at 0.05 mcg/kg/min and is titrated every 3-5 minutes to a maximum of 2 mcg/kg/min, although doses above 0.3 mcg/kg/min are generally not required.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:drowning",
+    "population:pediatric",
+    "route:iv"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 80,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which factor do the 4.03 PEARLS identify as the most critical indicator of worse prognosis?",
+   "options": [
+    "An arterial pH below 7.1 on presentation",
+    "A Glasgow coma score below 5",
+    "Submersion longer than 5 minutes",
+    "Resuscitation longer than 25 minutes"
+   ],
+   "explanation": "All four appear on the list of indicators of death or permanent neurologic impairment, but duration of submersion over 5 minutes is specifically called the most critical factor.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:prognosis"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 80,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which drowning patient do the 4.03 PEARLS describe as having the better potential for recovery?",
+   "options": [
+    "Dead and then cold",
+    "Warm and then dead",
+    "Cold on arrival, regardless of sequence",
+    "Cold and then dead"
+   ],
+   "explanation": "Hypothermia only protects the brain if it preceded the arrest. Unless the water was extremely cold — below 5° C — cooling is usually not rapid enough to provide cerebral protection.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:hypothermia",
+    "topic:prognosis"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 80,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "How do the 4.03 PEARLS define near drowning?",
+   "options": [
+    "Submersion with LOC and survival at least 24 hours",
+    "Submersion leading to death within 24 hours",
+    "Submersion requiring ventilatory support on scene",
+    "Submersion with aspiration but no loss of consciousness"
+   ],
+   "explanation": "Near drowning is submersion with loss of consciousness and survival for at least 24 hours; drowning is submersion leading to death within 24 hours.",
+   "priority": "detail",
+   "tags": [
+    "topic:drowning",
+    "topic:definitions"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 81,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What do the 4.03 PEARLS identify as the most life-threatening consequence of near drowning?",
+   "options": [
+    "Electrolyte imbalance",
+    "Hypoxemia",
+    "Hypothermia",
+    "Metabolic acidosis"
+   ],
+   "explanation": "Hypoxemia is the killer in both salt and fresh water drowning. Fresh water alters surfactant composition and collapses alveoli; salt water draws protein-rich fluid in and washes surfactant out — both end in V/Q mismatch, shunting and reduced compliance.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:mechanism"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 81,
+   "type": "procedure",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What is the purpose of SALAD in the drowning patient per 4.03?",
+   "options": [
+    "To decompress the stomach prior to intubation",
+    "To suction the pharynx after the tube is placed",
+    "To prevent airway soiling during laryngoscopy",
+    "To remove foam from the lower airway before intubation"
+   ],
+   "explanation": "Soiling of the airway with emesis is common in drowning, so suction assisted laryngoscopy airway decontamination uses a rigid catheter as a tongue depressor to position the blade while decontaminating the proximal esophagus.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "procedure:salad"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.03",
+   "title": "Drowning",
+   "page": 81,
+   "type": "treatment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Why do the 4.03 PEARLS direct transport of any patient with respiratory symptoms after submersion?",
+   "options": [
+    "Delayed hypothermia from continued heat loss",
+    "Delayed electrolyte imbalance from aspirated water",
+    "Delayed cervical spine instability",
+    "Delayed ARDS and pulmonary edema over hours to days"
+   ],
+   "explanation": "Cough, shortness of breath or hypoxia after submersion flags the risk of non-cardiogenic pulmonary edema developing over the following hours to days — previously called secondary drowning, a term no longer used.",
+   "priority": "core",
+   "tags": [
+    "topic:drowning",
+    "topic:transport"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 82,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "How does 4.04 direct a snakebite wound be cared for?",
+   "options": [
+    "Wash with soap and water; cover with a moist dressing",
+    "Apply ice and elevate the bitten extremity",
+    "Apply a proximal constricting band and transport",
+    "Incise the fang marks and apply suction"
+   ],
+   "explanation": "The wound is washed with soap and water and covered with a clean, moist dressing to minimize swelling and discomfort. Tourniquets, incision, suction, ice and cold immersion are all specifically directed against.",
+   "priority": "core",
+   "tags": [
+    "topic:envenomation",
+    "topic:wound-care"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 82,
+   "type": "procedure",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "At what distances proximal to a snakebite does 4.04 direct limb circumference be measured?",
+   "options": [
+    "15 cm and 30 cm",
+    "10 cm and 20 cm",
+    "5 cm and 10 cm",
+    "10 cm and 15 cm"
+   ],
+   "explanation": "The leading proximal edge of swelling is marked and circumference measured at 10 cm and 20 cm proximal to the bite, giving an objective baseline for tracking progression of erythema or size.",
+   "priority": "core",
+   "tags": [
+    "topic:envenomation",
+    "topic:assessment"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 82,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "How does 4.04 direct the bitten extremity be positioned?",
+   "options": [
+    "Elevated and actively ranged to disperse venom",
+    "Immobilized at the level of the heart",
+    "Immobilized and kept lower than the heart",
+    "Immobilized and elevated above the heart"
+   ],
+   "explanation": "The limb is immobilized and held below heart level to slow systemic spread of venom, while rings, watches and constrictive clothing come off before swelling makes them tourniquets.",
+   "priority": "core",
+   "tags": [
+    "topic:envenomation",
+    "topic:positioning"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 82,
+   "type": "contraindication",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Which action does 4.04 specifically direct against in snakebite?",
+   "options": [
+    "Removing rings and watches",
+    "Immobilizing the bitten extremity",
+    "Marking the leading edge of swelling",
+    "Applying a tourniquet"
+   ],
+   "explanation": "Tourniquets, cutting the wound, suctioning venom, applying ice, cold-water immersion and bystander-applied electric shock are all listed as things not to do. The other three options are directed BLS actions.",
+   "priority": "core",
+   "tags": [
+    "topic:envenomation",
+    "topic:contraindications"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 82,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "A patient with a possible envenomation has no symptoms. What does 4.04 direct?",
+   "options": [
+    "Observe closely; do not treat unless symptoms develop",
+    "Administer antivenin empirically before transport",
+    "Apply a proximal constricting band and transport",
+    "Treat as a severe envenomation and give antivenin"
+   ],
+   "explanation": "Roughly 10% of rattlesnake bites are dry bites with no venom injected, so asymptomatic patients are observed closely rather than treated. Treatment itself can cause allergic reactions.",
+   "priority": "core",
+   "tags": [
+    "topic:envenomation"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 82,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How does 4.04 direct hypotension and shock from envenomation be treated?",
+   "options": [
+    "With antivenin alone",
+    "As hypovolemic shock",
+    "As cardiogenic shock",
+    "As distributive shock with norepinephrine"
+   ],
+   "explanation": "Envenomation shock is managed per the hypovolemic shock guideline, alongside continuous airway assessment with RSI considered, and pain and nausea treated PRN.",
+   "priority": "core",
+   "tags": [
+    "topic:envenomation",
+    "topic:shock"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 83,
+   "type": "indication",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "When do the 4.04 PEARLS say prehospital antivenin should be considered?",
+   "options": [
+    "Only for bites to the head, neck or trunk",
+    "Only when more than ten vials can be obtained",
+    "Only when hospital arrival will be more than two hours after the bite",
+    "For any severe envenomation regardless of transport time"
+   ],
+   "explanation": "Prehospital antivenin has to be weighed against the delay in obtaining it from a willing local hospital, so it is generally reserved for cases where the patient will not reach a hospital for more than two hours.",
+   "priority": "core",
+   "tags": [
+    "topic:envenomation",
+    "topic:antivenin"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 83,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What proportion of rattlesnake bites do the 4.04 PEARLS describe as dry bites?",
+   "options": [
+    "About 25%",
+    "About 50%",
+    "About 2%",
+    "About 10%"
+   ],
+   "explanation": "Approximately 10% of rattlesnake bites deliver no venom. This is why an asymptomatic patient is observed rather than treated, and why absent symptoms early do not guarantee absent envenomation.",
+   "priority": "detail",
+   "tags": [
+    "topic:envenomation"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 83,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "On what do the 4.04 PEARLS say antivenin dosing is based?",
+   "options": [
+    "Severity of the envenomation",
+    "Patient weight",
+    "Time elapsed since the bite",
+    "Number of visible fang marks"
+   ],
+   "explanation": "Dosing is driven by severity rather than weight, so a child may need as much as an adult and repeat dosing may be required. A severe envenomation may take more than 10 vials.",
+   "priority": "core",
+   "tags": [
+    "topic:envenomation",
+    "topic:antivenin"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 83,
+   "type": "treatment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "An allergic reaction develops during an antivenin infusion. What do the 4.04 PEARLS direct?",
+   "options": [
+    "Stop the infusion and give a fluid bolus",
+    "Stop the infusion and treat per Anaphylaxis",
+    "Slow the infusion and give diphenhydramine",
+    "Continue the infusion and give epinephrine"
+   ],
+   "explanation": "Antivenin is a protein product and anaphylaxis is a recognized risk. The infusion is stopped and the patient managed under the Anaphylaxis and Allergic Reaction guideline.",
+   "priority": "core",
+   "tags": [
+    "topic:envenomation",
+    "topic:antivenin",
+    "topic:anaphylaxis"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 83,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which finding classifies a Crotalinae envenomation as severe in the 4.04 table?",
+   "options": [
+    "Swelling of less than the full extremity",
+    "Mild hypotension with normal coagulation",
+    "Swelling involving more than the entire extremity",
+    "Swelling adjacent to the bite site only"
+   ],
+   "explanation": "Severe means swelling beyond the entire extremity, or more than 50 cm if the bite is on head, neck or trunk, with airway threat or compartment syndrome, life-threatening systemic signs, and markedly abnormal coagulation with serious bleeding.",
+   "priority": "core",
+   "tags": [
+    "topic:envenomation",
+    "topic:assessment"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.04",
+   "title": "Envenomation",
+   "page": 84,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which feature in the 4.04 figure identifies a venomous pit viper?",
+   "options": [
+    "A round pupil",
+    "An oval, egg-shaped head",
+    "A double row of subcaudal plates",
+    "An elliptical pupil"
+   ],
+   "explanation": "Venomous pit vipers show a triangular arrowhead head, elliptical pupils, fangs and a single row of subcaudal plates. Round pupils, an oval head and a double row of subcaudal plates mark a non-venomous snake.",
+   "priority": "detail",
+   "tags": [
+    "topic:envenomation",
+    "topic:assessment"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 85,
+   "type": "threshold",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "At what core temperature does the BLS band of 4.05 direct ice bath immersion?",
+   "options": [
+    "Above 41° C (105.8° F)",
+    "Above 39° C (102° F)",
+    "Above 41.1° C (106° F)",
+    "Above 20° C (68° F)"
+   ],
+   "explanation": "Ice bath immersion, if available, is directed once core temperature exceeds 41° C. 39° C is where cooling is stopped, and 41.1° C is the PEARLS figure describing classic heat stroke.",
+   "priority": "core",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:cooling"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 85,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "At what temperature does 4.05 direct cooling measures be discontinued?",
+   "options": [
+    "36° C (96.8° F)",
+    "39° C (102° F)",
+    "41° C (105.8° F)",
+    "37° C (98.6° F)"
+   ],
+   "explanation": "Cooling is stopped at 39° C to avoid overshooting into iatrogenic hypothermia, which carries its own coagulopathy and dysrhythmia risk.",
+   "priority": "core",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:cooling"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 85,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Which cooling measure does the BLS band of 4.05 direct?",
+   "options": [
+    "Immerse in ice water regardless of temperature",
+    "Cover with wet sheets and warm blankets",
+    "Spray with room-temperature fluid and increase air movement",
+    "Apply ice packs over the entire body surface"
+   ],
+   "explanation": "Evaporative cooling is the BLS mainstay: remove the patient from the hot environment and off hot surfaces, strip clothing to undergarments, spray with room-temperature fluid, keep them moist and move air over them.",
+   "priority": "core",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:cooling"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 85,
+   "type": "landmark",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Where does 4.05 direct cool packs be applied?",
+   "options": [
+    "Chest and abdomen",
+    "Neck and forehead",
+    "Hands and feet",
+    "Groin and axilla"
+   ],
+   "explanation": "Cool packs go to the groin and axilla, where large vessels run close to the surface, supplementing evaporative cooling rather than replacing it.",
+   "priority": "core",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:cooling"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 85,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What saline temperature does the ALS band of 4.05 direct for routine resuscitation in hyperthermia?",
+   "options": [
+    "Room temperature",
+    "Chilled to 4° C",
+    "Warmed to 39° C",
+    "Body temperature"
+   ],
+   "explanation": "Room temperature saline is the default. Chilled 4° C saline is reserved for the specific cooling scenarios described in the adult and pediatric bands.",
+   "priority": "detail",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:fluid-resuscitation"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 85,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What NS/LR bolus does the adult ALS band of 4.05 direct for hypotension?",
+   "options": [
+    "20 mL/kg",
+    "250 mL",
+    "500 mL",
+    "1 liter"
+   ],
+   "explanation": "Hypotensive adults get 250 mL boluses, repeated PRN; heat stroke patients may require more than a liter in total. The 500 mL volume in this guideline is the chilled-saline cooling bolus, not the hypotension bolus.",
+   "priority": "core",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:fluid-resuscitation",
+    "route:iv"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 85,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What volume of chilled (4° C) normal saline bolus does 4.05 direct for an adult?",
+   "options": [
+    "1 liter",
+    "20 mL/kg",
+    "500 mL",
+    "250 mL"
+   ],
+   "explanation": "Chilled saline for cooling is given in 500 mL boluses in adults. This is distinct from the 250 mL boluses used for hypotension in the same band.",
+   "priority": "core",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:cooling",
+    "route:iv"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 85,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What volume of chilled (4° C) normal saline does 4.05 direct for a pediatric patient?",
+   "options": [
+    "10 mL/kg",
+    "500 mL",
+    "250 mL",
+    "20 mL/kg"
+   ],
+   "explanation": "Children receive chilled saline in 20 mL/kg boluses. Their hypotension boluses are given as 10-20 mL/kg of room-temperature NS/LR.",
+   "priority": "core",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:cooling",
+    "population:pediatric"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 85,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What do the 4.05 guidelines say about oral rehydration in heat exhaustion?",
+   "options": [
+    "It is as beneficial as IV infusions",
+    "It is contraindicated in heat exhaustion",
+    "It should follow a liter of IV fluid",
+    "It is reserved for pediatric patients"
+   ],
+   "explanation": "For heat exhaustion specifically, oral rehydration has been shown to be as beneficial as IV infusions, which matters when IV access is difficult in a dehydrated patient.",
+   "priority": "detail",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:fluid-resuscitation"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 86,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the adult lorazepam dose in 4.05 for shivering?",
+   "options": [
+    "0.05 mg/kg IV",
+    "1 mg IV",
+    "2 mg IV",
+    "5 mg IV"
+   ],
+   "explanation": "Shivering generates heat and defeats cooling, so lorazepam 1 mg IV is given and repeated PRN to a maximum of 5 mg. The weight-based dose is the pediatric regimen.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:hyperthermia",
+    "route:iv"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 86,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the maximum adult lorazepam dose in 4.05?",
+   "options": [
+    "2 mg",
+    "4 mg",
+    "5 mg",
+    "1 mg"
+   ],
+   "explanation": "Lorazepam is repeated PRN for shivering up to a total of 5 mg in the adult. The 1 mg figure is both the single adult dose and the pediatric single-dose ceiling.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:hyperthermia",
+    "route:iv"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 86,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What is the pediatric lorazepam dose in 4.05 for shivering?",
+   "options": [
+    "0.1 – 0.2 mg/kg IV",
+    "0.01 mg/kg IV",
+    "1 mg IV",
+    "0.05 – 0.1 mg/kg IV"
+   ],
+   "explanation": "Children get 0.05-0.1 mg/kg IV for shivering, with a maximum single dose of 1 mg — which is also the flat adult single dose.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:hyperthermia",
+    "population:pediatric",
+    "route:iv"
+   ],
+   "answer_index": 3
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 86,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What is the maximum single pediatric lorazepam dose in 4.05?",
+   "options": [
+    "1 mg",
+    "5 mg",
+    "2 mg",
+    "4 mg"
+   ],
+   "explanation": "The pediatric single-dose ceiling is 1 mg, so a weight-based 0.05-0.1 mg/kg dose is capped there. 5 mg is the adult cumulative maximum.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:hyperthermia",
+    "population:pediatric"
+   ],
+   "answer_index": 0
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 86,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What do the 4.05 PEARLS say about core temperature in exertional heat stroke?",
+   "options": [
+    "It is normal in most cases",
+    "It may be below 41.1° C (106° F)",
+    "It always exceeds 41.1° C (106° F)",
+    "It is typically below 39° C (102° F)"
+   ],
+   "explanation": "Exertional heat stroke occurs in young healthy athletes and the core temperature may be under 41.1° C — so a temperature below that threshold does not exclude heat stroke when the sensorium is altered.",
+   "priority": "core",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:heat-stroke"
+   ],
+   "answer_index": 1
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 86,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which skin finding do the 4.05 PEARLS attribute to classic heat stroke?",
+   "options": [
+    "Cool, pale and clammy skin",
+    "Mottled skin with delayed refill",
+    "Red, hot and dry skin",
+    "Diaphoresis with moist skin"
+   ],
+   "explanation": "Classic heat stroke, seen at extremes of age in high ambient temperatures, presents with red, hot, dry skin. Diaphoresis and moist skin belong to heat exhaustion.",
+   "priority": "core",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:heat-stroke"
+   ],
+   "answer_index": 2
+  },
+  {
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "page": 86,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which finding do the 4.05 PEARLS list under heat exhaustion?",
+   "options": [
+    "Hot, dry skin",
+    "Seizures",
+    "A core temperature above 41.1° C",
+    "Diaphoresis and moist skin"
+   ],
+   "explanation": "Heat exhaustion is diaphoresis and moist skin, weakness and dizziness, nausea, headache and tachycardia. Hot dry skin, seizures and a core temperature over 41.1° C point to heat stroke instead.",
+   "priority": "detail",
+   "tags": [
+    "topic:hyperthermia",
+    "topic:heat-exhaustion"
+   ],
+   "answer_index": 3
+  }
+ ]
+}
