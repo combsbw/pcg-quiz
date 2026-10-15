@@ -9,6 +9,7 @@ import * as store from './store.js';
 import * as srs from './srs.js';
 import { route, setNotFound, start, navigate, bus } from './router.js';
 import { el, mount, clear, toast, humanDays, relTime, plural, confirmDialog } from './ui.js';
+import * as search from './search.js';
 
 const view = document.getElementById('view');
 const deps = { store, srs, data: { getData, enabledQuestions, moduleById, sourceLabel }, bus };
@@ -201,7 +202,7 @@ function moduleCard(m, enabled, cards, params) {
 /* ---------------------------------------------------------- browse view */
 function renderBrowse({ params }) {
   const d = getData();
-  const q = (params.q || '').toLowerCase();
+  const q = (params.q || '').trim();
 
   const items = [
     ...d.content.guidelines.map((g) => ({
@@ -222,54 +223,107 @@ function renderBrowse({ params }) {
   // the field had to be clicked again.
   const listEl = el('.browse-list');
   const moreEl = el('p', { style: { color: 'var(--text-3)' } });
+  const statusEl = el('.search-status');
 
-  const matches = (i, q) => !q
-    || i.title.toLowerCase().includes(q)
-    || i.number.includes(q)
-    || (i.search || '').includes(q);
+  function row(i, snip, matched) {
+    const parts = [
+      el('span.browse-num', { text: i.number }),
+      el('span.browse-title', { text: i.title }),
+      el('span.browse-sub', { text: i.sub }),
+      el('span', {}, (i.levels || []).map((l) => el(`span.chip.chip-${l.toLowerCase()}`, { text: l }))),
+    ];
+    const a = el('a.browse-row', { href: `#/item/${i.id}` }, parts);
+    if (!snip) return a;
+    // A hit inside the body is only useful if you can see what matched, so the
+    // best-matching line comes along with the result.
+    return el('a.browse-row.has-snip', { href: `#/item/${i.id}` }, [
+      ...parts,
+      el('.browse-snip', {}, [
+        snip.level && snip.level !== 'BODY'
+          ? el(`span.chip.chip-${snip.level.toLowerCase()}`, { text: snip.level }) : null,
+        el('span', {}, highlight(snip.text, matched)),
+      ].filter(Boolean)),
+    ]);
+  }
+
+  function highlight(text, matched) {
+    const frag = document.createDocumentFragment();
+    if (!matched || !matched.length) { frag.append(text); return frag; }
+    const toks = search.tokenize(text);
+    const words = text.split(/(\s+)/);
+    let ti = 0;
+    for (const w of words) {
+      if (/^\s+$/.test(w)) { frag.append(w); continue; }
+      const t = search.tokenize(w)[0];
+      if (t && matched.includes(t)) frag.append(el('mark', { text: w }));
+      else frag.append(w);
+      ti++;
+    }
+    return frag;
+  }
 
   function paint(q) {
-    const hits = items.filter((i) => matches(i, q));
     clear(listEl);
+    let hits, snips = new Map(), matched = new Map();
+
+    if (!q) {
+      hits = items;
+      statusEl.textContent = `${items.length} guidelines and formulary entries`;
+    } else if (search.isReady()) {
+      const res = search.search(q, { limit: 60 });
+      hits = res.map((r) => byId.get(r.doc.id)).filter(Boolean);
+      res.forEach((r) => { if (r.snippet) snips.set(r.doc.id, r.snippet);
+                           matched.set(r.doc.id, r.matched); });
+      statusEl.textContent = res.length
+        ? `${res.length} match${res.length === 1 ? '' : 'es'} — searching full text${search.hasSemantic() ? ' and related wording' : ''}`
+        : '';
+    } else {
+      const lq = q.toLowerCase();
+      hits = items.filter((i) => i.title.toLowerCase().includes(lq) || i.number.includes(lq));
+      statusEl.textContent = `${hits.length} title matches`;
+    }
+
     if (!hits.length) {
+      statusEl.textContent = '';
       listEl.append(el('.empty', { style: { padding: 'var(--sp-8)' } }, [
         el('h3', { text: 'No matches' }),
-        el('p', { text: `Nothing matches “${q}”. Try a guideline number, a drug name, or a keyword.` }),
+        el('p', { text: `Nothing matches “${q}”. Try a guideline number, a drug name, a symptom, or plain words like “can't intubate”.` }),
       ]));
     } else {
-      for (const i of hits.slice(0, 400)) {
-        listEl.append(el('a.browse-row', { href: `#/item/${i.id}` }, [
-          el('span.browse-num', { text: i.number }),
-          el('span.browse-title', { text: i.title }),
-          el('span.browse-sub', { text: i.sub }),
-          el('span', {}, i.levels.map((l) => el(`span.chip.chip-${l.toLowerCase()}`, { text: l }))),
-        ]));
+      for (const i of hits.slice(0, 60)) {
+        listEl.append(row(i, snips.get(i.id), matched.get(i.id)));
       }
     }
-    moreEl.textContent = hits.length > 400
-      ? `Showing first 400 of ${hits.length}. Narrow the search to see more.` : '';
-    // Keep the URL shareable without re-rendering: replaceState does not fire
-    // hashchange, so the router stays put and the input keeps focus.
+    moreEl.textContent = hits.length > 60
+      ? `Showing first 60 of ${hits.length}. Narrow the search to see more.` : '';
     const want = q ? `#/browse?q=${encodeURIComponent(q)}` : '#/browse';
     if (location.hash !== want) history.replaceState(null, '', want);
   }
 
+  const byId = new Map(items.map((i) => [i.id, i]));
+
   const input = el('input.search', {
-    type: 'search', placeholder: 'Search guidelines, drugs, keywords…',
+    type: 'search', placeholder: 'Search guidelines, drugs, symptoms…',
     value: params.q || '', 'aria-label': 'Search content',
     autocomplete: 'off', autocapitalize: 'none', spellcheck: 'false',
-    oninput: (e) => paint(e.target.value.trim().toLowerCase()),
+    oninput: (e) => paint(e.target.value.trim()),
   });
 
   mount(view,
     el('.page-head', {}, [
       el('h1', { text: 'Browse the guidelines' }),
-      el('p', { text: `All ${d.counts.guidelines} guidelines and ${d.counts.drugs} formulary entries from edition ${d.version}. Every question links back here.` }),
+      el('p', { text: `All ${d.counts.guidelines} guidelines and ${d.counts.drugs} formulary entries from edition ${d.version}. Search covers the full text of every section, not just titles.` }),
       el('div', { style: { marginTop: 'var(--sp-4)' } }, [input]),
+      statusEl,
     ]),
     listEl, moreEl,
   );
+
   paint(q);
+  // The index builds from content.json already in memory; it takes a moment,
+  // so the first paint uses title matching and re-paints once it is ready.
+  search.initSearch(d.content).then(() => { if (input.value.trim()) paint(input.value.trim()); })
+    .catch((err) => console.warn('search unavailable', err));
 }
 
 function renderItem({ path }) {

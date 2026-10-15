@@ -1,0 +1,489 @@
+{
+ "_comment": "Lay/colloquial -> clinical vocabulary used by the guidelines. Only terms a crew might actually type that do NOT appear in the document are mapped here; the document's own abbreviation glossary (10.02) is parsed separately at runtime and covers BLS/ALS/CCT/AMS/LVO and the rest. Keep values to words that really occur in the PCGs, otherwise the expansion matches nothing.",
+ "sugar": [
+  "glucose",
+  "bgl",
+  "hypoglycemia",
+  "dextrose"
+ ],
+ "lowsugar": [
+  "hypoglycemia"
+ ],
+ "attack": [
+  "stemi",
+  "acs",
+  "ischemia",
+  "infarction"
+ ],
+ "heartattack": [
+  "stemi",
+  "acs"
+ ],
+ "snake": [
+  "envenomation",
+  "crofab",
+  "viper",
+  "rattlesnake"
+ ],
+ "spider": [
+  "envenomation"
+ ],
+ "bee": [
+  "anaphylaxis",
+  "envenomation"
+ ],
+ "sting": [
+  "envenomation",
+  "anaphylaxis"
+ ],
+ "clot": [
+  "thrombus",
+  "embolism",
+  "thrombolytic"
+ ],
+ "clotbuster": [
+  "alteplase",
+  "tenecteplase",
+  "thrombolytic"
+ ],
+ "bloodthinner": [
+  "heparin",
+  "anticoagulant"
+ ],
+ "stroke": [
+  "cva",
+  "ischemic",
+  "thrombectomy"
+ ],
+ "breathing": [
+  "respiratory",
+  "ventilation",
+  "dyspnea"
+ ],
+ "breath": [
+  "respiratory",
+  "dyspnea",
+  "ventilation"
+ ],
+ "wheezing": [
+  "asthma",
+  "bronchospasm",
+  "albuterol"
+ ],
+ "wheeze": [
+  "asthma",
+  "bronchospasm"
+ ],
+ "choking": [
+  "obstruction",
+  "airway",
+  "foreign"
+ ],
+ "passedout": [
+  "syncope",
+  "unresponsive"
+ ],
+ "fainting": [
+  "syncope"
+ ],
+ "faint": [
+  "syncope"
+ ],
+ "unconscious": [
+  "unresponsive",
+  "loc",
+  "altered"
+ ],
+ "confused": [
+  "altered",
+  "ams"
+ ],
+ "fit": [
+  "seizure",
+  "convulsion"
+ ],
+ "convulsion": [
+  "seizure"
+ ],
+ "overdose": [
+  "poisoning",
+  "toxidrome",
+  "naloxone"
+ ],
+ "od": [
+  "overdose",
+  "poisoning"
+ ],
+ "narcan": [
+  "naloxone"
+ ],
+ "epipen": [
+  "epinephrine",
+  "anaphylaxis"
+ ],
+ "allergy": [
+  "anaphylaxis",
+  "allergic",
+  "diphenhydramine"
+ ],
+ "allergic": [
+  "anaphylaxis"
+ ],
+ "burn": [
+  "burns",
+  "inhalation",
+  "parkland"
+ ],
+ "drowning": [
+  "submersion",
+  "drowning"
+ ],
+ "cold": [
+  "hypothermia",
+  "frostbite"
+ ],
+ "freezing": [
+  "hypothermia",
+  "frostbite"
+ ],
+ "hot": [
+  "hyperthermia",
+  "heat"
+ ],
+ "heatstroke": [
+  "hyperthermia"
+ ],
+ "pregnant": [
+  "pregnancy",
+  "obstetric",
+  "gravida"
+ ],
+ "birth": [
+  "childbirth",
+  "delivery",
+  "neonatal"
+ ],
+ "labour": [
+  "labor",
+  "delivery"
+ ],
+ "newborn": [
+  "neonatal",
+  "neonate"
+ ],
+ "baby": [
+  "pediatric",
+  "neonatal",
+  "infant"
+ ],
+ "kid": [
+  "pediatric"
+ ],
+ "child": [
+  "pediatric"
+ ],
+ "bleeding": [
+  "hemorrhage",
+  "hemorrhagic",
+  "tourniquet"
+ ],
+ "bleed": [
+  "hemorrhage",
+  "hemorrhagic"
+ ],
+ "shock": [
+  "hypotension",
+  "hypoperfusion",
+  "vasopressor"
+ ],
+ "crash": [
+  "arrest",
+  "deterioration"
+ ],
+ "cantbreathe": [
+  "dyspnea",
+  "respiratory",
+  "distress"
+ ],
+ "cantintubate": [
+  "cricothyrotomy",
+  "supraglottic",
+  "failed"
+ ],
+ "failedairway": [
+  "cricothyrotomy",
+  "supraglottic",
+  "rescue"
+ ],
+ "surgicalairway": [
+  "cricothyrotomy"
+ ],
+ "tube": [
+  "endotracheal",
+  "ett",
+  "intubation"
+ ],
+ "vent": [
+  "ventilator",
+  "ventilation",
+  "peep"
+ ],
+ "breathingtube": [
+  "endotracheal",
+  "intubation"
+ ],
+ "chesttube": [
+  "thoracostomy"
+ ],
+ "collapsedlung": [
+  "pneumothorax",
+  "thoracostomy"
+ ],
+ "heartstopped": [
+  "arrest",
+  "asystole"
+ ],
+ "shocked": [
+  "defibrillation",
+  "cardioversion"
+ ],
+ "shockthepatient": [
+  "defibrillation"
+ ],
+ "paddles": [
+  "defibrillation",
+  "pads"
+ ],
+ "pacer": [
+  "pacing",
+  "transcutaneous"
+ ],
+ "bloodpressure": [
+  "hypertension",
+  "hypotension",
+  "sbp",
+  "map"
+ ],
+ "highbp": [
+  "hypertension",
+  "labetalol",
+  "nicardipine"
+ ],
+ "lowbp": [
+  "hypotension",
+  "vasopressor"
+ ],
+ "painkiller": [
+  "analgesia",
+  "fentanyl",
+  "morphine",
+  "hydromorphone"
+ ],
+ "painmed": [
+  "analgesia",
+  "fentanyl"
+ ],
+ "sedative": [
+  "sedation",
+  "midazolam",
+  "ketamine",
+  "propofol"
+ ],
+ "paralytic": [
+  "rocuronium",
+  "succinylcholine",
+  "vecuronium"
+ ],
+ "agitated": [
+  "combative",
+  "anxiolysis",
+  "restraint"
+ ],
+ "violent": [
+  "combative",
+  "restraint"
+ ],
+ "restrain": [
+  "restraint",
+  "combative"
+ ],
+ "vomiting": [
+  "nausea",
+  "emesis",
+  "ondansetron"
+ ],
+ "throwingup": [
+  "nausea",
+  "emesis"
+ ],
+ "nauseous": [
+  "nausea"
+ ],
+ "dka": [
+  "ketoacidosis",
+  "diabetic"
+ ],
+ "diabetic": [
+  "ketoacidosis",
+  "glucose",
+  "insulin"
+ ],
+ "potassium": [
+  "hyperkalemia",
+  "hypokalemia",
+  "electrolyte"
+ ],
+ "sodium": [
+  "hyponatremia",
+  "hypertonic",
+  "electrolyte"
+ ],
+ "sepsis": [
+  "septic",
+  "infection",
+  "sirs"
+ ],
+ "infection": [
+  "sepsis",
+  "septic",
+  "antibiotic"
+ ],
+ "brokenbone": [
+  "fracture",
+  "extremity"
+ ],
+ "broken": [
+  "fracture"
+ ],
+ "amputated": [
+  "amputation"
+ ],
+ "trapped": [
+  "entrapment",
+  "crush"
+ ],
+ "crushed": [
+  "crush",
+  "entrapment"
+ ],
+ "pelvis": [
+  "pelvic",
+  "binder"
+ ],
+ "neck": [
+  "spinal",
+  "cervical",
+  "c-collar"
+ ],
+ "spine": [
+  "spinal",
+  "motion",
+  "restriction"
+ ],
+ "headinjury": [
+  "tbi",
+  "intracranial",
+  "herniation"
+ ],
+ "braininjury": [
+  "tbi",
+  "intracranial"
+ ],
+ "pressureinhead": [
+  "icp",
+  "intracranial"
+ ],
+ "dead": [
+  "death",
+  "termination",
+  "resuscitation"
+ ],
+ "dnr": [
+  "polst",
+  "resuscitate"
+ ],
+ "refuse": [
+  "refusal",
+  "consent",
+  "capacity"
+ ],
+ "wheretogo": [
+  "destination",
+  "determination",
+  "trauma center"
+ ],
+ "transfer": [
+  "interfacility",
+  "ift",
+  "transport"
+ ],
+ "balloonpump": [
+  "iabp",
+  "intra-aortic"
+ ],
+ "heartpump": [
+  "impella",
+  "lvad",
+  "iabp"
+ ],
+ "cpap": [
+  "niv",
+  "noninvasive",
+  "bipap"
+ ],
+ "oxygen": [
+  "spo2",
+  "saturation",
+  "hypoxia"
+ ],
+ "co2": [
+  "etco2",
+  "capnography"
+ ],
+ "drip": [
+  "infusion",
+  "titrate"
+ ],
+ "iv": [
+  "intravenous",
+  "access"
+ ],
+ "io": [
+  "intraosseous"
+ ],
+ "fluids": [
+  "bolus",
+  "saline",
+  "lactated"
+ ],
+ "stopcpr": [
+  "termination",
+  "resuscitation",
+  "cease"
+ ],
+ "stopresuscitation": [
+  "termination",
+  "resuscitation"
+ ],
+ "terminate": [
+  "termination",
+  "resuscitation"
+ ],
+ "callit": [
+  "termination",
+  "death"
+ ],
+ "ettdepth": [
+  "depth",
+  "insertion",
+  "gum"
+ ],
+ "howdeep": [
+  "depth",
+  "insertion"
+ ],
+ "tubedepth": [
+  "depth",
+  "insertion"
+ ]
+}

@@ -326,3 +326,21 @@ dl.kv dd { margin: 0; }
   .ol-item[data-d="2"], .ol-head[data-d="1"] { margin-left: var(--sp-3); }
   .ol-item[data-d="3"], .ol-head[data-d="2"] { margin-left: var(--sp-6); }
 }
+
+/* ------------------------------------------------------- search results */
+.search-status { margin-top: var(--sp-2); color: var(--text-3);
+                 font-size: var(--fs-sm); min-height: 1.4em; }
+.browse-row.has-snip { grid-template-areas: "num title sub lv" "snip snip snip snip";
+                       align-items: start; padding: var(--sp-3) var(--sp-4); }
+.browse-row.has-snip > :nth-child(1) { grid-area: num; }
+.browse-row.has-snip > :nth-child(2) { grid-area: title; }
+.browse-row.has-snip > :nth-child(3) { grid-area: sub; }
+.browse-row.has-snip > :nth-child(4) { grid-area: lv; }
+.browse-snip { grid-area: snip; margin-top: var(--sp-2);
+  display: flex; gap: var(--sp-2); align-items: baseline; flex-wrap: wrap;
+  color: var(--text-2); font-size: var(--fs-sm); line-height: var(--lh-snug); }
+.browse-snip mark { background: color-mix(in srgb, var(--accent) 22%, transparent);
+  color: var(--text); border-radius: 3px; padding: 0 2px; font-weight: var(--fw-semi); }
+@media (max-width: 680px) {
+  .browse-row.has-snip { grid-template-areas: "num title" "snip snip"; }
+}

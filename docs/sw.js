@@ -10,7 +10,7 @@
  * Bump CACHE_VERSION whenever the app or the guideline edition changes; the
  * activate handler drops every cache that does not match.
  */
-const CACHE_VERSION = 'v2-2026.09.15';
+const CACHE_VERSION = 'v3-2026.09.15';
 const SHELL = `lfn-shell-${CACHE_VERSION}`;
 const MEDIA = `lfn-media-${CACHE_VERSION}`;
 
@@ -38,9 +38,11 @@ const SHELL_ASSETS = [
   'js/srs.js',
   'js/quiz.js',
   'js/analytics.js',
+  'js/search.js',
   'data/content.json',
   'data/questions.json',
   'data/modules.json',
+  'data/search.json',
 ];
 
 self.addEventListener('install', (e) => {
