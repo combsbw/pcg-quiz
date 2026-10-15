@@ -1,0 +1,1044 @@
+{
+ "q_2041d2b389": {
+  "stem": "What systolic blood pressure should an ALS crew maintain in an adult with a spinal injury and shock?",
+  "explanation": "Neurogenic shock is a distributive problem, and the adult goal is SBP greater than 90 mmHg, reached first with NS/LR boluses and then with norepinephrine if 2 L of fluid fails. The 90 + (age x 2) formula is the pediatric target on the same page."
+ },
+ "q_06c00eaa29": {
+  "stem": "What systolic blood pressure target applies to a pediatric patient with a spinal injury and shock?"
+ },
+ "q_aaa8b8b87d": {
+  "stem": "An adult with a spinal injury stays hypotensive despite NS/LR boluses. How much fluid must be given before a norepinephrine infusion is started?",
+  "explanation": "In spinal injury with shock, a vasopressor is added only after 2 L of crystalloid in an adult, because neurogenic shock is usually mixed with occult haemorrhage and volume should be replaced first. The pediatric band uses 40 – 60 mL/kg as the same decision point."
+ },
+ "q_8aad68564a": {
+  "stem": "What is the starting norepinephrine infusion rate for an adult with neurogenic shock who remains hypotensive after fluid?",
+  "explanation": "In neurogenic shock, norepinephrine starts at 2 – 10 mcg/min, then is titrated every 3 – 5 minutes against the SBP goal. 45 mcg/min is the ceiling of that titration, not a starting rate."
+ },
+ "q_caa5ac7d53": {
+  "stem": "What is the weight-based starting rate for norepinephrine in neurogenic shock?",
+  "explanation": "Both the adult and pediatric bands of the Spinal Injuries and Shock guideline start norepinephrine at 0.05 mcg/kg/min; it is the only rate the pediatric band offers, since children are not dosed in flat mcg/min."
+ },
+ "q_907d72bc54": {
+  "stem": "Norepinephrine for neurogenic shock is titrated every 3 – 5 minutes. What is the maximum rate?"
+ },
+ "q_29b6450b65": {
+  "stem": "What NS/LR bolus volume is used for a hypotensive child with a spinal injury?",
+  "explanation": "Children with a spinal injury and hypotension receive 10 – 20 mL/kg NS/LR boluses PRN; 40 – 60 mL/kg is the cumulative volume that must be reached before norepinephrine is added, not the size of a single bolus."
+ },
+ "q_184286e5cf": {
+  "stem": "How much fluid must a hypotensive pediatric patient with a spinal injury receive before norepinephrine is started?"
+ },
+ "q_3b47360a0b": {
+  "stem": "A patient with a cervical spine injury is hypotensive and bradycardic with warm, flushed skin and priapism. Which shock state is this?",
+  "explanation": "Neurogenic shock is loss of sympathetic stimulation to blood vessels with unopposed vagal tone, producing hypotension with bradycardia, warm flushed skin from peripheral vasodilatation, and priapism — the opposite of the cool, tachycardic picture of hemorrhagic shock."
+ },
+ "q_1a543db6b9": {
+  "stem": "A patient has lost sensation and reflexes below the level of a spinal injury but has no circulatory compromise. What is this called?",
+  "explanation": "Spinal shock is 'shock' to the cord itself and is not circulatory in nature. Because the cord is not completely destroyed, recovery usually occurs, although the duration is variable."
+ },
+ "q_f92ace2166": {
+  "stem": "Which finding should prompt an ALS crew to consider intubating a patient with a spinal injury?",
+  "explanation": "A high cord injury leaves the diaphragm working without the intercostals, so the BLS crew watches for absent chest movement or diaphragmatic breathing and the ALS crew intubates when the patient tires. Hypotension and priapism signal neurogenic shock, which is treated with volume and norepinephrine rather than an airway."
+ },
+ "q_a9f91268ea": {
+  "stem": "In suspension trauma, what should a still-suspended patient be told to do before rescue?",
+  "explanation": "The suspended patient should pump the legs because pooling of blood in the lower extremities is what reduces the volume circulating to the vital organs; muscle activity keeps that blood moving. Inability to move the legs is listed as a factor that worsens suspension trauma."
+ },
+ "q_298481fabb": {
+  "stem": "How should a patient be positioned on the backboard after a suspension trauma rescue?"
+ },
+ "q_61b3388068": {
+  "stem": "After a suspension trauma rescue, some authorities recommend a sitting position before horizontal positioning to prevent reperfusion injury. For how long?",
+  "explanation": "The Suspension Trauma guideline reports the 30-minute sitting recommendation but also states that others recommend immediate supine positioning, particularly when there are other injuries, and that there is no consensus — so the crew should expect disagreement from first responders at the scene."
+ },
+ "q_0896c6c9ca": {
+  "stem": "What is the underlying pathophysiology of suspension trauma?"
+ },
+ "q_77953b119c": {
+  "stem": "Among the theories of death in suspension trauma, what happens when the patient is moved to a horizontal position?",
+  "explanation": "Right ventricular overload from the sudden venous return is one of four proposed mechanisms of death in suspension trauma, alongside ischemic heart failure from deoxygenated blood, reperfusion injury of hypoxic organs, and a crush-injury-like toxin load."
+ },
+ "q_7861cda032": {
+  "stem": "Suspension trauma, or reperfusion of the legs afterwards, may lead to which outcomes?",
+  "explanation": "These are the complications attributed either to the suspension itself or to reperfusion once the legs are lowered — which is why the guideline treats repositioning as a deliberate decision rather than an afterthought."
+ },
+ "q_e5b9d5400d": {
+  "stem": "Which factors worsen suspension trauma?",
+  "explanation": "Associated injuries and underlying cardiopulmonary disease are also on this list. They matter on scene because each one shortens the time the patient can safely remain suspended and raises the urgency of the rescue."
+ },
+ "q_493881e21b": {
+  "stem": "In traumatic arrest, over what duration should a BLS crew deliver each ventilation?",
+  "explanation": "Traumatic arrest calls for careful BVM use with ventilations over 1 – 2 seconds. Fast, forceful breaths raise intrathoracic pressure and further cut venous return in a patient who is already profoundly hypovolemic."
+ },
+ "q_60b4d8aa02": {
+  "stem": "Which device should a BLS crew place on all traumatic arrest patients when available?",
+  "explanation": "A pelvic binder is routine for every traumatic arrest patient when one is available, because pelvic fracture bleeding is a reversible cause that direct pressure cannot control. Cervical collars are applied 'as appropriate', not universally."
+ },
+ "q_58441c1886": {
+  "stem": "What is the guidance on performing CPR at the scene of a traumatic arrest?",
+  "explanation": "High performance CPR is NOT a priority in trauma arrest, and crews are directed to maintain forward progress toward definitive care. Compressions do not fix the reversible causes of trauma death — haemorrhage, hypoxia, tension pneumothorax and tamponade do."
+ },
+ "q_397b5eb36d": {
+  "stem": "In a traumatic arrest, what must be in place before chest compressions are started?",
+  "explanation": "In traumatic arrest, compressions are held until the airway is patent, both sides of the chest are decompressed and fluid is running, because compressing an empty heart against a tension pneumothorax accomplishes nothing. If compressions are already ongoing on arrival, they must not interfere with addressing those causes."
+ },
+ "q_7cd0f8d4ab": {
+  "stem": "In a traumatic arrest with an unknown mechanism of injury, what should an ALS crew assume?",
+  "explanation": "Bilateral needle thoracostomies are performed unless chest trauma is entirely excluded by mechanism, history and exam; with an unknown mechanism, chest trauma is assumed present. The PEARLS reinforce it: when in doubt, decompress."
+ },
+ "q_7ed710fa08": {
+  "stem": "What is the adult epinephrine dose for traumatic arrest in asystole, VFib or pulseless VTach?",
+  "explanation": "The adult traumatic arrest table gives 1 mg IV of the 0.1 mg/mL concentration every 3-5 minutes, and only after life threats are addressed. The 20 mcg option is the LOST push-dose bolus — a different row of the same table for a patient who still has cardiac activity."
+ },
+ "q_2636e621e6": {
+  "stem": "An adult trauma patient has no pulses but continued cardiac activity (LOST). What bolus dose of epinephrine is given?",
+  "explanation": "LOST is a beating but ineffectively pumping heart, so a 20 mcg push dose from the 10 mcg/mL concentration is used to hold a baseline level of perfusion rather than the 1 mg arrest dose. It is given only after decompression, airway securement and volume."
+ },
+ "q_36c9313b45": {
+  "stem": "Push-dose epinephrine boluses may be given to an adult in a Low Output State in Trauma. How many doses may be given?"
+ },
+ "q_af934dd596": {
+  "stem": "What epinephrine infusion rate is given to an adult in a Low Output State in Trauma?",
+  "explanation": "The LOST infusion runs at a fixed 0.1 mcg/kg/min from a 4 mg/250 mL NS bag and is explicitly not titrated; the goal is a baseline level of perfusion, not a blood pressure number."
+ },
+ "q_21b96d52c6": {
+  "stem": "What is the pediatric epinephrine dose for traumatic arrest or a Low Output State in Trauma?",
+  "explanation": "The pediatric traumatic arrest table uses one dose for every indication — 0.01 mg/kg, which is 0.1 mL/kg of the 0.1 mg/mL concentration — given after life threats are addressed. There is no separate pediatric push-dose or infusion row."
+ },
+ "q_d6221de595": {
+  "stem": "What crystalloid bolus is used for fluid resuscitation of a pediatric traumatic arrest?",
+  "explanation": "Pediatric traumatic arrest receives 20 mL/kg of crystalloid, repeated PRN to a maximum of 60 mL/kg, and the crew re-evaluates pulses after each bolus rather than running fluid continuously."
+ },
+ "q_a5321c6c43": {
+  "stem": "Which traumatic arrest patients must not receive blood products?",
+  "explanation": "Blood is withheld from asystolic traumatic arrest because the resource is scarce and trauma arrest with asystole is not survivable. The algorithm repeats this in a red warning box, and the Blood Product Administration guideline lists it as the one contraindication to transfusion."
+ },
+ "q_f8deb6ed61": {
+  "stem": "What is the CCT guidance on chest tube placement in traumatic arrest?",
+  "explanation": "CCT crews perform bilateral finger thoracostomies in traumatic arrest; chest tube placement is not indicated. Needle decompression may be done while preparing for the finger thoracostomies."
+ },
+ "q_9591dcde5f": {
+  "stem": "Under what circumstance may a CCT crew defer thoracostomy in traumatic arrest?",
+  "explanation": "In traumatic arrest, thoracostomy is only deferred if ROSC is achieved. Equal breath sounds are not enough, because chest trauma is assumed present whenever the mechanism is unknown."
+ },
+ "q_477fa7f5af": {
+  "stem": "A traumatic arrest patient arrives with a chest tube already in place that is not patent. What should a CCT crew do?",
+  "explanation": "The crew verifies an existing chest tube is correctly placed and patent; if it is not, a finger thoracostomy is made above or anterior to the tube so the new opening is not in the same blocked track."
+ },
+ "q_7848d77887": {
+  "stem": "Constant manual uterine displacement is directed for a traumatic arrest patient in the second half of pregnancy. What is the alternative?",
+  "explanation": "Manual displacement is preferred because it offloads the vena cava without tilting the patient off a firm surface; a left lateral tilt of at least 15 degrees is the accepted alternative for minimising uterocaval compression."
+ },
+ "q_f174260baa": {
+  "stem": "A substantial portion of traumatic arrests are caused by which condition?",
+  "explanation": "Because tension pneumothorax accounts for so many traumatic arrests, bilateral decompression is performed unless it can be reliably and rapidly excluded — 'when in doubt, decompress!'"
+ },
+ "q_1290e22d69": {
+  "stem": "What is stated about trauma arrest in asystole?",
+  "explanation": "Trauma arrest with asystole is not survivable, which is the reason blood products are withheld and the algorithm routes an asystolic patient without ROSC toward termination of resuscitation."
+ },
+ "q_87d0c9173f": {
+  "stem": "In traumatic arrest care, what does the acronym LOST stand for?",
+  "explanation": "LOST describes a trauma patient without pulses but with continued cardiac activity — a beating heart that is not effectively pumping. That is the state in which push-dose or infusion epinephrine is offered, after decompression, airway and volume."
+ },
+ "q_90f80425d5": {
+  "stem": "Baseline perfusion in a LOST patient does not equate to a measurable blood pressure. What findings indicate it instead?",
+  "explanation": "In a profoundly hypovolemic patient the crew will not get a strong palpable pulse or a cuff pressure, so success is defined by a small rise in ETCO2 and a change in skin colour — the endpoints to watch when titrating the LOST epinephrine."
+ },
+ "q_3b86c222a9": {
+  "stem": "In the Traumatic Arrest Algorithm, what is the next step once reversible causes are addressed, ROSC is not obtained, and the rhythm is asystole?"
+ },
+ "q_4f21d6fffb": {
+  "stem": "A patient reports abdominal pain and has no chest complaint. Is a 12-lead ECG indicated?",
+  "explanation": "Indications for a 12-lead are chest pain, dyspnea, syncope and abdominal pain, and there are no contraindications at all. Abdominal pain is an anginal equivalent often seen with inferior infarction, so it earns a 12-lead on its own."
+ },
+ "q_2d7d04411f": {
+  "stem": "How should oily skin be prepared before applying 12-lead ECG electrodes?",
+  "explanation": "Oil raises skin impedance and produces baseline wander that can mimic or mask ST changes, so the crew cleans with alcohol and rubs briskly to dry, in addition to shaving or clipping excess hair."
+ },
+ "q_7dbcb42b96": {
+  "stem": "What patient position is required for 12-lead ECG monitoring?",
+  "explanation": "A resting, supine position is required, because changing the torso angle shifts the heart relative to the precordial leads and can create or hide ST-segment changes between serial tracings."
+ },
+ "q_8dc76e345f": {
+  "stem": "Where does ZOLL recommend the limb electrodes be placed for 12-lead ECG monitoring?",
+  "explanation": "ZOLL recommends placing limb electrodes anywhere along the ankles and wrists and avoiding tendons and major muscle masses, which introduce motion artifact into the tracing."
+ },
+ "q_949be1fff0": {
+  "stem": "Where is the V1 electrode placed for a 12-lead ECG?"
+ },
+ "q_fc4d4c43b6": {
+  "stem": "Where is the V4 electrode placed for a 12-lead ECG?"
+ },
+ "q_9a1c2a35f6": {
+  "stem": "Where is the V6 electrode placed for a 12-lead ECG?"
+ },
+ "q_cf546ba231": {
+  "stem": "Where is the V3 electrode placed for a 12-lead ECG?",
+  "explanation": "V3 has no landmark of its own — it is defined as the midpoint between V2 and V4, so V2 and V4 must both be correct before V3 can be placed."
+ },
+ "q_22e7793b3d": {
+  "stem": "Which patients may have 12-Lead Interpretive Analysis applied?",
+  "explanation": "Interpretive analysis is restricted to adults and the crew enters age and gender first, since the algorithm's thresholds are age- and sex-dependent and will misread a paediatric tracing."
+ },
+ "q_3cbe805df1": {
+  "stem": "If age and gender are not entered before 12-lead interpretive analysis, what default age does the X Series use?",
+  "explanation": "The X Series falls back to a 45-year-old male. Entering the real age and gender is what gives the highest degree of analysis — a default can change the interpretive statements printed on the strip."
+ },
+ "q_1963523e34": {
+  "stem": "At what documented hemoglobin is acute hemorrhage an indication for blood product administration?",
+  "explanation": "Acute hemorrhage with a documented Hgb below 7 is an indication for blood products alongside traumatic arrest, hemorrhagic shock and blunt or penetrating trauma with suspected blood loss."
+ },
+ "q_1d174e6d75": {
+  "stem": "What is a contraindication to blood product administration?",
+  "explanation": "There is no absolute contraindication to blood products other than patient refusal, with the single exception of asystole in traumatic arrest — blood is a scarce resource and that arrest is not survivable."
+ },
+ "q_2debf1e70c": {
+  "stem": "How is an adult defined for the purpose of blood product dosing?",
+  "explanation": "Blood product dosing splits its bands at age 10 or 40 kg, so a large 11-year-old gets whole units rather than weight-based volumes. The pediatric band is the mirror image: age 10 or under, or 40 kg or under."
+ },
+ "q_9735a0c63e": {
+  "stem": "What blood pressure target applies to an adult receiving blood products without a head injury?",
+  "explanation": "Blood product administration uses permissive hypotension — SBP 80 – 90 mmHg or a palpable radial pulse — to avoid disrupting formed clot before surgical control. The target rises to 110 only when head injury is known or suspected."
+ },
+ "q_10ca2503fd": {
+  "stem": "What blood pressure target applies to a pediatric patient receiving blood products?"
+ },
+ "q_63b5b646ba": {
+  "stem": "In an adult, after how much crystalloid with SBP still at or below 80 mmHg should blood products be considered?",
+  "explanation": "A rapid 500 mL infusion that leaves the SBP at or below 80 mmHg identifies a patient who is bleeding faster than crystalloid can keep up with, which is the cue to move to blood. The pediatric equivalent is 20 mL/kg."
+ },
+ "q_4431902c6a": {
+  "stem": "What positive shock index (HR/SBP) after a fluid bolus triggers blood products in a patient aged 13 or older?",
+  "explanation": "Shock index rises as the heart rate climbs to defend a falling pressure, so it flags compensated shock before the SBP drops. The blood product trigger is > 0.9 for age 13 and above, > 1.0 for ages 7 – 12 and > 1.22 for ages 4 – 6."
+ },
+ "q_aa9c41616d": {
+  "stem": "What is the adult calcium gluconate dose during blood product administration?",
+  "explanation": "Stored blood is citrated and chelates ionised calcium, so 1 – 2 grams of calcium gluconate IV over 5 minutes is given, repeated as more product goes in. The 3-gram dose belongs to hyperkalemia, not transfusion."
+ },
+ "q_f31ef2b8ac": {
+  "stem": "When should the first dose of calcium gluconate be given during an adult transfusion?",
+  "explanation": "Calcium is tied to citrate load, so the count includes units the sending facility gave before the crew arrived — a patient who received two units pre-transport is already due. Administration should follow once all life threats are addressed."
+ },
+ "q_8ad8703691": {
+  "stem": "What is the adult tranexamic acid dose for a patient receiving blood products?",
+  "explanation": "The full adult dose is given as a single 2-gram infusion over 10 minutes, so no maintenance infusion is needed — the receiving team must be told this at handover. Blood and other life threats take priority over giving it."
+ },
+ "q_066e074ccb": {
+  "stem": "When given with blood products, within what time from injury must tranexamic acid be administered?",
+  "explanation": "The time of injury must be 2 hours or less from the time of administration. Given later, TXA does not reduce — and may increase — death from bleeding."
+ },
+ "q_76cc165d0a": {
+  "stem": "What volume of LTOWB, plasma or PRBC is given to a pediatric patient?",
+  "explanation": "Each pediatric blood product is given at 10 mL/kg, with LTOWB preferred and component therapy used when whole blood is unavailable. The 20 mL/kg figure is the crystalloid trigger volume, not a blood dose."
+ },
+ "q_6082e74630": {
+  "stem": "What is the pediatric calcium gluconate dose during blood product administration?"
+ },
+ "q_fcc7dd2812": {
+  "stem": "What is the pediatric tranexamic acid dose during blood product administration?"
+ },
+ "q_e9628b3814": {
+  "stem": "What is the maximum pediatric tranexamic acid dose during blood product administration?"
+ },
+ "q_5a3d8cca0c": {
+  "stem": "An adult develops fever during a transfusion. What acetaminophen dose is given?",
+  "explanation": "Transfusion fever is treated with 1000 mg of IV acetaminophen over 15 minutes, after the transfusion is stopped and fluid boluses are started. The 15 mg/kg figure is the pediatric dose, capped at 750 mg."
+ },
+ "q_1e132d9f61": {
+  "stem": "What is the first action when a transfusion reaction is suspected?",
+  "explanation": "The transfusion is stopped first and fluid boluses are used to hold urine output at 30 – 100 mL/hr, protecting the kidneys from a haemolytic load. All implicated units are then kept and delivered to the receiving facility."
+ },
+ "q_fa317c7afc": {
+  "stem": "In hemorrhagic shock, what percentage of blood loss defines class III or IV shock?",
+  "explanation": "Class III or IV shock is more than 30% blood loss, with tachycardia, tachypnea, decreased SBP, narrowed pulse pressure, anxiety, confusion and lethargy. It is the one situation where the Blood Product Administration guideline says to give blood immediately."
+ },
+ "q_31df3985dc": {
+  "stem": "What temperature change defines fever suggesting a transfusion reaction?",
+  "explanation": "Because the rise above the starting value counts, a pre-transfusion temperature and a re-check 15 minutes after each unit is started are required — without the baseline the 1°C criterion cannot be applied."
+ },
+ "q_4d91d7527d": {
+  "stem": "Within what time of removal from the blood bank must blood products be administered?",
+  "explanation": "Blood products must be administered within 4 hours of release from the blood bank, and the flight crew notes the release time on the supplied transfer form so the clock can be tracked across the transport."
+ },
+ "q_329a01fab9": {
+  "stem": "What is required of the line used for tranexamic acid when it is given with blood products?",
+  "explanation": "TXA may run concurrently with blood but must go through a separate line. Plasma and RBCs may also be given sequentially but not simultaneously through the same IV set."
+ },
+ "q_37968f976e": {
+  "stem": "What SBP target is used for an adult receiving blood products with a known or suspected head injury?",
+  "explanation": "Permissive hypotension is abandoned when the brain is injured, because cerebral perfusion pressure depends on systemic pressure. The adult target rises to 110 mmHg, and the pediatric target to 90 + (age x 2)."
+ },
+ "q_6355c3992f": {
+  "stem": "What finding is required, in addition to tension pneumothorax, before a chest tube may be placed?",
+  "explanation": "HYPOTENSION is marked as REQUIRED, while tachycardia, decreased breath sounds, JVD, hypoxia, hypocarbia and tracheal deviation are supporting findings. A pneumothorax without tension physiology is an explicit contraindication to chest tube insertion."
+ },
+ "q_b054fc8250": {
+  "stem": "Besides tension pneumothorax with hypotension, what second indication for chest tube placement is listed?",
+  "explanation": "Gas in the pleural space expands as cabin altitude rises, so a tube is allowed for a documented pneumothorax being flown unpressurized above 8000 feet — but only after consultation with the sending provider."
+ },
+ "q_92f586e325": {
+  "stem": "Which situation is a contraindication to chest tube insertion?",
+  "explanation": "Chest tubes are contraindicated at scene and for any pneumothorax without tension physiology. Scene patients and all other patients get needle and/or finger thoracostomies instead."
+ },
+ "q_ec65b28100": {
+  "stem": "For which patients is chest tube placement permitted?",
+  "explanation": "Chest tubes are restricted to interfacility transfers on sending-provider orders, and only when sterile technique can be maintained. Every other patient gets a needle and/or finger thoracostomy."
+ },
+ "q_a846bb2a8a": {
+  "stem": "What is the maximum dose of lidocaine for local anesthesia during chest tube insertion?",
+  "explanation": "Lidocaine is capped at 4 mg/kg, which is 0.2 mL/kg of the 2% solution, with a specific warning to calculate the maximum in children — the volume needed to infiltrate skin, periosteum and intercostal muscle can approach the ceiling in a small patient."
+ },
+ "q_d24fd45029": {
+  "stem": "How is chest tube insertion depth estimated before the procedure?",
+  "explanation": "Measuring from the planned incision to the sternal notch tells the crew whether every fenestration will sit inside the chest; if not, the tip is cut down with sterile scissors so no side hole stays outside the pleura."
+ },
+ "q_d3c8256448": {
+  "stem": "Where is the incision placed for chest tube insertion?",
+  "explanation": "The incision goes lateral to the nipple at the 4th or 5th intercostal space between the anterior and mid-axillary lines. The PEARLS add the handshake-in-the-axilla method because the older inframammary-crease wording led to tubes placed too low."
+ },
+ "q_ba85a58dd6": {
+  "stem": "During chest tube insertion, over which rib is the incision cut?"
+ },
+ "q_34831ad658": {
+  "stem": "During chest tube insertion, over which border of the rib is the Kelly clamp passed, and why?",
+  "explanation": "The clamp is pressed over the top of the rib and through the intercostal muscles, explicitly avoiding the inferior rib border where the intercostal vessels and nerve run. Striking that bundle produces bleeding the crew cannot control from outside."
+ },
+ "q_1997c8387f": {
+  "stem": "During chest tube insertion, how is entry into the pleural space confirmed before the tube is inserted?",
+  "explanation": "Hooking a finger onto the inner surface of the ribs proves the track is intrapleural rather than in a subcutaneous or extrapleural plane. Rib fractures may be present and can lacerate the finger."
+ },
+ "q_ea6a0f6805": {
+  "stem": "In which direction is a chest tube advanced?",
+  "explanation": "The tube is directed cephalad and posterior until all the holes are inside the chest. In a supine patient air collects apically and blood posteriorly, so this track drains both."
+ },
+ "q_8a82b5b8e2": {
+  "stem": "What minimum chest tube depth marking is expected once the tube is in place?"
+ },
+ "q_ab17a8b874": {
+  "stem": "After the Heimlich valve is attached to a chest tube, what are the signs of proper placement and patency?",
+  "explanation": "Valve fluctuation with each breath plus improvement in compliance or respiratory status is the bedside evidence the tube is in the pleural space and open. A static valve suggests an obstructed or malpositioned tube."
+ },
+ "q_d86f1515fd": {
+  "stem": "At what chest tube output should the tube be clamped to avoid exsanguination?",
+  "explanation": "Output above 1000 mL in under an hour means the tube is draining a patient faster than they can be transfused, so it is clamped deliberately to let the hemothorax tamponade the bleeding."
+ },
+ "q_89a8b0a9af": {
+  "stem": "After a chest tube is clamped for high output, what should the crew monitor for?",
+  "explanation": "Clamping trades drainage for tamponade, so the pleural collection can re-accumulate under tension. The crew also notifies the receiving facility of the output and the clamped tube, since the patient likely needs emergent OR."
+ },
+ "q_38b76e1411": {
+  "stem": "What must be documented before a chest tube procedure is finalized in the chart?",
+  "explanation": "The procedure may not be documented as 'successful' without naming the physician who verified placement. If the crew is later told placement was incorrect, they must notify the Clinical Manager on Call and complete a QM report."
+ },
+ "q_c6c3b94cdd": {
+  "stem": "What quick method is used for assessing the chest tube incision site?",
+  "explanation": "The handshake-in-the-axilla method was adopted because the previous wording — lateral to the superior aspect of the inframammary crease — led providers to place tubes inferiorly, since the crease projects higher than most people expect."
+ },
+ "q_28aa45aea9": {
+  "stem": "Which rhythms are indications for defibrillation?",
+  "explanation": "Defibrillation is limited to VF and pulseless VT; any rhythm with a pulse, PEA and asystole are explicit contraindications. Refractory VF after three shocks, epinephrine and amiodarone is the indication for Dual Sequential External Defibrillation."
+ },
+ "q_9e90dfa9d5": {
+  "stem": "What are the contraindications to defibrillation?",
+  "explanation": "Shocking a perfusing rhythm can induce VF, and neither PEA nor asystole is a shockable rhythm, so all three are ruled out. Chest hair is a pad-adhesion problem to be clipped or shaved, not a reason to withhold the shock."
+ },
+ "q_a186f6edc6": {
+  "stem": "What is the preferred therapy electrode placement for defibrillation?",
+  "explanation": "AP is the preferred placement, and the therapy electrodes must also make good skin contact and not cover any part of the ECG electrodes."
+ },
+ "q_45bf0f154e": {
+  "stem": "What should be done before applying defibrillation pads to a patient with excessive chest hair?",
+  "explanation": "Hair holds the pad off the skin, and the resulting air gap is what produces arcing and burns. The crew removes clothing, dries the chest and clips or shaves excess hair so the electrodes adhere."
+ },
+ "q_ddaaed6dc0": {
+  "stem": "During defibrillation, what happens if the selected energy is changed while the defibrillator is charging or charged?"
+ },
+ "q_9666071ec6": {
+  "stem": "During defibrillation, how must the SHOCK button be operated?",
+  "explanation": "The SHOCK button on the front panel must be pressed and held until the energy is actually delivered; a quick tap may not discharge the unit. Pressing the Disarm softkey cancels the shock at any point."
+ },
+ "q_7ff9f48733": {
+  "stem": "During defibrillation, what complication results from poor pad adherence or air trapped under the therapy electrodes?",
+  "explanation": "The crew applies one edge of the pad and rolls it smoothly to the other so no air pockets are trapped between gel and skin. Trapped air lets current arc, which burns the patient and wastes delivered energy."
+ },
+ "q_696884a3d8": {
+  "stem": "What is required before Dual Sequential External Defibrillation is used?"
+ },
+ "q_9a7933b910": {
+  "stem": "During Dual Sequential External Defibrillation, how is the second set of pads placed?",
+  "explanation": "DSED alternates the vectors — anterior-posterior if the first set is anterior-lateral and vice versa — and there must be no overlap or contact between the two sets. The second set goes on with minimal interruption to CPR."
+ },
+ "q_6cdde7f987": {
+  "stem": "During Dual Sequential External Defibrillation, what is the risk if the two sets of pads overlap or touch?",
+  "explanation": "Current from one unit can be driven back into the other through contacting pads, which is why separation and opposing vectors are required. Losing both defibrillators mid-arrest ends the resuscitation."
+ },
+ "q_670b6c3abe": {
+  "stem": "Who operates the defibrillators during Dual Sequential External Defibrillation?",
+  "explanation": "A single provider runs both units so the shocks land as close together as possible but not simultaneously. Two operators cannot reliably achieve that sub-second separation."
+ },
+ "q_a9c4bf9fa0": {
+  "stem": "During Dual Sequential External Defibrillation, how far apart should the two shocks ideally be delivered?",
+  "explanation": "The shocks should be as close together as possible but explicitly not at the same time, ideally under one second apart — hence 'shock one' called aloud as it is delivered, then immediately 'shock two'."
+ },
+ "q_e304809828": {
+  "stem": "At what point in the Dual Sequential External Defibrillation sequence are both defibrillators charged?"
+ },
+ "q_ee7574e199": {
+  "stem": "How many filters are required for an inhaled epoprostenol transport, and where do they go?",
+  "explanation": "Inhaled epoprostenol transport uses three filters — one for the inhalation port and two for exhalation — with the inspiratory filter placed closest to the Hamilton. They must be filters from the sending hospital, not the HMEFs normally used on the circuit."
+ },
+ "q_54a671cf21": {
+  "stem": "During an inhaled epoprostenol transport, where on the ventilator circuit is the Aerogen placed?"
+ },
+ "q_c803e76994": {
+  "stem": "What are the typical inhaled epoprostenol doses a crew should expect?",
+  "explanation": "The crew verifies the running dose with the sending provider; typical doses are 10 – 50 nanograms/kg/minute. Confusing nanograms with micrograms would be a thousand-fold error."
+ },
+ "q_a201fd8e0c": {
+  "stem": "On which body weight is inhaled epoprostenol dosed?",
+  "explanation": "The crew confirms with the sending provider both the dose and that it is being calculated on ideal body weight — a check worth making, because an obese patient dosed on actual weight would be receiving substantially more drug."
+ },
+ "q_712f2a4317": {
+  "stem": "During an inhaled epoprostenol transport, what battery life does a fully charged Aerogen Pro-X controller have?"
+ },
+ "q_63b701bbd0": {
+  "stem": "During an inhaled epoprostenol transport, when should the Aerogen controller be unplugged at the sending facility?"
+ },
+ "q_562b663068": {
+  "stem": "What is the guidance on titrating inhaled epoprostenol during transport?",
+  "explanation": "The crew does not titrate this medication without an order from a physician. The crew's role is to monitor PA pressures if a catheter is present and report changes to the receiving facility, not to adjust the rate."
+ },
+ "q_2b24adaae3": {
+  "stem": "During an inhaled epoprostenol transport, what should the crew monitor if a PA catheter is present?"
+ },
+ "q_20229b9e00": {
+  "stem": "Why can inhaled epoprostenol not be stopped during transport?",
+  "explanation": "The extremely short half-life means pulmonary vasodilation is lost within minutes of any interruption, with rebound pulmonary hypertension. That is also why a backup syringe of epoprostenol is requested when one is available."
+ },
+ "q_f0ce3e487d": {
+  "stem": "During an inhaled epoprostenol transport, what is required of the Aerogen solo cup?",
+  "explanation": "The vibrating mesh aperture plate only nebulizes drug sitting against it, so tipping the solo cup interrupts delivery of a medication that cannot be stopped. This is paired with keeping the syringe pump free of alarms."
+ },
+ "q_5393ff5761": {
+  "stem": "Which situation is an indication for endotracheal tube exchange?",
+  "explanation": "Exchange is reserved for a damaged or uncuffed tube with a significant air leak, or a tube depth that is wrong and is causing ventilation or oxygenation failure. Problems fixable by repositioning or by inflating the cuff further are contraindications."
+ },
+ "q_5bca85076a": {
+  "stem": "Which situation is a contraindication to endotracheal tube exchange?",
+  "explanation": "Exchange risks injury or loss of the airway, so it is ruled out whenever a less invasive fix exists — repositioning a migrated tube, or simply adding air to an underinflated cuff."
+ },
+ "q_3788d823ad": {
+  "stem": "What equipment is needed for an endotracheal tube exchange?",
+  "explanation": "The exchange is treated as an intubation that happens to start with a tube already in place, so the full intubation setup must be ready — plus a bougie, which is the device that holds the tracheal path between the two tubes."
+ },
+ "q_c34502f051": {
+  "stem": "How is the patient pre-oxygenated before an endotracheal tube exchange?",
+  "explanation": "The apnoeic period during an exchange is the dangerous part, so the patient is denitrogenated on 100% FiO2 with a nasal cannula at 15 LPM added for apnoeic oxygenation while the tube is out. Additional sedation and paralysis are given as for RSI."
+ },
+ "q_c4bcfe7fd5": {
+  "stem": "During an endotracheal tube exchange, how far is the bougie advanced through the existing tube?",
+  "explanation": "The assistant advances the bougie gently to the markings indicating mid-trachea and stops if hold-up is encountered. Going deeper risks airway trauma or pneumothorax, and the bougie must stay at that depth for the whole procedure."
+ },
+ "q_439099b8b3": {
+  "stem": "During an endotracheal tube exchange, what does the crew do immediately before the old tube is withdrawn?"
+ },
+ "q_ace2b0d24e": {
+  "stem": "During an endotracheal tube exchange, who controls the bougie once the old tube's tip clears the mouth?",
+  "explanation": "Control of the bougie is handed back and forth deliberately: the assistant holds it while the operator withdraws the old tube, the operator takes it once the tip is clear so the assistant can strip the tube off, then the assistant retakes it as the new tube is advanced. The bougie is never unheld."
+ },
+ "q_6a28a634c0": {
+  "stem": "During an endotracheal tube exchange, what manoeuvre is used as the new tube is advanced over the bougie, and why?"
+ },
+ "q_a4b557a2b2": {
+  "stem": "During an endotracheal tube exchange, what are the final steps once the new tube is in the trachea?",
+  "explanation": "The cuff is inflated before the bougie comes out so ventilation can begin immediately, then placement is verified and the tube secured. Securing before confirming would commit the crew to an unverified airway."
+ },
+ "q_2304f2e0ee": {
+  "stem": "Can an endotracheal tube exchange be performed blind?",
+  "explanation": "Visualization of the glottic opening is required throughout and the procedure must NEVER be performed blind. Keeping it as close as possible to a standard intubation means the crew's usual rescue principles still apply if it goes wrong."
+ },
+ "q_68b40f4e52": {
+  "stem": "Which single finding must be present before a finger thoracostomy may be performed?",
+  "explanation": "Hypotension is stated in red as REQUIRED to perform a finger thoracostomy. Tachycardia, JVD and tracheal deviation are supporting signs of peri-arrest tension physiology, but none of them substitutes for hypotension as the trigger to cut."
+ },
+ "q_5c8da7b810": {
+  "stem": "Which condition is a contraindication to finger thoracostomy?"
+ },
+ "q_6762e31940": {
+  "stem": "Where is the incision placed for a finger thoracostomy?"
+ },
+ "q_4ee35e4e34": {
+  "stem": "During a finger thoracostomy, if the provider is in doubt about which rib interspace to use, what is the advice?",
+  "explanation": "When in doubt, err one interspace more superior. Going too low risks entering the abdomen through the diaphragm, which is a far worse error than opening the chest one space high."
+ },
+ "q_56a2971c98": {
+  "stem": "During a finger thoracostomy, which instrument is used to pass through the soft tissue and enter the pleural space after the skin incision?"
+ },
+ "q_0b2f652776": {
+  "stem": "During a finger thoracostomy, which structures lie at the inferior border of the rib and must be avoided?"
+ },
+ "q_f280d0a529": {
+  "stem": "During a finger thoracostomy, what is the next step immediately after the Kelly clamp has been pressed over the rib and into the pleural space?"
+ },
+ "q_70b3bd4857": {
+  "stem": "During a finger thoracostomy, how is entry into the pleural space verified?",
+  "explanation": "Confirmation is tactile: a gloved finger is inserted and hooked to feel the inner surface of the ribs. Rib fractures may be present and can lacerate the finger."
+ },
+ "q_ad79e1b6f4": {
+  "stem": "The patient re-tensions after a finger thoracostomy. What should the crew do?"
+ },
+ "q_1a92f92fa9": {
+  "explanation": "SBP < 100 is a listed contraindication to Flow-Safe II CPAP. Positive intrathoracic pressure reduces venous return, so CPAP can tip a marginally compensated patient into frank hypotension."
+ },
+ "q_c6fb24ed38": {
+  "stem": "By how much may the pressure shown on the Flow-Safe II manometer differ from the desired CPAP level?",
+  "explanation": "A reading within ± 3 cmH2O of the desired CPAP is acceptable. A larger discrepancy usually means a mask leak, which is corrected by repositioning or changing mask size rather than by turning up the flow."
+ },
+ "q_3d806ea66d": {
+  "stem": "A patient requires both ventilatory and oxygenation support. What should be used instead of the Flow-Safe II CPAP device?"
+ },
+ "q_6e78374107": {
+  "stem": "If nebulized medication is needed for a patient on the Flow-Safe II CPAP device, where is the nebulizer connected?"
+ },
+ "q_36f25ab236": {
+  "stem": "When a nebulizer is added to the Flow-Safe II CPAP circuit, where is its oxygen tubing connected?"
+ },
+ "q_9f96374769": {
+  "stem": "Which patient condition is an indication for gastric tube insertion?"
+ },
+ "q_09746d8696": {
+  "stem": "A patient who needs gastric decompression has had recent nasal surgery. What should be done?",
+  "explanation": "Recent nasal surgery is a contraindication to the nasal route only — an OG may be placed instead. The other listed contraindications (esophageal rupture, caustic ingestion) rule out both routes."
+ },
+ "q_77989ba25c": {
+  "stem": "How is nasogastric tube insertion depth measured?"
+ },
+ "q_b7fb296d73": {
+  "stem": "During nasogastric tube insertion the patient begins to cough and develops new onset dyspnea. What should be done?",
+  "explanation": "Coughing or new dyspnea suggests the tube has entered the airway, so the tube is removed rather than repositioned. Continuing to advance risks intubating the trachea with a gastric tube."
+ },
+ "q_934b0e5548": {
+  "stem": "What size syringe is used for aspirating gastric contents to assess gastric tube placement?"
+ },
+ "q_545aa4c314": {
+  "stem": "When confirming gastric tube placement, after aspirating for gastric contents, how much air is injected while listening over the stomach?"
+ },
+ "q_9bebf6149e": {
+  "stem": "Once gastric tube placement is confirmed, how should the tube be secured?",
+  "explanation": "The gastric tube should explicitly NOT be taped to the ETT. Tying the two together means any tug on the gastric tube transmits directly to the airway and risks extubation."
+ },
+ "q_5f09148898": {
+  "stem": "Before packing a hemostatic agent into a wound, what should be done first?"
+ },
+ "q_fbdb64ab04": {
+  "stem": "After packing a hemostatic agent with rolled gauze into the wound, how long should direct pressure be held?",
+  "explanation": "A continuous 3 minutes of direct pressure is held on the bleeding source through the packed gauze. Releasing early is the most common reason a hemostatic dressing fails."
+ },
+ "q_e89d527c95": {
+  "stem": "A hemostatic dressing packed into a wound is now fully red. What should be done?"
+ },
+ "q_47397f0254": {
+  "stem": "With which agent are QuickClot hemostatic dressings impregnated?",
+  "explanation": "QuickClot uses kaolin, an inorganic mineral. The dressings contain no human, animal or shellfish product and do not cause an exothermic reaction, so shellfish allergy and burn risk are not reasons to withhold them."
+ },
+ "q_678d769c73": {
+  "stem": "How long may a hemostatic dressing remain in a wound?",
+  "explanation": "Dressings can stay packed for up to 24 hours, which comfortably covers any transport. There is no reason to disturb a controlled wound en route — 'if you peek, you leak.'"
+ },
+ "q_c51af17283": {
+  "stem": "Besides major hemorrhage, what other use for hemostatic agents is described?",
+  "explanation": "Hemostatic agents are not reserved for exsanguinating injury — they are effective for persistent 'nuisance bleeding' such as scalp lacerations that would otherwise consume crew attention throughout transport."
+ },
+ "q_bb2c8da5a7": {
+  "stem": "A patient is being prepared for RSI. What role does high flow nasal cannula play?"
+ },
+ "q_e0652074eb": {
+  "stem": "Which finding contraindicates high flow nasal cannula?"
+ },
+ "q_2ab05c1f4c": {
+  "stem": "What is the adult flow rate range for high flow nasal cannula?"
+ },
+ "q_3bbac8c53e": {
+  "stem": "What is the pediatric flow rate range for high flow nasal cannula?"
+ },
+ "q_a7d0ac48df": {
+  "stem": "To what may pediatric high flow nasal cannula flow be titrated if there is no heat or humidification?"
+ },
+ "q_f7de5c4513": {
+  "stem": "What is required before transporting an adult on high flow nasal cannula without heat and/or humidification?",
+  "explanation": "This is carried in a red box: approval from the sending provider or OLMC is required for unheated, unhumidified HFNC in adults, because dry high flow gas rapidly dries secretions and injures the nasal mucosa."
+ },
+ "q_e5dde59b44": {
+  "stem": "For high flow nasal cannula, how should the RAM cannula prongs be sized against the patient's nares?"
+ },
+ "q_d02ec8413a": {
+  "stem": "Which Hamilton T-1 mode is used for delivering high flow nasal cannula?"
+ },
+ "q_4f95105d32": {
+  "stem": "A patient on high flow nasal cannula deteriorates during transport. What should the crew consider?"
+ },
+ "q_c2b29d8b6e": {
+  "stem": "Which oxygen-conserving ventilator mode is unavailable while high flow nasal cannula therapy is running?",
+  "explanation": "LPO cannot be used during HFNC. If oxygen conservation becomes necessary on a long transport, the patient is switched to CPAP or BiPAP instead — which is why the LFN oxygen calculator must be run before departure."
+ },
+ "q_90809af0de": {
+  "stem": "What is the therapeutic goal of high flow nasal cannula oxygen therapy?"
+ },
+ "q_2e437fd351": {
+  "stem": "If a Hamilton T-1 is not readily available for high flow nasal cannula, what alternative is permitted for the RAM cannula?",
+  "explanation": "The RAM cannula can be driven from regular oxygen tubing on a standard flow meter, but this gives a reduced maximum flow rate and no humidification."
+ },
+ "q_b0ce58effa": {
+  "stem": "To what pressure should the IABP flush bag pressure infuser be inflated?"
+ },
+ "q_b7ba22fd41": {
+  "stem": "The patient arrives on an Arrow pump with an Arrow fiber-optic balloon. What is required when transferring to the Maquet IABP console?"
+ },
+ "q_a0acd93125": {
+  "stem": "The IABP arterial pressure waveform becomes damped in flight. What should be done first?"
+ },
+ "q_ccd6e286b3": {
+  "stem": "How often should the IAB inner lumen be flushed during transport to prevent damping?"
+ },
+ "q_27c395ca4a": {
+  "stem": "Which operation mode is the default on the Maquet IABP?"
+ },
+ "q_ab52ebf4e6": {
+  "stem": "After the IABP and patient are loaded into the rotor-wing aircraft, where is the pump secured?"
+ },
+ "q_53125cc244": {
+  "stem": "Which airway reflex finding is required before an i-gel is placed?"
+ },
+ "q_63f323c4d1": {
+  "stem": "Which condition is a contraindication to the i-gel?"
+ },
+ "q_877831ad38": {
+  "stem": "Which i-gel size is indicated for a 70 kg adult?"
+ },
+ "q_c38117c5bb": {
+  "stem": "What type of lubricant is used for the i-gel?",
+  "explanation": "A small bolus of water-based lubricant is used on the back, sides and front of the cuff; silicone-based lubricants are explicitly prohibited. No bolus may be left sitting in the bowl of the cuff, where it would be driven into the airway on insertion."
+ },
+ "q_5add458d77": {
+  "stem": "When placing an i-gel, how should the patient's head and neck be positioned, trauma permitting?"
+ },
+ "q_012b5e7ea6": {
+  "stem": "When placing an i-gel, in which direction is the leading soft tip introduced into the mouth?"
+ },
+ "q_64114ea6ed": {
+  "stem": "Early resistance is met during i-gel insertion. What should be done?",
+  "explanation": "Early resistance is managed with a jaw thrust and a deep rotation of the device. Excessive force is forbidden, and it is not necessary to put fingers or thumbs into the patient's mouth during insertion."
+ },
+ "q_6838e2e52e": {
+  "stem": "How is i-gel placement confirmed?"
+ },
+ "q_35f5652408": {
+  "stem": "In which i-gel sizes may a #10 feeding tube be passed down the gastric channel?"
+ },
+ "q_ec242ebf2d": {
+  "stem": "The taped securement technique for the i-gel applies to which sizes?"
+ },
+ "q_de5864e8c0": {
+  "stem": "Which condition is an indication for inline nebulizer treatment?",
+  "explanation": "Bronchospasm, croup/epiglottitis/laryngospasm and hyperkalemia are the listed indications — the last because nebulized beta-agonist drives potassium intracellularly. There are no listed contraindications."
+ },
+ "q_429434a8c1": {
+  "stem": "In the adult/pediatric ventilator circuit, where does the inline nebulizer set-up sit?"
+ },
+ "q_537c3ee000": {
+  "stem": "What results from connecting an inline nebulizer between the flow sensor and the ETT?"
+ },
+ "q_cf758da73e": {
+  "stem": "During an inline nebulizer treatment on the Hamilton T1, for how long is the fixed nebulizer flow synchronized with the inspiratory phase of each breath?"
+ },
+ "q_270de88184": {
+  "stem": "For an inline nebulizer treatment on the Hamilton T1, a pneumatic nebulizer connected to the nebulizer port is optimally specified for approximately what flow?"
+ },
+ "q_80a3368379": {
+  "stem": "When an inline nebulizer is activated on the LTV/ReVel ventilator, what nominal flow is delivered to the nebulizer drive port?"
+ },
+ "q_fc8668056a": {
+  "stem": "How is an Aerogen nebulizer connected to the Hamilton T1 for an inline nebulizer treatment?"
+ },
+ "q_11832fda5c": {
+  "stem": "Which finding is an indication for intracranial pressure monitoring?",
+  "explanation": "Intraventricular bleeds, CT showing edema and/or shifts, confirmed head injury with GCS < 8 and posturing are the indications. There are no listed contraindications."
+ },
+ "q_a4c3982962": {
+  "stem": "Below which Glasgow Coma Scale score is ICP monitoring indicated for a confirmed head injury?"
+ },
+ "q_f8bc508bd4": {
+  "stem": "Level with which anatomic landmark is the ICP transducer placed and secured?"
+ },
+ "q_ef4b9094cb": {
+  "stem": "With what is the ICP transducer system primed?",
+  "explanation": "Priming uses preservative-free normal saline under strict aseptic technique. IV fluids must not be hung and a pressure bag must not be used — any pressurized infusion into a ventriculostomy is dangerous."
+ },
+ "q_6caae7f699": {
+  "stem": "During ICP monitoring, what is the first step in zeroing the ventriculostomy line?"
+ },
+ "q_2b214d8313": {
+  "stem": "During ICP monitoring, when must the ventriculostomy drain be closed during transport?"
+ },
+ "q_40e5d3bfa8": {
+  "stem": "What is required each time the aircraft changes altitude with an ICP monitor in place?"
+ },
+ "q_e56a5ce76b": {
+  "stem": "What is the indication for intranasal medication delivery?"
+ },
+ "q_7b24a9cea1": {
+  "stem": "Which finding contraindicates intranasal medication delivery?"
+ },
+ "q_ba24a70382": {
+  "stem": "For intranasal medication delivery in a patient aged 10 years or older, what is the maximum volume per nostril?"
+ },
+ "q_dfc2a1a396": {
+  "stem": "For intranasal medication delivery in a child under 10 years of age, what is the maximum volume per nostril?"
+ },
+ "q_eba55e4ac8": {
+  "stem": "For intranasal medication delivery, how much extra medication is drawn into the syringe to account for atomizer dead space?"
+ },
+ "q_9b79db5442": {
+  "stem": "During intranasal medication delivery, once the MAD is inserted into the nares, toward what is the tip aimed?"
+ },
+ "q_9cdb0a0eb0": {
+  "stem": "During intranasal medication delivery, when is the plunger depressed?"
+ },
+ "q_18c177b732": {
+  "stem": "What portion of the total intranasal dose is given in each nare?"
+ },
+ "q_1eea54647f": {
+  "stem": "To improve the success of intranasal medication delivery, what is the guidance on drug volume and concentration?"
+ },
+ "q_afaf24f1cf": {
+  "stem": "For which patient is intraosseous access indicated?",
+  "explanation": "There are only two indications for IO access: immediate vascular access in the critical patient, and cardiac arrest. Difficult venous access in a stable patient is not, by itself, a reason to drill."
+ },
+ "q_894d905382": {
+  "stem": "Which finding at or near the intended insertion site contraindicates IO placement?"
+ },
+ "q_743afb0e56": {
+  "stem": "An IO was placed in a patient's left tibia and has since been removed. Within what period is further IO access in that same limb contraindicated?"
+ },
+ "q_c76575cff4": {
+  "stem": "At what patient weight is the EZ-IO 45 mm (yellow hub) needle used for a humeral head IO insertion?"
+ },
+ "q_3c60c5f7dc": {
+  "explanation": "The 5-mm mark is the most proximal mark to the hub; if it is still visible above the skin once the tip is on bone, there is enough needle left to cross the cortex. If it is not visible, a longer needle and/or a different insertion site is needed."
+ },
+ "q_176860a34a": {
+  "stem": "The distal femur is permitted as an adult IO insertion site only in patients up to what age?"
+ },
+ "q_d870a3c1dd": {
+  "stem": "What minimum weight applies to the pediatric IO insertion sites?"
+ },
+ "q_d8af9722db": {
+  "stem": "How is IO placement confirmed once the cannula is seated and the stylet removed?"
+ },
+ "q_63a33ace64": {
+  "stem": "Flow through a correctly placed IO is inadequate for the volume you need. What should be done, and which site generally flows best?",
+  "explanation": "IO flow is pressure dependent, so a pressure bag or IV pump is used when rates are inadequate, and the humeral head generally provides a higher flow rate than the other insertion sites."
+ },
+ "q_70c651afcf": {
+  "explanation": "It is stated in red that you must be able to palpate the greater tubercle before insertion, to avoid errant placement. The arm is adducted and internally rotated — not abducted — to bring the tubercle up into the palm of your hand."
+ },
+ "q_6a9ce1abe1": {
+  "stem": "What is the adult initial dose of 2% lidocaine for IO pain management?",
+  "explanation": "A conscious patient feels the infusate expanding the marrow cavity, so 40 mg of 2% lidocaine is given before flushing. The weight-based figures are the lidocaine doses used for arrest and tachycardia, not for IO analgesia."
+ },
+ "q_326acecdd2": {
+  "stem": "What is the pediatric initial dose of 2% lidocaine for IO pain management?"
+ },
+ "q_0e6e686af6": {
+  "stem": "The patient still reports pain after the initial IO lidocaine dose. What repeat dose is given, and over what time?"
+ },
+ "q_0d5ba57487": {
+  "stem": "Where is the lidocaine syringe attached when giving IO pain management?"
+ },
+ "q_ef040f90d0": {
+  "stem": "To what pressure is the pressure bag inflated on an invasive hemodynamic monitoring set-up?"
+ },
+ "q_9f31a4bfef": {
+  "stem": "During invasive hemodynamic monitoring, what must be repeated with any change in altitude during transport?",
+  "explanation": "Ambient pressure is the reference for the transducer, so a change in cabin altitude shifts the zero and every reading with it. The re-zero is built into the zeroing step rather than left to judgement."
+ },
+ "q_7232f04f8b": {
+  "stem": "When zeroing an invasive hemodynamic monitoring line, what is observed immediately after opening the stopcock to air?"
+ },
+ "q_cc4d6b5692": {
+  "stem": "For invasive hemodynamic monitoring, the sending facility's transducer is not compatible with LFN equipment. What should be done?",
+  "explanation": "An existing line may be used only when its transducer is compatible with LFN equipment; otherwise the line must be switched out and primed from step 3. An incompatible transducer cannot be reliably zeroed or read by the LFN monitor."
+ },
+ "q_6deb69d8e6": {
+  "stem": "An arterial line waveform has become flat and over-dampened. Which check should be made?"
+ },
+ "q_8cbb465378": {
+  "explanation": "Medications must not be infused through the distal PA port; the right ventricular port is used instead and may be capped and flushed. Drug delivered into the pulmonary artery bypasses mixing and the distal port is the pressure-monitoring lumen."
+ },
+ "q_7c54b754ff": {
+  "stem": "What is the guidance on obtaining a PCWP during transport of a patient with a pulmonary artery catheter?"
+ },
+ "q_6f6b0e2c9a": {
+  "stem": "Monitoring of a pulmonary artery catheter shows a PCWP tracing even though the wedge balloon is deflated. What should be done?",
+  "explanation": "A spontaneous wedge means the catheter tip has migrated distally and the vessel is occluded, which risks infarction. Crews are not authorised to reposition the catheter; medical control is contacted."
+ },
+ "q_0bdbc64337": {
+  "stem": "Which patient meets the indication for a King airway?"
+ },
+ "q_c2be72f36f": {
+  "stem": "Which history contraindicates placing a King airway?"
+ },
+ "q_fb17f5c3df": {
+  "explanation": "The tube is advanced until the flange of the connector lines up with the teeth, and insertion must not be forced. Inflating the cuffs then lifts the device slightly as it seats."
+ },
+ "q_8435dff8bc": {
+  "stem": "What ETCO2 finding indicates appropriate ventilation through a King airway?"
+ },
+ "q_b88084d49b": {
+  "stem": "Ventilation cannot be accomplished through a newly placed King airway. What is the first corrective step?"
+ },
+ "q_c1a7041645": {
+  "stem": "After the King airway cuffs are inflated, what is done with the inflation syringe?"
+ },
+ "q_cc78e87147": {
+  "stem": "For which airways is continuous ETCO2 monitoring mandatory?"
+ },
+ "q_d45c10be1c": {
+  "stem": "There is no consistent ETCO2 waveform on an intubated patient. What should be done?"
+ },
+ "q_f18a82c4a6": {
+  "stem": "Secretions and blood are interfering with ETCO2 measurement on an intubated patient. Which two options are sanctioned?"
+ },
+ "q_35449f9566": {
+  "stem": "Where is an HMEF placed when secretions, blood or vomit are fouling the capnography line on a patient with an advanced airway?"
+ },
+ "q_b71f63701b": {
+  "stem": "What should be considered to facilitate ventilation in a patient with an advanced airway?",
+  "explanation": "Gastric distension from pre-intubation bagging splints the diaphragm and worsens compliance, so an OG tube should be considered to decompress the stomach and make ventilation easier."
+ },
+ "q_2fab4ba056": {
+  "stem": "How should a STEMI or other critical patient who has not arrested be transported with respect to the mechanical CPR device?"
+ },
+ "q_5dca3a95f1": {
+  "stem": "When is the LUCAS back plate slid beneath the patient, and to what level?"
+ },
+ "q_05dfe18640": {
+  "explanation": "The infinity sign button should be lighted to provide continuous compressions. If it is not, the device is cycling 30:2 rather than compressing continuously."
+ },
+ "q_47e3291200": {
+  "stem": "A mechanical CPR device alarms in flight and cannot be corrected immediately. What should be done?"
+ },
+ "q_701dc8ab0c": {
+  "stem": "Which event is an accepted reason to pause the mechanical CPR device during transport?"
+ },
+ "q_29674b0c20": {
+  "stem": "When a pause in mechanical CPR is necessary, what is the maximum interruption in compressions?"
+ },
+ "q_466442694f": {
+  "stem": "What may crews see on ETCO2 while a mechanical CPR device is running?"
+ },
+ "q_f609fa1205": {
+  "stem": "What is the guidance on using mechanical CPR on a patient with an IABP, Impella or VAD?"
+ },
+ "q_d7ed59a716": {
+  "stem": "Which intubated patients must be transported on a mechanical ventilator?",
+  "explanation": "The Mechanical Ventilation guideline opens with a blanket statement: all intubated patients will be transported on a mechanical ventilator regardless of flight time. Hand ventilation does not deliver a consistent tidal volume or rate and is not an alternative for short legs."
+ },
+ "q_06dd5061e9": {
+  "stem": "Which ventilator mode is selected for a patient needing routine, standard lung protection?"
+ },
+ "q_645a843541": {
+  "stem": "Which ventilator mode is selected for a pediatric patient or a challenging adult with pulmonary disease or obesity, and why?"
+ },
+ "q_d60f0545a1": {
+  "stem": "What starting tidal volume is used in the basic ventilator settings?"
+ },
+ "q_7ab479914f": {
+  "stem": "What starting ventilator rate is set for an adult or a patient over 40 kg?"
+ },
+ "q_ecfd5d6e21": {
+  "stem": "What starting ventilator rate is set for a 7 kg infant?",
+  "explanation": "A 7 kg patient falls in the 6-9 kg band, which starts at 30 BPM with a range of 20-40. Pediatric rates should start toward the lower end of the range because of the higher proportion of dead space, and Vt is increased before rate."
+ },
+ "q_c1de347a77": {
+  "stem": "What starting inspiratory time is set on the ventilator for an adult?"
+ },
+ "q_62b9530ff9": {
+  "stem": "What ventilator inspiratory time is set for a patient under 1 year of age?"
+ },
+ "q_d5298aa64f": {
+  "stem": "What starting PEEP is used in the basic ventilator settings?"
+ },
+ "q_ec9d169cae": {
+  "stem": "Using the basic ventilator PEEP/FiO2 chart, what PEEP corresponds to an FiO2 of 60?"
+ },
+ "q_c84dc1f8b8": {
+  "stem": "What ΔPcontrol does the Severe Hypoxia / ARDS ventilator strategy start at?"
+ },
+ "q_4e0cadcdc5": {
+  "stem": "What adult rate does the Severe Hypoxia / ARDS ventilator strategy start at?"
+ },
+ "q_f62712acbe": {
+  "stem": "What PEEP does the Severe Hypoxia / ARDS ventilator strategy start at, and in what increments is it then titrated?"
+ },
+ "q_2fe9865317": {
+  "stem": "On the ventilator, how is driving pressure calculated?"
+ },
+ "q_601cd57b9c": {
+  "stem": "What adult rate does the Obstructive / High Resistance ventilator strategy start at?"
+ },
+ "q_c99507cc7d": {
+  "stem": "What minimum PEEP is maintained in the Obstructive / High Resistance ventilator strategy?"
+ },
+ "q_ba29b8f8cc": {
+  "stem": "What adult rate does the Extreme Metabolic Acidosis ventilator strategy start at?"
+ },
+ "q_37d8123e26": {
+  "stem": "When ventilating a patient in extreme metabolic acidosis, which formula determines the target PCO2?"
+ },
+ "q_cfa93b8884": {
+  "stem": "What starting tidal volume does the Pediatric / Neonatal ventilator strategy set?"
+ },
+ "q_1f2d5f4274": {
+  "stem": "At what weight does the ventilator circuit switch from the neonatal T1 circuit to the adult/pedi T1 circuit?"
+ },
+ "q_a607a40533": {
+  "stem": "A ventilated child is hypercapnic. What should be increased first, and what changes that order?"
+ },
+ "q_7816054e43": {
+  "stem": "A ventilated patient's Rinsp has risen into the red zone. What should be done?"
+ },
+ "q_729b3712fb": {
+  "stem": "What does a Low Oxygen alarm on the ventilator indicate?"
+ },
+ "q_5de5c9f4e7": {
+  "stem": "A ventilator Pressure Limitation alarm is active. What is the first resolution listed?"
+ },
+ "q_07277fa13a": {
+  "stem": "What plateau pressure is targeted for most ventilated patients, and what is the allowance for an obese or rigid chest?"
+ },
+ "q_b1bf198925": {
+  "stem": "Beyond ETCO2, how many of the listed confirmation techniques are required to verify ETT placement?"
+ },
+ "q_aa664b2f97": {
+  "stem": "Which ventilator mode is not approved for use?"
+ },
+ "q_e30961bd13": {
+  "stem": "What bias flow is used for Low Pressure Oxygen on the LTV ventilator for adults and for pediatrics?"
+ },
+ "q_f72f8b37e2": {
+  "stem": "Below what weight is pediatric tubing used on the LTV ventilator?"
+ },
+ "q_56ff1518dc": {
+  "stem": "In which patient is needle cricothyrotomy indicated rather than a surgical airway?"
+ },
+ "q_94ae5fcffa": {
+  "stem": "What is the listed contraindication to needle cricothyrotomy?",
+  "explanation": "The only contraindication is that you can still ventilate and oxygenate some other way. An impalpable membrane is not a contraindication — it is addressed directly, since palpation is very difficult in infants and young children."
+ },
+ "q_68c974491a": {
+  "stem": "During needle cricothyrotomy, why must the metal needle not be advanced further once the catheter is being threaded?"
+ },
+ "q_a11e3fc7f0": {
+  "stem": "When ventilating through a needle cricothyrotomy, what oxygen flow rate is set for the suction tubing and meconium aspirator set-up?"
+ },
+ "q_10e1fbe185": {
+  "stem": "What I:E ratio is used for ventilating through a needle cricothyrotomy?"
+ },
+ "q_15f2ec1e34": {
+  "stem": "Which three findings confirm placement after a needle cricothyrotomy?",
+  "explanation": "Confirmation is ETCO2, breath sounds and a rise in SpO2 together. ETCO2 readings through a needle airway may be inaccurate but will still be present with accurate placement, so the waveform's presence matters more than its number."
+ },
+ "q_fe0e1c114a": {
+  "stem": "What is the key to success when performing a needle cricothyrotomy on an infant or young child?",
+  "explanation": "The infant larynx is small, soft and mobile, so the membrane slides away from the needle unless the trachea is held still throughout. Immobilisation of the trachea is named as the key to success."
+ },
+ "q_edba41ba9f": {
+  "stem": "During a needle cricothyrotomy, all attempts to place the needle have failed and the child cannot be oxygenated. What is permitted next?",
+  "explanation": "When the membrane cannot be palpated and the patient cannot be oxygenated, the crew may incise the skin over the area and gently dissect until the membrane is visible, then place the needle through it as described. This is an aid to seeing the membrane, not a conversion to a surgical airway."
+ },
+ "q_1047b32bd4": {
+  "stem": "A needle cricothyrotomy is found to have been incorrectly placed. What is required?"
+ },
+ "q_e2c257bfaf": {
+  "stem": "Which finding is REQUIRED to be present before performing a needle thoracostomy?",
+  "explanation": "Hypotension must be present to perform a needle thoracostomy, as stated in red; the other findings — tachycardia, decreased breath sounds, JVD, hypoxia, hypocarbia, tracheal deviation — are supporting signs that accompany it. Traumatic arrest is the separate standalone indication."
+ },
+ "q_65ff7e793a": {
+  "stem": "What is the listed contraindication to needle thoracostomy?"
+ },
+ "q_09017612b4": {
+  "stem": "Where is the anterior needle thoracostomy site located?"
+ },
+ "q_ea78ab3b71": {
+  "stem": "Where is the lateral needle thoracostomy site located?",
+  "explanation": "The lateral site is the 4th or 5th intercostal space, lateral to the nipple or inframammary crease, between the anterior and mid-axillary line. If the level is hard to judge, err to the next rib level superior."
+ },
+ "q_6f26d4f3d5": {
+  "stem": "During needle thoracostomy, how is the needle advanced in relation to the rib?"
+ },
+ "q_af5dbc88a2": {
+  "stem": "During needle thoracostomy, the catheter will not thread off the needle. How far beyond the depth measured at rib contact may you insert before reassessing landmarks and placement?",
+  "explanation": "If the needle has gone 3 cm beyond the depth noted when rib contact was made and the catheter still will not thread, you are almost certainly not in the pleural space, so landmarks and placement are reassessed rather than pushing deeper."
+ },
+ "q_8a975333ae": {
+  "stem": "Tension physiology recurs after a successful needle thoracostomy. What should be done?"
+ },
+ "q_db0a98749f": {
+  "stem": "Which device is used for needle thoracostomy in infants and small children?"
+ },
+ "q_2db4eb2086": {
+  "stem": "When performing needle thoracostomy at the lateral site, in what direction is the catheter threaded?"
+ },
+ "q_348c0dcf6f": {
+  "stem": "Which patient meets an indication for non-invasive ventilation?"
+ },
+ "q_71ee6255d7": {
+  "stem": "Below what systolic blood pressure is non-invasive ventilation contraindicated?"
+ },
+ "q_482825f63b": {
+  "stem": "What type of mask is required for NIV, including when a mask is taken from the sending hospital?",
+  "explanation": "NIV delivered by a mechanical ventilator requires a non-vented mask, and it is highlighted in red that any mask borrowed from the hospital must be checked to be non-vented. A vented mask dumps the circuit pressure and the ventilator cannot support the patient."
+ },
+ "q_f4bf870bd8": {
+  "stem": "What initial Psupport (IPAP) is set when starting CPAP on the ventilator?"
+ },
+ "q_c275f75f73": {
+  "stem": "What initial Psupport (IPAP) and PEEP (EPAP) are set when starting BiPAP on the ventilator?"
+ },
+ "q_20e68a65bc": {
+  "stem": "What difference should be maintained between Psupport and PEEP while titrating NIV?"
+ },
+ "q_1f319530a0": {
+  "stem": "A patient on NIV says \"I'm not getting enough air.\" Which adjustments should be made?"
+ },
+ "q_4aeecabdea": {
+  "stem": "A patient on NIV says \"It's forcing air, I can't breathe out.\" What adjustment should be made?"
+ },
+ "q_47d4577bf8": {
+  "stem": "VTE is rising on a patient receiving NIV. What does this indicate, and what should be done?"
+ },
+ "q_bb7d388986": {
+  "stem": "A patient remains intolerant of NIV after the P-ramp and ETS% have been adjusted. Which agents are preferred for light sedation?",
+  "explanation": "Low dose fentanyl or ketamine are preferred, and it is stated in red that benzodiazepines should be avoided because their effects are unpredictable and may decrease mental status — which would then contraindicate the NIV. Settings must be adjusted before any drug is given."
+ },
+ "q_557828c751": {
+  "stem": "A CHF patient on NIV needs nitroglycerin. What should be done?"
+ },
+ "q_11779b13bd": {
+  "stem": "Which patient meets an indication for a pelvic binder?"
+ },
+ "q_5e77d471be": {
+  "stem": "Below what age is a pelvic binder not recommended?"
+ },
+ "q_9f7b18f12d": {
+  "stem": "Immediately after the SAM pelvic sling buckle clicks, what should be done?"
+ },
+ "q_f7c25583d9": {
+  "stem": "When preparing the pelvic area of a male patient for a pelvic binder, what should be done?"
+ },
+ "q_1aaa552831": {
+  "stem": "After a pelvic binder is applied, how often are the pelvic area, distal circulation, sensation and motor function reassessed?"
+ }
+}

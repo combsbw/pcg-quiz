@@ -1,0 +1,882 @@
+{
+ "q_8710079d0d": {
+  "stem": "What size NS/LR fluid bolus is given to an adult in hypovolemic or hemorrhagic shock?"
+ },
+ "q_13ed2cc1ed": {
+  "stem": "In adult hemorrhagic shock, to what blood pressure endpoint are fluid boluses titrated?"
+ },
+ "q_e7f03d6034": {
+  "stem": "How is the shock index calculated when assessing hypovolemic or hemorrhagic shock?"
+ },
+ "q_a706e4b74f": {
+  "stem": "In adult hypovolemic or hemorrhagic shock that persists after fluid resuscitation, what is the push-dose epinephrine dose?"
+ },
+ "q_d88cd81f88": {
+  "stem": "An adult in hypovolemic or hemorrhagic shock remains hypotensive after adequate fluid resuscitation with a heart rate of 135. Which vasopressor infusion is preferred?",
+  "explanation": "Vasopressor choice in hypovolemic and hemorrhagic shock is split by rate: norepinephrine is preferred when the heart rate is 120 or above, epinephrine when it is below 120, because epinephrine's beta effect would worsen an already fast rate."
+ },
+ "q_4cd5016cc9": {
+  "stem": "In adult hypovolemic or hemorrhagic shock with no signs of pulmonary edema, what is the maximum volume of crystalloid?"
+ },
+ "q_83e675eb82": {
+  "stem": "What NS/LR bolus volume is given to a child in hypovolemic shock?"
+ },
+ "q_713dc899a9": {
+  "stem": "A neonate in hypovolemic shock is receiving 10 mL/kg fluid boluses. What is the maximum total fluid volume?"
+ },
+ "q_733ed1a78d": {
+  "stem": "Which resuscitation fluid should be avoided in neonates with hypovolemic shock?",
+  "explanation": "The Hypovolemic & Hemorrhagic Shock guideline specifically says to avoid lactated Ringers in neonates when giving 10 mL/kg boluses; normal saline is the fluid of choice in that population."
+ },
+ "q_9a4cdd57c1": {
+  "stem": "In pediatric hypovolemic or hemorrhagic shock, in what unit must IV push doses of epinephrine be dosed and documented?"
+ },
+ "q_e49fb141ce": {
+  "stem": "In hypovolemic or hemorrhagic shock, to what maximum rate may a norepinephrine infusion be titrated?"
+ },
+ "q_84ee8b6769": {
+  "stem": "A patient with a suspected ischemic stroke has no signs of respiratory distress. At what SpO2 should supplemental oxygen be applied?"
+ },
+ "q_baa849f2bb": {
+  "stem": "The initial stroke screen on a patient with suspected stroke is negative. What should the crew do?"
+ },
+ "q_c576d0cd54": {
+  "stem": "Which stroke severity (LVO) screening tool is specified for Washington?"
+ },
+ "q_d53e81acd3": {
+  "stem": "How should a patient with an ischemic stroke be positioned for transport?"
+ },
+ "q_465c7685c1": {
+  "stem": "How often must serial neurological examinations be documented in an ischemic stroke patient?"
+ },
+ "q_9b3597e2ee": {
+  "stem": "At what temperature should ALS crews remove sources of heat and consider antipyretics in an ischemic stroke patient?"
+ },
+ "q_63f137df43": {
+  "stem": "A 70 kg adult with an ischemic stroke has a temperature of 100.8°F. What acetaminophen dose is given?"
+ },
+ "q_ecc93a513e": {
+  "stem": "What vascular access should ALS crews establish in an ischemic stroke patient?"
+ },
+ "q_8d1209701e": {
+  "stem": "An ischemic stroke patient who has already received thrombolytics has a blood pressure of 192/98. What does the CCT stroke blood pressure algorithm direct?"
+ },
+ "q_f646689806": {
+  "stem": "An ischemic stroke patient who is not a thrombolytic candidate and has not received thrombolytics has a blood pressure of 236/118. What does the CCT stroke blood pressure algorithm direct?"
+ },
+ "q_87c16f2e7a": {
+  "stem": "When treating hypotension in an ischemic stroke patient, what perfusion targets should CCT crews maintain?"
+ },
+ "q_4976f3835e": {
+  "stem": "In ischemic stroke, what is the general time window from last known well for IV thrombolytics?"
+ },
+ "q_7d8ead1a2b": {
+  "stem": "For endovascular thrombectomy in ischemic stroke, by how many hours from last known well must the patient arrive at the facility?"
+ },
+ "q_9e17b2b410": {
+  "stem": "A suspected stroke patient has a negative VAN or C-STAT screen. How much extra transport time is acceptable to reach a higher-level stroke center?"
+ },
+ "q_ad4ba1bc80": {
+  "stem": "In the Washington prehospital stroke triage procedure, what stroke severity score triggers transport to an endovascular-capable center?"
+ },
+ "q_79b5dda422": {
+  "stem": "A stroke patient on an alteplase drip develops orolingual angioedema. After stopping the infusion, what methylprednisolone dose is given?"
+ },
+ "q_2ac94afff7": {
+  "stem": "In a stroke patient, orolingual angioedema continues to worsen after alteplase is stopped and steroids and diphenhydramine are given. What is the next treatment?"
+ },
+ "q_bd2b467a29": {
+  "stem": "Which agents must never be used to lower blood pressure in a known or suspected stroke patient?"
+ },
+ "q_75491cd9b3": {
+  "stem": "Which stroke center designation can perform mechanical thrombectomy but is not a Comprehensive Stroke Center?"
+ },
+ "q_6eac0a0a16": {
+  "stem": "How should BLS crews deliver oxygen to a patient with carbon monoxide poisoning?",
+  "explanation": "Carboxyhemoglobin is read as saturated by a standard pulse oximeter, so the guideline for carbon monoxide poisoning directs maximum-flow 100% oxygen and explicitly says not to base the oxygen need on SpO2 values."
+ },
+ "q_6ec6e75c81": {
+  "stem": "What is the adult intranasal naloxone dose for opioid overdose?"
+ },
+ "q_b0f9cc5eed": {
+  "stem": "What is the pediatric intranasal naloxone dose for suspected opioid overdose with respiratory depression?"
+ },
+ "q_1f28195c0d": {
+  "stem": "For BLS crews, what is the maximum total naloxone dose for a pediatric opioid overdose?"
+ },
+ "q_268947f01d": {
+  "stem": "To what endpoint is naloxone titrated in opioid overdose?"
+ },
+ "q_e4df653652": {
+  "stem": "Under what circumstance may naloxone be administered in flight for an opioid overdose?",
+  "explanation": "Crews are directed not to give naloxone in flight unless the patient has cardiovascular collapse from narcotics, which is rare; an abrupt reversal in a confined cabin is more dangerous than continued support of ventilation."
+ },
+ "q_cc288566ba": {
+  "stem": "On an interfacility transfer of a poisoned patient, within what time frame of the toxic exposure should ALS crews consider activated charcoal?"
+ },
+ "q_7b438f6de6": {
+  "stem": "What mental status requirement must a poisoned patient meet before activated charcoal is given?"
+ },
+ "q_cbf51d6e90": {
+  "stem": "What activated charcoal dose and maximum are given for an anticholinergic overdose?"
+ },
+ "q_99574522c2": {
+  "stem": "How is an adult sodium bicarbonate infusion mixed and run for anticholinergic or tricyclic overdose?"
+ },
+ "q_ccb96383c2": {
+  "stem": "What glucagon dose is given for a beta blocker overdose?"
+ },
+ "q_45499ec2a5": {
+  "stem": "What insulin regimen is used for refractory hypotension in beta blocker overdose?"
+ },
+ "q_ac35d207f3": {
+  "stem": "In beta blocker overdose, which electrolyte abnormality must be corrected before starting high-dose insulin therapy?"
+ },
+ "q_0f8f69c9cc": {
+  "stem": "What adult calcium gluconate dose is given for calcium channel blocker overdose?"
+ },
+ "q_755a83c22a": {
+  "stem": "What naloxone dose is given for clonidine overdose with respiratory depression and altered mental status?"
+ },
+ "q_9982098717": {
+  "stem": "What adult hydroxocobalamin dose is given for cyanide poisoning?"
+ },
+ "q_ea2613a3ec": {
+  "stem": "What pediatric hydroxocobalamin dose is given for cyanide poisoning?"
+ },
+ "q_5c67bc3d4c": {
+  "stem": "What adult atropine dose is given for organophosphate poisoning?"
+ },
+ "q_4e5f2a104b": {
+  "stem": "In organophosphate poisoning, to what endpoint is atropine repeated?"
+ },
+ "q_4522f82cf1": {
+  "stem": "What adult pralidoxime (2-PAM) dose is given for organophosphate poisoning?"
+ },
+ "q_001b1bd23e": {
+  "stem": "Which paralytic should be used for RSI in organophosphate poisoning?",
+  "explanation": "Organophosphates inhibit plasma cholinesterase, so succinylcholine's action is markedly prolonged. Rocuronium is directed instead when RSI is required."
+ },
+ "q_fee737c51d": {
+  "stem": "What sodium bicarbonate bolus is given for salicylate poisoning?"
+ },
+ "q_342e12a9fb": {
+  "stem": "What flumazenil dose is given for an iatrogenic benzodiazepine overdose?"
+ },
+ "q_e95261e132": {
+  "stem": "For which benzodiazepine overdoses is the use of flumazenil restricted?"
+ },
+ "q_8b7e7b4bd4": {
+  "stem": "In sympathomimetic overdose, above what blood pressure is benzodiazepine-refractory hypertension treated?"
+ },
+ "q_79361267e8": {
+  "stem": "At what rate is a nitroglycerin infusion started for refractory hypertension in sympathomimetic overdose?"
+ },
+ "q_2c87d41125": {
+  "stem": "Above what QRS duration is alkalinization indicated in tricyclic antidepressant overdose?"
+ },
+ "q_1729374a13": {
+  "stem": "An adult with a tricyclic overdose has a QRS of 180 msec and no D5W is available for an infusion. What sodium bicarbonate bolus is given?"
+ },
+ "q_e158c2d235": {
+  "stem": "A 15 kg child with a tricyclic overdose needs a weight-based sodium bicarbonate infusion. At what rate is it run?"
+ },
+ "q_9d1fea8106": {
+  "stem": "When starting a vasopressor for severe hypotension in a pediatric tricyclic overdose, what minimum systolic blood pressure is the target?"
+ },
+ "q_daf233933f": {
+  "stem": "In acetaminophen overdose, what level drawn 4 hours post-ingestion reflects possible toxicity?"
+ },
+ "q_1327dca847": {
+  "stem": "Which symptom pattern is typical of clonidine overdose?"
+ },
+ "q_510ab5be01": {
+  "stem": "For which ingestion is activated charcoal not indicated?"
+ },
+ "q_6b335d2f66": {
+  "stem": "Above what serum salicylate level may toxicity be present?"
+ },
+ "q_524d91e8ea": {
+  "stem": "What acid-base picture do adults with acute salicylate poisoning usually present with?"
+ },
+ "q_b86dc1ca3b": {
+  "stem": "In a pregnant patient with carbon monoxide poisoning, above what carboxyhemoglobin level is hyperbaric oxygen indicated?"
+ },
+ "q_53bc2439dd": {
+  "stem": "Chin-lift, jaw thrust and suction have not relieved airway obstruction in a seizing patient. What should BLS crews do next?"
+ },
+ "q_3f0d9d38d2": {
+  "stem": "What is the adult lorazepam dose for an actively seizing patient?"
+ },
+ "q_9be8735279": {
+  "stem": "What is the midazolam dose when given IV, IO or IM for an active seizure?"
+ },
+ "q_2ce16ca01b": {
+  "stem": "What is the intranasal midazolam dose for an active seizure?"
+ },
+ "q_76db6db389": {
+  "stem": "When treating an active seizure, what is the maximum single dose of midazolam?"
+ },
+ "q_9d1b3f6824": {
+  "stem": "How should an intranasal midazolam dose be delivered to a seizing patient?"
+ },
+ "q_2230646dc5": {
+  "stem": "If rocuronium or another long-acting paralytic is used in a seizing patient, what is required?",
+  "explanation": "A paralytic stops the convulsion but not the seizure, so sedation must outlast the paralysis. The Seizures guideline prefers avoiding long-acting blockers entirely because they mask ongoing seizure activity."
+ },
+ "q_3076745eb2": {
+  "stem": "What is the pediatric lorazepam dose for an actively seizing child?"
+ },
+ "q_aef01b7b82": {
+  "stem": "A child who has been seizing is febrile. What acetaminophen dose is given?",
+  "explanation": "Fever lowers the seizure threshold in children, so acetaminophen 15 mg/kg IV over 15 minutes is given to a maximum of 750 mg. The 50 mg/kg figure is levetiracetam."
+ },
+ "q_bb9b3f2d81": {
+  "stem": "What ketamine dose is given for seizures refractory to benzodiazepines?"
+ },
+ "q_d21d216334": {
+  "stem": "What is the maximum total ketamine dose for refractory seizures?"
+ },
+ "q_4b7e72e69d": {
+  "stem": "For seizures, what are the adult and pediatric maximum levetiracetam doses?"
+ },
+ "q_6ee3eb4c9e": {
+  "stem": "What is the maximum fosphenytoin dose for refractory seizures?"
+ },
+ "q_06bda53843": {
+  "stem": "What phenobarbital dose and maximum are given for refractory seizures?"
+ },
+ "q_6adaa0c0e6": {
+  "stem": "A patient in the third trimester of pregnancy is seizing. Which guideline should the crew follow?"
+ },
+ "q_ec10a7953d": {
+  "stem": "What is the management for a seizing neonate?"
+ },
+ "q_a7570021c8": {
+  "stem": "What NS/LR bolus volume is given at the ALS level to an adult with septic shock?"
+ },
+ "q_777479ac5c": {
+  "stem": "In adult sepsis and septic shock, to what mean arterial pressure is fluid resuscitation titrated?"
+ },
+ "q_04dcb29b72": {
+  "stem": "At what rate is norepinephrine started in an adult with fluid-unresponsive septic shock?"
+ },
+ "q_c6668bf247": {
+  "stem": "What acetaminophen dose is given for an untreated fever in an adult with sepsis?"
+ },
+ "q_44c8bfac72": {
+  "stem": "What NS/LR bolus volume is given to a child with septic shock?"
+ },
+ "q_4397eefff7": {
+  "stem": "Which vasopressor is first line for a child with fluid-unresponsive septic shock?"
+ },
+ "q_aa33ef4869": {
+  "stem": "In pediatric septic shock, to what systolic blood pressure are fluid boluses titrated?"
+ },
+ "q_a9b1153f9b": {
+  "stem": "Why is a pressure bag or a push-pull syringe method suggested for pediatric fluid boluses in septic shock?"
+ },
+ "q_fd846053e0": {
+  "stem": "An adult with sepsis has a MAP of 62 and a lactate of 5 mmol/L. What fluid bolus is given at the CCT level?"
+ },
+ "q_0faab89f72": {
+  "stem": "In septic shock, what vasopressin dose is given when adding it to fluids and other vasopressors?"
+ },
+ "q_b3f70dd8b5": {
+  "stem": "At what rate is a dopamine infusion started in septic shock, and in which patients?",
+  "explanation": "Dopamine starts at 5 mcg/kg/min and is titrated to a maximum of 20 mcg/kg/min, but in septic shock it is restricted to highly selective patients with bradycardia because of its arrhythmogenic profile."
+ },
+ "q_35e15ac1e5": {
+  "stem": "In septic shock, hypotension has persisted for over an hour despite adequate fluid and vasopressors. Which steroid and dose are given first?"
+ },
+ "q_168a300372": {
+  "stem": "How many SIRS criteria, with a suspected infection, are required for a clinical diagnosis of sepsis in an adult?"
+ },
+ "q_1ae38bbbcc": {
+  "stem": "In screening for sepsis, what heart rate meets a SIRS criterion?"
+ },
+ "q_f92412b2f8": {
+  "stem": "What role does hypotension play in diagnosing pediatric septic shock?"
+ },
+ "q_e6e958a9ca": {
+  "stem": "A term infant is delivered, breathing and vigorous and needs no resuscitation. When should the umbilical cord be clamped and cut?"
+ },
+ "q_3f311fac19": {
+  "stem": "During an uncomplicated childbirth, how far from the infant should the umbilical cord be clamped and cut?"
+ },
+ "q_84e909a265": {
+  "stem": "After an uncomplicated delivery, when should a newborn's nose and mouth be suctioned?"
+ },
+ "q_1e276216dd": {
+  "stem": "At what points should a newborn be assessed using APGAR?",
+  "explanation": "The Childbirth - Uncomplicated guideline specifies assessment at the time of birth and again five minutes later, and adds that resuscitation must never be delayed in order to obtain an APGAR."
+ },
+ "q_18d9efe8b8": {
+  "stem": "How should a newborn's APGAR assessment be documented?"
+ },
+ "q_9727697b3a": {
+  "stem": "During childbirth, a nuchal cord cannot be unwrapped from the newborn's neck. What should be done?"
+ },
+ "q_619c849826": {
+  "stem": "After an uncomplicated vaginal delivery, what volume of blood loss is considered significant postpartum hemorrhage?"
+ },
+ "q_97a21447ef": {
+  "stem": "During an uncomplicated delivery, how are the shoulders delivered once the head has emerged?"
+ },
+ "q_9d10158b9d": {
+  "stem": "In the APGAR scoring table for a newborn, which pulse range earns 2 points?"
+ },
+ "q_19827b7f06": {
+  "stem": "In what position should a patient with a prolapsed cord be placed?"
+ },
+ "q_9e413b2ca5": {
+  "stem": "In a prolapsed cord, what should the crew do with the cord itself?"
+ },
+ "q_7dc1b99887": {
+  "stem": "During labor, an arm or leg presents through the vagina. What is this an indication for?"
+ },
+ "q_ae73801d46": {
+  "stem": "In a breech delivery, within what time must the head deliver before suffocation can occur?"
+ },
+ "q_a169a3a1d9": {
+  "stem": "How is an airspace created for a breech baby whose head has not yet delivered?"
+ },
+ "q_a3ccac2f18": {
+  "stem": "In a breech delivery, what is the Pinard manoeuvre?"
+ },
+ "q_99ac9acc77": {
+  "stem": "What is the initial manoeuvre for shoulder dystocia?"
+ },
+ "q_273ad534bb": {
+  "stem": "During the McRoberts manoeuvre for shoulder dystocia, what pressure should an assistant apply?"
+ },
+ "q_d5f1fc667b": {
+  "stem": "Which action should be avoided once a shoulder dystocia is suspected?"
+ },
+ "q_7c4cfb01d3": {
+  "stem": "After delivery of the infant, how long should crews wait for spontaneous delivery of the placenta?"
+ },
+ "q_ffbab36b3b": {
+  "stem": "After the placenta delivers, how often should fundal height and firmness be checked?"
+ },
+ "q_ec87d0c91b": {
+  "stem": "A mother with a prolapsed cord shows signs of hypoperfusion. What fluid bolus is given at the ALS level?"
+ },
+ "q_305ccd7da4": {
+  "stem": "After the cord is clamped in a vertex or breech delivery, what oxytocin regimen is given?"
+ },
+ "q_5ed8482f92": {
+  "stem": "Once an inverted uterus has been replaced, what oxytocin regimen is given?"
+ },
+ "q_7fcbb6ea75": {
+  "stem": "For uterine inversion, what nitroglycerin dose should crews discuss with the receiving physician?"
+ },
+ "q_179ef5d6b7": {
+  "stem": "Manual replacement of an inverted uterus falls outside whose scope of practice?",
+  "explanation": "The Delivery Complications guideline states manual replacement is not within the paramedic scope of practice; it is also extremely painful, so analgesia or anxiolysis should be considered when it is performed."
+ },
+ "q_2eae64d713": {
+  "stem": "Which breech type accounts for 50 to 70 percent of breech fetuses at term?"
+ },
+ "q_f1ef1c90c8": {
+  "stem": "In delivery complications, how is a nuchal cord defined?"
+ },
+ "q_2006320273": {
+  "stem": "Beyond what cervical dilation must the crew consult the patient's RN or sending provider before accepting an obstetric transport?"
+ },
+ "q_9266d38d9f": {
+  "stem": "Which examination are LFN clinicians not to perform on an obstetric patient?",
+  "explanation": "Digital pelvic exams are prohibited at every care level for obstetric patients. The crew inspects the perineum visually for bleeding, fluid and colour instead."
+ },
+ "q_0cb975be47": {
+  "stem": "Which findings are signs and symptoms of imminent delivery?"
+ },
+ "q_ad51964945": {
+  "stem": "What oxygen saturation should be maintained in the obstetric patient prior to transport?",
+  "explanation": "General OB care sets supplemental oxygen to hold the saturation above 92%; the Delivery Complications guideline uses a 94% to 99% target during an active delivery complication."
+ },
+ "q_bfa74aaaf7": {
+  "stem": "How should the gravid patient be positioned for transport?"
+ },
+ "q_d0d7a9d04d": {
+  "stem": "What betamethasone dose is given to a patient at risk of preterm delivery?"
+ },
+ "q_165031f75b": {
+  "stem": "For which obstetric patients is betamethasone indicated?"
+ },
+ "q_e7a5ef4a15": {
+  "stem": "During obstetric transport, how often should the fetal heart rate be documented?"
+ },
+ "q_0e483fe67e": {
+  "stem": "What does the acronym HELLP stand for?"
+ },
+ "q_a26fb13ec1": {
+  "stem": "How is HELLP syndrome treated?"
+ },
+ "q_e6be155436": {
+  "stem": "In assessing a patient for HELLP syndrome, what blood pressure indicates severe preeclampsia?"
+ },
+ "q_36e0198ede": {
+  "stem": "At what gestational age does HELLP syndrome typically occur?"
+ },
+ "q_7cd9285e87": {
+  "stem": "How long after delivery can signs and symptoms of HELLP syndrome first appear?"
+ },
+ "q_455c48ed80": {
+  "stem": "Which blood products should CCT crews consider for a patient with HELLP syndrome?"
+ },
+ "q_b030de018c": {
+  "stem": "During neonatal resuscitation, in what order is a newborn bulb suctioned?"
+ },
+ "q_371b7517bc": {
+  "stem": "Why is caution needed when suctioning a newborn?"
+ },
+ "q_d39d75ef45": {
+  "stem": "On what should initial resuscitation of a newborn of 35 weeks gestation or more begin?"
+ },
+ "q_f0520c06ac": {
+  "stem": "On what should resuscitation of a newborn under 35 weeks gestation begin?"
+ },
+ "q_538f4587af": {
+  "stem": "A newborn responds poorly to ventilation and chest compressions. What IV or IO epinephrine dose is given?"
+ },
+ "q_8861e2207c": {
+  "stem": "A newborn needs epinephrine but there is no IV or IO access. What dose of the 0.1 mg/mL concentration is given via the endotracheal tube?"
+ },
+ "q_ce2917c06c": {
+  "stem": "During neonatal resuscitation, what flush follows epinephrine?"
+ },
+ "q_4eb232fb3d": {
+  "stem": "In neonatal resuscitation, after how long with no heart rate response, despite all steps being effectively completed, should redirection of care be discussed?"
+ },
+ "q_a50f806b85": {
+  "stem": "In neonatal resuscitation, at what heart rate are chest compressions started?"
+ },
+ "q_a56e9ea214": {
+  "stem": "What compression-to-ventilation ratio is used in neonatal resuscitation?"
+ },
+ "q_9a63a28d9e": {
+  "stem": "During neonatal resuscitation, what is the preductal oxygen saturation target at 5 minutes of life?"
+ },
+ "q_9b161b4582": {
+  "stem": "In the MR. SOPA ventilation corrective steps for neonatal resuscitation, what do the S and the O stand for?"
+ },
+ "q_344e076261": {
+  "stem": "During the MR. SOPA pressure step of neonatal resuscitation, what maximum ventilation pressure is recommended in a term baby?"
+ },
+ "q_b1c3aaaf2d": {
+  "stem": "What endotracheal tube size is used for a newborn over 2,200 g and more than 34 weeks gestation?"
+ },
+ "q_8146efc77d": {
+  "stem": "What initial endotracheal tube insertion depth at the gum is used for a 30 to 32 week infant?"
+ },
+ "q_13c5be9485": {
+  "stem": "With ongoing post-partum hemorrhage, what blood loss volume prompts consideration of immediate blood transfusion?",
+  "explanation": "In post-partum hemorrhage, immediate transfusion is tied to ongoing hemorrhage with blood loss of 1,500 mL or more, or to any woman with tachycardia and hypotension — the vital-sign trigger matters because measured loss is almost always underestimated."
+ },
+ "q_e7b17b7cfb": {
+  "stem": "Palpation of the fundus in a post-partum hemorrhage patient finds the uterus boggy rather than firm. What is the most likely etiology of the bleeding?",
+  "explanation": "In post-partum hemorrhage the crew palpates the fundus for firmness or bogginess and its relation to the umbilicus; a boggy uterus makes atony the most likely source, which is why fundal massage and oxytocin follow immediately."
+ },
+ "q_f718756e86": {
+  "stem": "In post-partum hemorrhage after the placenta has been delivered, how much oxytocin is added to 1000 mL of NS/LR?"
+ },
+ "q_3bdff5fb4e": {
+  "stem": "In post-partum hemorrhage, after the initial oxytocin infusion of up to 500 mL over 10 minutes, at what rate is it continued?"
+ },
+ "q_8f23e5c807": {
+  "stem": "In post-partum hemorrhage, why must undiluted oxytocin never be injected intravenously?",
+  "explanation": "Undiluted IV oxytocin can drop maternal blood pressure sharply in a patient who is already hemorrhaging. If no IV is available, 10 units IM is given instead."
+ },
+ "q_e21909b63a": {
+  "explanation": "Methylergonovine is the second-line uterotonic at 0.2 mg IM every 2 to 4 hours, used when oxytocin has not produced adequate contraction; consulting the receiving physician or on-line medical control is also suggested."
+ },
+ "q_450ea9c052": {
+  "stem": "In post-partum hemorrhage, which finding is a reason not to administer methylergonovine?"
+ },
+ "q_a9fabfed9a": {
+  "stem": "In post-partum hemorrhage where the placenta has NOT yet been delivered, what should the crew do?"
+ },
+ "q_6978ebfa12": {
+  "stem": "In post-partum hemorrhage, what should a BLS crew do about the possible source of bleeding?"
+ },
+ "q_fd41ba7dc0": {
+  "stem": "What is the magnesium sulfate loading dose for pre-eclampsia or eclampsia?"
+ },
+ "q_8ddb6718b5": {
+  "stem": "In pre-eclampsia or eclampsia, after the magnesium sulfate load, at what rate is the maintenance infusion run?"
+ },
+ "q_1912cf0b2d": {
+  "stem": "If an eclamptic patient is actively seizing when magnesium sulfate is started, over what period is the loading dose given?"
+ },
+ "q_a32f8181ed": {
+  "stem": "In pre-eclampsia or eclampsia, at what respiratory rate should magnesium sulfate be discontinued?"
+ },
+ "q_a6abbf1658": {
+  "stem": "A pre-eclamptic patient on a magnesium sulfate infusion develops a respiratory rate of 7 and new cardiac arrhythmias. What should the crew suspect?"
+ },
+ "q_b638ed2653": {
+  "stem": "What is the calcium gluconate dose for suspected magnesium toxicity in a pre-eclamptic patient?"
+ },
+ "q_c0afbf1202": {
+  "stem": "When treating magnesium toxicity, what may happen if calcium gluconate is infused too rapidly?"
+ },
+ "q_bfc75bd9ae": {
+  "stem": "In eclampsia, seizure activity occurs despite a running magnesium sulfate infusion. What additional magnesium bolus is given?"
+ },
+ "q_d633a58cd8": {
+  "stem": "Alongside the additional bolus for a breakthrough eclamptic seizure, how is the magnesium sulfate infusion changed?"
+ },
+ "q_7c311bfc27": {
+  "stem": "An eclamptic seizure persists more than 2 minutes despite magnesium sulfate. What should the crew consider?"
+ },
+ "q_0b7c051106": {
+  "stem": "What blood pressure goals are set when treating hypertension in pre-eclampsia?"
+ },
+ "q_38c879d230": {
+  "stem": "What is the initial labetalol dose for blood pressure control in pre-eclampsia?"
+ },
+ "q_c43ca02e17": {
+  "stem": "In pre-eclampsia, blood pressure thresholds are still exceeded 10 minutes after labetalol 20 mg IV. What dose is given next?"
+ },
+ "q_37399907ac": {
+  "stem": "In pre-eclampsia with uncontrolled blood pressure, what maximum applies to the labetalol infusion?"
+ },
+ "q_f97a68f4e6": {
+  "stem": "What is the initial hydralazine dose for blood pressure control in pre-eclampsia?"
+ },
+ "q_55efd4f1bd": {
+  "stem": "In pre-eclampsia, what is the maximum cumulative hydralazine dose?"
+ },
+ "q_3cff132284": {
+  "stem": "What total fluid goal is set for a pre-eclamptic patient, counting LR/NS plus infusions?"
+ },
+ "q_9e2c5603a2": {
+  "stem": "A pre-eclamptic patient develops a worsening frontal headache, blurred vision and epigastric pain. What do these findings indicate?"
+ },
+ "q_be32eca16e": {
+  "stem": "Which finding is a criterion for SEVERE pre-eclampsia rather than mild?"
+ },
+ "q_68466ba79b": {
+  "stem": "Before transporting an interfacility pre-term labor patient with active contractions, at what cervical dilation is consultation with the sending and receiving providers required?"
+ },
+ "q_bc38d43b61": {
+  "stem": "When delivery appears imminent during an interfacility pre-term labor transfer, what is advised?"
+ },
+ "q_31000923e2": {
+  "stem": "In pre-term labor with no guidance from the sending provider, what contraction pattern prompts tocolysis?"
+ },
+ "q_e1e9aed1be": {
+  "stem": "What is the magnesium sulfate loading dose and maintenance rate for pre-term labor?"
+ },
+ "q_d333bb410a": {
+  "stem": "For which pre-term labor patients is magnesium sulfate the first-line tocolytic?"
+ },
+ "q_208dffb5bc": {
+  "stem": "What is the nifedipine dose, route and interval for tocolysis in pre-term labor?"
+ },
+ "q_dc91737652": {
+  "stem": "What is the maximum total nifedipine dose for tocolysis in pre-term labor?"
+ },
+ "q_d8953b6602": {
+  "stem": "During tocolysis for pre-term labor, at what blood pressure should nifedipine be held?"
+ },
+ "q_882fab21f0": {
+  "stem": "What is the terbutaline dose, route and interval for tocolysis in pre-term labor?"
+ },
+ "q_baa9d0c64d": {
+  "stem": "During tocolysis for pre-term labor, at what heart rate should terbutaline be held?"
+ },
+ "q_47adf85419": {
+  "stem": "When is terbutaline used for tocolysis in pre-term labor?"
+ },
+ "q_286e5dda0c": {
+  "stem": "Which of the following is a contraindication to tocolysis in pre-term labor?"
+ },
+ "q_e108fb049a": {
+  "stem": "After premature rupture of membranes, what fetal heart rate prompts consideration of chorioamnionitis?"
+ },
+ "q_a71837314b": {
+  "stem": "In pre-term labor, why is concurrent use of nifedipine and magnesium sulfate restricted to an order from the sending provider, receiving provider or OLMC?"
+ },
+ "q_05ddc44c9c": {
+  "stem": "What is the highest priority in managing an injured pregnant patient?"
+ },
+ "q_8af5470a92": {
+  "stem": "What is the initial treatment for hypotension in a pregnant trauma patient?"
+ },
+ "q_3147114ab6": {
+  "stem": "A pregnant trauma patient has a rigid, painful abdomen and no vaginal bleeding. What does this presentation often represent?",
+  "explanation": "In trauma in pregnancy, crews distinguish abdominal pain from contractions; abruption often presents as a rigid, painful abdomen — with vaginal bleeding that may or may not be present."
+ },
+ "q_127a22fda2": {
+  "stem": "Why is assessment for chest injury emphasised in a pregnant trauma patient?"
+ },
+ "q_d0935b4d7d": {
+  "stem": "Who should perform the pelvic examination for cervical dilation and effacement on an interfacility pregnant trauma patient?"
+ },
+ "q_4e1b5caf7e": {
+  "stem": "What is the role of vasopressors in a hypotensive pregnant trauma patient?"
+ },
+ "q_6608988ce8": {
+  "stem": "When transferring a pregnant trauma patient from another facility, what fetal monitor finding should the crew note specifically?"
+ },
+ "q_3365fafddf": {
+  "stem": "At the BLS level, what oxygen saturation target is set for a patient with vaginal bleeding?"
+ },
+ "q_db4f1614be": {
+  "stem": "How should a BLS crew perform uterine massage for active post-partum hemorrhage from the vagina?"
+ },
+ "q_f6aa537e53": {
+  "stem": "How do maternal vital signs behave during ongoing obstetric hemorrhage?"
+ },
+ "q_59c75008c9": {
+  "stem": "Which tocolytic is contraindicated in a patient with vaginal bleeding?"
+ },
+ "q_cea71f1c79": {
+  "stem": "In a patient with vaginal bleeding, with which condition are speculum and digital pelvic exams contraindicated?"
+ },
+ "q_5f3fdfbf57": {
+  "stem": "For excessive vaginal bleeding with hypotension and/or tachycardia, what should CCT crews do?"
+ },
+ "q_9e17b53183": {
+  "stem": "What is the classic presentation of placenta previa?"
+ },
+ "q_a7676b5789": {
+  "stem": "How is abruptio placentae defined?"
+ },
+ "q_ad037505be": {
+  "stem": "A burn patient has carbonaceous sputum and singed nasal hairs but an SpO2 of 99%. What oxygen should be given?",
+  "explanation": "Signs of inhalation injury get 100% oxygen at maximum flow regardless of the pulse oximeter, because carboxyhemoglobin reads as saturated — the Burns and Inhalation Injuries guideline says explicitly not to base oxygen need on SpO2 values."
+ },
+ "q_d55d1ff012": {
+  "stem": "What dressing should be placed over a burn?",
+  "explanation": "Burns are covered with dry, clean or sterile linen and the patient monitored for hypothermia; moist dressings are no longer recommended for any size burn."
+ },
+ "q_85c7a2c4b5": {
+  "stem": "How should a patient with severe upper body burns be transported?"
+ },
+ "q_43089582e2": {
+  "stem": "What is the adult pre-hospital fluid resuscitation rate for burns?"
+ },
+ "q_03c31199ac": {
+  "stem": "What is the pre-hospital burn fluid rate for a child aged 6 to 12 years?"
+ },
+ "q_58251b92a0": {
+  "stem": "What is the pre-hospital burn fluid rate for a child aged 5 years or younger?"
+ },
+ "q_d97c7bbbdf": {
+  "stem": "In addition to the burn resuscitation fluid, what is given to a pediatric burn patient weighing under 30 kg?"
+ },
+ "q_65f904c5ee": {
+  "stem": "At what rate is norepinephrine started in a pediatric burn patient still hypotensive after adequate fluid resuscitation?"
+ },
+ "q_ebbccb7e1e": {
+  "stem": "In a burn patient, norepinephrine is titrated every 3 to 5 minutes to what maximum rate?"
+ },
+ "q_a0c07e4ade": {
+  "stem": "For which burn transports should a urinary catheter be inserted?"
+ },
+ "q_d22bc07726": {
+  "stem": "At the CCT level, what is the adult target urine output for a burn patient?"
+ },
+ "q_df3e718f96": {
+  "stem": "Because of catecholamine release and hypermetabolism after a burn, what is considered a normal adult heart rate?",
+  "explanation": "A burn patient at 110 is not necessarily under-resuscitated; 100 to 120 is treated as normal after a burn, and rates above that as a prompt to look for hypovolemia, hypoxemia or unrelieved pain."
+ },
+ "q_88a732fd38": {
+  "stem": "Which burns are excluded from the TBSA estimate?"
+ },
+ "q_515003e19e": {
+  "stem": "Under the Idaho burn trauma criteria, what electrical injury voltage makes a patient Priority 1?"
+ },
+ "q_b227d51026": {
+  "stem": "In the consensus burn formula, what volume multiplier is used for a patient aged 14 years or older?"
+ },
+ "q_fd5ac98f20": {
+  "stem": "How is the calculated burn resuscitation volume distributed over time?"
+ },
+ "q_0a17cdb0a4": {
+  "stem": "To which facility are burn patients in the Portland Metro area transported?"
+ },
+ "q_2d769ac808": {
+  "stem": "At the BLS level, when should tourniquets be used on an entrapped patient?"
+ },
+ "q_420bc2052f": {
+  "stem": "For a suspected pelvic crushing injury in an entrapped patient, what should a BLS crew consider?"
+ },
+ "q_28e3229ab3": {
+  "stem": "Which ECG changes should be treated as hyperkalemia in an entrapped crush patient?"
+ },
+ "q_3802bc282a": {
+  "stem": "For an adult with severe crush injury, what fluid is given before extrication?"
+ },
+ "q_1680b8a2bd": {
+  "stem": "What is the pediatric fluid regimen before extrication for severe crush injury?"
+ },
+ "q_42b194d0f3": {
+  "stem": "In an entrapped crush patient with suspected or present hyperkalemia, what is the calcium gluconate dose?",
+  "explanation": "Calcium stabilises the myocardium against hyperkalemia; in crush injury 1 gram of the 10% solution is given slowly over 5 to 10 minutes, and it must not share a line with sodium bicarbonate."
+ },
+ "q_ec5ab36536": {
+  "stem": "In an entrapped crush patient with suspected or present hyperkalemia, what sodium bicarbonate dose is given?"
+ },
+ "q_ebf07f9db7": {
+  "stem": "In an entrapped crush patient with suspected or present hyperkalemia, what albuterol dose is given?"
+ },
+ "q_b2972a64d5": {
+  "stem": "When giving calcium gluconate and sodium bicarbonate for hyperkalemia in a crush patient, what line precaution applies?",
+  "explanation": "Calcium and bicarbonate precipitate on contact, so each is given through its own line — a point the Entrapment guideline makes twice, once under each drug."
+ },
+ "q_cfd48d357e": {
+  "stem": "At the CCT level, what is the adult sodium bicarbonate infusion rate for an entrapped crush patient?"
+ },
+ "q_d39ce16324": {
+  "stem": "At the CCT level, what is the pediatric sodium bicarbonate infusion rate for an entrapped crush patient?"
+ },
+ "q_8e129f655a": {
+  "stem": "For an entrapped crush patient, how is the sodium bicarbonate infusion mixed?"
+ },
+ "q_d75d7cc6c0": {
+  "stem": "What role does a venous tourniquet play during extrication of a prolonged crush patient?"
+ },
+ "q_989eda2143": {
+  "stem": "Where should a tourniquet be placed for extremity bleeding uncontrolled by other means?"
+ },
+ "q_f054b561fa": {
+  "stem": "Once a tourniquet has been applied for extremity bleeding, what is required?"
+ },
+ "q_4aab7b7233": {
+  "stem": "How should an amputated part be prepared for transport?"
+ },
+ "q_b487e973a3": {
+  "stem": "For an open fracture, what should be applied over the wound before splinting, if time permits?"
+ },
+ "q_15e1e198fb": {
+  "stem": "For which injury should a traction splint be applied when time permits?"
+ },
+ "q_ccb23cadfa": {
+  "stem": "When should the neurovascular examination of an injured extremity be repeated?"
+ },
+ "q_edd77b59f8": {
+  "stem": "For hemorrhage from extremity trauma, within what time from injury must tranexamic acid be given?"
+ },
+ "q_bd14525f27": {
+  "stem": "What is the adult tranexamic acid dose for hemorrhage from extremity trauma?"
+ },
+ "q_c2f6fe7a5d": {
+  "stem": "What is the pediatric tranexamic acid dose and maximum for hemorrhage from extremity trauma?"
+ },
+ "q_1dede89ed0": {
+  "stem": "For an open fracture in a patient over 50 kg, what cefazolin dose is given?"
+ },
+ "q_8e62f2a062": {
+  "stem": "For an open fracture in a patient weighing 50 kg or less, what cefazolin dose is given?"
+ },
+ "q_9eb66fbb94": {
+  "stem": "When should a grossly angulated limb or major joint dislocation be realigned?"
+ },
+ "q_689dd6a4aa": {
+  "stem": "What oxygen delivery should most trauma patients receive during the rapid trauma assessment?",
+  "explanation": "Airway assessment in general trauma care includes clearing the mouth and positioning, and the guideline states that most trauma patients should receive oxygen via an NRB mask."
+ },
+ "q_dc0b26165c": {
+  "stem": "For which trauma patients should a cervical collar and cervical immobilization device be applied?"
+ },
+ "q_ba2c38783c": {
+  "stem": "During the trauma secondary assessment, how should the pelvis be evaluated for instability?"
+ },
+ "q_42d1f18791": {
+  "stem": "Why is repeated or vigorous manipulation of the pelvis forbidden in a patient with pelvic fractures?"
+ },
+ "q_2dfa6178e0": {
+  "stem": "How should eviscerated abdominal organs be covered?"
+ },
+ "q_a93a4a400d": {
+  "stem": "What finding is a reason not to place a urinary catheter on an interfacility trauma transport?"
+ },
+ "q_780e3aceba": {
+  "stem": "In a trauma patient, which cluster of findings indicates tension pneumothorax and prompts needle thoracostomy?",
+  "explanation": "General trauma care lists hypotension, hypoxia, JVD, hypocarbia and respiratory distress or failure as the tension picture. The hypertension-bradycardia-irregular respiration triad is Cushing reflex, a head injury sign."
+ },
+ "q_e012a90d5f": {
+  "stem": "How should an open pneumothorax be sealed?"
+ },
+ "q_f443b0a8a7": {
+  "stem": "On which trauma patients should bilateral finger thoracostomies be performed?"
+ },
+ "q_0b3d01f27f": {
+  "stem": "In a trauma patient, under what conditions is chest tube insertion permitted?",
+  "explanation": "Chest tube insertion is the one chest decompression procedure in general trauma care that requires an order from the sending provider, and it is done only when sterility can be maintained."
+ },
+ "q_5c3c7f6966": {
+  "stem": "How is epinephrine 1:100,000 prepared for injection into a bleeding scalp wound?"
+ },
+ "q_1fc561a2ae": {
+  "stem": "In trauma, what pediatric maximum applies to subcutaneous epinephrine 0.001 mg/mL used for refractory bleeding?"
+ },
+ "q_43c1a24a60": {
+  "stem": "In a trauma patient, when is tranexamic acid given relative to blood products?"
+ },
+ "q_ac80eb4715": {
+  "stem": "After following a more specific trauma guideline, what should the crew do next?",
+  "options": [
+   "Return to the General Trauma Care guideline for continued evaluation and management",
+   "Repeat the primary survey only on arrival at the facility",
+   "Contact on-line medical control before further treatment",
+   "Document the deviation in the patient care record"
+  ],
+  "explanation": "General Trauma Care is the base guideline that every other trauma guideline assumes has been started, and the crew returns to it for ongoing evaluation and management after any excursion."
+ },
+ "q_e7d3bf3be1": {
+  "stem": "When should IVs and lower priority treatments be done for a patient at a trauma scene?"
+ },
+ "q_1366a8b744": {
+  "stem": "What ETCO2 range should be maintained in a ventilated patient with a head injury?"
+ },
+ "q_2988315e89": {
+  "stem": "When ventilating an adult head-injured patient with a bag-valve mask, what is suggested?"
+ },
+ "q_f49953729c": {
+  "stem": "Which three conditions are the 'H-Bombs' in head injury management?"
+ },
+ "q_185453b652": {
+  "stem": "In an ADULT with a traumatic head injury, to what systolic blood pressure are fluid and blood resuscitation directed?"
+ },
+ "q_fa763b8c43": {
+  "stem": "What systolic blood pressure target is set for a PEDIATRIC head injury patient?"
+ },
+ "q_9c08a54f52": {
+  "stem": "In a head-injured adult, what is the hypertonic saline dose for signs of herniation?"
+ },
+ "q_19c6361651": {
+  "stem": "In a head-injured child, what is the hypertonic saline dose and maximum for signs of herniation?"
+ },
+ "q_a222f78d03": {
+  "stem": "In a head-injured patient, what is the mannitol dose for signs of herniation?"
+ },
+ "q_e4d573cbe0": {
+  "stem": "In a head-injured patient with signs of herniation, when is mannitol used rather than hypertonic saline?"
+ },
+ "q_ffc1acb777": {
+  "stem": "What piece of equipment is required for mannitol administration in a head-injured patient?"
+ },
+ "q_18491f0cd5": {
+  "stem": "In head injury, what is the hallmark sign of herniation?"
+ },
+ "q_30d40ad08f": {
+  "stem": "In a head-injured patient whose initial GCS was 8 or less, what GCS change is a sign of rising intracranial pressure?"
+ },
+ "q_2959155a72": {
+  "stem": "Which triad is the Cushing reflex in a head-injured patient?"
+ },
+ "q_4df3537394": {
+  "stem": "What is the goal serum sodium for a head-injured patient?"
+ },
+ "q_b5a74b33ba": {
+  "stem": "What is the cerebral perfusion pressure goal for adults with a head injury?"
+ },
+ "q_a82e71d089": {
+  "stem": "A patient with penetrating head trauma is hypotensive with no obvious hemorrhage. What is the management?"
+ }
+}

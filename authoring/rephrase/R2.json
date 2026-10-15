@@ -1,0 +1,883 @@
+{
+ "q_f08eade508": {
+  "stem": "Which cardiac condition is a contraindication to intra-aortic balloon pump therapy?"
+ },
+ "q_f56c420bb2": {
+  "stem": "Auto Mode is unavailable on a Maquet IABP being prepared for transport. What should the crew do?"
+ },
+ "q_157c02aeda": {
+  "stem": "Who may remove an intra-aortic balloon?"
+ },
+ "q_e37f2173d9": {
+  "stem": "At what rate is a dobutamine infusion started if the IABP fails?"
+ },
+ "q_fdf5fb8be7": {
+  "stem": "After IABP failure, to what maximum rate may the dobutamine infusion be titrated?"
+ },
+ "q_2b2af506a1": {
+  "stem": "On chest x-ray, where should the intra-aortic balloon tip be visible?"
+ },
+ "q_4357b77a73": {
+  "stem": "On which extremity should the SpO2 probe be placed in a patient on an IABP?"
+ },
+ "q_aa69b17fac": {
+  "stem": "A patient supported by an IABP goes into PEA arrest. What should the crew do with the ECG leads?"
+ },
+ "q_bac035685c": {
+  "stem": "A 'Gas Loss' alarm sounds on an IABP and blood is visible in the catheter tubing. What should the crew do?"
+ },
+ "q_9da38c474d": {
+  "stem": "An IABP has been off and non-functional for more than 30 minutes in flight. What should the crew do?"
+ },
+ "q_69f9f467bf": {
+  "stem": "With what volume should the IAB be manually inflated when the pump is non-functional?"
+ },
+ "q_d492b0de10": {
+  "stem": "How should IABP alarms be managed during transport?"
+ },
+ "q_0d0183e2ce": {
+  "stem": "Which finding is a contraindication to Impella support?"
+ },
+ "q_a870f43da9": {
+  "stem": "Which valve finding is a contraindication to Impella placement?"
+ },
+ "q_72b723a45f": {
+  "stem": "An Impella-supported patient goes into cardiac arrest. In addition to BLS and Cardiac Arrest: Medical care, what should be done with the Impella?"
+ },
+ "q_7446604072": {
+  "stem": "Which blood pressure value is treated in an Impella-supported patient?"
+ },
+ "q_3ed2e14380": {
+  "stem": "What MAP is targeted in a patient on Impella support?"
+ },
+ "q_45429daae5": {
+  "stem": "How long will a fully charged Impella controller run on battery?",
+  "explanation": "A fully charged battery gives 60 minutes of operation, which is why the Impella guideline directs temporarily unplugging the controller before departure to prove the battery works and minimising time off AC power."
+ },
+ "q_cca4249a09": {
+  "stem": "What heparin concentration is used in Impella purge fluid?"
+ },
+ "q_a07c89dc63": {
+  "stem": "How much Impella purge fluid must remain before leaving the sending facility?"
+ },
+ "q_b9ea6ee281": {
+  "stem": "At what angle should the head of the bed be kept for an Impella patient?"
+ },
+ "q_62f060b81f": {
+  "stem": "How often should vitals, Impella flow rate, purge pressure and catheter position be documented?"
+ },
+ "q_bc8355c5e8": {
+  "stem": "What is the flush port at the Impella Tuohy lock used for?"
+ },
+ "q_58a31ae52c": {
+  "stem": "An 'Impella Position in Aorta' message appears during transport. What should the crew do?"
+ },
+ "q_3425d39f9c": {
+  "stem": "Which finding is a recognized cause of an Impella suction alarm?"
+ },
+ "q_9aa478d933": {
+  "stem": "If CVP monitoring is available during an Impella suction alarm, to what CVP should fluids be given?"
+ },
+ "q_0bf0e74174": {
+  "stem": "How is an Air-In-Purge System alarm on the Impella managed?"
+ },
+ "q_21a72748f1": {
+  "stem": "An unresponsive patient with a durable LVAD is found to have adequate perfusion. What should the crew do?"
+ },
+ "q_2fbc899945": {
+  "stem": "Which finding is accepted as evidence of adequate perfusion in an unresponsive LVAD patient?"
+ },
+ "q_a920aa0305": {
+  "stem": "How should defibrillation pads be placed on an LVAD patient?"
+ },
+ "q_26d074f739": {
+  "stem": "An unresponsive LVAD patient has poor perfusion and device function cannot be restored. What ETCO2 makes CPR indicated?"
+ },
+ "q_6680831459": {
+  "stem": "Where should the crew auscultate to confirm an LVAD is running?"
+ },
+ "q_9e385564c7": {
+  "stem": "What is the best way to obtain a blood pressure on an LVAD patient?"
+ },
+ "q_1cc43eb825": {
+  "stem": "A VAD is alarming and the driveline and two power sources are confirmed connected. What is the next step?"
+ },
+ "q_a87a028b0b": {
+  "stem": "An LVAD pump has stopped. What is the first step?"
+ },
+ "q_d88615fb14": {
+  "stem": "An LVAD patient is hypovolemic and treated per Cardiogenic Shock. What is the MAP goal?"
+ },
+ "q_e4315df6ac": {
+  "stem": "What must the emergency travel pack that accompanies an LVAD patient contain?"
+ },
+ "q_fd405b9c71": {
+  "stem": "How should the driveline be handled when loading an LVAD patient?"
+ },
+ "q_9e76a07b8f": {
+  "stem": "Where does an LVAD pump drive blood?"
+ },
+ "q_c6cd31547f": {
+  "stem": "From what do LVAD complications usually result?"
+ },
+ "q_027ac00ad1": {
+  "stem": "Which two LVAD devices are used in most of the areas LFN serves?"
+ },
+ "q_cc155daf28": {
+  "stem": "At the BLS level, how should a patient in pulmonary edema or CHF be positioned?"
+ },
+ "q_252d956755": {
+  "stem": "What NS/LR bolus is given at the ALS level to a hypotensive adult with CHF?"
+ },
+ "q_ea9dc2a816": {
+  "stem": "In a hypotensive adult with pulmonary edema or CHF, to what MAP are NS/LR boluses titrated?"
+ },
+ "q_a08f28851b": {
+  "stem": "In an adult with CHF whose hypotension is unresponsive to fluids, what is the push-dose epinephrine dose?"
+ },
+ "q_20ffe717c3": {
+  "stem": "In a hypotensive adult with pulmonary edema or CHF, to what maximum is a norepinephrine infusion titrated?"
+ },
+ "q_7782154aee": {
+  "stem": "What is the adult sublingual nitroglycerin dose for pulmonary edema or CHF?"
+ },
+ "q_d6882fa9bd": {
+  "stem": "In pulmonary edema or CHF, what systolic pressure is required before giving sublingual nitroglycerin?"
+ },
+ "q_933eb8ef79": {
+  "stem": "What is the adult furosemide dose for pulmonary edema?"
+ },
+ "q_deb7f437b6": {
+  "stem": "What is the maximum furosemide dose for pulmonary edema or CHF?"
+ },
+ "q_cb2a2480e3": {
+  "stem": "A patient with CHF is wheezing. What nebulized treatment is given at the ALS level?"
+ },
+ "q_f7fed3f122": {
+  "stem": "A wheezing CHF patient is allergic to albuterol. What should be given?"
+ },
+ "q_ca339c3abf": {
+  "stem": "At what rate is a nitroglycerin infusion started at the CCT level for pulmonary edema or CHF?"
+ },
+ "q_fe2d9efb98": {
+  "stem": "In pulmonary edema or CHF, to what maximum is the nitroglycerin infusion titrated?"
+ },
+ "q_52dc847896": {
+  "stem": "What nitroglycerin bolus is given at the CCT level for continued respiratory distress in pulmonary edema or CHF?"
+ },
+ "q_86d301401d": {
+  "stem": "In pulmonary edema or CHF, what systolic pressure is required before the 400 mcg nitroglycerin bolus?"
+ },
+ "q_998fba9884": {
+  "stem": "Which agents may a pediatric patient in pulmonary edema require?"
+ },
+ "q_971641cef7": {
+  "stem": "What tidal volume is recommended for an intubated patient with pulmonary edema?"
+ },
+ "q_910976a1ee": {
+  "stem": "In an intubated patient with pulmonary edema, at what airway pressures should keeping the patient sedated and paralyzed be considered?"
+ },
+ "q_1cb96941f7": {
+  "stem": "An adult with a persistent tachyarrhythmia is hypotensive with acutely altered mental status. What does the adult tachycardia algorithm direct?"
+ },
+ "q_25e572cca4": {
+  "stem": "What initial synchronized cardioversion energy is used for an adult with a narrow regular tachycardia?"
+ },
+ "q_b98d0d2b39": {
+  "stem": "What initial synchronized cardioversion energy is used for an adult with a wide irregular tachycardia?"
+ },
+ "q_e954de3d30": {
+  "stem": "In an adult with a wide irregular tachycardia, after how many synchronized cardioversions should defibrillation at 200 J be considered?"
+ },
+ "q_27dc29f8b5": {
+  "stem": "What adenosine dose is given to an adult with tachycardia with a pulse?"
+ },
+ "q_386e647729": {
+  "stem": "What amiodarone regimen is given to an adult with tachycardia with a pulse?"
+ },
+ "q_de962b95c0": {
+  "stem": "What is the initial diltiazem bolus for an adult with tachycardia with a pulse?"
+ },
+ "q_ff6d9fec70": {
+  "stem": "After rate control with diltiazem in an adult with tachycardia, what infusion is run?"
+ },
+ "q_317a9f0b77": {
+  "stem": "What metoprolol dosing is used for an adult with tachycardia with a pulse?"
+ },
+ "q_67e3da6582": {
+  "stem": "What QRS duration defines a wide complex in the adult tachycardia algorithm?"
+ },
+ "q_2087ee0086": {
+  "stem": "What initial synchronized cardioversion energy is used for a pediatric tachycardia with a pulse?"
+ },
+ "q_8c1c7e00df": {
+  "stem": "What is the first adenosine dose for a child with tachycardia with a pulse?"
+ },
+ "q_9292fc814d": {
+  "stem": "Which finding points to probable SVT rather than sinus tachycardia in a child?"
+ },
+ "q_2210ce38c3": {
+  "stem": "What must be in place before a patient with tachycardia with a pulse receives rate-control or antiarrhythmic medication?"
+ },
+ "q_8b77e00c07": {
+  "stem": "Before treating a rapid heart rate with medication, what do the Tachycardia With a Pulse PEARLS direct?"
+ },
+ "q_075b66dc73": {
+  "stem": "Which agent should be avoided in atrial fibrillation with Wolff-Parkinson-White?"
+ },
+ "q_c5ee45467d": {
+  "stem": "In which patients should adenosine be used with caution?"
+ },
+ "q_295b429fb7": {
+  "stem": "When choosing between a beta blocker and a calcium channel blocker for tachycardia, what is advised?"
+ },
+ "q_2a595aa248": {
+  "stem": "What ECG pattern is the classic sign of preexcitation in sinus rhythm?"
+ },
+ "q_54caf262ab": {
+  "stem": "At the BLS level, what SpO2 should be maintained in altitude illness?"
+ },
+ "q_6bde51ef6a": {
+  "stem": "What is the primary treatment for altitude illness?"
+ },
+ "q_79f7822ab8": {
+  "stem": "What is the adult methylprednisolone dose for altitude illness?"
+ },
+ "q_a8bfad774c": {
+  "stem": "When should methylprednisolone be used in a patient with HAPE?"
+ },
+ "q_0dfa7439e0": {
+  "stem": "What is the adult nifedipine dose for altitude illness?"
+ },
+ "q_79e2408a8a": {
+  "stem": "For which altitude illness is nifedipine given?"
+ },
+ "q_b345e77c77": {
+  "stem": "What is the adult IV acetaminophen dose for altitude headache?"
+ },
+ "q_d1bbb4b0eb": {
+  "stem": "For altitude headache, what acetaminophen dose is given to a patient weighing 50 kg or less?"
+ },
+ "q_18b9ef96c4": {
+  "stem": "At the ALS level, what is directed beyond BLS care for a pediatric patient with altitude illness?"
+ },
+ "q_557261d7fe": {
+  "stem": "Above what altitude does altitude illness from lack of acclimatization typically arise?"
+ },
+ "q_5405342332": {
+  "stem": "Which finding is a feature of HAPE rather than HACE?"
+ },
+ "q_00650c6484": {
+  "stem": "What symptom must be present for acute mountain sickness (AMS)?"
+ },
+ "q_c18367f1e6": {
+  "stem": "In what position should a patient with decompression sickness be placed?"
+ },
+ "q_81a261e117": {
+  "stem": "Why is left lateral Trendelenburg used in decompression sickness?"
+ },
+ "q_9a3a7c473e": {
+  "stem": "Why is 100% oxygen given in decompression sickness?"
+ },
+ "q_1a0edcae72": {
+  "stem": "If intubation is required in decompression sickness, how should the ETT cuff be managed?"
+ },
+ "q_b47c2247e8": {
+  "stem": "What fluid regimen is given for decompression sickness?"
+ },
+ "q_4919980da1": {
+  "stem": "At what altitude should a patient with decompression sickness be flown?"
+ },
+ "q_efe1e21c93": {
+  "stem": "For a fixed-wing transport of a patient with decompression sickness, what should be requested?"
+ },
+ "q_76b1c15343": {
+  "stem": "Why should narcotics be avoided in decompression sickness?"
+ },
+ "q_4abce4eeff": {
+  "stem": "What may be used to relieve joint pain in decompression sickness?",
+  "explanation": "Since narcotics are avoided, the Decompression Sickness guideline suggests an inflated blood pressure cuff over the affected joint, which may relieve the pain of Type I bends by raising local tissue pressure."
+ },
+ "q_bc3141f66f": {
+  "stem": "By when do most patients with decompression sickness develop symptoms?"
+ },
+ "q_ba7dd80ca7": {
+  "stem": "Which systems does Type II decompression sickness involve?"
+ },
+ "q_6c304f5026": {
+  "stem": "What is of primary importance in the drowning patient?"
+ },
+ "q_110b8d8efe": {
+  "stem": "Foam appears in the airway during resuscitation of a drowning patient. What should the crew do?"
+ },
+ "q_a66b6ad53e": {
+  "stem": "In a drowning patient, what does foam in the upper airway indicate?"
+ },
+ "q_a05cb18c1e": {
+  "stem": "How should cervical spine injury be regarded in drowning?"
+ },
+ "q_d3bf71039c": {
+  "stem": "In drowning, below what submersion time should resuscitation be initiated without further criteria?"
+ },
+ "q_ca8825d165": {
+  "stem": "A drowning patient was submerged for 45 minutes. Which finding supports initiating resuscitation?"
+ },
+ "q_51e248e939": {
+  "stem": "What temperature is targeted after ROSC in a drowning patient?"
+ },
+ "q_f2d4d96d19": {
+  "stem": "What fluid bolus is given to a hypotensive adult drowning patient?"
+ },
+ "q_b25ba8d5f5": {
+  "stem": "What fluid bolus is given to a hypotensive pediatric drowning patient?"
+ },
+ "q_a86b035707": {
+  "stem": "What is the pediatric push-dose epinephrine dose for a hypotensive drowning patient?"
+ },
+ "q_602a71ecb1": {
+  "stem": "In a hypotensive pediatric drowning patient, what is the maximum single push-dose of epinephrine?"
+ },
+ "q_dc07f76f3e": {
+  "stem": "At what rate is an epinephrine infusion started in a pediatric drowning patient?"
+ },
+ "q_0c64b3a376": {
+  "stem": "Which factor is the most critical indicator of worse prognosis in drowning?"
+ },
+ "q_92b181f719": {
+  "stem": "Which drowning patient has the better potential for recovery?"
+ },
+ "q_8f898d353a": {
+  "stem": "How is near drowning defined?"
+ },
+ "q_78f1b3c5a6": {
+  "stem": "What is the most life-threatening consequence of near drowning?"
+ },
+ "q_3558fae73a": {
+  "stem": "What is the purpose of SALAD in the drowning patient?"
+ },
+ "q_0387080858": {
+  "stem": "Why should any patient with respiratory symptoms after submersion be transported?"
+ },
+ "q_0269d49bb0": {
+  "stem": "How should a snakebite wound be cared for?"
+ },
+ "q_68875155b6": {
+  "stem": "At what distances proximal to a snakebite should limb circumference be measured?"
+ },
+ "q_2d68e024bd": {
+  "stem": "How should a snakebitten extremity be positioned?"
+ },
+ "q_8a9ac1c820": {
+  "stem": "Which action should specifically be avoided in snakebite?"
+ },
+ "q_2a936a9061": {
+  "stem": "A patient with a possible envenomation has no symptoms. How should they be managed?"
+ },
+ "q_bc2ad44875": {
+  "stem": "How are hypotension and shock from envenomation treated?"
+ },
+ "q_7bce6d6bb3": {
+  "stem": "When should prehospital antivenin be considered?"
+ },
+ "q_23077248de": {
+  "stem": "What proportion of rattlesnake bites are dry bites?"
+ },
+ "q_5bd0d7db29": {
+  "stem": "On what is antivenin dosing based?"
+ },
+ "q_aaf06cddc1": {
+  "stem": "An allergic reaction develops during an antivenin infusion. What should be done?"
+ },
+ "q_4354f4c6c6": {
+  "stem": "Which finding classifies a Crotalinae (pit viper) envenomation as severe?"
+ },
+ "q_04f5e1f9d6": {
+  "stem": "Which feature identifies a venomous pit viper?"
+ },
+ "q_10f4953c94": {
+  "stem": "In hyperthermia, at what core temperature is ice bath immersion directed at the BLS level?"
+ },
+ "q_3261857e59": {
+  "stem": "In hyperthermia, at what temperature should cooling measures be discontinued?"
+ },
+ "q_fb5ef95480": {
+  "stem": "Which cooling measure is used at the BLS level for hyperthermia?"
+ },
+ "q_57a141b855": {
+  "stem": "Where should cool packs be applied in hyperthermia?"
+ },
+ "q_c6213be219": {
+  "stem": "What saline temperature is used for routine resuscitation in hyperthermia?"
+ },
+ "q_c7534ba616": {
+  "stem": "What NS/LR bolus is given to a hypotensive adult with hyperthermia?"
+ },
+ "q_3b5719fa0c": {
+  "stem": "What volume of chilled (4° C) normal saline bolus is given to an adult with hyperthermia?"
+ },
+ "q_0c848d4fd8": {
+  "stem": "What volume of chilled (4° C) normal saline is given to a pediatric patient with hyperthermia?"
+ },
+ "q_69d8a2340c": {
+  "stem": "How does oral rehydration compare with IV infusions in heat exhaustion?"
+ },
+ "q_89bf9b0349": {
+  "stem": "What is the adult lorazepam dose for shivering during hyperthermia cooling?"
+ },
+ "q_5420ab25a9": {
+  "stem": "What is the maximum adult lorazepam dose for shivering during hyperthermia cooling?"
+ },
+ "q_f2b8fb96c2": {
+  "stem": "What is the pediatric lorazepam dose for shivering during hyperthermia cooling?"
+ },
+ "q_ba599dd511": {
+  "stem": "What is the maximum single pediatric lorazepam dose for shivering during hyperthermia cooling?"
+ },
+ "q_f45dc534f0": {
+  "stem": "What is true of core temperature in exertional heat stroke?"
+ },
+ "q_d51b3e809c": {
+  "stem": "Which skin finding is characteristic of classic heat stroke?"
+ },
+ "q_32c9fac806": {
+  "stem": "Which finding is characteristic of heat exhaustion?"
+ },
+ "q_103c536bd3": {
+  "stem": "A hypothermic patient has no signs of life. What should the crew do?",
+  "explanation": "Hypothermic patients can have pulses and respirations that are undetectable at the bedside yet still survive neurologically intact, so the Hypothermia & Frost Bite guideline treats absent signs of life as arrest and starts CPR with airway management immediately rather than waiting on a temperature."
+ },
+ "q_54580e7757": {
+  "stem": "At the BLS level, what rewarming is provided for MILD hypothermia?"
+ },
+ "q_e854795fdb": {
+  "stem": "For MODERATE to SEVERE hypothermia, where should wrapped hot packs be applied?"
+ },
+ "q_4c1c32e140": {
+  "stem": "During active rewarming of a hypothermic patient in cardiac arrest, what epinephrine and defibrillation schedule is allowed?",
+  "explanation": "The cold myocardium responds poorly and drugs accumulate, so the Hypothermia & Frost Bite guideline stretches the interval: up to three doses of epinephrine and three defibrillation attempts at q 6-10 min during active rewarming, with further dosing guided by clinical response."
+ },
+ "q_40c414c6fe": {
+  "stem": "What is known about anti-dysrhythmic medications such as amiodarone in hypothermic arrest?",
+  "explanation": "The Hypothermia & Frost Bite guideline states anti-dysrhythmics such as amiodarone have not been shown to improve outcomes in hypothermia; rewarming, not drug therapy, is what restores a perfusing rhythm."
+ },
+ "q_4532438e47": {
+  "stem": "Rocuronium is the paralytic used if a severely hypothermic patient requires intubation. What is the stated reason?",
+  "explanation": "Severe hypothermia often produces hyperkalemia, and a depolarizing agent would raise potassium further in an already irritable cold myocardium — so the Hypothermia & Frost Bite guideline specifies rocuronium."
+ },
+ "q_b952789e94": {
+  "stem": "A hypothermic patient is bradycardic. What is the initial treatment?",
+  "explanation": "Bradycardia in hypothermia is a physiologic response to cold rather than a conduction problem, so the Hypothermia & Frost Bite guideline directs it be treated initially with active rewarming and fluids rather than chronotropic drugs or pacing."
+ },
+ "q_178df4a6e2": {
+  "stem": "What NS/LR bolus volume is given to a hypothermic adult?"
+ },
+ "q_7fd2b52601": {
+  "stem": "What is the maximum total NS/LR volume for a hypothermic pediatric patient?"
+ },
+ "q_978524183d": {
+  "stem": "A patient has frostbitten toes and the transport may expose the area to re-freezing. What should the crew do?",
+  "explanation": "A freeze-thaw-refreeze cycle causes far more tissue loss than tissue that stays frozen, so the Hypothermia & Frost Bite guideline prohibits re-warming when re-freezing is a possibility. Rubbing is also prohibited, as it shears ice crystals through the tissue."
+ },
+ "q_9edc54b470": {
+  "stem": "How should frostbitten fingers and toes be dressed?"
+ },
+ "q_29e0e609cf": {
+  "stem": "In hypothermia, below what core temperature does the risk of ventricular dysrhythmias rise and medications become ineffective?",
+  "explanation": "The Hypothermia & Frost Bite guideline flags a rectal/core temperature below 30°C (86°F) as the point where ventricular dysrhythmias including VF become markedly more likely and medications may not be effective — which is why rewarming takes priority over repeat drug dosing."
+ },
+ "q_9fd38d50e6": {
+  "stem": "What core temperature defines severe hypothermia?",
+  "explanation": "The Hypothermia & Frost Bite guideline stages hypothermia as mild 35-32.1°C (conscious, shivering), moderate 32-28°C (impaired consciousness, not shivering) and severe below 28°C (82.4°F) — unconscious, not shivering, with deteriorating vital signs."
+ },
+ "q_4e5206bf02": {
+  "stem": "Why is caution advised when intubating a hypothermic patient?",
+  "explanation": "Airway manipulation in a cold, irritable myocardium can precipitate fatal arrhythmias. The Hypothermia & Frost Bite guideline also notes that a very low respiratory rate may seem undetectable and often improves with further warming alone."
+ },
+ "q_c30077e568": {
+  "stem": "What is the adult intranasal naloxone dose for suspected opioid overdose with respiratory depression?"
+ },
+ "q_59a1b20f16": {
+  "stem": "In a patient with altered mental status and suspected opioid overdose, what is the maximum total adult naloxone dose?"
+ },
+ "q_c8f48ed609": {
+  "stem": "What is the pediatric intranasal naloxone dose for suspected opioid overdose with respiratory depression?"
+ },
+ "q_bb1e2e010a": {
+  "stem": "What is the maximum single naloxone dose for a pediatric patient with suspected opioid overdose?"
+ },
+ "q_fd780c9ea1": {
+  "stem": "What is the adult dextrose 10% dose for a blood glucose under 60 mg/dL?"
+ },
+ "q_b7013a2c1e": {
+  "stem": "What is the dextrose 10% dose for a child with a blood glucose under 60 mg/dL?"
+ },
+ "q_2317262107": {
+  "stem": "At what blood glucose is dextrose 10% given to a neonate with altered mental status?"
+ },
+ "q_1a90375d4d": {
+  "stem": "Once a combative patient is sedated, what must be continuously monitored?",
+  "explanation": "The Altered Mental Status guideline makes continuous ETCO₂ and SpO₂ mandatory after sedation, because the airway that was stable before the drug is the thing most likely to fail after it."
+ },
+ "q_702fcf18a2": {
+  "stem": "How often must distal circulation, sensation and movement be checked in a patient in limb restraints?"
+ },
+ "q_e1bba1d004": {
+  "stem": "If pre-mixed D10 is unavailable, how is it made?"
+ },
+ "q_15c4cf307c": {
+  "stem": "What is the adult IM epinephrine dose for anaphylaxis with moderate or severe symptoms?"
+ },
+ "q_c2b5dacf06": {
+  "stem": "What is the pediatric IM epinephrine dose for anaphylaxis?"
+ },
+ "q_78f8b50b01": {
+  "stem": "What is the maximum single IM epinephrine dose for a pediatric anaphylaxis patient?"
+ },
+ "q_01d4e2ad53": {
+  "stem": "What NS/LR bolus volume is given to an adult in anaphylaxis?"
+ },
+ "q_0800fb0360": {
+  "stem": "What systolic blood pressure target is used for a pediatric anaphylaxis patient receiving fluid boluses?"
+ },
+ "q_77b1c488af": {
+  "stem": "For which severity of allergic reaction is diphenhydramine given alone?"
+ },
+ "q_dbbd4494d5": {
+  "stem": "What is the diphenhydramine dose for anaphylaxis or an allergic reaction?",
+  "explanation": "Diphenhydramine is 1 mg/kg IV/IO/IM for both adults and children in the Anaphylaxis & Allergic Reactions guideline, capped at 50 mg."
+ },
+ "q_4d66191219": {
+  "stem": "What is the maximum diphenhydramine dose for anaphylaxis or an allergic reaction?"
+ },
+ "q_f03bb60b29": {
+  "stem": "What is the adult methylprednisolone dose for anaphylaxis or an allergic reaction?"
+ },
+ "q_0ed10dec21": {
+  "stem": "What is the maximum pediatric methylprednisolone dose for anaphylaxis or an allergic reaction?"
+ },
+ "q_a952b12595": {
+  "stem": "In anaphylaxis, for what finding is nebulized epinephrine given?"
+ },
+ "q_9d2d4971aa": {
+  "stem": "What racemic epinephrine dose is given via nebulizer for upper airway swelling in anaphylaxis?"
+ },
+ "q_7564d08608": {
+  "stem": "In anaphylaxis, what is the maximum single dose of non-racemic nebulized epinephrine?"
+ },
+ "q_8233de4fec": {
+  "stem": "What is the adult IV push epinephrine dose for severe anaphylaxis?"
+ },
+ "q_7e9f4dfcee": {
+  "stem": "When is the adult IV push dose of epinephrine permitted in anaphylaxis?",
+  "explanation": "IV push epinephrine is a last step, not a shortcut: the Anaphylaxis & Allergic Reactions guideline allows it only after all other treatment — including IM epinephrine — has failed, because pushed epinephrine carries real arrhythmia and ischemia risk."
+ },
+ "q_c8683c79ee": {
+  "stem": "What is the maximum single IV push epinephrine dose for a pediatric anaphylaxis patient?"
+ },
+ "q_9180f7536e": {
+  "stem": "In pediatric anaphylaxis, how must IV push doses of epinephrine be dosed and documented?"
+ },
+ "q_d325b540d7": {
+  "stem": "In anaphylaxis with refractory hypotension, to what maximum rate may an adult epinephrine infusion be titrated?"
+ },
+ "q_c5da6ce3b3": {
+  "stem": "In anaphylaxis with refractory hypotension, at what rate is a pediatric epinephrine infusion started?"
+ },
+ "q_9b7c7c9111": {
+  "stem": "In anaphylaxis with refractory hypotension, under what condition may the maximum infusion dose be exceeded?"
+ },
+ "q_78f290e86d": {
+  "stem": "What vital sign targets are set for a patient with an aortic dissection?"
+ },
+ "q_8c487313e8": {
+  "stem": "What blood pressure target is set for an aortic rupture?"
+ },
+ "q_5c04f39299": {
+  "stem": "What initial esmolol loading dose is given for an aortic dissection?"
+ },
+ "q_42875205c7": {
+  "stem": "In aortic dissection, at what rate is the esmolol infusion started after the loading bolus?"
+ },
+ "q_c1d36085e6": {
+  "stem": "Four minutes after the initial esmolol bolus and infusion for an aortic dissection, the vital signs are still above target. What is the next step?"
+ },
+ "q_44329466be": {
+  "stem": "What is the maximum esmolol infusion rate for an aortic dissection?"
+ },
+ "q_2856cbe08c": {
+  "stem": "In which condition should esmolol not be used for an aortic emergency?"
+ },
+ "q_b682834764": {
+  "stem": "Esmolol is contraindicated in a patient with an aortic dissection. Which agent is added?"
+ },
+ "q_8744726c89": {
+  "stem": "What is the initial labetalol dose for an aortic emergency?"
+ },
+ "q_2d3e9cf679": {
+  "stem": "What is the maximum total labetalol dose for an aortic emergency?"
+ },
+ "q_b9e87a869a": {
+  "stem": "In an aortic emergency, what diltiazem bolus dose is given when the heart rate stays above target despite beta blockade?"
+ },
+ "q_4a3c281e52": {
+  "stem": "In an aortic emergency, at what rate is the diltiazem infusion run after the bolus?"
+ },
+ "q_b660f30a66": {
+  "stem": "In an aortic emergency, vasodilator therapy is withheld until the heart rate is consistently below what value?"
+ },
+ "q_10c1fee153": {
+  "stem": "In an aortic emergency, to what maximum rate may nicardipine be titrated?"
+ },
+ "q_205000fec7": {
+  "stem": "A patient with traumatic aortic injury is tachycardic and persistently hypotensive without having received any antihypertensive. What does this usually mean?"
+ },
+ "q_30de36aedf": {
+  "stem": "In the Stanford classification of aortic dissection, which dissections are Type B?"
+ },
+ "q_d946300255": {
+  "stem": "What SpO₂ target is set for COPD patients?"
+ },
+ "q_6a095593b4": {
+  "stem": "What albuterol dose is given via nebulizer to an adult asthma patient?"
+ },
+ "q_1fadff491a": {
+  "stem": "What is the ipratropium dose for asthma or COPD, and how many total doses are allowed?"
+ },
+ "q_e28b8404d6": {
+  "stem": "For continuous nebulized albuterol in the adult asthma patient, how many unit doses are placed in the nebulizer?"
+ },
+ "q_1e01aa83e3": {
+  "stem": "How many times may the adult IM epinephrine dose be repeated for severe asthma?"
+ },
+ "q_a21e76b7be": {
+  "stem": "For which adult asthma patients is magnesium sulfate 2 grams IV/IO over 20 minutes given?"
+ },
+ "q_cac8868bf1": {
+  "stem": "How often are albuterol and ipratropium nebulizer treatments repeated for a COPD patient?"
+ },
+ "q_f3e9c60d13": {
+  "stem": "What magnesium sulfate dose is given to a pediatric asthma patient?"
+ },
+ "q_e612a1d22e": {
+  "stem": "Which pediatric asthma patients should receive magnesium therapy?",
+  "explanation": "The Asthma & COPD guideline is unusually direct here: every child with IV access and status asthmaticus should get magnesium. The under-12-and-in-extremis criterion belongs to terbutaline."
+ },
+ "q_9a66de845e": {
+  "stem": "What is the terbutaline loading dose for asthma?"
+ },
+ "q_3df97dd43a": {
+  "stem": "For which asthma patients is terbutaline reserved?"
+ },
+ "q_52f414afbd": {
+  "stem": "What is the maximum terbutaline infusion rate for asthma?"
+ },
+ "q_24ec03527d": {
+  "stem": "An intubated asthmatic has a PIP above 40 and a plateau pressure above 30. What should be considered?",
+  "explanation": "High airway pressures in the intubated asthmatic usually mean the patient is fighting the ventilator or stacking breaths; the Asthma & COPD guideline directs sedation and paralysis so the long expiratory time the strategy depends on can actually happen."
+ },
+ "q_9e8cd86b80": {
+  "stem": "What ventilator strategy is used for the intubated asthmatic?"
+ },
+ "q_db04076630": {
+  "stem": "How often should a neurologic assessment be documented in atraumatic hemorrhagic stroke?"
+ },
+ "q_b26b6456aa": {
+  "stem": "Provided a patient with atraumatic hemorrhagic stroke or cerebral edema is not hypovolemic or hypotensive, how should they be positioned?"
+ },
+ "q_b8c0820c5a": {
+  "stem": "What ETCO₂ should be maintained in an intubated patient with atraumatic hemorrhagic stroke or cerebral edema?"
+ },
+ "q_f00dc36aaf": {
+  "stem": "What minimum systolic blood pressure should be maintained in an adult with atraumatic hemorrhagic stroke or cerebral edema?"
+ },
+ "q_73313c1e62": {
+  "stem": "What systolic blood pressure floor applies to a pediatric patient with atraumatic hemorrhagic stroke or cerebral edema?"
+ },
+ "q_763604b4e0": {
+  "stem": "When bag-valve ventilating an adult with atraumatic hemorrhagic stroke or cerebral edema, what should be done?"
+ },
+ "q_b0bfef425f": {
+  "stem": "Above what systolic pressure is antihypertensive therapy started for atraumatic intracranial hemorrhage?"
+ },
+ "q_c668047047": {
+  "stem": "At what rate is a nicardipine infusion started for atraumatic intracranial hemorrhage?"
+ },
+ "q_539da9735f": {
+  "stem": "In atraumatic intracranial hemorrhage, what target systolic pressure is set once antihypertensive therapy is started?",
+  "explanation": "The target is an SBP of 140-150. The Atraumatic Hemorrhagic Stroke & Cerebral Edema guideline warns explicitly that overshooting and causing hypotension is harmful, since the injured brain has lost its autoregulation."
+ },
+ "q_eb8d7214bd": {
+  "stem": "What is the adult hypertonic saline (3%) dose for signs of herniation in atraumatic hemorrhagic stroke or cerebral edema?"
+ },
+ "q_f82a13b2b6": {
+  "stem": "What is the pediatric hypertonic saline (3%) dose for signs of herniation in atraumatic hemorrhagic stroke or cerebral edema?"
+ },
+ "q_8436b4b96d": {
+  "stem": "Which finding is the hallmark sign of cerebral herniation?",
+  "explanation": "A unilateral dilated pupil is named the hallmark sign, progressing to bilateral and fixed as herniation worsens. The other findings listed are also signs, but the blown pupil is the one the Atraumatic Hemorrhagic Stroke & Cerebral Edema guideline singles out."
+ },
+ "q_d14f948ae7": {
+  "stem": "Which triad makes up the Cushing reflex?"
+ },
+ "q_8a6d575091": {
+  "stem": "In cardiogenic shock, to what mean arterial pressure are adult fluid boluses titrated?"
+ },
+ "q_482920a454": {
+  "stem": "What NS/LR bolus volume is given to an adult in cardiogenic shock?"
+ },
+ "q_8cc1d7a3af": {
+  "stem": "What NS/LR bolus is given to a pediatric patient in cardiogenic shock?"
+ },
+ "q_dc652161cc": {
+  "stem": "In cardiogenic shock, which fluid should be avoided in neonates ≤ 28 days?"
+ },
+ "q_8aadd2e004": {
+  "stem": "What is the adult push dose epinephrine dose in cardiogenic shock?"
+ },
+ "q_11ed1a6ee5": {
+  "stem": "What is the maximum single push dose of epinephrine for a pediatric patient in cardiogenic shock?"
+ },
+ "q_1426bf96d4": {
+  "stem": "In cardiogenic shock, to what maximum may norepinephrine be titrated?"
+ },
+ "q_16f4c1dec0": {
+  "stem": "An adult in cardiogenic shock remains hypotensive after fluid boluses. What is the next step?"
+ },
+ "q_d736d78ee1": {
+  "stem": "At what rate is a dobutamine infusion started in cardiogenic shock?"
+ },
+ "q_fe5c49a2b9": {
+  "stem": "In cardiogenic shock, to what maximum rate may dobutamine be titrated?"
+ },
+ "q_a8b01dac90": {
+  "stem": "What initial fluid is given to an adult DKA patient with evidence of dehydration?"
+ },
+ "q_48b7708805": {
+  "stem": "What maintenance fluid rate is used for an adult DKA patient?"
+ },
+ "q_a7416e8117": {
+  "stem": "In adult DKA, at what blood glucose is D10 added at 100 mL/hr?"
+ },
+ "q_4e1dbdca9b": {
+  "stem": "In adult DKA, how much potassium is added to maintenance fluids when the K⁺ is 4.0 – 5.4?"
+ },
+ "q_1cba0564d9": {
+  "stem": "In adult DKA, how much potassium is added to maintenance fluids when the K⁺ is below 4.0?"
+ },
+ "q_ff633e0797": {
+  "stem": "In DKA, what is the maximum potassium infusion rate through a peripheral line without a cardiac monitor?"
+ },
+ "q_2f6041b467": {
+  "stem": "In DKA, what is prohibited with any fluid or line containing potassium?",
+  "explanation": "The Diabetic Ketoacidosis guideline states in capitals that no fluid or line containing potassium may be bolused — a rapid potassium load can cause fatal arrhythmia, which is also why the hourly rate ceilings exist."
+ },
+ "q_e573e9885b": {
+  "stem": "What regular insulin regimen is used for an adult DKA patient?"
+ },
+ "q_2604fdf0db": {
+  "stem": "In DKA, below what potassium level should insulin not be started?"
+ },
+ "q_28920a9f2e": {
+  "stem": "At what rate should the blood glucose be lowered in DKA?"
+ },
+ "q_d1875b0d42": {
+  "stem": "What initial fluid resuscitation is given to a pediatric DKA patient with dehydration?"
+ },
+ "q_f2e2bab395": {
+  "stem": "What is prohibited in the pediatric DKA patient?"
+ },
+ "q_325f8164f8": {
+  "stem": "Which regular insulin regimen is used for a pediatric DKA patient?"
+ },
+ "q_0c4ee6f7e2": {
+  "stem": "Which agent is first line for signs of cerebral edema in pediatric DKA?"
+ },
+ "q_9d05afc265": {
+  "stem": "What is the guidance on sodium bicarbonate in DKA?"
+ },
+ "q_846c7d3642": {
+  "stem": "To which patients must liquid oral glucose not be given?"
+ },
+ "q_9f3a536f7a": {
+  "stem": "Below what serum potassium does adult hypokalemia require emergent therapy?"
+ },
+ "q_2d76e0fe1c": {
+  "stem": "What oral potassium chloride dose is given to an adult with a K⁺ of 2.5 – 3.5?"
+ },
+ "q_73bcf74a55": {
+  "stem": "What is the maximum IV potassium infusion rate for an adult with hypokalemia?"
+ },
+ "q_4494765948": {
+  "stem": "At what serum potassium is hyperkalemia defined as requiring treatment?",
+  "explanation": "The Electrolyte Disturbances guideline sets hyperkalemia at a potassium of 6 mEq/L or above and directs that it be treated at that level even without ECG changes; levels under 6 rarely require acute treatment."
+ },
+ "q_8a5f2e9903": {
+  "stem": "What is the adult calcium gluconate 10% dose for hyperkalemia?"
+ },
+ "q_49e6d07dd7": {
+  "stem": "For what findings is calcium gluconate given in hyperkalemia?",
+  "explanation": "Calcium is for ECG evidence of membrane instability — peaked T-waves, a widening QRS or ventricular ectopy. The Electrolyte Disturbances guideline notes it is rarely indicated and usually not given in the absence of ECG changes."
+ },
+ "q_45e16045f2": {
+  "stem": "What dextrose and insulin are given for adult hyperkalemia?"
+ },
+ "q_658998e966": {
+  "stem": "What is the maximum sodium bicarbonate dose for hyperkalemia?"
+ },
+ "q_4dba23d942": {
+  "stem": "What furosemide dose is given for adult hyperkalemia?"
+ },
+ "q_b00403f235": {
+  "stem": "What hypertonic saline 3% rate is given to an adult with severe hyponatremia — seizures, obtundation or cerebral edema?"
+ },
+ "q_bbad439563": {
+  "stem": "What is the pediatric calcium gluconate 10% dose for hyperkalemia?"
+ },
+ "q_eb73ee5358": {
+  "stem": "Which finding is an indication for IV potassium replacement when the potassium is below 3.0?"
+ },
+ "q_195e75b341": {
+  "stem": "Can hyperkalemia be reversed with insulin during transport?",
+  "explanation": "Because insulin is not carried, hyperkalemia reversal has to happen before departure — which is why the Electrolyte Disturbances guideline insists the crew ask the sending hospital whether a repeat potassium was drawn and whether treatment was already given."
+ },
+ "q_79fcd25dd0": {
+  "stem": "In hyperkalemia, to which patients should sodium bicarbonate not be given?",
+  "explanation": "Hyperkalemia associated with DKA corrects with fluids and insulin, so bicarbonate adds nothing and carries the cerebral edema risk noted in the Diabetic Ketoacidosis guideline. It may be repeated in cardiac arrest."
+ },
+ "q_5b98c06e13": {
+  "stem": "In hyponatremia, over what period should serum sodium be corrected from 120 to normal?"
+ },
+ "q_f5e4065e1d": {
+  "stem": "In epiglottitis or croup, what SpO₂ should be maintained with supplemental oxygen?",
+  "explanation": "The Epiglottitis & Croup guideline targets an SpO₂ above 94% — unlike COPD, where 90-94% is the goal, there is no reason to tolerate a lower saturation in a child with upper airway obstruction."
+ },
+ "q_6b8274c6e8": {
+  "stem": "How should a child with suspected epiglottitis or croup be managed at the BLS level?"
+ },
+ "q_c0100e9a65": {
+  "stem": "When intubating a patient with croup, what endotracheal tube size should be used?",
+  "explanation": "Subglottic swelling narrows the airway below the cords, so the Epiglottitis & Croup guideline directs an ETT 0.5 mm smaller than the size the child's age or length would otherwise indicate."
+ },
+ "q_486c4c92d2": {
+  "stem": "What is the methylprednisolone dose for suspected croup?"
+ },
+ "q_386386284d": {
+  "stem": "What is the acetaminophen dose for a child with croup and a fever?"
+ },
+ "q_15224a500c": {
+  "stem": "What is prohibited in a patient with suspected epiglottitis?",
+  "explanation": "Any manipulation — including starting an IV or examining the mouth — can provoke laryngospasm and complete obstruction, so the Epiglottitis & Croup guideline forbids both. For IFTs, anesthesia and/or ENT evaluation at the sending facility should be strongly considered."
+ },
+ "q_7ddebec687": {
+  "stem": "What is the dexamethasone dose for croup?"
+ },
+ "q_3b2414f1db": {
+  "stem": "What is the maximum dexamethasone dose for croup?"
+ },
+ "q_66055e84bb": {
+  "stem": "Which presentation describes croup?"
+ },
+ "q_6217b3be02": {
+  "stem": "Which features are hallmarks of bacterial epiglottitis?"
+ }
+}

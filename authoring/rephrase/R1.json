@@ -1,0 +1,821 @@
+{
+ "q_cdabd65b00": {
+  "stem": "A situation arises in flight that is not covered anywhere in these guidelines. What should the crew do?",
+  "explanation": "The Introduction states plainly that the PCGs cannot cover every injury, illness or complicating circumstance. When a situation falls outside them you must function within your scope of practice and, when time and circumstances permit, use other available resources including 911 ground and on-line medical control."
+ },
+ "q_b01a5af8ec": {
+  "stem": "How do LFN's Patient Care Guidelines relate to the standard of care?",
+  "explanation": "The opening sentence of the Introduction is explicit: as guidelines they do not represent a standard of care, because EMS is conducted in a stressful, dynamic and constantly changing environment. That framing is what allows — and requires — documented clinical judgement when a case departs from them."
+ },
+ "q_774c16be3f": {
+  "stem": "Which treatment sections of a guideline may an ALS crew provide care from?"
+ },
+ "q_9132f3c0b6": {
+  "stem": "A guideline has no CCT treatment section. What should a CCT crew do?",
+  "explanation": "The Instructions for Use anticipate that some guidelines carry no black CCT band. That absence is not a prohibition — CCT teams take their treatment options from the BLS and ALS sections of that guideline."
+ },
+ "q_246de16100": {
+  "stem": "How is pediatric-specific information marked throughout the guidelines?"
+ },
+ "q_caa23545cd": {
+  "stem": "A superscript number appears beside a treatment inside a guideline. What does it refer to?",
+  "explanation": "Superscripts are cross-references into the PEARLS band of the same guideline, where the additional information sits. In the Combative Patient guideline, for example, the superscript 9 on droperidol points to the PEARL about dystonic reactions."
+ },
+ "q_fee3909bfb": {
+  "stem": "What is the significance of the order in which medications are listed within a guideline?"
+ },
+ "q_025addeb03": {
+  "stem": "What role does the formulary section of the guidelines serve?",
+  "explanation": "The Instructions for Use flag this in bold red: the formulary is designed as a quick reference for medication information, NOT as a replacement for a specific guideline. Dose a patient from the guideline for the condition, then use the formulary for drug detail."
+ },
+ "q_26453fe5d0": {
+  "stem": "In what order should a guideline's treatment tables be worked through?"
+ },
+ "q_c29c3134e4": {
+  "stem": "At which care levels does the LFN Medication Table list naloxone as available?"
+ },
+ "q_c50e3dc808": {
+  "stem": "What does an asterisk beside a medication name in the LFN Medication Table indicate?"
+ },
+ "q_7427e2f67b": {
+  "stem": "At which care levels does the LFN Medication Table list ketamine as available?",
+  "explanation": "Ketamine is marked for CCT and ALS, which is consistent with its appearance in the ALS band of the Combative Patient guideline. Note that any patient receiving ketamine requires continuous ETCO2 monitoring under the Basic Approach to All Patient Contacts regardless of dose or indication."
+ },
+ "q_01c7ac241e": {
+  "stem": "A BLS crew is transporting a patient with bronchospasm. Which bronchodilator does the LFN Medication Table make available to them?",
+  "explanation": "Albuterol is marked at all three levels, and the Oregon BLS and ALS Scope of Practice Table confirms an Oregon EMT may give it inhaled or nebulized. Methylprednisolone and magnesium are CCT/ALS agents and terbutaline is CCT only."
+ },
+ "q_ce057bbb28": {
+  "stem": "Which medication for anaphylaxis does the LFN Medication Table make available to a BLS crew?",
+  "explanation": "Epinephrine carries an X in the BLS column, and the Oregon BLS and ALS Scope of Practice Table limits the EMT to the IM or auto-injector route for anaphylaxis. Diphenhydramine and methylprednisolone are CCT/ALS agents, and dexamethasone is an asterisked CCT-only agent not normally carried."
+ },
+ "q_09bb432b44": {
+  "stem": "Which procedures does LFN interpret as being within its providers' scope of practice when the additional training is documented?",
+  "explanation": "The Scope of Practice guideline states that surgical cricothyrotomies and chest tubes are not in scope, but that LFN's interpretation is that needle thoracostomy and IO placement are, provided the additional training was approved by LFN's Medical Directors and is documented in the employee's education record."
+ },
+ "q_59e8c1d436": {
+  "stem": "In which state is intraosseous line placement not within LFN providers' scope of practice?",
+  "explanation": "The Scope of Practice guideline carves out a single exception to its own interpretation: intraosseous lines are not in the scope of practice in Oregon. Crews working across state lines have to know which side of the border they are on before reaching for the drill."
+ },
+ "q_5ea5f1f3a1": {
+  "stem": "What is required before a paramedic in Oregon or Idaho may administer a medication not contained in these guidelines?"
+ },
+ "q_3297df6ca7": {
+  "stem": "Who is responsible for administering an uncommon medication and its infusions when the paramedic has no training in it?",
+  "explanation": "The Scope of Practice guideline assigns that responsibility to the Flight Nurse. This is the fallback when an Oregon or Idaho paramedic meets a drug outside the guidelines that they have not been trained on, and it should be settled before leaving the bedside."
+ },
+ "q_ea76fa2bad": {
+  "stem": "What is required before a Washington paramedic may transport a patient with medications infusing?"
+ },
+ "q_25a733cc5b": {
+  "stem": "What limits the medications a Washington respiratory therapist may administer?"
+ },
+ "q_02e6ceb305": {
+  "stem": "What does the critical care endorsement held by CFRN nurses in Montana allow them to do?",
+  "explanation": "The Scope of Practice guideline states verbatim that CFRN Montana nurses get a critical care endorsement which allows them to function as an EMR equivalent. The nurse's own license, not that endorsement, is what carries their medication and procedure authority."
+ },
+ "q_06231e3b88": {
+  "stem": "What condition applies to an EMT administering a medication contained in these guidelines?",
+  "explanation": "An EMT may give a medication contained in these guidelines only where it also falls inside their state-specific scope of practice, and it must be given in accordance with the guidelines. The Oregon BLS and ALS Scope of Practice Table is the Oregon reference for that."
+ },
+ "q_dba4a841fd": {
+  "stem": "According to the CCT State Scope of Practice Table, in which states may nurses pronounce death?"
+ },
+ "q_79b2c1ed73": {
+  "stem": "According to the CCT State Scope of Practice Table, in which states may paramedics pronounce death?"
+ },
+ "q_fc13f4d06f": {
+  "stem": "For which arrests may an Oregon paramedic terminate resuscitation?"
+ },
+ "q_170a5ab0a6": {
+  "stem": "What is the maximum potassium infusion rate for a paramedic in Montana?"
+ },
+ "q_7950d3bfac": {
+  "stem": "In which state may a paramedic, as well as an RN, perform chest tube insertion?"
+ },
+ "q_85871abbe6": {
+  "stem": "What certification must an Idaho paramedic hold to perform finger thoracostomy or initiate blood products?"
+ },
+ "q_3e9cd0e758": {
+  "stem": "What may a Washington paramedic do with potassium, insulin and heparin infusions?"
+ },
+ "q_256f6c3ea5": {
+  "stem": "In which state is insulin administration restricted to RNs?"
+ },
+ "q_f60dcb4e63": {
+  "stem": "By which routes may an Oregon EMT give naloxone?"
+ },
+ "q_fac1fc5c31": {
+  "stem": "What limitation applies to an Oregon EMT giving nitroglycerin?",
+  "explanation": "The EMT may only assist the patient with their own nitroglycerin, not administer a crew-carried supply. The Basic Approach for BLS Transport Teams adds the conditions: it must have been prescribed by the patient's personal physician and be in the patient's possession."
+ },
+ "q_8ecd96b378": {
+  "stem": "Which airway device is within an Oregon EMT's scope?"
+ },
+ "q_d985e9d686": {
+  "stem": "An Oregon EMT crew has a patient in ventricular fibrillation. Which defibrillation capability is within their scope?"
+ },
+ "q_a5c790dd19": {
+  "stem": "Which medication for nausea is within an Oregon EMT's scope?",
+  "explanation": "Inhaled isopropyl alcohol is the EMT's antiemetic in the Oregon table. Ondansetron and promethazine are ALS/CCT agents in the LFN Medication Table."
+ },
+ "q_4142cb22b4": {
+  "stem": "Under the Oregon BLS and ALS scope rules, when is a CCT team required for a transport?"
+ },
+ "q_8240ebafff": {
+  "stem": "Under the Oregon BLS and ALS scope rules, what is required in order to titrate an infusion continued from the referring facility?"
+ },
+ "q_6c0e52a86a": {
+  "stem": "Which patients require full PPE rather than an N95 mask alone?"
+ },
+ "q_4e92e86dcf": {
+  "stem": "In a STEMI with arrest where no mechanical CPR device is available, which approach to transport is preferred?",
+  "explanation": "The Basic Approach to All Patient Contacts accepts degraded CPR in exchange for speed, because CPR alone is not indefinitely sustaining and the goal is rapid delivery to a center that can reverse the cause. It is the same logic behind the statement that no patient is too unstable for air transport."
+ },
+ "q_e0188af27b": {
+  "stem": "What is LFN's position on a patient who seems too unstable to fly?",
+  "explanation": "The Basic Approach to All Patient Contacts puts it in bold italics: after brief initial stabilization care you shall expedite air transport, because the assumption is that the patient will otherwise succumb to their injuries or illness without it."
+ },
+ "q_c4e3cddcbd": {
+  "stem": "Which medication obliges continuous ETCO2 monitoring in every patient who receives it, regardless of dose or indication?"
+ },
+ "q_feb3d72929": {
+  "stem": "What must be confirmed immediately after each transfer of a patient with an advanced airway?",
+  "explanation": "Every move of the patient is an extubation risk. The guidelines direct disconnecting the ventilator or BVETT if tolerated, verifying ETT or SGA securement in a commercial holder before movement, and confirming placement with ETCO2 immediately after each transfer."
+ },
+ "q_79247dc3ac": {
+  "stem": "What ceiling applies to pediatric medication dosages?",
+  "explanation": "Weight-based dosing in a large adolescent can calculate out above the adult figure, so pediatric dosing is capped at the maximum single or total adult dose. Handtevy is the approved reference for pediatric resuscitation."
+ },
+ "q_0ed3f4def0": {
+  "stem": "At what age does CAMTS define a patient as pediatric?",
+  "explanation": "CAMTS sets the line at under 18, but the guidelines immediately qualify it: most patients with any evidence of secondary sexual characteristics — pubic, axillary or facial hair, or breast development — may be treated per adult guidelines."
+ },
+ "q_b01395110d": {
+  "stem": "Using the pediatric formulas, how is ETT insertion depth determined?"
+ },
+ "q_cc5377658d": {
+  "stem": "What pediatric maintenance fluid rate is used for a child weighing less than 10 kg?",
+  "explanation": "Under 10 kg the rate is a flat 4 mL/kg. The other two formulas are the real rates for the 10 – 20 kg and over-20 kg bands, which is where crews most often grab the wrong line."
+ },
+ "q_57c4aef3b2": {
+  "stem": "Which fluid is used for pediatric maintenance?"
+ },
+ "q_4558062626": {
+  "stem": "Which maintenance fluid may be used as an alternative to D5NS for infants 28 days old or younger?"
+ },
+ "q_fd1230c095": {
+  "stem": "When may a dextrose-containing solution be given to a child as a bolus?"
+ },
+ "q_cbef8011f3": {
+  "stem": "How often must neurological assessment be performed and documented on a patient with neurological symptoms?"
+ },
+ "q_ae2f72d7b8": {
+  "stem": "What is the normal systolic blood pressure range for an adult?"
+ },
+ "q_906e1e8fe1": {
+  "stem": "What SBP goal is set for an adult with evidence of head injury?"
+ },
+ "q_e11fbcf19e": {
+  "stem": "What SBP goal is set for a child under 10 years old in hemorrhagic shock?"
+ },
+ "q_a764b7f9d6": {
+  "stem": "What must be labelled on a syringe of medication that is drawn up but not immediately administered?",
+  "explanation": "Name and concentration, with push-dose epinephrine given as the example — concentration is the detail that turns a labelled syringe into a safe one. The guidelines also direct drawing up only the amount you intend to give."
+ },
+ "q_730fd0668c": {
+  "stem": "How often must vital signs be taken on a scene call or an unstable transport?"
+ },
+ "q_b2a5c9ed5d": {
+  "stem": "When are q 30-minute ventilator checks allowed instead of q 15 minutes?"
+ },
+ "q_c2bccddc06": {
+  "stem": "A ventilated patient has a plateau pressure greater than 30. How often must plateau pressure be documented?"
+ },
+ "q_e7c449f3a2": {
+  "stem": "Up to what CPAP/PEEP level may a BLS crew maintain existing CPAP with a Flow-Safe II?"
+ },
+ "q_3fa9618d5c": {
+  "stem": "How should a BLS crew position a patient with suspected shock?",
+  "explanation": "Supine, with hemorrhage control. The BLS guidance specifically directs crews not to place the shock patient in Trendelenburg, which has no demonstrated benefit and worsens respiratory mechanics."
+ },
+ "q_0551ecf404": {
+  "stem": "During BLS transport, how often must circulation, motor and sensation be checked and documented on a patient in restraints?",
+  "explanation": "CMS checks are documented at the time of application and every 15 minutes thereafter. The same 15-minute interval applies to restrained patients under the Combative Patient guideline, alongside continuous ETCO2 and SpO2."
+ },
+ "q_11a9536a46": {
+  "stem": "What level of transport is required for a violent patient?"
+ },
+ "q_7c5dc77493": {
+  "stem": "Under what condition may a BLS crew assist a patient with sublingual nitroglycerin?"
+ },
+ "q_f8c0cc18c4": {
+  "stem": "Which task may a BLS crew member perform in assisting a paramedic?"
+ },
+ "q_4563fcf415": {
+  "stem": "During BLS transport, what must be completed when a patient is placed in soft restraints?"
+ },
+ "q_77f56a23ae": {
+  "stem": "What is the indication for anxiolysis?",
+  "explanation": "The Anxiolysis guideline covers one thing only — mild sedation of the anxious patient. The second and third options are listed on the same page as contraindications, and each has its own guideline: Combative Patient for the agitated patient, and the post-intubation sedation guidance for the intubated patient."
+ },
+ "q_383bfc9e64": {
+  "stem": "For which patient is anxiolysis contraindicated?"
+ },
+ "q_471469d443": {
+  "stem": "What is the adult IV midazolam dose for anxiolysis?",
+  "explanation": "Anxiolysis uses a deliberately small weight-based dose — 0.01 mg/kg IV — because the goal is mild sedation with an intact airway and respiratory drive. The larger figures are the combative-patient doses."
+ },
+ "q_86fff36c04": {
+  "stem": "What is the maximum single dose of midazolam for anxiolysis?"
+ },
+ "q_bb8724dc37": {
+  "stem": "What is the maximum dose of lorazepam for anxiolysis?",
+  "explanation": "Lorazepam is capped at 1 mg for anxiolysis, five times lower than the midazolam ceiling. For the combative patient the adult lorazepam range runs to 4 mg, so the drug's ceiling depends entirely on which guideline you are working from."
+ },
+ "q_78069e54cf": {
+  "stem": "For anxiolysis, which midazolam route is listed for pediatric patients but not for adults?"
+ },
+ "q_ee6e1e09eb": {
+  "stem": "How often may midazolam be repeated for anxiolysis?"
+ },
+ "q_b61ca4433d": {
+  "stem": "How often may lorazepam be repeated for anxiolysis?",
+  "explanation": "Lorazepam repeats every 20 minutes PRN, reflecting its longer duration relative to midazolam's 15-minute interval. The same two intervals carry over to the Combative Patient guideline."
+ },
+ "q_968014e869": {
+  "stem": "When giving anxiolysis, what monitoring is required for every patient receiving a sedative?"
+ },
+ "q_fe75c7ac4b": {
+  "stem": "A patient is both in pain and anxious. In what sequence should they be treated?"
+ },
+ "q_ea04273a53": {
+  "stem": "When a benzodiazepine and a narcotic are given concurrently for anxiolysis, how should they be dosed?",
+  "explanation": "The combination is synergistic for respiratory depression, so both agents are dosed lower than they would be alone. The Anxiolysis guideline also warns that alternating agents with different mechanisms and durations can produce sudden, unexpected sedation and respiratory compromise."
+ },
+ "q_009c8b39a4": {
+  "stem": "When should a combative patient be loaded into an aircraft or ambulance?"
+ },
+ "q_8cc72066fb": {
+  "stem": "What MUST be obtained before transporting a combative patient?"
+ },
+ "q_2a6d6e6c85": {
+  "stem": "At the BLS level, what should be obtained when assessing a patient with altered LOC or violent behavior?"
+ },
+ "q_cd75b099b1": {
+  "stem": "In which position must a combative patient never be restrained?"
+ },
+ "q_5d3fb132ed": {
+  "stem": "Which two parameters must be continuously monitored on a restrained combative patient?"
+ },
+ "q_a44a7baf8a": {
+  "stem": "When does pharmacologic therapy become indicated for a combative patient?"
+ },
+ "q_558a29cea4": {
+  "stem": "What is the adult IV/IM midazolam dose for a combative patient?",
+  "explanation": "Adults get a flat 2 – 5 mg IV or IM, repeatable every 15 minutes PRN, with a lower dose used in the elderly and those with significant comorbidities. The weight-based figures are the pediatric doses and the 0.01 mg/kg is the anxiolysis dose."
+ },
+ "q_97563587f3": {
+  "stem": "What is the adult intranasal midazolam dose for a combative patient?"
+ },
+ "q_df0d02166d": {
+  "stem": "What is the adult IV/IM lorazepam dose for a combative patient?",
+  "explanation": "Lorazepam is 1 – 4 mg IV or IM, repeatable every 20 minutes PRN. Note the ceiling here is four times the 1 mg maximum allowed for anxiolysis — the indication, not the drug, sets the dose."
+ },
+ "q_d723c0c06e": {
+  "stem": "What is the IV/IO ketamine dose for a combative patient?"
+ },
+ "q_8c32a5ea2e": {
+  "stem": "What is the IM ketamine dose for a severely agitated combative patient with no IV access?"
+ },
+ "q_3dc9990ece": {
+  "stem": "What is the adult IM droperidol dose for a combative patient?"
+ },
+ "q_49779d8180": {
+  "stem": "What is the maximum total dose of droperidol for a combative patient?"
+ },
+ "q_f0a9593d2f": {
+  "stem": "In the extreme-situation pathway for a combative patient with no IV/IO access, what is the IM succinylcholine dose?"
+ },
+ "q_edf8fbfd06": {
+  "stem": "In the extreme-situation pathway for a combative patient, which agent and dose is used if succinylcholine is contraindicated?"
+ },
+ "q_fba53c37b1": {
+  "stem": "What is indicated for a combative patient who cannot protect their airway or who continues to pose a significant safety threat?"
+ },
+ "q_ee28e2c1bf": {
+  "stem": "What is the pediatric IV/IM midazolam dose for a combative patient?"
+ },
+ "q_b3c3d793ac": {
+  "stem": "What is the pediatric IM droperidol dose for a combative patient?"
+ },
+ "q_ccad9196b3": {
+  "stem": "When managing a combative patient, what should take priority over physical restraint and pharmacologic management?"
+ },
+ "q_7de976dd7f": {
+  "stem": "Which scale should be used to document sedation and restraint of a combative patient?",
+  "explanation": "The Richmond Agitation Sedation Scale is printed in the PEARLS band and is the tool for both the decision to sedate and the documentation of its effect. The Basic Approach to All Patient Contacts requires a pain and/or RASS score whenever you dose outside the guideline."
+ },
+ "q_a5048fb16a": {
+  "stem": "Which medication is used for a dystonic reaction caused by droperidol?"
+ },
+ "q_3b1ce890fa": {
+  "stem": "In general respiratory care, what oxygen saturation should supplemental oxygen be titrated to keep in most patients?",
+  "explanation": "The BLS default target in General Respiratory Care is SpO2 > 94%. The other numbers in this guideline are deliberate exceptions — > 95% for trauma at risk of ischemic injury, > 90% for cardiac patients, and ≥ 87% as the floor tolerated in COVID-19/ARDS when oxygen supply limits transport."
+ },
+ "q_f884cb86aa": {
+  "stem": "What SpO2 target applies to trauma patients at risk for ischemic injuries or hemorrhagic shock?"
+ },
+ "q_c1d1bdef12": {
+  "stem": "To what SpO2 should cardiac patients be treated with oxygen?"
+ },
+ "q_b4ed2686f4": {
+  "stem": "In COVID-19, ARDS and similar pathology, to what SpO2 may the patient be maintained if necessary?",
+  "explanation": "Higher ventilator rates/pressures and 100% FiO2 can harm lung tissue and consume more oxygen than is available to complete the transport, so the guidelines permit SpO2 to be maintained ≥ 87% in these patients if necessary."
+ },
+ "q_7d32dac34f": {
+  "stem": "A scene patient with a supraglottic airway has an estimated six-minute flight time. How should the crew ventilate during transport?",
+  "explanation": "All patients with an advanced airway must be placed on and transported via mechanical ventilator regardless of estimated transport time, and this includes IFTs and scene calls. Hand ventilation is reserved for equipment failure or other rare extenuating circumstances, and the reason must be documented."
+ },
+ "q_526dad087d": {
+  "stem": "LFN is transferring an intubated patient out of a sending facility. Where should the ventilator be during the bedside pickup?"
+ },
+ "q_d13137690a": {
+  "stem": "A non-intubated patient is given fentanyl en route. What respiratory monitoring is required for this patient?",
+  "explanation": "ETCO2 nasal cannula capnography is required for all non-intubated patients with respiratory compromise, with an altered level of consciousness, and those receiving sedation, narcotics, or any combination of the two. A narcotic alone triggers the requirement."
+ },
+ "q_d9c1623e8c": {
+  "stem": "For which intubations is the RSI checklist not required?",
+  "explanation": "The RSI checklist is required for all intubations unless it is a crash airway, where there is no time to run it. No other circumstance in General Respiratory Care excuses the checklist."
+ },
+ "q_4e72791073": {
+  "stem": "What is the smallest endotracheal tube size through which the pediatric bougie should be used as a stylet?"
+ },
+ "q_4563034949": {
+  "stem": "During intubation, a stylet is required for endotracheal tubes of what size when a Mac 3 or Mac 4 blade would be appropriate?"
+ },
+ "q_4230f19023": {
+  "stem": "At which intubation attempt should the C-MAC be used?",
+  "explanation": "The C-MAC is used beginning with the first intubation attempt. Video laryngoscopy is the default here, not a rescue device held back for a failed attempt."
+ },
+ "q_58ed1c5394": {
+  "stem": "What non-pharmacologic measure may BLS crews offer for nausea, and how is it used?"
+ },
+ "q_75b0daad0b": {
+  "stem": "What is the adult ALS dose of ondansetron for nausea and vomiting?"
+ },
+ "q_0ecca88c78": {
+  "stem": "A patient with nausea and vomiting has a known ondansetron allergy. What is the adult dose of promethazine?"
+ },
+ "q_627b12a015": {
+  "stem": "When promethazine is given intravenously for nausea and vomiting, what is the maximum concentration?"
+ },
+ "q_2d722d2417": {
+  "stem": "Which patients must not receive promethazine?",
+  "explanation": "The Nausea and Vomiting guideline states plainly that promethazine is not to be administered to unconscious or unresponsive patients. QT prolongation is the caution attached to ondansetron, and hepatic impairment is a caution rather than an absolute bar."
+ },
+ "q_09c5ac00b8": {
+  "stem": "When should an ALS crew use diphenhydramine for an adult with nausea and vomiting?"
+ },
+ "q_2eb288c487": {
+  "stem": "What is the maximum adult dose of diphenhydramine for nausea and vomiting?"
+ },
+ "q_99064a91c2": {
+  "stem": "What is the pediatric dose of ondansetron for nausea and vomiting?"
+ },
+ "q_e733fc26a7": {
+  "stem": "From what age may ondansetron be given to pediatric patients for nausea and vomiting?"
+ },
+ "q_3712e193ad": {
+  "stem": "Why is pediatric promethazine for nausea and vomiting restricted to patients 2 years and older or over 10 kg?"
+ },
+ "q_b3a3311cbb": {
+  "stem": "What is the maximum pediatric dose of promethazine for nausea and vomiting?"
+ },
+ "q_78b69104cb": {
+  "stem": "At CCT level, when is lorazepam added for nausea and vomiting?"
+ },
+ "q_6bc241fb51": {
+  "stem": "What is the adult CCT dose of lorazepam for refractory nausea?",
+  "explanation": "Adult lorazepam for refractory nausea is 0.5 – 1 mg IV/IM. The 1 – 4 mg range is the lorazepam dose used for post-intubation sedation, a different indication at a higher dose."
+ },
+ "q_e04b03e80a": {
+  "explanation": "Pediatric lorazepam for refractory nausea is 0.05 mg/kg IV/IM, the low end of the 0.05 – 0.1 mg/kg range used for post-intubation sedation."
+ },
+ "q_9955b4b00a": {
+  "stem": "What must be done whenever ondansetron is given?"
+ },
+ "q_1b1efdf5f2": {
+  "stem": "A patient develops a dystonic reaction after receiving promethazine. What is the drug of choice?",
+  "explanation": "Diphenhydramine is named the drug of choice for dystonic reactions due to promethazine. Its anticholinergic action is also why the Nausea and Vomiting guideline cautions against combining the two in the elderly."
+ },
+ "q_769fedb01e": {
+  "stem": "What is the adult dose of fentanyl for pain?"
+ },
+ "q_d25ac57c40": {
+  "stem": "What is the maximum single dose of fentanyl for pain?"
+ },
+ "q_df9a3ef777": {
+  "stem": "What is the adult IV/IO dose of hydromorphone for pain?"
+ },
+ "q_a34bffe101": {
+  "stem": "What is the total maximum dose of hydromorphone for pain in an adult?"
+ },
+ "q_cb40d03fac": {
+  "stem": "What is the adult dose of the acetaminophen infusion for pain?"
+ },
+ "q_dea1eba291": {
+  "stem": "At what body weight does an adult switch from the flat 1000 mg acetaminophen dose to weight-based dosing for pain?"
+ },
+ "q_db7f87a4ca": {
+  "stem": "Which history rules out giving the acetaminophen infusion for pain?"
+ },
+ "q_1177251416": {
+  "stem": "What is the adult dose of ketamine for pain?"
+ },
+ "q_0468191afa": {
+  "stem": "How should ketamine be used in pain management?",
+  "explanation": "The Pain Management guideline states that ketamine should generally be used as an adjunct to opioids rather than replacing them. Its opioid-sparing effect is the point, which is also why any amount of ketamine mandates ETCO2 monitoring."
+ },
+ "q_3930492062": {
+  "stem": "Where does hydromorphone sit in the pediatric pain management pathway?"
+ },
+ "q_6af6ced2b2": {
+  "stem": "What is the dose of hydromorphone for pain in a child 6 months of age or older?"
+ },
+ "q_4c6812953b": {
+  "stem": "What is the dose of hydromorphone for pain in an infant less than 6 months old?"
+ },
+ "q_5937a48bcd": {
+  "stem": "What is the maximum total dose of fentanyl for pain in a pediatric patient?"
+ },
+ "q_9749fea199": {
+  "stem": "Below what weight must pediatric ketamine for pain be diluted to a concentration of 1 mg/mL?",
+  "explanation": "In children under 25 kg the calculated analgesic dose is very small, so the Pain Management guideline requires dilution to 1 mg/mL to make an accurate volume measurable and reduce the chance of a tenfold error."
+ },
+ "q_033d3737b2": {
+  "stem": "Which pediatric patients receive the adult 1000 mg acetaminophen dose for pain?"
+ },
+ "q_ab610d2b68": {
+  "stem": "For pain management, at what rate should a CCT crew start an adult fentanyl infusion after the initial IV bolus?"
+ },
+ "q_5b26c0e421": {
+  "stem": "An adult on a fentanyl infusion for pain still has inadequate pain control. What should the CCT crew do?",
+  "explanation": "The Pain Management guideline pairs the two deliberately: bolus 1 mcg/kg (100 mcg maximum) AND increase the infusion by 1 mcg/kg/hour, repeating the bolus and titration every 5 – 10 minutes PRN. The bolus treats the pain now; the rate increase keeps it treated."
+ },
+ "q_9c0e52c962": {
+  "stem": "What absolute hourly ceiling applies to an adult fentanyl infusion for pain?"
+ },
+ "q_8241fca9f2": {
+  "stem": "For pain management, at what rate should a pediatric fentanyl infusion be started after the initial IV bolus?"
+ },
+ "q_07ef438d80": {
+  "stem": "In the equianalgesic figures used for pain management, 1 mg of hydromorphone is approximately equivalent to how much fentanyl?",
+  "explanation": "The Pain Management guideline lists approximate equianalgesic doses as 1 mg hydromorphone = 75 mcg fentanyl = 5 mg morphine. That conversion matters when a patient arrives already medicated with a different opioid."
+ },
+ "q_60b9da7154": {
+  "stem": "A patient receives a single dose of ketamine for pain. What monitoring is required?"
+ },
+ "q_91ea4cb13d": {
+  "stem": "In a medication-tolerant patient receiving narcotics for pain, when may respiratory depression appear?",
+  "explanation": "The Pain Management guideline warns that even in medication-tolerant patients, respiratory depression may occur after the 2nd or 3rd appropriately administered dose — tolerance to analgesia does not mean tolerance to respiratory depression, so monitoring must not relax as doses accumulate."
+ },
+ "q_6213590575": {
+  "stem": "What is the contraindication to post-intubation sedation?",
+  "explanation": "Post-intubation sedation applies to the intubated patient only; sedating a non-intubated patient under it is the stated contraindication. Hypotension is a reason to reduce the dose, not to withhold sedation, and chemical paralysis makes sedation more urgent rather than less."
+ },
+ "q_6fdf3823df": {
+  "stem": "What should be provided in addition to sedation for every intubated patient?",
+  "explanation": "Analgesia is to be provided in addition to sedation, per the pain management guideline, and this may actually reduce the amount of sedation required for transport. Sedation alone leaves a tube-bearing patient in pain."
+ },
+ "q_1f0c72cd56": {
+  "stem": "An intubated patient is hypotensive. How should post-intubation sedation be managed?",
+  "explanation": "The guideline pairs the two actions: reduce the dose of sedatives in hypotensive or catecholamine-depleted patients, and treat the hypotension aggressively. Neither abandoning sedation nor ignoring the pressure is acceptable."
+ },
+ "q_5b90e0d2cd": {
+  "stem": "An intubated patient has received a long-acting paralytic. How should sedation and analgesia be dosed?",
+  "explanation": "Because there is no direct measure of dosing adequacy in a paralyzed patient, the guideline directs expedited administration of sedatives and analgesia to avoid paralysis without sedation, using the higher end of the range as blood pressure permits. Blood pressure and heart rate elevations are only indirect measures of distress."
+ },
+ "q_8ddc8e9f90": {
+  "stem": "What is the adult dose of midazolam for post-intubation sedation?"
+ },
+ "q_8d89c7adbd": {
+  "stem": "What is the adult dose of lorazepam for post-intubation sedation?"
+ },
+ "q_835415e32e": {
+  "stem": "What is the adult ketamine loading dose for post-intubation sedation?",
+  "explanation": "Ketamine is loaded at 1 mg/kg IV/IO by slow IVP, then repeated at 0.5 mg/kg every 15 minutes PRN. The 0.1 – 0.2 mg/kg and 0.5 – 1 mg/kg figures are the analgesic and procedural sedation doses."
+ },
+ "q_5ed7b41f27": {
+  "stem": "An intubated patient's last ketamine dose for post-intubation sedation was 25 minutes ago and sedation is wearing off. What should be done?",
+  "explanation": "The 0.5 mg/kg repeat dose assumes redosing within 15 minutes. If the dosing interval has run longer than 15 minutes the patient has effectively cleared the load, so the guideline directs a re-bolus at the full 1 mg/kg."
+ },
+ "q_81e4511946": {
+  "stem": "Which post-intubation patients are the primary candidates for ketamine sedation?"
+ },
+ "q_c1078088eb": {
+  "stem": "What is the pediatric dose of midazolam for post-intubation sedation?"
+ },
+ "q_20acff0c5c": {
+  "stem": "What is the maximum single dose of midazolam for post-intubation sedation in a pediatric patient?"
+ },
+ "q_abb8531ca7": {
+  "stem": "For post-intubation sedation, at what rate should an adult midazolam infusion be started after the initial IV bolus?"
+ },
+ "q_46d2a50dd7": {
+  "stem": "For post-intubation sedation, at what patient weight is the adult midazolam infusion started at 4 mg/hour instead?"
+ },
+ "q_768caf5e1e": {
+  "stem": "What is the maximum adult midazolam infusion rate for post-intubation sedation?"
+ },
+ "q_b90e69120d": {
+  "stem": "For post-intubation sedation, at what rate should the adult propofol infusion run?"
+ },
+ "q_e86a07183d": {
+  "stem": "For post-intubation sedation, to what maximum may the adult propofol infusion be titrated?"
+ },
+ "q_a9930fe7ee": {
+  "stem": "An intubated CCT patient is not already on a propofol infusion. Under what authority may propofol be started for post-intubation sedation?"
+ },
+ "q_e9ac5360bc": {
+  "stem": "An intubated adult arrives on a propofol drip with inadequate sedation. What bolus should the crew give?"
+ },
+ "q_80944a5727": {
+  "stem": "What is the minimum propofol infusion rate for a chemically paralyzed patient who is hemodynamically stable?"
+ },
+ "q_0a14ef9c02": {
+  "stem": "What must accompany a post-intubation propofol infusion for patient comfort?"
+ },
+ "q_d6f1d64cd4": {
+  "stem": "What is the starting dexmedetomidine dose for post-intubation sedation in an adult?"
+ },
+ "q_43b9023483": {
+  "stem": "What is the maximum dexmedetomidine dose for post-intubation sedation?",
+  "explanation": "The stated maximum is 1.4 mcg/kg/hr, although the guideline notes that some providers may titrate up to 2 mcg/kg/hr. It also points crews to the LFN drug formulary for more specific information, including the risk of bradycardia."
+ },
+ "q_e8cb49af21": {
+  "stem": "For post-intubation sedation, at what rate should a pediatric midazolam infusion be started after the initial bolus?"
+ },
+ "q_57a0f58a4e": {
+  "stem": "What propofol bolus is given to an intubated pediatric patient with inadequate sedation on an existing infusion?"
+ },
+ "q_36df73010d": {
+  "stem": "How should sedation be documented for a chemically paralyzed intubated patient?",
+  "explanation": "A paralyzed patient cannot generate the motor responses RASS and CPOT measure, so scoring them is meaningless. The guideline directs that no RASS/CPOT be documented and that \"Chemically Paralyzed\" be recorded under the GCS qualifier, with scoring resumed once paralysis has worn off."
+ },
+ "q_5e03868b3f": {
+  "stem": "An intubated patient sedated with ketamine was kept light because of hypotension, and the blood pressure has now improved. What should be done?",
+  "explanation": "The guideline ties this to the blood pressure recovering: once it improves, a concurrent benzodiazepine — lorazepam or midazolam — is given to blunt ketamine emergence phenomenon. Atropine in this guideline treats excessive post-ketamine salivation, not emergence."
+ },
+ "q_13c7b12953": {
+  "stem": "What is the adult atropine dose for excessive salivation after ketamine given for post-intubation sedation?"
+ },
+ "q_e36a9a0474": {
+  "stem": "On the Richmond Agitation Sedation Scale (RASS), what does a score of -4 (deep sedation) describe?"
+ },
+ "q_d427bcf324": {
+  "stem": "What is the indication for procedural sedation?",
+  "explanation": "Procedural sedation covers sedation given before a painful procedure — synchronized cardioversion and extrication are the examples listed. Post-intubation sedation and sedation for behavioral reasons are both named contraindications to this guideline."
+ },
+ "q_7b094717e2": {
+  "stem": "Which use of sedation is a contraindication to procedural sedation?",
+  "explanation": "The Procedural Sedation guideline names two contraindications — post-intubation sedation and sedation for behavioral reasons. Behavioral sedation of a patient with an unprotected airway is a different clinical problem with a different risk profile."
+ },
+ "q_f1a1f59cc1": {
+  "stem": "What must be in place before any sedative agent is given for procedural sedation?"
+ },
+ "q_85b67a2ddc": {
+  "stem": "What is the etomidate dose for procedural sedation?"
+ },
+ "q_1250a1cdc8": {
+  "stem": "How many total doses of etomidate may be given for procedural sedation?"
+ },
+ "q_e1e208fa1e": {
+  "stem": "What is the ketamine dose for procedural sedation?",
+  "explanation": "Procedural ketamine is 0.5 – 1 mg/kg IV over 30 – 60 seconds, repeatable every 15 minutes PRN. That sits between the 0.1 – 0.2 mg/kg analgesic dose and the 1 mg/kg post-intubation loading dose."
+ },
+ "q_8a21802d52": {
+  "stem": "What should crews consider when etomidate is used for procedural sedation?",
+  "explanation": "Etomidate sedates but does not relieve pain, so the guideline directs that analgesia be considered when indicated and when vital signs allow. Emergence phenomenon and salivation are ketamine problems, not etomidate ones."
+ },
+ "q_6574092bc7": {
+  "stem": "In basic life support, which patients should be treated as adults?"
+ },
+ "q_5a7fe18d4a": {
+  "stem": "What is the risk of giving lidocaine to a bradycardic patient in heart block?"
+ },
+ "q_e79162824c": {
+  "stem": "Which pad placement is preferred for transcutaneous pacing in bradycardia?"
+ },
+ "q_077f1635df": {
+  "stem": "What underlying cause should crews consider when a bradycardia is wide complex?"
+ },
+ "q_ca3dd12c28": {
+  "stem": "In medical cardiac arrest, refractory VF/pVT is defined as persisting despite three defibrillations, epinephrine and what total amount of amiodarone?"
+ },
+ "q_86efad69e8": {
+  "stem": "VF persists after three shocks, epinephrine and 450 mg of amiodarone. What should the crew consider?"
+ },
+ "q_7c40d37417": {
+  "stem": "During the cardiac arrest safety pause, how long does the crew feel for a pulse?"
+ },
+ "q_b8996b2b56": {
+  "stem": "In cardiac arrest, at what weight do you change from infant/pediatric to adult/child hands-free defibrillation pads?"
+ },
+ "q_0292bf137d": {
+  "stem": "At what rate should a pediatric cardiac arrest patient be ventilated, per PALS guidelines?",
+  "explanation": "The pediatric PEARLS for medical cardiac arrest specify ventilation at 20 – 30 bpm per PALS guidelines, consistent with the algorithm's breath every 2 – 3 seconds once an advanced airway is in place."
+ },
+ "q_d96c90e159": {
+  "stem": "In pediatric cardiac arrest, how should IV push doses of epinephrine be dosed and documented?"
+ },
+ "q_74eac3d7ad": {
+  "stem": "After ROSC, what LFN standing orders exist for targeted temperature management or hypothermia?",
+  "explanation": "The Post-ROSC Management guideline states that LFN has no standing orders for Targeted Temperature Management/hypothermia and directs crews to the sending or receiving provider's orders for treatment guidance. The temperature goal shown in the AHA algorithm is not an LFN standing order."
+ },
+ "q_c9c79e50a0": {
+  "stem": "What mean arterial pressure target is set for an adult after ROSC?"
+ },
+ "q_0d337978d4": {
+  "stem": "Which vasopressor is the first line agent after ROSC?"
+ },
+ "q_ebff147d28": {
+  "stem": "At what rate should an adult epinephrine infusion be started after ROSC?"
+ },
+ "q_033025b070": {
+  "stem": "To what maximum may the post-ROSC epinephrine infusion be titrated?"
+ },
+ "q_77cf40b166": {
+  "stem": "After ROSC, above what adult epinephrine infusion rate should another agent be considered?"
+ },
+ "q_769d909beb": {
+  "stem": "To what maximum may an adult norepinephrine infusion be titrated after ROSC?"
+ },
+ "q_da86ee3a24": {
+  "stem": "What amiodarone infusion rate is used for post-ROSC anti-dysrhythmic therapy?"
+ },
+ "q_317c8ba27f": {
+  "stem": "A post-ROSC adult has a temperature of 38.1 °C. What treatment is indicated?"
+ },
+ "q_a9e443f4ea": {
+  "stem": "What is the maximum dose of acetaminophen for a febrile pediatric patient after ROSC?"
+ },
+ "q_08ec36a33b": {
+  "stem": "What is a significant cause of hypotension and cardiac arrest in the post-resuscitation phase?",
+  "explanation": "Hyperventilation raises intrathoracic pressure, reduces venous return and drops cardiac output, and the Post-ROSC Management guideline names it a significant cause of hypotension and re-arrest after ROSC. This is why the PEARLS pair it with the direction to transport these patients on a mechanical ventilator."
+ },
+ "q_7e99d5c244": {
+  "stem": "How should most patients be ventilated immediately after ROSC?"
+ },
+ "q_892a300747": {
+  "stem": "After ROSC, under what circumstances may the stated maximum vasopressor dose be exceeded?",
+  "explanation": "The Post-ROSC Management guideline allows the maximum to be exceeded when the patient remains hypotensive despite adequate fluid resuscitation and the initiation of a second vasopressor, noting that there is no maximum epinephrine dose per AHA or NRP. Both prior steps must have been taken first."
+ },
+ "q_e643fe0ad3": {
+  "stem": "What is the dose of aspirin for cardiac chest pain?"
+ },
+ "q_40b47dd462": {
+  "stem": "In cardiac chest pain, which history rules out giving aspirin?"
+ },
+ "q_77ada27e45": {
+  "stem": "To what SpO2 should oxygen be administered in cardiac chest pain?",
+  "explanation": "The oxygen target in cardiac chest pain is SpO2 > 90%, consistent with General Respiratory Care's direction that cardiac patients be treated with oxygen only to maintain > 90%. Routine high-flow oxygen in a patient already above target is not benign in ischemic myocardium."
+ },
+ "q_cf4206df0b": {
+  "stem": "What is the adult dose, route and interval for nitroglycerin in cardiac chest pain?"
+ },
+ "q_bc4a5ffa32": {
+  "stem": "In cardiac chest pain, what minimum systolic blood pressure is required before giving sublingual nitroglycerin?"
+ },
+ "q_e5ca250ae8": {
+  "stem": "A chest pain patient reports taking tadalafil (Cialis). For how long is nitroglycerin contraindicated?",
+  "explanation": "The guideline splits the phosphodiesterase inhibitors by duration: 24 hours for Viagra, and 48 hours for Cialis, Stendra, Levitra and Staxyn. Giving nitroglycerin inside that window risks profound, refractory hypotension."
+ },
+ "q_09252ccbe2": {
+  "stem": "Cardiac chest pain is refractory to nitroglycerin. Which analgesic is preferred?",
+  "explanation": "For pain refractory to nitroglycerin, the chest pain guideline sends crews to the Pain Management guideline and names fentanyl as preferred, and as first line again in the CCT band. Its hemodynamic stability is why it is chosen over other opioids in ischemia."
+ },
+ "q_e333c03fa4": {
+  "stem": "A STEMI has already been diagnosed at the sending facility. What is the direction regarding the 12-lead ECG?"
+ },
+ "q_d88133ac39": {
+  "stem": "When transporting a STEMI patient, which infusions may be disconnected to expedite loading and departure?"
+ },
+ "q_07406548ce": {
+  "stem": "For a cardiac chest pain or STEMI patient, what is required before an infusion continued from the sending hospital is titrated?"
+ },
+ "q_621534e2c0": {
+  "stem": "What must be applied to every STEMI patient before transport?"
+ },
+ "q_3297d8de44": {
+  "stem": "Within what transport time should a stable STEMI patient be taken directly to a PCI center?"
+ },
+ "q_5de3874933": {
+  "stem": "For cardiac chest pain, at what rate should a CCT crew start an adult nitroglycerin infusion?"
+ },
+ "q_8ccbf52bee": {
+  "stem": "For cardiac chest pain, to what maximum rate may the adult nitroglycerin infusion be titrated?"
+ },
+ "q_2b9b2f312c": {
+  "stem": "In cardiac chest pain, what systolic blood pressure must be maintained during a nitroglycerin infusion?"
+ },
+ "q_0fe72185db": {
+  "stem": "Which STEMI patients should receive metoprolol?"
+ },
+ "q_47293b8f68": {
+  "stem": "What is the adult dose of metoprolol in STEMI, and how may it be repeated?"
+ },
+ "q_168fe6905c": {
+  "stem": "What is the maximum total dose of metoprolol in STEMI?"
+ },
+ "q_9a18396cf7": {
+  "stem": "In STEMI, which findings should cause metoprolol to be held?"
+ },
+ "q_1c8aec592b": {
+  "stem": "What is the standard heparin bolus and infusion for ACS/STEMI?"
+ },
+ "q_79f1467c96": {
+  "stem": "What is the maximum heparin infusion rate for ACS/STEMI?"
+ },
+ "q_85d890a72e": {
+  "stem": "For a STEMI patient at a non-PCI capable facility, what first-medical-contact-to-balloon time decides between transferring for PCI and giving a fibrinolytic first?"
+ },
+ "q_3bb2f0486c": {
+  "stem": "What is the ticagrelor dose for a STEMI patient on interfacility transfer for PCI?"
+ },
+ "q_b621b2b8ab": {
+  "stem": "An 80-year-old STEMI patient has received a fibrinolytic before transfer. What clopidogrel dose is given?"
+ },
+ "q_60cd3d5fac": {
+  "stem": "In a STEMI patient who has received fibrinolysis, what is the consideration regarding ticagrelor?",
+  "explanation": "The guideline notes that most consider fibrinolysis a relative contraindication to ticagrelor, which is why the fibrinolytic pathway specifies clopidogrel instead, dosed by age."
+ },
+ "q_0381bee6b3": {
+  "stem": "After pre-transfer fibrinolytics in STEMI, when should the 12-lead ECG be repeated?"
+ },
+ "q_08927bac11": {
+  "stem": "A STEMI patient is being transferred and no fibrinolytics have been given. What destination arrangement should the crew confirm?"
+ },
+ "q_2f42444110": {
+  "stem": "What heparin bolus does the St. Charles Medical Center – Bend Heart One STEMI protocol use?",
+  "explanation": "The Heart One protocol for STEMI patients destined for St. Charles Medical Center – Bend specifies a heparin bolus of 70 units/kg, rather than the 60 units/kg standard dose used elsewhere in the STEMI guideline."
+ },
+ "q_59fc561b52": {
+  "stem": "Which ECG finding excludes a STEMI patient from the Heart One protocol?"
+ },
+ "q_07827bc55a": {
+  "stem": "What authority do LFN Flight Nurses and Paramedics have when operating under the Heart One Protocol Form?",
+  "explanation": "LFN Flight Nurses and Paramedics are authorized to administer any medication in accordance with the Heart One Protocol Form without OLMC or physician consult. The guideline also directs calling SCMC Bend at least 20 minutes before arrival with an update and attaching a copy of the 12-lead to the chart."
+ },
+ "q_fb4438dad5": {
+  "stem": "In the Termination of Resuscitation Algorithm, what rhythm-and-time finding is the entry point that moves a crew toward termination rather than straight back to continued resuscitation?"
+ },
+ "q_d1dc0ee6ca": {
+  "stem": "A 16-year-old remains in asystole after 25 minutes of guideline-compliant resuscitation, with a confirmed advanced airway, patent vascular access and no ROSC at any point. What does the Termination of Resuscitation Algorithm direct?"
+ },
+ "q_edc948e909": {
+  "stem": "What airway standard must be satisfied before resuscitation may be terminated?"
+ },
+ "q_5132e18565": {
+  "stem": "For how long must a crew confirm that no heart tones are heard before resuscitation may be terminated?"
+ },
+ "q_e7b11959ff": {
+  "stem": "A cardiac arrest patient had a brief ROSC ten minutes into the resuscitation but is now in asystole at 25 minutes and meets every other termination of resuscitation criterion. How does the earlier ROSC affect the decision?"
+ },
+ "q_80ea8ceafb": {
+  "stem": "A patient meets every termination of resuscitation criterion, Medical Control cannot be reached, and the crew's state scope of practice does not allow termination of resuscitation. What should the crew do?"
+ },
+ "q_0661a7dba4": {
+  "stem": "Once resuscitation has been terminated, what documentation must be obtained and uploaded to the PCR?"
+ },
+ "q_0abeee2409": {
+  "stem": "The Termination of Resuscitation Algorithm gives a second route to the Medical Control decision point for a patient who is not in asystole or an agonal rhythm. What condition opens that route?"
+ },
+ "q_8e975e6e40": {
+  "stem": "In traumatic arrest, what priority is given to CPR and epinephrine?"
+ },
+ "q_267b3bd551": {
+  "stem": "How should a crew work through the reversible causes of traumatic arrest?"
+ },
+ "q_3cfc0b3aef": {
+  "stem": "How is tension pneumothorax addressed in a patient in traumatic arrest?"
+ },
+ "q_9b5519f566": {
+  "stem": "In traumatic arrest, which chest decompression technique is used by a CCT crew and which by an ALS crew?"
+ },
+ "q_44089ecaae": {
+  "stem": "A traumatic arrest patient is in asystole with ongoing external hemorrhage. What is the direction regarding blood products?"
+ },
+ "q_637bd4917d": {
+  "stem": "Reversible causes have been addressed in a traumatic arrest, no ROSC has been obtained, and the underlying rhythm is asystole. What is the next step?"
+ },
+ "q_627840aecb": {
+  "stem": "ROSC is obtained while the reversible causes of a traumatic arrest are being treated. What is the next step?"
+ },
+ "q_1d87af002b": {
+  "stem": "A patient in traumatic arrest after a high-speed collision has an unstable pelvis. Which measure is included for this among the simultaneous reversible-cause interventions?"
+ },
+ "q_f2eb87d94a": {
+  "stem": "How should hypoxia be addressed as a reversible cause of traumatic arrest?"
+ }
+}
