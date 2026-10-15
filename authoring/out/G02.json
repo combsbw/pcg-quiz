@@ -1,0 +1,4061 @@
+{
+ "batch": "G02",
+ "questions": [
+  {
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "page": 28,
+   "type": "threshold",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Under 2.05, what oxygen saturation should supplemental oxygen be titrated to keep in most patients?",
+   "options": [
+    "> 94%",
+    "> 90%",
+    "> 95%",
+    "≥ 87%"
+   ],
+   "answer_index": 0,
+   "explanation": "The BLS default target in 2.05 is SpO2 > 94%. The other numbers in this guideline are deliberate exceptions — > 95% for trauma at risk of ischemic injury, > 90% for cardiac patients, and ≥ 87% as the floor tolerated in COVID-19/ARDS when oxygen supply limits transport.",
+   "priority": "core",
+   "tags": [
+    "topic:oxygenation",
+    "topic:spo2-target"
+   ]
+  },
+  {
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "page": 28,
+   "type": "threshold",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What SpO2 does 2.05 direct for trauma patients at risk for ischemic injuries or hemorrhagic shock?",
+   "options": [
+    "> 95%",
+    "> 94%",
+    "> 90%",
+    "≥ 87%"
+   ],
+   "answer_index": 0,
+   "explanation": "Trauma patients at risk of ischemic injury or hemorrhagic shock are held to a higher target, > 95%, because oxygen delivery is already compromised by blood loss and perfusion failure rather than by oxygenation alone.",
+   "priority": "core",
+   "tags": [
+    "topic:oxygenation",
+    "topic:trauma",
+    "topic:spo2-target"
+   ]
+  },
+  {
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "page": 28,
+   "type": "threshold",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "To what SpO2 does 2.05 direct that cardiac patients be treated with oxygen?",
+   "options": [
+    "> 90%",
+    "> 94%",
+    "> 95%",
+    "≥ 87%"
+   ],
+   "answer_index": 0,
+   "explanation": "Cardiac patients are treated with oxygen only to maintain SpO2 > 90%, with 92% – 98% specified post ROSC. Hyperoxia is harmful in ischemic myocardium, so oxygen here is a treatment with a ceiling, not a routine comfort measure.",
+   "priority": "core",
+   "tags": [
+    "topic:oxygenation",
+    "topic:cardiac",
+    "topic:spo2-target"
+   ]
+  },
+  {
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "page": 28,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "In COVID-19, ARDS and similar pathology, to what SpO2 does 2.05 allow the patient to be maintained if necessary?",
+   "options": [
+    "≥ 87%",
+    "> 90%",
+    "> 94%",
+    "> 95%"
+   ],
+   "answer_index": 0,
+   "explanation": "Higher ventilator rates/pressures and 100% FiO2 can harm lung tissue and consume more oxygen than is available to complete the transport, so 2.05 permits SpO2 to be maintained ≥ 87% in these patients if necessary.",
+   "priority": "detail",
+   "tags": [
+    "topic:oxygenation",
+    "topic:ards",
+    "topic:ventilator"
+   ]
+  },
+  {
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "page": 28,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A scene patient with a supraglottic airway has an estimated six-minute flight time. How does 2.05 direct the crew to ventilate during transport?",
+   "options": [
+    "On the mechanical ventilator",
+    "By BVM, since the flight is under ten minutes",
+    "By BVM unless the patient is chemically paralyzed",
+    "On the ventilator only for interfacility transfers"
+   ],
+   "answer_index": 0,
+   "explanation": "2.05 states that all patients with an advanced airway must be placed on and transported via mechanical ventilator regardless of estimated transport time, and that this includes IFTs and scene calls. Hand ventilation is reserved for equipment failure or other rare extenuating circumstances, and the reason must be documented.",
+   "priority": "core",
+   "tags": [
+    "topic:ventilator",
+    "procedure:advanced-airway"
+   ]
+  },
+  {
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "page": 28,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "LFN is transferring an intubated patient out of a sending facility. Where does 2.05 direct the ventilator to be during the bedside pickup?",
+   "options": [
+    "Taken into the sending facility with the crew",
+    "Left on the aircraft until the patient is loaded",
+    "Left in the ambulance at the landing zone",
+    "Brought in only if the transport exceeds 30 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "The ventilator is taken into the sending facility whenever the patient is intubated or receiving non-invasive ventilation, and is always carried from the airport or remote landing location to the hospital, because patient conditions frequently change regardless of the reported respiratory status.",
+   "priority": "core",
+   "tags": [
+    "topic:ventilator",
+    "topic:ift"
+   ]
+  },
+  {
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "page": 28,
+   "type": "assessment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A non-intubated patient is given fentanyl en route. What monitoring does 2.05 require for this patient?",
+   "options": [
+    "Capnography via ETCO2 nasal cannula",
+    "Pulse oximetry and respiratory rate only",
+    "Continuous waveform capnography via the ETT",
+    "Capnography only if a sedative is also given"
+   ],
+   "answer_index": 0,
+   "explanation": "2.05 requires ETCO2 nasal cannula capnography for all non-intubated patients with respiratory compromise, with an altered level of consciousness, and those receiving sedation, narcotics, or any combination of the two. A narcotic alone triggers the requirement.",
+   "priority": "core",
+   "tags": [
+    "topic:capnography",
+    "topic:monitoring",
+    "drug:fentanyl"
+   ]
+  },
+  {
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "page": 28,
+   "type": "scope",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "For which intubations does 2.05 waive the requirement to use the RSI checklist?",
+   "options": [
+    "A crash airway",
+    "A pediatric airway",
+    "An intubation performed with the C-MAC",
+    "An IFT where the patient is already sedated"
+   ],
+   "answer_index": 0,
+   "explanation": "The RSI checklist is required for all intubations unless it is a crash airway, where there is no time to run it. No other circumstance in 2.05 excuses the checklist.",
+   "priority": "core",
+   "tags": [
+    "procedure:rsi",
+    "topic:checklist"
+   ]
+  },
+  {
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "page": 28,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What is the smallest endotracheal tube size through which 2.05 directs the pediatric bougie to be used as a stylet?",
+   "options": [
+    "ETT size ≥ 3.5",
+    "ETT size ≥ 4.0",
+    "ETT size ≥ 5.5",
+    "ETT size ≤ 4.0"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric bougie is used with ETT size ≥ 3.5, with the guideline noting that 3.5 is a tight fit. The adult bougie figure is ≥ 5.5, also noted as tight at that size.",
+   "priority": "detail",
+   "tags": [
+    "equipment:bougie",
+    "procedure:intubation",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "page": 28,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "2.05 requires a stylet for endotracheal tubes of what size when a Mac 3 or Mac 4 blade would be appropriate?",
+   "options": [
+    "ETT size ≤ 4.0",
+    "ETT size ≤ 3.5",
+    "ETT size ≤ 5.5",
+    "ETT size ≥ 5.5"
+   ],
+   "answer_index": 0,
+   "explanation": "A stylet is required for ETTs ≤ 4.0 in patients where a Mac 3 or Mac 4 blade would be appropriate — a small tube being placed with an adult-sized blade needs the added stiffness and shape that the bougie cannot provide at that diameter.",
+   "priority": "detail",
+   "tags": [
+    "equipment:stylet",
+    "procedure:intubation"
+   ]
+  },
+  {
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "page": 28,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "At which intubation attempt does 2.05 direct that the C-MAC be used?",
+   "options": [
+    "The first attempt",
+    "The second attempt, after failed direct laryngoscopy",
+    "Only when a difficult airway is anticipated",
+    "Only when a bougie is unavailable"
+   ],
+   "answer_index": 0,
+   "explanation": "2.05 directs that the C-MAC be used beginning with the first intubation attempt. Video laryngoscopy is the default here, not a rescue device held back for a failed attempt.",
+   "priority": "core",
+   "tags": [
+    "equipment:c-mac",
+    "procedure:intubation"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 29,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What non-pharmacologic measure does 2.06 offer BLS crews for nausea, and how is it used?",
+   "options": [
+    "An isopropyl alcohol swab, self-administered with slow deep inhalations",
+    "An isopropyl alcohol swab taped under the nares for the transport",
+    "A cold pack applied to the posterior neck during transport",
+    "Oral rehydration with small sips of clear fluid"
+   ],
+   "answer_index": 0,
+   "explanation": "BLS may consider offering an isopropyl alcohol swab, allowing the patient to self-administer it with slow deep inhalations, and it may be repeated twice. Letting the patient hold it is part of the technique, not incidental.",
+   "priority": "core",
+   "tags": [
+    "topic:nausea",
+    "topic:bls"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 29,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult ALS dose of ondansetron for nausea and vomiting in 2.06?",
+   "options": [
+    "4 mg slow IVP over 2 minutes or IM",
+    "0.1 mg/kg slow IVP or IM",
+    "12.5 – 50 mg IV or deep IM",
+    "1 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Ondansetron is the first-choice antiemetic for adults at 4 mg, pushed slowly over 2 minutes or given IM, and may be repeated once in 15 minutes. The weight-based 0.1 mg/kg figure is the pediatric dose.",
+   "priority": "core",
+   "tags": [
+    "drug:ondansetron",
+    "topic:nausea",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 29,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "A patient has a known ondansetron allergy. What is the adult dose of promethazine in 2.06?",
+   "options": [
+    "12.5 – 50 mg IV or deep IM",
+    "4 mg slow IVP or IM",
+    "0.5 mg/kg IV or deep IM",
+    "1 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Promethazine is the second-choice adult agent at 12.5 – 50 mg IV or deep IM, used when ondansetron is unavailable or the patient has a known allergy to it. The 0.5 mg/kg figure is the pediatric promethazine dose.",
+   "priority": "core",
+   "tags": [
+    "drug:promethazine",
+    "topic:nausea",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 29,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What is the maximum concentration at which 2.06 allows promethazine to be given intravenously?",
+   "options": [
+    "25 mg/mL",
+    "50 mg/mL",
+    "12.5 mg/mL",
+    "10 mg/mL"
+   ],
+   "answer_index": 0,
+   "explanation": "IV promethazine concentration should not exceed 25 mg/mL and it should be given at a rate ≤ 25 mg/min through a running infusion set. Promethazine is a vesicant, and dilution plus free-flowing carrier fluid is what protects the vein and surrounding tissue.",
+   "priority": "core",
+   "tags": [
+    "drug:promethazine",
+    "route:iv",
+    "topic:administration"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 29,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which patients does 2.06 say must not receive promethazine?",
+   "options": [
+    "Unconscious or unresponsive patients",
+    "Patients with a prolonged QT interval",
+    "Patients who have already received ondansetron",
+    "Patients with impaired hepatic function"
+   ],
+   "answer_index": 0,
+   "explanation": "2.06 states plainly that promethazine is not to be administered to unconscious or unresponsive patients. QT prolongation is the caution attached to ondansetron, and hepatic impairment is a caution rather than an absolute bar.",
+   "priority": "core",
+   "tags": [
+    "drug:promethazine",
+    "topic:contraindication"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 29,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "When does 2.06 direct an ALS crew to use diphenhydramine for an adult with nausea and vomiting?",
+   "options": [
+    "When ondansetron and promethazine are unavailable or the patient is allergic to both",
+    "When nausea persists after a repeat dose of ondansetron",
+    "As the first agent whenever the patient is also having vertigo",
+    "Whenever promethazine has been given, to prevent a dystonic reaction"
+   ],
+   "answer_index": 0,
+   "explanation": "Diphenhydramine 1 mg/kg IV is the third agent in the adult order of preference, reserved for when both ondansetron and promethazine are unavailable or the patient has a known allergy to both. Its other role in this guideline — treating a dystonic reaction — is a reaction to promethazine already given, not prophylaxis.",
+   "priority": "core",
+   "tags": [
+    "drug:diphenhydramine",
+    "topic:nausea",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 29,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the maximum adult dose of diphenhydramine for nausea and vomiting in 2.06?",
+   "options": [
+    "50 mg",
+    "25 mg",
+    "12.5 mg",
+    "4 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Adult diphenhydramine is 1 mg/kg IV with a 50 mg ceiling. The pediatric ceiling for the same 1 mg/kg dose is half that, at 25 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:diphenhydramine",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 29,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of ondansetron for nausea and vomiting in 2.06?",
+   "options": [
+    "0.1 mg/kg",
+    "0.5 mg/kg",
+    "1 mg/kg",
+    "4 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric ondansetron is 0.1 mg/kg slow IVP over 2 minutes or IM, capped at the adult 4 mg dose and repeatable once in 15 minutes. The 0.5 mg/kg and 1 mg/kg figures belong to pediatric promethazine and diphenhydramine.",
+   "priority": "core",
+   "tags": [
+    "drug:ondansetron",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 29,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "From what age does 2.06 permit ondansetron in pediatric patients?",
+   "options": [
+    "Greater than 1 month",
+    "2 years and older",
+    "1 year and older",
+    "10 years and older"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric ondansetron is restricted to ages greater than 1 month. The 2-year threshold in this guideline belongs to promethazine, which carries a separate weight limit as well.",
+   "priority": "detail",
+   "tags": [
+    "drug:ondansetron",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 29,
+   "type": "special",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "Why does 2.06 restrict pediatric promethazine to patients 2 years and older or over 10 kg?",
+   "options": [
+    "Risk of fatal respiratory depression",
+    "Risk of QT prolongation",
+    "Risk of a dystonic reaction",
+    "Risk of hepatic injury"
+   ],
+   "answer_index": 0,
+   "explanation": "The guideline attaches the age and weight limits specifically to the risk of fatal respiratory depression in small children. QT prolongation is the ondansetron caution, and dystonic reaction is a promethazine effect treated with diphenhydramine rather than the reason for the age limit.",
+   "priority": "core",
+   "tags": [
+    "drug:promethazine",
+    "population:pediatric",
+    "topic:adverse-effects"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 29,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric dose of promethazine in 2.06?",
+   "options": [
+    "25 mg",
+    "50 mg",
+    "12.5 mg",
+    "4 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric promethazine is 0.5 mg/kg IV or deep IM with a 25 mg ceiling — half the top of the adult 12.5 – 50 mg range.",
+   "priority": "detail",
+   "tags": [
+    "drug:promethazine",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 30,
+   "type": "indication",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "At CCT level in 2.06, when is lorazepam added for nausea and vomiting?",
+   "options": [
+    "When nausea is refractory to ondansetron and/or promethazine",
+    "As the first-line agent whenever the patient is also anxious",
+    "When the patient has a known allergy to ondansetron",
+    "When the patient is unconscious and cannot take promethazine"
+   ],
+   "answer_index": 0,
+   "explanation": "Lorazepam sits above all BLS and ALS treatments in the CCT band and is reserved for nausea that has not responded to ondansetron and/or promethazine. An allergy to ondansetron moves you to promethazine, not straight to a benzodiazepine.",
+   "priority": "detail",
+   "tags": [
+    "drug:lorazepam",
+    "topic:nausea",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 30,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the adult CCT dose of lorazepam for refractory nausea in 2.06?",
+   "options": [
+    "0.5 – 1 mg IV/IM",
+    "0.05 mg/kg IV/IM",
+    "1 – 4 mg IV/IM",
+    "1 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Adult lorazepam for refractory nausea is 0.5 – 1 mg IV/IM. The 1 – 4 mg range is the lorazepam dose used for post-intubation sedation in 2.08, a different indication at a higher dose.",
+   "priority": "detail",
+   "tags": [
+    "drug:lorazepam",
+    "population:adult",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 30,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What is the pediatric CCT dose of lorazepam for nausea refractory to ondansetron and promethazine?",
+   "options": [
+    "0.05 mg/kg IV/IM",
+    "0.5 mg/kg IV/IM",
+    "0.1 mg/kg IV/IM",
+    "1 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric lorazepam for refractory nausea is 0.05 mg/kg IV/IM, the low end of the 0.05 – 0.1 mg/kg range that 2.08 uses for post-intubation sedation.",
+   "priority": "detail",
+   "tags": [
+    "drug:lorazepam",
+    "population:pediatric",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 30,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 2.06 require whenever ondansetron is administered?",
+   "options": [
+    "A cardiac monitor must be applied",
+    "A 12-lead ECG before and after the dose",
+    "Continuous waveform capnography",
+    "A blood glucose check before the dose"
+   ],
+   "answer_index": 0,
+   "explanation": "Ondansetron can prolong the QT interval, so the PEARLS direct extreme caution in patients with a known prolonged QT and require that a cardiac monitor be applied if it is given at all.",
+   "priority": "core",
+   "tags": [
+    "drug:ondansetron",
+    "topic:monitoring",
+    "topic:qt-prolongation"
+   ]
+  },
+  {
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "page": 30,
+   "type": "treatment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "A patient develops a dystonic reaction after receiving promethazine. Which drug does 2.06 identify as the drug of choice?",
+   "options": [
+    "Diphenhydramine",
+    "Lorazepam",
+    "Ondansetron",
+    "Midazolam"
+   ],
+   "answer_index": 0,
+   "explanation": "Diphenhydramine is named the drug of choice for dystonic reactions due to promethazine. Its anticholinergic action is also why 2.06 cautions against combining the two in the elderly.",
+   "priority": "core",
+   "tags": [
+    "drug:diphenhydramine",
+    "drug:promethazine",
+    "topic:adverse-effects"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 31,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult dose of fentanyl for pain in 2.07?",
+   "options": [
+    "1 – 2 mcg/kg",
+    "0.1 – 0.2 mg/kg",
+    "0.5 – 1 mg",
+    "1 mcg/kg/hour"
+   ],
+   "answer_index": 0,
+   "explanation": "Fentanyl is dosed 1 – 2 mcg/kg IV/IO/IN/IM for pain and may be repeated every 10 minutes. The 0.1 – 0.2 mg/kg figure is ketamine for pain, 0.5 – 1 mg is hydromorphone, and 1 mcg/kg/hour is the CCT fentanyl infusion rate.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 31,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the maximum single dose of fentanyl for pain in 2.07?",
+   "options": [
+    "150 mcg",
+    "400 mcg",
+    "100 mcg",
+    "200 mcg"
+   ],
+   "answer_index": 0,
+   "explanation": "No single fentanyl dose may exceed 150 mcg, even when 2 mcg/kg of a large patient would calculate higher. The 400 mcg figure is the cumulative ceiling across repeat doses.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 31,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "Fentanyl is being repeated every 10 minutes for an adult in severe pain. What total dose may not be exceeded?",
+   "options": [
+    "400 mcg",
+    "150 mcg",
+    "200 mcg",
+    "100 mcg"
+   ],
+   "answer_index": 0,
+   "explanation": "Fentanyl may be repeated every 10 minutes to a maximum of 400 mcg total, with each individual dose still capped at 150 mcg. Consider lower doses in elderly or debilitated patients and those with tenuous blood pressure.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 31,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult IV/IO dose of hydromorphone for pain in 2.07?",
+   "options": [
+    "0.5 – 1 mg",
+    "1 – 2 mg",
+    "1 – 4 mg",
+    "2 – 5 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Hydromorphone is 0.5 – 1 mg IV/IO; the higher 1 – 2 mg range applies only to the IM route. It may be repeated every 15 minutes to a total maximum of 4 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:hydromorphone",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 31,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What total maximum dose of hydromorphone does 2.07 allow in an adult?",
+   "options": [
+    "4 mg",
+    "2 mg",
+    "1 mg",
+    "5 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Hydromorphone may be repeated every 15 minutes to a total maximum of 4 mg. That ceiling is cumulative across both the IV/IO and IM routes.",
+   "priority": "core",
+   "tags": [
+    "drug:hydromorphone",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 31,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult dose of the acetaminophen infusion for pain in 2.07?",
+   "options": [
+    "1000 mg",
+    "750 mg",
+    "15 mg/kg",
+    "12.5 – 50 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Adult acetaminophen is 1000 mg IV over 15 minutes, repeatable every 6 hours. Patients ≤ 50 kg are dosed at 15 mg/kg instead, to a maximum single dose of 750 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:pain",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 31,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "At what body weight does 2.07 switch an adult from the flat 1000 mg acetaminophen dose to weight-based dosing?",
+   "options": [
+    "50 kg or less",
+    "25 kg or less",
+    "30 kg or less",
+    "20 kg or less"
+   ],
+   "answer_index": 0,
+   "explanation": "At ≤ 50 kg the adult dose becomes 15 mg/kg with a maximum single dose of 750 mg, so a small adult does not receive a disproportionate hepatic load.",
+   "priority": "detail",
+   "tags": [
+    "drug:acetaminophen",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 31,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which history rules out giving the acetaminophen infusion under 2.07?",
+   "options": [
+    "Acetaminophen received within the past 4 hours",
+    "Acetaminophen received within the past 6 hours",
+    "A weight under 50 kg",
+    "An age under 13 years"
+   ],
+   "answer_index": 0,
+   "explanation": "Acetaminophen is not given if the patient has received acetaminophen within the past 4 hours. Six hours is the normal repeat interval, and the weight and age figures change the dose rather than prohibiting it.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:contraindication"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 31,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult dose of ketamine when used for pain in 2.07?",
+   "options": [
+    "0.1 – 0.2 mg/kg",
+    "0.5 – 1 mg/kg",
+    "1 mg/kg",
+    "0.05 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "The analgesic ketamine dose is 0.1 – 0.2 mg/kg IV/IO/IM/IN, repeatable every 20 minutes PRN — far below the 0.5 – 1 mg/kg procedural sedation dose and the 1 mg/kg post-intubation loading dose.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:pain",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 31,
+   "type": "pearl",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How does 2.07 direct ketamine to be used in pain management?",
+   "options": [
+    "Generally as an adjunct to opioids",
+    "As the sole agent once opioids have failed",
+    "As the first agent in all hypotensive patients",
+    "Only when opioids are contraindicated"
+   ],
+   "answer_index": 0,
+   "explanation": "2.07 states that ketamine should generally be used as an adjunct to opioids rather than replacing them. Its opioid-sparing effect is the point, which is also why any amount of ketamine mandates ETCO2 monitoring.",
+   "priority": "detail",
+   "tags": [
+    "drug:ketamine",
+    "topic:pain"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 32,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "Where does hydromorphone sit in the pediatric pain pathway of 2.07?",
+   "options": [
+    "Second line, if fentanyl is contraindicated or unavailable",
+    "First line for severe pain in children over 6 months",
+    "An adjunct given with fentanyl for severe pain",
+    "Reserved for pain refractory to ketamine"
+   ],
+   "answer_index": 0,
+   "explanation": "In children, hydromorphone is explicitly the second line opioid agent if fentanyl is contraindicated or unavailable, and its dose then splits by age at 6 months.",
+   "priority": "core",
+   "tags": [
+    "drug:hydromorphone",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 32,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What is the dose of hydromorphone for a child 6 months of age or older in 2.07?",
+   "options": [
+    "0.015 mg/kg",
+    "0.005 mg/kg",
+    "0.1 mg/kg",
+    "0.05 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Children ≥ 6 months receive hydromorphone 0.015 mg/kg IV/IO/IM; infants under 6 months receive one third of that, 0.005 mg/kg. Repeat doses every 15 minutes PRN must not exceed adult dosing.",
+   "priority": "core",
+   "tags": [
+    "drug:hydromorphone",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 32,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What is the dose of hydromorphone for an infant less than 6 months old in 2.07?",
+   "options": [
+    "0.005 mg/kg",
+    "0.015 mg/kg",
+    "0.05 mg/kg",
+    "0.1 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Infants under 6 months receive 0.005 mg/kg IV/IO/IM, one third of the 0.015 mg/kg dose used from 6 months onward, reflecting immature hepatic clearance and a higher risk of apnea.",
+   "priority": "core",
+   "tags": [
+    "drug:hydromorphone",
+    "population:pediatric",
+    "population:neonatal"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 32,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What maximum total dose of fentanyl does 2.07 allow in a pediatric patient?",
+   "options": [
+    "4 mcg/kg",
+    "2 mcg/kg",
+    "150 mcg",
+    "400 mcg"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric fentanyl is capped at a total of 4 mcg/kg, with each single dose still limited to 150 mcg. The 400 mcg total ceiling applies to adults.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 32,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "Below what weight does 2.07 require pediatric ketamine to be diluted to a concentration of 1 mg/mL?",
+   "options": [
+    "25 kg",
+    "10 kg",
+    "50 kg",
+    "13 kg"
+   ],
+   "answer_index": 0,
+   "explanation": "In children under 25 kg the calculated analgesic dose is very small, so 2.07 requires dilution to 1 mg/mL to make an accurate volume measurable and reduce the chance of a tenfold error.",
+   "priority": "detail",
+   "tags": [
+    "drug:ketamine",
+    "population:pediatric",
+    "topic:administration"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 32,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "Which pediatric patients does 2.07 direct to receive the adult 1000 mg acetaminophen dose?",
+   "options": [
+    "Age 13 years or older AND 50 kg or more",
+    "Age 13 years or older OR 50 kg or more",
+    "Age 12 years or older AND 40 kg or more",
+    "Any child over 25 kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Both conditions must be met — age ≥ 13 years AND weight ≥ 50 kg — before a child receives the flat adult 1000 mg dose. Otherwise they stay on 15 mg/kg with a 750 mg single-dose ceiling.",
+   "priority": "detail",
+   "tags": [
+    "drug:acetaminophen",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 32,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "At what rate does 2.07 direct a CCT crew to start an adult fentanyl infusion after the initial IV bolus?",
+   "options": [
+    "1 mcg/kg/hour",
+    "0.5 mcg/kg/hour",
+    "2 mcg/kg/hour",
+    "3 mcg/kg/hour"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult fentanyl infusion starts at 1 mcg/kg/hour after an initial IV bolus. The pediatric starting rate is half that at 0.5 mcg/kg/hour, and 3 mcg/kg/hour is the maximum for both.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "care-level:cct",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 32,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "An adult on a fentanyl infusion still has inadequate pain control. What does 2.07 direct the CCT crew to do?",
+   "options": [
+    "Bolus 1 mcg/kg and increase the infusion by 1 mcg/kg/hour",
+    "Increase the infusion by 1 mcg/kg/hour without a bolus",
+    "Bolus 1 mcg/kg and leave the infusion rate unchanged",
+    "Add ketamine 0.1 – 0.2 mg/kg and hold the infusion rate"
+   ],
+   "answer_index": 0,
+   "explanation": "2.07 pairs the two deliberately: bolus 1 mcg/kg (100 mcg maximum) AND increase the infusion by 1 mcg/kg/hour, repeating the bolus and titration every 5 – 10 minutes PRN. The bolus treats the pain now; the rate increase keeps it treated.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "care-level:cct",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 32,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What absolute hourly ceiling does 2.07 place on the adult fentanyl infusion?",
+   "options": [
+    "200 mcg/hour",
+    "400 mcg/hour",
+    "150 mcg/hour",
+    "100 mcg/hour"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult fentanyl infusion may be titrated to a maximum of 3 mcg/kg/hour, but in no case above 200 mcg/hour. In a large patient the weight-based figure reaches the absolute ceiling first.",
+   "priority": "detail",
+   "tags": [
+    "drug:fentanyl",
+    "care-level:cct",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 32,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "At what rate does 2.07 direct a pediatric fentanyl infusion to be started after the initial IV bolus?",
+   "options": [
+    "0.5 mcg/kg/hour",
+    "1 mcg/kg/hour",
+    "2 mcg/kg/hour",
+    "3 mcg/kg/hour"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric fentanyl infusions start at 0.5 mcg/kg/hour, with boluses of 0.5 mcg/kg and rate increases of 0.5 mcg/kg/hour every 5 – 10 minutes PRN, to a maximum of 3 mcg/kg/hour.",
+   "priority": "detail",
+   "tags": [
+    "drug:fentanyl",
+    "care-level:cct",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 33,
+   "type": "dose",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "In the equianalgesic figures given in 2.07, 1 mg of hydromorphone is approximately equivalent to how much fentanyl?",
+   "options": [
+    "75 mcg",
+    "100 mcg",
+    "150 mcg",
+    "50 mcg"
+   ],
+   "answer_index": 0,
+   "explanation": "2.07 lists approximate equianalgesic doses as 1 mg hydromorphone = 75 mcg fentanyl = 5 mg morphine. That conversion matters when a patient arrives already medicated with a different opioid.",
+   "priority": "detail",
+   "tags": [
+    "drug:hydromorphone",
+    "drug:fentanyl",
+    "topic:equianalgesia"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 33,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "A patient receives a single dose of ketamine for pain. What monitoring does 2.07 require?",
+   "options": [
+    "ETCO2 monitoring",
+    "A 12-lead ECG",
+    "Hourly RASS scoring",
+    "Invasive blood pressure monitoring"
+   ],
+   "answer_index": 0,
+   "explanation": "ETCO2 must be monitored in all patients receiving multiple doses of pain medication, any amount of ketamine, and any analgesia infusion. A single ketamine dose is enough to trigger it, on top of the continuous ECG, blood pressure, heart rate and SpO2 already required.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:monitoring",
+    "topic:capnography"
+   ]
+  },
+  {
+   "number": "2.07",
+   "title": "Pain Management",
+   "page": 33,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "In a medication-tolerant patient receiving narcotics, when does 2.07 warn that respiratory depression may appear?",
+   "options": [
+    "After the 2nd or 3rd appropriately administered dose",
+    "Only after the maximum total dose is exceeded",
+    "Only when a benzodiazepine is also given",
+    "Only in elderly or debilitated patients"
+   ],
+   "answer_index": 0,
+   "explanation": "2.07 warns that even in medication-tolerant patients, respiratory depression may occur after the 2nd or 3rd appropriately administered dose — tolerance to analgesia does not mean tolerance to respiratory depression, so monitoring must not relax as doses accumulate.",
+   "priority": "core",
+   "tags": [
+    "topic:opioids",
+    "topic:respiratory-depression"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 34,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 2.08 list as the contraindication to this sedation guideline?",
+   "options": [
+    "Sedation of the non-intubated patient",
+    "Hypotension or catecholamine depletion",
+    "A patient who is chemically paralyzed",
+    "A transport time under 15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "2.08 applies to the intubated patient only; sedating a non-intubated patient under it is the stated contraindication. Hypotension is a reason to reduce the dose, not to withhold sedation, and chemical paralysis makes sedation more urgent rather than less.",
+   "priority": "core",
+   "tags": [
+    "topic:sedation",
+    "topic:contraindication"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 34,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 2.08 direct be provided in addition to sedation for every intubated patient?",
+   "options": [
+    "Analgesia",
+    "A long-acting paralytic",
+    "A fluid bolus before each dose",
+    "A vasopressor infusion"
+   ],
+   "answer_index": 0,
+   "explanation": "Analgesia is to be provided in addition to sedation, per the pain management guideline, and 2.08 notes this may actually reduce the amount of sedation required for transport. Sedation alone leaves a tube-bearing patient in pain.",
+   "priority": "core",
+   "tags": [
+    "topic:sedation",
+    "topic:analgesia"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 34,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "An intubated patient is hypotensive. How does 2.08 direct sedation to be managed?",
+   "options": [
+    "Consider reducing the sedative dose while aggressively treating the hypotension",
+    "Withhold all sedation until the blood pressure normalizes",
+    "Continue the usual dose and accept the blood pressure",
+    "Switch to a long-acting paralytic instead of a sedative"
+   ],
+   "answer_index": 0,
+   "explanation": "2.08 pairs the two actions: reduce the dose of sedatives in hypotensive or catecholamine-depleted patients, and treat the hypotension aggressively. Neither abandoning sedation nor ignoring the pressure is acceptable.",
+   "priority": "core",
+   "tags": [
+    "topic:sedation",
+    "topic:hypotension"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 34,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A patient has received a long-acting paralytic. How does 2.08 direct sedation and analgesia to be dosed?",
+   "options": [
+    "Expedited, at the higher side of the dosing range as blood pressure permits",
+    "At the lowest effective dose, because paralysis removes the stimulus",
+    "Only once the paralytic has started to wear off",
+    "Titrated to a RASS score documented every 15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Because there is no direct measure of dosing adequacy in a paralyzed patient, 2.08 directs expedited administration of sedatives and analgesia to avoid paralysis without sedation, using the higher end of the range as blood pressure permits. Blood pressure and heart rate elevations are only indirect measures of distress.",
+   "priority": "core",
+   "tags": [
+    "topic:sedation",
+    "topic:paralytic"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 34,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult dose of midazolam for post-intubation sedation in 2.08?",
+   "options": [
+    "2 – 5 mg IV/IO",
+    "1 – 4 mg IV/IO",
+    "0.05 – 0.1 mg/kg IV/IO",
+    "1 mg/kg IV/IO"
+   ],
+   "answer_index": 0,
+   "explanation": "Adult midazolam is 2 – 5 mg IV/IO, repeatable every 15 minutes PRN to maintain sedation. The 1 – 4 mg range belongs to lorazepam, which is used when longer-acting sedation is wanted.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:sedation",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 34,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult dose of lorazepam for post-intubation sedation in 2.08?",
+   "options": [
+    "1 – 4 mg IV/IM",
+    "2 – 5 mg IV/IM",
+    "0.5 – 1 mg IV/IM",
+    "0.05 – 0.1 mg/kg IV/IM"
+   ],
+   "answer_index": 0,
+   "explanation": "Adult lorazepam is 1 – 4 mg IV/IM, repeatable every 45 minutes PRN. The much longer repeat interval compared with midazolam's 15 minutes is the reason it is chosen for longer-acting sedation.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:sedation",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 34,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult ketamine loading dose for post-intubation sedation in 2.08?",
+   "options": [
+    "1 mg/kg slow IVP",
+    "0.5 mg/kg slow IVP",
+    "0.1 – 0.2 mg/kg slow IVP",
+    "0.5 – 1 mg/kg slow IVP"
+   ],
+   "answer_index": 0,
+   "explanation": "Ketamine is loaded at 1 mg/kg IV/IO by slow IVP, then repeated at 0.5 mg/kg every 15 minutes PRN. The 0.1 – 0.2 mg/kg and 0.5 – 1 mg/kg figures are the analgesic and procedural sedation doses from 2.07 and 2.09.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:sedation",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 34,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "An intubated patient's last ketamine dose was 25 minutes ago and sedation is wearing off. What does 2.08 direct?",
+   "options": [
+    "Re-bolus at 1 mg/kg",
+    "Give the 0.5 mg/kg repeat dose",
+    "Give 0.1 – 0.2 mg/kg",
+    "Start an infusion at 0.5 mg/kg/hour"
+   ],
+   "answer_index": 0,
+   "explanation": "The 0.5 mg/kg repeat dose assumes redosing within 15 minutes. If the dosing interval has run longer than 15 minutes the patient has effectively cleared the load, so 2.08 directs a re-bolus at the full 1 mg/kg.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:sedation",
+    "topic:redosing"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 34,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which post-intubation patients does 2.08 identify as the primary candidates for ketamine?",
+   "options": [
+    "Hypotensive patients, and agitated patients in whom benzodiazepines are contraindicated",
+    "Patients expected to need sedation for a long transport",
+    "Patients who are chemically paralyzed with a long-acting agent",
+    "Patients who have already received a full dose of midazolam"
+   ],
+   "answer_index": 0,
+   "explanation": "Because of its short duration of action, ketamine is used primarily for hypotensive patients requiring sedation after intubation or for agitated patients in whom benzodiazepines are contraindicated. A long transport argues for lorazepam instead.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:sedation",
+    "topic:hypotension"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 34,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of midazolam for post-intubation sedation in 2.08?",
+   "options": [
+    "0.05 - 0.1 mg/kg IV/IO",
+    "0.1 – 0.2 mg/kg IV/IO",
+    "0.5 – 1 mg/kg IV/IO",
+    "1 mg/kg IV/IO"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric midazolam is 0.05 – 0.1 mg/kg IV/IO, repeatable every 15 minutes PRN, with a single-dose ceiling of 2.5 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "population:pediatric",
+    "topic:sedation"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 34,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What is the maximum single dose of midazolam for a pediatric post-intubation patient in 2.08?",
+   "options": [
+    "2.5 mg",
+    "5 mg",
+    "2 mg",
+    "4 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric midazolam is capped at a single dose of 2.5 mg no matter what 0.1 mg/kg calculates to, which keeps a larger child from receiving a full adult dose in one push.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "At what rate does 2.08 direct an adult midazolam infusion to be started after the initial IV bolus?",
+   "options": [
+    "2 mg/hour",
+    "4 mg/hour",
+    "1 mg/hour",
+    "10 mg/hour"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult midazolam infusion starts at 2 mg/hour after the initial bolus, titrated by 1 mg/hour with repeat 2 mg boluses every 5 – 10 minutes. The 10 mg/hour figure is the maximum rate.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "care-level:cct",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "At what patient weight does 2.08 direct the adult midazolam infusion to be started at 4 mg/hour instead?",
+   "options": [
+    "100 kg or more",
+    "75 kg or more",
+    "50 kg or more",
+    "25 kg or more"
+   ],
+   "answer_index": 0,
+   "explanation": "Patients weighing ≥ 100 kg start at 4 mg/hour rather than 2 mg/hour, because the standard starting rate will not reach a sedating concentration in a large volume of distribution within a useful time.",
+   "priority": "detail",
+   "tags": [
+    "drug:midazolam",
+    "care-level:cct",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the maximum adult midazolam infusion rate in 2.08?",
+   "options": [
+    "10 mg/hour",
+    "4 mg/hour",
+    "20 mg/hour",
+    "2 mg/hour"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult midazolam infusion may be titrated up to 10 mg/hour. Reaching that ceiling without adequate sedation is the point at which another agent should be considered rather than pushing the rate further.",
+   "priority": "detail",
+   "tags": [
+    "drug:midazolam",
+    "care-level:cct",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "At what rate does 2.08 direct the adult propofol infusion to run?",
+   "options": [
+    "25 mcg/kg/min",
+    "75 mcg/kg/min",
+    "50 mcg/kg/min",
+    "10 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Propofol runs at 25 mcg/kg/min, titrated every 5 minutes to a maximum of 75 mcg/kg/min. The 10 mcg/kg/min figure is the size of each rate increase that accompanies a bolus.",
+   "priority": "core",
+   "tags": [
+    "drug:propofol",
+    "care-level:cct",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "To what maximum may the adult propofol infusion be titrated in 2.08?",
+   "options": [
+    "75 mcg/kg/min",
+    "25 mcg/kg/min",
+    "100 mcg/kg/min",
+    "50 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Propofol is titrated every 5 minutes to a maximum of 75 mcg/kg/min, three times the starting rate. Each increase in infusion dose is paired with a 10 – 20 mg bolus via IV pump.",
+   "priority": "core",
+   "tags": [
+    "drug:propofol",
+    "care-level:cct",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "scope",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "A CCT patient is not already on a propofol infusion. Under what authority does 2.08 allow propofol to be started?",
+   "options": [
+    "Per sending physician order only",
+    "At the discretion of the flight nurse",
+    "Only after an OLMC consult",
+    "Only if midazolam has already reached its maximum rate"
+   ],
+   "answer_index": 0,
+   "explanation": "The loading dose and initial infusion for a patient not already on propofol may be given per sending physician order only. Once a patient arrives on a propofol drip, the crew may bolus and titrate it under the guideline itself.",
+   "priority": "core",
+   "tags": [
+    "drug:propofol",
+    "care-level:cct",
+    "topic:scope-of-practice"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "An adult arrives on a propofol drip with inadequate sedation. What bolus does 2.08 direct the crew to give?",
+   "options": [
+    "10 – 20 mg via IV pump",
+    "1 mg/kg via IV pump",
+    "0.5 mg/kg via IV pump",
+    "25 mg via IV pump"
+   ],
+   "answer_index": 0,
+   "explanation": "For a patient already on propofol, the bolus is 10 – 20 mg via IV pump, with the infusion rate increased by 10 mcg/kg/min for each bolus. The 1 mg/kg bolus, maximum 25 mg, is the loading dose for a patient not yet on propofol and requires a sending physician order.",
+   "priority": "core",
+   "tags": [
+    "drug:propofol",
+    "care-level:cct",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What does 2.08 set as the minimum propofol infusion rate for a chemically paralyzed patient who is hemodynamically stable?",
+   "options": [
+    "25 mcg/kg/min",
+    "10 mcg/kg/min",
+    "50 mcg/kg/min",
+    "75 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "A hemodynamically stable chemically paralyzed patient must not run below 25 mcg/kg/min, since paralysis hides every outward sign of inadequate sedation and there is no direct measure of dosing adequacy.",
+   "priority": "core",
+   "tags": [
+    "drug:propofol",
+    "topic:paralytic",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "pearl",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What does 2.08 say must accompany a propofol infusion for patient comfort?",
+   "options": [
+    "Pain management, because propofol has no analgesic properties",
+    "A benzodiazepine, because propofol does not produce amnesia",
+    "A paralytic, because propofol does not suppress the cough reflex",
+    "A vasopressor, because propofol does not maintain blood pressure"
+   ],
+   "answer_index": 0,
+   "explanation": "Propofol does not contain any analgesic properties, so pain management must be provided separately for patient comfort. A deeply sedated patient can still be in pain.",
+   "priority": "core",
+   "tags": [
+    "drug:propofol",
+    "topic:analgesia"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the starting dexmedetomidine dose for an adult in 2.08?",
+   "options": [
+    "0.2 – 0.4 mcg/kg/hour",
+    "0.1 – 0.2 mcg/kg/hour",
+    "1.4 mcg/kg/hour",
+    "2 mcg/kg/hour"
+   ],
+   "answer_index": 0,
+   "explanation": "Dexmedetomidine runs at 0.2 – 0.4 mcg/kg/hour. The 0.1 – 0.2 mcg/kg/hour figure is the size of each titration step, made every 20 – 30 minutes PRN.",
+   "priority": "detail",
+   "tags": [
+    "drug:dexmedetomidine",
+    "care-level:cct",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What maximum dexmedetomidine dose does 2.08 give?",
+   "options": [
+    "1.4 mcg/kg/hr",
+    "0.4 mcg/kg/hr",
+    "2 mcg/kg/hr",
+    "0.2 mcg/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "The stated maximum is 1.4 mcg/kg/hr, although 2.08 notes that some providers may titrate up to 2 mcg/kg/hr. The guideline also points crews to the LFN drug formulary for more specific information, including the risk of bradycardia.",
+   "priority": "detail",
+   "tags": [
+    "drug:dexmedetomidine",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 35,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "At what rate does 2.08 direct a pediatric midazolam infusion to be started after the initial bolus?",
+   "options": [
+    "50 mcg/kg/hour",
+    "10 mcg/kg/hour",
+    "100 mcg/kg/hour",
+    "2 mg/hour"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric midazolam infusion starts at 50 mcg/kg/hour after a 50 mcg/kg bolus, is increased by 10 mcg/kg/hr with each repeat bolus, and is capped at 100 mcg/kg/hr.",
+   "priority": "detail",
+   "tags": [
+    "drug:midazolam",
+    "population:pediatric",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 36,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What propofol bolus does 2.08 direct for a pediatric patient with inadequate sedation on an existing infusion?",
+   "options": [
+    "0.5 mg/kg, max 20 mg",
+    "1 mg/kg, max 25 mg",
+    "10 – 20 mg",
+    "0.1 mg/kg, max 10 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric propofol bolus is 0.5 mg/kg with a 20 mg ceiling, given via IV pump, with the infusion rate increased by 10 mcg/kg/min for each bolus and titrated every 5 minutes to a maximum of 75 mcg/kg/min.",
+   "priority": "detail",
+   "tags": [
+    "drug:propofol",
+    "population:pediatric",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 36,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "How does 2.08 direct documentation of sedation for a chemically paralyzed patient?",
+   "options": [
+    "Do not document RASS/CPOT scores; document \"Chemically Paralyzed\" under the GCS qualifier",
+    "Document a RASS of -5 and a CPOT of 0 for the duration of paralysis",
+    "Document RASS/CPOT scores every 15 minutes as usual",
+    "Document the paralytic dose in place of any sedation score"
+   ],
+   "answer_index": 0,
+   "explanation": "A paralyzed patient cannot generate the motor responses RASS and CPOT measure, so scoring them is meaningless. 2.08 directs that no RASS/CPOT be documented and that \"Chemically Paralyzed\" be recorded under the GCS qualifier, with scoring resumed once paralysis has worn off.",
+   "priority": "core",
+   "tags": [
+    "topic:documentation",
+    "topic:paralytic",
+    "topic:rass"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 36,
+   "type": "treatment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "A patient sedated with ketamine was kept light because of hypotension, and the blood pressure has now improved. What does 2.08 direct?",
+   "options": [
+    "Give a concurrent dose of lorazepam or midazolam to blunt emergence phenomenon",
+    "Give atropine to blunt emergence phenomenon",
+    "Re-bolus ketamine at 0.5 mg/kg and observe",
+    "Start a propofol infusion at 25 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "2.08 ties this to the blood pressure recovering: once it improves, a concurrent benzodiazepine — lorazepam or midazolam — is given to blunt ketamine emergence phenomenon. Atropine in this guideline treats excessive post-ketamine salivation, not emergence.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:emergence",
+    "drug:midazolam"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 36,
+   "type": "dose",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "What is the adult atropine dose for excessive salivation after ketamine administration in 2.08?",
+   "options": [
+    "0.25 mg IV",
+    "0.5 mg IV",
+    "1 mg IV",
+    "0.01 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Excessive salivation after ketamine is treated with atropine 0.25 mg IV in adults and 0.01 mg/kg IV in children. This is a much smaller dose than the 1 mg bolus used for bradycardia.",
+   "priority": "detail",
+   "tags": [
+    "drug:atropine",
+    "drug:ketamine",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "page": 37,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "On the RASS scale reproduced in 2.08, what does a score of -4 (deep sedation) describe?",
+   "options": [
+    "No response to voice, but movement or eye opening to physical stimulation",
+    "No response to voice or physical stimulation",
+    "Movement or eye opening to voice, but no eye contact",
+    "Briefly awakens with eye contact to voice for less than 10 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "RASS -4 is deep sedation: no response to voice, but movement or eye opening to physical stimulation. A patient with no response to voice or physical stimulation at all is -5, cannot be aroused.",
+   "priority": "detail",
+   "tags": [
+    "topic:rass",
+    "topic:sedation",
+    "topic:assessment"
+   ]
+  },
+  {
+   "number": "2.09",
+   "title": "Sedation: Procedural",
+   "page": 38,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What indication does 2.09 give for procedural sedation?",
+   "options": [
+    "Sedation prior to a painful procedure such as synchronized cardioversion or extrication",
+    "Sedation of a patient who has just been intubated",
+    "Sedation of an agitated patient for behavioral reasons",
+    "Sedation of a patient fighting the ventilator"
+   ],
+   "answer_index": 0,
+   "explanation": "2.09 covers sedation given before a painful procedure — synchronized cardioversion and extrication are the examples listed. Post-intubation sedation and sedation for behavioral reasons are both named contraindications to this guideline.",
+   "priority": "core",
+   "tags": [
+    "topic:procedural-sedation",
+    "topic:indication"
+   ]
+  },
+  {
+   "number": "2.09",
+   "title": "Sedation: Procedural",
+   "page": 38,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which use of sedation does 2.09 list as a contraindication to this guideline?",
+   "options": [
+    "Sedation for behavioral reasons",
+    "Sedation before synchronized cardioversion",
+    "Sedation before a difficult extrication",
+    "Sedation of a patient who cannot tolerate positioning"
+   ],
+   "answer_index": 0,
+   "explanation": "2.09 names two contraindications — post-intubation sedation and sedation for behavioral reasons. Behavioral sedation of a patient with an unprotected airway is a different clinical problem with a different risk profile.",
+   "priority": "core",
+   "tags": [
+    "topic:procedural-sedation",
+    "topic:contraindication"
+   ]
+  },
+  {
+   "number": "2.09",
+   "title": "Sedation: Procedural",
+   "page": 38,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 2.09 require be in place before any sedative agent is given for a procedure?",
+   "options": [
+    "An ETCO2 nasal cannula, monitored throughout transport",
+    "A supraglottic airway, ready to be placed",
+    "A norepinephrine infusion, primed and connected",
+    "Defibrillation pads, applied and connected"
+   ],
+   "answer_index": 0,
+   "explanation": "The ETCO2 nasal cannula must be placed prior to administration of sedative agents and monitored throughout transport. The goal of procedural sedation here is mild sedation with an intact airway and respiratory drive, and capnography is what shows that drive failing first.",
+   "priority": "core",
+   "tags": [
+    "topic:capnography",
+    "topic:procedural-sedation",
+    "topic:monitoring"
+   ]
+  },
+  {
+   "number": "2.09",
+   "title": "Sedation: Procedural",
+   "page": 38,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What is the etomidate dose for procedural sedation in 2.09?",
+   "options": [
+    "0.1 mg/kg IV over 30 – 60 seconds",
+    "0.05 mg/kg IV over 30 – 60 seconds",
+    "0.5 – 1 mg/kg IV over 30 – 60 seconds",
+    "1 mg/kg IV over 30 – 60 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "Etomidate is 0.1 mg/kg IV over 30 – 60 seconds for both adults and children, with 0.05 mg/kg as the repeat dose. The weight-based figures are identical for adult and pediatric patients in this guideline.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate",
+    "topic:procedural-sedation"
+   ]
+  },
+  {
+   "number": "2.09",
+   "title": "Sedation: Procedural",
+   "page": 38,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How many total doses of etomidate does 2.09 allow for procedural sedation?",
+   "options": [
+    "3 doses",
+    "2 doses",
+    "4 doses",
+    "5 doses"
+   ],
+   "answer_index": 0,
+   "explanation": "Etomidate 0.1 mg/kg may be repeated with 0.05 mg/kg every 3 – 5 minutes PRN to a total maximum of 3 doses. Beyond that, the guideline offers no further etomidate.",
+   "priority": "detail",
+   "tags": [
+    "drug:etomidate",
+    "topic:procedural-sedation"
+   ]
+  },
+  {
+   "number": "2.09",
+   "title": "Sedation: Procedural",
+   "page": 38,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What is the ketamine dose for procedural sedation in 2.09?",
+   "options": [
+    "0.5 – 1 mg/kg IV over 30 – 60 seconds",
+    "0.1 – 0.2 mg/kg IV over 30 – 60 seconds",
+    "1 mg/kg IV over 30 – 60 seconds",
+    "0.1 mg/kg IV over 30 – 60 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "Procedural ketamine is 0.5 – 1 mg/kg IV over 30 – 60 seconds, repeatable every 15 minutes PRN. That sits between the 0.1 – 0.2 mg/kg analgesic dose in 2.07 and the 1 mg/kg post-intubation loading dose in 2.08.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:procedural-sedation"
+   ]
+  },
+  {
+   "number": "2.09",
+   "title": "Sedation: Procedural",
+   "page": 38,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 2.09 direct crews to consider when etomidate is used for procedural sedation?",
+   "options": [
+    "Providing analgesia, when indicated and when vital signs allow",
+    "Giving a benzodiazepine to prevent emergence phenomenon",
+    "Giving atropine to prevent excessive salivation",
+    "Doubling the repeat dose if the procedure is prolonged"
+   ],
+   "answer_index": 0,
+   "explanation": "Etomidate sedates but does not relieve pain, so 2.09 directs that analgesia be considered when indicated and when vital signs allow. Emergence phenomenon and salivation are ketamine problems, not etomidate ones.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate",
+    "topic:analgesia",
+    "topic:procedural-sedation"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 40,
+   "type": "assessment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "In the adult BLS algorithm, within what time must a pulse be definitely felt before CPR is started?",
+   "options": [
+    "10 seconds",
+    "6 seconds",
+    "30 seconds",
+    "2 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "The algorithm asks whether a pulse is definitely felt within 10 seconds, with breathing checked simultaneously. Anything longer delays compressions on a patient who may be in arrest, and \"not definitely felt\" is treated as no pulse.",
+   "priority": "core",
+   "tags": [
+    "topic:bls",
+    "procedure:pulse-check",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 40,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult has a definite pulse but is not breathing normally. What does the adult BLS algorithm direct?",
+   "options": [
+    "1 breath every 6 seconds, with a pulse check every 2 minutes",
+    "1 breath every 2 – 3 seconds, with a pulse check every 2 minutes",
+    "Cycles of 30 compressions and 2 breaths",
+    "Cycles of 15 compressions and 2 breaths"
+   ],
+   "answer_index": 0,
+   "explanation": "Abnormal breathing with a pulse is rescue breathing, not CPR: 1 breath every 6 seconds (10 breaths/min) with the pulse rechecked every 2 minutes, and CPR started if the pulse is lost. The 2 – 3 second interval is the pediatric rate.",
+   "priority": "core",
+   "tags": [
+    "topic:bls",
+    "topic:rescue-breathing",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 40,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "A patient with abnormal breathing and a pulse is suspected of an opioid overdose. What does the BLS algorithm add?",
+   "options": [
+    "Administer an opioid antagonist such as naloxone, if available",
+    "Begin compressions regardless of the pulse",
+    "Place a supraglottic airway before ventilating",
+    "Apply the AED and analyze the rhythm"
+   ],
+   "answer_index": 0,
+   "explanation": "Suspected opioid overdose appears at two points in the adult algorithm — during rescue breathing and again once CPR has begun — directing administration of an opioid antagonist such as naloxone if available. It supplements ventilation and compressions rather than replacing them.",
+   "priority": "core",
+   "tags": [
+    "topic:bls",
+    "drug:naloxone",
+    "topic:opioid-overdose"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 40,
+   "type": "sequence",
+   "care_level": null,
+   "population": "adult",
+   "stem": "The AED delivers a shock to an adult in cardiac arrest. What does the adult BLS algorithm direct next?",
+   "options": [
+    "Resume CPR immediately for 2 minutes",
+    "Check for a pulse before resuming CPR",
+    "Reanalyze the rhythm immediately",
+    "Deliver a second shock immediately"
+   ],
+   "answer_index": 0,
+   "explanation": "After one shock, CPR resumes immediately and runs for 2 minutes until the AED prompts the next rhythm check. Pausing to check a pulse after a shock costs perfusion at the moment it matters most.",
+   "priority": "core",
+   "tags": [
+    "topic:bls",
+    "procedure:defibrillation",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 40,
+   "type": "special",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Which patients does the BLS section direct be treated as adults?",
+   "options": [
+    "Those with signs of puberty",
+    "Those over 40 kg",
+    "Those 12 years and older",
+    "Those tall enough for adult defibrillation pads"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult BLS algorithm carries a footnote: if signs of puberty are present, treat as an adult. The pediatric algorithm is labelled infants to puberty, so the physical finding, not an age or weight, decides which algorithm applies.",
+   "priority": "core",
+   "tags": [
+    "topic:bls",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 41,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A choking adult is coughing forcefully and can still speak. What does the adult foreign-body airway obstruction algorithm direct?",
+   "options": [
+    "Encourage the cough and keep checking for signs of severe obstruction",
+    "Begin cycles of 5 back blows and 5 abdominal thrusts",
+    "Activate the emergency response system and begin chest thrusts",
+    "Start CPR, beginning with compressions"
+   ],
+   "answer_index": 0,
+   "explanation": "Signs of severe obstruction are a weak or absent cough, inability to speak, cyanosis, altered mental status and apnea. With those absent, the algorithm directs encouraging the cough and continuing to watch for them — a forceful cough moves more air than any thrust.",
+   "priority": "core",
+   "tags": [
+    "topic:fbao",
+    "topic:bls",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 41,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A responsive adult has signs of severe foreign-body airway obstruction. What cycle does the algorithm direct?",
+   "options": [
+    "5 back blows followed by 5 abdominal thrusts",
+    "5 back blows followed by 5 chest thrusts",
+    "5 abdominal thrusts followed by 5 back blows",
+    "Continuous abdominal thrusts until the object is expelled"
+   ],
+   "answer_index": 0,
+   "explanation": "Repeated cycles of 5 back blows (slaps) followed by 5 abdominal thrusts continue until the object is expelled or the adult becomes unresponsive. Chest thrusts replace abdominal thrusts only in late pregnancy or when the rescuer cannot encircle the abdomen.",
+   "priority": "core",
+   "tags": [
+    "topic:fbao",
+    "topic:bls",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 41,
+   "type": "special",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A choking patient is in the late stages of pregnancy. How does the adult FBAO algorithm modify the technique?",
+   "options": [
+    "Use 5 chest thrusts in place of the abdominal thrusts",
+    "Use 10 back blows in place of the abdominal thrusts",
+    "Use abdominal thrusts with the patient supine",
+    "Go straight to CPR regardless of responsiveness"
+   ],
+   "answer_index": 0,
+   "explanation": "In late pregnancy, or when the rescuer cannot encircle the patient's abdomen, 5 chest thrusts are used instead of abdominal thrusts. The back blows are unchanged.",
+   "priority": "core",
+   "tags": [
+    "topic:fbao",
+    "topic:obstetric",
+    "topic:bls"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 41,
+   "type": "sequence",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A choking adult becomes unresponsive. What does the adult FBAO algorithm direct?",
+   "options": [
+    "Start CPR with compressions, checking the mouth for the object before giving breaths",
+    "Give 5 more back blows, then start CPR with breaths",
+    "Perform a blind finger sweep, then give 2 breaths",
+    "Give 2 breaths first to confirm the obstruction, then start compressions"
+   ],
+   "answer_index": 0,
+   "explanation": "Once the patient is unresponsive the algorithm sends you to the adult BLS algorithm: start with compressions, and look for a visible object in the mouth before giving breaths. Compressions generate the intrathoracic pressure that may dislodge the object.",
+   "priority": "core",
+   "tags": [
+    "topic:fbao",
+    "topic:cpr",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 42,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A child has a pulse but abnormal breathing. What ventilation rate does the pediatric BLS algorithm direct?",
+   "options": [
+    "1 breath every 2 – 3 seconds",
+    "1 breath every 6 seconds",
+    "Cycles of 30 compressions and 2 breaths",
+    "Cycles of 15 compressions and 2 breaths"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric rescue breathing is 1 breath every 2 – 3 seconds (20 – 30 breaths/min) after opening the airway and repositioning, with the pulse rate reassessed after 2 minutes. The 6-second interval is the adult rate.",
+   "priority": "core",
+   "tags": [
+    "topic:bls",
+    "topic:rescue-breathing",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 42,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A child has a pulse of 50 with signs of poor perfusion despite adequate oxygenation and ventilation. What does the pediatric BLS algorithm direct?",
+   "options": [
+    "Start CPR",
+    "Continue providing breaths and recheck the pulse in 2 minutes",
+    "Apply the AED and analyze the rhythm",
+    "Monitor until advanced care arrives"
+   ],
+   "answer_index": 0,
+   "explanation": "A heart rate under 60/min with signs of poor perfusion despite oxygenation and ventilation sends the pediatric algorithm to CPR even though a pulse is present, because at that rate cardiac output is no longer adequate. If perfusion is adequate, breaths continue with pulse checks every 2 minutes.",
+   "priority": "core",
+   "tags": [
+    "topic:bls",
+    "topic:bradycardia",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 42,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A second rescuer returns to a pediatric arrest where one rescuer has been doing CPR. What compression-to-ventilation ratio does the pediatric BLS algorithm direct from that point?",
+   "options": [
+    "15 compressions to 2 breaths",
+    "30 compressions to 2 breaths",
+    "Continuous compressions with a breath every 2 – 3 seconds",
+    "Continuous compressions with a breath every 6 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "The first rescuer alone performs cycles of 30 compressions and 2 breaths; when the second rescuer returns, the cycle changes to 15 compressions and 2 breaths. Children arrest from respiratory causes far more often than adults, so the added ventilation matters.",
+   "priority": "core",
+   "tags": [
+    "topic:bls",
+    "topic:cpr",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 43,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A responsive infant has signs of severe foreign-body airway obstruction. What cycle does the infant FBAO algorithm direct?",
+   "options": [
+    "5 back blows followed by 5 chest thrusts",
+    "5 back blows followed by 5 abdominal thrusts",
+    "5 chest thrusts followed by 5 back blows",
+    "Continuous back blows until the object is expelled"
+   ],
+   "answer_index": 0,
+   "explanation": "Infants receive 5 back blows (slaps) followed by 5 chest thrusts — not abdominal thrusts, which risk injury to the liver and other abdominal organs at that size. Children old enough for the child algorithm do receive abdominal thrusts.",
+   "priority": "core",
+   "tags": [
+    "topic:fbao",
+    "population:pediatric",
+    "population:neonatal"
+   ]
+  },
+  {
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "page": 43,
+   "type": "assessment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Which sign of severe foreign-body airway obstruction is listed for an infant rather than for an adult or child?",
+   "options": [
+    "Unable to cry",
+    "Unable to speak",
+    "Weak or absent cough",
+    "Change in color"
+   ],
+   "answer_index": 0,
+   "explanation": "The infant algorithm substitutes \"unable to cry\" for the \"unable to speak\" used in the adult and child algorithms. The other signs — weak or absent cough, cyanosis, altered mental status and apnea — are shared across all three.",
+   "priority": "detail",
+   "tags": [
+    "topic:fbao",
+    "population:pediatric",
+    "topic:assessment"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 45,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult with a heart rate of 38 is hypotensive and acutely confused. What does the adult bradycardia algorithm direct as the first drug?",
+   "options": [
+    "Atropine 1 mg IV bolus",
+    "Epinephrine 2 – 10 mcg/min infusion",
+    "Dopamine 5 – 20 mcg/kg/min infusion",
+    "Amiodarone 300 mg IV bolus"
+   ],
+   "answer_index": 0,
+   "explanation": "Once airway, oxygen and monitoring are in place and the bradycardia persists with cardiopulmonary compromise, atropine is the first drug at 1 mg IV, repeated every 3 – 5 minutes to a maximum total of 3 mg. Pacing and the catecholamine infusions come after atropine proves ineffective.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "topic:bradycardia",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 45,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What maximum total dose of atropine does the adult bradycardia algorithm allow?",
+   "options": [
+    "3 mg",
+    "1 mg",
+    "0.5 mg",
+    "0.1 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Atropine is given as a 1 mg bolus repeated every 3 – 5 minutes to a maximum total of 3 mg. The 0.5 mg and 0.1 mg figures are the pediatric maximum single and minimum doses.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "topic:bradycardia",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 45,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Atropine has failed to improve an adult's symptomatic bradycardia. What does the algorithm direct next?",
+   "options": [
+    "Transcutaneous pacing and/or a dopamine or epinephrine infusion",
+    "A further 1 mg atropine bolus beyond the maximum",
+    "Immediate synchronized cardioversion",
+    "Begin CPR and treat as cardiac arrest"
+   ],
+   "answer_index": 0,
+   "explanation": "If atropine is ineffective the algorithm moves to transcutaneous pacing and/or a dopamine or epinephrine infusion, and only then to expert consultation and transvenous pacing. Cardioversion treats tachyarrhythmias, not bradycardia.",
+   "priority": "core",
+   "tags": [
+    "topic:bradycardia",
+    "procedure:pacing",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 45,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult has a heart rate of 44 with normal blood pressure, normal mental status, no shock, no chest discomfort and no heart failure. What does the adult bradycardia algorithm direct?",
+   "options": [
+    "Identify and treat underlying causes, obtain a 12-lead ECG and observe",
+    "Give atropine 1 mg and reassess in 3 – 5 minutes",
+    "Begin transcutaneous pacing",
+    "Start a dopamine infusion at 5 – 20 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Without cardiopulmonary compromise the algorithm branches away from treatment: support ABCs, consider oxygen, obtain a 12-lead ECG and observe while identifying and treating underlying causes. The PEARLS repeat this — treatment is based on the presence of symptoms.",
+   "priority": "core",
+   "tags": [
+    "topic:bradycardia",
+    "topic:assessment",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 45,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What dopamine infusion rate does the adult bradycardia algorithm give?",
+   "options": [
+    "5 – 20 mcg/kg/min",
+    "2 – 10 mcg/min",
+    "0.05 mcg/kg/min",
+    "25 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "The usual dopamine infusion rate in the bradycardia algorithm is 5 – 20 mcg/kg per minute, titrated to patient response and tapered slowly. The 2 – 10 mcg/min figure is epinephrine, which is dosed in mcg/min rather than per kilogram.",
+   "priority": "core",
+   "tags": [
+    "drug:dopamine",
+    "topic:bradycardia",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 45,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What epinephrine infusion rate does the adult bradycardia algorithm give?",
+   "options": [
+    "2 – 10 mcg/min",
+    "5 – 20 mcg/kg/min",
+    "1 mg every 3 – 5 minutes",
+    "0.01 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Epinephrine is infused at 2 – 10 mcg per minute and titrated to patient response. The 1 mg bolus every 3 – 5 minutes is the cardiac arrest dose, and 0.01 mg/kg is the pediatric dose.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:bradycardia",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 45,
+   "type": "class",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Which drug classes does the adult bradycardia algorithm list among the possible causes?",
+   "options": [
+    "Calcium-channel blockers, beta-blockers and digoxin",
+    "Opioids, benzodiazepines and barbiturates",
+    "Tricyclics, SSRIs and MAO inhibitors",
+    "Antihistamines, phenothiazines and salicylates"
+   ],
+   "answer_index": 0,
+   "explanation": "The algorithm's possible causes include drugs and toxicologic effects — specifically calcium-channel blockers, beta-blockers and digoxin — alongside myocardial ischemia or infarction, hypoxia and electrolyte abnormality such as hyperkalemia. That list shapes what you look for while atropine is being drawn up.",
+   "priority": "detail",
+   "tags": [
+    "topic:bradycardia",
+    "topic:toxicology",
+    "topic:differential"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 46,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A child's bradycardia persists with cardiopulmonary compromise and the heart rate is below 60. What does the pediatric bradycardia algorithm direct?",
+   "options": [
+    "Start CPR",
+    "Give atropine 0.02 mg/kg and reassess",
+    "Begin transcutaneous pacing",
+    "Give a fluid bolus and observe"
+   ],
+   "answer_index": 0,
+   "explanation": "In the pediatric algorithm, persistent compromise with a heart rate under 60 means CPR is started even though a pulse is present, alongside IV/IO access and epinephrine. Pacing is considered later, after underlying causes have been addressed.",
+   "priority": "core",
+   "tags": [
+    "topic:bradycardia",
+    "topic:cpr",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 46,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What epinephrine dose does the pediatric bradycardia algorithm give, and at what concentration?",
+   "options": [
+    "0.01 mg/kg of the 0.1 mg/mL concentration",
+    "0.02 mg/kg of the 0.1 mg/mL concentration",
+    "0.1 mg/kg of the 1 mg/mL concentration",
+    "0.01 mg/kg of the 1 mg/mL concentration"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric epinephrine is 0.01 mg/kg of the 0.1 mg/mL concentration with a maximum dose of 1 mg. The concentration matters as much as the number, which is why the PEARLS require pediatric IV push epinephrine to be dosed and documented in mL/kg.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "population:pediatric",
+    "topic:bradycardia"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 46,
+   "type": "indication",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "For which pediatric bradycardia patients does the algorithm specifically reserve atropine?",
+   "options": [
+    "Those with increased vagal tone or primary AV block",
+    "Those with a heart rate below 60 despite CPR",
+    "Those who have not responded to two doses of epinephrine",
+    "Those with signs of shock and hypotension"
+   ],
+   "answer_index": 0,
+   "explanation": "Epinephrine is the general pediatric agent; atropine is reserved for increased vagal tone or primary AV block, the two situations where a parasympatholytic is mechanistically the right drug. Most pediatric bradycardia is hypoxic and responds to oxygenation, ventilation and epinephrine.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "population:pediatric",
+    "topic:bradycardia"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 46,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What minimum and maximum single atropine doses does the pediatric bradycardia algorithm give?",
+   "options": [
+    "Minimum 0.1 mg, maximum single dose 0.5 mg",
+    "Minimum 0.5 mg, maximum single dose 1 mg",
+    "Minimum 0.02 mg, maximum single dose 0.1 mg",
+    "Minimum 0.1 mg, maximum single dose 1 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric atropine is 0.02 mg/kg, may be repeated once, with a minimum dose of 0.1 mg and a maximum single dose of 0.5 mg. The minimum exists because very small doses can produce paradoxical bradycardia.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "population:pediatric",
+    "topic:bradycardia"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 47,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 3.02 warn about giving lidocaine to a patient in heart block?",
+   "options": [
+    "It can worsen the bradycardia and lead to cardiac arrest",
+    "It can cause a dystonic reaction",
+    "It prolongs the QT interval and may cause torsades",
+    "It blunts the response to atropine"
+   ],
+   "answer_index": 0,
+   "explanation": "The PEARLS state that the use of lidocaine in heart blocks can worsen bradycardia and lead to cardiac arrest. A wide-complex bradycardia can look like a ventricular rhythm, and treating it as one with lidocaine removes the only escape rhythm the patient has.",
+   "priority": "core",
+   "tags": [
+    "drug:lidocaine",
+    "topic:bradycardia",
+    "topic:contraindication"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 47,
+   "type": "landmark",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which pad placement does 3.02 identify as preferred for transcutaneous pacing?",
+   "options": [
+    "Anterior/posterior",
+    "Anterior/lateral",
+    "Right sternal border and left axilla",
+    "Both pads on the anterior chest"
+   ],
+   "answer_index": 0,
+   "explanation": "Anterior/posterior is the preferred pad placement for transcutaneous pacing. Sandwiching the heart between the pads delivers current along the shortest path through the myocardium, which improves capture.",
+   "priority": "core",
+   "tags": [
+    "procedure:pacing",
+    "topic:pad-placement"
+   ]
+  },
+  {
+   "number": "3.02",
+   "title": "Bradycardia",
+   "page": 47,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 3.02 direct crews to consider when a bradycardia is wide complex?",
+   "options": [
+    "Hyperkalemia",
+    "Hypoglycemia",
+    "Opioid overdose",
+    "Pericardial tamponade"
+   ],
+   "answer_index": 0,
+   "explanation": "The PEARLS direct crews to consider hyperkalemia when wide complex bradycardia is present. Widening of the QRS with a slow rate is a classic hyperkalemic pattern and calls for a different treatment than atropine or pacing.",
+   "priority": "core",
+   "tags": [
+    "topic:bradycardia",
+    "topic:hyperkalemia",
+    "topic:differential"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 48,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How is epinephrine dosed in the adult cardiac arrest algorithm?",
+   "options": [
+    "1 mg every 3 – 5 minutes",
+    "0.01 mg/kg every 3 – 5 minutes",
+    "1 mg as a single dose only",
+    "2 – 10 mcg/min as an infusion"
+   ],
+   "answer_index": 0,
+   "explanation": "Adult epinephrine in arrest is 1 mg IV/IO every 3 – 5 minutes. The weight-based 0.01 mg/kg figure is pediatric, and the mcg/min infusion belongs to bradycardia and post-ROSC care.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:cardiac-arrest",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 48,
+   "type": "sequence",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A medical cardiac arrest patient is found in asystole. What does the adult algorithm direct regarding drug therapy?",
+   "options": [
+    "Give epinephrine as soon as possible",
+    "Give epinephrine after the first 2-minute CPR cycle",
+    "Give amiodarone 300 mg, then epinephrine",
+    "Defibrillate at maximum energy before any drug"
+   ],
+   "answer_index": 0,
+   "explanation": "On the non-shockable side of the algorithm, epinephrine is given as soon as possible rather than waiting for a CPR cycle to finish — there is no shock to deliver, so the vasopressor is the time-critical intervention. Asystole and PEA are never shocked.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:cardiac-arrest",
+    "topic:asystole"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 48,
+   "type": "sequence",
+   "care_level": null,
+   "population": "adult",
+   "stem": "At what point in the adult VF/pVT branch does the algorithm introduce amiodarone or lidocaine?",
+   "options": [
+    "After the third shock",
+    "After the first shock",
+    "Before the first shock",
+    "Only once ROSC has been achieved"
+   ],
+   "answer_index": 0,
+   "explanation": "The antiarrhythmic enters at box 8, in the CPR cycle following the third shock, after epinephrine has already been started in the cycle following the second shock. Defibrillation and high-quality CPR come first.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "drug:lidocaine",
+    "topic:cardiac-arrest"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 48,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the first amiodarone dose in the adult cardiac arrest algorithm?",
+   "options": [
+    "300 mg bolus",
+    "150 mg bolus",
+    "450 mg bolus",
+    "5 mg/kg bolus"
+   ],
+   "answer_index": 0,
+   "explanation": "Amiodarone is 300 mg bolus for the first dose and 150 mg for the second. The 450 mg figure in the PEARLS is the cumulative amount that, with three defibrillations and epinephrine, defines refractory VF/pVT. The 5 mg/kg dose is pediatric.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:cardiac-arrest",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 48,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the first lidocaine dose in the adult cardiac arrest algorithm?",
+   "options": [
+    "1 – 1.5 mg/kg",
+    "0.5 – 0.75 mg/kg",
+    "1 mg/kg",
+    "5 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Lidocaine, the alternative to amiodarone, is 1 – 1.5 mg/kg for the first dose and 0.5 – 0.75 mg/kg for the second. The flat 1 mg/kg figure is the pediatric lidocaine dose.",
+   "priority": "core",
+   "tags": [
+    "drug:lidocaine",
+    "topic:cardiac-arrest",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 48,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "The biphasic defibrillator's manufacturer-recommended energy is unknown. What does the adult algorithm direct?",
+   "options": [
+    "Use the maximum energy available",
+    "Use 120 J for the first shock",
+    "Use 200 J for the first shock",
+    "Use 360 J for the first shock"
+   ],
+   "answer_index": 0,
+   "explanation": "The algorithm gives an initial biphasic dose of 120-200 J as an example of a manufacturer recommendation, and directs that if the recommendation is unknown, the maximum available energy be used. Second and subsequent doses should be equivalent, and higher doses may be considered.",
+   "priority": "core",
+   "tags": [
+    "procedure:defibrillation",
+    "topic:cardiac-arrest",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 48,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What shock energy does the adult cardiac arrest algorithm give for a monophasic defibrillator?",
+   "options": [
+    "360 J",
+    "200 J",
+    "120 J",
+    "2 J/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Monophasic defibrillation is a single fixed figure, 360 J. The 120 J and 200 J values bracket the example biphasic range, and 2 J/kg is the pediatric first shock.",
+   "priority": "detail",
+   "tags": [
+    "procedure:defibrillation",
+    "topic:cardiac-arrest",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 48,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult in cardiac arrest now has an advanced airway in place. How does the algorithm direct compressions and ventilations to be delivered?",
+   "options": [
+    "Continuous compressions with 1 breath every 6 seconds",
+    "Continuous compressions with 1 breath every 2 – 3 seconds",
+    "Cycles of 30 compressions and 2 breaths",
+    "Cycles of 15 compressions and 2 breaths"
+   ],
+   "answer_index": 0,
+   "explanation": "Once an advanced airway is placed, compressions become continuous and breaths are given every 6 seconds (10 breaths/min). The 30:2 ratio applies only before an advanced airway is in place.",
+   "priority": "core",
+   "tags": [
+    "topic:cpr",
+    "topic:cardiac-arrest",
+    "procedure:advanced-airway"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 48,
+   "type": "assessment",
+   "care_level": null,
+   "population": "both",
+   "stem": "During an arrest with continuous waveform capnography, the ETCO2 is low and decreasing. What does the algorithm direct?",
+   "options": [
+    "Reassess CPR quality",
+    "Give another dose of epinephrine",
+    "Increase the ventilation rate",
+    "Check for a pulse immediately"
+   ],
+   "answer_index": 0,
+   "explanation": "A falling ETCO2 during CPR reflects falling pulmonary blood flow, so the algorithm treats it as a signal to reassess CPR quality — depth, rate, recoil and compressor fatigue — rather than as a drug or ventilation problem.",
+   "priority": "core",
+   "tags": [
+    "topic:capnography",
+    "topic:cpr",
+    "topic:cardiac-arrest"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 49,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What first shock energy does the pediatric cardiac arrest algorithm give?",
+   "options": [
+    "2 J/kg",
+    "4 J/kg",
+    "10 J/kg",
+    "360 J"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric sequence escalates: 2 J/kg for the first shock, 4 J/kg for the second, and ≥ 4 J/kg for subsequent shocks.",
+   "priority": "core",
+   "tags": [
+    "procedure:defibrillation",
+    "population:pediatric",
+    "topic:cardiac-arrest"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 49,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What ceiling does the pediatric cardiac arrest algorithm put on subsequent shock energies?",
+   "options": [
+    "10 J/kg or the adult dose",
+    "4 J/kg",
+    "2 J/kg",
+    "360 J"
+   ],
+   "answer_index": 0,
+   "explanation": "Subsequent shocks are ≥ 4 J/kg but must not exceed 10 J/kg or the adult dose, whichever is reached first. In a larger child the adult energy becomes the binding limit.",
+   "priority": "core",
+   "tags": [
+    "procedure:defibrillation",
+    "population:pediatric",
+    "topic:cardiac-arrest"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 49,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What amiodarone dose does the pediatric cardiac arrest algorithm give for refractory VF/pVT?",
+   "options": [
+    "5 mg/kg bolus, max 300 mg",
+    "1 mg/kg bolus",
+    "150 mg bolus",
+    "0.01 mg/kg bolus"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric amiodarone is 5 mg/kg bolus with a 300 mg ceiling, and may be repeated up to 3 doses with subsequent doses capped at 150 mg. The 1 mg/kg figure is pediatric lidocaine.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "population:pediatric",
+    "topic:cardiac-arrest"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 49,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Two rescuers are performing CPR on a 4-year-old in cardiac arrest with no advanced airway. What ratio does the pediatric algorithm direct?",
+   "options": [
+    "15 compressions to 2 breaths",
+    "30 compressions to 2 breaths",
+    "Continuous compressions with a breath every 2 – 3 seconds",
+    "Continuous compressions with a breath every 6 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "With two rescuers and a pre-puberty child the ratio is 15:2. It becomes 30:2 for two rescuers once puberty has begun, and 30:2 for a single rescuer at any age. Once an advanced airway is placed, compressions become continuous with a breath every 2 – 3 seconds.",
+   "priority": "core",
+   "tags": [
+    "topic:cpr",
+    "population:pediatric",
+    "topic:cardiac-arrest"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 50,
+   "type": "dose",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "3.03 defines refractory VF/pVT as persisting despite three defibrillations, epinephrine and what total amount of amiodarone?",
+   "options": [
+    "450 mg",
+    "300 mg",
+    "150 mg",
+    "1000 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The PEARLS set the threshold at defibrillation x3, epinephrine AND amiodarone 450 mg — the 300 mg first dose plus the 150 mg second dose. Reaching it is what triggers moving the pads or adding dual sequential external defibrillation.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:refractory-vf",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 50,
+   "type": "treatment",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "VF persists after three shocks, epinephrine and 450 mg of amiodarone. What does 3.03 direct the crew to consider?",
+   "options": [
+    "Move or add pads 90° from the initial axis and defibrillate at full energy",
+    "Double the next shock energy on the existing pad position",
+    "Stop defibrillating and treat reversible causes alone",
+    "Give a third 150 mg dose of amiodarone before the next shock"
+   ],
+   "answer_index": 0,
+   "explanation": "The PEARLS direct moving the pads, or adding new pads, 90° from the initial axis — for example anterior-lateral changed to anterior-posterior — and defibrillating at full energy. Dual sequential external defibrillation with two monitors shocking sequentially may also be considered.",
+   "priority": "core",
+   "tags": [
+    "procedure:defibrillation",
+    "topic:refractory-vf",
+    "topic:dsed"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 50,
+   "type": "procedure",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "During the safety pause described in 3.03, how long does the crew feel for a pulse?",
+   "options": [
+    "The full 10 seconds, while looking at the monitor",
+    "No more than 5 seconds, while looking at the monitor",
+    "Until the rhythm is verbally identified by both crew members",
+    "Only as long as the monitor takes to charge"
+   ],
+   "answer_index": 0,
+   "explanation": "The safety pause is called out loud: everyone is ready to stop CPR and look at the rhythm, the monitor is pre-charged with the crew feeling pulses during ongoing CPR, then CPR stops and the full 10 seconds is taken to feel for a pulse while watching the monitor. Pre-charging is what makes that 10 seconds affordable.",
+   "priority": "core",
+   "tags": [
+    "procedure:pulse-check",
+    "topic:cardiac-arrest",
+    "topic:crew-resource-management"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 50,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "pediatric",
+   "stem": "At what weight does 3.03 direct a change from infant/pediatric to adult/child hands-free defibrillation pads?",
+   "options": [
+    "Over 10 kg",
+    "Over 25 kg",
+    "Over 20 kg",
+    "Over 30 kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Patients ≤ 10 kg get infant/pediatric pads and those > 10 kg get adult/child pads. The pad choice is made on weight, not age.",
+   "priority": "detail",
+   "tags": [
+    "equipment:defib-pads",
+    "population:pediatric",
+    "topic:cardiac-arrest"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 50,
+   "type": "treatment",
+   "care_level": "PEARLS",
+   "population": "pediatric",
+   "stem": "At what rate does 3.03 direct ventilation of a pediatric cardiac arrest patient, per PALS guidelines?",
+   "options": [
+    "20 – 30 bpm",
+    "10 bpm",
+    "12 – 16 bpm",
+    "8 – 10 bpm"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric PEARLS specify ventilation at 20 – 30 bpm per PALS guidelines, consistent with the algorithm's breath every 2 – 3 seconds once an advanced airway is in place.",
+   "priority": "detail",
+   "tags": [
+    "topic:ventilation",
+    "population:pediatric",
+    "topic:cardiac-arrest"
+   ]
+  },
+  {
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "page": 50,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "pediatric",
+   "stem": "How does 3.03 direct pediatric IV push doses of epinephrine to be dosed and documented?",
+   "options": [
+    "In mL/kg",
+    "In mg/kg",
+    "In mcg/kg",
+    "In mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric IV push epinephrine is to be dosed AND documented in mL/kg. Expressing it as a volume ties the dose to a specific concentration and removes the 0.1 mg/mL versus 1 mg/mL ambiguity that causes tenfold errors.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "population:pediatric",
+    "topic:documentation"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "scope",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 3.04 say about LFN standing orders for targeted temperature management or hypothermia?",
+   "options": [
+    "There are none; refer to sending or receiving provider orders",
+    "Cooling to 32 – 37.5 °C is standing for all post-ROSC patients",
+    "Cooling is standing only for patients not following commands",
+    "Cooling requires an OLMC consult before initiation"
+   ],
+   "answer_index": 0,
+   "explanation": "3.04 states that LFN has no standing orders for Targeted Temperature Management/hypothermia and directs crews to the sending or receiving provider's orders for treatment guidance. The temperature goal shown in the AHA algorithm is not an LFN standing order.",
+   "priority": "core",
+   "tags": [
+    "topic:ttm",
+    "topic:scope-of-practice",
+    "topic:post-rosc"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What mean arterial pressure target does 3.04 set for an adult after ROSC?",
+   "options": [
+    "65 mmHg or greater",
+    "45 mmHg or greater",
+    "30 mmHg or greater",
+    "90 mmHg or greater"
+   ],
+   "answer_index": 0,
+   "explanation": "A MAP of ≥ 65 mmHg is the hemodynamic goal after ROSC, maintained with vasopressors and fluid as needed, with the Cardiogenic Shock guideline available for further guidance.",
+   "priority": "core",
+   "tags": [
+    "topic:post-rosc",
+    "topic:hemodynamics",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which vasopressor does 3.04 name as the first line agent after ROSC?",
+   "options": [
+    "Epinephrine",
+    "Norepinephrine",
+    "Dopamine",
+    "Amiodarone"
+   ],
+   "answer_index": 0,
+   "explanation": "Epinephrine is the first line agent for ROSC in both the adult and pediatric bands. Norepinephrine is the second agent to add if hypotension persists as epinephrine climbs.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:post-rosc",
+    "topic:vasopressor"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "At what rate does 3.04 direct an adult epinephrine infusion to be started after ROSC?",
+   "options": [
+    "2 – 10 mcg/min, or 0.05 mcg/kg/min",
+    "5 – 20 mcg/kg/min, or 0.5 mcg/kg/min",
+    "1 mg/min, titrated to a MAP of 65",
+    "1 – 4 mg/min, titrated to a MAP of 65"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult epinephrine infusion starts at 2 – 10 mcg/min or, weight-based, 0.05 mcg/kg/min, and is titrated every 3 – 5 minutes. The 1 mg/min and 1 – 4 mg/min figures are the amiodarone and lidocaine anti-dysrhythmic infusions.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:post-rosc",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "To what maximum does 3.04 direct the post-ROSC epinephrine infusion to be titrated?",
+   "options": [
+    "2 mcg/kg/min",
+    "45 mcg/min",
+    "30 mcg/min",
+    "10 mcg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Epinephrine is titrated every 3 – 5 minutes to a maximum of 2 mcg/kg/min in both adults and children. The 45 mcg/min figure is the norepinephrine ceiling and 30 mcg/min is the point at which a second agent should be considered.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:post-rosc",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "Above what adult epinephrine infusion rate does 3.04 direct that another agent be considered?",
+   "options": [
+    "30 mcg/min",
+    "45 mcg/min",
+    "10 mcg/min",
+    "2 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Consider adding another agent if the epinephrine rate exceeds 30 mcg/min; the PEARLS name norepinephrine specifically, with the pediatric equivalent trigger at 1 mcg/kg/min. Escalating a single catecholamine indefinitely buys less than adding a second mechanism.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "drug:norepinephrine",
+    "topic:post-rosc"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "To what maximum does 3.04 direct an adult norepinephrine infusion to be titrated after ROSC?",
+   "options": [
+    "45 mcg/min",
+    "30 mcg/min",
+    "10 mcg/min",
+    "2 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Norepinephrine starts at 2 – 10 mcg/min or 0.05 mcg/kg/min and is titrated every 3 – 5 minutes to a maximum of 45 mcg/min — a much higher ceiling than the 30 mcg/min epinephrine figure that prompts adding it in the first place.",
+   "priority": "detail",
+   "tags": [
+    "drug:norepinephrine",
+    "topic:post-rosc",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What amiodarone infusion rate does 3.04 give for post-ROSC anti-dysrhythmic therapy?",
+   "options": [
+    "1 mg/min",
+    "1 – 4 mg/min",
+    "2 – 10 mcg/min",
+    "0.05 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Post-ROSC amiodarone runs at 1 mg/min; lidocaine, the alternative anti-dysrhythmic infusion, runs at 1 – 4 mg/min. The mcg figures are vasopressor rates, not anti-dysrhythmic ones.",
+   "priority": "detail",
+   "tags": [
+    "drug:amiodarone",
+    "topic:post-rosc",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "A post-ROSC adult has a temperature of 38.1 °C. What does 3.04 direct?",
+   "options": [
+    "Acetaminophen 1000 mg IV over 15 minutes",
+    "Acetaminophen 750 mg IV over 15 minutes",
+    "Acetaminophen 15 mg/kg IV over 15 minutes",
+    "Acetaminophen 1000 mg by mouth"
+   ],
+   "answer_index": 0,
+   "explanation": "At a temperature ≥ 37.7 °C (99.9 °F) the adult receives acetaminophen 1000 mg IV over 15 minutes. Fever worsens the ischemic brain injury that follows arrest, so it is treated rather than observed. Children receive 15 mg/kg over 15 minutes to a maximum of 750 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:post-rosc",
+    "topic:fever"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What maximum dose of acetaminophen does 3.04 allow for a febrile pediatric patient after ROSC?",
+   "options": [
+    "750 mg",
+    "1000 mg",
+    "500 mg",
+    "15 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric acetaminophen after ROSC is 15 mg/kg over 15 minutes with a maximum dose of 750 mg — three quarters of the flat adult dose.",
+   "priority": "detail",
+   "tags": [
+    "drug:acetaminophen",
+    "population:pediatric",
+    "topic:post-rosc"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 3.04 identify as a significant cause of hypotension and cardiac arrest in the post-resuscitation phase?",
+   "options": [
+    "Hyperventilation",
+    "Hypothermia",
+    "Hyperoxia",
+    "Hypoglycemia"
+   ],
+   "answer_index": 0,
+   "explanation": "Hyperventilation raises intrathoracic pressure, reduces venous return and drops cardiac output, and 3.04 names it a significant cause of hypotension and re-arrest after ROSC. This is why the PEARLS pair it with the direction to transport these patients on a mechanical ventilator.",
+   "priority": "core",
+   "tags": [
+    "topic:post-rosc",
+    "topic:ventilation",
+    "topic:hypotension"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "treatment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "How does 3.04 direct most patients to be ventilated immediately after ROSC?",
+   "options": [
+    "Via mechanical ventilator",
+    "By BVM with a crew member assigned to the airway",
+    "By non-invasive ventilation if they are breathing",
+    "Spontaneously, on a non-rebreather mask"
+   ],
+   "answer_index": 0,
+   "explanation": "The PEARLS state that most patients immediately post ROSC will require ventilatory assistance and should always be transported via mechanical ventilator — the ventilator being what reliably prevents the hyperventilation that causes re-arrest.",
+   "priority": "core",
+   "tags": [
+    "topic:post-rosc",
+    "topic:ventilator"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 52,
+   "type": "special",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Under what circumstances does 3.04 permit exceeding the stated maximum vasopressor dose?",
+   "options": [
+    "When hypotension persists despite adequate fluid resuscitation and a second vasopressor",
+    "When the transport time exceeds 30 minutes",
+    "When the receiving physician gives verbal authorization",
+    "When the patient's MAP has not reached 65 within 5 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "3.04 allows the maximum to be exceeded when the patient remains hypotensive despite adequate fluid resuscitation and the initiation of a second vasopressor, noting that there is no maximum epinephrine dose per AHA or NRP. Both prior steps must have been taken first.",
+   "priority": "core",
+   "tags": [
+    "topic:post-rosc",
+    "topic:vasopressor",
+    "topic:scope-of-practice"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 51,
+   "type": "assessment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What PCO2 target does the adult post-cardiac arrest care algorithm set after ROSC?",
+   "options": [
+    "35 – 45 mm Hg",
+    "60 – 105 mm Hg",
+    "25 – 35 mm Hg",
+    "45 – 55 mm Hg"
+   ],
+   "answer_index": 0,
+   "explanation": "Minute ventilation is adjusted to a PCO2 of 35 – 45 mm Hg in the absence of severe acidemia. The 60 – 105 mm Hg range in the same box is the PaO2 target, which corresponds to an SpO2 of 90% – 98%.",
+   "priority": "core",
+   "tags": [
+    "topic:post-rosc",
+    "topic:ventilation",
+    "topic:capnography"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 51,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How does the adult post-cardiac arrest care algorithm direct oxygen to be managed immediately after ROSC?",
+   "options": [
+    "Maintain 100% FiO2 until SpO2 or PaO2 can be measured reliably, then titrate",
+    "Titrate FiO2 down to room air as soon as a pulse returns",
+    "Maintain 100% FiO2 for the entire transport",
+    "Maintain the FiO2 the patient was on before the arrest"
+   ],
+   "answer_index": 0,
+   "explanation": "The algorithm keeps 100% FiO2 until SpO2 or PaO2 can be measured reliably, then titrates to an SpO2 of 90% – 98% (PaO2 60 – 105 mm Hg). Both hypoxia and sustained hyperoxia worsen the post-arrest brain injury.",
+   "priority": "core",
+   "tags": [
+    "topic:post-rosc",
+    "topic:oxygenation"
+   ]
+  },
+  {
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "page": 51,
+   "type": "assessment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Which assessment does the adult post-cardiac arrest care algorithm use to branch the continued management pathway?",
+   "options": [
+    "Whether the patient follows commands",
+    "Whether the patient has a palpable radial pulse",
+    "Whether the 12-lead shows ST elevation",
+    "Whether the MAP is above 65 mm Hg"
+   ],
+   "answer_index": 0,
+   "explanation": "After the patient is assessed off sedation and neuromuscular blockade if able, the algorithm branches on whether they follow commands. If not, or if unsure, the pathway adds deliberate temperature control, EEG and appropriately timed multimodal prognostication.",
+   "priority": "detail",
+   "tags": [
+    "topic:post-rosc",
+    "topic:neurologic-assessment"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 53,
+   "type": "dose",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What is the dose of aspirin for cardiac chest pain in 3.05?",
+   "options": [
+    "324 mg PO",
+    "300 mg PO",
+    "180 mg PO",
+    "600 mg PO"
+   ],
+   "answer_index": 0,
+   "explanation": "Aspirin is 324 mg PO at the BLS level and is reconfirmed at both ALS and CCT. The 300 mg, 180 mg and 600 mg figures in this guideline belong to clopidogrel and ticagrelor.",
+   "priority": "core",
+   "tags": [
+    "drug:aspirin",
+    "topic:acs",
+    "care-level:bls"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 53,
+   "type": "contraindication",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Which history rules out giving aspirin under 3.05?",
+   "options": [
+    "324 mg of aspirin taken in the past four hours",
+    "324 mg of aspirin taken in the past 24 hours",
+    "Any aspirin taken in the past 48 hours",
+    "A phosphodiesterase inhibitor taken in the past 24 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "Aspirin is withheld only if the patient has already taken 324 mg within the past four hours. The 24 and 48 hour windows in this guideline are the phosphodiesterase inhibitor contraindications to nitroglycerin, not aspirin.",
+   "priority": "core",
+   "tags": [
+    "drug:aspirin",
+    "topic:contraindication",
+    "topic:acs"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 53,
+   "type": "threshold",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "To what SpO2 does 3.05 direct oxygen be administered in cardiac chest pain?",
+   "options": [
+    "Greater than 90%",
+    "Greater than 94%",
+    "Greater than 95%",
+    "92% to 98%"
+   ],
+   "answer_index": 0,
+   "explanation": "3.05 sets the oxygen target at SpO2 > 90%, consistent with 2.05's direction that cardiac patients be treated with oxygen only to maintain > 90%. Routine high-flow oxygen in a patient already above target is not benign in ischemic myocardium.",
+   "priority": "core",
+   "tags": [
+    "topic:oxygenation",
+    "topic:acs",
+    "care-level:bls"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 53,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult dose, route and interval for nitroglycerin in 3.05?",
+   "options": [
+    "0.4 mg SL every 3 - 5 min PRN",
+    "0.4 mg SL every 15 min PRN",
+    "0.4 mg IV every 3 - 5 min PRN",
+    "10 mcg/min by IV infusion"
+   ],
+   "answer_index": 0,
+   "explanation": "Adult nitroglycerin at ALS level is 0.4 mg sublingual every 3 - 5 minutes PRN, with a minimum SBP of 100 mmHg. The 10 mcg/min infusion is the CCT option, started after the sublingual route.",
+   "priority": "core",
+   "tags": [
+    "drug:nitroglycerin",
+    "route:sl",
+    "topic:acs"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 53,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What minimum systolic blood pressure does 3.05 require before giving sublingual nitroglycerin?",
+   "options": [
+    "Greater than 100 mmHg",
+    "Greater than 90 mmHg",
+    "Greater than 120 mmHg",
+    "Greater than 140 mmHg"
+   ],
+   "answer_index": 0,
+   "explanation": "Sublingual nitroglycerin requires a minimum SBP > 100 mmHg. The CCT nitroglycerin infusion is maintained at SBP > 90 mmHg, a lower floor for a titratable route, while 120 and 140 are the metoprolol hold and indication thresholds.",
+   "priority": "core",
+   "tags": [
+    "drug:nitroglycerin",
+    "topic:acs",
+    "topic:hypotension"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 53,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "A chest pain patient reports taking tadalafil (Cialis). For how long does 3.05 contraindicate nitroglycerin?",
+   "options": [
+    "48 hours",
+    "24 hours",
+    "12 hours",
+    "4 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "3.05 splits the phosphodiesterase inhibitors by duration: 24 hours for Viagra, and 48 hours for Cialis, Stendra, Levitra and Staxyn. Giving nitroglycerin inside that window risks profound, refractory hypotension.",
+   "priority": "core",
+   "tags": [
+    "drug:nitroglycerin",
+    "topic:contraindication",
+    "topic:acs"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 53,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "Chest pain is refractory to nitroglycerin. Which analgesic does 3.05 name as preferred?",
+   "options": [
+    "Fentanyl",
+    "Hydromorphone",
+    "Ketamine",
+    "Acetaminophen"
+   ],
+   "answer_index": 0,
+   "explanation": "For pain refractory to nitroglycerin, 3.05 sends crews to the Pain Management guideline and names fentanyl as preferred, and as first line again in the CCT band. Its hemodynamic stability is why it is chosen over other opioids in ischemia.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:acs",
+    "topic:pain"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 53,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A STEMI has already been diagnosed at the sending facility. What does 3.05 direct regarding the 12-lead ECG?",
+   "options": [
+    "Do not delay transport to obtain a 12-lead on scene or at the bedside",
+    "Obtain a confirmatory 12-lead before departing the bedside",
+    "Obtain a 12-lead only after notifying the cath facility",
+    "Obtain serial 12-leads every 30 minutes at the bedside"
+   ],
+   "answer_index": 0,
+   "explanation": "A 12-lead is obtained as soon as possible in general, but once a STEMI is already diagnosed, repeating it on scene or at the bedside only delays definitive reperfusion. Continuous 12-lead monitoring en route is strongly considered instead.",
+   "priority": "core",
+   "tags": [
+    "topic:stemi",
+    "topic:12-lead",
+    "topic:transport"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 53,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "To expedite loading and departure, which infusions does 3.05 allow a crew to disconnect?",
+   "options": [
+    "Nitroglycerin, heparin and 2b3a inhibitors",
+    "Anti-arrhythmics and vasopressors",
+    "Any infusion not ordered by the receiving facility",
+    "Only crystalloid maintenance fluids"
+   ],
+   "answer_index": 0,
+   "explanation": "Non-essential infusions — nitroglycerin, heparin and 2b3a inhibitors — may be disconnected to expedite loading and departure, and must be reestablished immediately once en route. Anti-arrhythmics and vasopressors are explicitly not to be disconnected.",
+   "priority": "core",
+   "tags": [
+    "topic:stemi",
+    "topic:transport",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 53,
+   "type": "scope",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 3.05 require before an infusion continued from the sending hospital is titrated?",
+   "options": [
+    "An OLMC consult or sending provider orders",
+    "A repeat 12-lead ECG confirming the rhythm",
+    "Notification of the receiving cath facility",
+    "Documentation of the rate in the chart only"
+   ],
+   "answer_index": 0,
+   "explanation": "Infusions are continued at the current rate from the hospital, and any titration requires an OLMC consult or sending provider orders. The crew's default is to keep the therapy exactly as the sending facility set it.",
+   "priority": "core",
+   "tags": [
+    "topic:scope-of-practice",
+    "topic:ift",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 53,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 3.05 direct be applied to every STEMI patient before transport?",
+   "options": [
+    "Multifunction defibrillation pads",
+    "A transcutaneous pacing generator",
+    "An arterial line transducer",
+    "A non-invasive ventilation mask"
+   ],
+   "answer_index": 0,
+   "explanation": "Multifunction defibrillation pads are placed on all STEMI patients, and all patients are connected to an LFN cardiac monitor at the patient bedside. An infarcting myocardium can fibrillate without warning in flight, where pad placement is far harder.",
+   "priority": "core",
+   "tags": [
+    "topic:stemi",
+    "equipment:defib-pads",
+    "topic:transport"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 54,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "Within what transport time does 3.05 direct a stable patient be taken directly to a PCI center?",
+   "options": [
+    "60 minutes",
+    "120 minutes",
+    "90 minutes",
+    "15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "If the PCI center is within 60 minutes and the patient is stable, transfer directly there; otherwise transfer to the closest appropriate facility. The 120-minute figure in the PEARLS is the separate first-medical-contact-to-balloon decision point.",
+   "priority": "core",
+   "tags": [
+    "topic:stemi",
+    "topic:pci",
+    "topic:transport"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 54,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "At what rate does 3.05 direct a CCT crew to start an adult nitroglycerin infusion?",
+   "options": [
+    "10 mcg/min",
+    "5 mcg/min",
+    "100 mcg/min",
+    "400 mcg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "The nitroglycerin infusion starts at 10 mcg/min and is titrated in 5-10 mcg/min increments every 3 - 5 minutes to the patient's pain. The 400 mcg/min figure is the maximum rate.",
+   "priority": "core",
+   "tags": [
+    "drug:nitroglycerin",
+    "care-level:cct",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 54,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "To what maximum rate may the adult nitroglycerin infusion be titrated in 3.05?",
+   "options": [
+    "400 mcg/min",
+    "200 mcg/min",
+    "100 mcg/min",
+    "1000 mcg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "The nitroglycerin infusion is titrated to pain to a maximum of 400 mcg/min, while maintaining an SBP greater than 90 mmHg. For persistent pain despite the infusion, sublingual dosing is added.",
+   "priority": "detail",
+   "tags": [
+    "drug:nitroglycerin",
+    "care-level:cct",
+    "topic:infusion"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 54,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What systolic blood pressure does 3.05 direct be maintained during a nitroglycerin infusion?",
+   "options": [
+    "Greater than 90 mmHg",
+    "Greater than 100 mmHg",
+    "Greater than 120 mmHg",
+    "Greater than 140 mmHg"
+   ],
+   "answer_index": 0,
+   "explanation": "The infusion is maintained with SBP > 90 mmHg, a lower floor than the > 100 mmHg required before a sublingual dose, because an infusion can be turned down immediately whereas a sublingual tablet cannot be taken back.",
+   "priority": "detail",
+   "tags": [
+    "drug:nitroglycerin",
+    "care-level:cct",
+    "topic:hemodynamics"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 54,
+   "type": "indication",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "Which STEMI patients does 3.05 direct to receive metoprolol?",
+   "options": [
+    "Those with persistent hypertension AND tachycardia after nitroglycerin and pain management",
+    "Those with persistent hypertension OR tachycardia after nitroglycerin and pain management",
+    "Those with ongoing chest pain despite a maximal nitroglycerin infusion",
+    "Those with a heart rate under 60 and a systolic pressure under 120"
+   ],
+   "answer_index": 0,
+   "explanation": "Metoprolol is for STEMI patients with persistent hypertension (SBP > 140) AND tachycardia (> 90/min) that remain after nitroglycerin and pain management have been given. Both findings must be present, and pain and pressure are addressed first.",
+   "priority": "core",
+   "tags": [
+    "drug:metoprolol",
+    "topic:stemi",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 54,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the adult dose of metoprolol in 3.05, and how may it be repeated?",
+   "options": [
+    "5 mg IV, repeated every 5 min PRN twice",
+    "5 mg IV, as a single dose only",
+    "15 mg IV, repeated every 5 min PRN twice",
+    "10 mg IV, repeated every 5 min PRN twice"
+   ],
+   "answer_index": 0,
+   "explanation": "Metoprolol is 5 mg IV, repeatable every 5 minutes PRN up to two further times, for a maximum total of 15 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:metoprolol",
+    "topic:stemi",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 54,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the maximum total dose of metoprolol in 3.05?",
+   "options": [
+    "15 mg",
+    "5 mg",
+    "10 mg",
+    "1 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Three 5 mg doses give a maximum total of 15 mg. Beyond that the guideline offers no further metoprolol.",
+   "priority": "core",
+   "tags": [
+    "drug:metoprolol",
+    "topic:stemi",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 54,
+   "type": "contraindication",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "Which findings does 3.05 direct should cause metoprolol to be held?",
+   "options": [
+    "Heart rate under 60, SBP under 120, evidence of CHF, or cardiogenic shock",
+    "Heart rate over 90, SBP over 140, or ongoing chest pain",
+    "A phosphodiesterase inhibitor taken within 48 hours",
+    "Aspirin taken within the past four hours"
+   ],
+   "answer_index": 0,
+   "explanation": "Metoprolol is held if HR < 60, SBP < 120, there is evidence of CHF, and/or cardiogenic shock — all states in which blunting rate and contractility removes the compensation the patient is relying on. The PDE inhibitor window applies to nitroglycerin.",
+   "priority": "core",
+   "tags": [
+    "drug:metoprolol",
+    "topic:contraindication",
+    "topic:stemi"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 54,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the standard heparin bolus and infusion in 3.05?",
+   "options": [
+    "60 units/kg bolus, then 12 units/kg/hour",
+    "70 units/kg bolus, then 12 units/kg/hour",
+    "60 units/kg bolus, then 60 units/kg/hour",
+    "12 units/kg bolus, then 60 units/kg/hour"
+   ],
+   "answer_index": 0,
+   "explanation": "The standard heparin dose is a 60 units/kg IV bolus followed by an infusion of 12 units/kg/hour, with a maximum infusion rate of 1000 units/hr. The 70 units/kg bolus belongs specifically to the St. Charles Medical Center – Bend Heart One protocol.",
+   "priority": "core",
+   "tags": [
+    "drug:heparin",
+    "topic:stemi",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 54,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What maximum heparin infusion rate does 3.05 give?",
+   "options": [
+    "1000 units/hr",
+    "4000 units/hr",
+    "400 units/hr",
+    "60 units/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "The heparin infusion of 12 units/kg/hour is capped at 1000 units/hr. The 4000 unit figure on the same page is the ceiling on the weight-based bolus, not the infusion.",
+   "priority": "detail",
+   "tags": [
+    "drug:heparin",
+    "topic:stemi",
+    "care-level:cct"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 55,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "At a non-PCI capable facility, what first-medical-contact-to-balloon time does 3.05 use to decide between transferring for PCI and giving a fibrinolytic first?",
+   "options": [
+    "120 minutes",
+    "60 minutes",
+    "30 minutes",
+    "12 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "If the time from first medical contact to balloon or device is ≤ 120 minutes, the patient is transferred for PCI. If it will exceed 120 minutes and there are no contraindications, the sending facility should administer a fibrinolytic before transfer.",
+   "priority": "core",
+   "tags": [
+    "topic:stemi",
+    "topic:fibrinolysis",
+    "topic:pci"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 55,
+   "type": "dose",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "What is the ticagrelor dose in the interfacility STEMI transfer section of 3.05?",
+   "options": [
+    "180 mg PO",
+    "300 mg PO",
+    "600 mg PO",
+    "75 mg PO"
+   ],
+   "answer_index": 0,
+   "explanation": "Ticagrelor is 180 mg PO as the P2Y12 option for a patient being transferred for PCI. The 300, 600 and 75 mg figures are all clopidogrel doses in the same section.",
+   "priority": "core",
+   "tags": [
+    "drug:ticagrelor",
+    "topic:stemi",
+    "topic:ift"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 55,
+   "type": "dose",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "An 80-year-old has received a fibrinolytic before transfer. What clopidogrel dose does 3.05 give?",
+   "options": [
+    "75 mg PO",
+    "300 mg PO",
+    "600 mg PO",
+    "180 mg PO"
+   ],
+   "answer_index": 0,
+   "explanation": "After fibrinolysis the clopidogrel dose splits by age: 300 mg PO if ≤ 75 years old, and 75 mg PO if over 75. The reduced loading dose in older patients reflects the bleeding risk added by the fibrinolytic.",
+   "priority": "core",
+   "tags": [
+    "drug:clopidogrel",
+    "topic:fibrinolysis",
+    "topic:stemi"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 55,
+   "type": "contraindication",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "What does 3.05 say about ticagrelor in a patient who has received fibrinolysis?",
+   "options": [
+    "Most consider fibrinolysis a relative contraindication to ticagrelor",
+    "Ticagrelor is preferred over clopidogrel after fibrinolysis",
+    "Ticagrelor should be given at half the usual dose",
+    "Ticagrelor may be given once the 12-lead is repeated at 30 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "3.05 notes that most consider fibrinolysis a relative contraindication to ticagrelor, which is why the fibrinolytic pathway specifies clopidogrel instead, dosed by age.",
+   "priority": "core",
+   "tags": [
+    "drug:ticagrelor",
+    "topic:fibrinolysis",
+    "topic:contraindication"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 55,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "When fibrinolytics have been administered before transfer, at what point does 3.05 direct that the 12-lead ECG be repeated?",
+   "options": [
+    "30 minutes post administration",
+    "60 minutes post administration",
+    "Every 12 minutes until arrival",
+    "Only on arrival at the receiving facility"
+   ],
+   "answer_index": 0,
+   "explanation": "Repeat 12-lead ECG findings at 30 minutes post administration are part of the handoff package, along with the thrombolytic type and dose, current 12-lead, rhythm, vital signs, pain status and the amount of nitroglycerin and narcotics given. Resolution of ST elevation at 30 minutes is the bedside marker of reperfusion.",
+   "priority": "detail",
+   "tags": [
+    "topic:fibrinolysis",
+    "topic:12-lead",
+    "topic:handoff"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 55,
+   "type": "treatment",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "A STEMI patient is being transferred and no fibrinolytics have been given. What destination arrangement does 3.05 direct the crew to confirm?",
+   "options": [
+    "Direct to the cardiac cath lab, or a designated ED room if no cath lab bed is available",
+    "The closest emergency department regardless of PCI capability",
+    "The receiving facility's intensive care unit",
+    "Whichever destination the sending facility prefers"
+   ],
+   "answer_index": 0,
+   "explanation": "When no fibrinolytics have been administered, the crew confirms a direct-to-cath-lab destination, or a designated ED room if a cath lab bed is unavailable. The en route update to the receiving transfer center is made as soon as possible and must not delay departure.",
+   "priority": "detail",
+   "tags": [
+    "topic:stemi",
+    "topic:pci",
+    "topic:transport"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 56,
+   "type": "dose",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "What heparin bolus does the St. Charles Medical Center – Bend Heart One protocol use in 3.05?",
+   "options": [
+    "70 units/kg",
+    "60 units/kg",
+    "12 units/kg",
+    "20 units/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "The Heart One protocol for STEMI patients destined for St. Charles Medical Center – Bend specifies a heparin bolus of 70 units/kg, rather than the 60 units/kg standard dose used elsewhere in 3.05.",
+   "priority": "detail",
+   "tags": [
+    "drug:heparin",
+    "topic:stemi",
+    "topic:regional-protocol"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 56,
+   "type": "special",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "Which ECG finding does 3.05 say excludes a patient from the Heart One protocol?",
+   "options": [
+    "A left bundle branch block",
+    "A right bundle branch block",
+    "A paced rhythm",
+    "Atrial fibrillation with rapid ventricular response"
+   ],
+   "answer_index": 0,
+   "explanation": "The presence of a LBBB excludes the patient from entrance in the Heart One protocol, because it obscures the ST-segment criteria the protocol relies on.",
+   "priority": "detail",
+   "tags": [
+    "topic:stemi",
+    "topic:12-lead",
+    "topic:regional-protocol"
+   ]
+  },
+  {
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "page": 56,
+   "type": "scope",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "What authority does 3.05 give LFN Flight Nurses and Paramedics operating under the Heart One Protocol Form?",
+   "options": [
+    "To give any medication on the form without OLMC or physician consult",
+    "To give any medication on the form after an OLMC consult",
+    "To give only heparin without consult, with other drugs requiring OLMC",
+    "To titrate existing infusions, but not to initiate new medications"
+   ],
+   "answer_index": 0,
+   "explanation": "LFN Flight Nurses and Paramedics are authorized to administer any medication in accordance with the Heart One Protocol Form without OLMC or physician consult. 3.05 also directs calling SCMC Bend at least 20 minutes before arrival with an update and attaching a copy of the 12-lead to the chart.",
+   "priority": "detail",
+   "tags": [
+    "topic:scope-of-practice",
+    "topic:stemi",
+    "topic:regional-protocol"
+   ]
+  }
+ ]
+}

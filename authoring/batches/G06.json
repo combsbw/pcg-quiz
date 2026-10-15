@@ -1,0 +1,183 @@
+{
+ "id": "G06",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "6.06",
+   "title": "Post-Partum Hemorrhage",
+   "section": "Obstetrics",
+   "pages": [
+    148,
+    148
+   ],
+   "care_levels": [
+    "BLS",
+    "CCT"
+   ],
+   "n_items": 33,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "6.07",
+   "title": "Pre-Eclampsia, Eclampsia, and Pregnancy Induced Hypertension",
+   "section": "Obstetrics",
+   "pages": [
+    149,
+    150
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 79,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "6.08",
+   "title": "Pre-Term Labor and Premature Rupture of Membranes",
+   "section": "Obstetrics",
+   "pages": [
+    151,
+    152
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 68,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "6.09",
+   "title": "Trauma in Pregnancy",
+   "section": "Obstetrics",
+   "pages": [
+    153,
+    153
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS"
+   ],
+   "n_items": 31,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "6.10",
+   "title": "Vaginal Bleeding",
+   "section": "Obstetrics",
+   "pages": [
+    154,
+    154
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 37,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "7.01",
+   "title": "Burns and Inhalation Injuries",
+   "section": "Trauma",
+   "pages": [
+    156,
+    158
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 97,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "7.02",
+   "title": "Entrapment",
+   "section": "Trauma",
+   "pages": [
+    159,
+    160
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 60,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "7.03",
+   "title": "Extremity Trauma",
+   "section": "Trauma",
+   "pages": [
+    161,
+    162
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT"
+   ],
+   "n_items": 47,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "7.04",
+   "title": "General Trauma Care",
+   "section": "Trauma",
+   "pages": [
+    163,
+    165
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 98,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "7.05",
+   "title": "Head Injuries",
+   "section": "Trauma",
+   "pages": [
+    166,
+    167
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 81,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  148,
+  167
+ ]
+}

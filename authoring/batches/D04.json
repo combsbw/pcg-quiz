@@ -1,0 +1,205 @@
+{
+ "id": "D04",
+ "kind": "drug",
+ "sections": [
+  {
+   "kind": "drug",
+   "number": "12.46",
+   "title": "Lidocaine",
+   "section": "Formulary",
+   "pages": [
+    364,
+    364
+   ],
+   "care_levels": [],
+   "n_items": 5,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.47",
+   "title": "Lipid Emulsion 2%",
+   "section": "Formulary",
+   "pages": [
+    365,
+    365
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.48",
+   "title": "Lorazepam",
+   "section": "Formulary",
+   "pages": [
+    366,
+    366
+   ],
+   "care_levels": [],
+   "n_items": 6,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "section": "Formulary",
+   "pages": [
+    367,
+    368
+   ],
+   "care_levels": [],
+   "n_items": 4,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.50",
+   "title": "Mannitol",
+   "section": "Formulary",
+   "pages": [
+    369,
+    369
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.51",
+   "title": "Methylergonovine",
+   "section": "Formulary",
+   "pages": [
+    370,
+    370
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.52",
+   "title": "Methylprednisolone",
+   "section": "Formulary",
+   "pages": [
+    371,
+    371
+   ],
+   "care_levels": [],
+   "n_items": 4,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.53",
+   "title": "Metoprolol",
+   "section": "Formulary",
+   "pages": [
+    372,
+    372
+   ],
+   "care_levels": [],
+   "n_items": 3,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.54",
+   "title": "Midazolam",
+   "section": "Formulary",
+   "pages": [
+    373,
+    374
+   ],
+   "care_levels": [],
+   "n_items": 6,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.55",
+   "title": "Milrinone",
+   "section": "Formulary",
+   "pages": [
+    375,
+    375
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.56",
+   "title": "Morphine Sulfate",
+   "section": "Formulary",
+   "pages": [
+    376,
+    376
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.57",
+   "title": "N-acetylcysteine",
+   "section": "Formulary",
+   "pages": [
+    377,
+    377
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.58",
+   "title": "Naloxone",
+   "section": "Formulary",
+   "pages": [
+    378,
+    378
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.59",
+   "title": "Nicardipine",
+   "section": "Formulary",
+   "pages": [
+    379,
+    379
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.60",
+   "title": "Nifedipine",
+   "section": "Formulary",
+   "pages": [
+    380,
+    380
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  364,
+  380
+ ]
+}

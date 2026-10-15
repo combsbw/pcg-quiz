@@ -1,0 +1,140 @@
+{
+ "id": "G11",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "9.03",
+   "title": "Physician On Scene",
+   "section": "Regulatory",
+   "pages": [
+    278,
+    278
+   ],
+   "care_levels": [],
+   "n_items": 29,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "9.04",
+   "title": "Refusal of Treatment/Transport",
+   "section": "Regulatory",
+   "pages": [
+    279,
+    280
+   ],
+   "care_levels": [],
+   "n_items": 41,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "9.05",
+   "title": "Safe Haven",
+   "section": "Regulatory",
+   "pages": [
+    281,
+    282
+   ],
+   "care_levels": [],
+   "n_items": 55,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "section": "Regulatory",
+   "pages": [
+    283,
+    284
+   ],
+   "care_levels": [],
+   "n_items": 41,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "section": "Supplemental Information",
+   "pages": [
+    286,
+    287
+   ],
+   "care_levels": [],
+   "n_items": 86,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "10.02",
+   "title": "Glossary of Abbreviations",
+   "section": "Supplemental Information",
+   "pages": [
+    288,
+    289
+   ],
+   "care_levels": [],
+   "n_items": 67,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "section": "Supplemental Information",
+   "pages": [
+    290,
+    290
+   ],
+   "care_levels": [],
+   "n_items": 3,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "10.04",
+   "title": "Medication Administration Cross Check (MACC)",
+   "section": "Supplemental Information",
+   "pages": [
+    291,
+    291
+   ],
+   "care_levels": [],
+   "n_items": 0,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "section": "Supplemental Information",
+   "pages": [
+    292,
+    292
+   ],
+   "care_levels": [],
+   "n_items": 0,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "section": "Supplemental Information",
+   "pages": [
+    293,
+    296
+   ],
+   "care_levels": [],
+   "n_items": 38,
+   "figures": 4
+  }
+ ],
+ "page_span": [
+  278,
+  296
+ ]
+}

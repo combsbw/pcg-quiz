@@ -1,0 +1,164 @@
+{
+ "id": "G09",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "section": "Procedures",
+   "pages": [
+    212,
+    215
+   ],
+   "care_levels": [
+    "ALS"
+   ],
+   "n_items": 51,
+   "figures": 5
+  },
+  {
+   "kind": "guideline",
+   "number": "8.19",
+   "title": "Invasive Hemodynamic Monitoring",
+   "section": "Procedures",
+   "pages": [
+    216,
+    217
+   ],
+   "care_levels": [
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 49,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "8.20",
+   "title": "King Airway",
+   "section": "Procedures",
+   "pages": [
+    218,
+    218
+   ],
+   "care_levels": [
+    "BLS"
+   ],
+   "n_items": 28,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.21",
+   "title": "Mandatory Use of ETCO2",
+   "section": "Procedures",
+   "pages": [
+    219,
+    219
+   ],
+   "care_levels": [
+    "ALS"
+   ],
+   "n_items": 18,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.22",
+   "title": "Mechanical CPR Device",
+   "section": "Procedures",
+   "pages": [
+    220,
+    222
+   ],
+   "care_levels": [
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 62,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "section": "Procedures",
+   "pages": [
+    223,
+    230
+   ],
+   "care_levels": [],
+   "n_items": 258,
+   "figures": 11
+  },
+  {
+   "kind": "guideline",
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "section": "Procedures",
+   "pages": [
+    231,
+    232
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 58,
+   "figures": 2
+  },
+  {
+   "kind": "guideline",
+   "number": "8.25",
+   "title": "Needle Thoracostomy",
+   "section": "Procedures",
+   "pages": [
+    233,
+    235
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 38,
+   "figures": 3
+  },
+  {
+   "kind": "guideline",
+   "number": "8.26",
+   "title": "Non-Invasive Ventilation (CPAP & BiPAP)",
+   "section": "Procedures",
+   "pages": [
+    236,
+    237
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 74,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.27",
+   "title": "Pelvic Binder",
+   "section": "Procedures",
+   "pages": [
+    238,
+    239
+   ],
+   "care_levels": [
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 22,
+   "figures": 2
+  }
+ ],
+ "page_span": [
+  212,
+  239
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "id": "G02",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "2.05",
+   "title": "General Respiratory Care",
+   "section": "General Treatments",
+   "pages": [
+    28,
+    28
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT"
+   ],
+   "n_items": 25,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "2.06",
+   "title": "Nausea and Vomiting",
+   "section": "General Treatments",
+   "pages": [
+    29,
+    30
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 55,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "2.07",
+   "title": "Pain Management",
+   "section": "General Treatments",
+   "pages": [
+    31,
+    33
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 76,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "2.08",
+   "title": "Sedation: Post-Intubation",
+   "section": "General Treatments",
+   "pages": [
+    34,
+    37
+   ],
+   "care_levels": [
+    "ALS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 93,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "2.09",
+   "title": "Sedation: Procedural",
+   "section": "General Treatments",
+   "pages": [
+    38,
+    38
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 24,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "3.01",
+   "title": "Basic Life Support",
+   "section": "Cardiac",
+   "pages": [
+    40,
+    44
+   ],
+   "care_levels": [],
+   "n_items": 0,
+   "figures": 5
+  },
+  {
+   "kind": "guideline",
+   "number": "3.02",
+   "title": "Bradycardia",
+   "section": "Cardiac",
+   "pages": [
+    45,
+    47
+   ],
+   "care_levels": [
+    "PEARLS"
+   ],
+   "n_items": 7,
+   "figures": 2
+  },
+  {
+   "kind": "guideline",
+   "number": "3.03",
+   "title": "Cardiac Arrest - Medical",
+   "section": "Cardiac",
+   "pages": [
+    48,
+    50
+   ],
+   "care_levels": [
+    "PEARLS"
+   ],
+   "n_items": 25,
+   "figures": 2
+  },
+  {
+   "kind": "guideline",
+   "number": "3.04",
+   "title": "Cardiac Arrest: Post-ROSC Management",
+   "section": "Cardiac",
+   "pages": [
+    51,
+    52
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 31,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "3.05",
+   "title": "Cardiac Chest Pain, ACS, & STEMI - TSE",
+   "section": "Cardiac",
+   "pages": [
+    53,
+    56
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 108,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  28,
+  56
+ ]
+}

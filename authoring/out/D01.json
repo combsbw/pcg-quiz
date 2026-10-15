@@ -1,0 +1,2671 @@
+{
+ "batch": "D01",
+ "questions": [
+  {
+   "number": "12.01",
+   "title": "Recommended Infusion Mixtures",
+   "page": 311,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "When mixed from LFN stock, what is the LFN standard concentration of an epinephrine infusion?",
+   "options": [
+    "16 mcg/mL",
+    "4 mcg/mL",
+    "2 mcg/mL",
+    "10 mcg/mL"
+   ],
+   "answer_index": 0,
+   "explanation": "LFN mixes epinephrine 4 mg in 250 mL, which yields 16 mcg/mL. Norepinephrine is mixed identically, so the same concentration applies to both vasopressors and a pump programmed for one will not need re-entry if the drug is switched.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:infusions",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.01",
+   "title": "Recommended Infusion Mixtures",
+   "page": 311,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the LFN standard mix for a magnesium sulfate infusion prepared for an obstetric patient?",
+   "options": [
+    "10 grams / 250 mL",
+    "2 grams / 100 mL",
+    "1 gram / 250 mL",
+    "20 grams / 250 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "LFN carries two different magnesium mixes: 10 grams/250 mL (40 mg/mL) for OB indications and 2 grams/100 mL (20 mg/mL) for respiratory use. Grabbing the respiratory mix for eclampsia prophylaxis would deliver half the intended concentration per mL.",
+   "priority": "core",
+   "tags": [
+    "drug:magnesium sulfate",
+    "topic:infusions",
+    "topic:obstetrics"
+   ]
+  },
+  {
+   "number": "12.01",
+   "title": "Recommended Infusion Mixtures",
+   "page": 311,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the LFN standard concentration of a ketamine infusion?",
+   "options": [
+    "2 mg/mL",
+    "10 mg/mL",
+    "4 mg/mL",
+    "1 mg/mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Ketamine is mixed 500 mg in 250 mL, giving 2 mg/mL. Propofol at 10 mg/mL and lidocaine at 4 mg/mL are far more concentrated, so confirming the concentration before programming the pump matters for a sedation drip.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:infusions",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.01",
+   "title": "Recommended Infusion Mixtures",
+   "page": 311,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the LFN standard mix for a propofol infusion?",
+   "options": [
+    "1000 mg / 100 mL",
+    "500 mg / 250 mL",
+    "1 gram / 250 mL",
+    "200 mg / 100 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Propofol is used undiluted as 1000 mg in 100 mL, a 10 mg/mL concentration. That is the same concentration as the acetaminophen mix, and five times the ketamine mix, so the bag label must be read before titrating.",
+   "priority": "detail",
+   "tags": [
+    "drug:propofol",
+    "topic:infusions",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.01",
+   "title": "Recommended Infusion Mixtures",
+   "page": 311,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the LFN standard concentration of a nitroglycerin infusion?",
+   "options": [
+    "0.2 mg/mL",
+    "0.5 mg/mL",
+    "0.1 mg/mL",
+    "0.08 mg/mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Nitroglycerin is mixed 50 mg in 250 mL for 0.2 mg/mL, the same concentration LFN uses for nitroprusside and hydralazine. Clevidipine, by contrast, is 0.5 mg/mL.",
+   "priority": "detail",
+   "tags": [
+    "drug:nitroglycerin",
+    "topic:infusions",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.01",
+   "title": "Recommended Infusion Mixtures",
+   "page": 311,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "Before adding labetalol to the bag, how much volume must be removed so the final concentration is 2 mg/mL?",
+   "options": [
+    "40 mL from a 100 mL bag",
+    "20 mL from a 250 mL bag",
+    "50 mL from a 100 mL bag",
+    "40 mL from a 250 mL bag"
+   ],
+   "answer_index": 0,
+   "explanation": "Labetalol 200 mg is added to a 100 mL bag from which 40 mL has first been withdrawn, so the finished bag is 200 mg in 100 mL, or 2 mg/mL. Nicardipine uses the analogous step of removing 20 mL from a 250 mL bag.",
+   "priority": "detail",
+   "tags": [
+    "drug:labetalol",
+    "topic:infusions",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.02",
+   "title": "Acetaminophen",
+   "page": 312,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult IV acetaminophen dose for pain management?",
+   "options": [
+    "1000 mg over 15 minutes",
+    "750 mg over 15 minutes",
+    "15 mg/kg over 15 minutes",
+    "10 mg/kg over 15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults receive a flat 1000 mg IV infused over 15 minutes, repeatable every 6 hours. The weight-based 15 mg/kg figure is the pediatric dose, and 750 mg is the pediatric maximum single dose.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:pain",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.02",
+   "title": "Acetaminophen",
+   "page": 312,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric IV acetaminophen dose for pain management?",
+   "options": [
+    "15 mg/kg over 15 minutes",
+    "10 mg/kg over 15 minutes",
+    "1000 mg over 15 minutes",
+    "750 mg over 15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get 15 mg/kg IV over 15 minutes, repeatable every 6 hours. The same 15-minute infusion time is used for both populations, which is why the pump is set to 00:15 regardless of age.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:pain",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.02",
+   "title": "Acetaminophen",
+   "page": 312,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum single dose of IV acetaminophen for a pediatric patient?",
+   "options": [
+    "750 mg",
+    "1000 mg",
+    "3750 mg",
+    "4000 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "A weight-based 15 mg/kg calculation is capped at 750 mg per dose in children. The 4000 mg and 3750 mg figures are 24-hour totals, not single doses, and confusing the two is the usual acetaminophen error.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:pain",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.02",
+   "title": "Acetaminophen",
+   "page": 312,
+   "type": "threshold",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "At what age or weight does a pediatric patient receive the adult 1000 mg dose of IV acetaminophen?",
+   "options": [
+    "At 13 years and/or 50 kg or more",
+    "At 12 years and/or 40 kg or more",
+    "At 16 years and/or 50 kg or more",
+    "At 13 years and 40 kg or more"
+   ],
+   "answer_index": 0,
+   "explanation": "Patients who are 13 years or older and/or weigh 50 kg or more are dosed as adults. Because the criterion is 'and/or', a heavy 11-year-old and a light 15-year-old both qualify for the flat adult dose.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:pain",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.02",
+   "title": "Acetaminophen",
+   "page": 313,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the 24-hour maximum total dose of acetaminophen for a patient 13 years or older and 50 kg or more?",
+   "options": [
+    "4000 mg",
+    "3750 mg",
+    "1000 mg",
+    "750 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The 24-hour ceiling for adults and larger pediatric patients is 4000 mg from all sources. Hepatotoxicity is the dose-limiting toxicity, so any acetaminophen the patient received before transport counts against this total.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:pain",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.02",
+   "title": "Acetaminophen",
+   "page": 313,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the 24-hour maximum total dose of acetaminophen for a patient under 13 years of age and under 50 kg?",
+   "options": [
+    "75 mg/kg",
+    "50 mg/kg",
+    "15 mg/kg",
+    "100 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Smaller children are capped at 75 mg/kg in 24 hours, which works out to 3,750 mg at the top of that weight band. The 15 mg/kg figure is a single dose, not the daily ceiling.",
+   "priority": "detail",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:pain",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.02",
+   "title": "Acetaminophen",
+   "page": 312,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which condition is listed as a contraindication to acetaminophen?",
+   "options": [
+    "Severe hepatic disease",
+    "Severe renal disease",
+    "Hypercalcemia",
+    "Cardiogenic shock"
+   ],
+   "answer_index": 0,
+   "explanation": "Acetaminophen is contraindicated in hypersensitivity and in severe hepatic disease because the drug is metabolized by the liver and hepatotoxicity is its principal risk. Hepatic impairment short of severe disease is a caution rather than an absolute bar.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:pain"
+   ]
+  },
+  {
+   "number": "12.02",
+   "title": "Acetaminophen",
+   "page": 312,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which adverse reaction is associated with rapid administration of IV acetaminophen?",
+   "options": [
+    "Hypotension",
+    "Bradycardia",
+    "Bronchospasm",
+    "Hyperkalemia"
+   ],
+   "answer_index": 0,
+   "explanation": "Hypotension with rapid administration is the listed adverse reaction, which is why the dose is infused over 15 minutes rather than pushed. In a sepsis or post-ROSC patient already on pressors, that drop can be clinically significant.",
+   "priority": "core",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:pain",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.03",
+   "title": "Activated Charcoal",
+   "page": 314,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of activated charcoal for toxic absorption?",
+   "options": [
+    "1 gram/kg PO/NG",
+    "0.5 gram/kg PO/NG",
+    "100 grams PO/NG",
+    "50 grams PO/NG"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults receive 1 gram/kg by mouth or nasogastric tube. The 100 gram figure is the adult ceiling that this weight-based calculation is capped at, not the starting dose.",
+   "priority": "core",
+   "tags": [
+    "drug:activated charcoal",
+    "topic:toxicology",
+    "route:po",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.03",
+   "title": "Activated Charcoal",
+   "page": 314,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum adult dose of activated charcoal?",
+   "options": [
+    "100 grams",
+    "50 grams",
+    "60 grams",
+    "30 grams"
+   ],
+   "answer_index": 0,
+   "explanation": "Adult dosing is capped at 100 grams, so a patient over 100 kg still receives no more than that. Pediatric dosing is capped at half this amount.",
+   "priority": "core",
+   "tags": [
+    "drug:activated charcoal",
+    "topic:toxicology",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.03",
+   "title": "Activated Charcoal",
+   "page": 314,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric dose of activated charcoal?",
+   "options": [
+    "50 grams",
+    "100 grams",
+    "30 grams",
+    "60 grams"
+   ],
+   "answer_index": 0,
+   "explanation": "Children are dosed at 0.5 to 1 gram/kg with a ceiling of 50 grams, half the adult maximum. Aspiration is the feared complication, so volume matters as much as the gram total.",
+   "priority": "detail",
+   "tags": [
+    "drug:activated charcoal",
+    "topic:toxicology",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.03",
+   "title": "Activated Charcoal",
+   "page": 314,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "Within what time frame after ingestion is activated charcoal most effective?",
+   "options": [
+    "30 to 60 minutes",
+    "1 to 2 hours",
+    "15 to 30 minutes",
+    "2 to 4 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "Charcoal adsorbs drug still in the gut, so its benefit falls off once absorption has occurred; the guideline puts the useful window at 30 to 60 minutes post-ingestion. Beyond that the aspiration risk increasingly outweighs the benefit.",
+   "priority": "core",
+   "tags": [
+    "drug:activated charcoal",
+    "topic:toxicology"
+   ]
+  },
+  {
+   "number": "12.03",
+   "title": "Activated Charcoal",
+   "page": 314,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "Activated charcoal is ineffective for the ingestion of which substance?",
+   "options": [
+    "Lithium",
+    "Salicylates",
+    "Benzodiazepines",
+    "Tricyclic antidepressants"
+   ],
+   "answer_index": 0,
+   "explanation": "Low molecular weight compounds such as cyanide, iron, ethanol, methanol and lithium are not adsorbed by charcoal. Giving it anyway adds aspiration risk without any decontamination benefit.",
+   "priority": "core",
+   "tags": [
+    "drug:activated charcoal",
+    "topic:toxicology"
+   ]
+  },
+  {
+   "number": "12.03",
+   "title": "Activated Charcoal",
+   "page": 314,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of activated charcoal?",
+   "options": [
+    "Absorbent; antidote",
+    "Antiarrhythmic",
+    "Electrolyte",
+    "Corticosteroid"
+   ],
+   "answer_index": 0,
+   "explanation": "Charcoal is classed as an absorbent and antidote: it adsorbs toxin in the GI tract and can interrupt enteroenteric and enterohepatic recirculation. It may also reduce the effectiveness of other antidotes such as acetylcysteine.",
+   "priority": "detail",
+   "tags": [
+    "drug:activated charcoal",
+    "topic:toxicology"
+   ]
+  },
+  {
+   "number": "12.04",
+   "title": "Adenosine",
+   "page": 315,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the initial adult dose of adenosine for supraventricular tachycardia?",
+   "options": [
+    "12 mg rapid IVP",
+    "6 mg rapid IVP",
+    "0.1 mg/kg rapid IVP",
+    "0.2 mg/kg rapid IVP"
+   ],
+   "answer_index": 0,
+   "explanation": "LFN starts adults at 12 mg rapid IV push rather than the 6 mg first dose used in some ACLS algorithms. The 6 mg figure appears on this page only as the cap on the initial pediatric dose.",
+   "priority": "core",
+   "tags": [
+    "drug:adenosine",
+    "topic:svt",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.04",
+   "title": "Adenosine",
+   "page": 315,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult in SVT does not convert after the first dose of adenosine. What repeat dosing does 12.04 allow?",
+   "options": [
+    "One repeat dose of 12 mg",
+    "Two repeat doses of 12 mg",
+    "One repeat dose of 6 mg",
+    "Two repeat doses of 0.2 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults may have the 12 mg dose repeated once if there is no response, for a total of two doses. Further attempts are not a standing order, so persistent SVT moves on to other rate or rhythm control.",
+   "priority": "core",
+   "tags": [
+    "drug:adenosine",
+    "topic:svt",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.04",
+   "title": "Adenosine",
+   "page": 315,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the initial pediatric dose of adenosine for supraventricular tachycardia?",
+   "options": [
+    "0.1 mg/kg rapid IVP",
+    "0.2 mg/kg rapid IVP",
+    "0.05 mg/kg rapid IVP",
+    "12 mg rapid IVP"
+   ],
+   "answer_index": 0,
+   "explanation": "Children receive 0.1 mg/kg rapid IV push for the first dose. The 0.2 mg/kg figure is the repeat dose, and giving it first would double the intended initial exposure.",
+   "priority": "core",
+   "tags": [
+    "drug:adenosine",
+    "topic:svt",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.04",
+   "title": "Adenosine",
+   "page": 315,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum initial pediatric dose of adenosine?",
+   "options": [
+    "6 mg",
+    "12 mg",
+    "3 mg",
+    "18 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The 0.1 mg/kg initial pediatric calculation is capped at 6 mg, so a child over 60 kg still gets no more than 6 mg first. The 12 mg figure is the maximum single dose, which applies to the repeat.",
+   "priority": "core",
+   "tags": [
+    "drug:adenosine",
+    "topic:svt",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.04",
+   "title": "Adenosine",
+   "page": 315,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric repeat dose of adenosine if there is no response to the initial dose?",
+   "options": [
+    "0.2 mg/kg, may repeat x2",
+    "0.1 mg/kg, may repeat x2",
+    "0.2 mg/kg, may repeat x1",
+    "0.1 mg/kg, may repeat x1"
+   ],
+   "answer_index": 0,
+   "explanation": "Children may have two further attempts at 0.2 mg/kg, double the initial dose, with a 12 mg ceiling on any single dose. Adults by contrast get only one repeat.",
+   "priority": "core",
+   "tags": [
+    "drug:adenosine",
+    "topic:svt",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.04",
+   "title": "Adenosine",
+   "page": 315,
+   "type": "route",
+   "care_level": null,
+   "population": null,
+   "stem": "How should adenosine be administered?",
+   "options": [
+    "Rapid IV push with a rapid NS flush",
+    "Slow IV push over 2 minutes",
+    "IV infusion over 10 minutes",
+    "Intramuscular injection"
+   ],
+   "answer_index": 0,
+   "explanation": "Adenosine has a 2 to 3 second onset and a 5 to 12 second duration, so it must reach the AV node as a bolus; it is pushed rapidly and chased with a rapid normal saline flush at the most proximal IV or IO site. Anything slower lets the drug be metabolized before it arrives.",
+   "priority": "core",
+   "tags": [
+    "drug:adenosine",
+    "topic:svt",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.04",
+   "title": "Adenosine",
+   "page": 315,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which rhythm or condition is a contraindication to adenosine?",
+   "options": [
+    "Wolff-Parkinson-White syndrome",
+    "Asthma",
+    "Narrow complex regular tachycardia",
+    "Sinus tachycardia"
+   ],
+   "answer_index": 0,
+   "explanation": "Adenosine is contraindicated in WPW, atrial fibrillation, irregular wide complex tachycardia, sick sinus syndrome and second or third degree AV blocks, because blocking the AV node can accelerate conduction down an accessory pathway. Asthma is a caution, not a contraindication.",
+   "priority": "core",
+   "tags": [
+    "drug:adenosine",
+    "topic:svt"
+   ]
+  },
+  {
+   "number": "12.04",
+   "title": "Adenosine",
+   "page": 315,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "After conversion with adenosine, for how long may asystole be expected to develop?",
+   "options": [
+    "Up to 15 seconds",
+    "Up to 5 seconds",
+    "Up to 30 seconds",
+    "Up to 60 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "A pause of up to 15 seconds following conversion is expected and does not by itself call for compressions. Knowing this prevents an unnecessary code being started on a patient whose rhythm is about to return.",
+   "priority": "core",
+   "tags": [
+    "drug:adenosine",
+    "topic:svt"
+   ]
+  },
+  {
+   "number": "12.05",
+   "title": "Albuterol",
+   "page": 316,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of albuterol for entrapment?",
+   "options": [
+    "10 mg via neb",
+    "5 mg via neb",
+    "1 mg via neb",
+    "20 mg via neb"
+   ],
+   "answer_index": 0,
+   "explanation": "Entrapment gets a double-strength 10 mg nebulized dose, given for anticipated hyperkalemia from crush injury rather than for bronchospasm. Every other albuterol indication on this page uses 5 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:albuterol",
+    "topic:entrapment",
+    "route:inhalation",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.05",
+   "title": "Albuterol",
+   "page": 316,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of albuterol for hyperkalemia?",
+   "options": [
+    "5 mg via neb",
+    "10 mg via neb",
+    "2 mg via neb",
+    "20 mg via neb"
+   ],
+   "answer_index": 0,
+   "explanation": "Hyperkalemia is treated with 5 mg nebulized, repeatable every 15 minutes up to four times, and the pediatric dose is the same as adult. Albuterol shifts potassium intracellularly but does not remove it, so it is an adjunct to calcium and other measures.",
+   "priority": "core",
+   "tags": [
+    "drug:albuterol",
+    "topic:hyperkalemia",
+    "route:inhalation",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.05",
+   "title": "Albuterol",
+   "page": 316,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How often and how many times may the albuterol dose for hyperkalemia be repeated?",
+   "options": [
+    "Every 15 min PRN x 4",
+    "Every 15 min PRN x 2",
+    "Every 5 min PRN x 4",
+    "Every 15 min PRN x 6"
+   ],
+   "answer_index": 0,
+   "explanation": "The hyperkalemia row allows repeat dosing every 15 minutes as needed up to four doses, a defined ceiling the asthma and allergic reaction row does not carry. Tachycardia and further hypokalemia limit how far this can be pushed.",
+   "priority": "detail",
+   "tags": [
+    "drug:albuterol",
+    "topic:hyperkalemia",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.05",
+   "title": "Albuterol",
+   "page": 316,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of albuterol for asthma and COPD or allergic reactions?",
+   "options": [
+    "5 mg via neb",
+    "0.15 mg/kg via neb",
+    "2 mg via neb",
+    "10 mg via neb"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric column reads 'Same As Adult', so children also receive 5 mg nebulized, repeatable every 15 minutes as needed. Albuterol is not weight-based here because the delivered lung dose depends on ventilation rather than body mass.",
+   "priority": "core",
+   "tags": [
+    "drug:albuterol",
+    "topic:asthma",
+    "route:inhalation",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.05",
+   "title": "Albuterol",
+   "page": 316,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "For asthma, COPD or allergic reactions, for how many albuterol doses should ipratropium be combined with it?",
+   "options": [
+    "The first 2 doses",
+    "The first dose only",
+    "The first 3 doses",
+    "Every dose given"
+   ],
+   "answer_index": 0,
+   "explanation": "Ipratropium is combined with albuterol for the first two doses only; the added anticholinergic benefit does not persist with continued dosing. Duo-Neb contains both agents in one nebule.",
+   "priority": "core",
+   "tags": [
+    "drug:albuterol",
+    "drug:ipratropium",
+    "topic:asthma",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.05",
+   "title": "Albuterol",
+   "page": 316,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "For an asthma patient who is not improving with intermittent nebulized albuterol, what does 12.05 direct the crew to consider?",
+   "options": [
+    "Continuous albuterol treatments",
+    "Doubling the dose to 10 mg",
+    "Switching to the IV route",
+    "Adding a second ipratropium dose"
+   ],
+   "answer_index": 0,
+   "explanation": "The asthma row specifically says to consider continuous albuterol treatments rather than escalating the single dose. Continuous nebulization maintains bronchodilation in severe obstruction where intermittent dosing leaves gaps.",
+   "priority": "core",
+   "tags": [
+    "drug:albuterol",
+    "topic:asthma",
+    "route:inhalation",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.05",
+   "title": "Albuterol",
+   "page": 316,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of albuterol?",
+   "options": [
+    "Selective beta-2 adrenergic",
+    "Anticholinergic bronchodilator",
+    "Non-selective beta agonist",
+    "Methylxanthine bronchodilator"
+   ],
+   "answer_index": 0,
+   "explanation": "Albuterol is a selective beta-2 adrenergic with minimal beta-1 and alpha effect, which is why it dilates airways without the cardiac stimulation of a non-selective agent. Ipratropium, its usual partner, is the anticholinergic.",
+   "priority": "detail",
+   "tags": [
+    "drug:albuterol",
+    "topic:asthma"
+   ]
+  },
+  {
+   "number": "12.05",
+   "title": "Albuterol",
+   "page": 316,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which electrolyte abnormality is a listed adverse reaction to albuterol?",
+   "options": [
+    "Hypokalemia",
+    "Hyperkalemia",
+    "Hypernatremia",
+    "Hypocalcemia"
+   ],
+   "answer_index": 0,
+   "explanation": "Albuterol drives potassium intracellularly, which is therapeutic in hyperkalemia but can produce hypokalemia in a patient who started with a normal level. Tachycardia and dysrhythmias are the other reactions that limit repeated dosing.",
+   "priority": "core",
+   "tags": [
+    "drug:albuterol",
+    "topic:asthma"
+   ]
+  },
+  {
+   "number": "12.06",
+   "title": "Alteplase (tPA)",
+   "page": 317,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult total dose of alteplase for ischemic stroke?",
+   "options": [
+    "0.9 mg/kg, max 90 mg",
+    "0.6 mg/kg, max 60 mg",
+    "0.9 mg/kg, max 100 mg",
+    "1 mg/kg, max 90 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The total alteplase dose is 0.9 mg/kg with a hard ceiling of 90 mg, so any patient over 100 kg receives 90 mg. There is no LFN pediatric standing order for alteplase.",
+   "priority": "core",
+   "tags": [
+    "drug:alteplase",
+    "topic:stroke",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.06",
+   "title": "Alteplase (tPA)",
+   "page": 317,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How much of the total alteplase dose is given as the initial bolus, and over what time?",
+   "options": [
+    "10% of the total dose over 60 seconds",
+    "20% of the total dose over 60 seconds",
+    "10% of the total dose over 10 minutes",
+    "15% of the total dose over 60 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "Ten percent of the calculated total is given over 60 seconds as a bolus, with the balance infused afterwards. On an interfacility transfer the bolus is usually already in, so the crew's job is to confirm which portion remains.",
+   "priority": "core",
+   "tags": [
+    "drug:alteplase",
+    "topic:stroke",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.06",
+   "title": "Alteplase (tPA)",
+   "page": 317,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "After the alteplase bolus, how is the remainder of the dose given?",
+   "options": [
+    "90% by IV infusion over 60 minutes",
+    "90% by IV infusion over 30 minutes",
+    "80% by IV infusion over 60 minutes",
+    "90% by IV infusion over 90 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "The remaining 90 percent is infused over 60 minutes. Interrupting or running this infusion off-rate changes the delivered lytic dose, so the pump settings are verified at bedside before departure.",
+   "priority": "core",
+   "tags": [
+    "drug:alteplase",
+    "topic:stroke",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.06",
+   "title": "Alteplase (tPA)",
+   "page": 317,
+   "type": "procedure",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Once the alteplase infusion is complete, what does 12.06 direct the crew to do?",
+   "options": [
+    "Infuse 100 mL NS through the tubing at the same rate",
+    "Flush the line with 10 mL of normal saline",
+    "Discontinue the line and remove the IV",
+    "Infuse 250 mL of normal saline wide open"
+   ],
+   "answer_index": 0,
+   "explanation": "A 100 mL normal saline infusion is run through the same tubing at the same rate to deliver the drug left in the line. Skipping this step leaves a measurable fraction of the dose in the tubing rather than in the patient.",
+   "priority": "core",
+   "tags": [
+    "drug:alteplase",
+    "topic:stroke",
+    "procedure:infusion",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.06",
+   "title": "Alteplase (tPA)",
+   "page": 317,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Intracranial hemorrhage within what period is listed as a contraindication to alteplase?",
+   "options": [
+    "Within the last 3 months",
+    "Within the last month",
+    "Within the last 6 months",
+    "Within the last 12 months"
+   ],
+   "answer_index": 0,
+   "explanation": "Contraindications include active internal bleeding, history of CVA, and intracranial hemorrhage, intracranial or intraspinal surgery or trauma within the last 3 months. Alteplase should not be given at all if the CT is abnormal.",
+   "priority": "core",
+   "tags": [
+    "drug:alteplase",
+    "topic:stroke"
+   ]
+  },
+  {
+   "number": "12.06",
+   "title": "Alteplase (tPA)",
+   "page": 317,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of alteplase?",
+   "options": [
+    "Tissue plasminogen activator",
+    "Antiplatelet agent",
+    "Direct thrombin inhibitor",
+    "Factor Xa inhibitor"
+   ],
+   "answer_index": 0,
+   "explanation": "Alteplase is a tissue plasminogen activator: it binds fibrin in the thrombus and converts entrapped plasminogen to plasmin, breaking the clot down. That mechanism is also why bleeding is its defining adverse reaction.",
+   "priority": "detail",
+   "tags": [
+    "drug:alteplase",
+    "topic:stroke"
+   ]
+  },
+  {
+   "number": "12.06",
+   "title": "Alteplase (tPA)",
+   "page": 317,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Besides bleeding, which adverse reaction to alteplase must the crew monitor for in flight?",
+   "options": [
+    "Angioedema",
+    "Bradycardia",
+    "Hypokalemia",
+    "Hepatotoxicity"
+   ],
+   "answer_index": 0,
+   "explanation": "Anaphylaxis and angioedema are listed adverse reactions and the special considerations direct the crew to monitor for them alongside bleeding. Orolingual angioedema can threaten an airway mid-transport.",
+   "priority": "core",
+   "tags": [
+    "drug:alteplase",
+    "topic:stroke"
+   ]
+  },
+  {
+   "number": "12.06",
+   "title": "Alteplase (tPA)",
+   "page": 317,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "What must be verified with the sending RN before transporting a patient on alteplase?",
+   "options": [
+    "That excess medication was removed from the bottle",
+    "That the patient has received aspirin",
+    "That a repeat head CT has been obtained",
+    "That the pump was primed with D5W"
+   ],
+   "answer_index": 0,
+   "explanation": "Because the dose is drawn from a reconstituted bottle rather than a fixed vial, the crew confirms with the sending RN that the excess beyond the calculated dose was withdrawn per manufacturer instructions. Otherwise the remaining volume in the bottle does not represent the patient's dose.",
+   "priority": "detail",
+   "tags": [
+    "drug:alteplase",
+    "topic:stroke"
+   ]
+  },
+  {
+   "number": "12.07",
+   "title": "Amiodarone",
+   "page": 319,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of amiodarone for pulseless VT or VF?",
+   "options": [
+    "300 mg IV/IO",
+    "150 mg IV/IO",
+    "5 mg/kg IV/IO",
+    "450 mg IV/IO"
+   ],
+   "answer_index": 0,
+   "explanation": "Pulseless arrest gets 300 mg IV or IO, given undiluted. The 150 mg figure is both the arrest repeat dose and the starting dose for VT with a pulse, which is the pairing most often confused under pressure.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:cardiac arrest",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.07",
+   "title": "Amiodarone",
+   "page": 319,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult repeat dose of amiodarone in pulseless VT or VF, and when is it given?",
+   "options": [
+    "150 mg in 3 to 5 minutes",
+    "300 mg in 3 to 5 minutes",
+    "150 mg in 10 minutes",
+    "75 mg in 3 to 5 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "A single 150 mg repeat follows the initial 300 mg at 3 to 5 minutes. If ROSC is achieved an infusion is started rather than further boluses.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:cardiac arrest",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.07",
+   "title": "Amiodarone",
+   "page": 319,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of amiodarone for VT with a pulse?",
+   "options": [
+    "150 mg over 10 minutes",
+    "300 mg over 10 minutes",
+    "150 mg over 60 minutes",
+    "5 mg/kg over 10 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "A perfusing VT gets 150 mg infused over 10 minutes, not pushed; hypotension is the dose-limiting effect in a patient who still has a blood pressure. The undiluted push is reserved for arrest.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:vt",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.07",
+   "title": "Amiodarone",
+   "page": 319,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult maximum total daily dose of amiodarone when repeating doses for VT with a pulse?",
+   "options": [
+    "2.2 grams per day",
+    "1 gram per day",
+    "3 grams per day",
+    "2.2 grams per hour"
+   ],
+   "answer_index": 0,
+   "explanation": "Repeat 150 mg doses may be given as needed up to 2.2 grams in 24 hours, the same daily ceiling that applies to the infusion. Boluses and infusion both count toward that total.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:vt",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.07",
+   "title": "Amiodarone",
+   "page": 319,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of amiodarone for pulseless VT or VF?",
+   "options": [
+    "5 mg/kg IV/IO, max 300 mg",
+    "5 mg/kg IV/IO, max 150 mg",
+    "1 mg/kg IV/IO, max 300 mg",
+    "10 mg/kg IV/IO, max 300 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Children in pulseless arrest get 5 mg/kg IV or IO capped at 300 mg, and it may be repeated twice. The same 5 mg/kg appears for VT with a pulse but is infused over 60 minutes instead of pushed.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:cardiac arrest",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.07",
+   "title": "Amiodarone",
+   "page": 319,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of amiodarone for VT with a pulse?",
+   "options": [
+    "5 mg/kg over 60 minutes",
+    "5 mg/kg over 10 minutes",
+    "1 mg/kg over 60 minutes",
+    "10 mg/kg over 60 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "The same 5 mg/kg is used as in arrest, but it is infused over 60 minutes in a perfusing rhythm, with a maximum of 15 mg/kg. Pushing the arrest dose into a child with a pulse risks profound hypotension.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:vt",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.07",
+   "title": "Amiodarone",
+   "page": 319,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult amiodarone infusion regimen?",
+   "options": [
+    "1 mg/min for 6 hours, then 0.5 mg/min for 18 hours",
+    "0.5 mg/min for 6 hours, then 1 mg/min for 18 hours",
+    "1 mg/min for 18 hours, then 0.5 mg/min for 6 hours",
+    "1 mg/min for 6 hours, then 0.5 mg/min for 24 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "The infusion runs 1 mg/min for the first 6 hours and then halves to 0.5 mg/min for the following 18 hours. A post-ROSC patient started on this drip in flight needs the step-down time documented so the receiving unit does not restart the clock.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:infusions",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.07",
+   "title": "Amiodarone",
+   "page": 319,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric amiodarone infusion rate?",
+   "options": [
+    "Up to 15 mcg/kg/min",
+    "Up to 5 mcg/kg/min",
+    "Up to 20 mcg/kg/min",
+    "Up to 10 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric infusions start at 5 mcg/kg/min and may be titrated to a maximum of 15 mcg/kg/min, with a 2.2 gram daily ceiling. Note the pediatric infusion is in mcg/kg/min while the adult infusion is a flat mg/min.",
+   "priority": "detail",
+   "tags": [
+    "drug:amiodarone",
+    "topic:infusions",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.07",
+   "title": "Amiodarone",
+   "page": 319,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "To what concentration should amiodarone be diluted for infusion?",
+   "options": [
+    "1.8 mg/mL",
+    "1.6 mg/mL",
+    "2 mg/mL",
+    "0.5 mg/mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Amiodarone is diluted in D5W to 1.8 mg/mL, which is 450 mg in 250 mL or 900 mg in 500 mL; 0.9% saline may be substituted if D5W is unavailable. This matches the LFN standard mix in 12.01.",
+   "priority": "detail",
+   "tags": [
+    "drug:amiodarone",
+    "topic:infusions",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.07",
+   "title": "Amiodarone",
+   "page": 319,
+   "type": "route",
+   "care_level": null,
+   "population": null,
+   "stem": "How is amiodarone given in cardiac arrest?",
+   "options": [
+    "Undiluted",
+    "Diluted in 250 mL of D5W",
+    "Diluted in 100 mL of saline",
+    "As a 10-minute infusion"
+   ],
+   "answer_index": 0,
+   "explanation": "In arrest the drug is pushed undiluted so the full dose reaches the central circulation quickly; dilution is reserved for infusions and for perfusing rhythms. IV amiodarone should otherwise be run through an in-line filter.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:cardiac arrest",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.07",
+   "title": "Amiodarone",
+   "page": 319,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which condition is listed as a contraindication to amiodarone?",
+   "options": [
+    "Cardiogenic shock",
+    "Atrial fibrillation",
+    "Hyperkalemia",
+    "Asthma"
+   ],
+   "answer_index": 0,
+   "explanation": "Amiodarone is contraindicated in hypersensitivity, bradycardia and cardiogenic shock, because it further depresses automaticity, conductivity and contractility. It should also be avoided where the QT is already prolonged.",
+   "priority": "core",
+   "tags": [
+    "drug:amiodarone",
+    "topic:vt"
+   ]
+  },
+  {
+   "number": "12.08",
+   "title": "Aspirin",
+   "page": 320,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of aspirin for chest pain, STEMI and ACS?",
+   "options": [
+    "324 mg PO",
+    "81 mg PO",
+    "650 mg PO",
+    "162 mg PO"
+   ],
+   "answer_index": 0,
+   "explanation": "LFN gives 324 mg by mouth, which is four 81 mg chewable tablets. There is no LFN pediatric standing order for aspirin.",
+   "priority": "core",
+   "tags": [
+    "drug:aspirin",
+    "topic:acs",
+    "route:po",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.08",
+   "title": "Aspirin",
+   "page": 320,
+   "type": "indication",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Besides chest pain, STEMI and ACS, for what indication does 12.08 list aspirin?",
+   "options": [
+    "Altitude related emergencies",
+    "Ischemic stroke",
+    "Pulmonary embolism",
+    "Pericarditis"
+   ],
+   "answer_index": 0,
+   "explanation": "Altitude related emergencies are the second listed indication, sharing the same 324 mg oral dose. Aspirin is not listed for ischemic stroke in this formulary entry.",
+   "priority": "detail",
+   "tags": [
+    "drug:aspirin",
+    "topic:altitude",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.08",
+   "title": "Aspirin",
+   "page": 320,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of aspirin?",
+   "options": [
+    "Antiplatelet; NSAID; salicylate",
+    "Tissue plasminogen activator",
+    "Direct thrombin inhibitor",
+    "Selective beta-2 adrenergic"
+   ],
+   "answer_index": 0,
+   "explanation": "Aspirin is classed as a non-opioid analgesic, antiplatelet, NSAID and salicylate. Its antiplatelet action, not its analgesia, is why it is given in ACS.",
+   "priority": "detail",
+   "tags": [
+    "drug:aspirin",
+    "topic:acs"
+   ]
+  },
+  {
+   "number": "12.08",
+   "title": "Aspirin",
+   "page": 320,
+   "type": "mechanism",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the mechanism of action of aspirin as listed in 12.08?",
+   "options": [
+    "Inhibits platelet function",
+    "Inhibits calcium influx into vascular smooth muscle",
+    "Blocks muscarinic responses to acetylcholine",
+    "Prolongs the cardiac action potential"
+   ],
+   "answer_index": 0,
+   "explanation": "Aspirin is an inhibitor of platelet function, limiting thrombus propagation in an occluded coronary artery. The effect is irreversible for the life of the platelet, which is why it persists long after the drug is cleared.",
+   "priority": "detail",
+   "tags": [
+    "drug:aspirin",
+    "topic:acs"
+   ]
+  },
+  {
+   "number": "12.08",
+   "title": "Aspirin",
+   "page": 320,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the listed contraindication to aspirin?",
+   "options": [
+    "Hypersensitivity to salicylates",
+    "Hypersensitivity to cephalosporins",
+    "Ventricular fibrillation",
+    "Severe hepatic disease"
+   ],
+   "answer_index": 0,
+   "explanation": "Salicylate hypersensitivity is the listed contraindication; allergy to other NSAIDs and bleeding disorders are cautions rather than absolute bars. Severe liver disease is avoided as a precaution, not listed as the contraindication.",
+   "priority": "core",
+   "tags": [
+    "drug:aspirin",
+    "topic:acs"
+   ]
+  },
+  {
+   "number": "12.08",
+   "title": "Aspirin",
+   "page": 320,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "How long can aspirin's platelet inhibitory effect last after a dose?",
+   "options": [
+    "Up to 10 days",
+    "4 to 6 hours",
+    "1 to 2 hours",
+    "Up to 7 days"
+   ],
+   "answer_index": 0,
+   "explanation": "Although the analgesic duration is 4 to 6 hours, the platelet inhibitory effect can persist up to 10 days. That matters when a receiving team is weighing surgery or an invasive procedure.",
+   "priority": "detail",
+   "tags": [
+    "drug:aspirin",
+    "topic:acs"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of atropine for bradycardia?",
+   "options": [
+    "1 mg IV",
+    "0.5 mg IV",
+    "2 mg IV",
+    "0.02 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults receive 1 mg IV, repeatable every 3 to 5 minutes. The older 0.5 mg dose is no longer used because sub-therapeutic doses can produce paradoxical bradycardia.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "topic:bradycardia",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult maximum total dose of atropine for bradycardia?",
+   "options": [
+    "3 mg",
+    "1 mg",
+    "5 mg",
+    "2 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Adult bradycardia dosing stops at a 3 mg total, beyond which full vagal blockade is achieved and further doses add no benefit. A patient still bradycardic at 3 mg needs pacing or a chronotropic infusion.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "topic:bradycardia",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of atropine for bradycardia?",
+   "options": [
+    "0.02 mg/kg IV",
+    "0.01 mg/kg IV",
+    "0.05 mg/kg IV",
+    "0.1 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Children receive 0.02 mg/kg IV, which may be repeated once. The lower 0.01 mg/kg figure is the pediatric dose for ketamine hypersecretions, and 0.05 mg/kg is for organophosphate poisoning.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "topic:bradycardia",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum single pediatric dose of atropine for bradycardia?",
+   "options": [
+    "0.5 mg",
+    "1 mg",
+    "3 mg",
+    "0.25 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "A pediatric 0.02 mg/kg calculation is capped at 0.5 mg per dose, with a 3 mg total ceiling across doses. The 1 mg figure is the adult single dose.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "topic:bradycardia",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of atropine for ketamine-induced hypersecretions?",
+   "options": [
+    "0.25 mg IV PRN",
+    "0.5 mg IV PRN",
+    "1 mg IV PRN",
+    "0.01 mg/kg IV PRN"
+   ],
+   "answer_index": 0,
+   "explanation": "Hypersecretions from ketamine are treated with a small 0.25 mg IV dose as needed, well below the 1 mg bradycardia dose. The aim is drying secretions, not raising heart rate.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "drug:ketamine",
+    "topic:secretions",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of atropine for ketamine-induced hypersecretions?",
+   "options": [
+    "0.01 mg/kg IV PRN",
+    "0.02 mg/kg IV PRN",
+    "0.05 mg/kg IV PRN",
+    "0.25 mg IV PRN"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get 0.01 mg/kg IV as needed for hypersecretions, half the 0.02 mg/kg used for bradycardia. The 0.25 mg flat dose is the adult figure.",
+   "priority": "detail",
+   "tags": [
+    "drug:atropine",
+    "drug:ketamine",
+    "topic:secretions",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of atropine for organophosphate poisoning?",
+   "options": [
+    "2 to 5 mg IV/IM",
+    "1 mg IV/IM",
+    "0.25 mg IV/IM",
+    "5 to 10 mg IV/IM"
+   ],
+   "answer_index": 0,
+   "explanation": "Organophosphate poisoning takes much larger doses than bradycardia: 2 to 5 mg IV or IM, repeated every 5 minutes. The IM route is included because these patients are often decontaminated before IV access is available.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "topic:toxicology",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of atropine for organophosphate poisoning?",
+   "options": [
+    "0.05 mg/kg IV",
+    "0.02 mg/kg IV",
+    "0.01 mg/kg IV",
+    "0.1 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Children receive 0.05 mg/kg IV, repeated every 5 minutes until secretions decrease. That is more than double the 0.02 mg/kg bradycardia dose, reflecting the large atropine requirement in cholinergic crisis.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "topic:toxicology",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "In organophosphate poisoning, what endpoint determines when to stop repeating atropine?",
+   "options": [
+    "Secretions have decreased",
+    "Heart rate exceeds 100",
+    "The pupils have dilated",
+    "A total of 3 mg has been given"
+   ],
+   "answer_index": 0,
+   "explanation": "Dosing is titrated to drying of secretions, not to heart rate or to a fixed milligram ceiling, because death in cholinergic crisis comes from bronchorrhea and bronchospasm. The 3 mg maximum applies only to the bradycardia indication.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "topic:toxicology",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "threshold",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "Up to what age does 12.09 list atropine as an RSI pretreatment?",
+   "options": [
+    "28 days or less",
+    "7 days or less",
+    "90 days or less",
+    "1 year or less"
+   ],
+   "answer_index": 0,
+   "explanation": "Atropine is listed as RSI pretreatment only for patients 28 days old or younger, at 0.02 mg/kg IV, and there is no adult equivalent. Neonates are the group most prone to vagally mediated bradycardia with laryngoscopy.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "topic:rsi",
+    "population:neonatal"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult maximum total dose of atropine for beta blocker or calcium channel blocker overdose?",
+   "options": [
+    "0.04 mg/kg",
+    "3 mg",
+    "0.5 mg",
+    "0.02 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Unlike bradycardia, the beta blocker and calcium channel blocker overdose row carries a weight-based ceiling of 0.04 mg/kg, with 1 mg doses repeated every 3 minutes. There is no LFN pediatric standing order for this indication.",
+   "priority": "detail",
+   "tags": [
+    "drug:atropine",
+    "topic:toxicology",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.09",
+   "title": "Atropine",
+   "page": 321,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "In which patients is atropine likely to be ineffective for bradycardia?",
+   "options": [
+    "Type II and III heart blocks",
+    "First degree AV block",
+    "Sinus bradycardia",
+    "Junctional escape rhythm"
+   ],
+   "answer_index": 0,
+   "explanation": "Atropine works by blocking vagal input at the SA and AV node, so it is likely ineffective in type II and III heart blocks and in cardiac transplant patients whose hearts are denervated. Those patients need pacing rather than further atropine.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "topic:bradycardia"
+   ]
+  },
+  {
+   "number": "12.10",
+   "title": "Betamethasone",
+   "page": 322,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the dose of betamethasone for fetal lung maturation?",
+   "options": [
+    "12 mg IM",
+    "6 mg IM",
+    "12 mg IV",
+    "24 mg IM"
+   ],
+   "answer_index": 0,
+   "explanation": "Betamethasone is given as 12 mg intramuscularly; there is no IV route and no LFN pediatric standing order. Antenatal steroids reduce intraventricular hemorrhage, necrotizing enterocolitis, neonatal mortality and respiratory distress syndrome.",
+   "priority": "core",
+   "tags": [
+    "drug:betamethasone",
+    "topic:obstetrics",
+    "route:im",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.10",
+   "title": "Betamethasone",
+   "page": 322,
+   "type": "indication",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Within what time frame must preterm delivery be anticipated for betamethasone to be indicated?",
+   "options": [
+    "Within 7 days",
+    "Within 24 hours",
+    "Within 14 days",
+    "Within 48 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "The drug is given when there is a risk of preterm delivery within 7 days, which is the window over which the fetal lung benefit is realised. This includes patients with ruptured membranes or multiple gestations.",
+   "priority": "core",
+   "tags": [
+    "drug:betamethasone",
+    "topic:obstetrics",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.10",
+   "title": "Betamethasone",
+   "page": 322,
+   "type": "contraindication",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Under what circumstance should betamethasone be withheld in a patient at risk of preterm delivery?",
+   "options": [
+    "She has already received a course of steroids",
+    "Her membranes have already ruptured",
+    "She is carrying a multiple gestation",
+    "She is already in active labor"
+   ],
+   "answer_index": 0,
+   "explanation": "A patient who has already completed a course of antenatal steroids should not be redosed. Ruptured membranes and multiple gestation are explicitly included rather than excluded.",
+   "priority": "core",
+   "tags": [
+    "drug:betamethasone",
+    "topic:obstetrics",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.10",
+   "title": "Betamethasone",
+   "page": 322,
+   "type": "scope",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What authorization is required before giving betamethasone for fetal lung maturation?",
+   "options": [
+    "A physician order",
+    "Medical director notification afterward",
+    "It is a standing order for all crews",
+    "Receiving facility OB consent"
+   ],
+   "answer_index": 0,
+   "explanation": "Betamethasone is given via physician order rather than standing order, because the gestational age criteria and prior steroid history need to be confirmed. The crew must establish the EGA before making that call.",
+   "priority": "core",
+   "tags": [
+    "drug:betamethasone",
+    "topic:obstetrics",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.10",
+   "title": "Betamethasone",
+   "page": 322,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of betamethasone?",
+   "options": [
+    "Corticosteroid",
+    "Tocolytic",
+    "Antibiotic",
+    "Electrolyte"
+   ],
+   "answer_index": 0,
+   "explanation": "Betamethasone is a corticosteroid that inhibits multiple inflammatory cytokines and produces glucocorticoid and mineralocorticoid effects. It does not stop contractions, so it is given alongside, not instead of, tocolysis.",
+   "priority": "detail",
+   "tags": [
+    "drug:betamethasone",
+    "topic:obstetrics"
+   ]
+  },
+  {
+   "number": "12.10",
+   "title": "Betamethasone",
+   "page": 322,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which metabolic adverse reaction should be anticipated after betamethasone?",
+   "options": [
+    "Hyperglycemia",
+    "Hypoglycemia",
+    "Hyperkalemia",
+    "Hyponatremia"
+   ],
+   "answer_index": 0,
+   "explanation": "Corticosteroids raise blood glucose, so hyperglycemia is expected and matters most in a diabetic obstetric patient. Bradycardia, cardiac arrhythmia and raised intracranial pressure are also listed.",
+   "priority": "detail",
+   "tags": [
+    "drug:betamethasone",
+    "topic:obstetrics"
+   ]
+  },
+  {
+   "number": "12.11",
+   "title": "Calcium Chloride",
+   "page": 323,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of calcium chloride for hyperkalemia, hypocalcemia or calcium channel blocker overdose?",
+   "options": [
+    "0.5 to 1 gram over 2 to 5 minutes",
+    "1 to 2 grams over 2 minutes",
+    "20 mg/kg over 2 to 5 minutes",
+    "3 grams over 2 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "These three indications share one row: 0.5 to 1 gram given over 2 to 5 minutes, repeatable every 10 minutes as needed. The larger 1 to 2 gram dose belongs to the massive transfusion row.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium chloride",
+    "topic:hyperkalemia",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.11",
+   "title": "Calcium Chloride",
+   "page": 323,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of calcium chloride for blood product administration during massive transfusion?",
+   "options": [
+    "1 to 2 grams over 2 minutes",
+    "0.5 to 1 gram over 2 to 5 minutes",
+    "1 gram over 5 minutes",
+    "10 to 20 mg/kg over 2 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Massive transfusion gets 1 to 2 grams over 2 minutes to offset the citrate load in stored blood, which binds ionized calcium. That is a larger and faster dose than the hyperkalemia row.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium chloride",
+    "topic:transfusion",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.11",
+   "title": "Calcium Chloride",
+   "page": 323,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of calcium chloride for hyperkalemia, hypocalcemia or calcium channel blocker overdose?",
+   "options": [
+    "20 mg/kg over 2 to 5 minutes",
+    "10 to 20 mg/kg over 2 minutes",
+    "50 mg/kg over 2 minutes",
+    "0.5 to 1 gram over 2 to 5 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Children receive 20 mg/kg over 2 to 5 minutes and it may be repeated once as needed. The 10 to 20 mg/kg figure is the massive transfusion dose, and 50 mg/kg belongs to calcium gluconate.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium chloride",
+    "topic:hyperkalemia",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.11",
+   "title": "Calcium Chloride",
+   "page": 323,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of calcium chloride for blood product administration during massive transfusion?",
+   "options": [
+    "10 to 20 mg/kg over 2 minutes",
+    "20 mg/kg over 2 to 5 minutes",
+    "50 mg/kg over 2 minutes",
+    "5 to 10 mg/kg over 2 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric massive transfusion dose is 10 to 20 mg/kg over 2 minutes, matching the adult row's faster push. Calcium is given with transfusion to counter citrate-induced hypocalcemia, which causes hypotension and coagulopathy.",
+   "priority": "detail",
+   "tags": [
+    "drug:calcium chloride",
+    "topic:transfusion",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.11",
+   "title": "Calcium Chloride",
+   "page": 323,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which condition is a contraindication to calcium chloride?",
+   "options": [
+    "Hypercalcemia",
+    "Hyperkalemia",
+    "Hypocalcemia",
+    "Hypomagnesemia"
+   ],
+   "answer_index": 0,
+   "explanation": "Calcium chloride is contraindicated in ventricular fibrillation and hypercalcemia. It also warrants caution in patients on digitalis, in renal or cardiac insufficiency, and in immobilized patients.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium chloride",
+    "topic:hyperkalemia"
+   ]
+  },
+  {
+   "number": "12.11",
+   "title": "Calcium Chloride",
+   "page": 323,
+   "type": "route",
+   "care_level": null,
+   "population": null,
+   "stem": "Through what access should calcium chloride be administered?",
+   "options": [
+    "A large patent IV or central line",
+    "Any peripheral IV",
+    "An intraosseous line only",
+    "A small gauge hand IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Calcium chloride is caustic and causes tissue necrosis if it extravasates, so it goes through a large patent IV or a central line. Patency should be confirmed before the push, not discovered afterwards.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium chloride",
+    "topic:hyperkalemia",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.11",
+   "title": "Calcium Chloride",
+   "page": 323,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "How much elemental calcium does calcium chloride deliver compared with calcium gluconate?",
+   "options": [
+    "Three times as much",
+    "Twice as much",
+    "The same amount",
+    "Half as much"
+   ],
+   "answer_index": 0,
+   "explanation": "One gram of calcium chloride contains 270 mg of elemental calcium, three times what the same weight of calcium gluconate delivers. This is why the gluconate doses in 12.12 are numerically much larger for the same indications.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium chloride",
+    "drug:calcium gluconate",
+    "topic:hyperkalemia"
+   ]
+  },
+  {
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "page": 324,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of calcium gluconate for hyperkalemia with ECG changes?",
+   "options": [
+    "3 grams over 2 minutes",
+    "1 to 2 grams over 5 minutes",
+    "1 to 3 grams over 3 to 5 minutes",
+    "1 gram SIVP"
+   ],
+   "answer_index": 0,
+   "explanation": "Peaked T-waves, a wide QRS or ventricular ectopy call for 3 grams over 2 minutes to stabilize the myocardium. Calcium does not lower the potassium, so albuterol and other shifting measures still follow.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium gluconate",
+    "topic:hyperkalemia",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "page": 324,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of calcium gluconate for hyperkalemia with ECG changes?",
+   "options": [
+    "50 mg/kg over 2 minutes",
+    "10 to 30 mg/kg over 2 minutes",
+    "50 mg/kg over 5 minutes",
+    "20 mg/kg over 2 to 5 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Children with peaked T-waves, a wide QRS or ventricular ectopy receive 50 mg/kg over 2 minutes. The same 50 mg/kg appears for massive transfusion and septic shock but is given over 5 minutes there.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium gluconate",
+    "topic:hyperkalemia",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "page": 324,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of calcium gluconate for beta blocker or calcium channel blocker overdose?",
+   "options": [
+    "3 grams SIVP",
+    "1 gram SIVP",
+    "1 to 2 grams over 5 minutes",
+    "50 mg/kg SIVP"
+   ],
+   "answer_index": 0,
+   "explanation": "Beta blocker and calcium channel blocker overdose is treated with 3 grams by slow IV push, repeatable every 15 minutes. There is no LFN pediatric standing order for this indication.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium gluconate",
+    "topic:toxicology",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "page": 324,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How many total doses of calcium gluconate may be given for beta blocker or calcium channel blocker overdose?",
+   "options": [
+    "3 doses",
+    "2 doses",
+    "4 doses",
+    "5 doses"
+   ],
+   "answer_index": 0,
+   "explanation": "Repeat dosing every 15 minutes as needed is capped at a total of 3 doses. Beyond that, ongoing toxicity needs high-dose insulin, glucagon or pressor support rather than more calcium.",
+   "priority": "detail",
+   "tags": [
+    "drug:calcium gluconate",
+    "topic:toxicology",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "page": 324,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of calcium gluconate for magnesium sulfate toxicity?",
+   "options": [
+    "1 to 3 grams over 3 to 5 minutes",
+    "3 grams over 2 minutes",
+    "1 to 2 grams over 5 minutes",
+    "1 gram over 3 to 5 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Magnesium toxicity, usually in an obstetric patient on a magnesium drip, is reversed with 1 to 3 grams over 3 to 5 minutes. Calcium antagonizes magnesium at the neuromuscular junction, restoring reflexes and respiratory drive.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium gluconate",
+    "topic:obstetrics",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "page": 324,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of calcium gluconate for magnesium sulfate toxicity?",
+   "options": [
+    "10 to 30 mg/kg over 2 minutes",
+    "50 mg/kg over 2 minutes",
+    "50 mg/kg over 5 minutes",
+    "20 mg/kg over 2 to 5 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Children receive 10 to 30 mg/kg over 2 minutes for magnesium toxicity, a lower range than the 50 mg/kg used for hyperkalemia. This is the one pediatric row on the page that is not 50 mg/kg.",
+   "priority": "detail",
+   "tags": [
+    "drug:calcium gluconate",
+    "topic:obstetrics",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "page": 324,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of calcium gluconate during massive blood transfusion?",
+   "options": [
+    "1 to 2 grams over 5 minutes",
+    "3 grams over 2 minutes",
+    "1 to 3 grams over 3 to 5 minutes",
+    "1 gram over 2 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Massive transfusion gets 1 to 2 grams over 5 minutes to offset the citrate in stored blood, which chelates ionized calcium. Any calcium the patient received prior to arrival counts toward the running total.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium gluconate",
+    "topic:transfusion",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "page": 324,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "After how many units of blood should calcium gluconate be considered in an adult receiving a massive transfusion?",
+   "options": [
+    "After 1 to 2 units",
+    "After 4 units",
+    "After the first unit",
+    "After 6 units"
+   ],
+   "answer_index": 0,
+   "explanation": "Calcium is considered after 1 to 2 units of blood, and any calcium given prior to arrival is included in the count. Citrate-induced hypocalcemia produces hypotension and worsens coagulopathy early in a transfusion.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium gluconate",
+    "topic:transfusion",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "page": 324,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of calcium gluconate for septic shock with a low serum ionized calcium?",
+   "options": [
+    "50 mg/kg over 5 minutes",
+    "50 mg/kg over 2 minutes",
+    "10 to 30 mg/kg over 2 minutes",
+    "20 mg/kg over 5 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Children in septic shock with a low ionized calcium receive 50 mg/kg over 5 minutes, up to a 2 gram maximum. There is no LFN adult standing order for this indication.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium gluconate",
+    "topic:sepsis",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "page": 324,
+   "type": "threshold",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Below what serum ionized calcium level is calcium gluconate indicated in pediatric septic shock?",
+   "options": [
+    "Less than 1.1 mmol/L",
+    "Less than 1.0 mmol/L",
+    "Less than 0.9 mmol/L",
+    "Less than 1.2 mmol/L"
+   ],
+   "answer_index": 0,
+   "explanation": "The septic shock row is keyed to a serum ionized calcium below 1.1 mmol/L, so it requires a lab value rather than clinical suspicion. Ionized calcium, not total calcium, is the figure that matters.",
+   "priority": "detail",
+   "tags": [
+    "drug:calcium gluconate",
+    "topic:sepsis",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "page": 324,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of calcium gluconate given for entrapment when hyperkalemia is present or suspected?",
+   "options": [
+    "1 gram SIVP",
+    "3 grams SIVP",
+    "1 to 2 grams over 5 minutes",
+    "50 mg/kg SIVP"
+   ],
+   "answer_index": 0,
+   "explanation": "Entrapment with known or suspected hyperkalemia gets 1 gram by slow IV push, given before or during extrication to protect the myocardium from the potassium load released on release of the crush. There is no pediatric standing order for this row.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium gluconate",
+    "topic:entrapment",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.13",
+   "title": "Cefazolin",
+   "page": 325,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of cefazolin for open fractures?",
+   "options": [
+    "2 grams IVP over 3 to 5 minutes",
+    "1 gram IVP over 3 to 5 minutes",
+    "30 mg/kg IVP over 3 to 5 minutes",
+    "2 grams IVP over 30 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults with an open fracture receive 2 grams by slow IV push over 3 to 5 minutes. Early antibiotic administration is a time-dependent intervention, so it is given in flight rather than deferred to the trauma center.",
+   "priority": "core",
+   "tags": [
+    "drug:cefazolin",
+    "topic:trauma",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.13",
+   "title": "Cefazolin",
+   "page": 325,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of cefazolin for open fractures?",
+   "options": [
+    "30 mg/kg IVP over 3 to 5 minutes",
+    "50 mg/kg IVP over 3 to 5 minutes",
+    "2 grams IVP over 3 to 5 minutes",
+    "20 mg/kg IVP over 3 to 5 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Children receive 30 mg/kg IV push over 3 to 5 minutes, capped at 2 grams. The infusion time is the same as for adults.",
+   "priority": "core",
+   "tags": [
+    "drug:cefazolin",
+    "topic:trauma",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.13",
+   "title": "Cefazolin",
+   "page": 325,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric dose of cefazolin?",
+   "options": [
+    "2 grams",
+    "1 gram",
+    "3 grams",
+    "4 grams"
+   ],
+   "answer_index": 0,
+   "explanation": "The 30 mg/kg pediatric calculation is capped at 2 grams, the same as the flat adult dose. A child over roughly 67 kg therefore gets the adult amount.",
+   "priority": "detail",
+   "tags": [
+    "drug:cefazolin",
+    "topic:trauma",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.13",
+   "title": "Cefazolin",
+   "page": 325,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "How is a 1 gram vial of cefazolin reconstituted?",
+   "options": [
+    "With 2.5 mL of normal saline or sterile water",
+    "With 5 mL of normal saline or sterile water",
+    "With 10 mL of normal saline or sterile water",
+    "With 1 mL of normal saline or sterile water"
+   ],
+   "answer_index": 0,
+   "explanation": "Each 1 gram vial is reconstituted with 2.5 mL of normal saline or sterile water. The reconstituted drug may then be pushed over 3 to 5 minutes or mixed into 100 mL of saline and infused.",
+   "priority": "detail",
+   "tags": [
+    "drug:cefazolin",
+    "topic:trauma",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.13",
+   "title": "Cefazolin",
+   "page": 325,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which allergy is a contraindication to cefazolin?",
+   "options": [
+    "Hypersensitivity to penicillin",
+    "Hypersensitivity to salicylates",
+    "Hypersensitivity to egg products",
+    "Hypersensitivity to sulfa drugs"
+   ],
+   "answer_index": 0,
+   "explanation": "Cefazolin is contraindicated in hypersensitivity to penicillin, amoxicillin, or any other cephalosporin. Anaphylaxis and Stevens-Johnson syndrome are among the reactions that can follow.",
+   "priority": "core",
+   "tags": [
+    "drug:cefazolin",
+    "topic:trauma"
+   ]
+  },
+  {
+   "number": "12.13",
+   "title": "Cefazolin",
+   "page": 325,
+   "type": "indication",
+   "care_level": null,
+   "population": null,
+   "stem": "Besides open fractures, for what injury may cefazolin be given with a physician's order?",
+   "options": [
+    "Crush injuries or severe tissue trauma",
+    "Penetrating abdominal trauma",
+    "Open head injuries",
+    "Burns over 20% body surface"
+   ],
+   "answer_index": 0,
+   "explanation": "Crush injuries and other severe tissue trauma may receive cefazolin with a physician's order, outside the open fracture standing order. The rationale is the same contamination risk that drives open fracture prophylaxis.",
+   "priority": "detail",
+   "tags": [
+    "drug:cefazolin",
+    "topic:trauma"
+   ]
+  },
+  {
+   "number": "12.14",
+   "title": "Cisatracurium",
+   "page": 326,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult bolus dose of cisatracurium for ongoing paralysis?",
+   "options": [
+    "0.1 to 0.2 mg/kg",
+    "0.1 to 0.15 mg/kg",
+    "0.15 to 0.2 mg/kg",
+    "1 to 3 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults receive a 0.1 to 0.2 mg/kg bolus, after which an infusion maintains the blockade. Cisatracurium has no sedative effect, so adequate sedation and analgesia must run alongside it.",
+   "priority": "core",
+   "tags": [
+    "drug:cisatracurium",
+    "topic:paralysis",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.14",
+   "title": "Cisatracurium",
+   "page": 326,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric bolus dose of cisatracurium for ongoing paralysis?",
+   "options": [
+    "0.1 to 0.15 mg/kg",
+    "0.1 to 0.2 mg/kg",
+    "0.15 to 0.2 mg/kg",
+    "1 to 4 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric bolus range tops out slightly lower than the adult range, at 0.1 to 0.15 mg/kg. The pediatric infusion range, by contrast, goes slightly higher than the adult one.",
+   "priority": "detail",
+   "tags": [
+    "drug:cisatracurium",
+    "topic:paralysis",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.14",
+   "title": "Cisatracurium",
+   "page": 326,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult cisatracurium infusion rate for ongoing paralysis?",
+   "options": [
+    "1 to 3 mcg/kg/min",
+    "1 to 4 mcg/kg/min",
+    "3 to 5 mcg/kg/min",
+    "0.1 to 0.2 mg/kg bolus"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults are maintained at 1 to 3 mcg/kg/min. Because cisatracurium undergoes Hofmann elimination rather than organ clearance, the rate does not need adjusting for renal or hepatic failure.",
+   "priority": "core",
+   "tags": [
+    "drug:cisatracurium",
+    "topic:paralysis",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.14",
+   "title": "Cisatracurium",
+   "page": 326,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric cisatracurium infusion rate for ongoing paralysis?",
+   "options": [
+    "1 to 4 mcg/kg/min",
+    "1 to 3 mcg/kg/min",
+    "2 to 5 mcg/kg/min",
+    "4 to 8 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Children are maintained at 1 to 4 mcg/kg/min, a slightly wider range at the top than the adult 1 to 3 mcg/kg/min. Train-of-four or clinical assessment still guides titration.",
+   "priority": "detail",
+   "tags": [
+    "drug:cisatracurium",
+    "topic:paralysis",
+    "route:iv",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.14",
+   "title": "Cisatracurium",
+   "page": 326,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of cisatracurium?",
+   "options": [
+    "Neuromuscular blocker, nondepolarizing",
+    "Neuromuscular blocker, depolarizing",
+    "Benzodiazepine sedative",
+    "Parasympatholytic agent"
+   ],
+   "answer_index": 0,
+   "explanation": "Cisatracurium is a nondepolarizing neuromuscular blocker that binds cholinergic receptor sites at the myoneural junction. Unlike succinylcholine it produces no fasciculations and no potassium shift.",
+   "priority": "core",
+   "tags": [
+    "drug:cisatracurium",
+    "topic:paralysis"
+   ]
+  },
+  {
+   "number": "12.14",
+   "title": "Cisatracurium",
+   "page": 326,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the duration of action of a cisatracurium bolus?",
+   "options": [
+    "35 to 45 minutes",
+    "2 to 3 minutes",
+    "3 to 5 minutes",
+    "10 to 15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Onset is 2 to 3 minutes and duration is 35 to 45 minutes, so a single bolus commits the crew to a paralyzed patient for most of a short flight. Sedation must be maintained for at least that long.",
+   "priority": "core",
+   "tags": [
+    "drug:cisatracurium",
+    "topic:paralysis"
+   ]
+  },
+  {
+   "number": "12.15",
+   "title": "Clevidipine",
+   "page": 327,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult initial infusion dose of clevidipine for hypertension?",
+   "options": [
+    "1 to 2 mg/hr",
+    "2 to 4 mg/hr",
+    "1 to 2 mcg/kg/min",
+    "21 mg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Clevidipine is started at 1 to 2 mg/hr and titrated to the target blood pressure. There are no LFN pediatric standing orders for clevidipine.",
+   "priority": "core",
+   "tags": [
+    "drug:clevidipine",
+    "topic:hypertension",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.15",
+   "title": "Clevidipine",
+   "page": 327,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How is a clevidipine infusion titrated to reach the target blood pressure?",
+   "options": [
+    "Increase by 1 to 2 mg/hr every 2 minutes",
+    "Increase by 1 to 2 mg/hr every 5 minutes",
+    "Double the rate every 90 seconds",
+    "Increase by 5 mg/hr every 2 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "The rate is increased by 1 to 2 mg/hr every 2 minutes until the target pressure is reached. With a 2 to 4 minute onset, that interval is short enough to see the effect of the previous step before taking the next.",
+   "priority": "core",
+   "tags": [
+    "drug:clevidipine",
+    "topic:hypertension",
+    "route:iv",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.15",
+   "title": "Clevidipine",
+   "page": 327,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum clevidipine infusion rate?",
+   "options": [
+    "21 mg/hr",
+    "16 mg/hr",
+    "32 mg/hr",
+    "10 mg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Titration stops at 21 mg/hr. A patient still above target at that rate needs a second agent rather than further escalation.",
+   "priority": "core",
+   "tags": [
+    "drug:clevidipine",
+    "topic:hypertension",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.15",
+   "title": "Clevidipine",
+   "page": 327,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which hypersensitivity is a contraindication to clevidipine?",
+   "options": [
+    "Hypersensitivity to egg or soy products",
+    "Hypersensitivity to penicillin",
+    "Hypersensitivity to salicylates",
+    "Hypersensitivity to cephalosporins"
+   ],
+   "answer_index": 0,
+   "explanation": "Clevidipine is formulated in a lipid emulsion, so allergy to egg or soy products is a contraindication, as is defective lipid metabolism or acute pancreatitis with hyperlipidemia. Severe aortic stenosis is also listed.",
+   "priority": "core",
+   "tags": [
+    "drug:clevidipine",
+    "topic:hypertension"
+   ]
+  },
+  {
+   "number": "12.15",
+   "title": "Clevidipine",
+   "page": 327,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "With which drug class should clevidipine-induced reflex tachycardia not be treated?",
+   "options": [
+    "Beta-blockers",
+    "Calcium salts",
+    "Antiarrhythmics",
+    "Opioid analgesics"
+   ],
+   "answer_index": 0,
+   "explanation": "Reflex tachycardia from clevidipine should not be treated with beta-blockers; the guideline directs reducing or discontinuing the clevidipine instead. Combining the two risks unopposed vasoconstriction and myocardial depression.",
+   "priority": "core",
+   "tags": [
+    "drug:clevidipine",
+    "topic:hypertension"
+   ]
+  },
+  {
+   "number": "12.15",
+   "title": "Clevidipine",
+   "page": 327,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of clevidipine?",
+   "options": [
+    "Dihydropyridine calcium channel blocker",
+    "Nondihydropyridine calcium blocker",
+    "Selective beta-2 adrenergic agent",
+    "Direct arterial vasodilator"
+   ],
+   "answer_index": 0,
+   "explanation": "Clevidipine is a dihydropyridine calcium channel blocker, inhibiting calcium influx into vascular smooth muscle and myocardium. The dihydropyridine class acts chiefly on vessels, which is why reflex tachycardia occurs.",
+   "priority": "detail",
+   "tags": [
+    "drug:clevidipine",
+    "topic:hypertension"
+   ]
+  }
+ ]
+}

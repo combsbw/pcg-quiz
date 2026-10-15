@@ -1,0 +1,127 @@
+{
+ "id": "D06",
+ "kind": "drug",
+ "sections": [
+  {
+   "kind": "drug",
+   "number": "12.76",
+   "title": "Sodium Chloride",
+   "section": "Formulary",
+   "pages": [
+    398,
+    398
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.77",
+   "title": "Sodium Polystyrene Sulfonate",
+   "section": "Formulary",
+   "pages": [
+    399,
+    399
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.78",
+   "title": "Succinylcholine",
+   "section": "Formulary",
+   "pages": [
+    400,
+    400
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.79",
+   "title": "Tenecteplase",
+   "section": "Formulary",
+   "pages": [
+    401,
+    401
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.80",
+   "title": "Terbutaline",
+   "section": "Formulary",
+   "pages": [
+    402,
+    402
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.81",
+   "title": "Ticagrelor",
+   "section": "Formulary",
+   "pages": [
+    403,
+    403
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.82",
+   "title": "Tranexamic Acid (TXA)",
+   "section": "Formulary",
+   "pages": [
+    404,
+    404
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.83",
+   "title": "Vasopressin",
+   "section": "Formulary",
+   "pages": [
+    405,
+    405
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.84",
+   "title": "Vecuronium",
+   "section": "Formulary",
+   "pages": [
+    406,
+    407
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  398,
+  407
+ ]
+}

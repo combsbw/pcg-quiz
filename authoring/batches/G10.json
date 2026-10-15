@@ -1,0 +1,161 @@
+{
+ "id": "G10",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "8.28",
+   "title": "Pericardiocentesis",
+   "section": "Procedures",
+   "pages": [
+    240,
+    241
+   ],
+   "care_levels": [
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 47,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "8.29",
+   "title": "Push Dose Vasopressors",
+   "section": "Procedures",
+   "pages": [
+    242,
+    242
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 31,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "section": "Procedures",
+   "pages": [
+    243,
+    248
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 152,
+   "figures": 3
+  },
+  {
+   "kind": "guideline",
+   "number": "8.31",
+   "title": "Spinal Motion Restriction",
+   "section": "Procedures",
+   "pages": [
+    249,
+    250
+   ],
+   "care_levels": [
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 47,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.32",
+   "title": "Surgical Cricothyrotomy",
+   "section": "Procedures",
+   "pages": [
+    251,
+    252
+   ],
+   "care_levels": [
+    "ALS"
+   ],
+   "n_items": 47,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.33",
+   "title": "Synchronized Cardioversion",
+   "section": "Procedures",
+   "pages": [
+    253,
+    254
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 37,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "8.34",
+   "title": "Tourniquet (CAT)",
+   "section": "Procedures",
+   "pages": [
+    255,
+    255
+   ],
+   "care_levels": [
+    "BLS"
+   ],
+   "n_items": 12,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.35",
+   "title": "Transcutaneous Pacing",
+   "section": "Procedures",
+   "pages": [
+    256,
+    258
+   ],
+   "care_levels": [
+    "ALS"
+   ],
+   "n_items": 51,
+   "figures": 2
+  },
+  {
+   "kind": "guideline",
+   "number": "9.01",
+   "title": "Death In The Field",
+   "section": "Regulatory",
+   "pages": [
+    260,
+    262
+   ],
+   "care_levels": [],
+   "n_items": 77,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "9.02",
+   "title": "Destination Determination",
+   "section": "Regulatory",
+   "pages": [
+    263,
+    277
+   ],
+   "care_levels": [],
+   "n_items": 111,
+   "figures": 10
+  }
+ ],
+ "page_span": [
+  240,
+  277
+ ]
+}

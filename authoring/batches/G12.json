@@ -1,0 +1,101 @@
+{
+ "id": "G12",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "section": "Supplemental Information",
+   "pages": [
+    297,
+    297
+   ],
+   "care_levels": [],
+   "n_items": 0,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "section": "Supplemental Information",
+   "pages": [
+    298,
+    298
+   ],
+   "care_levels": [],
+   "n_items": 0,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "11.2025.12.10",
+   "title": "Update 2025.12.10",
+   "section": "PCG Update Summaries",
+   "pages": [
+    309,
+    309
+   ],
+   "care_levels": [],
+   "n_items": 14,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "11.2026.09.15",
+   "title": "Update 2026.09.15",
+   "section": "PCG Update Summaries",
+   "pages": [
+    300,
+    300
+   ],
+   "care_levels": [],
+   "n_items": 31,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "11.2026.07.14",
+   "title": "Update 2026.07.14",
+   "section": "PCG Update Summaries",
+   "pages": [
+    301,
+    302
+   ],
+   "care_levels": [],
+   "n_items": 60,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "11.2026.03.18",
+   "title": "Update 2026.03.18",
+   "section": "PCG Update Summaries",
+   "pages": [
+    303,
+    304
+   ],
+   "care_levels": [],
+   "n_items": 41,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "11.2026.02.10",
+   "title": "Update 2026.02.10",
+   "section": "PCG Update Summaries",
+   "pages": [
+    305,
+    308
+   ],
+   "care_levels": [],
+   "n_items": 132,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  297,
+  309
+ ]
+}

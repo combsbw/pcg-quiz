@@ -1,0 +1,186 @@
+{
+ "id": "G04",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "4.06",
+   "title": "Hypothermia & Frost Bite",
+   "section": "Environmental",
+   "pages": [
+    87,
+    89
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 75,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "5.01",
+   "title": "Altered Mental Status",
+   "section": "Medical",
+   "pages": [
+    91,
+    91
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 47,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "5.02",
+   "title": "Anaphylaxis & Allergic Reactions",
+   "section": "Medical",
+   "pages": [
+    92,
+    94
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 91,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "5.03",
+   "title": "Aortic Emergencies",
+   "section": "Medical",
+   "pages": [
+    95,
+    98
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 80,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "5.04",
+   "title": "Asthma & COPD",
+   "section": "Medical",
+   "pages": [
+    99,
+    101
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 88,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "5.05",
+   "title": "Atraumatic Hemorrhagic Stroke & Cerebral Edema",
+   "section": "Medical",
+   "pages": [
+    102,
+    103
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 67,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "5.05",
+   "title": "Cardiogenic Shock",
+   "section": "Medical",
+   "pages": [
+    104,
+    105
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 55,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "5.06",
+   "title": "Diabetic Ketoacidosis",
+   "section": "Medical",
+   "pages": [
+    106,
+    108
+   ],
+   "care_levels": [
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 76,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "5.07",
+   "title": "Electrolyte Disturbances",
+   "section": "Medical",
+   "pages": [
+    109,
+    112
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 124,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "5.08",
+   "title": "Epiglottitis & Croup",
+   "section": "Medical",
+   "pages": [
+    113,
+    114
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 50,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  87,
+  114
+ ]
+}

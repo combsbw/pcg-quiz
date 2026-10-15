@@ -1,0 +1,205 @@
+{
+ "id": "D02",
+ "kind": "drug",
+ "sections": [
+  {
+   "kind": "drug",
+   "number": "12.16",
+   "title": "CroFab",
+   "section": "Formulary",
+   "pages": [
+    328,
+    329
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.17",
+   "title": "Dexamethasone",
+   "section": "Formulary",
+   "pages": [
+    330,
+    330
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.18",
+   "title": "Dexmedetomidine",
+   "section": "Formulary",
+   "pages": [
+    331,
+    331
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.19",
+   "title": "Dextrose",
+   "section": "Formulary",
+   "pages": [
+    332,
+    332
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.20",
+   "title": "Diazepam",
+   "section": "Formulary",
+   "pages": [
+    333,
+    333
+   ],
+   "care_levels": [],
+   "n_items": 4,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.21",
+   "title": "Diltiazem",
+   "section": "Formulary",
+   "pages": [
+    334,
+    334
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.22",
+   "title": "Diphenhydramine",
+   "section": "Formulary",
+   "pages": [
+    335,
+    335
+   ],
+   "care_levels": [],
+   "n_items": 3,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.23",
+   "title": "Dobutamine",
+   "section": "Formulary",
+   "pages": [
+    336,
+    336
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.24",
+   "title": "Dopamine",
+   "section": "Formulary",
+   "pages": [
+    337,
+    337
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.25",
+   "title": "Droperidol",
+   "section": "Formulary",
+   "pages": [
+    338,
+    339
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.26",
+   "title": "Epinephrine",
+   "section": "Formulary",
+   "pages": [
+    340,
+    341
+   ],
+   "care_levels": [],
+   "n_items": 8,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.27",
+   "title": "Epoprostenol (inhaled)",
+   "section": "Formulary",
+   "pages": [
+    342,
+    342
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.28",
+   "title": "Esmolol",
+   "section": "Formulary",
+   "pages": [
+    343,
+    344
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.29",
+   "title": "Etomidate",
+   "section": "Formulary",
+   "pages": [
+    345,
+    345
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.30",
+   "title": "Fentanyl",
+   "section": "Formulary",
+   "pages": [
+    346,
+    346
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  328,
+  346
+ ]
+}

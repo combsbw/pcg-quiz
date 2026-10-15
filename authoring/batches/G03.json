@@ -1,0 +1,173 @@
+{
+ "id": "G03",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "3.06",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "section": "Cardiac",
+   "pages": [
+    57,
+    59
+   ],
+   "care_levels": [
+    "CCT"
+   ],
+   "n_items": 70,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "3.07",
+   "title": "Impella Ventricular Support Device",
+   "section": "Cardiac",
+   "pages": [
+    60,
+    65
+   ],
+   "care_levels": [
+    "CCT"
+   ],
+   "n_items": 134,
+   "figures": 3
+  },
+  {
+   "kind": "guideline",
+   "number": "3.08",
+   "title": "Left Ventricular Assist Device",
+   "section": "Cardiac",
+   "pages": [
+    66,
+    69
+   ],
+   "care_levels": [
+    "ALS"
+   ],
+   "n_items": 110,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "3.09",
+   "title": "Pulmonary Edema & CHF",
+   "section": "Cardiac",
+   "pages": [
+    70,
+    71
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 67,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "3.10",
+   "title": "Tachycardia With a Pulse",
+   "section": "Cardiac",
+   "pages": [
+    72,
+    74
+   ],
+   "care_levels": [
+    "PEARLS"
+   ],
+   "n_items": 16,
+   "figures": 3
+  },
+  {
+   "kind": "guideline",
+   "number": "4.01",
+   "title": "Altitude Related Emergencies",
+   "section": "Environmental",
+   "pages": [
+    76,
+    77
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 64,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "4.02",
+   "title": "Decompression Sickness",
+   "section": "Environmental",
+   "pages": [
+    78,
+    78
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 40,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "4.03",
+   "title": "Drowning",
+   "section": "Environmental",
+   "pages": [
+    79,
+    81
+   ],
+   "care_levels": [
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 90,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "4.04",
+   "title": "Envenomation",
+   "section": "Environmental",
+   "pages": [
+    82,
+    84
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 45,
+   "figures": 2
+  },
+  {
+   "kind": "guideline",
+   "number": "4.05",
+   "title": "Hyperthermia",
+   "section": "Environmental",
+   "pages": [
+    85,
+    86
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 73,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  57,
+  86
+ ]
+}

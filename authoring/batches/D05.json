@@ -1,0 +1,205 @@
+{
+ "id": "D05",
+ "kind": "drug",
+ "sections": [
+  {
+   "kind": "drug",
+   "number": "12.61",
+   "title": "Nitroglycerin",
+   "section": "Formulary",
+   "pages": [
+    381,
+    382
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.62",
+   "title": "Nitroprusside",
+   "section": "Formulary",
+   "pages": [
+    383,
+    383
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.63",
+   "title": "Norepinephrine",
+   "section": "Formulary",
+   "pages": [
+    384,
+    384
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.64",
+   "title": "Octreotide",
+   "section": "Formulary",
+   "pages": [
+    385,
+    385
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.65",
+   "title": "Ondansetron",
+   "section": "Formulary",
+   "pages": [
+    386,
+    386
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.66",
+   "title": "Oxytocin",
+   "section": "Formulary",
+   "pages": [
+    387,
+    387
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.67",
+   "title": "Phenobarbital",
+   "section": "Formulary",
+   "pages": [
+    388,
+    388
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.68",
+   "title": "Phenylephrine",
+   "section": "Formulary",
+   "pages": [
+    389,
+    389
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.69",
+   "title": "Potassium Chloride",
+   "section": "Formulary",
+   "pages": [
+    390,
+    390
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.70",
+   "title": "Pralidoxime",
+   "section": "Formulary",
+   "pages": [
+    391,
+    391
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.71",
+   "title": "Promethazine",
+   "section": "Formulary",
+   "pages": [
+    392,
+    392
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.72",
+   "title": "Propofol",
+   "section": "Formulary",
+   "pages": [
+    393,
+    393
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.73",
+   "title": "Racemic Epinephrine",
+   "section": "Formulary",
+   "pages": [
+    394,
+    394
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.74",
+   "title": "Rocuronium",
+   "section": "Formulary",
+   "pages": [
+    395,
+    395
+   ],
+   "care_levels": [],
+   "n_items": 3,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.75",
+   "title": "Sodium Bicarbonate",
+   "section": "Formulary",
+   "pages": [
+    396,
+    397
+   ],
+   "care_levels": [],
+   "n_items": 5,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  381,
+  397
+ ]
+}

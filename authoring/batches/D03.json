@@ -1,0 +1,205 @@
+{
+ "id": "D03",
+ "kind": "drug",
+ "sections": [
+  {
+   "kind": "drug",
+   "number": "12.31",
+   "title": "Flumazenil",
+   "section": "Formulary",
+   "pages": [
+    347,
+    347
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.32",
+   "title": "Fosphenytoin",
+   "section": "Formulary",
+   "pages": [
+    348,
+    348
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.33",
+   "title": "Furosemide",
+   "section": "Formulary",
+   "pages": [
+    349,
+    349
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.34",
+   "title": "Glucagon",
+   "section": "Formulary",
+   "pages": [
+    350,
+    350
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.35",
+   "title": "Heparin",
+   "section": "Formulary",
+   "pages": [
+    351,
+    351
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.36",
+   "title": "Hydralazine",
+   "section": "Formulary",
+   "pages": [
+    352,
+    352
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.37",
+   "title": "Hydromorphone",
+   "section": "Formulary",
+   "pages": [
+    353,
+    353
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.38",
+   "title": "Hydroxocobalamin",
+   "section": "Formulary",
+   "pages": [
+    354,
+    354
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.39",
+   "title": "Hypertonic Saline 3%",
+   "section": "Formulary",
+   "pages": [
+    355,
+    355
+   ],
+   "care_levels": [],
+   "n_items": 5,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.40",
+   "title": "Insulin",
+   "section": "Formulary",
+   "pages": [
+    356,
+    356
+   ],
+   "care_levels": [],
+   "n_items": 3,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.41",
+   "title": "Ipratropium Bromide",
+   "section": "Formulary",
+   "pages": [
+    357,
+    357
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.42",
+   "title": "Ketamine",
+   "section": "Formulary",
+   "pages": [
+    358,
+    359
+   ],
+   "care_levels": [],
+   "n_items": 6,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.43",
+   "title": "Labetalol",
+   "section": "Formulary",
+   "pages": [
+    360,
+    361
+   ],
+   "care_levels": [],
+   "n_items": 5,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.44",
+   "title": "Lactated Ringers",
+   "section": "Formulary",
+   "pages": [
+    362,
+    362
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.45",
+   "title": "Levetiracetam",
+   "section": "Formulary",
+   "pages": [
+    363,
+    363
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  347,
+  363
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "id": "G07",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "section": "Trauma",
+   "pages": [
+    168,
+    168
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 43,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "7.07",
+   "title": "Suspension Trauma",
+   "section": "Trauma",
+   "pages": [
+    169,
+    169
+   ],
+   "care_levels": [
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 33,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "section": "Trauma",
+   "pages": [
+    170,
+    173
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 111,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "8.01",
+   "title": "12-Lead ECG",
+   "section": "Procedures",
+   "pages": [
+    175,
+    176
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 34,
+   "figures": 2
+  },
+  {
+   "kind": "guideline",
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "section": "Procedures",
+   "pages": [
+    177,
+    180
+   ],
+   "care_levels": [
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 96,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "section": "Procedures",
+   "pages": [
+    181,
+    183
+   ],
+   "care_levels": [
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 60,
+   "figures": 3
+  },
+  {
+   "kind": "guideline",
+   "number": "8.04",
+   "title": "Defibrillation",
+   "section": "Procedures",
+   "pages": [
+    184,
+    184
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 24,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.05",
+   "title": "Dual Sequential External Defibrillation",
+   "section": "Procedures",
+   "pages": [
+    185,
+    185
+   ],
+   "care_levels": [
+    "ALS"
+   ],
+   "n_items": 14,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "8.06",
+   "title": "Epoprostenol (inhaled) Transport",
+   "section": "Procedures",
+   "pages": [
+    186,
+    191
+   ],
+   "care_levels": [
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 51,
+   "figures": 9
+  },
+  {
+   "kind": "guideline",
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "section": "Procedures",
+   "pages": [
+    192,
+    192
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 37,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  168,
+  192
+ ]
+}

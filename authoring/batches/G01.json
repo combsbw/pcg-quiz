@@ -1,0 +1,149 @@
+{
+ "id": "G01",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "1.01",
+   "title": "Introduction",
+   "section": "Front Matter",
+   "pages": [
+    10,
+    10
+   ],
+   "care_levels": [],
+   "n_items": 3,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "1.02",
+   "title": "Instructions for Use",
+   "section": "Front Matter",
+   "pages": [
+    11,
+    11
+   ],
+   "care_levels": [],
+   "n_items": 27,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "1.03",
+   "title": "LFN Medication Table",
+   "section": "Front Matter",
+   "pages": [
+    12,
+    12
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 2
+  },
+  {
+   "kind": "guideline",
+   "number": "1.04",
+   "title": "Scope of Practice",
+   "section": "Front Matter",
+   "pages": [
+    13,
+    14
+   ],
+   "care_levels": [],
+   "n_items": 13,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "1.05",
+   "title": "CCT State Scope of Practice Table",
+   "section": "Front Matter",
+   "pages": [
+    15,
+    15
+   ],
+   "care_levels": [],
+   "n_items": 35,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "1.06",
+   "title": "BLS and ALS Scope of Practice Table (Oregon)",
+   "section": "Front Matter",
+   "pages": [
+    16,
+    16
+   ],
+   "care_levels": [],
+   "n_items": 40,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "2.01",
+   "title": "Basic Approach to All Patient Contacts",
+   "section": "General Treatments",
+   "pages": [
+    18,
+    21
+   ],
+   "care_levels": [],
+   "n_items": 92,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "2.02",
+   "title": "Basic Approach for BLS Transport Teams",
+   "section": "General Treatments",
+   "pages": [
+    22,
+    22
+   ],
+   "care_levels": [
+    "BLS"
+   ],
+   "n_items": 20,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "2.03",
+   "title": "Anxiolysis",
+   "section": "General Treatments",
+   "pages": [
+    23,
+    23
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 30,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "2.04",
+   "title": "Combative Patient",
+   "section": "General Treatments",
+   "pages": [
+    24,
+    27
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 105,
+   "figures": 1
+  }
+ ],
+ "page_span": [
+  10,
+  27
+ ]
+}

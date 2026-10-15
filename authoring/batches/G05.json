@@ -1,0 +1,185 @@
+{
+ "id": "G05",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "5.09",
+   "title": "Hypovolemic & Hemorrhagic Shock",
+   "section": "Medical",
+   "pages": [
+    115,
+    117
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT"
+   ],
+   "n_items": 93,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "5.10",
+   "title": "Ischemic Stroke - TSE",
+   "section": "Medical",
+   "pages": [
+    118,
+    122
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 112,
+   "figures": 3
+  },
+  {
+   "kind": "guideline",
+   "number": "5.11",
+   "title": "Poisoning & Overdoses",
+   "section": "Medical",
+   "pages": [
+    123,
+    130
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 271,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "5.12",
+   "title": "Seizures",
+   "section": "Medical",
+   "pages": [
+    131,
+    132
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 73,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "5.13",
+   "title": "Sepsis & Septic Shock - TSE",
+   "section": "Medical",
+   "pages": [
+    133,
+    134
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 76,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "6.01",
+   "title": "Childbirth - Uncomplicated",
+   "section": "Obstetrics",
+   "pages": [
+    136,
+    137
+   ],
+   "care_levels": [
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 39,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "6.02",
+   "title": "Delivery Complications",
+   "section": "Obstetrics",
+   "pages": [
+    138,
+    141
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 125,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "6.03",
+   "title": "General OB Care and Transport Considerations",
+   "section": "Obstetrics",
+   "pages": [
+    142,
+    143
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 56,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "6.04",
+   "title": "HELLP Syndrome",
+   "section": "Obstetrics",
+   "pages": [
+    144,
+    144
+   ],
+   "care_levels": [
+    "BLS",
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 28,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "6.05",
+   "title": "Neonatal Resuscitation",
+   "section": "Obstetrics",
+   "pages": [
+    145,
+    147
+   ],
+   "care_levels": [
+    "ALS",
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 32,
+   "figures": 4
+  }
+ ],
+ "page_span": [
+  115,
+  147
+ ]
+}

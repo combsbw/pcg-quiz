@@ -1,0 +1,165 @@
+{
+ "id": "G08",
+ "kind": "guideline",
+ "sections": [
+  {
+   "kind": "guideline",
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "section": "Procedures",
+   "pages": [
+    193,
+    194
+   ],
+   "care_levels": [
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 35,
+   "figures": 3
+  },
+  {
+   "kind": "guideline",
+   "number": "8.09",
+   "title": "Flow-Safe II CPAP Delivery System",
+   "section": "Procedures",
+   "pages": [
+    195,
+    195
+   ],
+   "care_levels": [
+    "BLS"
+   ],
+   "n_items": 35,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "8.10",
+   "title": "Gastric Tube Insertion",
+   "section": "Procedures",
+   "pages": [
+    196,
+    196
+   ],
+   "care_levels": [
+    "ALS"
+   ],
+   "n_items": 34,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.11",
+   "title": "Hemostatic Agents",
+   "section": "Procedures",
+   "pages": [
+    197,
+    197
+   ],
+   "care_levels": [
+    "BLS",
+    "PEARLS"
+   ],
+   "n_items": 16,
+   "figures": 0
+  },
+  {
+   "kind": "guideline",
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "section": "Procedures",
+   "pages": [
+    198,
+    199
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 47,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "section": "Procedures",
+   "pages": [
+    200,
+    203
+   ],
+   "care_levels": [
+    "CCT"
+   ],
+   "n_items": 47,
+   "figures": 5
+  },
+  {
+   "kind": "guideline",
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "section": "Procedures",
+   "pages": [
+    204,
+    206
+   ],
+   "care_levels": [
+    "BLS"
+   ],
+   "n_items": 37,
+   "figures": 6
+  },
+  {
+   "kind": "guideline",
+   "number": "8.15",
+   "title": "Inline Nebulizer Treatment",
+   "section": "Procedures",
+   "pages": [
+    207,
+    209
+   ],
+   "care_levels": [
+    "ALS",
+    "PEARLS"
+   ],
+   "n_items": 25,
+   "figures": 4
+  },
+  {
+   "kind": "guideline",
+   "number": "8.16",
+   "title": "Intracranial Pressure Monitoring",
+   "section": "Procedures",
+   "pages": [
+    210,
+    210
+   ],
+   "care_levels": [
+    "CCT",
+    "PEARLS"
+   ],
+   "n_items": 27,
+   "figures": 1
+  },
+  {
+   "kind": "guideline",
+   "number": "8.17",
+   "title": "Intranasal Medication Delivery",
+   "section": "Procedures",
+   "pages": [
+    211,
+    211
+   ],
+   "care_levels": [
+    "BLS"
+   ],
+   "n_items": 28,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  193,
+  211
+ ]
+}

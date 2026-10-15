@@ -1,0 +1,205 @@
+{
+ "id": "D01",
+ "kind": "drug",
+ "sections": [
+  {
+   "kind": "drug",
+   "number": "12.01",
+   "title": "Recommended Infusion Mixtures",
+   "section": "Formulary",
+   "pages": [
+    311,
+    311
+   ],
+   "care_levels": [],
+   "n_items": 0,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.02",
+   "title": "Acetaminophen",
+   "section": "Formulary",
+   "pages": [
+    312,
+    313
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.03",
+   "title": "Activated Charcoal",
+   "section": "Formulary",
+   "pages": [
+    314,
+    314
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.04",
+   "title": "Adenosine",
+   "section": "Formulary",
+   "pages": [
+    315,
+    315
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.05",
+   "title": "Albuterol",
+   "section": "Formulary",
+   "pages": [
+    316,
+    316
+   ],
+   "care_levels": [],
+   "n_items": 3,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.06",
+   "title": "Alteplase (tPA)",
+   "section": "Formulary",
+   "pages": [
+    317,
+    318
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.07",
+   "title": "Amiodarone",
+   "section": "Formulary",
+   "pages": [
+    319,
+    319
+   ],
+   "care_levels": [],
+   "n_items": 3,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.08",
+   "title": "Aspirin",
+   "section": "Formulary",
+   "pages": [
+    320,
+    320
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.09",
+   "title": "Atropine",
+   "section": "Formulary",
+   "pages": [
+    321,
+    321
+   ],
+   "care_levels": [],
+   "n_items": 5,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.10",
+   "title": "Betamethasone",
+   "section": "Formulary",
+   "pages": [
+    322,
+    322
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.11",
+   "title": "Calcium Chloride",
+   "section": "Formulary",
+   "pages": [
+    323,
+    323
+   ],
+   "care_levels": [],
+   "n_items": 2,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.12",
+   "title": "Calcium Gluconate",
+   "section": "Formulary",
+   "pages": [
+    324,
+    324
+   ],
+   "care_levels": [],
+   "n_items": 6,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.13",
+   "title": "Cefazolin",
+   "section": "Formulary",
+   "pages": [
+    325,
+    325
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.14",
+   "title": "Cisatracurium",
+   "section": "Formulary",
+   "pages": [
+    326,
+    326
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  },
+  {
+   "kind": "drug",
+   "number": "12.15",
+   "title": "Clevidipine",
+   "section": "Formulary",
+   "pages": [
+    327,
+    327
+   ],
+   "care_levels": [],
+   "n_items": 1,
+   "figures": 0
+  }
+ ],
+ "page_span": [
+  311,
+  327
+ ]
+}
