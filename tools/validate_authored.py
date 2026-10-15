@@ -95,6 +95,22 @@ def check_batch(path: Path, sections_by_number: dict, strict_pages=True):
     if not isinstance(qs, list) or not qs:
         return [f"{path.name}: no questions array"], []
 
+    # Position skew. A batch where every correct answer sits at index 0 is
+    # gameable without reading the question; it is also invisible to every
+    # other check here, which is how ten batches shipped that way.
+    pos = {}
+    for q in qs:
+        ai = q.get("answer_index")
+        if isinstance(ai, int):
+            pos[ai] = pos.get(ai, 0) + 1
+    if qs and pos:
+        share = max(pos.values()) / len(qs)
+        if share > 0.45:
+            warns.append(
+                f"{path.name}: {share:.0%} of answers sit at one position "
+                f"{[pos.get(i, 0) for i in range(4)]} — vary which option is "
+                f"correct (the merge step also reshuffles, so this is advisory)")
+
     seen_stems = {}
     for i, q in enumerate(qs):
         tag = f"{path.name}[{i}] {q.get('number','?')}"

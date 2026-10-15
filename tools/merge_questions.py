@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import random
 import re
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
@@ -166,6 +167,30 @@ def chunk(mid, label, items, subtitle=""):
     return out
 
 
+
+def shuffle_options(rec):
+    """Deterministically redistribute the correct answer across positions.
+
+    Most authoring agents wrote the correct option first every time: ten of
+    sixteen batches had 100% of answers at index 0, so "always pick A" scored
+    67%. The quiz renders options in the given order by design, so the fix
+    belongs here, where it applies no matter what any future batch does.
+
+    The permutation is seeded from the question's own identity, so it is stable
+    across rebuilds — and because the id is a hash of the *answer text* rather
+    than its index, reordering never changes the id, and a card keeps its
+    scheduling history.
+    """
+    seed = int(hashlib.sha1(rec["id"].encode("utf-8")).hexdigest()[:8], 16)
+    rng = random.Random(seed)
+    answer_text = rec["options"][rec["answer"]]
+    opts = list(rec["options"])
+    rng.shuffle(opts)
+    rec["options"] = opts
+    rec["answer"] = opts.index(answer_text)
+    return rec
+
+
 def main():
     content = json.loads((OUT / "content.json").read_text(encoding="utf-8"))
     version = content["version"]
@@ -212,7 +237,7 @@ def main():
                 dropped["duplicate"] += 1
                 continue
             seen_id.add(rec["id"])
-            items.append(rec)
+            items.append(shuffle_options(rec))
 
     # ---- module assignment -------------------------------------------------
     buckets = defaultdict(list)

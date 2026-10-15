@@ -1,0 +1,2648 @@
+{
+ "batch": "D04",
+ "questions": [
+  {
+   "number": "12.46",
+   "title": "Lidocaine",
+   "page": 364,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the initial adult lidocaine dose for medical cardiac arrest?",
+   "options": [
+    "4 mg/kg",
+    "0.75 mg/kg",
+    "1 - 1.5 mg/kg",
+    "3 mg/kg"
+   ],
+   "answer_index": 2,
+   "explanation": "Lidocaine is loaded at 1 - 1.5 mg/kg in medical cardiac arrest; 0.75 mg/kg is the repeat bolus, 3 mg/kg the cumulative ceiling, and 4 mg/kg the local-anesthesia maximum.",
+   "priority": "core",
+   "tags": [
+    "drug:lidocaine",
+    "topic:cardiac arrest",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.46",
+   "title": "Lidocaine",
+   "page": 364,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum amount of lidocaine permitted for an adult in medical cardiac arrest?",
+   "options": [
+    "40 mg",
+    "3 doses or 3 mg/kg",
+    "0.2 mL/kg",
+    "4 mg/kg"
+   ],
+   "answer_index": 1,
+   "explanation": "Cardiac arrest dosing stops at 3 doses or 3 mg/kg, whichever comes first. 4 mg/kg is the separate ceiling for local infiltration and 40 mg is the IO pain dose.",
+   "priority": "core",
+   "tags": [
+    "drug:lidocaine",
+    "topic:cardiac arrest",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.46",
+   "title": "Lidocaine",
+   "page": 364,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A patient achieves ROSC after a lidocaine bolus during resuscitation. What is the adult lidocaine infusion rate for post-ROSC management?",
+   "options": [
+    "40 mg over 120 seconds",
+    "0.75 mg/kg",
+    "1 - 4 mg/min",
+    "1 - 1.5 mg/kg"
+   ],
+   "answer_index": 2,
+   "explanation": "The post-ROSC maintenance infusion is 1 - 4 mg/min, and it is only started if ROSC followed a bolus dose given during the resuscitation.",
+   "priority": "core",
+   "tags": [
+    "drug:lidocaine",
+    "topic:post rosc",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.46",
+   "title": "Lidocaine",
+   "page": 364,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult lidocaine repeat dose and interval when treating tachycardias?",
+   "options": [
+    "0.5 - 0.75 mg/kg q 3 - 5 minutes",
+    "0.5 mg/kg q 3 - 5 minutes",
+    "1 - 1.5 mg/kg q 5 - 10 minutes",
+    "0.75 mg/kg q 5 - 10 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Tachycardia repeat dosing is 0.5 - 0.75 mg/kg every 3 - 5 minutes, which is faster and lower than the cardiac arrest repeat of 0.75 mg/kg every 5 - 10 minutes. Both cap at 3 doses or 3 mg/kg.",
+   "priority": "core",
+   "tags": [
+    "drug:lidocaine",
+    "topic:tachycardia",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.46",
+   "title": "Lidocaine",
+   "page": 364,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum lidocaine dose for local anesthesia at an adult chest tube site?",
+   "options": [
+    "0.5 mg/kg",
+    "1.5 mg/kg",
+    "3 mg/kg",
+    "4 mg/kg"
+   ],
+   "answer_index": 3,
+   "explanation": "Up to 5 mL of 2% lidocaine is fanned out across the insertion area, not to exceed 4 mg/kg. The 3 mg/kg ceiling belongs to the antiarrhythmic indications.",
+   "priority": "core",
+   "tags": [
+    "drug:lidocaine",
+    "topic:chest tube",
+    "route:local",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.46",
+   "title": "Lidocaine",
+   "page": 364,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "For a child under 25 kg, what is the maximum lidocaine dose for local anesthesia at a chest tube site?",
+   "options": [
+    "4 mg/kg",
+    "0.2 mL/kg",
+    "0.5 mg/kg",
+    "0.75 mg/kg"
+   ],
+   "answer_index": 1,
+   "explanation": "Children over 25 kg follow the adult 4 mg/kg limit, but under 25 kg the limit is expressed by volume: 0.2 mL/kg of the 2% solution.",
+   "priority": "detail",
+   "tags": [
+    "drug:lidocaine",
+    "topic:chest tube",
+    "route:local",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.46",
+   "title": "Lidocaine",
+   "page": 364,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult lidocaine dose for intraosseous infusion pain management?",
+   "options": [
+    "0.5 mg/kg IO over 120 seconds",
+    "4 mg/kg IO over 120 seconds",
+    "40 mg IO over 120 seconds",
+    "1 - 1.5 mg/kg IO over 120 seconds"
+   ],
+   "answer_index": 2,
+   "explanation": "40 mg is pushed slowly over 120 seconds and allowed to dwell in the marrow space for 60 seconds before flushing, which is what actually produces the analgesia.",
+   "priority": "core",
+   "tags": [
+    "drug:lidocaine",
+    "topic:io pain",
+    "route:io",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.46",
+   "title": "Lidocaine",
+   "page": 364,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the lidocaine dose for intraosseous infusion pain management in a child weighing less than 20 kg?",
+   "options": [
+    "0.5 mg/kg IO over 120 seconds",
+    "40 mg IO over 120 seconds",
+    "0.2 mL/kg IO over 120 seconds",
+    "0.75 mg/kg IO over 120 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "Children at or above 20 kg get the adult 40 mg; below 20 kg the dose is 0.5 mg/kg, still given over 120 seconds with a 60 second dwell and capped at 40 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:lidocaine",
+    "topic:io pain",
+    "route:io",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.46",
+   "title": "Lidocaine",
+   "page": 364,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "Into which pharmacologic category does the formulary place lidocaine?",
+   "options": [
+    "Antiarrhythmic, tocolytic, electrolyte",
+    "Calcium channel blocker - dihydropyridine",
+    "Beta blocker",
+    "Antiarrhythmic Agent, Class Ib; Local Anesthetic"
+   ],
+   "answer_index": 3,
+   "explanation": "Lidocaine is a Class Ib antiarrhythmic that also works as a local anesthetic, which is why the same drug appears for both cardiac arrest and chest tube infiltration.",
+   "priority": "detail",
+   "tags": [
+    "drug:lidocaine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.46",
+   "title": "Lidocaine",
+   "page": 364,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which rhythm is listed as a contraindication to lidocaine?",
+   "options": [
+    "Supraventricular dysrhythmias",
+    "Rhythm after ROSC",
+    "Medical cardiac arrest",
+    "Wide complex tachycardia"
+   ],
+   "answer_index": 0,
+   "explanation": "Lidocaine is contraindicated in supraventricular dysrhythmias and heart block, along with hypersensitivity to amide-type local anesthetics; the ventricular indications are exactly where it is used.",
+   "priority": "core",
+   "tags": [
+    "drug:lidocaine",
+    "topic:contraindications"
+   ]
+  },
+  {
+   "number": "12.47",
+   "title": "Lipid Emulsion 2%",
+   "page": 365,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult loading dose of lipid emulsion 2% for beta blocker or calcium channel blocker overdose?",
+   "options": [
+    "1.5 mL/kg over 1 minute",
+    "0.5 mL/kg over 1 minute",
+    "1.5 mL/kg over 15 minutes",
+    "0.25 mL/kg over 1 minute"
+   ],
+   "answer_index": 0,
+   "explanation": "The rescue bolus is 1.5 mL/kg pushed over 1 minute; giving it slowly defeats the purpose, as the goal is a rapid lipid load to bind circulating drug.",
+   "priority": "core",
+   "tags": [
+    "drug:lipid emulsion",
+    "topic:overdose",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.47",
+   "title": "Lipid Emulsion 2%",
+   "page": 365,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "After the lipid emulsion bolus for beta blocker overdose, at what rate is the infusion run?",
+   "options": [
+    "1.5 mL/kg/hr",
+    "0.25 - 0.5 mL/kg/min",
+    "1.5 mL/kg/min",
+    "0.25 - 0.5 mL/kg/hr"
+   ],
+   "answer_index": 1,
+   "explanation": "The bolus is followed immediately by a 0.25 - 0.5 mL/kg/min infusion to maintain the lipid compartment; 1.5 mL/kg is the bolus, not an infusion rate.",
+   "priority": "core",
+   "tags": [
+    "drug:lipid emulsion",
+    "topic:overdose",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.47",
+   "title": "Lipid Emulsion 2%",
+   "page": 365,
+   "type": "indication",
+   "care_level": null,
+   "population": null,
+   "stem": "Lipid emulsion 2% is carried on the LFN formulary for which toxicologic emergency?",
+   "options": [
+    "Acetaminophen overdose with hepatic injury",
+    "Opioid overdose with apnea",
+    "Clonidine overdose with bradycardia",
+    "Beta blocker or calcium channel blocker overdose"
+   ],
+   "answer_index": 3,
+   "explanation": "The only standing-order indication is beta blocker or calcium channel blocker overdose. Acetaminophen overdose is treated with N-acetylcysteine and clonidine or opioid overdose with naloxone.",
+   "priority": "core",
+   "tags": [
+    "drug:lipid emulsion",
+    "topic:overdose"
+   ]
+  },
+  {
+   "number": "12.47",
+   "title": "Lipid Emulsion 2%",
+   "page": 365,
+   "type": "mechanism",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the leading theorized mechanism by which lipid emulsion reverses a lipophilic drug overdose?",
+   "options": [
+    "It inhibits cAMP phosphodiesterase in cardiac muscle",
+    "It acts as a lipid sink, surrounding the lipophilic drug molecule",
+    "It competitively displaces the drug from its receptor",
+    "It blocks calcium ion influx into vascular smooth muscle"
+   ],
+   "answer_index": 1,
+   "explanation": "The lipid sink theory holds that the emulsion sequesters the lipophilic drug and renders it ineffective; a second theory is that the fatty acids give the myocardium a ready energy source.",
+   "priority": "detail",
+   "tags": [
+    "drug:lipid emulsion",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.47",
+   "title": "Lipid Emulsion 2%",
+   "page": 365,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of lipid emulsion 2%?",
+   "options": [
+    "Inotrope; vasodilator",
+    "Antidote; mucolytic agent",
+    "Osmotic diuretic",
+    "Sterile fat emulsion"
+   ],
+   "answer_index": 3,
+   "explanation": "It is classed simply as a sterile fat emulsion, which is why its contraindications are about fat metabolism and food protein allergy rather than cardiovascular effects.",
+   "priority": "detail",
+   "tags": [
+    "drug:lipid emulsion",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.47",
+   "title": "Lipid Emulsion 2%",
+   "page": 365,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which hypersensitivity is a contraindication to lipid emulsion 2%?",
+   "options": [
+    "Egg, soy or peanut protein",
+    "Amide-type local anesthetics",
+    "Methadone or opioid dependence",
+    "Advanced aortic stenosis"
+   ],
+   "answer_index": 0,
+   "explanation": "The emulsion contains soy oil and egg lecithin, so hypersensitivity to egg, soy or peanut protein is a contraindication, as is any impaired ability to metabolize fat.",
+   "priority": "core",
+   "tags": [
+    "drug:lipid emulsion",
+    "topic:contraindications"
+   ]
+  },
+  {
+   "number": "12.48",
+   "title": "Lorazepam",
+   "page": 366,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult lorazepam dose for a combative patient?",
+   "options": [
+    "0.5 - 1 mg IV/IM",
+    "2 - 4 mg IV/IM q 5 min",
+    "1 mg PRN, max total 5 mg",
+    "1 - 4 mg IV/IM q 20 min"
+   ],
+   "answer_index": 3,
+   "explanation": "Combative patients get 1 - 4 mg IV/IM repeated every 20 minutes. The 2 - 4 mg q 5 min regimen is the seizure dose and is deliberately more aggressive.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:agitation",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.48",
+   "title": "Lorazepam",
+   "page": 366,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric lorazepam dose for a combative patient?",
+   "options": [
+    "0.05 mg/kg IV/IM, max 1 mg",
+    "0.01 mg/kg IV/IM q 20 min PRN",
+    "0.05 - 0.1 mg/kg IV/IM q 20 min",
+    "0.1 mg/kg IV/IM q 5 min PRN"
+   ],
+   "answer_index": 2,
+   "explanation": "Children are dosed at 0.05 - 0.1 mg/kg IV/IM every 20 minutes for agitation; 0.1 mg/kg q 5 min is the pediatric seizure dose and 0.05 mg/kg is for refractory nausea.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:agitation",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.48",
+   "title": "Lorazepam",
+   "page": 366,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult lorazepam dose for seizures?",
+   "options": [
+    "1 - 4 mg IV/IM q 20 min",
+    "1 - 4 mg IV, may repeat q 45 min",
+    "0.5 - 1 mg IV/IM",
+    "2 - 4 mg IV/IM q 5 min PRN"
+   ],
+   "answer_index": 3,
+   "explanation": "Seizures get 2 - 4 mg IV/IM repeated as often as every 5 minutes; the 20 minute and 45 minute intervals belong to agitation and post-intubation sedation respectively.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:seizures",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.48",
+   "title": "Lorazepam",
+   "page": 366,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric lorazepam dose for seizures?",
+   "options": [
+    "0.1 mg/kg q 5 min PRN",
+    "0.05 mg/kg, max 1 mg",
+    "0.05 - 0.1 mg/kg IV/IM, may repeat q 45 min",
+    "0.05 - 0.1 mg/kg IV/IM q 20 min"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric seizures are treated with 0.1 mg/kg every 5 minutes PRN, capped at a 4 mg single dose - a higher per-kilo dose and shorter interval than the agitation regimen.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:seizures",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.48",
+   "title": "Lorazepam",
+   "page": 366,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum single pediatric lorazepam dose for seizures?",
+   "options": [
+    "2 mg",
+    "1 mg",
+    "4 mg",
+    "5 mg"
+   ],
+   "answer_index": 2,
+   "explanation": "The pediatric seizure single-dose ceiling is 4 mg. The 1 mg cap belongs to anxiolysis dosing and the 5 mg total cap to shivering after rapid cooling.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:seizures",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.48",
+   "title": "Lorazepam",
+   "page": 366,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult lorazepam dose for anxiolysis?",
+   "options": [
+    "0.5 - 1 mg IV/IM",
+    "0.01 mg/kg q 20 min PRN",
+    "1 - 4 mg IV/IM q 20 min",
+    "0.05 - 0.1 mg/kg IV/IM q 20 min"
+   ],
+   "answer_index": 1,
+   "explanation": "Anxiolysis uses a much smaller weight-based dose, 0.01 mg/kg every 20 minutes PRN with a 1 mg per dose ceiling, because the goal is calm rather than sedation.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:anxiolysis",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.48",
+   "title": "Lorazepam",
+   "page": 366,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum single lorazepam dose when it is given for anxiolysis?",
+   "options": [
+    "5 mg",
+    "2 mg",
+    "4 mg",
+    "1 mg"
+   ],
+   "answer_index": 3,
+   "explanation": "Anxiolysis is capped at 1 mg per dose even if the 0.01 mg/kg calculation yields more, which keeps a large patient from being over-sedated for anxiety alone.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:anxiolysis",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.48",
+   "title": "Lorazepam",
+   "page": 366,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult lorazepam dose for refractory nausea?",
+   "options": [
+    "2 - 4 mg IV/IM q 5 min PRN",
+    "1 mg PRN, max total 5 mg",
+    "0.5 - 1 mg IV/IM",
+    "1 - 4 mg IV/IM q 20 min"
+   ],
+   "answer_index": 2,
+   "explanation": "Refractory nausea - nausea that has not responded to a primary antiemetic - is treated with a small 0.5 - 1 mg IV/IM dose of lorazepam.",
+   "priority": "detail",
+   "tags": [
+    "drug:lorazepam",
+    "topic:nausea",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.48",
+   "title": "Lorazepam",
+   "page": 366,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult lorazepam dose for shivering secondary to rapid cooling for heat stroke?",
+   "options": [
+    "2 - 4 mg IV/IM q 5 min PRN",
+    "0.5 - 1 mg IV/IM",
+    "1 mg PRN, max total 5 mg",
+    "1 - 4 mg IV/IM q 20 min"
+   ],
+   "answer_index": 2,
+   "explanation": "Shivering defeats active cooling by generating heat, so 1 mg PRN is given to suppress it, to a total of 5 mg.",
+   "priority": "detail",
+   "tags": [
+    "drug:lorazepam",
+    "topic:heat stroke",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.48",
+   "title": "Lorazepam",
+   "page": 366,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult lorazepam dose for post-intubation sedation?",
+   "options": [
+    "0.5 - 1 mg IV/IM",
+    "1 - 4 mg IV/IM q 20 min",
+    "1 - 4 mg IV, may repeat q 45 min",
+    "2 - 4 mg IV/IM q 5 min PRN"
+   ],
+   "answer_index": 2,
+   "explanation": "Post-intubation sedation is 1 - 4 mg IV repeated every 45 minutes, reflecting lorazepam's longer duration once the airway is already secured.",
+   "priority": "core",
+   "tags": [
+    "drug:lorazepam",
+    "topic:sedation",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 367,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult magnesium sulfate dose for torsades de pointes?",
+   "options": [
+    "2 grams IV over 15 min",
+    "6 grams over 30 minutes",
+    "6 grams over 15 minutes",
+    "2 grams over 20 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Torsades gets 2 grams IV over 15 minutes. The 6 gram loads belong to the obstetric indications, and the 20 minute infusion is the asthma dose.",
+   "priority": "core",
+   "tags": [
+    "drug:magnesium",
+    "topic:torsades",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 367,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric magnesium sulfate dose for torsades de pointes?",
+   "options": [
+    "50 mg/kg IV over 20 min",
+    "25 - 50 mg/kg over 15 min",
+    "50 mg/kg over 30 min",
+    "25 mg/kg over 20 min"
+   ],
+   "answer_index": 1,
+   "explanation": "Children in torsades get 25 - 50 mg/kg over 15 minutes, capped at 2 grams per dose; 50 mg/kg over 20 minutes is the pediatric asthma dose.",
+   "priority": "core",
+   "tags": [
+    "drug:magnesium",
+    "topic:torsades",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 367,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult magnesium sulfate dose for asthma?",
+   "options": [
+    "6 grams over 30 minutes",
+    "6 grams over 15 minutes",
+    "2 grams over 20 minutes",
+    "2 grams IV over 15 min"
+   ],
+   "answer_index": 2,
+   "explanation": "Magnesium for bronchospasm is 2 grams over 20 minutes; the slower infusion limits the hypotension and flushing that a faster push causes.",
+   "priority": "core",
+   "tags": [
+    "drug:magnesium",
+    "topic:asthma",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 367,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric magnesium sulfate dose for asthma?",
+   "options": [
+    "25 mg/kg IV over 20 min",
+    "25 - 50 mg/kg over 15 min",
+    "50 mg/kg IV over 20 min",
+    "50 mg/kg IV over 15 min"
+   ],
+   "answer_index": 2,
+   "explanation": "Pediatric asthma is treated with 50 mg/kg IV over 20 minutes, not to exceed 2 grams - the same ceiling as the adult dose.",
+   "priority": "core",
+   "tags": [
+    "drug:magnesium",
+    "topic:asthma",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 367,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric magnesium sulfate dose per dose for torsades de pointes?",
+   "options": [
+    "1 gram",
+    "4 grams",
+    "6 grams",
+    "2 grams"
+   ],
+   "answer_index": 3,
+   "explanation": "The weight-based pediatric dose is capped at 2 grams per dose, so a large adolescent receives no more magnesium than an adult would.",
+   "priority": "detail",
+   "tags": [
+    "drug:magnesium",
+    "topic:torsades",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 367,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult magnesium sulfate regimen for pre-term labor or a prolapsed cord?",
+   "options": [
+    "2 grams IV over 15 minutes, then 2 grams/hr infusion",
+    "6 grams over 15 minutes, then 2 grams/hr infusion",
+    "6 grams over 30 minutes, then 2 grams/hr infusion",
+    "2 grams over 20 minutes, then 1 gram/hr infusion"
+   ],
+   "answer_index": 2,
+   "explanation": "Tocolysis uses a 6 gram load over 30 minutes followed by a 2 grams/hr infusion. The eclampsia load is the same amount but delivered faster, over 15 minutes.",
+   "priority": "core",
+   "tags": [
+    "drug:magnesium",
+    "topic:pre-term labor",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 367,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult magnesium sulfate loading dose for eclamptic seizures if magnesium has not already been given?",
+   "options": [
+    "6 grams over 15 minutes",
+    "2 grams IV over 15 min",
+    "2 grams over 20 minutes",
+    "6 grams over 30 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "An actively seizing eclamptic patient gets 6 grams over 15 minutes, then a 2 grams/hr infusion. The 30 minute load is for tocolysis, where there is no seizure to stop.",
+   "priority": "core",
+   "tags": [
+    "drug:magnesium",
+    "topic:eclampsia",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 367,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An eclamptic patient already on a magnesium infusion continues to seize. What does the formulary direct?",
+   "options": [
+    "Give an additional 2 grams over 2 minutes and increase the infusion by 1 gram/hr",
+    "Repeat the full 6 gram load over 15 minutes and continue the infusion",
+    "Increase the infusion to 4 grams/hr without an additional bolus",
+    "Give an additional 2 grams over 20 minutes and hold the infusion"
+   ],
+   "answer_index": 0,
+   "explanation": "Persistent eclamptic seizures are answered with a 2 gram bolus over 2 minutes plus a 1 gram/hr step up in the infusion, rather than repeating the whole load.",
+   "priority": "core",
+   "tags": [
+    "drug:magnesium",
+    "topic:eclampsia",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 368,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "Which drug is given to treat magnesium toxicity?",
+   "options": [
+    "Calcium gluconate",
+    "N-acetylcysteine",
+    "Lipid emulsion 2%",
+    "Naloxone"
+   ],
+   "answer_index": 0,
+   "explanation": "Calcium gluconate antagonizes magnesium at the neuromuscular junction and is the antidote whenever toxicity appears during a magnesium infusion.",
+   "priority": "core",
+   "tags": [
+    "drug:magnesium",
+    "topic:toxicity"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 368,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the therapeutic magnesium level for PIH and pre-term labor?",
+   "options": [
+    "7 - 15 mEq/L",
+    "4 - 7 mEq/L",
+    "5 - 10 mEq/L",
+    "2 - 4 mEq/L"
+   ],
+   "answer_index": 1,
+   "explanation": "The target serum range for pregnancy-induced hypertension and tocolysis is 4 - 7 mEq/L; levels above this band are where reflex loss and respiratory depression begin.",
+   "priority": "detail",
+   "tags": [
+    "drug:magnesium",
+    "topic:monitoring",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 368,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "Which examination finding is an early sign of magnesium toxicity?",
+   "options": [
+    "Hyperreflexia with clonus",
+    "Hypertension with tachycardia",
+    "A widened pulse pressure",
+    "Loss of deep tendon reflexes"
+   ],
+   "answer_index": 3,
+   "explanation": "Loss of deep tendon reflexes, along with weakness, bradypnea and hypotension, signals magnesium toxicity, which is why DTRs are checked serially during an infusion.",
+   "priority": "core",
+   "tags": [
+    "drug:magnesium",
+    "topic:toxicity"
+   ]
+  },
+  {
+   "number": "12.49",
+   "title": "Magnesium Sulfate",
+   "page": 367,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of magnesium sulfate?",
+   "options": [
+    "Calcium channel blocker - dihydropyridine",
+    "Osmotic diuretic",
+    "Antiarrhythmic Agent, Class Ib; Local Anesthetic",
+    "Antiarrhythmic, tocolytic, electrolyte"
+   ],
+   "answer_index": 3,
+   "explanation": "Magnesium is listed as an antiarrhythmic, tocolytic and electrolyte, which maps onto its three uses: torsades, pre-term labor, and replacement or bronchodilation.",
+   "priority": "detail",
+   "tags": [
+    "drug:magnesium",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.50",
+   "title": "Mannitol",
+   "page": 369,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the mannitol dose for cerebral edema due to DKA or herniation from head injury or ICH?",
+   "options": [
+    "0.5 - 1 gram/kg over 20 minutes",
+    "0.25 - 0.5 gram/kg over 15 minutes",
+    "0.5 - 1 gram/kg over 15 minutes",
+    "1 - 2 grams/kg over 20 minutes"
+   ],
+   "answer_index": 2,
+   "explanation": "Mannitol is given at 0.5 - 1 gram/kg over 15 minutes for cerebral edema or herniation, and the pediatric dose is the same as the adult dose.",
+   "priority": "core",
+   "tags": [
+    "drug:mannitol",
+    "topic:cerebral edema",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.50",
+   "title": "Mannitol",
+   "page": 369,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of mannitol?",
+   "options": [
+    "Sterile fat emulsion",
+    "Osmotic diuretic",
+    "Corticosteroid; glucocorticoid",
+    "Antidote; mucolytic agent"
+   ],
+   "answer_index": 1,
+   "explanation": "Mannitol is an osmotic diuretic: it draws water into the intravascular space and then forces diuresis by raising the osmotic pressure of glomerular filtrate.",
+   "priority": "detail",
+   "tags": [
+    "drug:mannitol",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.50",
+   "title": "Mannitol",
+   "page": 369,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which condition is a contraindication to mannitol?",
+   "options": [
+    "Cerebral edema due to DKA",
+    "Marked pulmonary edema or CHF",
+    "Intracranial hypertension",
+    "Herniation due to head injury"
+   ],
+   "answer_index": 1,
+   "explanation": "Mannitol transiently expands intravascular volume, so marked pulmonary edema or CHF contraindicates it - along with intracranial bleeding, shock and severe dehydration.",
+   "priority": "core",
+   "tags": [
+    "drug:mannitol",
+    "topic:contraindications"
+   ]
+  },
+  {
+   "number": "12.50",
+   "title": "Mannitol",
+   "page": 369,
+   "type": "equipment",
+   "care_level": null,
+   "population": null,
+   "stem": "Mannitol concentrations greater than 15% require what during administration?",
+   "options": [
+    "An in-line IV filter",
+    "A central venous line",
+    "A pressure infuser",
+    "A fluid warmer"
+   ],
+   "answer_index": 0,
+   "explanation": "Concentrations above 15% crystallize readily, so an in-line IV filter is required to keep crystals from reaching the patient.",
+   "priority": "detail",
+   "tags": [
+    "drug:mannitol",
+    "topic:administration"
+   ]
+  },
+  {
+   "number": "12.50",
+   "title": "Mannitol",
+   "page": 369,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "Which product must not be co-administered with mannitol?",
+   "options": [
+    "Lipid emulsion",
+    "Crystalloid boluses",
+    "Blood products",
+    "Calcium gluconate"
+   ],
+   "answer_index": 2,
+   "explanation": "Mannitol is not given with blood products. If both are needed, they require separate access or separate timing.",
+   "priority": "detail",
+   "tags": [
+    "drug:mannitol",
+    "topic:administration"
+   ]
+  },
+  {
+   "number": "12.50",
+   "title": "Mannitol",
+   "page": 369,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "When can a rebound increase in ICP occur after mannitol administration?",
+   "options": [
+    "About 30 minutes after administration",
+    "About 12 hours after administration",
+    "About 1 hour after administration",
+    "About 6 hours after administration"
+   ],
+   "answer_index": 1,
+   "explanation": "Rebound ICP elevation is described about 12 hours post administration, which matters on long transports and for handoff to the receiving team.",
+   "priority": "detail",
+   "tags": [
+    "drug:mannitol",
+    "topic:icp"
+   ]
+  },
+  {
+   "number": "12.51",
+   "title": "Methylergonovine",
+   "page": 370,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult methylergonovine dose for postpartum hemorrhage?",
+   "options": [
+    "0.2 mg IM q 45 minutes",
+    "0.2 mg IV q 2 - 4 hours",
+    "0.2 mg IM q 15 minutes",
+    "0.2 mg IM q 2 - 4 hours"
+   ],
+   "answer_index": 3,
+   "explanation": "Methylergonovine is 0.2 mg IM every 2 to 4 hours. The intramuscular route matters: routine IV administration risks a sudden hypertensive or cerebrovascular event.",
+   "priority": "core",
+   "tags": [
+    "drug:methylergonovine",
+    "topic:postpartum hemorrhage",
+    "route:im",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.51",
+   "title": "Methylergonovine",
+   "page": 370,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Methylergonovine must be withheld when the systolic blood pressure is above what value?",
+   "options": [
+    "90 mmHg",
+    "140 mmHg",
+    "160 mmHg",
+    "180 mmHg"
+   ],
+   "answer_index": 1,
+   "explanation": "A systolic above 140 is an outright contraindication, because the drug's vasoconstriction can push an already hypertensive postpartum patient into a cerebrovascular event.",
+   "priority": "core",
+   "tags": [
+    "drug:methylergonovine",
+    "topic:contraindications",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.51",
+   "title": "Methylergonovine",
+   "page": 370,
+   "type": "route",
+   "care_level": null,
+   "population": null,
+   "stem": "Why is methylergonovine not given by routine IV administration?",
+   "options": [
+    "Risk of precipitating uterine rupture",
+    "Risk of sudden hypertensive and cerebrovascular accidents",
+    "Risk of crystallizing in the IV line",
+    "Risk of severe hypotension and reflex tachycardia"
+   ],
+   "answer_index": 1,
+   "explanation": "IV administration produces an abrupt pressor response; the formulary reserves it and directs the IM route for routine postpartum hemorrhage dosing.",
+   "priority": "core",
+   "tags": [
+    "drug:methylergonovine",
+    "route:im"
+   ]
+  },
+  {
+   "number": "12.51",
+   "title": "Methylergonovine",
+   "page": 370,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of methylergonovine?",
+   "options": [
+    "Opioid analgesic",
+    "Beta blocker",
+    "Osmotic diuretic",
+    "Ergot alkaloid"
+   ],
+   "answer_index": 3,
+   "explanation": "Methylergonovine is an ergot alkaloid, which explains both its uterotonic effect and its vasoconstrictive side effect profile.",
+   "priority": "detail",
+   "tags": [
+    "drug:methylergonovine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.51",
+   "title": "Methylergonovine",
+   "page": 370,
+   "type": "mechanism",
+   "care_level": null,
+   "population": null,
+   "stem": "How does methylergonovine control postpartum hemorrhage?",
+   "options": [
+    "It increases uterine contraction force and frequency",
+    "It promotes platelet aggregation at the placental bed",
+    "It selectively constricts the uterine arteries",
+    "It replaces fibrinogen and corrects a coagulopathy"
+   ],
+   "answer_index": 0,
+   "explanation": "It works by increasing the force and frequency of uterine contractions, which mechanically compresses the bleeding vessels of an atonic uterus.",
+   "priority": "detail",
+   "tags": [
+    "drug:methylergonovine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.52",
+   "title": "Methylprednisolone",
+   "page": 371,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult methylprednisolone dose for an allergic reaction or asthma/COPD?",
+   "options": [
+    "125 mg IM",
+    "125 mg IV",
+    "60 mg IV",
+    "2 mg/kg IV"
+   ],
+   "answer_index": 1,
+   "explanation": "Adults get 125 mg IV for allergic reactions, asthma/COPD, epiglottitis and croup, and high altitude emergencies - a single flat dose regardless of indication.",
+   "priority": "core",
+   "tags": [
+    "drug:methylprednisolone",
+    "topic:allergic reaction",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.52",
+   "title": "Methylprednisolone",
+   "page": 371,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric methylprednisolone dose for asthma or an allergic reaction?",
+   "options": [
+    "60 mg IV",
+    "0.5 mg/kg IV",
+    "125 mg IV",
+    "2 mg/kg IV"
+   ],
+   "answer_index": 3,
+   "explanation": "Children are dosed at 2 mg/kg IV with a 60 mg ceiling, so even a large child receives well under the adult 125 mg dose.",
+   "priority": "core",
+   "tags": [
+    "drug:methylprednisolone",
+    "topic:asthma",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.52",
+   "title": "Methylprednisolone",
+   "page": 371,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric methylprednisolone dose?",
+   "options": [
+    "60 mg",
+    "40 mg",
+    "125 mg",
+    "20 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The 2 mg/kg pediatric calculation is capped at 60 mg per dose; 125 mg is the adult flat dose and would be an overdose in a child.",
+   "priority": "core",
+   "tags": [
+    "drug:methylprednisolone",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.52",
+   "title": "Methylprednisolone",
+   "page": 371,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Under what conditions may methylprednisolone be given for refractory hypotension in septic shock?",
+   "options": [
+    "Only after an arterial line has been placed",
+    "If the patient remains hypotensive after two fluid boluses",
+    "If the patient remains hypotensive despite epinephrine",
+    "If hydrocortisone is unavailable and with a provider order"
+   ],
+   "answer_index": 3,
+   "explanation": "Methylprednisolone 125 mg IV is a substitute for hydrocortisone in refractory septic shock; it is not a first-line steroid here and requires a provider order.",
+   "priority": "core",
+   "tags": [
+    "drug:methylprednisolone",
+    "topic:septic shock",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.52",
+   "title": "Methylprednisolone",
+   "page": 371,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of methylprednisolone?",
+   "options": [
+    "Antidote; mucolytic agent",
+    "Corticosteroid; glucocorticoid",
+    "Inotrope; vasodilator",
+    "Ergot alkaloid"
+   ],
+   "answer_index": 1,
+   "explanation": "Methylprednisolone is a glucocorticoid corticosteroid; it decreases inflammation by suppressing leukocyte migration and reversing increased capillary permeability.",
+   "priority": "detail",
+   "tags": [
+    "drug:methylprednisolone",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.52",
+   "title": "Methylprednisolone",
+   "page": 371,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which cardiac adverse reactions does the formulary list for methylprednisolone?",
+   "options": [
+    "Ventricular arrhythmias and headache",
+    "Bradycardia and cardiac arrhythmia",
+    "Hypotension and bronchospasm",
+    "Anterograde amnesia and hallucination"
+   ],
+   "answer_index": 1,
+   "explanation": "Bradycardia, cardiac arrhythmia, cardiomegaly and circulatory shock are listed, which is why a steroid is not a harmless add-on in an unstable patient.",
+   "priority": "detail",
+   "tags": [
+    "drug:methylprednisolone",
+    "topic:adverse reactions"
+   ]
+  },
+  {
+   "number": "12.53",
+   "title": "Metoprolol",
+   "page": 372,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult metoprolol dose for aortic emergencies or STEMI?",
+   "options": [
+    "5 mg IV, up to two total doses",
+    "2.5 mg IV q 15 min, max 15 mg",
+    "5 mg IV, may repeat x2 q 5 min",
+    "2.5 - 5 mg q 15 min"
+   ],
+   "answer_index": 2,
+   "explanation": "Aortic emergencies and STEMI get 5 mg IV repeated up to twice at 5 minute intervals, to a 15 mg maximum - faster and larger than the narrow complex tachycardia regimen.",
+   "priority": "core",
+   "tags": [
+    "drug:metoprolol",
+    "topic:stemi",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.53",
+   "title": "Metoprolol",
+   "page": 372,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult metoprolol dose for narrow complex tachycardias?",
+   "options": [
+    "2.5 mg IV q 15 min",
+    "5 mg IV q 5 min",
+    "2.5 - 5 mg q 15 min",
+    "5 mg IV, may repeat x2 q 5 min"
+   ],
+   "answer_index": 2,
+   "explanation": "Rate control of a narrow complex tachycardia uses 2.5 - 5 mg every 15 minutes to a maximum of 15 mg, allowing the heart rate response to be assessed between doses.",
+   "priority": "core",
+   "tags": [
+    "drug:metoprolol",
+    "topic:tachycardia",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.53",
+   "title": "Metoprolol",
+   "page": 372,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum total metoprolol dose for narrow complex tachycardias?",
+   "options": [
+    "20 mg",
+    "5 mg",
+    "15 mg",
+    "10 mg"
+   ],
+   "answer_index": 2,
+   "explanation": "Both the tachycardia and the aortic/STEMI regimens stop at 15 mg total, after which further beta blockade is a physician decision.",
+   "priority": "core",
+   "tags": [
+    "drug:metoprolol",
+    "topic:tachycardia",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.53",
+   "title": "Metoprolol",
+   "page": 372,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How is metoprolol used in refractory ventricular fibrillation cardiac arrest?",
+   "options": [
+    "2.5 - 5 mg IV after the third defibrillation attempt",
+    "5 mg IV, up to two total doses in place of additional epinephrine",
+    "5 mg IV given with every other dose of epinephrine",
+    "5 mg IV immediately before each defibrillation attempt"
+   ],
+   "answer_index": 1,
+   "explanation": "In refractory v-fib, up to two 5 mg doses replace additional epinephrine rather than being added to it - the point is to reduce catecholamine-driven refractoriness.",
+   "priority": "core",
+   "tags": [
+    "drug:metoprolol",
+    "topic:cardiac arrest",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.53",
+   "title": "Metoprolol",
+   "page": 372,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of metoprolol?",
+   "options": [
+    "Beta blocker",
+    "Antianginals; calcium channel blocker",
+    "Ergot alkaloid",
+    "Calcium channel blocker - dihydropyridine"
+   ],
+   "answer_index": 0,
+   "explanation": "Metoprolol is a beta blocker - a selective inhibitor of beta-1 adrenergic receptors - which is why its adverse effects are bradycardia, hypotension and bronchospasm.",
+   "priority": "detail",
+   "tags": [
+    "drug:metoprolol",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.53",
+   "title": "Metoprolol",
+   "page": 372,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which conduction abnormality contraindicates metoprolol unless the patient has a functioning artificial pacemaker?",
+   "options": [
+    "Second- or third-degree heart block",
+    "First-degree AV block",
+    "Left bundle branch block",
+    "Atrial fibrillation with RVR"
+   ],
+   "answer_index": 0,
+   "explanation": "Second- and third-degree block are contraindications because further AV nodal blockade can stop conduction entirely; a functioning pacemaker removes that risk.",
+   "priority": "core",
+   "tags": [
+    "drug:metoprolol",
+    "topic:contraindications"
+   ]
+  },
+  {
+   "number": "12.53",
+   "title": "Metoprolol",
+   "page": 372,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "What effect may amiodarone have when it is given with metoprolol?",
+   "options": [
+    "It may precipitate bronchospasm",
+    "It may trigger a hypertensive crisis",
+    "It may blunt the beta blockade and shorten its duration",
+    "It may enhance the bradycardic effect, even to cardiac arrest"
+   ],
+   "answer_index": 3,
+   "explanation": "Amiodarone can enhance beta blocker bradycardia to the point of cardiac arrest and can raise beta blocker serum concentrations, so pairing them deserves deliberate thought.",
+   "priority": "core",
+   "tags": [
+    "drug:metoprolol",
+    "topic:drug interactions"
+   ]
+  },
+  {
+   "number": "12.53",
+   "title": "Metoprolol",
+   "page": 372,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "Beta blockers may increase the serum concentration of which drug?",
+   "options": [
+    "Lidocaine",
+    "Nifedipine",
+    "Nitroprusside",
+    "Amiodarone"
+   ],
+   "answer_index": 0,
+   "explanation": "Beta blockers raise lidocaine levels, which matters when both are used in the same arrest. Nifedipine and nitroprusside instead have their hypotensive effects enhanced.",
+   "priority": "detail",
+   "tags": [
+    "drug:metoprolol",
+    "topic:drug interactions"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult midazolam IV/IM dose for a combative patient?",
+   "options": [
+    "0.1 mg/kg IV/IM q 5 min",
+    "2 - 5 mg IV/IM q 15 min",
+    "0.01 mg/kg IV q 15 min",
+    "0.05 - 0.1 mg/kg IV/IM"
+   ],
+   "answer_index": 1,
+   "explanation": "Adults get 2 - 5 mg IV/IM repeatable every 15 minutes for agitation, with lower doses considered for frail, elderly or debilitated patients.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:agitation",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the intranasal midazolam dose for a combative patient?",
+   "options": [
+    "0.2 mg/kg IN, max 20 mg",
+    "0.05 mg/kg IN, max 10 mg",
+    "0.1 mg/kg IN, max 5 mg",
+    "0.3 mg/kg IN, max 10 mg"
+   ],
+   "answer_index": 3,
+   "explanation": "The IN route is 0.3 mg/kg to a 10 mg maximum for adults and children alike, split between both nostrils so the volume per nostril is actually absorbed.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:agitation",
+    "route:in",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric midazolam IV/IM dose for a combative patient?",
+   "options": [
+    "0.3 mg/kg IN",
+    "0.05 - 0.1 mg/kg IV/IM",
+    "0.1 mg/kg IV/IM q 5 min",
+    "0.01 mg/kg IV q 15 min"
+   ],
+   "answer_index": 1,
+   "explanation": "Children get 0.05 - 0.1 mg/kg IV/IM repeatable every 15 minutes for agitation; 0.1 mg/kg q 5 min is the seizure regimen and 0.3 mg/kg is the intranasal dose.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:agitation",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult midazolam dose for post-intubation sedation?",
+   "options": [
+    "2 - 5 mg IV/IM q 15 min",
+    "0.1 mg/kg IV, max 5 mg",
+    "0.2 mg/kg IV, max 20 mg",
+    "2 - 5 mg IV, max dose 5 mg"
+   ],
+   "answer_index": 3,
+   "explanation": "Post-intubation sedation is 2 - 5 mg IV, capped at 5 mg per dose and repeatable every 15 minutes; an infusion should be considered for long transports.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:sedation",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "After the bolus, at what rate is an adult midazolam infusion started?",
+   "options": [
+    "4 mg/hr regardless of weight",
+    "2 mg/hr if under 100 kg, 4 mg/hr if 100 kg or more",
+    "2 mg/hr regardless of weight",
+    "4 mg/hr if under 100 kg, 2 mg/hr if 100 kg or more"
+   ],
+   "answer_index": 1,
+   "explanation": "The adult infusion is banded by weight: 2 mg/hr under 100 kg and 4 mg/hr at or above 100 kg, titrated by 1 mg/hr every 5 - 10 minutes with a 2 mg bolus between titrations.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:infusion",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum adult midazolam infusion rate?",
+   "options": [
+    "5 mg/hr",
+    "4 mg/hr",
+    "10 mg/hr",
+    "20 mg/hr"
+   ],
+   "answer_index": 2,
+   "explanation": "The adult infusion ceiling is 10 mg/hr; beyond that, sedation should be reconsidered rather than simply titrated higher.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:infusion",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "At what rate is a pediatric midazolam infusion started after the bolus?",
+   "options": [
+    "100 mcg/kg/hr",
+    "50 mcg/kg/hr",
+    "10 mcg/kg/hr",
+    "2 mcg/kg/hr"
+   ],
+   "answer_index": 1,
+   "explanation": "Pediatric infusions start at 50 mcg/kg/hr and are titrated by 10 mcg/kg/hr every 5 - 10 minutes, with an additional bolus given before each titration.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:infusion",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric midazolam infusion rate?",
+   "options": [
+    "100 mcg/kg/hr",
+    "50 mcg/kg/hr",
+    "10 mcg/kg/hr",
+    "200 mcg/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric infusion is capped at 100 mcg/kg/hr, twice the starting rate of 50 mcg/kg/hr.",
+   "priority": "detail",
+   "tags": [
+    "drug:midazolam",
+    "topic:infusion",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the midazolam IV/IM dose for seizures?",
+   "options": [
+    "0.2 mg/kg IV, max dose 20 mg",
+    "0.1 mg/kg IV/IM, max single dose 5 mg",
+    "0.01 mg/kg IV, max single dose 5 mg",
+    "0.05 - 0.1 mg/kg IV/IM, max 5 mg"
+   ],
+   "answer_index": 1,
+   "explanation": "Seizures are treated with 0.1 mg/kg IV/IM, repeatable every 5 minutes with a 5 mg single-dose ceiling; the pediatric dose is the same as the adult dose.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:seizures",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult midazolam dose for RSI induction?",
+   "options": [
+    "0.2 mg/kg IV",
+    "0.05 mg/kg IV",
+    "0.3 mg/kg IV",
+    "0.1 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Standard RSI induction is 0.2 mg/kg IV to a maximum of 20 mg; the pediatric induction dose is half that at 0.1 mg/kg.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:rsi",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What midazolam induction dose is used for RSI in a hypotensive adult?",
+   "options": [
+    "0.2 mg/kg IV",
+    "0.3 mg/kg IV",
+    "0.1 mg/kg IV",
+    "0.01 mg/kg IV"
+   ],
+   "answer_index": 2,
+   "explanation": "The induction dose is halved to 0.1 mg/kg in hypotension, because midazolam's own vasodilation and myocardial depression can collapse an already marginal blood pressure.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:rsi",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum midazolam dose for RSI induction?",
+   "options": [
+    "20 mg",
+    "10 mg",
+    "15 mg",
+    "5 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "RSI induction is capped at 20 mg for both adults and children. The 10 mg cap belongs to intranasal dosing and 5 mg to seizure and post-intubation dosing.",
+   "priority": "detail",
+   "tags": [
+    "drug:midazolam",
+    "topic:rsi",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 373,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the midazolam dose for anxiolysis?",
+   "options": [
+    "0.1 mg/kg IV q 15 min PRN",
+    "0.01 mg/kg IV q 15 min PRN",
+    "0.05 mg/kg IV q 15 min PRN",
+    "0.2 mg/kg IV q 15 min PRN"
+   ],
+   "answer_index": 1,
+   "explanation": "Anxiolysis uses a tenth of the seizure dose - 0.01 mg/kg IV every 15 minutes PRN, max 5 mg per dose - because the intent is to take the edge off, not to sedate.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:anxiolysis",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.54",
+   "title": "Midazolam",
+   "page": 374,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of midazolam?",
+   "options": [
+    "Ergot alkaloid",
+    "Osmotic diuretic",
+    "Benzodiazepine",
+    "Opioid analgesic"
+   ],
+   "answer_index": 2,
+   "explanation": "Midazolam is a short-acting parenteral benzodiazepine, which is why its warnings centre on alcohol intoxication and concurrent opioid use.",
+   "priority": "detail",
+   "tags": [
+    "drug:midazolam",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.55",
+   "title": "Milrinone",
+   "page": 375,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the milrinone loading dose for pulmonary edema or CHF?",
+   "options": [
+    "0.375 mcg/kg/min over 10 minutes",
+    "50 mcg/kg over 10 minutes",
+    "0.75 mcg/kg over 10 minutes",
+    "50 mcg/kg/min over 10 minutes"
+   ],
+   "answer_index": 1,
+   "explanation": "Milrinone is loaded at 50 mcg/kg over 10 minutes before the infusion starts; the pediatric dose is the same as the adult dose.",
+   "priority": "core",
+   "tags": [
+    "drug:milrinone",
+    "topic:chf",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.55",
+   "title": "Milrinone",
+   "page": 375,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "After the milrinone load, at what rate is the infusion run?",
+   "options": [
+    "0.375 to 0.75 mcg/kg/hr",
+    "50 to 75 mcg/kg/min",
+    "0.375 to 0.75 mcg/kg/min",
+    "0.75 to 1.5 mcg/kg/min"
+   ],
+   "answer_index": 2,
+   "explanation": "The maintenance infusion is 0.375 to 0.75 mcg/kg/min. Because milrinone is both an inotrope and a vasodilator, the low end is the safer starting point in a marginal blood pressure.",
+   "priority": "core",
+   "tags": [
+    "drug:milrinone",
+    "topic:chf",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.55",
+   "title": "Milrinone",
+   "page": 375,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of milrinone?",
+   "options": [
+    "Antidote; mucolytic agent",
+    "Beta blocker",
+    "Osmotic diuretic",
+    "Inotrope; vasodilator"
+   ],
+   "answer_index": 3,
+   "explanation": "Milrinone is an inotrope and vasodilator - it increases contractile force while reducing afterload, which is why hypotension is its signature adverse effect.",
+   "priority": "detail",
+   "tags": [
+    "drug:milrinone",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.55",
+   "title": "Milrinone",
+   "page": 375,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which adverse reactions does the formulary list for milrinone?",
+   "options": [
+    "Hypertriglyceridemia, fat embolism, infection",
+    "Hypotension, ventricular arrhythmias, headache",
+    "Drowsiness, dizziness, light-headedness",
+    "Bradycardia, hypotension, bronchospasm"
+   ],
+   "answer_index": 1,
+   "explanation": "Hypotension, ventricular arrhythmias and headache are the listed reactions; the hypotension follows directly from milrinone's vasodilating action.",
+   "priority": "detail",
+   "tags": [
+    "drug:milrinone",
+    "topic:adverse reactions"
+   ]
+  },
+  {
+   "number": "12.55",
+   "title": "Milrinone",
+   "page": 375,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "In which cardiac condition should milrinone be used with caution?",
+   "options": [
+    "Malignant hyperthermia",
+    "Myasthenia gravis",
+    "Narrow-angle glaucoma",
+    "Severe aortic stenosis"
+   ],
+   "answer_index": 3,
+   "explanation": "Severe aortic stenosis, pulmonic valve disease and hypertrophic cardiomyopathy all call for caution, because a fixed outflow obstruction cannot compensate for the vasodilation.",
+   "priority": "core",
+   "tags": [
+    "drug:milrinone",
+    "topic:contraindications"
+   ]
+  },
+  {
+   "number": "12.56",
+   "title": "Morphine Sulfate",
+   "page": 376,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult morphine dose for pain management?",
+   "options": [
+    "2 - 5 mg IV/IM q 15 min",
+    "0.1 mg/kg IV/IM, max 5 mg",
+    "0.1 mg/kg IV/IM q 5 min",
+    "2 - 5 mg IV/IM q 5 min PRN"
+   ],
+   "answer_index": 3,
+   "explanation": "Adults get 2 - 5 mg IV/IM, repeatable every 5 minutes PRN, titrated to the patient's pain and respiratory status.",
+   "priority": "core",
+   "tags": [
+    "drug:morphine",
+    "topic:pain",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.56",
+   "title": "Morphine Sulfate",
+   "page": 376,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric morphine dose for pain management?",
+   "options": [
+    "0.05 mg/kg IV/IM, max 5 mg",
+    "0.1 mg/kg IV/IM, max 5 mg",
+    "2 - 5 mg IV/IM q 5 min PRN",
+    "0.1 mg/kg IV/IM, max 2 mg"
+   ],
+   "answer_index": 1,
+   "explanation": "Children get 0.1 mg/kg IV/IM with a 5 mg ceiling, repeatable every 5 minutes - the same upper bound as the adult single dose.",
+   "priority": "core",
+   "tags": [
+    "drug:morphine",
+    "topic:pain",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.56",
+   "title": "Morphine Sulfate",
+   "page": 376,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which obstetric finding is listed as a contraindication to morphine?",
+   "options": [
+    "Gestational age under 34 weeks",
+    "Active second-stage labor",
+    "Pre-term labor with intact membranes",
+    "A non-reassuring fetal tracing"
+   ],
+   "answer_index": 3,
+   "explanation": "Fetal acidosis or a non-reassuring fetal heart tracing contraindicates morphine, since opioids given in labor can further depress an already compromised fetus.",
+   "priority": "core",
+   "tags": [
+    "drug:morphine",
+    "topic:contraindications"
+   ]
+  },
+  {
+   "number": "12.56",
+   "title": "Morphine Sulfate",
+   "page": 376,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of morphine sulfate?",
+   "options": [
+    "Benzodiazepine",
+    "Opioid antagonist; antidote",
+    "Opioid analgesic",
+    "Antidote; mucolytic agent"
+   ],
+   "answer_index": 2,
+   "explanation": "Morphine is an opioid analgesic acting on opiate receptors in the brain; it also increases peripheral venous capacitance and decreases venous return.",
+   "priority": "detail",
+   "tags": [
+    "drug:morphine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.56",
+   "title": "Morphine Sulfate",
+   "page": 376,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the listed onset and duration of morphine sulfate?",
+   "options": [
+    "30 seconds / 2 - 4 hours",
+    "2 minutes / 45 minutes",
+    "Immediate / 4 - 6 hours",
+    "1 - 2 minutes / 30 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Morphine acts within 30 seconds and lasts 2 - 4 hours. That long tail outlives naloxone's roughly 45 minute duration, so a reversed patient can re-sedate in flight.",
+   "priority": "detail",
+   "tags": [
+    "drug:morphine",
+    "topic:pharmacokinetics"
+   ]
+  },
+  {
+   "number": "12.57",
+   "title": "N-acetylcysteine",
+   "page": 377,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the oral loading dose of N-acetylcysteine for acetaminophen overdose?",
+   "options": [
+    "70 mg/kg",
+    "150 mg/kg",
+    "140 mg/kg",
+    "100 mg/kg"
+   ],
+   "answer_index": 2,
+   "explanation": "The oral load is 140 mg/kg given by mouth or down an NG/OG tube; 150 mg/kg is the parenteral load, and the two routes must not be confused.",
+   "priority": "core",
+   "tags": [
+    "drug:n-acetylcysteine",
+    "topic:acetaminophen overdose",
+    "route:po",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.57",
+   "title": "N-acetylcysteine",
+   "page": 377,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "After the oral N-acetylcysteine load, what additional dose is given and how often?",
+   "options": [
+    "70 mg/kg q 4 hours for 68 hours",
+    "140 mg/kg q 4 hours for 68 hours",
+    "50 mg/kg q 4 hours for 16 hours",
+    "100 mg/kg q 16 hours for 68 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "Oral maintenance is 70 mg/kg every 4 hours for 68 hours - half the loading dose, continued well beyond the transport, so the receiving facility must be told when the load was given.",
+   "priority": "detail",
+   "tags": [
+    "drug:n-acetylcysteine",
+    "topic:acetaminophen overdose",
+    "route:po",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.57",
+   "title": "N-acetylcysteine",
+   "page": 377,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the parenteral N-acetylcysteine loading dose for acetaminophen overdose?",
+   "options": [
+    "150 mg/kg in 200 mL D5W over 60 minutes",
+    "100 mg/kg in 1000 mL D5W over 16 hours",
+    "50 mg/kg in 500 mL D5W over 4 hours",
+    "140 mg/kg in 200 mL D5W over 60 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "The IV load is 150 mg/kg in 200 mL of D5W infused over 60 minutes, and it is the first of three sequential bags.",
+   "priority": "core",
+   "tags": [
+    "drug:n-acetylcysteine",
+    "topic:acetaminophen overdose",
+    "route:iv",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.57",
+   "title": "N-acetylcysteine",
+   "page": 377,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the second parenteral N-acetylcysteine infusion after the loading dose?",
+   "options": [
+    "150 mg/kg in 200 mL D5W over 60 minutes",
+    "70 mg/kg in 500 mL D5W over 4 hours",
+    "50 mg/kg in 500 mL D5W over 4 hours",
+    "100 mg/kg in 1000 mL D5W over 16 hours"
+   ],
+   "answer_index": 2,
+   "explanation": "After the load, 50 mg/kg is mixed in 500 mL of D5W and the whole volume is infused over 4 hours - the bag a transport crew is most likely to inherit in progress.",
+   "priority": "core",
+   "tags": [
+    "drug:n-acetylcysteine",
+    "topic:acetaminophen overdose",
+    "route:iv",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.57",
+   "title": "N-acetylcysteine",
+   "page": 377,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the final parenteral N-acetylcysteine infusion after the first two bags?",
+   "options": [
+    "100 mg/kg in 1000 mL D5W over 16 hours",
+    "140 mg/kg in 1000 mL D5W over 16 hours",
+    "150 mg/kg in 200 mL D5W over 60 minutes",
+    "50 mg/kg in 500 mL D5W over 4 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "The third bag is 100 mg/kg in 1000 mL of D5W over 16 hours, completing the 21 hour IV protocol.",
+   "priority": "detail",
+   "tags": [
+    "drug:n-acetylcysteine",
+    "topic:acetaminophen overdose",
+    "route:iv",
+    "population:both"
+   ]
+  },
+  {
+   "number": "12.57",
+   "title": "N-acetylcysteine",
+   "page": 377,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of N-acetylcysteine?",
+   "options": [
+    "Osmotic diuretic",
+    "Opioid antagonist; antidote",
+    "Sterile fat emulsion",
+    "Antidote; mucolytic agent"
+   ],
+   "answer_index": 3,
+   "explanation": "N-acetylcysteine is an antidote and mucolytic; in acetaminophen overdose it replenishes glutathione, and delay in giving it increases the risk of hepatic injury.",
+   "priority": "detail",
+   "tags": [
+    "drug:n-acetylcysteine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.58",
+   "title": "Naloxone",
+   "page": 378,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult naloxone dose for opioid overdose?",
+   "options": [
+    "0.5 mg IV",
+    "0.1 mg/kg IV/IM/IN",
+    "2 mg IV",
+    "0.4 mg IV/IM/IN"
+   ],
+   "answer_index": 3,
+   "explanation": "Opioid overdose is treated with 0.4 mg IV/IM/IN repeated every 3 - 5 minutes PRN, titrated to respiratory function rather than to full wakefulness.",
+   "priority": "core",
+   "tags": [
+    "drug:naloxone",
+    "topic:opioid overdose",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.58",
+   "title": "Naloxone",
+   "page": 378,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric naloxone dose for opioid overdose?",
+   "options": [
+    "0.1 mg/kg IV only",
+    "0.5 mg/kg IV/IM/IN",
+    "0.1 mg/kg IV/IM/IN",
+    "0.4 mg IV/IM/IN"
+   ],
+   "answer_index": 2,
+   "explanation": "Children get 0.1 mg/kg IV/IM/IN, repeatable every 3 - 5 minutes PRN, with a single-dose ceiling of 0.4 mg - the adult dose.",
+   "priority": "core",
+   "tags": [
+    "drug:naloxone",
+    "topic:opioid overdose",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.58",
+   "title": "Naloxone",
+   "page": 378,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum single pediatric naloxone dose for opioid overdose?",
+   "options": [
+    "0.4 mg",
+    "2 mg",
+    "10 mg",
+    "1 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric single-dose cap for opioid overdose is 0.4 mg. The 2 mg and 10 mg limits belong to the much larger clonidine overdose dosing.",
+   "priority": "detail",
+   "tags": [
+    "drug:naloxone",
+    "topic:opioid overdose",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.58",
+   "title": "Naloxone",
+   "page": 378,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the naloxone dose for clonidine overdose in an opioid-naive adult?",
+   "options": [
+    "0.1 mg/kg IV, max 10 mg per dose",
+    "0.4 mg IV, max 2 mg per dose",
+    "0.1 mg/kg IV, max 2 mg per dose",
+    "0.5 mg IV, max 10 mg per dose"
+   ],
+   "answer_index": 2,
+   "explanation": "Clonidine overdose needs far more naloxone than opioid overdose: 0.1 mg/kg IV, max 2 mg per dose, repeated every 1 - 2 minutes PRN to a 10 mg total.",
+   "priority": "core",
+   "tags": [
+    "drug:naloxone",
+    "topic:clonidine overdose",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.58",
+   "title": "Naloxone",
+   "page": 378,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum total naloxone dose when treating clonidine overdose in an opioid-naive adult?",
+   "options": [
+    "5 mg",
+    "10 mg",
+    "0.4 mg",
+    "2 mg"
+   ],
+   "answer_index": 1,
+   "explanation": "Dosing for clonidine overdose continues every 1 - 2 minutes up to 10 mg total, which is an order of magnitude above a typical opioid reversal.",
+   "priority": "core",
+   "tags": [
+    "drug:naloxone",
+    "topic:clonidine overdose",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.58",
+   "title": "Naloxone",
+   "page": 378,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "In an opioid-dependent patient with clonidine overdose, what naloxone dose is given for respiratory depression?",
+   "options": [
+    "0.5 mg IV",
+    "0.1 mg/kg IV",
+    "1 mg IV",
+    "0.4 mg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Opioid-dependent patients are dosed more cautiously to avoid precipitating withdrawal: 0.5 mg IV for respiratory depression, rising to 1 mg IV if the patient is apneic.",
+   "priority": "core",
+   "tags": [
+    "drug:naloxone",
+    "topic:clonidine overdose",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.58",
+   "title": "Naloxone",
+   "page": 378,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "In an opioid-dependent patient with clonidine overdose who is apneic, what naloxone dose is given?",
+   "options": [
+    "0.5 mg IV",
+    "2 mg IV",
+    "0.4 mg IV",
+    "1 mg IV"
+   ],
+   "answer_index": 3,
+   "explanation": "Apnea in an opioid-dependent patient justifies the larger 1 mg IV dose, repeated every 1 - 2 minutes PRN, because the airway threat outweighs the withdrawal risk.",
+   "priority": "detail",
+   "tags": [
+    "drug:naloxone",
+    "topic:clonidine overdose",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.58",
+   "title": "Naloxone",
+   "page": 378,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of naloxone?",
+   "options": [
+    "Benzodiazepine",
+    "Opioid antagonist; antidote",
+    "Antidote; mucolytic agent",
+    "Opioid analgesic"
+   ],
+   "answer_index": 1,
+   "explanation": "Naloxone is an opioid antagonist and antidote: it competes for and displaces narcotic molecules from opiate receptors in the brain.",
+   "priority": "detail",
+   "tags": [
+    "drug:naloxone",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.58",
+   "title": "Naloxone",
+   "page": 378,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which history is listed as a contraindication to naloxone because it may precipitate seizures?",
+   "options": [
+    "A recent head injury",
+    "Mother or infant taking methadone",
+    "Chronic benzodiazepine use",
+    "A known seizure disorder"
+   ],
+   "answer_index": 1,
+   "explanation": "A mother or infant with a history of opioid addiction or on methadone is a listed contraindication, since abrupt reversal in that setting may precipitate seizures.",
+   "priority": "core",
+   "tags": [
+    "drug:naloxone",
+    "topic:contraindications"
+   ]
+  },
+  {
+   "number": "12.59",
+   "title": "Nicardipine",
+   "page": 379,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult nicardipine starting infusion rate for hypertension?",
+   "options": [
+    "2.5 mg/hr",
+    "15 mg/hr",
+    "1 mg/hr",
+    "5 mg/hr"
+   ],
+   "answer_index": 3,
+   "explanation": "Nicardipine is started at 5 mg/hr; 2.5 mg/hr is the titration increment and 15 mg/hr is the maximum rate.",
+   "priority": "core",
+   "tags": [
+    "drug:nicardipine",
+    "topic:hypertension",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.59",
+   "title": "Nicardipine",
+   "page": 379,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How is an adult nicardipine infusion titrated?",
+   "options": [
+    "By 2.5 mg/hr every 15 minutes",
+    "By 1 mg/hr every 5 - 10 minutes",
+    "By 2.5 mg/hr every 5 minutes",
+    "By 5 mg/hr every 5 minutes"
+   ],
+   "answer_index": 2,
+   "explanation": "The infusion is increased by 2.5 mg/hr every 5 minutes until the target pressure is reached, then decreased as needed to hold the desired BP.",
+   "priority": "core",
+   "tags": [
+    "drug:nicardipine",
+    "topic:hypertension",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.59",
+   "title": "Nicardipine",
+   "page": 379,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum adult nicardipine infusion rate?",
+   "options": [
+    "15 mg/hr",
+    "25 mg/hr",
+    "5 mg/hr",
+    "10 mg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult ceiling is 15 mg/hr. Once the blood pressure goal is met the rate is decreased, not simply left at the maximum.",
+   "priority": "core",
+   "tags": [
+    "drug:nicardipine",
+    "topic:hypertension",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.59",
+   "title": "Nicardipine",
+   "page": 379,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric nicardipine dose for hypertension?",
+   "options": [
+    "0.5 - 1 mg/kg/hr",
+    "1 - 5 mcg/kg/min",
+    "0.5 - 1 mcg/kg/min",
+    "2.5 - 5 mcg/kg/min"
+   ],
+   "answer_index": 2,
+   "explanation": "Children are dosed at 0.5 - 1 mcg/kg/min and titrated every 15 - 30 minutes to the BP goal, a much slower titration than the adult every-5-minute schedule.",
+   "priority": "core",
+   "tags": [
+    "drug:nicardipine",
+    "topic:hypertension",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.59",
+   "title": "Nicardipine",
+   "page": 379,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric nicardipine rate?",
+   "options": [
+    "1 mcg/kg/min",
+    "5 mcg/kg/min",
+    "2 mcg/kg/min",
+    "10 mcg/kg/min"
+   ],
+   "answer_index": 1,
+   "explanation": "The pediatric rate is capped at 5 mcg/kg/min, five times the upper end of the 0.5 - 1 mcg/kg/min starting range.",
+   "priority": "detail",
+   "tags": [
+    "drug:nicardipine",
+    "topic:hypertension",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.59",
+   "title": "Nicardipine",
+   "page": 379,
+   "type": "scope",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is required before starting nicardipine in a pediatric patient?",
+   "options": [
+    "Base hospital notification en route",
+    "A documented arterial line",
+    "A physician order",
+    "A second provider's confirmation"
+   ],
+   "answer_index": 2,
+   "explanation": "Pediatric nicardipine is not a standing order - a physician order is required to initiate it, even though adult dosing may be started by the crew.",
+   "priority": "core",
+   "tags": [
+    "drug:nicardipine",
+    "topic:scope of practice",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.59",
+   "title": "Nicardipine",
+   "page": 379,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of nicardipine?",
+   "options": [
+    "Calcium channel blocker - dihydropyridine",
+    "Corticosteroid; glucocorticoid",
+    "Anticonvulsant, anxiolytic, sedative hypnotic",
+    "Antiarrhythmic, tocolytic, electrolyte"
+   ],
+   "answer_index": 0,
+   "explanation": "Nicardipine is a dihydropyridine calcium channel blocker: it relaxes vascular smooth muscle with little negative inotropic effect, which is why it is the infusion of choice for hypertension.",
+   "priority": "detail",
+   "tags": [
+    "drug:nicardipine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.59",
+   "title": "Nicardipine",
+   "page": 379,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "Two 25 mg vials of nicardipine are injected into a 250 mL bag after 20 mL is removed. What is the final concentration?",
+   "options": [
+    "0.2 mg/mL",
+    "2 mg/mL",
+    "0.1 mg/mL",
+    "0.5 mg/mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Fifty milligrams in the resulting 250 mL yields 0.2 mg/mL, matching the premixed 50 mg / 250 mL bag so the pump settings do not change.",
+   "priority": "detail",
+   "tags": [
+    "drug:nicardipine",
+    "topic:administration"
+   ]
+  },
+  {
+   "number": "12.60",
+   "title": "Nifedipine",
+   "page": 380,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult nifedipine dose for high altitude pulmonary edema?",
+   "options": [
+    "40 mg PO",
+    "20 mg PO/SL q 15 min",
+    "10 mg PO/SL",
+    "20 mg PO"
+   ],
+   "answer_index": 3,
+   "explanation": "HAPE is treated with a single 20 mg oral dose; the 10 mg repeating regimen belongs to pre-term labor and would under-dose the altitude indication.",
+   "priority": "core",
+   "tags": [
+    "drug:nifedipine",
+    "topic:hape",
+    "route:po",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.60",
+   "title": "Nifedipine",
+   "page": 380,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult nifedipine dose for pre-term labor?",
+   "options": [
+    "20 mg PO q 15 min",
+    "10 mg PO q 20 min",
+    "40 mg PO/SL q 15 min",
+    "10 mg PO/SL q 15 min"
+   ],
+   "answer_index": 3,
+   "explanation": "Tocolysis uses 10 mg PO or SL every 15 minutes to a total of 40 mg, titrated against the blood pressure rather than given as one large dose.",
+   "priority": "core",
+   "tags": [
+    "drug:nifedipine",
+    "topic:pre-term labor",
+    "route:po",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.60",
+   "title": "Nifedipine",
+   "page": 380,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum total nifedipine dose for pre-term labor?",
+   "options": [
+    "60 mg",
+    "10 mg",
+    "40 mg",
+    "20 mg"
+   ],
+   "answer_index": 2,
+   "explanation": "Repeat dosing stops at 40 mg total. 20 mg is the single HAPE dose and 10 mg is each individual tocolytic dose.",
+   "priority": "core",
+   "tags": [
+    "drug:nifedipine",
+    "topic:pre-term labor",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.60",
+   "title": "Nifedipine",
+   "page": 380,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "At what systolic blood pressure is nifedipine held during pre-term labor?",
+   "options": [
+    "Below 90 mmHg",
+    "Below 80 mmHg",
+    "Below 100 mmHg",
+    "Above 140 mmHg"
+   ],
+   "answer_index": 0,
+   "explanation": "Nifedipine is held for a systolic under 90 because its vasodilation will worsen maternal hypotension and reduce uterine perfusion.",
+   "priority": "core",
+   "tags": [
+    "drug:nifedipine",
+    "topic:pre-term labor",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "12.60",
+   "title": "Nifedipine",
+   "page": 380,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of nifedipine?",
+   "options": [
+    "Corticosteroid; glucocorticoid",
+    "Opioid antagonist; antidote",
+    "Antiarrhythmic, tocolytic, electrolyte",
+    "Antianginals; calcium channel blocker"
+   ],
+   "answer_index": 3,
+   "explanation": "Nifedipine is a calcium channel blocker classed with the antianginals; it inhibits calcium influx into vascular smooth muscle and myocardium.",
+   "priority": "detail",
+   "tags": [
+    "drug:nifedipine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.60",
+   "title": "Nifedipine",
+   "page": 380,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which adverse reactions does the formulary list for nifedipine?",
+   "options": [
+    "Anterograde amnesia, sedation, hallucination",
+    "Drowsiness, dizziness, light-headedness",
+    "Bradycardia, hypotension, bronchospasm",
+    "Hypotension, arrhythmia, pulmonary edema"
+   ],
+   "answer_index": 3,
+   "explanation": "Hypotension, arrhythmia, pulmonary edema, Stevens Johnson syndrome, nausea/vomiting and palpitations are listed - note that pulmonary edema appears as an adverse effect even though nifedipine treats HAPE.",
+   "priority": "detail",
+   "tags": [
+    "drug:nifedipine",
+    "topic:adverse reactions"
+   ]
+  }
+ ]
+}
