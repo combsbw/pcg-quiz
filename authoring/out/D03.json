@@ -1,0 +1,2454 @@
+{
+ "batch": "D03",
+ "questions": [
+  {
+   "number": "12.31",
+   "title": "Flumazenil",
+   "page": 347,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of flumazenil for a benzodiazepine overdose?",
+   "options": [
+    "0.2 mg IV over 15 seconds",
+    "0.01 mg/kg IV over 15 seconds",
+    "1 mg IV over 15 seconds",
+    "0.2 mg/kg IV over 15 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "Benzodiazepine OD is flumazenil's only indication: 0.2 mg IV pushed over 15 seconds, repeated if there is no response after 45 seconds. 0.01 mg/kg is the pediatric cell of the same row, and 1 mg is the total ceiling rather than a single dose.",
+   "priority": "core",
+   "tags": [
+    "drug:flumazenil",
+    "topic:benzodiazepine-overdose",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.31",
+   "title": "Flumazenil",
+   "page": 347,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of flumazenil for a benzodiazepine overdose?",
+   "options": [
+    "0.01 mg/kg IV over 15 seconds",
+    "0.2 mg IV over 15 seconds",
+    "0.2 mg/kg IV over 15 seconds",
+    "0.1 mg/kg IV over 15 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "Children are dosed by weight at 0.01 mg/kg over 15 seconds, capped at 0.2 mg per dose. The flat 0.2 mg is the adult starting dose and is also the pediatric per-dose ceiling, which is the common point of confusion.",
+   "priority": "core",
+   "tags": [
+    "drug:flumazenil",
+    "topic:benzodiazepine-overdose",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.31",
+   "title": "Flumazenil",
+   "page": 347,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum total dose of flumazenil for benzodiazepine overdose?",
+   "options": [
+    "1 mg",
+    "0.2 mg",
+    "2 mg",
+    "4 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Both the adult and pediatric columns cap the cumulative dose at 1 mg. 0.2 mg is the adult single dose and the pediatric per-dose maximum, not the total.",
+   "priority": "core",
+   "tags": [
+    "drug:flumazenil",
+    "topic:benzodiazepine-overdose"
+   ]
+  },
+  {
+   "number": "12.31",
+   "title": "Flumazenil",
+   "page": 347,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which finding is a contraindication to giving flumazenil?",
+   "options": [
+    "Signs of a tricyclic antidepressant overdose",
+    "A history of second- or third-degree AV block",
+    "Mitral valvular rheumatic heart disease",
+    "Uncontrolled cardiac failure and heart block"
+   ],
+   "answer_index": 0,
+   "explanation": "Reversing benzodiazepines in a TCA or stimulant overdose removes the seizure threshold protection the benzodiazepine was providing. The same logic bars flumazenil in patients prescribed benzodiazepines for increased ICP or status epilepticus.",
+   "priority": "core",
+   "tags": [
+    "drug:flumazenil",
+    "topic:toxicology"
+   ]
+  },
+  {
+   "number": "12.31",
+   "title": "Flumazenil",
+   "page": 347,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which adverse reaction to flumazenil is expected in a patient who is physically dependent on benzodiazepines?",
+   "options": [
+    "Seizure",
+    "Hypokalemia",
+    "Bradycardia",
+    "Laryngospasm"
+   ],
+   "answer_index": 0,
+   "explanation": "Abrupt antagonism at the GABA-benzodiazepine receptor precipitates withdrawal, and agitation and seizure are the listed adverse reactions in dependent patients or those using benzodiazepines for seizure control.",
+   "priority": "core",
+   "tags": [
+    "drug:flumazenil",
+    "topic:toxicology"
+   ]
+  },
+  {
+   "number": "12.31",
+   "title": "Flumazenil",
+   "page": 347,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of flumazenil?",
+   "options": [
+    "Benzodiazepine antagonist",
+    "Anticonvulsant",
+    "Dissociative anesthetic",
+    "Glycogenolytic agent"
+   ],
+   "answer_index": 0,
+   "explanation": "Flumazenil competitively inhibits the benzodiazepine binding site on the GABA-benzodiazepine receptor complex, which is why its duration of 60 minutes can outlast or underlast the ingested benzodiazepine.",
+   "priority": "detail",
+   "tags": [
+    "drug:flumazenil",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.32",
+   "title": "Fosphenytoin",
+   "page": 348,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of fosphenytoin for status epilepticus?",
+   "options": [
+    "15 – 20 mg PE/kg infused at 150 mg/min",
+    "50 mg/kg infused over 15 minutes",
+    "1 – 2 mg/kg slow IV push",
+    "0.1 mg/kg slow IV push"
+   ],
+   "answer_index": 0,
+   "explanation": "Fosphenytoin is loaded at 15 – 20 mg phenytoin equivalents per kg and the infusion rate matters as much as the dose, because rates above 150 mg/min produce hypotension. 50 mg/kg over 15 minutes is levetiracetam's load.",
+   "priority": "core",
+   "tags": [
+    "drug:fosphenytoin",
+    "topic:status-epilepticus",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.32",
+   "title": "Fosphenytoin",
+   "page": 348,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum adult dose of fosphenytoin for status epilepticus?",
+   "options": [
+    "2000 mg",
+    "1500 mg",
+    "3000 mg",
+    "1000 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult cell caps the load at 2000 mg regardless of what 15 – 20 mg PE/kg calculates to, which becomes the limiting factor in patients above roughly 100 kg. 1500 mg is the pediatric per-dose cap.",
+   "priority": "core",
+   "tags": [
+    "drug:fosphenytoin",
+    "topic:status-epilepticus"
+   ]
+  },
+  {
+   "number": "12.32",
+   "title": "Fosphenytoin",
+   "page": 348,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric dose of fosphenytoin per dose for status epilepticus?",
+   "options": [
+    "1,500 mg PE per dose",
+    "2,000 mg PE per dose",
+    "1,000 mg PE per dose",
+    "3,000 mg PE per dose"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric dosing is the same 15 – 20 mg PE/kg as the adult, but the per-dose ceiling drops to 1,500 mg PE. The 2,000 mg figure belongs to the adult column.",
+   "priority": "core",
+   "tags": [
+    "drug:fosphenytoin",
+    "topic:status-epilepticus",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.32",
+   "title": "Fosphenytoin",
+   "page": 348,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which finding is a contraindication to fosphenytoin?",
+   "options": [
+    "Second- or third-degree AV block",
+    "Mitral valvular rheumatic heart disease",
+    "Active bleeding and thrombocytopenia",
+    "Hypo- or hypernatremia with fluid retention"
+   ],
+   "answer_index": 0,
+   "explanation": "Fosphenytoin's sodium channel effects worsen high-grade AV block and sinus bradycardia. Seizures caused by hypoglycemia are also excluded, since the fix there is glucose rather than an anticonvulsant.",
+   "priority": "core",
+   "tags": [
+    "drug:fosphenytoin",
+    "topic:status-epilepticus"
+   ]
+  },
+  {
+   "number": "12.32",
+   "title": "Fosphenytoin",
+   "page": 348,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which adverse reaction to fosphenytoin is associated with infusing it faster than 150 mg/min PE?",
+   "options": [
+    "Hypotension",
+    "Hypokalemia",
+    "Laryngospasm",
+    "Tinnitus"
+   ],
+   "answer_index": 0,
+   "explanation": "The adverse reaction row specifically ties hypotension to rates above 150 mg/min PE, which is why the rate is written into the dose cell rather than left to the crew.",
+   "priority": "core",
+   "tags": [
+    "drug:fosphenytoin",
+    "topic:status-epilepticus"
+   ]
+  },
+  {
+   "number": "12.33",
+   "title": "Furosemide",
+   "page": 349,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of furosemide for pulmonary edema and CHF?",
+   "options": [
+    "20 mg, or the patient's daily dose, whichever is higher",
+    "100 mg, or the patient's daily dose, whichever is higher",
+    "1 – 2 mg/kg, or the patient's daily dose, whichever is higher",
+    "20 mg/kg, or the patient's daily dose, whichever is higher"
+   ],
+   "answer_index": 0,
+   "explanation": "A patient already on a chronic loop diuretic is tolerant to it, so the guideline gives 20 mg or the patient's own daily dose, whichever is larger. 100 mg is the ceiling, not the starting dose.",
+   "priority": "core",
+   "tags": [
+    "drug:furosemide",
+    "topic:pulmonary-edema",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.33",
+   "title": "Furosemide",
+   "page": 349,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of furosemide for pulmonary edema, CHF or hyperkalemia?",
+   "options": [
+    "1 – 2 mg/kg IV",
+    "20 mg IV",
+    "5 mg/kg IV",
+    "0.1 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get 1 – 2 mg/kg IV, or their own daily dose if that is higher, with a 20 mg ceiling. The flat 20 mg is the adult starting dose and happens to be the pediatric maximum.",
+   "priority": "core",
+   "tags": [
+    "drug:furosemide",
+    "topic:pulmonary-edema",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.33",
+   "title": "Furosemide",
+   "page": 349,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum adult dose of furosemide?",
+   "options": [
+    "100 mg",
+    "20 mg",
+    "300 mg",
+    "2000 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult cell caps furosemide at 100 mg even when the patient's home dose is larger. 20 mg is both the adult starting dose and the pediatric maximum.",
+   "priority": "core",
+   "tags": [
+    "drug:furosemide",
+    "topic:pulmonary-edema"
+   ]
+  },
+  {
+   "number": "12.33",
+   "title": "Furosemide",
+   "page": 349,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What systolic blood pressure must an adult have before furosemide is given for pulmonary edema or CHF?",
+   "options": [
+    "SBP greater than 100",
+    "SBP greater than 90",
+    "SBP greater than 120",
+    "SBP greater than 180"
+   ],
+   "answer_index": 0,
+   "explanation": "Diuresing a patient who is already marginally perfused makes them worse, so the special consideration sets an SBP floor of 100 in adults. The threshold drops to 90 for patients under 5 years.",
+   "priority": "core",
+   "tags": [
+    "drug:furosemide",
+    "topic:pulmonary-edema"
+   ]
+  },
+  {
+   "number": "12.33",
+   "title": "Furosemide",
+   "page": 349,
+   "type": "threshold",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What systolic blood pressure must a patient under 5 years have before furosemide is given for pulmonary edema or CHF?",
+   "options": [
+    "SBP greater than 90",
+    "SBP greater than 100",
+    "SBP greater than 110",
+    "SBP greater than 120"
+   ],
+   "answer_index": 0,
+   "explanation": "The special consideration carves out a lower floor of 90 for children under 5, reflecting their lower normal systolic pressures. Adults use 100.",
+   "priority": "detail",
+   "tags": [
+    "drug:furosemide",
+    "topic:pulmonary-edema",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.33",
+   "title": "Furosemide",
+   "page": 349,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "What may result from high doses or rapid administration of furosemide?",
+   "options": [
+    "Tinnitus and hearing loss",
+    "Agitation and seizure",
+    "Laryngospasm",
+    "Reddish discoloration of the urine"
+   ],
+   "answer_index": 0,
+   "explanation": "Loop diuretics are ototoxic at high dose or fast push, so the special consideration warns about tinnitus and hearing loss. Dehydration, dizziness and hypokalemia are the routine adverse reactions.",
+   "priority": "detail",
+   "tags": [
+    "drug:furosemide",
+    "topic:pulmonary-edema"
+   ]
+  },
+  {
+   "number": "12.33",
+   "title": "Furosemide",
+   "page": 349,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which finding is a contraindication to furosemide?",
+   "options": [
+    "Anuria",
+    "Narrow angle glaucoma",
+    "Sinus bradycardia",
+    "Schizophrenia"
+   ],
+   "answer_index": 0,
+   "explanation": "Furosemide works at the renal tubule and the Loop of Henle, so a patient who is making no urine will get no benefit and only the adverse effects.",
+   "priority": "core",
+   "tags": [
+    "drug:furosemide",
+    "topic:pulmonary-edema"
+   ]
+  },
+  {
+   "number": "12.34",
+   "title": "Glucagon",
+   "page": 350,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of glucagon for a beta blocker or calcium channel blocker overdose?",
+   "options": [
+    "5 – 10 mg slow IVP",
+    "1 – 2 mg slow IVP",
+    "0.5 – 1 mg slow IVP",
+    "0.2 mg slow IVP"
+   ],
+   "answer_index": 0,
+   "explanation": "Toxicologic dosing of glucagon is far higher than the 1 mg used for hypoglycemia: 5 – 10 mg slow IV push, bypassing the poisoned beta receptor to raise intracellular cyclic AMP. There is no LFN standing order for pediatric patients.",
+   "priority": "core",
+   "tags": [
+    "drug:glucagon",
+    "topic:toxicology",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.34",
+   "title": "Glucagon",
+   "page": 350,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of glucagon?",
+   "options": [
+    "Glycogenolytic agent",
+    "Hormone",
+    "Osmotic agent",
+    "Antidote; vitamin"
+   ],
+   "answer_index": 0,
+   "explanation": "Glucagon is classed as a glycogenolytic agent because it induces liver glycogen breakdown and glucose release, which is also why it fails in patients whose glycogen stores are depleted.",
+   "priority": "detail",
+   "tags": [
+    "drug:glucagon",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.34",
+   "title": "Glucagon",
+   "page": 350,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "In which patients is glucagon ineffective?",
+   "options": [
+    "Patients with depleted glycogen stores",
+    "Patients with anuria",
+    "Patients with narrow angle glaucoma",
+    "Patients with renal failure"
+   ],
+   "answer_index": 0,
+   "explanation": "Glucagon mobilizes stored hepatic glycogen, so a malnourished, alcoholic or prolonged-fasting patient has nothing to mobilize. That is why IV dextrose should be given as soon as possible.",
+   "priority": "core",
+   "tags": [
+    "drug:glucagon",
+    "topic:toxicology"
+   ]
+  },
+  {
+   "number": "12.34",
+   "title": "Glucagon",
+   "page": 350,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "What does 12.34 direct be given as soon as possible alongside glucagon?",
+   "options": [
+    "IV dextrose",
+    "IV calcium chloride",
+    "IV insulin",
+    "IV sodium bicarbonate"
+   ],
+   "answer_index": 0,
+   "explanation": "Because glucagon depends on existing glycogen stores and depletes them, the special considerations direct IV dextrose as soon as possible to keep the blood glucose up.",
+   "priority": "core",
+   "tags": [
+    "drug:glucagon",
+    "topic:toxicology"
+   ]
+  },
+  {
+   "number": "12.34",
+   "title": "Glucagon",
+   "page": 350,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the listed adverse reaction to glucagon?",
+   "options": [
+    "Nausea and vomiting",
+    "Hypokalemia",
+    "Bradycardia",
+    "Tinnitus"
+   ],
+   "answer_index": 0,
+   "explanation": "Glucagon relaxes GI smooth muscle and reliably causes nausea and vomiting at the high doses used in toxicology, which matters for airway planning in an obtunded overdose patient.",
+   "priority": "detail",
+   "tags": [
+    "drug:glucagon",
+    "topic:toxicology"
+   ]
+  },
+  {
+   "number": "12.35",
+   "title": "Heparin",
+   "page": 351,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult heparin bolus for STEMI/ACS in the TSE program?",
+   "options": [
+    "60 units/kg",
+    "70 units/kg",
+    "12 units/kg",
+    "100 units/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "The STEMI/ACS - TSE row gives a 60 units/kg bolus capped at 4,000 units, then an infusion. The 70 units/kg bolus belongs to the separate row for STEMI patients bound for St. Charles Bend.",
+   "priority": "core",
+   "tags": [
+    "drug:heparin",
+    "topic:stemi",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.35",
+   "title": "Heparin",
+   "page": 351,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum heparin bolus for STEMI/ACS in the TSE program?",
+   "options": [
+    "4,000 units",
+    "10,000 units",
+    "5,000 units",
+    "1,000 units"
+   ],
+   "answer_index": 0,
+   "explanation": "The TSE bolus of 60 units/kg is capped at 4,000 units. The 10,000 unit cap applies only to the 70 units/kg bolus for STEMI patients bound for St. Charles Bend.",
+   "priority": "core",
+   "tags": [
+    "drug:heparin",
+    "topic:stemi"
+   ]
+  },
+  {
+   "number": "12.35",
+   "title": "Heparin",
+   "page": 351,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the heparin bolus and its ceiling for a STEMI patient bound for St. Charles Bend?",
+   "options": [
+    "70 units/kg, max 10,000 units",
+    "60 units/kg, max 4,000 units",
+    "60 units/kg, max 10,000 units",
+    "70 units/kg, max 4,000 units"
+   ],
+   "answer_index": 0,
+   "explanation": "The destination changes the order: St. Charles Bend takes a 70 units/kg bolus to a maximum of 10,000 units with no infusion, while the TSE row is 60 units/kg to 4,000 units followed by an infusion.",
+   "priority": "core",
+   "tags": [
+    "drug:heparin",
+    "topic:stemi"
+   ]
+  },
+  {
+   "number": "12.35",
+   "title": "Heparin",
+   "page": 351,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "After the bolus for STEMI/ACS in the TSE program, at what rate is the heparin infusion started?",
+   "options": [
+    "12 units/kg/hr, max 1000 units/hr",
+    "60 units/kg/hr, max 1000 units/hr",
+    "12 units/kg/hr, max 4,000 units/hr",
+    "70 units/kg/hr, max 1000 units/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Only the TSE row carries an infusion, started at 12 units/kg/hr and capped at 1000 units/hr. 60 units/kg is the one-time bolus, not an hourly rate.",
+   "priority": "core",
+   "tags": [
+    "drug:heparin",
+    "topic:stemi",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.35",
+   "title": "Heparin",
+   "page": 351,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "Which agent reverses heparin?",
+   "options": [
+    "Protamine sulfate",
+    "Flumazenil",
+    "Naloxone",
+    "Calcium chloride"
+   ],
+   "answer_index": 0,
+   "explanation": "Protamine sulfate antagonizes heparin and is named both in the warnings and the special considerations, which matters if the patient bleeds or needs an invasive procedure after the bolus.",
+   "priority": "core",
+   "tags": [
+    "drug:heparin",
+    "topic:stemi"
+   ]
+  },
+  {
+   "number": "12.35",
+   "title": "Heparin",
+   "page": 351,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which finding is a contraindication to heparin?",
+   "options": [
+    "Thrombocytopenia",
+    "Anuria",
+    "Narrow angle glaucoma",
+    "Sinus bradycardia"
+   ],
+   "answer_index": 0,
+   "explanation": "Active bleeding and bleeding tendencies such as hemophilia, purpura and thrombocytopenia are contraindications, and a history of intracranial hemorrhage appears in the warnings.",
+   "priority": "core",
+   "tags": [
+    "drug:heparin",
+    "topic:stemi"
+   ]
+  },
+  {
+   "number": "12.36",
+   "title": "Hydralazine",
+   "page": 352,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the initial adult dose of hydralazine for hypertension in pregnancy?",
+   "options": [
+    "5 mg IV over 1 minute",
+    "10 mg IV over 1 minute",
+    "20 mg IV over 1 minute",
+    "40 mg IV over 1 minute"
+   ],
+   "answer_index": 0,
+   "explanation": "Hydralazine is started at 5 mg given over a minute, then repeated at 5 – 10 mg every 20 minutes. 20 mg is the total ceiling, not a starting dose.",
+   "priority": "core",
+   "tags": [
+    "drug:hydralazine",
+    "topic:hypertension-in-pregnancy",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.36",
+   "title": "Hydralazine",
+   "page": 352,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How is hydralazine repeated for hypertension in pregnancy if the blood pressure remains elevated?",
+   "options": [
+    "5 – 10 mg every 20 minutes",
+    "20 – 80 mg every 10 minutes",
+    "20 – 40 mg every 10 minutes",
+    "10 – 20 mg every 20 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Repeat doses of 5 – 10 mg are given every 20 minutes, matching hydralazine's 5 – 10 minute onset and 10 – 80 minute peak. The 20 – 80 mg and 20 – 40 mg intervals belong to labetalol.",
+   "priority": "core",
+   "tags": [
+    "drug:hydralazine",
+    "topic:hypertension-in-pregnancy"
+   ]
+  },
+  {
+   "number": "12.36",
+   "title": "Hydralazine",
+   "page": 352,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum total dose of hydralazine for hypertension in pregnancy?",
+   "options": [
+    "20 mg",
+    "80 mg",
+    "100 mg",
+    "300 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Hydralazine is capped at a 20 mg total, which is reached quickly given 5 mg doses every 20 minutes. 300 mg is labetalol's 24 hour ceiling.",
+   "priority": "core",
+   "tags": [
+    "drug:hydralazine",
+    "topic:hypertension-in-pregnancy"
+   ]
+  },
+  {
+   "number": "12.36",
+   "title": "Hydralazine",
+   "page": 352,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "At what rate may a hydralazine infusion be run for hypertension in pregnancy?",
+   "options": [
+    "0.5 – 10 mg/hr",
+    "0.5 – 2 mg/min",
+    "1 – 2 mg/min",
+    "20 mg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "An infusion of 0.5 – 10 mg/hr may be considered in addition to the intermittent doses. The per-minute infusions are labetalol's, and confusing mg/hr with mg/min here would be a tenfold or greater error.",
+   "priority": "detail",
+   "tags": [
+    "drug:hydralazine",
+    "topic:hypertension-in-pregnancy",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.36",
+   "title": "Hydralazine",
+   "page": 352,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of hydralazine?",
+   "options": [
+    "Peripheral vasodilator",
+    "Mixed alpha and beta blocker",
+    "Loop diuretic",
+    "Osmotic agent"
+   ],
+   "answer_index": 0,
+   "explanation": "Hydralazine directly relaxes vascular smooth muscle rather than acting on adrenergic receptors, which is why reflex tachycardia and palpitations are listed adverse reactions.",
+   "priority": "detail",
+   "tags": [
+    "drug:hydralazine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.36",
+   "title": "Hydralazine",
+   "page": 352,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which finding is a contraindication to hydralazine?",
+   "options": [
+    "Mitral valvular rheumatic heart disease",
+    "Bronchial asthma and cardiogenic shock",
+    "Insulinoma or pheochromocytoma",
+    "Known hypersensitivity to sodium lactate"
+   ],
+   "answer_index": 0,
+   "explanation": "Hydralazine is contraindicated in hypersensitivity, coronary artery disease and mitral valvular rheumatic heart disease, where the reflex tachycardia it produces is poorly tolerated. Bronchial asthma is a labetalol contraindication.",
+   "priority": "detail",
+   "tags": [
+    "drug:hydralazine",
+    "topic:hypertension-in-pregnancy"
+   ]
+  },
+  {
+   "number": "12.37",
+   "title": "Hydromorphone",
+   "page": 353,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult IV dose of hydromorphone for pain management?",
+   "options": [
+    "0.5 – 1 mg IV",
+    "1 – 2 mg IV",
+    "5 – 10 mg IV",
+    "0.2 mg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "The IV dose is 0.5 – 1 mg, repeatable every 15 minutes. The 1 – 2 mg figure is the intramuscular dose from the same cell, and giving the IM number IV would double the intended dose.",
+   "priority": "core",
+   "tags": [
+    "drug:hydromorphone",
+    "topic:pain",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.37",
+   "title": "Hydromorphone",
+   "page": 353,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult IM dose of hydromorphone for pain management?",
+   "options": [
+    "1 – 2 mg IM",
+    "0.5 – 1 mg IM",
+    "4 mg IM",
+    "5 – 10 mg IM"
+   ],
+   "answer_index": 0,
+   "explanation": "The IM dose is 1 – 2 mg, higher than the 0.5 – 1 mg IV dose to account for slower absorption. Either route is repeated every 15 minutes to the same 4 mg ceiling.",
+   "priority": "core",
+   "tags": [
+    "drug:hydromorphone",
+    "topic:pain",
+    "route:im"
+   ]
+  },
+  {
+   "number": "12.37",
+   "title": "Hydromorphone",
+   "page": 353,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum total dose of hydromorphone for pain management?",
+   "options": [
+    "4 mg",
+    "2 mg",
+    "1 mg",
+    "20 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Both the adult and pediatric cells repeat every 15 minutes to a maximum of 4 mg. 1 – 2 mg is the IM single dose, not the cumulative ceiling.",
+   "priority": "core",
+   "tags": [
+    "drug:hydromorphone",
+    "topic:pain"
+   ]
+  },
+  {
+   "number": "12.37",
+   "title": "Hydromorphone",
+   "page": 353,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the hydromorphone dose for pain management in a child 6 months of age or older?",
+   "options": [
+    "0.015 mg/kg IV/IM",
+    "0.005 mg/kg IV/IM",
+    "0.01 mg/kg IV/IM",
+    "0.1 mg/kg IV/IM"
+   ],
+   "answer_index": 0,
+   "explanation": "Children 6 months and older get 0.015 mg/kg IV or IM; infants under 6 months get a third of that at 0.005 mg/kg. Both repeat every 15 minutes to a 4 mg maximum.",
+   "priority": "core",
+   "tags": [
+    "drug:hydromorphone",
+    "topic:pain",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.37",
+   "title": "Hydromorphone",
+   "page": 353,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the hydromorphone dose for pain management in an infant under 6 months of age?",
+   "options": [
+    "0.005 mg/kg IV/IM",
+    "0.015 mg/kg IV/IM",
+    "0.01 mg/kg IV/IM",
+    "0.1 mg/kg IV/IM"
+   ],
+   "answer_index": 0,
+   "explanation": "Infants under 6 months are dosed at 0.005 mg/kg because of immature hepatic clearance and a higher risk of respiratory depression. Using the 0.015 mg/kg figure meant for older children triples the dose.",
+   "priority": "core",
+   "tags": [
+    "drug:hydromorphone",
+    "topic:pain",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.37",
+   "title": "Hydromorphone",
+   "page": 353,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "How much fentanyl is 1 mg of hydromorphone equivalent to?",
+   "options": [
+    "75 mcg fentanyl",
+    "50 mcg fentanyl",
+    "100 mcg fentanyl",
+    "25 mcg fentanyl"
+   ],
+   "answer_index": 0,
+   "explanation": "The special considerations give 1 mg hydromorphone = 75 mcg fentanyl = 5 mg morphine, which is how you reconcile what a sending facility has already given with what you plan to give.",
+   "priority": "detail",
+   "tags": [
+    "drug:hydromorphone",
+    "topic:pain"
+   ]
+  },
+  {
+   "number": "12.37",
+   "title": "Hydromorphone",
+   "page": 353,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "What monitoring does 12.37 require in patients receiving multiple doses of opiates or sedative agents?",
+   "options": [
+    "ETCO2",
+    "Serum sodium",
+    "Blood glucose",
+    "Serum potassium"
+   ],
+   "answer_index": 0,
+   "explanation": "Hydromorphone is a respiratory depressant and causes hypercapnia before it causes desaturation, so ETCO2 rather than pulse oximetry is the monitor that gives early warning.",
+   "priority": "core",
+   "tags": [
+    "drug:hydromorphone",
+    "topic:pain"
+   ]
+  },
+  {
+   "number": "12.38",
+   "title": "Hydroxocobalamin",
+   "page": 354,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of hydroxocobalamin for cyanide poisoning?",
+   "options": [
+    "5 grams IV over 15 minutes",
+    "70 mg/kg IV over 15 minutes",
+    "2 grams IV over 15 minutes",
+    "1 gram IV over 15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults receive 5 grams infused over 15 minutes and the dose may be repeated once. 70 mg/kg is the pediatric cell of the same row.",
+   "priority": "core",
+   "tags": [
+    "drug:hydroxocobalamin",
+    "topic:cyanide-poisoning",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.38",
+   "title": "Hydroxocobalamin",
+   "page": 354,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of hydroxocobalamin for cyanide poisoning?",
+   "options": [
+    "70 mg/kg IV over 15 minutes",
+    "5 grams IV over 15 minutes",
+    "50 mg/kg IV over 15 minutes",
+    "5 mg/kg IV over 15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get 70 mg/kg over 15 minutes, repeatable once, which approaches the adult 5 gram dose in a large adolescent. 50 mg/kg over 15 minutes is levetiracetam's load.",
+   "priority": "core",
+   "tags": [
+    "drug:hydroxocobalamin",
+    "topic:cyanide-poisoning",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.38",
+   "title": "Hydroxocobalamin",
+   "page": 354,
+   "type": "route",
+   "care_level": null,
+   "population": null,
+   "stem": "How should hydroxocobalamin be administered?",
+   "options": [
+    "Through a dedicated IV or IO line",
+    "Through a central line only",
+    "Mixed in a 100 mL NS bag",
+    "By slow IV push over 1 minute"
+   ],
+   "answer_index": 0,
+   "explanation": "The warnings note multiple drug interactions and require a dedicated IV or IO line, so it cannot be run alongside other infusions in a cyanide patient who is also receiving resuscitation drugs.",
+   "priority": "core",
+   "tags": [
+    "drug:hydroxocobalamin",
+    "topic:cyanide-poisoning",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.38",
+   "title": "Hydroxocobalamin",
+   "page": 354,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "What harmless effect should the crew expect after giving hydroxocobalamin?",
+   "options": [
+    "Reddish discoloration of the skin and urine",
+    "Tinnitus and hearing loss",
+    "Agitation and seizure",
+    "Numbness and tingling of the hands and feet"
+   ],
+   "answer_index": 0,
+   "explanation": "Hydroxocobalamin is deeply red and stains skin and urine, which is expected rather than an adverse reaction. It also interferes with colorimetric lab assays at the receiving facility.",
+   "priority": "core",
+   "tags": [
+    "drug:hydroxocobalamin",
+    "topic:cyanide-poisoning"
+   ]
+  },
+  {
+   "number": "12.38",
+   "title": "Hydroxocobalamin",
+   "page": 354,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of hydroxocobalamin?",
+   "options": [
+    "Antidote; vitamin",
+    "Glycogenolytic agent",
+    "Osmotic agent",
+    "Anticoagulant"
+   ],
+   "answer_index": 0,
+   "explanation": "Hydroxocobalamin is a vitamin B12 precursor that binds cyanide to form nontoxic cyanocobalamin, which is then excreted in the urine.",
+   "priority": "detail",
+   "tags": [
+    "drug:hydroxocobalamin",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.39",
+   "title": "Hypertonic Saline 3%",
+   "page": 355,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of hypertonic saline 3% for increased ICP from hemorrhagic stroke, cerebral edema or head injury?",
+   "options": [
+    "250 mL IV over 15 minutes",
+    "5 mL/kg IV over 15 minutes",
+    "500 mL IV over 15 minutes",
+    "100 mL IV over 15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Raised ICP is treated with a 250 mL bolus over 15 minutes, repeatable once as needed. 5 mL/kg is the pediatric cell of the same row.",
+   "priority": "core",
+   "tags": [
+    "drug:hypertonic-saline",
+    "topic:increased-icp",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.39",
+   "title": "Hypertonic Saline 3%",
+   "page": 355,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of hypertonic saline 3% for increased ICP?",
+   "options": [
+    "5 mL/kg IV over 15 minutes",
+    "250 mL IV over 15 minutes",
+    "10 – 20 mL/kg IV over 15 minutes",
+    "3 – 6 mL/kg IV over 15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Children receive 5 mL/kg over 15 minutes, repeatable once, with each bolus capped at 250 mL so a large adolescent does not exceed the adult dose. 3 – 6 mL/kg/hr is the hyponatremia infusion rate from the row below.",
+   "priority": "core",
+   "tags": [
+    "drug:hypertonic-saline",
+    "topic:increased-icp",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.39",
+   "title": "Hypertonic Saline 3%",
+   "page": 355,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult rate of hypertonic saline 3% for hyponatremia with mild or moderate symptoms and a sodium below 120?",
+   "options": [
+    "0.5 – 2 mL/kg/hr",
+    "3 – 6 mL/kg/hr",
+    "10 – 20 mL/kg/hr",
+    "5 mL/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Mild to moderate hyponatremic symptoms are corrected slowly at 0.5 – 2 mL/kg/hr. The faster 3 – 6 mL/kg/hr rate is reserved for severe symptoms, and all hyponatremia treatment requires provider consultation.",
+   "priority": "core",
+   "tags": [
+    "drug:hypertonic-saline",
+    "topic:hyponatremia",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.39",
+   "title": "Hypertonic Saline 3%",
+   "page": 355,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the rate of hypertonic saline 3% for hyponatremia with severe symptoms such as seizures, obtundation or cerebral edema?",
+   "options": [
+    "3 – 6 mL/kg/hr",
+    "0.5 – 2 mL/kg/hr",
+    "10 – 20 mL/kg/hr",
+    "5 mL/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Severe symptoms justify the faster 3 – 6 mL/kg/hr rate, and this is the one rate that is the same for adults and children. Pediatric patients with only mild or moderate symptoms are treated with normal saline instead.",
+   "priority": "core",
+   "tags": [
+    "drug:hypertonic-saline",
+    "topic:hyponatremia",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.39",
+   "title": "Hypertonic Saline 3%",
+   "page": 355,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Below what serum sodium does 12.39 start hypertonic saline 3% for mild to moderate hyponatremic symptoms in an adult?",
+   "options": [
+    "120 mEq/L",
+    "130 mEq/L",
+    "144 mEq/L",
+    "155 mEq/L"
+   ],
+   "answer_index": 0,
+   "explanation": "The 0.5 – 2 mL/kg/hr rate is tied to mild or moderate symptoms with a sodium under 120. 144 – 155 mEq/L is the goal sodium to correct toward, not a treatment trigger.",
+   "priority": "core",
+   "tags": [
+    "drug:hypertonic-saline",
+    "topic:hyponatremia"
+   ]
+  },
+  {
+   "number": "12.39",
+   "title": "Hypertonic Saline 3%",
+   "page": 355,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "In general, how much does 6 mL/kg of hypertonic saline 3% raise the serum sodium?",
+   "options": [
+    "5 mEq/L",
+    "10 mEq/L",
+    "20 mEq/L",
+    "3 mEq/L"
+   ],
+   "answer_index": 0,
+   "explanation": "The special considerations give 6 mL/kg as raising serum sodium by about 5 mEq/L, which is how a crew estimates whether a bolus will overshoot the 144 – 155 mEq/L goal.",
+   "priority": "detail",
+   "tags": [
+    "drug:hypertonic-saline",
+    "topic:hyponatremia"
+   ]
+  },
+  {
+   "number": "12.39",
+   "title": "Hypertonic Saline 3%",
+   "page": 355,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "If hypertonic saline 3% is unavailable, how much normal saline delivers the same sodium load as 6 mL/kg of 3%?",
+   "options": [
+    "20 mL/kg of normal saline",
+    "10 mL/kg of normal saline",
+    "6 mL/kg of normal saline",
+    "3 mL/kg of normal saline"
+   ],
+   "answer_index": 0,
+   "explanation": "20 mL/kg of normal saline carries the same milliequivalents of sodium as 6 mL/kg of 3%, so it may be substituted when 3% is not available, at the cost of a much larger volume load.",
+   "priority": "detail",
+   "tags": [
+    "drug:hypertonic-saline",
+    "topic:hyponatremia"
+   ]
+  },
+  {
+   "number": "12.39",
+   "title": "Hypertonic Saline 3%",
+   "page": 355,
+   "type": "route",
+   "care_level": null,
+   "population": null,
+   "stem": "Through what access should hypertonic saline 3% be given when possible?",
+   "options": [
+    "A central line or large bore peripheral IV",
+    "A dedicated IV or IO line",
+    "Any 22 gauge or larger peripheral IV",
+    "An intraosseous line only"
+   ],
+   "answer_index": 0,
+   "explanation": "3% saline is sclerosing to small veins, so the special considerations call for a central line or large bore peripheral IV. A dedicated line is hydroxocobalamin's requirement, for a different reason.",
+   "priority": "core",
+   "tags": [
+    "drug:hypertonic-saline",
+    "topic:increased-icp",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.40",
+   "title": "Insulin",
+   "page": 356,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult insulin dose for diabetic ketoacidosis?",
+   "options": [
+    "0.1 units/kg bolus, then 0.1 units/kg/hr",
+    "1 unit/kg bolus, then 0.5 units/kg/hr",
+    "10 units IV, then 0.1 units/kg/hr",
+    "0.05 units/kg bolus, then 0.1 units/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "DKA gets a 0.1 units/kg bolus followed by an infusion at the same 0.1 units/kg/hr. The 1 unit/kg bolus is ten times larger and belongs to the beta blocker and calcium channel blocker overdose row.",
+   "priority": "core",
+   "tags": [
+    "drug:insulin",
+    "topic:dka",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.40",
+   "title": "Insulin",
+   "page": 356,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric insulin regimen for diabetic ketoacidosis?",
+   "options": [
+    "No bolus; infusion at 0.05 – 0.1 units/kg/hr",
+    "0.1 units/kg bolus, then 0.1 units/kg/hr",
+    "No bolus; infusion at 0.5 units/kg/hr",
+    "0.05 units/kg bolus, then 0.05 units/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Children in DKA get no bolus at all because of cerebral edema risk, only an infusion at 0.05 – 0.1 units/kg/hr. The adult cell in the same row does include a bolus.",
+   "priority": "core",
+   "tags": [
+    "drug:insulin",
+    "topic:dka",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.40",
+   "title": "Insulin",
+   "page": 356,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult insulin dose for hyperkalemia?",
+   "options": [
+    "10 units IV",
+    "1 unit/kg IV bolus",
+    "0.1 units/kg IV",
+    "0.5 units/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Hyperkalemia is treated with a flat 10 units IV, given with D10 if the blood glucose is under 250 mg/dL. The weight-based figures belong to the DKA and overdose rows.",
+   "priority": "core",
+   "tags": [
+    "drug:insulin",
+    "topic:hyperkalemia",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.40",
+   "title": "Insulin",
+   "page": 356,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric insulin dose for hyperkalemia?",
+   "options": [
+    "0.1 units/kg IV over 30 minutes",
+    "10 units IV over 30 minutes",
+    "0.05 units/kg IV over 30 minutes",
+    "1 unit/kg IV over 30 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get 0.1 units/kg IV over 30 minutes rather than the adult flat 10 units, and it is given with D10 if the blood glucose is under 250 mg/dL.",
+   "priority": "core",
+   "tags": [
+    "drug:insulin",
+    "topic:hyperkalemia",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.40",
+   "title": "Insulin",
+   "page": 356,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult insulin regimen for a beta blocker or calcium channel blocker overdose?",
+   "options": [
+    "1 unit/kg bolus, then 0.5 units/kg/hr",
+    "0.1 units/kg bolus, then 0.1 units/kg/hr",
+    "10 units IV, then 0.5 units/kg/hr",
+    "1 unit/kg bolus, then 0.1 units/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "High-dose insulin euglycemic therapy uses a 1 unit/kg bolus and an infusion starting at 0.5 units/kg/hr, an order of magnitude above DKA dosing, because it is being used as an inotrope rather than to lower glucose.",
+   "priority": "core",
+   "tags": [
+    "drug:insulin",
+    "topic:toxicology",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.40",
+   "title": "Insulin",
+   "page": 356,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "To what maximum rate is the insulin infusion titrated in a beta blocker or calcium channel blocker overdose?",
+   "options": [
+    "2 units/kg/hr",
+    "0.5 units/kg/hr",
+    "1 unit/kg/hr",
+    "0.1 units/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "The infusion starts at 0.5 units/kg/hr and is titrated every 15 to 30 minutes up to 2 units/kg/hr. 0.5 units/kg/hr is the starting rate, not the ceiling.",
+   "priority": "core",
+   "tags": [
+    "drug:insulin",
+    "topic:toxicology"
+   ]
+  },
+  {
+   "number": "12.40",
+   "title": "Insulin",
+   "page": 356,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "Which laboratory value must be confirmed before insulin is administered?",
+   "options": [
+    "Serum potassium above 3.3 mEq/L",
+    "Serum sodium above 120 mEq/L",
+    "Blood glucose above 250 mg/dL",
+    "Serum sodium of 144 – 155 mEq/L"
+   ],
+   "answer_index": 0,
+   "explanation": "Insulin drives potassium intracellularly, so giving it to a patient whose potassium is already at or below 3.3 mEq/L can precipitate dangerous hypokalemia and arrhythmia.",
+   "priority": "core",
+   "tags": [
+    "drug:insulin",
+    "topic:hyperkalemia"
+   ]
+  },
+  {
+   "number": "12.40",
+   "title": "Insulin",
+   "page": 356,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "When must D10 be given alongside insulin?",
+   "options": [
+    "When the blood glucose is less than 250 mg/dL",
+    "When the blood glucose is above 250 mg/dL",
+    "When the serum potassium is above 3.3 mEq/L",
+    "When the serum sodium is less than 120 mEq/L"
+   ],
+   "answer_index": 0,
+   "explanation": "The hyperkalemia and overdose rows both require concurrent D10 whenever the blood glucose is under 250 mg/dL, since in those indications insulin is not being given to lower glucose. Frequent glucose checks are required throughout.",
+   "priority": "core",
+   "tags": [
+    "drug:insulin",
+    "topic:hyperkalemia"
+   ]
+  },
+  {
+   "number": "12.41",
+   "title": "Ipratropium Bromide",
+   "page": 357,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of ipratropium bromide for bronchospasm?",
+   "options": [
+    "0.5 mg via nebulizer",
+    "2.5 mg via nebulizer",
+    "2 mg via nebulizer",
+    "1 mg via nebulizer"
+   ],
+   "answer_index": 0,
+   "explanation": "Ipratropium is nebulized at 0.5 mg, commonly alongside a beta agonist. The 2.5 mg figure is a beta agonist nebulizer dose, not ipratropium's.",
+   "priority": "core",
+   "tags": [
+    "drug:ipratropium",
+    "topic:bronchospasm",
+    "route:nebulized"
+   ]
+  },
+  {
+   "number": "12.41",
+   "title": "Ipratropium Bromide",
+   "page": 357,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum number of ipratropium bromide doses for bronchospasm?",
+   "options": [
+    "2 total doses",
+    "3 total doses",
+    "4 total doses",
+    "1 total dose"
+   ],
+   "answer_index": 0,
+   "explanation": "Ipratropium is capped at 2 total doses because its effect plateaus and its 3 to 6 hour duration means further doses add anticholinergic side effects without more bronchodilation.",
+   "priority": "core",
+   "tags": [
+    "drug:ipratropium",
+    "topic:bronchospasm"
+   ]
+  },
+  {
+   "number": "12.41",
+   "title": "Ipratropium Bromide",
+   "page": 357,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of ipratropium bromide for bronchospasm?",
+   "options": [
+    "0.5 mg via nebulizer",
+    "0.5 mg/kg via nebulizer",
+    "0.01 mg/kg via nebulizer",
+    "0.1 mg/kg via nebulizer"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric cell reads \"same as adult\", so children get the same flat 0.5 mg nebulized dose rather than a weight-based one, to the same 2 dose maximum.",
+   "priority": "core",
+   "tags": [
+    "drug:ipratropium",
+    "topic:bronchospasm",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.41",
+   "title": "Ipratropium Bromide",
+   "page": 357,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "What limitation does 12.41 place on the use of ipratropium bromide in acute bronchospasm?",
+   "options": [
+    "It should not be the primary treatment when a rapid response is required",
+    "It should only be used in intubated patients",
+    "It should be given only through a dedicated line",
+    "It should be given only on a physician's order"
+   ],
+   "answer_index": 0,
+   "explanation": "Ipratropium takes 5 to 15 minutes to begin working and peaks at 1 to 2 hours, so it is an adjunct to a fast-acting beta agonist rather than the first drug in a severe attack.",
+   "priority": "core",
+   "tags": [
+    "drug:ipratropium",
+    "topic:bronchospasm"
+   ]
+  },
+  {
+   "number": "12.41",
+   "title": "Ipratropium Bromide",
+   "page": 357,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of ipratropium bromide?",
+   "options": [
+    "Bronchodilator",
+    "Loop diuretic",
+    "Dissociative anesthetic",
+    "Peripheral vasodilator"
+   ],
+   "answer_index": 0,
+   "explanation": "Ipratropium is an anticholinergic bronchodilator chemically related to atropine; blocking acetylcholine at the bronchial tree dilates smooth muscle and dries secretions.",
+   "priority": "detail",
+   "tags": [
+    "drug:ipratropium",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 358,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of ketamine for pain management?",
+   "options": [
+    "0.1 – 0.2 mg/kg slow IV push",
+    "0.5 – 1 mg/kg slow IV push",
+    "1 – 2 mg/kg slow IV push",
+    "0.5 – 2 mg/kg slow IV push"
+   ],
+   "answer_index": 0,
+   "explanation": "Analgesic ketamine is a sub-dissociative 0.1 – 0.2 mg/kg slow IV push, repeatable every 20 minutes. The higher ranges are the procedural sedation, RSI and combative patient doses, any of which would dissociate a patient who only needed pain control.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:pain",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 358,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the dose of ketamine for RSI induction?",
+   "options": [
+    "1 – 2 mg/kg slow IV push",
+    "0.1 – 0.2 mg/kg slow IV push",
+    "0.5 – 1 mg/kg slow IV push",
+    "4 mg/kg slow IV push"
+   ],
+   "answer_index": 0,
+   "explanation": "Induction for RSI is 1 – 2 mg/kg slow IV push, reduced to 1 mg/kg in hypotensive patients. The pediatric cell reads \"same as adult\" for this row.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:rsi",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 358,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "To what dose is ketamine reduced for RSI induction in a hypotensive patient?",
+   "options": [
+    "1 mg/kg",
+    "0.5 mg/kg",
+    "2 mg/kg",
+    "4 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Hypotensive patients are catecholamine-depleted, so ketamine's indirect sympathomimetic support fails and its direct myocardial depression shows. The induction dose is cut to the bottom of the range, 1 mg/kg.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:rsi"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 358,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the IM dose of ketamine for a severely agitated combative patient without IV access?",
+   "options": [
+    "4 mg/kg IM",
+    "1 mg/kg IM",
+    "2 mg/kg IM",
+    "0.5 mg/kg IM"
+   ],
+   "answer_index": 0,
+   "explanation": "Without IV access the combative patient row gives 4 mg/kg IM, much higher than the 0.5 – 2 mg/kg used IV in the same row to account for intramuscular absorption. High concentration ketamine is the formulation used for IM.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:agitation",
+    "route:im"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 358,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the initial ketamine dose for post-intubation sedation?",
+   "options": [
+    "1 mg/kg slow IV push",
+    "0.5 mg/kg slow IV push",
+    "4 mg/kg slow IV push",
+    "2 mg/kg slow IV push"
+   ],
+   "answer_index": 0,
+   "explanation": "Post-intubation sedation starts at 1 mg/kg slow IV push, then repeats at 0.5 mg/kg every 15 minutes. If the last dose was 15 minutes or more ago, the re-dose goes back up to the full 1 mg/kg.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:post-intubation-sedation",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 358,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "At what rate is a ketamine infusion started for post-intubation sedation?",
+   "options": [
+    "0.5 mg/kg/hr",
+    "1 mg/kg/hr",
+    "4 mg/kg/hr",
+    "2 mg/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "The infusion begins at 0.5 mg/kg/hr and is titrated by 0.5 mg/kg/hr every 10 minutes, with a 0.5 mg/kg bolus accompanying each titration. 4 mg/kg/hr is the ceiling, not the start.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:post-intubation-sedation",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 358,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum rate of a ketamine infusion for post-intubation sedation?",
+   "options": [
+    "4 mg/kg/hr",
+    "2 mg/kg/hr",
+    "0.5 mg/kg/hr",
+    "1 mg/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Titration by 0.5 mg/kg/hr every 10 minutes stops at 4 mg/kg/hr. 5 mg/kg is the maximum total for refractory seizures, a cumulative dose rather than an hourly rate.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:post-intubation-sedation"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 358,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum total dose of ketamine for refractory seizures?",
+   "options": [
+    "5 mg/kg",
+    "4 mg/kg",
+    "2 mg/kg",
+    "1 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Refractory seizures are treated with 1 mg/kg slow IVP repeated every 5 minutes up to a maximum total of 5 mg/kg. 1 mg/kg is the single dose within that total.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:refractory-seizures"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 358,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the ketamine dose for procedural sedation?",
+   "options": [
+    "0.5 – 1 mg/kg over 30 – 60 seconds",
+    "0.1 – 0.2 mg/kg over 30 – 60 seconds",
+    "1 – 2 mg/kg over 30 – 60 seconds",
+    "0.5 – 2 mg/kg over 30 – 60 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "Procedural sedation uses 0.5 – 1 mg/kg pushed over 30 to 60 seconds, repeatable every 15 minutes as needed. The slow push matters because rapid administration increases apnea and laryngospasm risk.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:procedural-sedation",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 358,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "How is ketamine prepared for pain management in a child under 25 kg?",
+   "options": [
+    "Dilute to a concentration of 1 mg/mL",
+    "Dilute to a concentration of 10 mg/mL",
+    "Dilute to a concentration of 2 mg/mL",
+    "Dilute to a concentration of 5 mg/mL"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric cell of the pain management row directs dilution to 1 mg/mL in patients under 25 kg, so that a small analgesic dose is a measurable volume rather than a fraction of a millilitre.",
+   "priority": "detail",
+   "tags": [
+    "drug:ketamine",
+    "topic:pain",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 359,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of ketamine?",
+   "options": [
+    "Dissociative anesthetic",
+    "Opioid analgesic",
+    "Benzodiazepine antagonist",
+    "Anticonvulsant"
+   ],
+   "answer_index": 0,
+   "explanation": "Ketamine is a dissociative anesthetic that releases catecholamines and stimulates the sympathetic nervous system, which is why it preserves respiratory drive and causes hypertension and tachycardia rather than hypotension.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 359,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "Above what systolic blood pressure does 12.42 direct caution with ketamine?",
+   "options": [
+    "SBP above 180",
+    "SBP above 160",
+    "SBP above 220",
+    "SBP above 120"
+   ],
+   "answer_index": 0,
+   "explanation": "Ketamine's catecholamine release raises blood pressure, so the warnings call for caution above an SBP of 180. The same mechanism makes it contraindicated wherever a rise in blood pressure would be harmful.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 359,
+   "type": "contraindication",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Below what age is ketamine contraindicated unless the patient is intubated or it is being used for RSI?",
+   "options": [
+    "3 months",
+    "6 months",
+    "12 months",
+    "3 years"
+   ],
+   "answer_index": 0,
+   "explanation": "Infants under 3 months have a markedly higher laryngospasm and apnea risk, so ketamine is excluded unless the airway is already secured or is about to be during RSI. Schizophrenia is the other listed contraindication.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 359,
+   "type": "landmark",
+   "care_level": null,
+   "population": null,
+   "stem": "Where are the fingers placed to perform Larson's maneuver for ketamine-induced laryngospasm?",
+   "options": [
+    "In the notch behind each earlobe",
+    "Over the cricothyroid membrane",
+    "At the angle of the mandible",
+    "At the sternal notch"
+   ],
+   "answer_index": 0,
+   "explanation": "Standing at the head, the middle fingers go into the notch behind each earlobe and press firmly inward and upward toward the base of the skull while the index fingers lift the mandible. Laryngospasm is transient and the patient is oxygenated and ventilated until it ceases.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "procedure:larsons-maneuver",
+    "topic:laryngospasm"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 359,
+   "type": "equipment",
+   "care_level": null,
+   "population": null,
+   "stem": "What continuous monitoring is required for every patient receiving ketamine?",
+   "options": [
+    "ECG, SpO2 and ETCO2",
+    "ECG and blood glucose",
+    "SpO2 and serum sodium",
+    "ETCO2 and serum potassium"
+   ],
+   "answer_index": 0,
+   "explanation": "Continuous ECG, SpO2 and ETCO2 are required for all patients receiving ketamine, because the two things that kill — laryngospasm and apnea — show on capnography before they show anywhere else.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:monitoring"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 359,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "In which patients may a ketamine infusion be used?",
+   "options": [
+    "Intubated patients only",
+    "Patients with an SBP above 180",
+    "Patients over 25 kg",
+    "Patients under 3 months"
+   ],
+   "answer_index": 0,
+   "explanation": "Infusions are restricted to intubated patients, which is why the infusion sits in the post-intubation sedation row. Low concentration 10 mg/mL ketamine is used for IV push while high concentration is reserved for IM and for mixing infusions.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:post-intubation-sedation",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.42",
+   "title": "Ketamine",
+   "page": 359,
+   "type": "indication",
+   "care_level": null,
+   "population": null,
+   "stem": "When should ketamine be used for refractory seizures?",
+   "options": [
+    "After failure of multiple doses of benzodiazepines",
+    "As the first line agent for status epilepticus",
+    "After a single dose of levetiracetam",
+    "After failure of fosphenytoin"
+   ],
+   "answer_index": 0,
+   "explanation": "The special considerations reserve ketamine for refractory seizures in patients who have failed to respond to multiple doses of benzodiazepines, so it is not a substitute for first line therapy.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:refractory-seizures"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 360,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the initial adult dose of labetalol for an aortic emergency?",
+   "options": [
+    "20 mg IV",
+    "10 mg IV",
+    "40 mg IV",
+    "80 mg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Aortic emergencies start at 20 mg IV and repeat with 20 – 80 mg every 10 minutes. The 10 mg starting dose belongs to the post thrombolytic row, where a gentler reduction is wanted.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:aortic-emergency",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 360,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How is labetalol repeated for an aortic emergency if the blood pressure remains elevated?",
+   "options": [
+    "20 – 80 mg every 10 minutes",
+    "20 – 40 mg every 10 minutes",
+    "10 – 20 mg every 10 minutes",
+    "5 – 10 mg every 20 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "The aortic emergency row allows the widest repeat range, 20 – 80 mg every 10 minutes, because rapid shear reduction is the goal. 20 – 40 mg every 10 minutes is the repeat range in the stroke and non-thrombolytic rows.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:aortic-emergency"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 360,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the initial adult dose of labetalol for hemorrhagic stroke or cerebral edema not controlled by nicardipine alone?",
+   "options": [
+    "10 – 20 mg IV",
+    "20 – 40 mg IV",
+    "20 – 80 mg IV",
+    "40 mg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "This row starts at 10 – 20 mg IV and repeats with 20 – 40 mg every 10 minutes if there is no improvement, to a 300 mg total. The flat 20 mg start belongs to the aortic and preeclampsia rows.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:hemorrhagic-stroke",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 360,
+   "type": "indication",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Under 12.43, when is labetalol used for hemorrhagic stroke or cerebral edema?",
+   "options": [
+    "When the blood pressure is not controlled by nicardipine alone",
+    "As the first line agent in all hemorrhagic strokes",
+    "Only after thrombolytic therapy has been given",
+    "Only when the systolic pressure exceeds 220"
+   ],
+   "answer_index": 0,
+   "explanation": "The indication cell makes labetalol the add-on agent in this population, used only when nicardipine alone has not controlled the pressure. The SBP greater than 220 trigger belongs to the pre- or non-thrombolytic candidate row.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:hemorrhagic-stroke"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 360,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult labetalol regimen after thrombolytic therapy?",
+   "options": [
+    "10 mg slow IV push, then a 0.5 – 2 mg/min infusion",
+    "20 mg slow IV push, then a 1 – 2 mg/min infusion",
+    "20 – 40 mg slow IV push, then a 1 – 2 mg/min infusion",
+    "20 mg slow IV push, then a 0.5 – 2 mg/min infusion"
+   ],
+   "answer_index": 0,
+   "explanation": "Post thrombolytic patients get the gentlest regimen in the table: 10 mg slow IV push followed by a 0.5 – 2 mg/min infusion, targeting a blood pressure of 180/105 to limit hemorrhagic conversion.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:post-thrombolytic",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 360,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the target blood pressure when labetalol is given after thrombolytic therapy?",
+   "options": [
+    "180/105",
+    "160/110",
+    "220/120",
+    "140/90"
+   ],
+   "answer_index": 0,
+   "explanation": "The post thrombolytic row sets a target of 180/105, higher than you might expect, because dropping the pressure too far after lysis risks hypoperfusing the penumbra.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:post-thrombolytic"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 360,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult labetalol dose for a pre- or non-thrombolytic therapy candidate with an SBP above 220?",
+   "options": [
+    "10 – 20 mg slow IV push",
+    "20 – 40 mg slow IV push",
+    "10 mg slow IV push",
+    "20 – 80 mg slow IV push"
+   ],
+   "answer_index": 0,
+   "explanation": "These patients get 10 – 20 mg slow IV push, repeated with 20 – 40 mg every 10 minutes to a 300 mg total, aiming for a 15 percent reduction rather than a normal pressure.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:hypertensive-emergency",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 360,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult labetalol dose for preeclampsia, eclampsia or PIH?",
+   "options": [
+    "20 mg slow IV push, doubling the previous dose every 10 minutes",
+    "10 mg slow IV push, doubling the previous dose every 10 minutes",
+    "20 mg slow IV push, repeating the same dose every 20 minutes",
+    "20 – 40 mg slow IV push, doubling the previous dose every 10 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "This is the only row that escalates by doubling: 20 mg to start, then double the previous dose every 10 minutes until goals are met, to a 300 mg total. An infusion of 1 – 2 mg/min may follow.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:preeclampsia",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 360,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the blood pressure goal when labetalol is given for preeclampsia, eclampsia or PIH?",
+   "options": [
+    "SBP 140 – 150 and DBP 90 – 100",
+    "SBP 180 and DBP 105",
+    "SBP 160 and DBP 110",
+    "SBP 220 and DBP 120"
+   ],
+   "answer_index": 0,
+   "explanation": "Doubling doses continue until the SBP is 140 – 150 and the DBP is 90 – 100, a tighter target than the 180/105 used after thrombolytics because the risk here is maternal stroke and eclamptic seizure.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:preeclampsia"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 360,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum total dose of labetalol over 24 hours?",
+   "options": [
+    "300 mg",
+    "200 mg",
+    "100 mg",
+    "80 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Every labetalol indication in 12.43 converges on the same 300 mg ceiling per 24 hours, whether reached by intermittent pushes or by infusion. 200 mg per 100 mL is the recommended mixture, not a dose cap.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:hypertensive-emergency"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 361,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which finding is a contraindication to labetalol?",
+   "options": [
+    "Bronchial asthma",
+    "Anuria",
+    "Narrow angle glaucoma",
+    "Insulinoma"
+   ],
+   "answer_index": 0,
+   "explanation": "Labetalol's non-selective beta-2 blockade can precipitate bronchospasm, so bronchial asthma is a contraindication, along with heart block greater than first degree, cardiogenic shock, severe bradycardia and uncontrolled cardiac failure.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:hypertensive-emergency"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 361,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of labetalol?",
+   "options": [
+    "Mixed alpha and beta blocker",
+    "Peripheral vasodilator",
+    "Loop diuretic",
+    "Osmotic agent"
+   ],
+   "answer_index": 0,
+   "explanation": "Labetalol selectively antagonizes alpha-1 receptors and non-selectively blocks beta-1 and beta-2, which gives it both afterload reduction and rate control, and also explains the bronchospasm and bradycardia risk.",
+   "priority": "core",
+   "tags": [
+    "drug:labetalol",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.43",
+   "title": "Labetalol",
+   "page": 361,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which concurrent intravenous drug class does 12.43 warn against using with labetalol?",
+   "options": [
+    "Intravenous calcium channel blockers",
+    "Intravenous loop diuretics",
+    "Intravenous benzodiazepines",
+    "Intravenous anticoagulants"
+   ],
+   "answer_index": 0,
+   "explanation": "Combining IV labetalol with IV calcium channel blockers compounds negative inotropy and conduction delay, risking profound bradycardia and cardiac failure.",
+   "priority": "detail",
+   "tags": [
+    "drug:labetalol",
+    "topic:hypertensive-emergency"
+   ]
+  },
+  {
+   "number": "12.44",
+   "title": "Lactated Ringers",
+   "page": 362,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the typical adult bolus of lactated ringers for fluid resuscitation?",
+   "options": [
+    "250 – 500 mL",
+    "500 – 1000 mL",
+    "10 – 20 mL/kg",
+    "100 – 250 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Lactated ringers is titrated to effect, with typical adult boluses of 250 – 500 mL rather than a fixed order. 10 – 20 mL/kg is the pediatric cell of the same row.",
+   "priority": "core",
+   "tags": [
+    "drug:lactated-ringers",
+    "topic:fluid-resuscitation",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.44",
+   "title": "Lactated Ringers",
+   "page": 362,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the typical pediatric bolus of lactated ringers for fluid resuscitation?",
+   "options": [
+    "10 – 20 mL/kg",
+    "250 – 500 mL",
+    "5 mL/kg",
+    "3 – 6 mL/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Children are bolused at 10 – 20 mL/kg and titrated to patient presentation. 5 mL/kg is the pediatric hypertonic saline bolus for raised ICP, a different fluid for a different problem.",
+   "priority": "core",
+   "tags": [
+    "drug:lactated-ringers",
+    "topic:fluid-resuscitation",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.44",
+   "title": "Lactated Ringers",
+   "page": 362,
+   "type": "contraindication",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "In which patients is lactated ringers contraindicated?",
+   "options": [
+    "Neonates 28 days old or younger",
+    "Patients under 3 months of age",
+    "Patients under 25 kg",
+    "Patients with anuria"
+   ],
+   "answer_index": 0,
+   "explanation": "Lactated ringers is contraindicated in neonates of 28 days or less, along with hypersensitivity to sodium lactate or any component of the formulation.",
+   "priority": "core",
+   "tags": [
+    "drug:lactated-ringers",
+    "topic:fluid-resuscitation",
+    "population:neonatal"
+   ]
+  },
+  {
+   "number": "12.44",
+   "title": "Lactated Ringers",
+   "page": 362,
+   "type": "mechanism",
+   "care_level": null,
+   "population": null,
+   "stem": "Why does 12.44 warn against lactated ringers in a patient with alkalosis?",
+   "options": [
+    "Lactate is metabolized to bicarbonate and may worsen alkalosis",
+    "Lactate is metabolized to lactic acid and may worsen acidosis",
+    "It raises plasma osmolality and draws water out of tissue",
+    "It blocks sodium and chloride absorption in the renal tubules"
+   ],
+   "answer_index": 0,
+   "explanation": "The lactate in lactated ringers is converted to bicarbonate, so giving it to a patient who is already alkalotic or at risk of alkalosis pushes the pH further the wrong way.",
+   "priority": "detail",
+   "tags": [
+    "drug:lactated-ringers",
+    "topic:fluid-resuscitation"
+   ]
+  },
+  {
+   "number": "12.44",
+   "title": "Lactated Ringers",
+   "page": 362,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of lactated ringers?",
+   "options": [
+    "Electrolyte supplement, parenteral",
+    "Mixed alpha and beta blocker",
+    "Benzodiazepine antagonist",
+    "Dissociative anesthetic"
+   ],
+   "answer_index": 0,
+   "explanation": "Lactated ringers is a parenteral electrolyte supplement, not an osmotic agent, and carries potassium, which is why extreme caution is advised in hyperkalemia and severe renal impairment.",
+   "priority": "detail",
+   "tags": [
+    "drug:lactated-ringers",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.45",
+   "title": "Levetiracetam",
+   "page": 363,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the dose of levetiracetam for seizures?",
+   "options": [
+    "50 mg/kg IV over 15 minutes",
+    "15 – 20 mg/kg IV over 15 minutes",
+    "1 mg/kg IV over 15 minutes",
+    "5 mg/kg IV over 15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults and children both get 50 mg/kg infused over 15 minutes, mixed in a 100 mL NS bag; only the maximum dose differs between them. 15 – 20 mg PE/kg is fosphenytoin's load.",
+   "priority": "core",
+   "tags": [
+    "drug:levetiracetam",
+    "topic:seizures",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.45",
+   "title": "Levetiracetam",
+   "page": 363,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum adult dose of levetiracetam for seizures?",
+   "options": [
+    "3000 mg",
+    "1500 mg",
+    "2000 mg",
+    "1000 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult cell caps the 50 mg/kg load at 3000 mg, which becomes the limiting factor above 60 kg. 1500 mg is the pediatric maximum from the same row.",
+   "priority": "core",
+   "tags": [
+    "drug:levetiracetam",
+    "topic:seizures"
+   ]
+  },
+  {
+   "number": "12.45",
+   "title": "Levetiracetam",
+   "page": 363,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric dose of levetiracetam for seizures?",
+   "options": [
+    "1500 mg",
+    "3000 mg",
+    "2000 mg",
+    "1000 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get the same 50 mg/kg over 15 minutes but are capped at 1500 mg, half the adult ceiling. 3000 mg is the adult maximum.",
+   "priority": "core",
+   "tags": [
+    "drug:levetiracetam",
+    "topic:seizures",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.45",
+   "title": "Levetiracetam",
+   "page": 363,
+   "type": "route",
+   "care_level": null,
+   "population": "both",
+   "stem": "How is levetiracetam prepared for administration?",
+   "options": [
+    "Mixed in a 100 mL NS bag",
+    "Mixed in a 250 mL NS bag",
+    "Mixed in a 500 mL NS bag",
+    "Mixed in a 100 mL D5W bag"
+   ],
+   "answer_index": 0,
+   "explanation": "Both dose cells direct that the load be mixed in a 100 mL normal saline bag and run over 15 minutes, which also sets the infusion rate the pump needs.",
+   "priority": "detail",
+   "tags": [
+    "drug:levetiracetam",
+    "topic:seizures",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.45",
+   "title": "Levetiracetam",
+   "page": 363,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "How is levetiracetam dosing adjusted in a patient with renal failure or reduced creatinine clearance?",
+   "options": [
+    "Decrease the dose by 50%",
+    "Decrease the dose by 25%",
+    "Increase the dose by 50%",
+    "Withhold the drug entirely"
+   ],
+   "answer_index": 0,
+   "explanation": "Levetiracetam is renally cleared, so the warnings direct a 50 percent dose reduction in renal failure or reduced creatinine clearance rather than withholding it outright.",
+   "priority": "detail",
+   "tags": [
+    "drug:levetiracetam",
+    "topic:seizures"
+   ]
+  },
+  {
+   "number": "12.45",
+   "title": "Levetiracetam",
+   "page": 363,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of levetiracetam?",
+   "options": [
+    "Anticonvulsant",
+    "Dissociative anesthetic",
+    "Benzodiazepine antagonist",
+    "Osmotic agent"
+   ],
+   "answer_index": 0,
+   "explanation": "Levetiracetam is an anticonvulsant that selectively prevents hypersynchronization of epileptiform burst firing; it is considered for persistent seizures in consultation with the sending or receiving physician.",
+   "priority": "detail",
+   "tags": [
+    "drug:levetiracetam",
+    "topic:pharmacology"
+   ]
+  }
+ ]
+}
