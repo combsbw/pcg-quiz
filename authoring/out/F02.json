@@ -1,0 +1,1537 @@
+{
+ "batch": "F02",
+ "questions": [
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A male patient is 72 inches tall and weighs 118 kg. What is his ideal body weight?",
+   "options": [
+    "73.1 kg",
+    "118 kg",
+    "27.6 kg",
+    "77.6 kg"
+   ],
+   "answer_index": 3,
+   "explanation": "Male IBW = 50 + 2.3 x (72 - 60) = 77.6 kg. 73.1 kg is the female formula, 118 kg is his actual weight (ventilator volumes are set on IBW, not actual weight), and 27.6 kg drops the 50 kg base.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "population:adult"
+   ],
+   "calc": {
+    "formula": "50 + 2.3 * (H - 60)",
+    "inputs": {
+     "H": 72
+    },
+    "result": 77.6,
+    "unit": "kg"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A female patient is 65 inches tall and weighs 92 kg. What is her ideal body weight?",
+   "options": [
+    "57 kg",
+    "61.5 kg",
+    "92 kg",
+    "45.5 kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Female IBW = 45.5 + 2.3 x (65 - 60) = 57 kg. 61.5 kg is the male formula, 92 kg is actual weight, and 45.5 kg is the female base without the height term.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "population:adult"
+   ],
+   "calc": {
+    "formula": "45.5 + 2.3 * (H - 60)",
+    "inputs": {
+     "H": 65
+    },
+    "result": 57,
+    "unit": "kg"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A female patient is 70 inches tall but weighs only 54 kg. Which weight should her ventilator tidal volume be based on?",
+   "options": [
+    "68.5 kg",
+    "73 kg",
+    "45.5 kg",
+    "54 kg"
+   ],
+   "answer_index": 3,
+   "explanation": "Her IBW is 45.5 + 2.3 x (70 - 60) = 68.5 kg, but the guidelines say to use actual body weight when it is LESS than ideal body weight, so 54 kg is used. 73 kg is the male IBW for that height.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "topic:tidal-volume",
+    "population:adult"
+   ],
+   "calc": {
+    "formula": "min(W, 45.5 + 2.3 * (H - 60))",
+    "inputs": {
+     "W": 54,
+     "H": 70
+    },
+    "result": 54,
+    "unit": "kg"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A male patient is 69 inches tall and weighs 135 kg. What tidal volume range does 6-8 mL/kg of ideal body weight give?",
+   "options": [
+    "810 - 1080 mL",
+    "397 - 530 mL",
+    "424 - 566 mL",
+    "283 - 424 mL"
+   ],
+   "answer_index": 2,
+   "explanation": "IBW = 50 + 2.3 x 9 = 70.7 kg, so 6-8 mL/kg = 424-566 mL. 810-1080 mL uses his actual 135 kg, 397-530 mL uses the female formula, and 283-424 mL is 4-6 mL/kg.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "topic:tidal-volume",
+    "population:adult"
+   ],
+   "calc": [
+    {
+     "formula": "6 * (50 + 2.3 * (H - 60))",
+     "inputs": {
+      "H": 69
+     },
+     "result": 424,
+     "unit": "mL"
+    },
+    {
+     "formula": "8 * (50 + 2.3 * (H - 60))",
+     "inputs": {
+      "H": 69
+     },
+     "result": 566,
+     "unit": "mL"
+    }
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A female patient is 67 inches tall and weighs 80 kg. What tidal volume range does 6-8 mL/kg of ideal body weight give?",
+   "options": [
+    "397 - 529 mL",
+    "480 - 640 mL",
+    "246 - 370 mL",
+    "370 - 493 mL"
+   ],
+   "answer_index": 3,
+   "explanation": "Female IBW = 45.5 + 2.3 x 7 = 61.6 kg; x 6-8 mL/kg = 370-493 mL. 397-529 mL uses the male formula, 480-640 mL uses her actual 80 kg, and 246-370 mL is 4-6 mL/kg.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "topic:tidal-volume",
+    "population:adult"
+   ],
+   "calc": [
+    {
+     "formula": "6 * (45.5 + 2.3 * (H - 60))",
+     "inputs": {
+      "H": 67
+     },
+     "result": 370,
+     "unit": "mL"
+    },
+    {
+     "formula": "8 * (45.5 + 2.3 * (H - 60))",
+     "inputs": {
+      "H": 67
+     },
+     "result": 493,
+     "unit": "mL"
+    }
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Using the age-based pediatric formula, what is the estimated ideal body weight of a 3-year-old?",
+   "options": [
+    "6 kg",
+    "14 kg",
+    "11 kg",
+    "22 kg"
+   ],
+   "answer_index": 1,
+   "explanation": "For ages 1-5 the estimated IBW is (age in years x 2) + 8 = (3 x 2) + 8 = 14 kg. 6 kg forgets the +8, 11 kg adds the age instead of doubling it, and 22 kg adds 8 before multiplying.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "2 * A + 8",
+    "inputs": {
+     "A": 3
+    },
+    "result": 14,
+    "unit": "kg"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Using the age-based pediatric formula, what is the estimated ideal body weight of a 5-year-old?",
+   "options": [
+    "18 kg",
+    "10 kg",
+    "13 kg",
+    "26 kg"
+   ],
+   "answer_index": 0,
+   "explanation": "(5 x 2) + 8 = 18 kg for the 1-5 year band. 10 kg forgets the +8, 13 kg adds rather than doubles the age, and 26 kg multiplies (5 + 8) by 2. Note the separate Handtevy chart lists 20 kg at age 5, so state which method you are using.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "2 * A + 8",
+    "inputs": {
+     "A": 5
+    },
+    "result": 18,
+    "unit": "kg"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A 2-year-old weighs 10 kg. Using the age-based pediatric IBW formula, which weight should the tidal volume be based on?",
+   "options": [
+    "12 kg",
+    "14 kg",
+    "8 kg",
+    "10 kg"
+   ],
+   "answer_index": 3,
+   "explanation": "Estimated IBW is (2 x 2) + 8 = 12 kg, but actual weight is used when it is LESS than ideal body weight, so 10 kg is used. 8 kg is the formula's constant without the age term.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "min(W, 2 * A + 8)",
+    "inputs": {
+     "W": 10,
+     "A": 2
+    },
+    "result": 10,
+    "unit": "kg"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A 4-year-old is ventilated using the pediatric strategy's starting tidal volume of 8 mL/kg. Using the age-based IBW formula, what tidal volume is that?",
+   "options": [
+    "128 mL",
+    "96 mL",
+    "64 mL",
+    "160 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "IBW = (4 x 2) + 8 = 16 kg; 16 x 8 mL/kg = 128 mL. 96 mL is 6 mL/kg, 64 mL is the 4 mL/kg floor and 160 mL the 10 mL/kg ceiling of the pediatric range.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "topic:tidal-volume",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "8 * (2 * A + 8)",
+    "inputs": {
+     "A": 4
+    },
+    "result": 128,
+    "unit": "mL"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Using the age-based IBW formula, what tidal volume range does 6-8 mL/kg give for a 1-year-old?",
+   "options": [
+    "48 - 64 mL",
+    "60 - 80 mL",
+    "120 - 160 mL",
+    "40 - 60 mL"
+   ],
+   "answer_index": 1,
+   "explanation": "IBW = (1 x 2) + 8 = 10 kg, so 6-8 mL/kg = 60-80 mL (matching the Handtevy chart at age 1). 48-64 mL uses only the 8 kg constant, and 40-60 mL is 4-6 mL/kg.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "topic:tidal-volume",
+    "population:pediatric"
+   ],
+   "calc": [
+    {
+     "formula": "6 * (2 * A + 8)",
+     "inputs": {
+      "A": 1
+     },
+     "result": 60,
+     "unit": "mL"
+    },
+    {
+     "formula": "8 * (2 * A + 8)",
+     "inputs": {
+      "A": 1
+     },
+     "result": 80,
+     "unit": "mL"
+    }
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 229,
+   "type": "special",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "On the estimated pediatric IBW chart (per Handtevy), what ideal body weight is listed for a 10-year-old?",
+   "options": [
+    "30 kg",
+    "40 kg",
+    "27 kg",
+    "35 kg"
+   ],
+   "answer_index": 3,
+   "explanation": "The Handtevy chart lists 35 kg at age 10, giving a 6-8 mL/kg tidal volume of 210-280 mL. 30 kg is age 9, 40 kg age 11, and 27 kg age 8.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 229,
+   "type": "special",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "On the estimated pediatric IBW chart (per Handtevy), what 6-8 mL/kg tidal volume range is listed for a 7-year-old?",
+   "options": [
+    "132 - 176 mL",
+    "162 - 216 mL",
+    "150 - 200 mL",
+    "180 - 240 mL"
+   ],
+   "answer_index": 2,
+   "explanation": "The chart lists age 7 at 25 kg, so 6-8 mL/kg = 150-200 mL. 132-176 mL is age 6 (22 kg), 162-216 mL age 8 (27 kg) and 180-240 mL age 9 (30 kg).",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "topic:tidal-volume",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 224,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult with severe ARDS is placed on the severe hypoxia strategy's starting adult rate with a tidal volume of 420 mL. What minute ventilation results?",
+   "options": [
+    "10.1 L/min",
+    "6.3 L/min",
+    "4.2 L/min",
+    "13.4 L/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Mve = RR x Vt. The severe hypoxia/ARDS strategy starts adults at 24 BPM, so 24 x 0.42 L = 10.1 L/min. 6.3 L/min uses the basic rate of 15, 4.2 the obstructive rate of 10, and 13.4 the metabolic acidosis rate of 32.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:minute-ventilation",
+    "topic:ards",
+    "population:adult"
+   ],
+   "calc": {
+    "formula": "24 * V / 1000",
+    "inputs": {
+     "V": 420
+    },
+    "result": 10.08,
+    "unit": "L/min"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An adult in DKA is placed on the extreme metabolic acidosis strategy's starting adult rate with a tidal volume of 500 mL. What minute ventilation results?",
+   "options": [
+    "16 L/min",
+    "7.5 L/min",
+    "12 L/min",
+    "5 L/min"
+   ],
+   "answer_index": 0,
+   "explanation": "The extreme metabolic acidosis strategy starts adults at 32/min, so 32 x 0.5 L = 16 L/min, the large minute ventilation these patients need. 7.5, 12 and 5 L/min come from the basic (15), ARDS (24) and obstructive (10) rates.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:minute-ventilation",
+    "topic:metabolic-acidosis",
+    "population:adult"
+   ],
+   "calc": {
+    "formula": "32 * V / 1000",
+    "inputs": {
+     "V": 500
+    },
+    "result": 16,
+    "unit": "L/min"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "both",
+   "stem": "A ventilated patient has a Vte of 500 mL, a Cstat of 50 and a PEEP of 5 cmH2O. What is the plateau pressure?",
+   "options": [
+    "15 cmH2O",
+    "10 cmH2O",
+    "5 cmH2O",
+    "9.1 cmH2O"
+   ],
+   "answer_index": 0,
+   "explanation": "Pplat = (Vte / Cstat) + PEEP = (500 / 50) + 5 = 15 cmH2O. 10 forgets to add PEEP, 5 subtracts it, and 9.1 divides by (Cstat + PEEP).",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:plateau-pressure"
+   ],
+   "calc": {
+    "formula": "V / C + P",
+    "inputs": {
+     "V": 500,
+     "C": 50,
+     "P": 5
+    },
+    "result": 15,
+    "unit": "cmH2O"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An obese ventilated patient has a Vte of 500 mL, a Cstat of 20 and a PEEP of 8 cmH2O. What is the plateau pressure, and how does it compare with the target?",
+   "options": [
+    "33 cmH2O, above the target of 30 or less",
+    "33 cmH2O, within the target of 35 or less",
+    "25 cmH2O, within the target of 30 or less",
+    "17 cmH2O, within the target of 30 or less"
+   ],
+   "answer_index": 1,
+   "explanation": "Pplat = (500 / 20) + 8 = 33 cmH2O. The target is 30 or less for most patients but 35 or less if obese or rigid chest, so 33 is acceptable here. 25 forgets PEEP and 17 subtracts it.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:plateau-pressure",
+    "topic:obesity"
+   ],
+   "calc": {
+    "formula": "V / C + P",
+    "inputs": {
+     "V": 500,
+     "C": 20,
+     "P": 8
+    },
+    "result": 33,
+    "unit": "cmH2O"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A non-obese ventilated patient has a Vte of 450 mL, a Cstat of 18 and a PEEP of 10 cmH2O. What is the plateau pressure, and what does it call for?",
+   "options": [
+    "35 cmH2O; acceptable, no change needed",
+    "25 cmH2O; acceptable, no change needed",
+    "15 cmH2O; increase Vt to improve Mve",
+    "35 cmH2O; decrease Vt to protect the lungs"
+   ],
+   "answer_index": 3,
+   "explanation": "Pplat = (450 / 18) + 10 = 35 cmH2O, above the 30 or less target for most patients (35 applies only if obese or rigid chest). The Pplat monitoring guidance says you may need to decrease Vt to protect the lungs. 25 forgets PEEP; 15 subtracts it.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:plateau-pressure",
+    "topic:lung-protection"
+   ],
+   "calc": {
+    "formula": "V / C + P",
+    "inputs": {
+     "V": 450,
+     "C": 18,
+     "P": 10
+    },
+    "result": 35,
+    "unit": "cmH2O"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 224,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A patient with ARDS has a plateau pressure of 28 cmH2O on a PEEP of 10 cmH2O. What is the driving pressure?",
+   "options": [
+    "38 cmH2O",
+    "28 cmH2O",
+    "18 cmH2O",
+    "10 cmH2O"
+   ],
+   "answer_index": 2,
+   "explanation": "Driving pressure = Pplat - PEEP = 28 - 10 = 18 cmH2O. That is above the < 15 target used to minimize lung strain in ARDS. 38 adds PEEP instead of subtracting it; 28 is the Pplat itself.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:driving-pressure",
+    "topic:ards"
+   ],
+   "calc": {
+    "formula": "PP - P",
+    "inputs": {
+     "PP": 28,
+     "P": 10
+    },
+    "result": 18,
+    "unit": "cmH2O"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "both",
+   "stem": "A ventilated patient has a Vte of 400 mL, a Cstat of 40 and a PEEP of 5 cmH2O. Without a measured plateau, what is the driving pressure?",
+   "options": [
+    "15 cmH2O",
+    "10 cmH2O",
+    "5 cmH2O",
+    "35 cmH2O"
+   ],
+   "answer_index": 1,
+   "explanation": "Driving pressure can also be calculated as Vte / Cstat = 400 / 40 = 10 cmH2O. 15 adds PEEP (that is the plateau pressure), 5 subtracts PEEP again, and 35 is Cstat minus PEEP.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:driving-pressure"
+   ],
+   "calc": {
+    "formula": "V / C",
+    "inputs": {
+     "V": 400,
+     "C": 40
+    },
+    "result": 10,
+    "unit": "cmH2O"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 224,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "On the severe hypoxia/ARDS strategy, ΔPcontrol is left at its starting value while PEEP is titrated up to 14 cmH2O. What PIP results?",
+   "options": [
+    "25 cmH2O",
+    "29 cmH2O",
+    "15 cmH2O",
+    "14 cmH2O"
+   ],
+   "answer_index": 1,
+   "explanation": "ΔPcontrol is set above PEEP, so PIP = 15 + 14 = 29 cmH2O. The strategy's starting Pcontrol 15 with PEEP 10 gives a PIP of 25, and the guidance tries to keep PIP at 30 or less in ARDS.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ards",
+    "topic:pip"
+   ],
+   "calc": {
+    "formula": "15 + P",
+    "inputs": {
+     "P": 14
+    },
+    "result": 29,
+    "unit": "cmH2O"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A patient in extreme metabolic acidosis has a bicarbonate of 10 mEq/L. Using Winter's formula, what is the target PCO2?",
+   "options": [
+    "13 - 17 mmHg",
+    "21 - 25 mmHg",
+    "25 - 29 mmHg",
+    "18 - 21 mmHg"
+   ],
+   "answer_index": 1,
+   "explanation": "Winter's formula: PCO2 = (1.5 x HCO3) + 8 +/- 2 = 15 + 8 = 23 +/- 2, i.e. 21-25 mmHg. 13-17 forgets the +8, 25-29 multiplies (10 + 8) by 1.5, and 18-21 is the ETCO2 (2-5 below PCO2), not the PCO2.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:metabolic-acidosis",
+    "topic:winters-formula"
+   ],
+   "calc": [
+    {
+     "formula": "1.5 * H + 8 - 2",
+     "inputs": {
+      "H": 10
+     },
+     "result": 21,
+     "unit": "mmHg"
+    },
+    {
+     "formula": "1.5 * H + 8 + 2",
+     "inputs": {
+      "H": 10
+     },
+     "result": 25,
+     "unit": "mmHg"
+    }
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A ventilated DKA patient has a bicarbonate of 6 mEq/L. Using Winter's formula and the usual ETCO2-PCO2 gap, what ETCO2 should you expect at the target PCO2?",
+   "options": [
+    "15 - 19 mmHg",
+    "19 - 22 mmHg",
+    "12 - 15 mmHg",
+    "4 - 7 mmHg"
+   ],
+   "answer_index": 2,
+   "explanation": "Target PCO2 = (1.5 x 6) + 8 = 17 mmHg; ETCO2 is generally 2-5 less than PCO2, so about 12-15 mmHg. 15-19 is the PCO2 range itself, 19-22 adds the gap, and 4-7 forgets Winter's +8.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:metabolic-acidosis",
+    "topic:winters-formula",
+    "topic:etco2"
+   ],
+   "calc": [
+    {
+     "formula": "1.5 * H + 8 - 5",
+     "inputs": {
+      "H": 6
+     },
+     "result": 12,
+     "unit": "mmHg"
+    },
+    {
+     "formula": "1.5 * H + 8 - 2",
+     "inputs": {
+      "H": 6
+     },
+     "result": 15,
+     "unit": "mmHg"
+    }
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A ventilated patient with severe acidosis has a pH of 7.14. Minute ventilation is increased and the ETCO2 falls from 38 to 18 mmHg. What pH would you expect?",
+   "options": [
+    "7.22",
+    "7.44",
+    "6.98",
+    "7.30"
+   ],
+   "answer_index": 3,
+   "explanation": "Decreasing the CO2 by 10 raises the pH about 0.08, so a 20 mmHg fall raises it about 0.16: 7.14 + 0.16 = 7.30. 7.22 counts only one 10 mmHg step, 7.44 wrongly uses the 0.15 bicarbonate rule, and 6.98 moves the pH the wrong way.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:metabolic-acidosis",
+    "topic:acid-base"
+   ],
+   "calc": {
+    "formula": "P + 0.08 * (A - B) / 10",
+    "inputs": {
+     "P": 7.14,
+     "A": 38,
+     "B": 18
+    },
+    "result": 7.3
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A ventilated patient has a pH of 7.12 with a stable PaCO2. Bicarbonate therapy raises the HCO3 by 10 mEq. What pH would you expect?",
+   "options": [
+    "7.27",
+    "7.20",
+    "6.97",
+    "7.42"
+   ],
+   "answer_index": 0,
+   "explanation": "A bicarbonate change of about 10 mEq moves the pH about 0.15 in the same direction when PaCO2 is relatively constant: 7.12 + 0.15 = 7.27. 7.20 uses the 0.08 CO2 rule, 6.97 moves the wrong way, and 7.42 doubles the change.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:metabolic-acidosis",
+    "topic:acid-base"
+   ],
+   "calc": {
+    "formula": "P + 0.15 * D / 10",
+    "inputs": {
+     "P": 7.12,
+     "D": 10
+    },
+    "result": 7.27
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A male patient 70 inches tall and weighing 100 kg is receiving a Vte of 650 mL. How many mL/kg of ideal body weight is that?",
+   "options": [
+    "8.9 mL/kg",
+    "6.5 mL/kg",
+    "9.5 mL/kg",
+    "28.3 mL/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "IBW = 50 + 2.3 x 10 = 73 kg; 650 / 73 = 8.9 mL/kg, above the 6-8 mL/kg basic setting, so Vt should come down. 6.5 mL/kg divides by actual weight (falsely reassuring), 9.5 uses the female IBW, and 28.3 forgets the 50 kg base.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "topic:tidal-volume",
+    "population:adult"
+   ],
+   "calc": {
+    "formula": "V / (50 + 2.3 * (H - 60))",
+    "inputs": {
+     "V": 650,
+     "H": 70
+    },
+    "result": 8.9,
+    "unit": "mL/kg"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "calculation",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A female ARDS patient is 65 inches tall and weighs 92 kg. What tidal volume is the lowest the severe hypoxia strategy allows, at 4 mL/kg of ideal body weight?",
+   "options": [
+    "342 mL",
+    "246 mL",
+    "228 mL",
+    "368 mL"
+   ],
+   "answer_index": 2,
+   "explanation": "Female IBW = 45.5 + 2.3 x 5 = 57 kg; 4 mL/kg x 57 = 228 mL, the floor 'based upon compliance' in severe hypoxia/ARDS. 342 mL is 6 mL/kg, 246 mL uses the male IBW and 368 mL uses actual weight.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ideal-body-weight",
+    "topic:tidal-volume",
+    "topic:ards"
+   ],
+   "calc": {
+    "formula": "4 * (45.5 + 2.3 * (H - 60))",
+    "inputs": {
+     "H": 65
+    },
+    "result": 228,
+    "unit": "mL"
+   }
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 224,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What I:E ratio does the severe hypoxia/ARDS ventilator strategy start at?",
+   "options": [
+    "1:1",
+    "1:2",
+    "2:1",
+    "3:1"
+   ],
+   "answer_index": 0,
+   "explanation": "The ARDS strategy starts at 1:1 (range 1:1 to 3:1) because inspiratory time is a large factor in raising Pmean. Inverse ratios such as 2:1 or 3:1 require a provider or OLMC consult; 1:2 is the basic and obstructive setting.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ards",
+    "topic:ie-ratio"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 224,
+   "type": "mechanism",
+   "care_level": null,
+   "population": "both",
+   "stem": "Why does the severe hypoxia/ARDS strategy use a faster starting rate than the basic settings?",
+   "options": [
+    "It lengthens exhalation to prevent air trapping",
+    "It raises Pmean and offsets Vt under 6 mL/kg",
+    "It lowers PCO2 to meet Winter's formula",
+    "It shortens Ti to protect against barotrauma"
+   ],
+   "answer_index": 1,
+   "explanation": "The ARDS rate rationale: RR increases Pmean (the oxygenation driver) and compensates for tidal volumes below 6 mL/kg. Lengthening exhalation is the obstructive strategy's reason for a slow rate; Winter's formula belongs to metabolic acidosis.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ards",
+    "topic:pmean"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 224,
+   "type": "pearl",
+   "care_level": null,
+   "population": "both",
+   "stem": "In severe hypoxia, which value is used as the indicator of oxygenation, and how is it managed?",
+   "options": [
+    "Pplat, kept at 30 or less",
+    "Driving pressure, kept under 15",
+    "Pmean, raised as high as possible",
+    "PIP, kept at 30 or less"
+   ],
+   "answer_index": 2,
+   "explanation": "The severe hypoxia tips use Pmean as the oxygenation indicator and push it as high as possible, by raising inspiratory time, PEEP, PIP or rate. Pplat, driving pressure and PIP limits are lung-protection guardrails, not oxygenation indicators.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ards",
+    "topic:pmean"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 224,
+   "type": "threshold",
+   "care_level": null,
+   "population": "both",
+   "stem": "Compliance falls in a ventilated ARDS patient. What PIP should you try to maintain, even if Vte falls to 4-6 mL/kg?",
+   "options": [
+    "35 cmH2O or less",
+    "25 cmH2O or less",
+    "30 cmH2O or less",
+    "40 cmH2O or less"
+   ],
+   "answer_index": 2,
+   "explanation": "ARDS will likely decrease compliance; the tip is to keep PIP at 30 or less if possible even when Vte is only 4-6 mL/kg, accepting permissive hypercapnia (especially if pH is 7.2 or higher).",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ards",
+    "topic:pip"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 224,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "During PEEP titration for ARDS, PEEP is raised from 10 to 12 cmH2O and the plateau pressure rises from 24 to 29 cmH2O. What is the next step?",
+   "options": [
+    "Raise PEEP another 1-2 cmH2O",
+    "Raise ΔPcontrol to restore the lost Vte",
+    "Stop raising PEEP; driving pressure now exceeds 15",
+    "Switch to the obstructive strategy"
+   ],
+   "answer_index": 2,
+   "explanation": "Driving pressure went from 14 to 17 cmH2O. The ARDS tips say to stop increasing PEEP when Vte falls to unacceptable levels, driving pressure exceeds 15, or Cstat begins to fall.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ards",
+    "topic:peep",
+    "topic:driving-pressure"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 224,
+   "type": "threshold",
+   "care_level": null,
+   "population": "both",
+   "stem": "On the severe hypoxia FiO2/PEEP table, what PEEP range corresponds to an FiO2 of 1.0?",
+   "options": [
+    "14 to 18 cmH2O",
+    "10 to 14 cmH2O",
+    "18 to 24 cmH2O",
+    "15 cmH2O"
+   ],
+   "answer_index": 2,
+   "explanation": "The ARDS FiO2/PEEP combinations pair FiO2 1.0 with PEEP 18-24, starting at the minimum value for that FiO2. 14-18 pairs with 0.9 and 10-14 with 0.7; 15 is the top of the basic settings chart at FiO2 80%.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ards",
+    "topic:peep"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "mechanism",
+   "care_level": null,
+   "population": "both",
+   "stem": "Why does the obstructive/high resistance strategy start at a slow respiratory rate?",
+   "options": [
+    "A lower RR raises Pmean to improve oxygenation",
+    "A lower RR lets PEEP splint the small airways",
+    "A lower RR limits deadspace in small ETTs",
+    "A lower RR allows exhalation and a longer Ti for Vte"
+   ],
+   "answer_index": 3,
+   "explanation": "With high airway resistance, a decreased RR is required to facilitate exhalation (avoid air trapping) and allow the increased Ti needed to achieve Vte. Raising Pmean is the ARDS goal, and PEEP is kept low in obstruction.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:asthma",
+    "topic:copd",
+    "topic:obstructive"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What Pcontrol does the obstructive/high resistance strategy start at?",
+   "options": [
+    "27 cmH2O",
+    "25 cmH2O",
+    "15 cmH2O",
+    "30 cmH2O"
+   ],
+   "answer_index": 0,
+   "explanation": "Pcontrol 27 with PEEP 3 sets the PIP to 30, an ideal starting point for lungs with high Rinsp. 25 is the metabolic acidosis Pcontrol, 15 the ARDS ΔPcontrol, and 30 is the resulting PIP.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:asthma",
+    "topic:copd",
+    "topic:obstructive"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "A ventilated asthmatic's flow waveform does not return to baseline before the next breath. What should be done?",
+   "options": [
+    "Increase PEEP to splint the airways open",
+    "Increase RR to raise minute ventilation",
+    "Increase Ti to complete inspiration",
+    "Decrease RR immediately, then Ti if needed"
+   ],
+   "answer_index": 3,
+   "explanation": "A flow waveform that does not return to baseline means air trapping. The obstructive tips say to decrease RR immediately, then Ti if needed, to give the patient time to exhale.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:asthma",
+    "topic:air-trapping",
+    "topic:obstructive"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "A ventilated asthmatic is hypercapnic, and the expiratory flow waveform returns to baseline with time to spare. What should be adjusted?",
+   "options": [
+    "Increase RR, Ti and/or PIP until the baseline is used up",
+    "Decrease RR to lengthen exhalation further",
+    "Increase PEEP to recruit more alveoli",
+    "Decrease Pcontrol to lower the PIP below 30"
+   ],
+   "answer_index": 0,
+   "explanation": "When exhalation is complete with baseline left over, the obstructive tips say to increase RR, Ti and/or PIP until all the baseline is used up. Hypercapnia is addressed by raising Vte before RR to minimize deadspace effect.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:asthma",
+    "topic:hypercapnia",
+    "topic:obstructive"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "mechanism",
+   "care_level": null,
+   "population": "both",
+   "stem": "Why is PEEP kept low in the obstructive/high resistance strategy?",
+   "options": [
+    "Added PEEP drops Pmean and worsens oxygenation",
+    "Added PEEP causes atelectasis in asthmatic lungs",
+    "Added PEEP triggers the Pressure Limitation alarm",
+    "Added PEEP further slows an already prolonged exhalation"
+   ],
+   "answer_index": 3,
+   "explanation": "The rationale: this pathology already has prolonged exhalation and adding PEEP slows it further, so PEEP starts at 3 cmH2O, which is also the minimum to maintain.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:asthma",
+    "topic:peep",
+    "topic:obstructive"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "indication",
+   "care_level": null,
+   "population": "adult",
+   "stem": "An intubated patient has a moderate COPD exacerbation. Which ventilator strategy will most likely be appropriate?",
+   "options": [
+    "The obstructive/high resistance strategy",
+    "A more routine lung-protective strategy",
+    "The severe hypoxia/ARDS strategy",
+    "The extreme metabolic acidosis strategy"
+   ],
+   "answer_index": 1,
+   "explanation": "The obstructive strategy is ideal for asthma, tracheal stenosis and severe COPD, but the tips state a more routine strategy will likely work for most COPD patients.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:copd",
+    "topic:obstructive"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What Pcontrol does the extreme metabolic acidosis strategy start at?",
+   "options": [
+    "27 cmH2O",
+    "15 cmH2O",
+    "25 cmH2O",
+    "30 cmH2O"
+   ],
+   "answer_index": 2,
+   "explanation": "Pcontrol 25 with PEEP 5 sets the PIP to 30, an ideal starting point for an otherwise healthy lung. 27 is the obstructive Pcontrol and 15 the ARDS ΔPcontrol.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:metabolic-acidosis"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "In the extreme metabolic acidosis strategy, how low may PEEP be reduced, and why no lower?",
+   "options": [
+    "To 5 cmH2O, to maintain Pmean",
+    "To 3 cmH2O, to avoid air trapping",
+    "To 5 cmH2O, to prevent atelectasis",
+    "To 3 cmH2O, to prevent atelectasis"
+   ],
+   "answer_index": 3,
+   "explanation": "PEEP starts at 5 to minimize exhalation time; it can be decreased to 3 but not below, in order to prevent atelectasis/collapse.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:metabolic-acidosis",
+    "topic:peep"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A patient on the extreme metabolic acidosis strategy has not reached the Winter's formula target. How should ventilation be increased?",
+   "options": [
+    "Raise PEEP to increase Pmean",
+    "Raise Vt/kg as far as a PIP under 30 allows",
+    "Lower RR and lengthen Ti",
+    "Raise PIP above 40 with OLMC approval"
+   ],
+   "answer_index": 1,
+   "explanation": "These patients may need large minute ventilations; keep PIP under 30 to protect the lungs and increase Vt/kg as high as PIP allows to meet Winter's target. The goal is to return to a more routine strategy as soon as the acidosis is correcting.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:metabolic-acidosis",
+    "topic:winters-formula"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "indication",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Which intubated patient is the extreme metabolic acidosis ventilator strategy intended for?",
+   "options": [
+    "Status asthmaticus with high Rinsp",
+    "Aspiration pneumonia with ARDS",
+    "Metformin overdose with severe acidosis",
+    "Tracheal stenosis with high PIP"
+   ],
+   "answer_index": 2,
+   "explanation": "The strategy lists DKA and aspirin, TCA or metformin overdose as examples. Asthma and tracheal stenosis belong to the obstructive strategy; ARDS to the severe hypoxia strategy.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:metabolic-acidosis",
+    "topic:toxicology"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 224,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A child is intubated for severe ARDS. Where in the weight-based rate range should the ventilator rate be set?",
+   "options": [
+    "Low side of the appropriate range",
+    "Mid-to-high end of the appropriate range",
+    "Fixed at the adult 24 BPM",
+    "Fixed at the adult 15 BPM"
+   ],
+   "answer_index": 1,
+   "explanation": "The ARDS strategy tells pediatric/neonatal patients to use the mid-to-high range of the appropriate rate and adjust on Pmean and Mve goals, because rate raises Pmean and offsets small tidal volumes.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ards",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 225,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A child is intubated for status asthmaticus. Where in the weight-based rate range should the ventilator rate start?",
+   "options": [
+    "Low side of the appropriate range",
+    "Mid-to-high end of the appropriate range",
+    "Fixed at the adult 10/min",
+    "Fixed at the adult 32/min"
+   ],
+   "answer_index": 0,
+   "explanation": "For the obstructive strategy, pediatric/neonatal patients start on the low side of the rate range and are adjusted by the flow waveform, giving time to exhale and a longer Ti for Vte.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:asthma",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 226,
+   "type": "threshold",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A child is started at the pediatric strategy's 8 mL/kg tidal volume. At what PIP should the tidal volume be decreased?",
+   "options": [
+    "PIP above 40 cmH2O",
+    "PIP above 25 cmH2O",
+    "PIP above 30 cmH2O",
+    "PIP above 35 cmH2O"
+   ],
+   "answer_index": 2,
+   "explanation": "Start at 8 mL/kg (range 4-10) and decrease if PIP is above 30. A slower rate and higher Vt are preferred to minimize the deadspace effect.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:tidal-volume",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 226,
+   "type": "assessment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "On a ventilated infant's ETCO2 waveform you notice 'tailing'. What does it indicate?",
+   "options": [
+    "Air trapping from too fast a rate",
+    "Rebreathing CO2 stored in mechanical deadspace",
+    "A cuff leak around the ETT",
+    "Bronchospasm from high airway resistance"
+   ],
+   "answer_index": 1,
+   "explanation": "Tailing on ETCO2 is rebreathing of CO2 stored in mechanical dead space. Children have higher deadspace-to-alveolar ventilation ratios, so ruthlessly eliminate deadspace, using the neonatal circuit when applicable.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:deadspace",
+    "topic:etco2",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 223,
+   "type": "threshold",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What starting ventilator rate is set for a 25 kg child?",
+   "options": [
+    "17 BPM",
+    "25 BPM",
+    "15 BPM",
+    "20 BPM"
+   ],
+   "answer_index": 3,
+   "explanation": "The 20-30 kg band starts at 20 BPM (range 15-35). 17 BPM is the 30-40 kg band, 25 BPM the 10-20 kg band, and 15 BPM adults or over 40 kg.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ventilator-rate",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 223,
+   "type": "threshold",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "What starting ventilator rate is set for a 2 kg neonate?",
+   "options": [
+    "35 BPM",
+    "30 BPM",
+    "45 BPM",
+    "25 BPM"
+   ],
+   "answer_index": 2,
+   "explanation": "The 1.5-3 kg band starts at 45 BPM (range 40-60). 35 BPM is the 3-6 kg band and 30 BPM the 6-9 kg band.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ventilator-rate",
+    "population:neonatal"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 223,
+   "type": "threshold",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What inspiratory time is set for a 6-year-old on the ventilator?",
+   "options": [
+    "0.9 - 1.2 seconds",
+    "0.4 - 0.6 seconds",
+    "0.7 - 0.9 seconds",
+    "0.9 - 1.0 seconds"
+   ],
+   "answer_index": 2,
+   "explanation": "Pediatric I-time for ages 1-12 is 0.7-0.9 seconds. 0.9-1.2 is for over 12 years, 0.4-0.6 for under 1 year, and 0.9-1.0 is the adult starting value.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:inspiratory-time",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 227,
+   "type": "threshold",
+   "care_level": null,
+   "population": "both",
+   "stem": "On the ventilator monitoring scale, below what static compliance (Cstat) is a patient in the red zone?",
+   "options": [
+    "Below 40",
+    "Below 50",
+    "Below 100",
+    "Below 30"
+   ],
+   "answer_index": 0,
+   "explanation": "The Cstat arrow runs green above 50, yellow from 50 to 40 and red below 40. Causes include ARDS/fibrotic lungs, obesity, seatbelts, dysynchrony and a saturated HME.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:monitoring",
+    "topic:compliance"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 227,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "A ventilated patient's peak pressure is in the red zone from bronchoconstriction. What does the monitoring guidance direct?",
+   "options": [
+    "Decrease I-time and increase the rate",
+    "Increase PEEP to splint the airways",
+    "Inflate the ETT cuff above 30 cmH2O",
+    "Increase I-time while allowing time to exhale"
+   ],
+   "answer_index": 3,
+   "explanation": "For high Ppeak (bronchoconstriction, saturated HME, small or kinked ETT, mucus) the guidance is to increase I-time but ensure the patient has time to exhale, consider manual decompression, remove the HME, and possibly increase PIP.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:monitoring",
+    "topic:pip"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 227,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "A ventilated patient with an uncuffed ETT has a large Vleak and needs high PEEP. What does the guidance direct?",
+   "options": [
+    "Increase Vt to make up the leak",
+    "Replace with a cuffed ETT or inflate the cuff",
+    "Switch to the obstructive strategy",
+    "Lower PEEP to reduce the leak"
+   ],
+   "answer_index": 1,
+   "explanation": "Vleak causes are an uncuffed ETT, cuff leak or NIV mask leak. Replace with a cuffed ETT or inflate the ETT cuff to minimize leak, especially if high PEEP is required; the cuff may need to go above 30 cmH2O.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:monitoring",
+    "topic:leak"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "sequence",
+   "care_level": null,
+   "population": "both",
+   "stem": "A Pressure Limitation alarm persists after mechanical obstructions are fixed and sedation is adequate. What is the next resolution?",
+   "options": [
+    "Raise the High Pressure Alarm and contact OLMC",
+    "Optimize settings: raise RR or Ti, lower Vt or Pcontrol",
+    "Raise the HOB to 45 degrees and loosen seatbelts",
+    "Increase PEEP and lengthen the I-time"
+   ],
+   "answer_index": 1,
+   "explanation": "The resolutions run in order: fix mechanical obstructions, ensure adequate sedation/analgesia, optimize settings (increase RR or Ti, decrease Vt or Pcontrol), then increase the High Pressure Alarm while monitoring airway pressures.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:alarms",
+    "topic:pressure-limitation"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "assessment",
+   "care_level": null,
+   "population": "both",
+   "stem": "A Low Oxygen alarm sounds on a patient with a very large minute ventilation. What is the likely cause?",
+   "options": [
+    "The oxygen supply has failed",
+    "O2 plumbing cannot deliver the set FiO2",
+    "The wrong expiratory valve is fitted",
+    "An inverse I:E ratio has been set"
+   ],
+   "answer_index": 1,
+   "explanation": "With a large Mv or a large leak, Low Oxygen (delivered FiO2 more than 5% below set) may occur because the O2 plumbing is not sufficient to deliver the set FiO2. It is different from 'Oxygen Supplied Failed'; it can also mean an oxygen calibration is needed.",
+   "priority": "detail",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:alarms"
+   ]
+  },
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "page": 228,
+   "type": "threshold",
+   "care_level": null,
+   "population": "both",
+   "stem": "What ETT cuff pressures are targeted for ventilated adult and pediatric patients?",
+   "options": [
+    "Adult 20-25, pedi 15-20 cmH2O",
+    "Adult 15-20, pedi 20-25 cmH2O",
+    "Adult 20-25, pedi 20-25 cmH2O",
+    "Adult over 30, pedi 15-20 cmH2O"
+   ],
+   "answer_index": 0,
+   "explanation": "The PEARLS target adult ETT cuff pressure at 20-25 cmH2O and pediatric at 15-20 cmH2O. Going above 30 cmH2O is reserved for the Vleak guidance, when a leak must be controlled under high PEEP.",
+   "priority": "core",
+   "tags": [
+    "topic:mechanical-ventilation",
+    "topic:ett-cuff"
+   ]
+  }
+ ]
+}

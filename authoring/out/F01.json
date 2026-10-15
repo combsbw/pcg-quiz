@@ -1,0 +1,1080 @@
+{
+ "batch": "F01",
+ "questions": [
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 243,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A patient is in a crash airway (imminent arrest, unable to ventilate). What does the RSI guideline allow?",
+   "options": [
+    "Delayed sequence intubation with ketamine first",
+    "Paralytics/sedation without pre-oxygenation",
+    "Five minutes of NRB plus nasal cannula first",
+    "Atropine pre-treatment before induction"
+   ],
+   "answer_index": 1,
+   "explanation": "A crash airway is one of the situations for intubation without full RSI; the guideline says to consider paralytics or sedation without pre-oxygenation because there is no time to pre-oxygenate.",
+   "priority": "core",
+   "tags": [
+    "topic:rsi",
+    "topic:crash-airway"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 244,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "When may delayed sequence intubation (DSI) be considered?",
+   "options": [
+    "Patient is combative or cannot tolerate pre-oxygenation",
+    "SpO2 drops below 90% during an intubation attempt",
+    "SBP is below 90 despite a fluid bolus",
+    "Patient is 28 days of age or younger"
+   ],
+   "answer_index": 0,
+   "explanation": "DSI uses a dissociative ketamine dose so a combative patient, or one who will not tolerate the mask, can be adequately pre-oxygenated before paralysis.",
+   "priority": "core",
+   "tags": [
+    "topic:rsi",
+    "topic:dsi",
+    "drug:ketamine"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 244,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "In delayed sequence intubation, the patient received ketamine 1 mg/kg for pre-oxygenation. What additional ketamine is given before paralysis and intubation?",
+   "options": [
+    "2 mg/kg IV",
+    "0.5 mg/kg IV",
+    "None; give the paralytic now",
+    "1 mg/kg IV"
+   ],
+   "answer_index": 3,
+   "explanation": "The DSI dose is only half the induction dose; a further 1 mg/kg brings the patient to the full 2 mg/kg and ensures sedation before paralysis.",
+   "priority": "core",
+   "tags": [
+    "topic:dsi",
+    "drug:ketamine",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 244,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A patient needing RSI is hypotensive from hemorrhage. What resuscitation is directed before any RSI medication?",
+   "options": [
+    "Rapid crystalloid fluid bolus",
+    "Push-dose epinephrine",
+    "Blood, if available",
+    "Needle chest decompression"
+   ],
+   "answer_index": 2,
+   "explanation": "Pre-intubation optimization matches the fix to the cause: blood for hypotension from bleeding, fluid bolus for dehydration or sepsis, decompression for tension pneumothorax.",
+   "priority": "core",
+   "tags": [
+    "topic:rsi",
+    "topic:hypotension",
+    "topic:pre-intubation-optimization"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 244,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Before RSI, a patient's hypotension is refractory to fluids and blood. What is used next?",
+   "options": [
+    "Atropine 1 mg IV",
+    "Push-dose epinephrine",
+    "Full-dose etomidate",
+    "A second rapid fluid bolus"
+   ],
+   "answer_index": 1,
+   "explanation": "Vasopressors (push-dose epinephrine) are directed for hypotension refractory to fluids/blood or when an immediate rise in BP is needed, because RSI drugs and PPV can precipitate arrest.",
+   "priority": "core",
+   "tags": [
+    "topic:rsi",
+    "drug:epinephrine",
+    "topic:hypotension"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 244,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How should the induction agent be dosed for an RSI patient with hypotension?",
+   "options": [
+    "Half-dose ketamine or midazolam",
+    "Full-dose etomidate 0.3 mg/kg",
+    "Ketamine 2 mg/kg",
+    "Midazolam 0.2 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "RSI agents cause cardiac depression and loss of sympathetic tone; the pre-intubation optimization step directs a half-dose of ketamine or midazolam in hypotension.",
+   "priority": "core",
+   "tags": [
+    "topic:rsi",
+    "drug:ketamine",
+    "drug:midazolam",
+    "topic:hypotension"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 244,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "An adult RSI candidate has a heart rate of 110 and SBP of 120. What is the shock index, and is it positive?",
+   "options": [
+    "0.92, negative",
+    "1.09, positive",
+    "1.09, negative",
+    "0.92, positive"
+   ],
+   "answer_index": 3,
+   "explanation": "Shock index is HR / SBP = 110 / 120 = 0.92. For age 13 and older it is positive above 0.9, so this normotensive patient still needs resuscitation before RSI drugs. 1.09 is the ratio inverted.",
+   "priority": "core",
+   "tags": [
+    "topic:shock-index",
+    "topic:pre-intubation-optimization"
+   ],
+   "calc": {
+    "formula": "round(HR / SBP, 2)",
+    "inputs": {
+     "HR": 110,
+     "SBP": 120
+    },
+    "result": 0.92
+   }
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 244,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "A 5-year-old needing RSI has a heart rate of 130 and SBP of 110. What is the shock index, and is it positive?",
+   "options": [
+    "1.18, positive",
+    "0.85, negative",
+    "1.18, negative",
+    "0.85, positive"
+   ],
+   "answer_index": 2,
+   "explanation": "Shock index = 130 / 110 = 1.18. For ages 4 to 6 the threshold is > 1.22, so this is not positive; it would be positive under the > 1.0 cut-off used for ages 7 to 12.",
+   "priority": "detail",
+   "tags": [
+    "topic:shock-index",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "round(HR / SBP, 2)",
+    "inputs": {
+     "HR": 130,
+     "SBP": 110
+    },
+    "result": 1.18
+   }
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which induction agent is the drug of choice for most RSI patients?",
+   "options": [
+    "Etomidate",
+    "Ketamine",
+    "Midazolam",
+    "Fentanyl"
+   ],
+   "answer_index": 1,
+   "explanation": "Ketamine 1-2 mg/kg IV is listed as the drug of choice for most patients, with a lower dose used in hypotension.",
+   "priority": "core",
+   "tags": [
+    "drug:ketamine",
+    "topic:rsi"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What is the induction dose of etomidate for RSI?",
+   "options": [
+    "0.3 mg/kg IV",
+    "0.2 mg/kg IV",
+    "0.1 mg/kg IV",
+    "0.02 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Etomidate is 0.3 mg/kg IV (may repeat x2), capped at 40 mg adult and 20 mg pediatric; 0.2 and 0.1 mg/kg are the adult and pediatric midazolam doses.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric dose of etomidate for RSI?",
+   "options": [
+    "40 mg",
+    "100 mg",
+    "200 mg",
+    "20 mg"
+   ],
+   "answer_index": 3,
+   "explanation": "Etomidate is capped at 20 mg for pediatric patients and 40 mg for adults.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "special",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How many times may the etomidate induction dose be repeated during RSI?",
+   "options": [
+    "Once",
+    "Not at all",
+    "Twice",
+    "Every 3 - 5 minutes as needed"
+   ],
+   "answer_index": 2,
+   "explanation": "Etomidate 0.3 mg/kg IV may be repeated x2, within the 40 mg adult / 20 mg pediatric maximums. Succinylcholine, by contrast, is never repeated.",
+   "priority": "detail",
+   "tags": [
+    "drug:etomidate"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "special",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Why must post-intubation sedation and analgesia be drawn up and ready when etomidate is the induction agent?",
+   "options": [
+    "Etomidate causes hypotension",
+    "Etomidate is short-acting",
+    "Etomidate cannot be repeated",
+    "Etomidate delays the paralytic"
+   ],
+   "answer_index": 1,
+   "explanation": "Etomidate's sedation is short; post-intubation sedation and analgesia must be drawn up and ready so the patient is not left under-sedated after the tube is placed.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate",
+    "topic:post-intubation-sedation"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult induction dose of midazolam for RSI?",
+   "options": [
+    "0.2 mg/kg IV",
+    "0.1 mg/kg IV",
+    "0.3 mg/kg IV",
+    "0.02 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Adult midazolam induction is 0.2 mg/kg IV (max 20 mg); the pediatric dose is 0.1 mg/kg. Use caution in hypotension.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What is the maximum midazolam dose for RSI induction?",
+   "options": [
+    "40 mg",
+    "100 mg",
+    "3 mg",
+    "20 mg"
+   ],
+   "answer_index": 3,
+   "explanation": "Midazolam induction is 0.2 mg/kg (adult) or 0.1 mg/kg (pediatric), with a maximum of 20 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "After midazolam is given for RSI induction, how long should the crew wait before giving the paralytic?",
+   "options": [
+    "At least 30 seconds",
+    "Give it immediately",
+    "Three minutes",
+    "Five minutes"
+   ],
+   "answer_index": 2,
+   "explanation": "Midazolam's slower onset means a three-minute wait before the paralytic, compared with 30 seconds after ketamine and immediately after etomidate.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "topic:rsi-sequence"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What is the succinylcholine dose for RSI?",
+   "options": [
+    "1 mg/kg IV",
+    "1 - 2 mg/kg IV",
+    "2 mg/kg IM",
+    "0.5 mg/kg IV"
+   ],
+   "answer_index": 1,
+   "explanation": "Succinylcholine is 1-2 mg/kg IV to a maximum of 200 mg and is not repeated; it is first line unless the patient is under 10 or has a contraindication.",
+   "priority": "core",
+   "tags": [
+    "drug:succinylcholine",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "An RSI patient's potassium is 6.2 mEq/L. Which RSI drug should be avoided?",
+   "options": [
+    "Succinylcholine",
+    "Rocuronium",
+    "Ketamine",
+    "Etomidate"
+   ],
+   "answer_index": 0,
+   "explanation": "Succinylcholine should be avoided when potassium is 6 mEq/L or higher because it raises serum potassium; rocuronium is the alternative paralytic.",
+   "priority": "core",
+   "tags": [
+    "drug:succinylcholine",
+    "topic:hyperkalemia"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What is the IV dose of rocuronium for RSI?",
+   "options": [
+    "2 mg/kg IV",
+    "0.5 mg/kg IV",
+    "1.8 mg/kg IV",
+    "1 mg/kg IV"
+   ],
+   "answer_index": 3,
+   "explanation": "Rocuronium for RSI is 1 mg/kg IV (or 2 mg/kg IM), max 100 mg. 0.5 mg/kg is the maintenance dose and 1.8 mg/kg is the IM re-initiation dose.",
+   "priority": "core",
+   "tags": [
+    "drug:rocuronium",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What is the maximum rocuronium dose for RSI?",
+   "options": [
+    "200 mg",
+    "40 mg",
+    "100 mg",
+    "20 mg"
+   ],
+   "answer_index": 2,
+   "explanation": "Rocuronium (1 mg/kg IV or 2 mg/kg IM) is capped at 100 mg; 200 mg is the succinylcholine maximum.",
+   "priority": "core",
+   "tags": [
+    "drug:rocuronium"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does BURP stand for when used to improve glottic view during intubation?",
+   "options": [
+    "Backward, Upward, Leftward Pressure",
+    "Backward, Upward, Rightward Pressure",
+    "Bimanual, Upward, Rightward Pressure",
+    "Backward, Under, Rightward Push"
+   ],
+   "answer_index": 1,
+   "explanation": "BURP moves the larynx backward, upward and to the patient's right; it may be combined with external laryngeal manipulation to improve glottic visualization.",
+   "priority": "detail",
+   "tags": [
+    "procedure:burp",
+    "topic:laryngoscopy"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "A pediatric patient remains bradycardic during RSI despite adequate re-oxygenation. After stopping the attempt, what atropine dose is given?",
+   "options": [
+    "0.02 mg/kg IV q 3 - 5 min",
+    "1 mg IV q 3 - 5 min",
+    "0.1 mg/kg IV q 3 - 5 min",
+    "0.2 mg/kg IV q 3 - 5 min"
+   ],
+   "answer_index": 0,
+   "explanation": "Persistent bradycardia after re-oxygenation means stop the attempt and give atropine: 0.02 mg/kg IV q 3-5 min for pediatrics, 1 mg IV (max 3 mg) for adults.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "population:pediatric",
+    "topic:bradycardia"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 245,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A team member has used both allowed intubation attempts without success. What is directed next?",
+   "options": [
+    "Give a second succinylcholine dose and retry",
+    "Continue attempting until SpO2 falls below 90%",
+    "Awaken the patient and abandon airway control",
+    "Re-oxygenate, then further attempts and/or an SGA or cric"
+   ],
+   "answer_index": 3,
+   "explanation": "After failed attempts, re-oxygenate before any further attempt and consider alternate airway placement (supraglottic airway or cricothyrotomy).",
+   "priority": "core",
+   "tags": [
+    "topic:failed-airway",
+    "procedure:sga",
+    "procedure:cricothyrotomy"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 246,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "In addition to ETCO2, how many separate techniques must verify ETT placement?",
+   "options": [
+    "At least one",
+    "At least three",
+    "At least two",
+    "All four listed"
+   ],
+   "answer_index": 2,
+   "explanation": "ETCO2 is mandatory and must be backed by at least two other techniques: breath and gastric sounds, chest rise, SpO2 maintained or rising, tube misting.",
+   "priority": "core",
+   "tags": [
+    "topic:tube-confirmation",
+    "topic:etco2"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 246,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "When ETT depth can be visualized, where should the tube sit?",
+   "options": [
+    "Balloon resting at the vocal cords",
+    "Balloon about 1 cm past the vocal cords",
+    "Cord marker 1 cm past the vocal cords",
+    "Balloon just above the carina"
+   ],
+   "answer_index": 1,
+   "explanation": "Visualizing depth is preferred: pass the balloon about 1 cm beyond the cords or place the cord marker at the cords; otherwise estimate depth by formula.",
+   "priority": "detail",
+   "tags": [
+    "topic:ett-depth"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 246,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "An adult who is 72 inches tall is intubated. What is the estimated ETT depth at the incisors by the height formula?",
+   "options": [
+    "22 cm",
+    "18 cm",
+    "23 cm",
+    "22.5 cm"
+   ],
+   "answer_index": 0,
+   "explanation": "For patients 5 feet or taller, depth = (height in inches / 4) + 4 = 72/4 + 4 = 22 cm. 18 cm forgets the + 4; 22.5 cm is the < 5 ft rule (3 x a 7.5 tube) misapplied.",
+   "priority": "core",
+   "tags": [
+    "topic:ett-depth"
+   ],
+   "calc": {
+    "formula": "H / 4 + 4",
+    "inputs": {
+     "H": 72
+    },
+    "result": 22,
+    "unit": "cm"
+   }
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 246,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "A child under 5 feet tall is intubated with a 5.5 ETT. What is the estimated ETT depth at the incisors?",
+   "options": [
+    "15 cm",
+    "18 cm",
+    "13.5 cm",
+    "16.5 cm"
+   ],
+   "answer_index": 3,
+   "explanation": "Under 5 feet, depth = 3 x ETT size = 3 x 5.5 = 16.5 cm. The distractors use a tube one half-size off (5.0, 6.0) or 4.5.",
+   "priority": "core",
+   "tags": [
+    "topic:ett-depth",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "3 * S",
+    "inputs": {
+     "S": 5.5
+    },
+    "result": 16.5,
+    "unit": "cm"
+   }
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 246,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What ETT cuff pressure is targeted in a pediatric patient after intubation?",
+   "options": [
+    "20 - 25 cmH2O",
+    "5 - 10 cmH2O",
+    "15 - 20 cmH2O",
+    "10 cmH2O"
+   ],
+   "answer_index": 2,
+   "explanation": "Check cuff pressure with the manometer: pediatric target 15-20 cmH2O, adult 20-25 cmH2O.",
+   "priority": "core",
+   "tags": [
+    "topic:cuff-pressure",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 246,
+   "type": "special",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "The crew is told after handoff that their ETT placement was incorrect. What must they do?",
+   "options": [
+    "Amend the chart to state the tube was moved",
+    "Immediately notify the CMOC and complete a QM report",
+    "Notify the receiving physician only",
+    "Document it at the next quarterly review"
+   ],
+   "answer_index": 1,
+   "explanation": "An incorrect placement must be reported immediately to the Clinical Manager on Call (CMOC) along with a QM report.",
+   "priority": "detail",
+   "tags": [
+    "topic:documentation",
+    "topic:quality"
+   ]
+  },
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "page": 248,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "Using the RSI nomogram, what ETT size and depth suit a patient 6 feet 2 inches tall?",
+   "options": [
+    "8.0 mm at 23 cm",
+    "7.5 mm at 23 cm",
+    "8.0 mm at 24 cm",
+    "7.5 mm at 22 cm"
+   ],
+   "answer_index": 0,
+   "explanation": "The nomogram gives 8.0 mm for patients 5'11\" and taller, and a depth of 23 cm at 6'2\". 7.5 mm is for 5'3\" to 5'10\"; 24 cm is the 6'4\" depth.",
+   "priority": "detail",
+   "tags": [
+    "topic:ett-size",
+    "topic:ett-depth"
+   ]
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "assessment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "On the HEAVEN airway assessment, which pre-intubation SpO2 meets the Hypoxemia criterion?",
+   "options": [
+    "94%",
+    "95%",
+    "96%",
+    "93%"
+   ],
+   "answer_index": 3,
+   "explanation": "HEAVEN flags hypoxemia at SpO2 93% or below. Note the separate pre-oxygenation trigger: 94% or below after pre-ox moves to BVM with PEEP.",
+   "priority": "core",
+   "tags": [
+    "topic:heaven",
+    "topic:difficult-airway"
+   ]
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "assessment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does the Neck item of the HEAVEN airway assessment flag?",
+   "options": [
+    "Trauma, swelling, pregnancy",
+    "Vomit, blood or fluids",
+    "Limited range of motion",
+    "Size 8 years or under, or obesity"
+   ],
+   "answer_index": 2,
+   "explanation": "N = Neck: limited range of motion, which hampers positioning for laryngoscopy.",
+   "priority": "detail",
+   "tags": [
+    "topic:heaven"
+   ]
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "assessment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does the Anatomic challenge item of the HEAVEN assessment include?",
+   "options": [
+    "Limited range of motion",
+    "Trauma, swelling, pregnancy",
+    "Vomit, blood or fluids",
+    "Size 8 years or under, or obesity"
+   ],
+   "answer_index": 1,
+   "explanation": "A = Anatomic challenge: trauma, swelling, pregnancy and similar distortions of airway anatomy.",
+   "priority": "detail",
+   "tags": [
+    "topic:heaven"
+   ]
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "On the RSI Checklist, the crew answers YES to decreased SBP and/or increased shock index. What does the checklist direct?",
+   "options": [
+    "Resuscitate with fluids, blood, pressors",
+    "Proceed with full-dose ketamine",
+    "Switch to delayed sequence intubation",
+    "Give atropine 0.02 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "A low SBP or high shock index means resuscitate with fluids, blood and pressors before giving RSI drugs, which can precipitate arrest.",
+   "priority": "core",
+   "tags": [
+    "topic:shock-index",
+    "topic:hypotension"
+   ]
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "During RSI Checklist equipment preparation, what status is called for the C-MAC?",
+   "options": [
+    "Out",
+    "Functional",
+    "In place",
+    "Recording"
+   ],
+   "answer_index": 3,
+   "explanation": "The C-MAC must be recording, which also supports the recorded video confirmation pathway when ETCO2 waveform is inconsistent.",
+   "priority": "detail",
+   "tags": [
+    "equipment:c-mac",
+    "topic:video-laryngoscopy"
+   ]
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What is the final item of RSI Checklist equipment preparation, immediately before intubation?",
+   "options": [
+    "Post-intubation plan discussed",
+    "Cric kit out",
+    "Safety time out",
+    "Suction functional"
+   ],
+   "answer_index": 2,
+   "explanation": "The equipment section closes with a safety time out prior to intubation, called COMPLETE, after the post-intubation plan is discussed.",
+   "priority": "core",
+   "tags": [
+    "topic:checklist"
+   ]
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What is the first item on the post-intubation section of the RSI Checklist?",
+   "options": [
+    "Inflate cuff and secure tube",
+    "Confirm ETT with ETCO2 and lung sounds",
+    "Post-intubation sedation/analgesia",
+    "Check ETT cuff pressure"
+   ],
+   "answer_index": 1,
+   "explanation": "Post intubation runs: confirm ETT with ETCO2 and lung sounds, inflate cuff and secure, sedation/analgesia, then check cuff pressure.",
+   "priority": "core",
+   "tags": [
+    "topic:tube-confirmation",
+    "topic:checklist"
+   ]
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "On the RSI Checklist post-intubation section, what follows inflating the cuff and securing the tube?",
+   "options": [
+    "Post-intubation sedation/analgesia",
+    "Confirm ETT with ETCO2 and lung sounds",
+    "Check ETT cuff pressure",
+    "Safety time out"
+   ],
+   "answer_index": 0,
+   "explanation": "After the tube is confirmed and secured, the next callout is post-intubation sedation/analgesia, then cuff pressure is checked last.",
+   "priority": "detail",
+   "tags": [
+    "topic:post-intubation-sedation",
+    "topic:checklist"
+   ]
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "Using the RSI Checklist medication card, what rocuronium dose is given to a 120 kg adult for RSI?",
+   "options": [
+    "120 mg",
+    "240 mg",
+    "60 mg",
+    "100 mg"
+   ],
+   "answer_index": 3,
+   "explanation": "Rocuronium is 1 mg/kg (120 mg) but capped at a maximum of 100 mg. 240 mg is the IM 2 mg/kg rate and 60 mg the 0.5 mg/kg maintenance rate.",
+   "priority": "core",
+   "tags": [
+    "drug:rocuronium"
+   ],
+   "calc": {
+    "formula": "min(1 * W, 100)",
+    "inputs": {
+     "W": 120
+    },
+    "result": 100,
+    "unit": "mg"
+   }
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "A 110 kg adult is to receive succinylcholine at 2 mg/kg for RSI. What dose is given?",
+   "options": [
+    "220 mg",
+    "110 mg",
+    "200 mg",
+    "100 mg"
+   ],
+   "answer_index": 2,
+   "explanation": "2 mg/kg x 110 kg is 220 mg, but succinylcholine is capped at 200 mg. 100 mg is the rocuronium maximum.",
+   "priority": "core",
+   "tags": [
+    "drug:succinylcholine"
+   ],
+   "calc": {
+    "formula": "min(2 * W, 200)",
+    "inputs": {
+     "W": 110
+    },
+    "result": 200,
+    "unit": "mg"
+   }
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What etomidate dose is given for RSI to a 150 kg adult?",
+   "options": [
+    "45 mg",
+    "40 mg",
+    "20 mg",
+    "30 mg"
+   ],
+   "answer_index": 1,
+   "explanation": "0.3 mg/kg x 150 kg is 45 mg, which exceeds the 40 mg adult maximum. 20 mg is the pediatric maximum; 30 mg uses the midazolam 0.2 mg/kg rate.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate"
+   ],
+   "calc": {
+    "formula": "min(0.3 * W, 40)",
+    "inputs": {
+     "W": 150
+    },
+    "result": 40,
+    "unit": "mg"
+   }
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What midazolam induction dose is given for RSI to a 25 kg child?",
+   "options": [
+    "2.5 mg",
+    "5 mg",
+    "7.5 mg",
+    "20 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric midazolam is 0.1 mg/kg: 0.1 x 25 = 2.5 mg. 5 mg uses the adult 0.2 mg/kg rate; 7.5 mg the etomidate 0.3 mg/kg rate.",
+   "priority": "core",
+   "tags": [
+    "drug:midazolam",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "0.1 * W",
+    "inputs": {
+     "W": 25
+    },
+    "result": 2.5,
+    "unit": "mg"
+   }
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "neonatal",
+   "stem": "A 3.5 kg, 2-week-old neonate is to undergo RSI. What atropine pre-treatment dose is given?",
+   "options": [
+    "0.7 mg",
+    "0.035 mg",
+    "1 mg",
+    "0.07 mg"
+   ],
+   "answer_index": 3,
+   "explanation": "Age 28 days or younger prompts atropine 0.02 mg/kg: 0.02 x 3.5 = 0.07 mg. 1 mg is the adult bradycardia dose.",
+   "priority": "core",
+   "tags": [
+    "drug:atropine",
+    "population:neonatal"
+   ],
+   "calc": {
+    "formula": "0.02 * W",
+    "inputs": {
+     "W": 3.5
+    },
+    "result": 0.07,
+    "unit": "mg"
+   }
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "Using the RSI Checklist formula, what cuffed ETT size is chosen for a 4-year-old?",
+   "options": [
+    "5.0",
+    "5.5",
+    "4.5",
+    "4.0"
+   ],
+   "answer_index": 2,
+   "explanation": "ETT size = (age + 16) / 4 = (4 + 16) / 4 = 5.0, then subtract 0.5 for a cuffed tube = 4.5.",
+   "priority": "core",
+   "tags": [
+    "topic:ett-size",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "(A + 16) / 4 - 0.5",
+    "inputs": {
+     "A": 4
+    },
+    "result": 4.5
+   }
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "An 8-year-old under 5 feet tall gets an uncuffed ETT sized by the RSI Checklist age formula. What is the estimated depth?",
+   "options": [
+    "16.5 cm",
+    "18 cm",
+    "10 cm",
+    "12 cm"
+   ],
+   "answer_index": 1,
+   "explanation": "Size = (8 + 16) / 4 = 6.0; under 5 feet depth = 3 x ETT size = 18 cm. 16.5 cm uses the cuffed 5.5 tube; 10 cm adds 4 to the size.",
+   "priority": "detail",
+   "tags": [
+    "topic:ett-depth",
+    "topic:ett-size",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "3 * ((A + 16) / 4)",
+    "inputs": {
+     "A": 8
+    },
+    "result": 18,
+    "unit": "cm"
+   }
+  }
+ ]
+}

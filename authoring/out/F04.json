@@ -1,0 +1,1054 @@
+{
+ "batch": "F04",
+ "questions": [
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "An intubated patient has an air leak from an intact, cuffed ETT whose cuff is simply under-inflated. What is the appropriate action?",
+   "options": [
+    "Exchange the tube over a bougie",
+    "Increase the cuff pressure",
+    "Extubate and place an i-gel",
+    "Re-intubate by direct laryngoscopy"
+   ],
+   "answer_index": 1,
+   "explanation": "Inadequate cuff inflation that can be corrected by increasing cuff pressure is a contraindication to tube exchange; exchange is reserved for a damaged or uncuffed tube causing a significant leak.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "topic:airway"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which device is used to view the glottic opening during an endotracheal tube exchange?",
+   "options": [
+    "Direct laryngoscope",
+    "Fiberoptic bronchoscope",
+    "Video laryngoscope",
+    "Lighted stylet"
+   ],
+   "answer_index": 2,
+   "explanation": "Laryngoscopy is performed with the video laryngoscope to identify the original tube with the bougie in the glottic opening; the exchange must always be done under visualization.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "topic:airway"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Before the bougie is passed during an endotracheal tube exchange, how is the existing tube's securement handled?",
+   "options": [
+    "Operator holds the ETT; assistant removes the securement",
+    "Assistant holds the ETT; operator removes the securement",
+    "Securement stays on until the cuff is deflated",
+    "Securement is cut after the bougie is placed"
+   ],
+   "answer_index": 0,
+   "explanation": "The operator holds the ETT while the assistant removes the device or tape, so the tube cannot migrate before the assistant advances the bougie through it.",
+   "priority": "detail",
+   "tags": [
+    "procedure:ett-exchange"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "During an endotracheal tube exchange, hold-up is felt while the bougie is being advanced through the existing tube. What should be done?",
+   "options": [
+    "Advance until the carina is felt",
+    "Rotate the bougie and keep advancing",
+    "Withdraw and re-pass the bougie",
+    "Stop advancing the bougie"
+   ],
+   "answer_index": 3,
+   "explanation": "Advancement stops if hold-up is met; the bougie should sit at the mid-trachea markings and never be pushed deeper, then be held in that position for the rest of the procedure.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "During an endotracheal tube exchange, who loads the new tube onto the bougie and advances it to the patient's mouth?",
+   "options": [
+    "The operator",
+    "Whichever crew member holds the laryngoscope",
+    "Neither; it is pre-loaded before laryngoscopy",
+    "The assistant"
+   ],
+   "answer_index": 3,
+   "explanation": "Once the old tube is off, the assistant loads the new ETT and advances it until it reaches the mouth with the bougie protruding from its proximal end; the assistant then takes the bougie while the operator takes and advances the ETT.",
+   "priority": "detail",
+   "tags": [
+    "procedure:ett-exchange"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What medications should be given in preparation for an endotracheal tube exchange?",
+   "options": [
+    "Sedation only, avoiding paralysis",
+    "Additional sedation and paralytic agents",
+    "No additional medications",
+    "A paralytic only, without sedation"
+   ],
+   "answer_index": 1,
+   "explanation": "Additional sedation and paralytic agents should be administered (per RSI) — the exchange is meant to mirror a standard intubation as closely as possible.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "topic:rsi"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "During an endotracheal tube exchange, for how long must the view of the glottic opening be maintained?",
+   "options": [
+    "Until the new tube is in place",
+    "Until the old tube clears the cords",
+    "Until the bougie is positioned",
+    "Until the cuff is deflated"
+   ],
+   "answer_index": 0,
+   "explanation": "The glottic view is held throughout until the new tube is in place — losing it while only a bougie is in the trachea risks loss of the airway.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "An endotracheal tube exchange starts to go badly. What approach should guide the crew's response?",
+   "options": [
+    "The usual principles of airway management",
+    "Immediate surgical cricothyrotomy",
+    "Reinsert the old tube blindly",
+    "Continue advancing blind over the bougie"
+   ],
+   "answer_index": 0,
+   "explanation": "The procedure is kept as similar as possible to standard intubation precisely so that when things go sideways the usual airway management principles apply; it must never be done blind.",
+   "priority": "detail",
+   "tags": [
+    "procedure:ett-exchange"
+   ]
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Besides hypoxia, which blood gas derangement is an indication for high flow nasal cannula?",
+   "options": [
+    "Hypercarbia",
+    "Metabolic acidosis",
+    "Hypocarbia",
+    "Metabolic alkalosis"
+   ],
+   "answer_index": 0,
+   "explanation": "Hypoxia, hypercarbia, mild-to-moderate respiratory distress and pre/apneic oxygenation for RSI are the indications; the high flow washes out excess CO2 as well as raising delivered O2.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc",
+    "topic:oxygenation"
+   ]
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which patient has a contraindication to high flow nasal cannula?",
+   "options": [
+    "A hypercarbic patient in mild distress",
+    "A hypoxic patient awaiting RSI",
+    "A patient in moderate respiratory distress",
+    "A patient with active epistaxis"
+   ],
+   "answer_index": 3,
+   "explanation": "Epistaxis is a contraindication, along with basilar skull fracture, recent nose/oropharynx/esophageal surgery and nasal obstruction; the other three are indications.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc"
+   ]
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "On high flow nasal cannula, what are the flow rate and FiO2 each titrated to?",
+   "options": [
+    "Flow to oxygenation; FiO2 to work of breathing",
+    "Flow to ETCO2; FiO2 to work of breathing",
+    "Flow to work of breathing; FiO2 to oxygenation",
+    "Both titrated to SpO2 alone"
+   ],
+   "answer_index": 2,
+   "explanation": "Flow is titrated to work of breathing and FiO2 to oxygenation needs — the two settings treat different problems.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc"
+   ]
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What oral intake instruction applies to a patient placed on high flow nasal cannula for transport?",
+   "options": [
+    "Keep the patient NPO",
+    "Clear liquids only",
+    "May eat and drink freely",
+    "Sips with medications only"
+   ],
+   "answer_index": 0,
+   "explanation": "The procedure directs keeping the patient NPO, even though in hospital HFNC is often used partly because it lets patients eat and drink.",
+   "priority": "detail",
+   "tags": [
+    "procedure:hfnc"
+   ]
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 199,
+   "type": "equipment",
+   "care_level": "PEARLS",
+   "population": "neonatal",
+   "stem": "Which RAM cannula is suggested for a 900 g preemie on high flow nasal cannula?",
+   "options": [
+    "White",
+    "Green",
+    "Blue",
+    "Orange"
+   ],
+   "answer_index": 1,
+   "explanation": "The sizing guide lists green for < 1 kg (preemie); white is only for < 750 g micro preemies. The sizing card carried with the cannulas takes precedence.",
+   "priority": "detail",
+   "tags": [
+    "procedure:hfnc",
+    "population:neonatal"
+   ]
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 199,
+   "type": "equipment",
+   "care_level": "PEARLS",
+   "population": "neonatal",
+   "stem": "Which RAM cannula is suggested for a 2 kg newborn on high flow nasal cannula?",
+   "options": [
+    "Green",
+    "Orange",
+    "Blue",
+    "White"
+   ],
+   "answer_index": 2,
+   "explanation": "Blue covers 1 - 2.5 kg (newborn) on the sizing guide; prongs must still not occlude more than 80% of the nares.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc",
+    "population:neonatal"
+   ]
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 199,
+   "type": "equipment",
+   "care_level": "PEARLS",
+   "population": "pediatric",
+   "stem": "Which RAM cannula is suggested for a 4 kg infant on high flow nasal cannula?",
+   "options": [
+    "Blue",
+    "Green",
+    "Orange",
+    "Yellow"
+   ],
+   "answer_index": 2,
+   "explanation": "Orange is listed for > 2.5 kg (infant). The guide does not supersede the sizing card carried with the cannulas.",
+   "priority": "detail",
+   "tags": [
+    "procedure:hfnc",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 199,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "A hospitalized patient on high flow nasal cannula needs only low-end flows. What may they tolerate for transport instead?",
+   "options": [
+    "CPAP",
+    "A non-rebreather mask",
+    "BiPAP",
+    "Nasal cannula at 15 LPM"
+   ],
+   "answer_index": 1,
+   "explanation": "HFNC is often a convenience in hospital; low-flow patients may tolerate a NRB for transport, while those with higher flow requirements may do better on CPAP or BiPAP.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc"
+   ]
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 199,
+   "type": "mechanism",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "How does high flow nasal cannula help a patient with excess CO2?",
+   "options": [
+    "Flow beyond what the patient ventilates displaces CO2",
+    "It increases the patient's respiratory rate",
+    "It stimulates the central respiratory drive",
+    "It adds a mandatory tidal volume to each breath"
+   ],
+   "answer_index": 0,
+   "explanation": "High flow delivers gas volumes beyond the patient's own ventilation, displacing excess CO2 while increasing delivered O2.",
+   "priority": "detail",
+   "tags": [
+    "procedure:hfnc"
+   ]
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 199,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What is the trade-off of running a RAM cannula from regular oxygen tubing on a flow meter instead of the Hamilton T-1?",
+   "options": [
+    "Higher flow but no FiO2 control",
+    "No change if the flow meter is set to 15 LPM",
+    "Lower maximum flow and no humidification",
+    "Loss of oxygen-conserving LPO mode only"
+   ],
+   "answer_index": 2,
+   "explanation": "The 'Christmas tree' method is permitted when the T-1 isn't available, but it results in a reduced maximum flow rate and lack of humidification.",
+   "priority": "detail",
+   "tags": [
+    "procedure:hfnc"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "neonatal",
+   "stem": "Which i-gel size is used for a 3.5 kg neonate?",
+   "options": [
+    "Size 1.5",
+    "Size 1",
+    "Size 2",
+    "Size 2.5"
+   ],
+   "answer_index": 1,
+   "explanation": "Size 1 (neonate) covers 2–5 kg (5–11 lbs); size 1.5 starts at 5 kg.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "population:neonatal"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "pediatric",
+   "stem": "Which i-gel size is used for an infant weighing 18 lbs?",
+   "options": [
+    "Size 1.5",
+    "Size 1",
+    "Size 2",
+    "Size 2.5"
+   ],
+   "answer_index": 0,
+   "explanation": "Size 1.5 (infant) covers 11–25 lbs; size 1 tops out at 11 lbs and size 2 starts at 22 lbs.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "pediatric",
+   "stem": "Which i-gel size is used for an 18 kg child?",
+   "options": [
+    "Size 1.5",
+    "Size 2.5",
+    "Size 2",
+    "Size 1"
+   ],
+   "answer_index": 2,
+   "explanation": "Size 2 (small pediatric) covers 10–25 kg; 2.5 begins at 25 kg.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "pediatric",
+   "stem": "Which i-gel size is used for a child weighing 60 lbs?",
+   "options": [
+    "Size 2",
+    "Size 3",
+    "Size 2.5",
+    "Size 1.5"
+   ],
+   "answer_index": 2,
+   "explanation": "Size 2.5 (large pediatric) covers 55–77 lbs (25–35 kg); size 2 stops at 55 lbs.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "Which i-gel size is used for a small-framed adult weighing 40 kg?",
+   "options": [
+    "Size 2.5",
+    "Size 3",
+    "Size 4",
+    "Size 2"
+   ],
+   "answer_index": 1,
+   "explanation": "Size 3 (small adult) covers 30–60 kg; size 4 starts at 50 kg and 2.5 ends at 35 kg.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "Which i-gel size is used for an adult weighing 150 lbs?",
+   "options": [
+    "Size 3",
+    "Size 4",
+    "Size 5",
+    "Size 2.5"
+   ],
+   "answer_index": 1,
+   "explanation": "Size 4 (medium adult) covers 110–200 lbs (50–90 kg); size 3 tops out at 130 lbs and size 5 is for 200+ lbs.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "Which i-gel size is used for a large adult weighing 110 kg?",
+   "options": [
+    "Size 4",
+    "Size 3",
+    "Size 5",
+    "Size 2.5"
+   ],
+   "answer_index": 2,
+   "explanation": "Size 5 (large adult) is for 90+ kg (200+ lbs); size 4 covers 50–90 kg.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "pediatric",
+   "stem": "What weight range is the size 2.5 i-gel intended for?",
+   "options": [
+    "10–25 kg",
+    "30–60 kg",
+    "25–35 kg",
+    "5–12 kg"
+   ],
+   "answer_index": 2,
+   "explanation": "Size 2.5 is the large pediatric device, 25–35 kg (55–77 lbs), bridging size 2 (10–25 kg) and size 3 (30–60 kg).",
+   "priority": "detail",
+   "tags": [
+    "procedure:i-gel",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "What weight range is the size 4 i-gel intended for?",
+   "options": [
+    "30–60 kg",
+    "90+ kg",
+    "50–90 kg",
+    "25–35 kg"
+   ],
+   "answer_index": 2,
+   "explanation": "Size 4 is the medium adult device, 50–90 kg (110–200 lbs); above 90 kg use size 5.",
+   "priority": "detail",
+   "tags": [
+    "procedure:i-gel",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "What color identifies the size 4 (medium adult) i-gel?",
+   "options": [
+    "Green",
+    "Yellow",
+    "Orange",
+    "Grey"
+   ],
+   "answer_index": 0,
+   "explanation": "Size 4 is green; size 3 is yellow, size 5 orange and size 2 grey.",
+   "priority": "detail",
+   "tags": [
+    "procedure:i-gel"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "You pull an orange i-gel from the airway kit. Which size is it?",
+   "options": [
+    "Size 4",
+    "Size 3",
+    "Size 5",
+    "Size 2"
+   ],
+   "answer_index": 2,
+   "explanation": "Orange is size 5, the large adult device for 90+ kg; green is 4, yellow 3, grey 2.",
+   "priority": "detail",
+   "tags": [
+    "procedure:i-gel"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "procedure",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "How far is the i-gel glided down and back along the hard palate during insertion?",
+   "options": [
+    "Until the cuff passes the teeth",
+    "Until an ETCO2 waveform appears",
+    "Until the patient begins to gag",
+    "Until a definitive resistance is felt"
+   ],
+   "answer_index": 3,
+   "explanation": "A continuous, gentle push continues until a definitive resistance is felt, without excessive force; at that point the tip should sit in the upper esophageal opening.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 205,
+   "type": "landmark",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "When an i-gel is correctly seated, where should the patient's incisors rest?",
+   "options": [
+    "On the cuff outlet",
+    "On the integral bite block",
+    "On the gastric channel port",
+    "On the ETCO2 adaptor"
+   ],
+   "answer_index": 1,
+   "explanation": "Correct position has the tip in the upper esophageal opening, the cuff against the laryngeal framework and the incisors resting on the integral bite block.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel"
+   ]
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "contraindication",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "An unconscious patient with no gag reflex is known to have swallowed drain cleaner. Is an i-gel appropriate?",
+   "options": [
+    "Yes — an absent gag makes it indicated",
+    "No — caustic ingestion contraindicates it",
+    "Yes, if a gastric tube is passed",
+    "Yes, one size smaller than weight suggests"
+   ],
+   "answer_index": 1,
+   "explanation": "Caustic ingestion is a listed contraindication even though the patient otherwise meets the indication (unconscious, respiratory compromise, absent gag).",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 213,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "In an adult whose tibial tuberosity cannot be palpated, where is the proximal tibia IO insertion site?",
+   "options": [
+    "About 1-2 cm below the patella and 1 cm medial",
+    "About 3 cm below the inferior border of the patella",
+    "About 1-2 cm above the superior border of the patella",
+    "About 3 cm proximal to the medial malleolus"
+   ],
+   "answer_index": 1,
+   "explanation": "Without a palpable tuberosity, go about 3 cm below the inferior patellar border, on the same line the site would be if the tuberosity were felt (normally ~2 cm medial to it). 1-2 cm below and 1 cm medial is the pediatric figure.",
+   "priority": "core",
+   "tags": [
+    "procedure:io",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 213,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "Which bony landmark is palpated on the anterior shoulder to locate the proximal humerus IO site?",
+   "options": [
+    "The lesser tubercle",
+    "The acromion process",
+    "The coracoid process",
+    "The greater tubercle"
+   ],
+   "answer_index": 3,
+   "explanation": "With the arm adducted and internally rotated, the greater tubercle is palpated by letting it sink into the palm of your hand.",
+   "priority": "core",
+   "tags": [
+    "procedure:io"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 213,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "For a proximal humerus IO, the arm is placed tight against the body. How is the hand positioned?",
+   "options": [
+    "Palm facing forward, thumb pointing up",
+    "Palm facing inward, thumb pointing up",
+    "Palm facing outward, thumb pointing down",
+    "Palm up, resting on the thigh"
+   ],
+   "answer_index": 2,
+   "explanation": "Adduct and internally rotate: arm tight to the body with palm outward and thumb down, or the hand placed over the abdomen with the arm tight against the body.",
+   "priority": "core",
+   "tags": [
+    "procedure:io"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 213,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "How do you make sure an adult distal tibia IO site is mid-line on the bone?",
+   "options": [
+    "Palpate the anterior and posterior borders of the tibia",
+    "Palpate the medial and lateral malleoli",
+    "Palpate the tibial tuberosity",
+    "Palpate the head of the fibula"
+   ],
+   "answer_index": 0,
+   "explanation": "The site is about 3 cm proximal to the most prominent part of the medial malleolus; the anterior and posterior tibial borders are palpated so the needle goes into the flat center of the bone.",
+   "priority": "detail",
+   "tags": [
+    "procedure:io",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 214,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "In a child whose tibial tuberosity can be palpated, where is the proximal tibia IO insertion site?",
+   "options": [
+    "About 2 cm medial to the tibial tuberosity",
+    "About 3 cm below the inferior border of the patella",
+    "About 1 cm medial to the tibial tuberosity",
+    "About 1-2 cm above the superior border of the patella"
+   ],
+   "answer_index": 2,
+   "explanation": "Pediatric proximal tibia is about 1 cm medial to the tuberosity; 2 cm medial is the adult figure and 1-2 cm above the patella is the pediatric distal femur.",
+   "priority": "core",
+   "tags": [
+    "procedure:io",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 214,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "In a child whose tibial tuberosity cannot be palpated, where is the proximal tibia IO insertion site?",
+   "options": [
+    "About 1-2 cm below the patella and about 1 cm medial",
+    "About 3 cm below the inferior border of the patella",
+    "About 1-2 cm above the patella and 1 cm medial",
+    "About 2 cm medial to the tibial tuberosity"
+   ],
+   "answer_index": 0,
+   "explanation": "Without a palpable tuberosity in a child, go about 1-2 cm below the patella and about 1 cm medial on the flat aspect of the tibia; 3 cm below the patella is the adult figure.",
+   "priority": "core",
+   "tags": [
+    "procedure:io",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 214,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "Where is the pediatric distal tibia IO insertion site?",
+   "options": [
+    "About 3 cm proximal to the medial malleolus",
+    "About 1 cm medial to the tibial tuberosity",
+    "About 1-2 cm proximal to the medial malleolus",
+    "About 1-2 cm proximal to the patella"
+   ],
+   "answer_index": 2,
+   "explanation": "In children the distal tibia site is about 1-2 cm proximal to the most prominent aspect of the medial malleolus (3 cm in adults), on the flat center of the bone.",
+   "priority": "core",
+   "tags": [
+    "procedure:io",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 214,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "How is the leg positioned for a pediatric distal femur IO?",
+   "options": [
+    "Knee flexed to 90 degrees over a roll",
+    "Hip externally rotated, knee slightly bent",
+    "Outstretched and secured so the knee cannot bend",
+    "Knee flexed with the foot flat on the stretcher"
+   ],
+   "answer_index": 2,
+   "explanation": "The site is secured with the leg outstretched so the knee does not bend, then located 1-2 cm proximal to the superior patella and about 1 cm medial to mid-line.",
+   "priority": "detail",
+   "tags": [
+    "procedure:io",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 212,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which IO insertion site usually has the least overlying soft tissue?",
+   "options": [
+    "Humeral head",
+    "Distal tibia",
+    "Distal femur",
+    "Proximal tibia"
+   ],
+   "answer_index": 1,
+   "explanation": "Palpation estimates tissue depth for needle choice: the humeral head and femoral sites typically have more overlying tissue than the proximal tibia, and the distal tibia usually has the least.",
+   "priority": "core",
+   "tags": [
+    "procedure:io"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 212,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "With the IO needle tip on the bone, the 5-mm mark is not visible above the skin. What should be done?",
+   "options": [
+    "Drill anyway and accept the depth",
+    "Push harder before squeezing the trigger",
+    "Withdraw slightly and re-angle the needle",
+    "Use a longer needle and/or another insertion site"
+   ],
+   "answer_index": 3,
+   "explanation": "If the 5-mm mark (the most proximal mark to the hub) is not visible, the needle is too short for the tissue depth; choose a longer needle and/or a different site to ensure adequate placement depth.",
+   "priority": "core",
+   "tags": [
+    "procedure:io"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 212,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "At what angle is the IO needle pushed through the skin to rest on the bone?",
+   "options": [
+    "Angled toward the foot, away from the joint",
+    "Angled toward the head",
+    "Parallel to the long axis of the bone",
+    "90 degrees to the bone"
+   ],
+   "answer_index": 3,
+   "explanation": "The needle is held at 90 degrees to the bone and pushed through the skin until it rests on bone before the trigger is squeezed.",
+   "priority": "core",
+   "tags": [
+    "procedure:io"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 212,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A patient with a left total knee replacement needs IO access. Which site must be avoided?",
+   "options": [
+    "Left humeral head",
+    "Right proximal tibia",
+    "Left proximal tibia",
+    "Right distal tibia"
+   ],
+   "answer_index": 2,
+   "explanation": "A prosthetic implant at the insertion site is a contraindication; the other limbs remain available (recent IO in the same limb within 24 hours and fracture of the bone are the other contraindications).",
+   "priority": "core",
+   "tags": [
+    "procedure:io"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 213,
+   "type": "mechanism",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Why must a newly placed IO be flushed rapidly before fluids are infused?",
+   "options": [
+    "To dilute the lidocaine in the space",
+    "To test the extension set for leaks",
+    "To clear air from the stylet tract",
+    "To displace bone marrow"
+   ],
+   "answer_index": 3,
+   "explanation": "A rapid flush displaces marrow from the medullary space and also confirms placement; patency is confirmed again before medications or fluids.",
+   "priority": "core",
+   "tags": [
+    "procedure:io"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 212,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which IO patient should be considered for 2% lidocaine before infusion?",
+   "options": [
+    "Every adult IO patient",
+    "Only pediatric IO patients",
+    "Only humeral head insertions",
+    "A patient who is responsive to pain"
+   ],
+   "answer_index": 3,
+   "explanation": "Lidocaine is carried 'if conscious' and analgesia is recommended for patients responsive to pain, because IO infusion under pressure is painful.",
+   "priority": "core",
+   "tags": [
+    "procedure:io",
+    "drug:lidocaine"
+   ]
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 215,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What initial dose of 2% lidocaine is given for IO pain management in a 24 kg child?",
+   "options": [
+    "24 mg",
+    "12 mg",
+    "6 mg",
+    "40 mg"
+   ],
+   "answer_index": 1,
+   "explanation": "Pediatric initial dose is 0.5 mg/kg (max 40 mg): 0.5 × 24 = 12 mg, below the cap. 6 mg would be the half-dose repeat.",
+   "priority": "core",
+   "tags": [
+    "procedure:io",
+    "drug:lidocaine",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "min(0.5 * W, 40)",
+    "inputs": {
+     "W": 24
+    },
+    "result": 12,
+    "unit": "mg"
+   }
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "page": 215,
+   "type": "calculation",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "An adult remains in pain after the initial IO lidocaine dose. How much 2% lidocaine is given as the repeat dose?",
+   "options": [
+    "40 mg",
+    "20 mg",
+    "10 mg",
+    "0.5 mg/kg"
+   ],
+   "answer_index": 1,
+   "explanation": "The repeat is HALF the initial dose: the adult initial dose is 40 mg, so 20 mg, infused over 60 seconds.",
+   "priority": "detail",
+   "tags": [
+    "procedure:io",
+    "drug:lidocaine",
+    "population:adult"
+   ],
+   "calc": {
+    "formula": "40 / 2",
+    "inputs": {},
+    "result": 20,
+    "unit": "mg"
+   }
+  }
+ ]
+}

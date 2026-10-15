@@ -1,0 +1,1006 @@
+{
+ "batch": "F03",
+ "questions": [
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "assessment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "In a patient with tension pneumothorax and hypotension being considered for a chest tube, which supporting finding is described as a late sign?",
+   "options": [
+    "Jugular venous distension",
+    "Decreased ETCO2",
+    "Tracheal deviation",
+    "Tachycardia"
+   ],
+   "answer_index": 2,
+   "explanation": "The indication requires hypotension plus any supporting finding; tracheal deviation is specifically flagged as a late sign, so its absence should not delay decompression.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:tension-pneumothorax"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "equipment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "How is the chest tube size chosen for a given patient?",
+   "options": [
+    "The smallest tube that will pass the Kelly clamp",
+    "The largest appropriate tube for the patient's size",
+    "The same tube size for every patient",
+    "The size the receiving surgeon prefers"
+   ],
+   "answer_index": 1,
+   "explanation": "The guideline directs the largest appropriate tube based on patient size, typically 32Fr for adults and 20Fr for pediatrics, to allow drainage of blood as well as air.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:equipment"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "When anesthetizing the chest tube site, after infiltrating subcutaneously over the incision area, where is the lidocaine injected next?",
+   "options": [
+    "The periosteum of the rib the Kelly clamp will pass over",
+    "The intercostal muscle just below the rib",
+    "The parietal pleura under the incision",
+    "The skin over the sternal notch"
+   ],
+   "answer_index": 0,
+   "explanation": "After the skin wheal, the needle is advanced to bone to anesthetize the periosteum of the rib the clamp will go over, then walked superior to that rib to infiltrate the intercostal muscle the clamp will puncture.",
+   "priority": "detail",
+   "tags": [
+    "procedure:chest-tube",
+    "drug:lidocaine",
+    "route:local"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "calculation",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What is the maximum volume of 2% lidocaine for local anesthesia when placing a chest tube in a 20 kg child?",
+   "options": [
+    "80 mL",
+    "8 mL",
+    "0.8 mL",
+    "4 mL"
+   ],
+   "answer_index": 3,
+   "explanation": "The maximum lidocaine dose is 4 mg/kg, which for 2% lidocaine is 0.2 mL/kg: 0.2 x 20 = 4 mL (80 mg). Reading 80 as mL is a fatal-volume error; the guideline specifically warns to calculate the maximum carefully in children.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "drug:lidocaine",
+    "route:local",
+    "population:pediatric"
+   ],
+   "calc": {
+    "formula": "0.2 * W",
+    "inputs": {
+     "W": 20
+    },
+    "result": 4,
+    "unit": "mL"
+   }
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "During chest tube preparation, why must the lidocaine vial not touch the sterile field or sterile gloves?",
+   "options": [
+    "Lidocaine degrades the tube's plastic",
+    "The vial must be kept for dose tracking",
+    "The vials are not sterile",
+    "Lidocaine inactivates chlorhexidine"
+   ],
+   "answer_index": 2,
+   "explanation": "The partner anesthetizes the site because the 2% lidocaine vials are not sterile; after anesthetizing, the site is prepped again with chlorhexidine/isopropanol.",
+   "priority": "detail",
+   "tags": [
+    "procedure:chest-tube",
+    "drug:lidocaine",
+    "topic:sterile-technique"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Before inserting a chest tube, all of the fenestrations will not fit inside this patient's chest at the measured depth. What is done?",
+   "options": [
+    "Cut the tip of the tube down with sterile scissors",
+    "Insert the tube only to the first fenestration",
+    "Switch to a finger thoracostomy instead",
+    "Choose a smaller French tube size"
+   ],
+   "answer_index": 0,
+   "explanation": "Depth is estimated from the insertion site to the sternal notch; any fenestration left outside the chest would leak, so the tube tip is cut down with sterile scissors until all holes will sit inside.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:equipment"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "equipment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What incision is made for chest tube insertion?",
+   "options": [
+    "A 2\" vertical incision with a #10 scalpel",
+    "A small pinpoint incision with the scalpel tip",
+    "A puncture with a 10-gauge needle only",
+    "A 2\" transverse incision with a #10 scalpel"
+   ],
+   "answer_index": 3,
+   "explanation": "A #10 scalpel makes a 2\" transverse incision between the anterior and mid-axillary lines, cut directly over the 5th or 6th rib, so the clamp can then tunnel up over the rib.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:landmark"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "After a chest tube is in place and secured, how may the Heimlich valve be managed?",
+   "options": [
+    "Clamped until arrival at the receiving facility",
+    "Taped to the thorax and connected to low suction",
+    "Left open to air beneath an occlusive dressing",
+    "Replaced with a vented chest seal over the tube"
+   ],
+   "answer_index": 1,
+   "explanation": "The tube is secured with towel clamps, quick ties and tape; the tube and Heimlich valve are taped to the thorax and the valve may be connected to low suction. Clamping is reserved for output above 1000 mL in under 60 minutes.",
+   "priority": "detail",
+   "tags": [
+    "procedure:chest-tube"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "A chest tube has been clamped for high blood output. What must the crew communicate to the receiving facility, and why?",
+   "options": [
+    "The total output only, for the transfusion record",
+    "That the tube is patent, so suction can be resumed",
+    "The output and clamped tube, as an emergent OR is likely",
+    "The time of clamping, so it can be released on arrival"
+   ],
+   "answer_index": 2,
+   "explanation": "Clamping after > 1000 mL in under 60 minutes is meant to tamponade further bleeding; the receiving team must know about the output and the clamped tube because the patient is likely to need an emergent OR.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:hemothorax"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "special",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "A crew is told by the receiving physician that their chest tube was incorrectly placed. What is required?",
+   "options": [
+    "Immediately notify the Clinical Manager on Call and complete a QM report",
+    "Remove the tube and document a simple pneumothorax",
+    "Document the procedure as successful with a note",
+    "Notify OLMC at the end of the shift"
+   ],
+   "answer_index": 0,
+   "explanation": "The guideline requires the receiving physician's name to verify placement before charting; if placement was incorrect the Clinical Manager on Call is notified immediately and a QM report completed.",
+   "priority": "detail",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:documentation"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 183,
+   "type": "landmark",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "In the axillary landmark figure for chest tube placement, which structure forms the anterior border of the safe triangle?",
+   "options": [
+    "Lateral edge of latissimus dorsi",
+    "Lateral edge of pectoralis major",
+    "Base of axilla",
+    "5th intercostal space"
+   ],
+   "answer_index": 1,
+   "explanation": "The figure outlines a triangle bounded anteriorly by the lateral edge of pectoralis major, posteriorly by the lateral edge of latissimus dorsi, superiorly by the base of the axilla and inferiorly at the 5th intercostal space.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:landmark"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 183,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Why was the older chest tube incision wording, 'lateral to the superior aspect of the inframammary crease', replaced with the handshake-in-the-axilla method?",
+   "options": [
+    "It placed the tube too close to the nipple",
+    "It led to tubes placed in the 2nd intercostal space",
+    "It was too slow to use in flight",
+    "It could lead to an inferiorly placed tube"
+   ],
+   "answer_index": 3,
+   "explanation": "Providers often did not appreciate how high the superior aspect of the inframammary crease projects, so the old wording risked a tube placed too low; the handshake-in-the-axilla method gives a quicker, higher, more reliable site.",
+   "priority": "detail",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:landmark"
+   ]
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "indication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Besides suspected tension pneumothorax with hypotension, what other indication for finger thoracostomy is listed?",
+   "options": [
+    "A documented pneumothorax flown above 8000 feet",
+    "Simple pneumothorax before flight",
+    "Traumatic arrest",
+    "Hemothorax in a normotensive patient"
+   ],
+   "answer_index": 2,
+   "explanation": "Finger thoracostomy is indicated for suspected tension pneumothorax in a peri-arrest patient with hypotension, and for traumatic arrest. Altitude transport of a documented pneumothorax is a chest tube indication, not a finger thoracostomy one.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:traumatic-arrest"
+   ]
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "contraindication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "A patient with suspected tension pneumothorax has JVD, tachycardia and unilateral decreased breath sounds, but is normotensive. How does this affect finger thoracostomy?",
+   "options": [
+    "It is indicated because three signs are present",
+    "It is contraindicated while the patient is normotensive",
+    "It is indicated if ETCO2 is also decreasing",
+    "It is indicated once tracheal deviation appears"
+   ],
+   "answer_index": 1,
+   "explanation": "Hypotension is required; normotension and hypertension are listed contraindications no matter how many other supporting signs are present.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:tension-pneumothorax"
+   ]
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "assessment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Which capnography finding is listed as a supporting sign of tension pneumothorax in a hypotensive patient being considered for finger thoracostomy?",
+   "options": [
+    "Hypocarbia (decreased ETCO2)",
+    "Hypercarbia (increased ETCO2)",
+    "A shark-fin ETCO2 waveform",
+    "Loss of the ETCO2 plateau phase"
+   ],
+   "answer_index": 0,
+   "explanation": "Falling cardiac output from tension physiology reduces CO2 delivery to the lungs, so hypocarbia (decreased ETCO2) is listed alongside tachycardia, JVD, hypoxia and decreased breath sounds.",
+   "priority": "detail",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:tension-pneumothorax",
+    "topic:capnography"
+   ]
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "landmark",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "When a hand is placed in the axilla for quick assessment of the finger thoracostomy site, what size of hand is used?",
+   "options": [
+    "The provider's own hand",
+    "A hand the size of an adult's",
+    "A closed fist in the axilla",
+    "A hand the size of the patient's"
+   ],
+   "answer_index": 3,
+   "explanation": "The guideline specifies a patient-size hand placed in the axilla, which scales the landmark to the patient and points to the 4th or 5th intercostal space lateral to the nipple.",
+   "priority": "detail",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:landmark"
+   ]
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "complication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "When inserting a gloved finger into the pleural space during a finger thoracostomy, what hazard should the provider keep in mind?",
+   "options": [
+    "The lung may adhere and be torn by the finger",
+    "The diaphragm may be perforated by the finger",
+    "Rib fractures may be present and can cause lacerations",
+    "The pericardium lies directly under the incision"
+   ],
+   "answer_index": 2,
+   "explanation": "The finger sweep confirms pleural entry by hooking the inner side of the ribs; in trauma, fractured rib ends can lacerate the provider's finger and glove.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:provider-safety"
+   ]
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "After entry into the pleural space has been verified with a finger during a finger thoracostomy, how is the site managed?",
+   "options": [
+    "Consider a vented chest seal or cover with sterile gauze",
+    "Place an occlusive dressing immediately",
+    "Insert a chest tube through the incision",
+    "Close the incision with towel clamps"
+   ],
+   "answer_index": 0,
+   "explanation": "The opening is left to vent: a vented chest seal (Hyfin) or sterile gauze is considered. An occlusive dressing is placed only for excessive blood return (> 1000 mL) to tamponade bleeding.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:wound-care"
+   ]
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 194,
+   "type": "landmark",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "In the chest wall cross-section shown for finger thoracostomy, which layer lies deepest, immediately before the pleural space?",
+   "options": [
+    "Innermost intercostal muscle",
+    "Endothoracic fascia",
+    "External intercostal muscle",
+    "Superficial fascia"
+   ],
+   "answer_index": 1,
+   "explanation": "From outside in, the figure shows skin, superficial fascia, external, internal and innermost intercostal muscles, then endothoracic fascia; the clamp must pass all of these, over the top of the rib, to enter the pleura.",
+   "priority": "detail",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:anatomy"
+   ]
+  },
+  {
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "page": 232,
+   "type": "indication",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Can a needle cricothyrotomy be used in a patient older than 8 years?",
+   "options": [
+    "No, it is limited to patients under 8 years",
+    "Yes, but only with OLMC consult first",
+    "Only after a failed surgical cricothyrotomy",
+    "Yes, if other methods of securement fail or are contraindicated"
+   ],
+   "answer_index": 3,
+   "explanation": "The primary indication is age under 8 after less invasive methods fail, but the pearls state it may be required in other or older populations when other methods of securement are unsuccessful or contraindicated.",
+   "priority": "core",
+   "tags": [
+    "procedure:needle-cricothyrotomy"
+   ]
+  },
+  {
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "page": 231,
+   "type": "complication",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "Which complication is listed for needle cricothyrotomy?",
+   "options": [
+    "Tracheal transection",
+    "Coronary artery laceration",
+    "Recurrent tension pneumothorax",
+    "Subcutaneous air from a vented seal"
+   ],
+   "answer_index": 0,
+   "explanation": "The listed complications are damage to nearby structures: major vessels, vocal cords and tracheal transection, which is why the trachea is immobilized and the needle stops once in the lumen.",
+   "priority": "core",
+   "tags": [
+    "procedure:needle-cricothyrotomy",
+    "topic:complications"
+   ]
+  },
+  {
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "page": 231,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "During a needle cricothyrotomy, what serves as the handle and positioning indicator for the jet ventilation catheter?",
+   "options": [
+    "The flange of the catheter",
+    "The supplied neck strap",
+    "The syringe attached to the catheter",
+    "The meconium aspirator"
+   ],
+   "answer_index": 2,
+   "explanation": "The syringe attached to the catheter acts as the handle and is used to aspirate air, which identifies correct positioning in the trachea.",
+   "priority": "detail",
+   "tags": [
+    "procedure:needle-cricothyrotomy",
+    "topic:equipment"
+   ]
+  },
+  {
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "page": 231,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "Why is no skin incision normally needed before puncturing the cricothyroid membrane with the jet ventilation catheter?",
+   "options": [
+    "The membrane lies directly beneath the skin",
+    "The needle has a sharp tip and conical shape",
+    "The syringe provides enough force to cut skin",
+    "The child's skin is thin enough to tear"
+   ],
+   "answer_index": 1,
+   "explanation": "The catheter's sharp, conical needle passes skin and membrane directly, and a loss of resistance is felt on perforation. Incising the skin is reserved for when all needle attempts fail and the child cannot be oxygenated.",
+   "priority": "detail",
+   "tags": [
+    "procedure:needle-cricothyrotomy"
+   ]
+  },
+  {
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "page": 231,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "After air is aspirated confirming the needle is in the trachea, how far is the catheter advanced?",
+   "options": [
+    "Until the needle tip contacts the rear tracheal wall",
+    "Until it passes the cricoid cartilage",
+    "Until breath sounds are heard bilaterally",
+    "Along the needle until the flange rests on the neck"
+   ],
+   "answer_index": 3,
+   "explanation": "The catheter is pushed forward along the needle, which acts as a guide and prevents kinking, until the flange rests on the neck; the metal needle itself is not advanced further to avoid perforating the rear tracheal wall.",
+   "priority": "core",
+   "tags": [
+    "procedure:needle-cricothyrotomy",
+    "topic:technique"
+   ]
+  },
+  {
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "page": 231,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "How is each breath insufflated through a needle cricothyrotomy using the meconium aspirator set-up?",
+   "options": [
+    "Cover the mask/ETCO2 adaptor hole and the aspirator hole together until chest rise",
+    "Squeeze the BVM attached directly to the catheter hub",
+    "Occlude only the aspirator hole, mask vented",
+    "Open the oxygen flowmeter to flush for each breath"
+   ],
+   "answer_index": 0,
+   "explanation": "With oxygen at 12 - 15 LPM through suction tubing and the meconium aspirator, and a mask sealed over the mouth and nose, the hole on the mask/ETCO2 adaptor and the aspirator hole are covered simultaneously until the chest rises.",
+   "priority": "core",
+   "tags": [
+    "procedure:needle-cricothyrotomy",
+    "topic:ventilation"
+   ]
+  },
+  {
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "page": 232,
+   "type": "assessment",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "When ventilating through a needle cricothyrotomy, what is watched to ensure full exhalation before the next breath?",
+   "options": [
+    "The SpO2 reaching 100%",
+    "The chest rising on the opposite side",
+    "The ETCO2 waveform returning to baseline",
+    "The meconium aspirator hole whistling"
+   ],
+   "answer_index": 2,
+   "explanation": "Exhalation through the upper airway is slow, so an I:E of about 1:4 is used and the ETCO2 waveform is watched to return to baseline, preventing air trapping.",
+   "priority": "core",
+   "tags": [
+    "procedure:needle-cricothyrotomy",
+    "topic:ventilation",
+    "topic:capnography"
+   ]
+  },
+  {
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "page": 232,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "pediatric",
+   "stem": "After a correctly placed needle cricothyrotomy, how should the ETCO2 reading be interpreted?",
+   "options": [
+    "It should match arterial CO2 closely",
+    "It may be inaccurate but will still be present",
+    "It will be absent until a surgical airway is placed",
+    "It confirms placement only if above 35 mmHg"
+   ],
+   "answer_index": 1,
+   "explanation": "The pearls note ETCO2 readings may be inaccurate through this set-up but will still be present with accurate placement, so presence of a waveform, breath sounds and a rising SpO2 together confirm placement.",
+   "priority": "core",
+   "tags": [
+    "procedure:needle-cricothyrotomy",
+    "topic:capnography"
+   ]
+  },
+  {
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "page": 232,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "Instead of the meconium aspirator, what alternative ventilation set-up may be used with a needle cricothyrotomy?",
+   "options": [
+    "A transport ventilator on the catheter hub",
+    "A CPAP mask without supplemental oxygen",
+    "A Heimlich valve on the catheter hub",
+    "A BVM connected to the ETT connector"
+   ],
+   "answer_index": 3,
+   "explanation": "The guideline allows a BVM to be connected to the ETT connector in place of the meconium aspirator and suction-tubing oxygen set-up.",
+   "priority": "detail",
+   "tags": [
+    "procedure:needle-cricothyrotomy",
+    "topic:ventilation"
+   ]
+  },
+  {
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "page": 231,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "After a needle cricothyrotomy catheter is secured with the supplied neck strap, what else is required to maintain it?",
+   "options": [
+    "Continue to hold its position manually",
+    "Suture the flange to the skin",
+    "Fill the catheter with sterile saline",
+    "Remove the strap once ventilation starts"
+   ],
+   "answer_index": 0,
+   "explanation": "The strap is used but the provider continues to hold the catheter manually, and keeps it upright and unkinked, because a small catheter displaces easily in a child.",
+   "priority": "core",
+   "tags": [
+    "procedure:needle-cricothyrotomy",
+    "topic:securement"
+   ]
+  },
+  {
+   "number": "8.32",
+   "title": "Surgical Cricothyrotomy",
+   "page": 251,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "Which ventilation device is listed in the surgical cricothyrotomy equipment?",
+   "options": [
+    "Meconium aspirator with suction tubing",
+    "Jet ventilation catheter",
+    "BVM with PEEP valve",
+    "CPAP mask with securing straps"
+   ],
+   "answer_index": 2,
+   "explanation": "The surgical cricothyrotomy kit lists a BVM with PEEP valve and ETCO2 adaptor; the meconium aspirator, jet catheter and mask with straps belong to the needle cricothyrotomy set-up.",
+   "priority": "detail",
+   "tags": [
+    "procedure:surgical-cricothyrotomy",
+    "topic:equipment"
+   ]
+  },
+  {
+   "number": "8.32",
+   "title": "Surgical Cricothyrotomy",
+   "page": 251,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "Why is face and eye protection donned before incising the cricothyroid membrane?",
+   "options": [
+    "The Ruiz hook may slip and spray tissue",
+    "Air and blood are often forcibly expelled",
+    "The bougie can flick secretions on removal",
+    "Chlorhexidine splashes during the prep"
+   ],
+   "answer_index": 1,
+   "explanation": "Incising the cricothyroid membrane often forcibly expels air and blood from the airway, so face and eye protection is part of preparation.",
+   "priority": "detail",
+   "tags": [
+    "procedure:surgical-cricothyrotomy",
+    "topic:provider-safety"
+   ]
+  },
+  {
+   "number": "8.32",
+   "title": "Surgical Cricothyrotomy",
+   "page": 251,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "When stabilizing the larynx for a surgical cricothyrotomy, what hand position is described as best practice?",
+   "options": [
+    "Thumb and index finger stabilize, long finger palpates",
+    "Whole hand grasps the cricoid, thumb palpates",
+    "Index and long finger spread the skin, thumb palpates",
+    "Thumb and long finger stabilize, index finger palpates"
+   ],
+   "answer_index": 3,
+   "explanation": "Using the non-dominant thumb and long finger to stabilize the airway leaves the index finger free to palpate the membrane continuously throughout the incision.",
+   "priority": "core",
+   "tags": [
+    "procedure:surgical-cricothyrotomy",
+    "topic:technique"
+   ]
+  },
+  {
+   "number": "8.32",
+   "title": "Surgical Cricothyrotomy",
+   "page": 251,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "During a surgical cricothyrotomy where the cricothyroid membrane can be palpated, what initial incision is made?",
+   "options": [
+    "A small pinpoint incision with the top of the scalpel",
+    "A 2\" vertical incision over the suspected location",
+    "A 2\" transverse incision across the neck",
+    "No incision; the Ruiz hook punctures the skin"
+   ],
+   "answer_index": 0,
+   "explanation": "When the membrane is palpable, the airway is stabilized and a small pinpoint incision is made over the site; the 2\" vertical incision and dissection is reserved for when the membrane cannot be identified.",
+   "priority": "core",
+   "tags": [
+    "procedure:surgical-cricothyrotomy",
+    "topic:technique"
+   ]
+  },
+  {
+   "number": "8.32",
+   "title": "Surgical Cricothyrotomy",
+   "page": 252,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "During a surgical cricothyrotomy, after the scalpel handle has been twisted to dilate the membrane, what is inserted next?",
+   "options": [
+    "The ETT, alongside the scalpel handle",
+    "A gloved finger, to confirm tracheal entry",
+    "A bougie, next to the handle, toward the carina",
+    "The Ruiz hook, beneath the cricoid"
+   ],
+   "answer_index": 2,
+   "explanation": "The bougie is inserted next to the dilating handle and advanced toward the carina; only then is the scalpel removed and the ETT railroaded over the bougie.",
+   "priority": "core",
+   "tags": [
+    "procedure:surgical-cricothyrotomy",
+    "topic:sequence"
+   ]
+  },
+  {
+   "number": "8.32",
+   "title": "Surgical Cricothyrotomy",
+   "page": 252,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "During a surgical cricothyrotomy, what makes the ETT easier to advance over the bougie through the membrane?",
+   "options": [
+    "Inflating the cuff before it reaches the membrane",
+    "Twisting the ETT as it contacts the membrane",
+    "Lifting the Ruiz hook toward the feet",
+    "Removing the bougie before the tube enters"
+   ],
+   "answer_index": 1,
+   "explanation": "All air is removed from the ETT balloon before it is slid down the bougie, and twisting the tube as it meets the cricothyroid membrane eases its passage.",
+   "priority": "detail",
+   "tags": [
+    "procedure:surgical-cricothyrotomy",
+    "topic:technique"
+   ]
+  },
+  {
+   "number": "8.32",
+   "title": "Surgical Cricothyrotomy",
+   "page": 252,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "During a surgical cricothyrotomy, when is the bougie removed?",
+   "options": [
+    "As soon as the scalpel is removed",
+    "Before the ETT reaches the membrane",
+    "After the Ruiz hook is removed",
+    "Once the tube is completely in place"
+   ],
+   "answer_index": 3,
+   "explanation": "The bougie stays as the guide until the airway is completely in place; the cuff is then inflated, the patient ventilated with 100% oxygen and placement verified, and only then is the Ruiz hook removed.",
+   "priority": "core",
+   "tags": [
+    "procedure:surgical-cricothyrotomy",
+    "topic:sequence"
+   ]
+  },
+  {
+   "number": "8.32",
+   "title": "Surgical Cricothyrotomy",
+   "page": 252,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "How is the ETT secured after a surgical cricothyrotomy?",
+   "options": [
+    "With twill tape",
+    "With the supplied neck strap",
+    "With towel clamps and quick ties",
+    "By manual hold alone"
+   ],
+   "answer_index": 0,
+   "explanation": "Twill tape is in the surgical cricothyrotomy equipment list and is used to secure the ETT once placement is confirmed and the Ruiz hook removed.",
+   "priority": "detail",
+   "tags": [
+    "procedure:surgical-cricothyrotomy",
+    "topic:securement"
+   ]
+  },
+  {
+   "number": "8.32",
+   "title": "Surgical Cricothyrotomy",
+   "page": 252,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "Once the ETT is passed through the membrane during a surgical cricothyrotomy, what is done before verifying placement?",
+   "options": [
+    "Remove the Ruiz hook and secure with twill tape",
+    "Deflate the cuff and ventilate at a 1:4 I:E",
+    "Inflate the cuff and ventilate with 100% oxygen",
+    "Leave the cuff down and auscultate first"
+   ],
+   "answer_index": 2,
+   "explanation": "After the bougie is removed the cuff is inflated and the patient ventilated with 100% oxygen; placement is then verified with ETCO2, lung sounds and rising SpO2, and the hook is removed only after confirmation.",
+   "priority": "core",
+   "tags": [
+    "procedure:surgical-cricothyrotomy",
+    "topic:ventilation"
+   ]
+  },
+  {
+   "number": "8.28",
+   "title": "Pericardiocentesis",
+   "page": 240,
+   "type": "equipment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Which needle is listed for pericardiocentesis?",
+   "options": [
+    "21G, 1.5\" needle",
+    "Enhanced ARS 3.25\" 10-gauge needle",
+    "18-gauge IV catheter",
+    "Jet ventilation catheter"
+   ],
+   "answer_index": 1,
+   "explanation": "The pericardiocentesis kit lists an enhanced ARS 3.25\" 10-gauge needle with a 30 - 60 mL Luer-lock syringe and a 3-way stopcock; the long needle is needed to reach the pericardium from the subxiphoid approach.",
+   "priority": "core",
+   "tags": [
+    "procedure:pericardiocentesis",
+    "topic:equipment"
+   ]
+  },
+  {
+   "number": "8.28",
+   "title": "Pericardiocentesis",
+   "page": 240,
+   "type": "landmark",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "During pericardiocentesis, the needle is advanced at 30 degrees to the skin. Toward what target is it aimed?",
+   "options": [
+    "The right shoulder",
+    "The left nipple",
+    "The umbilicus",
+    "The posterior left shoulder"
+   ],
+   "answer_index": 3,
+   "explanation": "From the subxiphoid site, the needle is advanced slowly at 30 degrees to the skin aiming toward the posterior left shoulder; the guideline figure draws this trajectory toward the left mid-clavicle.",
+   "priority": "core",
+   "tags": [
+    "procedure:pericardiocentesis",
+    "topic:landmark"
+   ]
+  },
+  {
+   "number": "8.28",
+   "title": "Pericardiocentesis",
+   "page": 240,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "During pericardiocentesis, no fluid is aspirated on the first pass. What is done?",
+   "options": [
+    "Withdraw and redirect, systematically changing the trajectory",
+    "Advance the needle deeper until fluid returns",
+    "Abandon the procedure and push fluids",
+    "Inject saline to confirm needle position"
+   ],
+   "answer_index": 0,
+   "explanation": "If no fluid returns, the needle is withdrawn and redirected, systematically changing the posterior trajectory and the left-to-right angle, while the ECG is watched for signs of epicardial contact.",
+   "priority": "core",
+   "tags": [
+    "procedure:pericardiocentesis",
+    "topic:technique"
+   ]
+  },
+  {
+   "number": "8.28",
+   "title": "Pericardiocentesis",
+   "page": 240,
+   "type": "complication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Besides an ST elevation injury pattern, which ECG finding during needle advancement indicates epicardial contact in pericardiocentesis?",
+   "options": [
+    "Electrical alternans",
+    "Low QRS voltage",
+    "Ventricular ectopy",
+    "Sinus tachycardia"
+   ],
+   "answer_index": 2,
+   "explanation": "An assistant monitors the ECG and alerts the operator to an ST elevation injury pattern or ventricular ectopy; either indicates epicardial contact and the needle is withdrawn.",
+   "priority": "core",
+   "tags": [
+    "procedure:pericardiocentesis",
+    "topic:monitoring"
+   ]
+  },
+  {
+   "number": "8.28",
+   "title": "Pericardiocentesis",
+   "page": 240,
+   "type": "sequence",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "During pericardiocentesis, blood or fluid returns into the syringe. What is the next step?",
+   "options": [
+    "Advance the needle 1 cm further, then aspirate",
+    "Stop advancing, advance the catheter fully, aspirate as much as possible",
+    "Remove the needle and catheter together",
+    "Inject the aspirate back to test for clotting"
+   ],
+   "answer_index": 1,
+   "explanation": "Once fluid returns the needle is not advanced further; the catheter is advanced fully and as much as possible is aspirated, after which the needle is removed and the catheter left with a 3-way stopcock.",
+   "priority": "core",
+   "tags": [
+    "procedure:pericardiocentesis",
+    "topic:technique"
+   ]
+  },
+  {
+   "number": "8.28",
+   "title": "Pericardiocentesis",
+   "page": 240,
+   "type": "contraindication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What contraindications are listed for pericardiocentesis?",
+   "options": [
+    "Placement outside of a hospital or clinic",
+    "Normotension",
+    "Ability to oxygenate less invasively",
+    "None, when indicated"
+   ],
+   "answer_index": 3,
+   "explanation": "There are no contraindications when the procedure is indicated, but it is not under standing orders and requires an OLMC consult or physician order.",
+   "priority": "detail",
+   "tags": [
+    "procedure:pericardiocentesis"
+   ]
+  },
+  {
+   "number": "8.28",
+   "title": "Pericardiocentesis",
+   "page": 241,
+   "type": "indication",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "A patient with a known, verified pericardial effusion is being transported interfacility. Which finding signals decompensation that may warrant pericardiocentesis by order?",
+   "options": [
+    "A drop in ETCO2",
+    "A rise in ETCO2",
+    "New hypertension",
+    "Improved mentation"
+   ],
+   "answer_index": 0,
+   "explanation": "The pearls list loss of pulses, sudden change in mentation and a drop in ETCO2 as decompensation; falling ETCO2 reflects falling cardiac output from tamponade.",
+   "priority": "core",
+   "tags": [
+    "procedure:pericardiocentesis",
+    "topic:tamponade",
+    "topic:capnography"
+   ]
+  }
+ ]
+}
