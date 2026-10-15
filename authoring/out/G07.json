@@ -1,0 +1,2777 @@
+{
+ "batch": "G07",
+ "questions": [
+  {
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "page": 168,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "In 7.06 Spinal Injuries and Shock, what systolic blood pressure does the ALS adult band direct the crew to maintain?",
+   "options": [
+    "> 90 mmHg",
+    "> 90 + (age x 2) mmHg",
+    "> 110 mmHg",
+    "> 80 mmHg"
+   ],
+   "answer_index": 0,
+   "explanation": "Neurogenic shock is a distributive problem, and 7.06 sets an adult goal of SBP greater than 90 mmHg, reached first with NS/LR boluses and then with norepinephrine if 2 L of fluid fails. The 90 + (age x 2) formula is the pediatric target on the same page.",
+   "priority": "core",
+   "tags": [
+    "topic:neurogenic-shock",
+    "topic:spinal-injury",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "page": 168,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What systolic blood pressure target does 7.06 set for a pediatric patient with a spinal injury and shock?",
+   "options": [
+    "> 90 + (age x 2) mmHg",
+    "> 80 mmHg",
+    "> 90 mmHg",
+    "> 110 mmHg"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric band scales the pressure goal with age rather than using the flat adult number, so a 4-year-old is targeted at 98 mmHg. Treating a child to the adult > 90 mmHg goal would under-resuscitate an older child.",
+   "priority": "core",
+   "tags": [
+    "topic:neurogenic-shock",
+    "topic:spinal-injury",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "page": 168,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "An adult with a spinal injury stays hypotensive despite NS/LR boluses. How much fluid does 7.06 require before a norepinephrine infusion is started?",
+   "options": [
+    "3 L",
+    "2 L",
+    "1 L",
+    "40 – 60 mL/kg"
+   ],
+   "answer_index": 1,
+   "explanation": "7.06 escalates to a vasopressor only after 2 L of crystalloid in an adult, because neurogenic shock is usually mixed with occult haemorrhage and volume should be replaced first. The pediatric band uses 40 – 60 mL/kg as the same decision point.",
+   "priority": "core",
+   "tags": [
+    "topic:neurogenic-shock",
+    "drug:norepinephrine",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "page": 168,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What norepinephrine starting infusion rate does 7.06 give for an adult with neurogenic shock who remains hypotensive after fluid?",
+   "options": [
+    "20 mcg/min",
+    "2 – 10 mcg/min",
+    "30 mcg/min",
+    "45 mcg/min"
+   ],
+   "answer_index": 1,
+   "explanation": "7.06 starts norepinephrine at 2 – 10 mcg/min, then titrates every 3 – 5 minutes against the SBP goal. 45 mcg/min is the ceiling of that titration, not a starting rate.",
+   "priority": "core",
+   "tags": [
+    "drug:norepinephrine",
+    "topic:neurogenic-shock",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "page": 168,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "7.06 gives a weight-based alternative for starting norepinephrine in neurogenic shock. What is that rate?",
+   "options": [
+    "0.1 mcg/kg/min",
+    "0.05 mcg/kg/min",
+    "0.5 mcg/kg/min",
+    "0.3 mcg/kg/min"
+   ],
+   "answer_index": 1,
+   "explanation": "Both the adult and pediatric bands of 7.06 start norepinephrine at 0.05 mcg/kg/min; it is the only rate the pediatric band offers, since children are not dosed in flat mcg/min.",
+   "priority": "core",
+   "tags": [
+    "drug:norepinephrine",
+    "topic:neurogenic-shock",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "page": 168,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "7.06 directs titration of the norepinephrine infusion every 3 – 5 minutes in neurogenic shock. What is the maximum rate?",
+   "options": [
+    "45 mcg/min",
+    "30 mcg/min",
+    "10 mcg/min",
+    "20 mcg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Both the adult and pediatric bands cap norepinephrine at 45 mcg/min. A crew titrating past 10 mcg/min is still well inside the allowed range, so hitting the top of the starting range is not a reason to stop escalating.",
+   "priority": "core",
+   "tags": [
+    "drug:norepinephrine",
+    "topic:neurogenic-shock",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "page": 168,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What NS/LR bolus volume does the pediatric band of 7.06 use for a hypotensive child with a spinal injury?",
+   "options": [
+    "10 – 20 mL/kg",
+    "40 – 60 mL/kg",
+    "20 mL/kg",
+    "60 mL/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "7.06 uses 10 – 20 mL/kg NS/LR boluses PRN in children; 40 – 60 mL/kg is the cumulative volume that must be reached before norepinephrine is added, not the size of a single bolus.",
+   "priority": "core",
+   "tags": [
+    "topic:neurogenic-shock",
+    "topic:fluid-resuscitation",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "page": 168,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "How much fluid must a pediatric patient with a spinal injury receive before 7.06 directs starting norepinephrine?",
+   "options": [
+    "10 – 20 mL/kg",
+    "40 – 60 mL/kg",
+    "20 mL/kg",
+    "2 L"
+   ],
+   "answer_index": 1,
+   "explanation": "The pediatric band waits for 40 – 60 mL/kg of fluid — roughly two to four 10 – 20 mL/kg boluses — before adding a vasopressor. The 2 L figure is the adult equivalent.",
+   "priority": "core",
+   "tags": [
+    "topic:neurogenic-shock",
+    "drug:norepinephrine",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "page": 168,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "A patient with a cervical spine injury is hypotensive and bradycardic with warm, flushed skin and priapism. Which shock state does 7.06 name?",
+   "options": [
+    "Neurogenic shock",
+    "Spinal shock",
+    "Cardiogenic shock",
+    "Hemorrhagic shock"
+   ],
+   "answer_index": 0,
+   "explanation": "7.06 describes neurogenic shock as loss of sympathetic stimulation to blood vessels with unopposed vagal tone, producing hypotension with bradycardia, warm flushed skin from peripheral vasodilatation, and priapism — the opposite of the cool, tachycardic picture of hemorrhagic shock.",
+   "priority": "core",
+   "tags": [
+    "topic:neurogenic-shock",
+    "topic:spinal-injury",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "page": 168,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "A patient has lost sensation and reflexes below the level of a spinal injury but has no circulatory compromise. What does 7.06 call this?",
+   "options": [
+    "Neurogenic shock",
+    "Spinal shock",
+    "Head injury",
+    "Hypothermia"
+   ],
+   "answer_index": 1,
+   "explanation": "7.06 defines spinal shock as 'shock' to the cord itself and states it is not circulatory in nature. Because the cord is not completely destroyed, recovery usually occurs, although the duration is variable.",
+   "priority": "detail",
+   "tags": [
+    "topic:spinal-shock",
+    "topic:spinal-injury",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.06",
+   "title": "Spinal Injuries and Shock",
+   "page": 168,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Under 7.06, which finding prompts an ALS crew to consider intubating a patient with a spinal injury?",
+   "options": [
+    "Loss of sensation below the injury",
+    "Hypotension with bradycardia",
+    "Priapism with warm, flushed skin",
+    "Diaphragmatic breathing or the patient tiring"
+   ],
+   "answer_index": 3,
+   "explanation": "A high cord injury leaves the diaphragm working without the intercostals, so 7.06 has the BLS crew watch for absent chest movement or diaphragmatic breathing and the ALS crew intubate when the patient tires. Hypotension and priapism signal neurogenic shock, which is treated with volume and norepinephrine rather than an airway.",
+   "priority": "core",
+   "tags": [
+    "topic:spinal-injury",
+    "procedure:intubation",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.07",
+   "title": "Suspension Trauma",
+   "page": 169,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What does the BLS band of 7.07 direct the crew to tell a still-suspended patient to do before rescue?",
+   "options": [
+    "Remain in a seated position",
+    "Pump his or her legs",
+    "Hold the legs completely still",
+    "Lower the head below the feet"
+   ],
+   "answer_index": 1,
+   "explanation": "7.07 has the suspended patient pump the legs because pooling of blood in the lower extremities is what reduces the volume circulating to the vital organs; muscle activity keeps that blood moving. Inability to move the legs is listed as a factor that worsens suspension trauma.",
+   "priority": "core",
+   "tags": [
+    "topic:suspension-trauma",
+    "topic:rescue",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.07",
+   "title": "Suspension Trauma",
+   "page": 169,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "How does 7.07 direct a crew to position a patient on the backboard after a suspension trauma rescue?",
+   "options": [
+    "Head elevated higher than the feet",
+    "Feet elevated higher than the head",
+    "Left lateral tilt of at least 15 degrees",
+    "Flat supine with no elevation"
+   ],
+   "answer_index": 0,
+   "explanation": "The BLS band elevates the head of the backboard so the head stays higher than the feet, which slows the sudden return of pooled, hypoxic blood from the legs to the heart. Raising the legs would do the opposite.",
+   "priority": "core",
+   "tags": [
+    "topic:suspension-trauma",
+    "topic:positioning",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.07",
+   "title": "Suspension Trauma",
+   "page": 169,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "7.07 notes that some authorities recommend a sitting position before horizontal positioning to prevent reperfusion injury. For how long?",
+   "options": [
+    "At least 60 min",
+    "At least 15 min",
+    "At least 10 min",
+    "At least 30 min"
+   ],
+   "answer_index": 3,
+   "explanation": "7.07 reports the 30-minute sitting recommendation but also states that others recommend immediate supine positioning, particularly when there are other injuries, and that there is no consensus — so the crew should expect disagreement from first responders at the scene.",
+   "priority": "detail",
+   "tags": [
+    "topic:suspension-trauma",
+    "topic:positioning",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.07",
+   "title": "Suspension Trauma",
+   "page": 169,
+   "type": "mechanism",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 7.07 describe as the underlying pathophysiology of suspension trauma?",
+   "options": [
+    "Pooling of blood in the lower extremities reduces blood circulating to the vital organs",
+    "Harness pressure obstructs the thoracic outlet and reduces venous return from the arms",
+    "Prolonged vertical position triggers a vagal response with bradycardia and hypotension",
+    "Compression of the abdomen by the harness empties the inferior vena cava"
+   ],
+   "answer_index": 0,
+   "explanation": "Motionless vertical suspension lets blood pool in the dependent legs, so the circulating volume reaching the brain and heart falls. That is why pumping the legs before rescue and avoiding a prolonged hang are the two things that matter most.",
+   "priority": "detail",
+   "tags": [
+    "topic:suspension-trauma",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.07",
+   "title": "Suspension Trauma",
+   "page": 169,
+   "type": "mechanism",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Among the theories of death in suspension trauma, what does 7.07 say happens when the patient is moved to a horizontal position?",
+   "options": [
+    "Cerebral perfusion pressure falls sharply as the head is lowered",
+    "Pooled blood stays trapped in the legs and never reaches the heart",
+    "The harness releases and causes a sudden drop in afterload",
+    "A large volume of blood returns to the heart and overloads the right ventricle"
+   ],
+   "answer_index": 3,
+   "explanation": "7.07 lists right ventricular overload from the sudden venous return as one of four proposed mechanisms of death, alongside ischemic heart failure from deoxygenated blood, reperfusion injury of hypoxic organs, and a crush-injury-like toxin load.",
+   "priority": "detail",
+   "tags": [
+    "topic:suspension-trauma",
+    "topic:positioning",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.07",
+   "title": "Suspension Trauma",
+   "page": 169,
+   "type": "complication",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "7.07 warns that suspension trauma, or reperfusion of the legs afterwards, may lead to which outcomes?",
+   "options": [
+    "Loss of consciousness, renal failure, pulmonary embolus or cardiac arrest",
+    "Compartment syndrome of the forearms and rhabdomyolysis of the shoulders",
+    "Spinal shock with loss of reflexes below the level of the harness",
+    "Tension pneumothorax and cardiac tamponade from harness pressure"
+   ],
+   "answer_index": 0,
+   "explanation": "These are the complications 7.07 attributes either to the suspension itself or to reperfusion once the legs are lowered — which is why the guideline treats repositioning as a deliberate decision rather than an afterthought.",
+   "priority": "detail",
+   "tags": [
+    "topic:suspension-trauma",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.07",
+   "title": "Suspension Trauma",
+   "page": 169,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which factors does 7.07 list as worsening suspension trauma?",
+   "options": [
+    "Hypertension, obesity and a history of cigarette smoking",
+    "Inability to move the legs, fatigue, dehydration and hypothermia",
+    "Young age, low body mass and a high level of fitness",
+    "A recent meal, caffeine intake and situational anxiety"
+   ],
+   "answer_index": 1,
+   "explanation": "7.07 adds associated injuries and underlying cardiopulmonary disease to this list. They matter on scene because each one shortens the time the patient can safely remain suspended and raises the urgency of the rescue.",
+   "priority": "detail",
+   "tags": [
+    "topic:suspension-trauma",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 170,
+   "type": "threshold",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Over what duration does the BLS band of 7.08 direct ventilations to be delivered in traumatic arrest?",
+   "options": [
+    "1 – 2 seconds",
+    "3 – 5 seconds",
+    "Less than 1 second",
+    "5 – 10 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "7.08 asks for careful BVM use with ventilations over 1 – 2 seconds. Fast, forceful breaths raise intrathoracic pressure and further cut venous return in a patient who is already profoundly hypovolemic.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:ventilation",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 170,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Which device does the BLS band of 7.08 direct the crew to place on all traumatic arrest patients when available?",
+   "options": [
+    "A tourniquet on each limb",
+    "A cervical collar",
+    "A pelvic binder",
+    "A mechanical CPR device"
+   ],
+   "answer_index": 2,
+   "explanation": "7.08 makes a pelvic binder routine for every traumatic arrest patient when one is available, because pelvic fracture bleeding is a reversible cause that direct pressure cannot control. Cervical collars are applied 'as appropriate', not universally.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:hemorrhage-control",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 170,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What does 7.08 say about performing CPR at the scene of a traumatic arrest?",
+   "options": [
+    "Perform CPR until a pelvic binder is placed",
+    "Do not remain at scene to perform CPR",
+    "Perform 2 minutes of CPR before moving",
+    "CPR takes priority over chest decompression"
+   ],
+   "answer_index": 1,
+   "explanation": "7.08 states high performance CPR is NOT a priority in trauma arrest and directs crews to maintain forward progress toward definitive care. Compressions do not fix the reversible causes of trauma death — haemorrhage, hypoxia, tension pneumothorax and tamponade do.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:cpr",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 170,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "In 7.08, what must be in place before chest compressions are started in a traumatic arrest?",
+   "options": [
+    "A 12-lead ECG and confirmation of the underlying rhythm",
+    "Placement of a pelvic binder and a cervical collar",
+    "Administration of epinephrine and a blood product unit",
+    "A patent airway, bilateral chest decompression and fluids"
+   ],
+   "answer_index": 3,
+   "explanation": "7.08 holds compressions until the airway is patent, both sides of the chest are decompressed and fluid is running, because compressing an empty heart against a tension pneumothorax accomplishes nothing. If compressions are already ongoing on arrival, they must not interfere with addressing those causes.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:cpr",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 170,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "In 7.08, what does the ALS band direct when the mechanism of injury is unknown in a traumatic arrest?",
+   "options": [
+    "Withhold decompression unless JVD is seen",
+    "Defer thoracostomy until imaging",
+    "Assume chest trauma is present",
+    "Treat as a medical cardiac arrest"
+   ],
+   "answer_index": 2,
+   "explanation": "Bilateral needle thoracostomies are performed unless chest trauma is entirely excluded by mechanism, history and exam; with an unknown mechanism, 7.08 says to assume chest trauma is present. The PEARLS reinforce it: when in doubt, decompress.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "procedure:needle-thoracostomy",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 170,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What is the adult epinephrine dose in 7.08 for traumatic arrest in asystole, VFib or pulseless VTach?",
+   "options": [
+    "50 mcg IV q 3-5 min",
+    "100 mcg IV q 3-5 min",
+    "20 mcg IV q 3-5 min",
+    "1 mg IV q 3-5 min"
+   ],
+   "answer_index": 3,
+   "explanation": "The adult table in 7.08 gives 1 mg IV of the 0.1 mg/mL concentration every 3-5 minutes, and only after life threats are addressed. The 20 mcg option is the LOST push-dose bolus — a different row of the same table for a patient who still has cardiac activity.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:traumatic-arrest",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 170,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "An adult trauma patient has no pulses but continued cardiac activity (LOST). What bolus dose of epinephrine does 7.08 give?",
+   "options": [
+    "50 mcg IV q 3-5 min",
+    "20 mcg IV q 3-5 min",
+    "1 mg IV q 3-5 min",
+    "100 mcg IV q 3-5 min"
+   ],
+   "answer_index": 1,
+   "explanation": "LOST is a beating but ineffectively pumping heart, so 7.08 uses a 20 mcg push dose from the 10 mcg/mL concentration to hold a baseline level of perfusion rather than the 1 mg arrest dose. It is given only after decompression, airway securement and volume.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:lost",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 170,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "7.08 allows push-dose epinephrine boluses for an adult in a Low Output State in Trauma. How many doses may be given?",
+   "options": [
+    "A maximum total of 3 doses",
+    "A maximum total of 2 doses",
+    "A maximum total of 6 doses",
+    "A maximum total of 5 doses"
+   ],
+   "answer_index": 0,
+   "explanation": "The LOST bolus row caps the 20 mcg dose at a total of 3. Beyond that the crew should be moving to the fixed-rate infusion, since repeated pressor boluses do not substitute for haemorrhage control and volume.",
+   "priority": "detail",
+   "tags": [
+    "drug:epinephrine",
+    "topic:lost",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 170,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What epinephrine infusion rate does 7.08 give an adult in a Low Output State in Trauma?",
+   "options": [
+    "0.5 mcg/kg/min, titrate to effect",
+    "0.1 mcg/kg/min, no titrations",
+    "0.05 mcg/kg/min, titrate q 3 – 5 min",
+    "0.3 mcg/kg/min, no titrations"
+   ],
+   "answer_index": 1,
+   "explanation": "The LOST infusion in 7.08 runs at a fixed 0.1 mcg/kg/min from a 4 mg/250 mL NS bag and is explicitly not titrated; the goal is a baseline level of perfusion, not a blood pressure number.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:lost",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 171,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What is the pediatric epinephrine dose in 7.08 for traumatic arrest or a Low Output State in Trauma?",
+   "options": [
+    "20 mcg IV q 3-5 min",
+    "0.1 mg/kg (1 mL/kg) IV q 3-5 min",
+    "0.01 mg/kg (0.1 mL/kg) IV q 3-5 min",
+    "1 mg IV q 3-5 min"
+   ],
+   "answer_index": 2,
+   "explanation": "The pediatric table in 7.08 uses one dose for every indication — 0.01 mg/kg, which is 0.1 mL/kg of the 0.1 mg/mL concentration — given after life threats are addressed. There is no separate pediatric push-dose or infusion row.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:traumatic-arrest",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 171,
+   "type": "dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What crystalloid bolus does 7.08 direct for fluid resuscitation of a pediatric traumatic arrest?",
+   "options": [
+    "60 mL/kg",
+    "10 – 20 mL/kg",
+    "20 mL/kg",
+    "10 mL/kg"
+   ],
+   "answer_index": 2,
+   "explanation": "7.08 gives 20 mL/kg of crystalloid, repeated PRN to a maximum of 60 mL/kg, and directs the crew to re-evaluate pulses after each bolus rather than running fluid continuously.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:fluid-resuscitation",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 171,
+   "type": "contraindication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Which traumatic arrest patients does 7.08 say must not receive blood products?",
+   "options": [
+    "Patients in pulseless VTach",
+    "Patients without IV access",
+    "Patients in asystole",
+    "Patients under 10 kg"
+   ],
+   "answer_index": 2,
+   "explanation": "7.08 withholds blood from asystolic traumatic arrest because the resource is scarce and trauma arrest with asystole is not survivable. The algorithm repeats this in a red warning box, and 8.02 lists it as the one contraindication to transfusion.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:blood-products",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 171,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What does the CCT band of 7.08 say about chest tube placement in traumatic arrest?",
+   "options": [
+    "It is not indicated",
+    "It is indicated only above 8000 feet",
+    "It replaces finger thoracostomy",
+    "It is required before blood products"
+   ],
+   "answer_index": 0,
+   "explanation": "CCT crews perform bilateral finger thoracostomies in traumatic arrest; 7.08 states chest tube placement is not indicated. Needle decompression may be done while preparing for the finger thoracostomies.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "procedure:finger-thoracostomy",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 171,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Under what circumstance does 7.08 allow a CCT crew to defer thoracostomy in traumatic arrest?",
+   "options": [
+    "ROSC is achieved",
+    "Breath sounds are equal bilaterally",
+    "A pelvic binder is already placed",
+    "The patient is in asystole"
+   ],
+   "answer_index": 0,
+   "explanation": "7.08 states thoracostomy is only deferred if ROSC is achieved. Equal breath sounds are not enough, because chest trauma is assumed present whenever the mechanism is unknown.",
+   "priority": "detail",
+   "tags": [
+    "topic:traumatic-arrest",
+    "procedure:finger-thoracostomy",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 171,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "A traumatic arrest patient arrives with a chest tube already in place that is not patent. What does 7.08 direct a CCT crew to do?",
+   "options": [
+    "Clamp the tube and reassess after two minutes",
+    "Replace the chest tube through the same incision",
+    "Perform a finger thoracostomy above or anterior to the tube",
+    "Connect the tube to low suction and continue transport"
+   ],
+   "answer_index": 2,
+   "explanation": "7.08 has the crew verify an existing chest tube is correctly placed and patent; if it is not, a finger thoracostomy is made above or anterior to the tube so the new opening is not in the same blocked track.",
+   "priority": "detail",
+   "tags": [
+    "topic:traumatic-arrest",
+    "procedure:finger-thoracostomy",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 172,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "7.08 directs constant manual uterine displacement for a patient in the second half of pregnancy. What alternative does it give?",
+   "options": [
+    "Left lateral tilt of at least 15 degrees",
+    "Right lateral tilt of at least 15 degrees",
+    "Trendelenburg of at least 30 degrees",
+    "Reverse Trendelenburg of 15 degrees"
+   ],
+   "answer_index": 0,
+   "explanation": "Manual displacement is preferred because it offloads the vena cava without tilting the patient off a firm surface; 7.08 accepts a left lateral tilt of at least 15 degrees as the alternative for minimising uterocaval compression.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:pregnancy",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 172,
+   "type": "treatment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "7.08 states a substantial portion of traumatic arrests are caused by which condition?",
+   "options": [
+    "Cardiac tamponade",
+    "Tension pneumothorax",
+    "Hypovolemia from pelvic fracture",
+    "Hypoxia from airway obstruction"
+   ],
+   "answer_index": 1,
+   "explanation": "Because tension pneumothorax accounts for so many traumatic arrests, 7.08 directs bilateral decompression unless it can be reliably and rapidly excluded, and closes the point with 'when in doubt, decompress!'",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:tension-pneumothorax",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 172,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 7.08 state about trauma arrest in asystole?",
+   "options": [
+    "It is the most common presenting rhythm",
+    "It is not survivable",
+    "It responds to high-quality CPR",
+    "It requires immediate blood products"
+   ],
+   "answer_index": 1,
+   "explanation": "7.08 states plainly that trauma arrest with asystole is not survivable, which is the reason blood products are withheld and the algorithm routes an asystolic patient without ROSC toward termination of resuscitation.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:termination",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 173,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does the acronym LOST stand for in 7.08?",
+   "options": [
+    "Low Output State in Trauma",
+    "Low Oxygen Saturation in Trauma",
+    "Loss Of Systemic Tone",
+    "Late Onset Shock in Trauma"
+   ],
+   "answer_index": 0,
+   "explanation": "LOST describes a trauma patient without pulses but with continued cardiac activity — a beating heart that is not effectively pumping. That is the state in which 7.08 offers push-dose or infusion epinephrine, after decompression, airway and volume.",
+   "priority": "core",
+   "tags": [
+    "topic:lost",
+    "topic:traumatic-arrest",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 173,
+   "type": "assessment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "7.08 says baseline perfusion in a LOST patient does not equate to a measurable blood pressure. What findings does it describe instead?",
+   "options": [
+    "A palpable radial pulse and a narrowed pulse pressure",
+    "A return of organized complexes on the cardiac monitor",
+    "An SpO2 reading above 93% on the pulse oximeter",
+    "A slight increase in ETCO2 or a change in skin color"
+   ],
+   "answer_index": 3,
+   "explanation": "In a profoundly hypovolemic patient the crew will not get a strong palpable pulse or a cuff pressure, so 7.08 defines success by a small rise in ETCO2 and a change in skin colour — the endpoints to watch when titrating the LOST epinephrine.",
+   "priority": "detail",
+   "tags": [
+    "topic:lost",
+    "topic:traumatic-arrest",
+    "population:both"
+   ]
+  },
+  {
+   "number": "7.08",
+   "title": "Traumatic Arrest",
+   "page": 173,
+   "type": "sequence",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "In the Traumatic Arrest Algorithm, what does 7.08 direct once reversible causes are addressed, ROSC is not obtained, and the rhythm is asystole?",
+   "options": [
+    "Consider termination of resuscitation",
+    "Refer to the ACLS/PALS algorithm",
+    "Initiate blood product administration",
+    "Rapid transport to an appropriate hospital"
+   ],
+   "answer_index": 0,
+   "explanation": "The algorithm sends a patient with ROSC to rapid transport, a non-asystolic patient without ROSC back to transport, and an asystolic patient without ROSC to consideration of termination — consistent with the PEARL that trauma arrest with asystole is not survivable.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:termination",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.01",
+   "title": "12-Lead ECG",
+   "page": 175,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A patient reports abdominal pain and has no chest complaint. What does 8.01 direct regarding a 12-lead ECG?",
+   "options": [
+    "A 12-lead is indicated only if syncope has occurred",
+    "A 12-lead is indicated only with chest pain or dyspnea",
+    "A 12-lead is contraindicated without cardiac symptoms",
+    "Abdominal pain is itself an indication for a 12-lead"
+   ],
+   "answer_index": 3,
+   "explanation": "8.01 lists chest pain, dyspnea, syncope and abdominal pain as indications, and lists no contraindications at all. Abdominal pain is an anginal equivalent often seen with inferior infarction, so it earns a 12-lead on its own.",
+   "priority": "core",
+   "tags": [
+    "procedure:12-lead-ecg",
+    "topic:chest-pain",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.01",
+   "title": "12-Lead ECG",
+   "page": 175,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How does 8.01 direct a crew to prepare oily skin before applying ECG electrodes?",
+   "options": [
+    "Clip the hair and apply the electrode without cleaning",
+    "Apply conductive gel directly over the oil",
+    "Clean with an alcohol pad and rub the site briskly to dry",
+    "Wipe with a chlorhexidine/isopropanol swab"
+   ],
+   "answer_index": 2,
+   "explanation": "Oil raises skin impedance and produces baseline wander that can mimic or mask ST changes, so 8.01 has the crew clean with alcohol and rub briskly to dry, in addition to shaving or clipping excess hair.",
+   "priority": "detail",
+   "tags": [
+    "procedure:12-lead-ecg",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.01",
+   "title": "12-Lead ECG",
+   "page": 175,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What patient position does 8.01 require for 12-lead ECG monitoring?",
+   "options": [
+    "Left lateral recumbent",
+    "Seated upright",
+    "Resting and supine",
+    "Semi-Fowler's at 30 degrees"
+   ],
+   "answer_index": 2,
+   "explanation": "8.01 requires a resting, supine position, because changing the torso angle shifts the heart relative to the precordial leads and can create or hide ST-segment changes between serial tracings.",
+   "priority": "detail",
+   "tags": [
+    "procedure:12-lead-ecg",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.01",
+   "title": "12-Lead ECG",
+   "page": 175,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Where does ZOLL recommend the limb electrodes be placed for 12-lead monitoring under 8.01?",
+   "options": [
+    "On the shoulders and the iliac crests",
+    "On the upper arms and the mid-thighs",
+    "Over the deltoid and quadriceps muscles",
+    "Anywhere along the ankles and wrists"
+   ],
+   "answer_index": 3,
+   "explanation": "8.01 cites ZOLL's recommendation to place limb electrodes anywhere along the ankles and wrists and to avoid tendons and major muscle masses, which introduce motion artifact into the tracing.",
+   "priority": "detail",
+   "tags": [
+    "procedure:12-lead-ecg",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.01",
+   "title": "12-Lead ECG",
+   "page": 176,
+   "type": "landmark",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Where is the V1 electrode placed for a 12-lead ECG under 8.01?",
+   "options": [
+    "Fifth intercostal space at the midclavicular line",
+    "Left anterior axillary line at the level of V4",
+    "Fourth intercostal space at the right sternal margin",
+    "Fourth intercostal space at the left sternal margin"
+   ],
+   "answer_index": 2,
+   "explanation": "V1 sits at the fourth intercostal space on the patient's right sternal margin, with V2 mirroring it on the left. Swapping these two is the commonest placement error and produces poor R-wave progression that looks like an anteroseptal infarct.",
+   "priority": "core",
+   "tags": [
+    "procedure:12-lead-ecg",
+    "topic:lead-placement",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.01",
+   "title": "12-Lead ECG",
+   "page": 176,
+   "type": "landmark",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Where is the V4 electrode placed for a 12-lead ECG under 8.01?",
+   "options": [
+    "Midway between V2 and V4",
+    "Left midaxillary line at the level of V4 and V5",
+    "Fifth intercostal space at the midclavicular line",
+    "Fourth intercostal space at the left sternal margin"
+   ],
+   "answer_index": 2,
+   "explanation": "V4 is the anchor for the lateral chest leads: it goes in the fifth intercostal space at the midclavicular line, and V5 and V6 are then placed on its horizontal level rather than following the rib spaces downward.",
+   "priority": "core",
+   "tags": [
+    "procedure:12-lead-ecg",
+    "topic:lead-placement",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.01",
+   "title": "12-Lead ECG",
+   "page": 176,
+   "type": "landmark",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Where is the V6 electrode placed for a 12-lead ECG under 8.01?",
+   "options": [
+    "Fourth intercostal space at the left sternal margin",
+    "Fifth intercostal space at the midclavicular line",
+    "Left anterior axillary line at the level of V4",
+    "Left midaxillary line at the same level as V4 and V5"
+   ],
+   "answer_index": 3,
+   "explanation": "V6 goes on the left midaxillary line at the same horizontal level as V4 and V5. The anterior axillary line at the level of V4 is V5, one position medial.",
+   "priority": "detail",
+   "tags": [
+    "procedure:12-lead-ecg",
+    "topic:lead-placement",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.01",
+   "title": "12-Lead ECG",
+   "page": 176,
+   "type": "landmark",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Where does 8.01 place the V3 electrode?",
+   "options": [
+    "Fifth intercostal space, midclavicular line",
+    "Midway between V4 and V5",
+    "Midway between V2 and V4",
+    "Fourth intercostal space, right sternal margin"
+   ],
+   "answer_index": 2,
+   "explanation": "V3 has no landmark of its own — 8.01 defines it as the midpoint between V2 and V4, so V2 and V4 must both be correct before V3 can be placed.",
+   "priority": "detail",
+   "tags": [
+    "procedure:12-lead-ecg",
+    "topic:lead-placement",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.01",
+   "title": "12-Lead ECG",
+   "page": 176,
+   "type": "scope",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "Which patients may have 12-Lead Interpretive Analysis applied under 8.01?",
+   "options": [
+    "Pediatric patients only",
+    "Any patient with a 12-lead obtained",
+    "Any patient over 12 years",
+    "Adult patients only"
+   ],
+   "answer_index": 3,
+   "explanation": "8.01 restricts interpretive analysis to adults and directs the crew to enter age and gender first, since the algorithm's thresholds are age- and sex-dependent and will misread a paediatric tracing.",
+   "priority": "core",
+   "tags": [
+    "procedure:12-lead-ecg",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.01",
+   "title": "12-Lead ECG",
+   "page": 176,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "If age and gender are not entered before 12-lead interpretive analysis, what default age does the X Series use under 8.01?",
+   "options": [
+    "50 years",
+    "13 years",
+    "12 years",
+    "45 years"
+   ],
+   "answer_index": 3,
+   "explanation": "The X Series falls back to a 45-year-old male. 8.01 stresses entering the real age and gender because doing so is what gives the highest degree of analysis — a default can change the interpretive statements printed on the strip.",
+   "priority": "detail",
+   "tags": [
+    "procedure:12-lead-ecg",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "At what documented hemoglobin does 8.02 list acute hemorrhage as an indication for blood product administration?",
+   "options": [
+    "< 10 g/dL",
+    "< 7 g/dL",
+    "< 8 g/dL",
+    "< 12 g/dL"
+   ],
+   "answer_index": 1,
+   "explanation": "8.02 lists acute hemorrhage with a documented Hgb below 7 as an indication alongside traumatic arrest, hemorrhagic shock and blunt or penetrating trauma with suspected blood loss.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:hemorrhagic-shock",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "contraindication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What does 8.02 list as a contraindication to blood product administration?",
+   "options": [
+    "Penetrating trauma to the chest",
+    "Pulseless electrical activity",
+    "Hemoglobin above 10 g/dL",
+    "Asystole in traumatic arrest"
+   ],
+   "answer_index": 3,
+   "explanation": "8.02 states there is no absolute contraindication other than patient refusal, with the single exception of asystole in traumatic arrest — blood is a scarce resource and that arrest is not survivable.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:traumatic-arrest",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "How does 8.02 define an adult for the purpose of blood product dosing?",
+   "options": [
+    "Age > 12 or > 50 kg",
+    "Age > 16 or > 40 kg",
+    "Age > 13 or > 50 kg",
+    "Age > 10 or > 40 kg"
+   ],
+   "answer_index": 3,
+   "explanation": "8.02 splits its bands at age 10 or 40 kg, so a large 11-year-old gets whole units rather than weight-based volumes. The pediatric band is the mirror image: age 10 or under, or 40 kg or under.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What blood pressure target does 8.02 set for an adult receiving blood products without a head injury?",
+   "options": [
+    "SBP of 90 – 100 mmHg or a radial pulse",
+    "SBP of 110 mmHg",
+    "SBP of 80 mmHg or a brachial pulse",
+    "SBP of 80 – 90 mmHg or a radial pulse"
+   ],
+   "answer_index": 3,
+   "explanation": "8.02 uses permissive hypotension — SBP 80 – 90 mmHg or a palpable radial pulse — to avoid disrupting formed clot before surgical control. The target rises to 110 only when head injury is known or suspected.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:permissive-hypotension",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 178,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What blood pressure target does 8.02 set for a pediatric patient receiving blood products?",
+   "options": [
+    "SBP of 80 – 90 mmHg or a radial pulse",
+    "SBP of 110 mmHg",
+    "SBP of 80 mmHg or a brachial pulse",
+    "SBP of 90 + (age x 2) mmHg"
+   ],
+   "answer_index": 2,
+   "explanation": "The pediatric band targets an SBP of 80 mmHg or a palpable brachial pulse — the brachial rather than the radial, because it is the reliable central pulse to find in a small child.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:permissive-hypotension",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "After how much crystalloid, with SBP still at or below 80 mmHg, does 8.02 direct the crew to consider blood products in an adult?",
+   "options": [
+    "1000 mL",
+    "2 L",
+    "1 L",
+    "500 mL"
+   ],
+   "answer_index": 3,
+   "explanation": "A rapid 500 mL infusion that leaves the SBP at or below 80 mmHg identifies a patient who is bleeding faster than crystalloid can keep up with, which is 8.02's cue to move to blood. The pediatric equivalent is 20 mL/kg.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:fluid-resuscitation",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What positive shock index (HR/SBP) after a fluid bolus does 8.02 use to trigger blood products in a patient aged 13 or older?",
+   "options": [
+    "> 0.9",
+    "> 1.0",
+    "> 1.5",
+    "> 1.22"
+   ],
+   "answer_index": 0,
+   "explanation": "Shock index rises as the heart rate climbs to defend a falling pressure, so it flags compensated shock before the SBP drops. 8.02 uses > 0.9 for age 13 and above, > 1.0 for ages 7 – 12 and > 1.22 for ages 4 – 6.",
+   "priority": "detail",
+   "tags": [
+    "topic:blood-products",
+    "topic:shock-index",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the adult calcium gluconate dose in 8.02 during blood product administration?",
+   "options": [
+    "50 mg/kg IV over 5 minutes",
+    "1 gram IV over 5 minutes",
+    "1 – 2 grams IV over 5 minutes",
+    "3 grams IV over 2 minutes"
+   ],
+   "answer_index": 2,
+   "explanation": "Stored blood is citrated and chelates ionised calcium, so 8.02 gives 1 – 2 grams of calcium gluconate IV over 5 minutes, repeated as more product goes in. The 3-gram dose belongs to hyperkalemia, not transfusion.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium-gluconate",
+    "topic:blood-products",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "sequence",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "When does 8.02 direct the first dose of calcium gluconate to be given during an adult transfusion?",
+   "options": [
+    "With every unit transfused",
+    "After 1 – 2 units, counting any given PTA",
+    "Only if ionized calcium is below 1.1 mmol/L",
+    "Before the first unit is started"
+   ],
+   "answer_index": 1,
+   "explanation": "8.02 ties calcium to citrate load, so the count includes units the sending facility gave before the crew arrived — a patient who received two units pre-transport is already due. Administration should follow once all life threats are addressed.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium-gluconate",
+    "topic:blood-products",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What is the adult tranexamic acid dose in 8.02 for a patient receiving blood products?",
+   "options": [
+    "1 gram IV in 100 mL NS over 10 minutes",
+    "15 mg/kg IV in 100 mL NS over 10 minutes",
+    "2 grams IV in 100 mL NS over 10 minutes",
+    "2 grams IV push over 2 minutes"
+   ],
+   "answer_index": 2,
+   "explanation": "8.02 gives the full adult dose as a single 2-gram infusion over 10 minutes, so no maintenance infusion is needed — the receiving team must be told this at handover. Blood and other life threats take priority over giving it.",
+   "priority": "core",
+   "tags": [
+    "drug:txa",
+    "topic:blood-products",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Within what time from injury must tranexamic acid be given under 8.02?",
+   "options": [
+    "3 hours",
+    "2 hours",
+    "4 hours",
+    "8 hours"
+   ],
+   "answer_index": 1,
+   "explanation": "8.02 requires the time of injury to be 2 hours or less from the time of administration. Given later, TXA does not reduce — and may increase — death from bleeding.",
+   "priority": "core",
+   "tags": [
+    "drug:txa",
+    "topic:blood-products",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 178,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What volume of LTOWB, plasma or PRBC does 8.02 give a pediatric patient?",
+   "options": [
+    "20 mL/kg",
+    "60 mL/kg",
+    "40 mL/kg",
+    "10 mL/kg"
+   ],
+   "answer_index": 3,
+   "explanation": "Each pediatric blood product in 8.02 is given at 10 mL/kg, with LTOWB preferred and component therapy used when whole blood is unavailable. The 20 mL/kg figure is the crystalloid trigger volume, not a blood dose.",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:ltowb",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 178,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What is the pediatric calcium gluconate dose in 8.02 during blood product administration?",
+   "options": [
+    "20 mg/kg IV over 2 minutes",
+    "1 – 2 grams IV over 5 minutes",
+    "10 – 30 mg/kg IV over 2 minutes",
+    "50 mg/kg IV over 5 minutes"
+   ],
+   "answer_index": 3,
+   "explanation": "Children get 50 mg/kg of calcium gluconate over 5 minutes, given after 1 – 2 boluses of product including any given before the crew arrived, and repeated as further product is administered.",
+   "priority": "core",
+   "tags": [
+    "drug:calcium-gluconate",
+    "topic:blood-products",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 178,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What is the pediatric tranexamic acid dose in 8.02 for blood product administration?",
+   "options": [
+    "15 mg/kg IV over 10 minutes",
+    "25 mg/kg IV over 10 minutes",
+    "30 mg/kg IV over 10 minutes",
+    "2 grams IV over 10 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric dose is 15 mg/kg mixed in 100 mL NS and run over 10 minutes, under the same 2-hour injury window as the adult. It is not approved for neonates.",
+   "priority": "core",
+   "tags": [
+    "drug:txa",
+    "topic:blood-products",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 178,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric tranexamic acid dose in 8.02?",
+   "options": [
+    "1 gram",
+    "500 mg",
+    "2 grams",
+    "750 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The 15 mg/kg pediatric dose is mixed in 100 mL NS and capped at 1 gram, so the weight calculation is never allowed to exceed that. 2 grams is the adult dose, and the adult band starts at age over 10 or over 40 kg.",
+   "priority": "core",
+   "tags": [
+    "drug:txa",
+    "topic:blood-products",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "An adult develops fever during a transfusion. What acetaminophen dose does 8.02 give?",
+   "options": [
+    "15 mg/kg IV over 15 minutes",
+    "750 mg IV over 15 minutes",
+    "1000 mg IV over 15 minutes",
+    "500 mg IV over 15 minutes"
+   ],
+   "answer_index": 2,
+   "explanation": "8.02 treats transfusion fever with 1000 mg of IV acetaminophen over 15 minutes, after the transfusion is stopped and fluid boluses are started. The 15 mg/kg figure is the pediatric dose, capped at 750 mg.",
+   "priority": "detail",
+   "tags": [
+    "drug:acetaminophen",
+    "topic:transfusion-reaction",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 177,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What is the first action 8.02 directs when a transfusion reaction is suspected?",
+   "options": [
+    "Stop the transfusion and give fluid boluses PRN",
+    "Slow the infusion and recheck in 15 minutes",
+    "Switch to a different unit from the cooler",
+    "Give acetaminophen and continue the unit"
+   ],
+   "answer_index": 0,
+   "explanation": "8.02 stops the transfusion first and uses fluid boluses to hold urine output at 30 – 100 mL/hr, protecting the kidneys from a haemolytic load. All implicated units are then kept and delivered to the receiving facility.",
+   "priority": "core",
+   "tags": [
+    "topic:transfusion-reaction",
+    "topic:blood-products",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 178,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What percentage of blood loss does 8.02 use to define class III or IV shock?",
+   "options": [
+    "> 40%",
+    "> 15%",
+    "> 50%",
+    "> 30%"
+   ],
+   "answer_index": 3,
+   "explanation": "8.02 defines class III or IV shock as more than 30% blood loss, with tachycardia, tachypnea, decreased SBP, narrowed pulse pressure, anxiety, confusion and lethargy. It is the one situation where the guideline says to give blood immediately.",
+   "priority": "detail",
+   "tags": [
+    "topic:blood-products",
+    "topic:hemorrhagic-shock",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 179,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What temperature change does 8.02 define as fever suggesting a transfusion reaction?",
+   "options": [
+    "T > 38°C with no reference to baseline",
+    "T > 38°C or a rise of 1°C above baseline",
+    "T > 39°C or a rise of 2°C above baseline",
+    "T > 37°C or a rise of 0.5°C above baseline"
+   ],
+   "answer_index": 1,
+   "explanation": "Because the rise above the starting value counts, 8.02 requires a pre-transfusion temperature and a re-check 15 minutes after each unit is started — without the baseline the 1°C criterion cannot be applied.",
+   "priority": "detail",
+   "tags": [
+    "topic:transfusion-reaction",
+    "topic:blood-products",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 179,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Within what time of removal from the blood bank must blood products be administered under 8.02?",
+   "options": [
+    "4 hours",
+    "8 hours",
+    "2 hours",
+    "6 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "8.02 requires administration within 4 hours of release from the blood bank, and has the flight crew note the release time on the supplied transfer form so the clock can be tracked across the transport.",
+   "priority": "detail",
+   "tags": [
+    "topic:blood-products",
+    "topic:documentation",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 179,
+   "type": "procedure",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 8.02 require of the line used for tranexamic acid when it is given with blood products?",
+   "options": [
+    "TXA must run through a blood warmer",
+    "TXA must share the blood tubing",
+    "TXA must be given after the last unit",
+    "TXA must be given through a separate line"
+   ],
+   "answer_index": 3,
+   "explanation": "TXA may run concurrently with blood but must go through a separate line. 8.02 also notes that plasma and RBCs may be given sequentially but not simultaneously through the same IV set.",
+   "priority": "detail",
+   "tags": [
+    "drug:txa",
+    "topic:blood-products",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "page": 179,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "adult",
+   "stem": "What SBP target does 8.02 use for an adult with a known or suspected head injury?",
+   "options": [
+    "90 mmHg",
+    "120 mmHg",
+    "80 mmHg",
+    "110 mmHg"
+   ],
+   "answer_index": 3,
+   "explanation": "Permissive hypotension is abandoned when the brain is injured, because cerebral perfusion pressure depends on systemic pressure. 8.02 raises the adult target to 110 mmHg, and the pediatric target to 90 + (age x 2).",
+   "priority": "core",
+   "tags": [
+    "topic:blood-products",
+    "topic:head-injury",
+    "population:adult"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "indication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What finding does 8.03 require, in addition to tension pneumothorax, before a chest tube may be placed?",
+   "options": [
+    "Hypotension",
+    "Tachycardia",
+    "Tracheal deviation",
+    "Jugular venous distension"
+   ],
+   "answer_index": 0,
+   "explanation": "8.03 marks HYPOTENSION as REQUIRED and treats tachycardia, decreased breath sounds, JVD, hypoxia, hypocarbia and tracheal deviation as supporting findings. A pneumothorax without tension physiology is an explicit contraindication.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:tension-pneumothorax",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "indication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Besides tension pneumothorax with hypotension, what second indication for chest tube placement does 8.03 list?",
+   "options": [
+    "Any pneumothorax occupying more than 30% of the hemithorax",
+    "A documented pneumothorax flown unpressurized above 8000 feet",
+    "Subcutaneous emphysema following a rib fracture",
+    "A hemothorax draining more than 1000 mL in 60 minutes"
+   ],
+   "answer_index": 1,
+   "explanation": "Gas in the pleural space expands as cabin altitude rises, so 8.03 allows a tube for a documented pneumothorax being flown unpressurized above 8000 feet — but only after consultation with the sending provider.",
+   "priority": "detail",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:altitude",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "contraindication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Which situation does 8.03 give as a contraindication to chest tube insertion?",
+   "options": [
+    "Placement outside of a hospital or clinic",
+    "Hypotension with tension physiology",
+    "Transport in an unpressurized aircraft",
+    "A pneumothorax documented on chest x-ray"
+   ],
+   "answer_index": 0,
+   "explanation": "8.03 contraindicates chest tubes at scene and for any pneumothorax without tension physiology. Scene patients and all other patients get needle and/or finger thoracostomies instead.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:scene-response",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "scope",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "For which patients does 8.03 permit chest tube placement?",
+   "options": [
+    "IFT patients, on orders from the sending provider",
+    "Any patient with a tension pneumothorax",
+    "Scene patients once sterile technique is possible",
+    "Any patient a CCT crew is transporting"
+   ],
+   "answer_index": 0,
+   "explanation": "8.03 restricts chest tubes to interfacility transfers on sending-provider orders, and only when sterile technique can be maintained. Every other patient gets a needle and/or finger thoracostomy.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:ift",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "max_dose",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What is the maximum dose of lidocaine for local anesthesia during chest tube insertion under 8.03?",
+   "options": [
+    "4 mg/kg",
+    "1.5 mg/kg",
+    "5 mg/kg",
+    "3 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "8.03 caps lidocaine at 4 mg/kg, which is 0.2 mL/kg of the 2% solution, and specifically warns to calculate the maximum in children — the volume needed to infiltrate skin, periosteum and intercostal muscle can approach the ceiling in a small patient.",
+   "priority": "core",
+   "tags": [
+    "drug:lidocaine",
+    "procedure:chest-tube",
+    "route:local"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 181,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "How does 8.03 direct the crew to estimate chest tube insertion depth before the procedure?",
+   "options": [
+    "Use a fixed 20 cm depth for all adult patients",
+    "Insert until the tube depth marking reads 6 cm",
+    "Measure from the insertion site to the nipple line",
+    "Measure from the insertion site to the sternal notch"
+   ],
+   "answer_index": 3,
+   "explanation": "Measuring from the planned incision to the sternal notch tells the crew whether every fenestration will sit inside the chest; if not, 8.03 directs cutting the tip down with sterile scissors so no side hole stays outside the pleura.",
+   "priority": "detail",
+   "tags": [
+    "procedure:chest-tube",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "landmark",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Where does 8.03 place the chest tube incision?",
+   "options": [
+    "Second intercostal space at the midclavicular line",
+    "Fifth intercostal space at the posterior axillary line",
+    "Directly over the inframammary crease at the sternal border",
+    "Lateral to the nipple, between the anterior and mid-axillary lines"
+   ],
+   "answer_index": 3,
+   "explanation": "8.03 puts the incision lateral to the nipple at the 4th or 5th intercostal space between the anterior and mid-axillary lines. The PEARLS add the handshake-in-the-axilla method because the older inframammary-crease wording led to tubes placed too low.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:landmark",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "landmark",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Over which rib does 8.03 direct the chest tube incision to be cut?",
+   "options": [
+    "The 2nd or 3rd rib",
+    "The 4th or 5th rib",
+    "The 7th or 8th rib",
+    "The 5th or 6th rib"
+   ],
+   "answer_index": 3,
+   "explanation": "The incision is made over the 5th or 6th rib so the Kelly clamp can then be walked over the top of that rib into the 4th or 5th intercostal space, keeping the track away from the neurovascular bundle.",
+   "priority": "detail",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:landmark",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "landmark",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Over which border of the rib does 8.03 direct the Kelly clamp to be passed, and why?",
+   "options": [
+    "Over the inferior border, avoiding the intercostal muscle",
+    "Through the midpoint of the rib after periosteal anesthesia",
+    "Over the top of the rib, away from the vessels and nerves below",
+    "Under the inferior border, where the pleura is thinnest"
+   ],
+   "answer_index": 2,
+   "explanation": "8.03 presses the clamp over the top of the rib and through the intercostal muscles, explicitly avoiding the inferior rib border where the intercostal vessels and nerve run. Striking that bundle produces bleeding the crew cannot control from outside.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:landmark",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "How does 8.03 direct the crew to confirm the pleural space has been entered before the tube is inserted?",
+   "options": [
+    "Insert a gloved finger and hook it to touch the inner side of the ribs",
+    "Attach the Heimlich valve and look for fluctuation",
+    "Listen for a rush of air as the Kelly clamp is withdrawn",
+    "Advance the tube until the depth marking exceeds 6 cm"
+   ],
+   "answer_index": 0,
+   "explanation": "Hooking a finger onto the inner surface of the ribs proves the track is intrapleural rather than in a subcutaneous or extrapleural plane. 8.03 warns that rib fractures may be present and can lacerate the finger.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:confirmation",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "In which direction does 8.03 direct the chest tube to be advanced?",
+   "options": [
+    "Cephalad and anterior",
+    "Straight laterally",
+    "Cephalad and posterior",
+    "Caudad and anterior"
+   ],
+   "answer_index": 2,
+   "explanation": "8.03 directs the tube cephalad and posterior until all the holes are inside the chest. In a supine patient air collects apically and blood posteriorly, so this track drains both.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What minimum chest tube depth marking does 8.03 expect once the tube is in place?",
+   "options": [
+    "> 10 cm",
+    "> 6 cm",
+    "> 4 cm",
+    "> 12 cm"
+   ],
+   "answer_index": 1,
+   "explanation": "A depth marking greater than 6 cm at the skin tells the crew the fenestrated portion of the tube has cleared the chest wall. A shallower reading suggests a side hole is sitting in soft tissue, which will leak air subcutaneously.",
+   "priority": "detail",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:confirmation",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What does 8.03 identify as signs of proper chest tube placement and patency after the Heimlich valve is attached?",
+   "options": [
+    "Continuous bubbling in the valve chamber",
+    "Absence of breath sounds on the treated side",
+    "Fluctuation of the valve with ventilation and improved compliance",
+    "A sustained rise in end-tidal carbon dioxide"
+   ],
+   "answer_index": 2,
+   "explanation": "8.03 uses valve fluctuation with each breath plus improvement in compliance or respiratory status as the bedside evidence the tube is in the pleural space and open. A static valve suggests an obstructed or malpositioned tube.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:confirmation",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "At what chest tube output does 8.03 direct the crew to clamp the tube to avoid exsanguination?",
+   "options": [
+    "> 1000 mL of blood in less than 60 minutes",
+    "> 500 mL of blood in less than 30 minutes",
+    "> 1000 mL of blood in less than 15 minutes",
+    "> 1500 mL of blood in less than 60 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Output above 1000 mL in under an hour means the tube is draining a patient faster than they can be transfused, so 8.03 clamps it deliberately to let the hemothorax tamponade the bleeding.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:hemothorax",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "complication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "After clamping a chest tube for high output, what does 8.03 direct the crew to monitor for?",
+   "options": [
+    "A recurrent tension pneumothorax",
+    "Re-expansion pulmonary edema",
+    "A pulmonary embolus",
+    "An air leak at the insertion site"
+   ],
+   "answer_index": 0,
+   "explanation": "Clamping trades drainage for tamponade, so the pleural collection can re-accumulate under tension. 8.03 also has the crew notify the receiving facility of the output and the clamped tube, since the patient likely needs emergent OR.",
+   "priority": "core",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:tension-pneumothorax",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 182,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What does 8.03 require to be documented before a chest tube procedure is finalized in the chart?",
+   "options": [
+    "The time the Heimlich valve was attached",
+    "The depth marking and the size of the tube used",
+    "The total volume of lidocaine infiltrated",
+    "The name of the receiving physician who verified placement"
+   ],
+   "answer_index": 3,
+   "explanation": "8.03 forbids documenting the procedure as 'successful' without naming the physician who verified placement. If the crew is later told placement was incorrect, they must notify the Clinical Manager on Call and complete a QM report.",
+   "priority": "detail",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:documentation",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "page": 183,
+   "type": "landmark",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What quick method does 8.03 give for assessing the chest tube incision site?",
+   "options": [
+    "Measuring four finger-breadths below the clavicle",
+    "Counting down from the sternal angle",
+    "The nipple-line-to-scapula method",
+    "The handshake in the axilla method"
+   ],
+   "answer_index": 3,
+   "explanation": "8.03 adopted the handshake-in-the-axilla method because the previous wording — lateral to the superior aspect of the inframammary crease — led providers to place tubes inferiorly, since the crease projects higher than most people expect.",
+   "priority": "detail",
+   "tags": [
+    "procedure:chest-tube",
+    "topic:landmark",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.04",
+   "title": "Defibrillation",
+   "page": 184,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which rhythms does 8.04 list as indications for defibrillation?",
+   "options": [
+    "Pulseless electrical activity and asystole",
+    "Ventricular fibrillation and pulseless ventricular tachycardia",
+    "Any wide-complex tachycardia with a pulse",
+    "Refractory VF after three shocks, epinephrine and amiodarone"
+   ],
+   "answer_index": 1,
+   "explanation": "8.04 limits defibrillation to VF and pulseless VT; any rhythm with a pulse, PEA and asystole are explicit contraindications. Refractory VF after three shocks, epinephrine and amiodarone is the indication for 8.05 Dual Sequential External Defibrillation.",
+   "priority": "core",
+   "tags": [
+    "procedure:defibrillation",
+    "topic:cardiac-arrest",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.04",
+   "title": "Defibrillation",
+   "page": 184,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 8.04 give as contraindications to defibrillation?",
+   "options": [
+    "A pacemaker or implanted defibrillator",
+    "Any rhythm with a pulse, PEA and asystole",
+    "Excessive chest hair",
+    "Pulseless ventricular tachycardia"
+   ],
+   "answer_index": 1,
+   "explanation": "Shocking a perfusing rhythm can induce VF, and neither PEA nor asystole is a shockable rhythm, so 8.04 rules out all three. Chest hair is a pad-adhesion problem to be clipped or shaved, not a reason to withhold the shock.",
+   "priority": "core",
+   "tags": [
+    "procedure:defibrillation",
+    "topic:cardiac-arrest",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.04",
+   "title": "Defibrillation",
+   "page": 184,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What therapy electrode placement does 8.04 give as preferred?",
+   "options": [
+    "Right sternal and left axillary",
+    "Anterior-posterior",
+    "Biaxillary",
+    "Anterior-lateral"
+   ],
+   "answer_index": 1,
+   "explanation": "8.04 names AP as the preferred placement, and also requires that the therapy electrodes make good skin contact and do not cover any part of the ECG electrodes.",
+   "priority": "core",
+   "tags": [
+    "procedure:defibrillation",
+    "topic:pad-placement",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.04",
+   "title": "Defibrillation",
+   "page": 184,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 8.04 direct for a patient with excessive chest hair before therapy pads are applied?",
+   "options": [
+    "Clip or shave it",
+    "Apply conductive gel over the hair",
+    "Press the pads firmly without clipping",
+    "Use anterior-posterior placement instead"
+   ],
+   "answer_index": 0,
+   "explanation": "Hair holds the pad off the skin, and the resulting air gap is what produces arcing and burns. 8.04 has the crew remove clothing, dry the chest and clip or shave excess hair so the electrodes adhere.",
+   "priority": "detail",
+   "tags": [
+    "procedure:defibrillation",
+    "topic:pad-placement",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.04",
+   "title": "Defibrillation",
+   "page": 184,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What happens if the selected energy is changed while the defibrillator is charging or charged, per 8.04?",
+   "options": [
+    "The unit locks out until the pads are replaced",
+    "The unit delivers the previously selected energy",
+    "The unit disarms itself and must be recharged",
+    "The unit charges to the new level automatically"
+   ],
+   "answer_index": 2,
+   "explanation": "Changing energy mid-charge disarms the unit, so the crew must press CHARGE again to charge to the new level. A crew that does not know this can stand clear expecting a shock that will never be delivered.",
+   "priority": "detail",
+   "tags": [
+    "procedure:defibrillation",
+    "equipment:x-series",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.04",
+   "title": "Defibrillation",
+   "page": 184,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 8.04 say about how the SHOCK button must be operated?",
+   "options": [
+    "Hold it down for a full five seconds",
+    "Press and hold until energy is delivered",
+    "Press once and release immediately",
+    "Press twice within two seconds"
+   ],
+   "answer_index": 1,
+   "explanation": "8.04 requires pressing and holding the SHOCK button on the front panel until the energy is actually delivered; a quick tap may not discharge the unit. Pressing the Disarm softkey cancels the shock at any point.",
+   "priority": "detail",
+   "tags": [
+    "procedure:defibrillation",
+    "equipment:x-series",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.04",
+   "title": "Defibrillation",
+   "page": 184,
+   "type": "complication",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What complication does 8.04 attribute to poor pad adherence or air trapped under the therapy electrodes?",
+   "options": [
+    "Delivery of a double dose of energy",
+    "Damage to the defibrillator",
+    "Arcing and skin burns",
+    "Failure of the ECG trace"
+   ],
+   "answer_index": 2,
+   "explanation": "8.04 directs the crew to apply one edge of the pad and roll it smoothly to the other so no air pockets are trapped between gel and skin. Trapped air lets current arc, which burns the patient and wastes delivered energy.",
+   "priority": "core",
+   "tags": [
+    "procedure:defibrillation",
+    "topic:pad-placement",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.05",
+   "title": "Dual Sequential External Defibrillation",
+   "page": 185,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 8.05 require before Dual Sequential External Defibrillation is used?",
+   "options": [
+    "Asystole persisting through two rounds of epinephrine",
+    "Refractory VF after two shocks and one dose of epinephrine",
+    "Any pulseless rhythm not responding to five minutes of CPR",
+    "Refractory VF or pulseless VT despite three shocks, epinephrine and amiodarone"
+   ],
+   "answer_index": 3,
+   "explanation": "DSED is a rescue for VF or pulseless VT that has already failed three defibrillations, epinephrine and amiodarone. Like single-shock defibrillation, it is contraindicated for any rhythm with a pulse, PEA and asystole.",
+   "priority": "core",
+   "tags": [
+    "procedure:dsed",
+    "topic:cardiac-arrest",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.05",
+   "title": "Dual Sequential External Defibrillation",
+   "page": 185,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How does 8.05 direct the second set of defibrillation pads to be placed?",
+   "options": [
+    "Anterior-posterior if the first set is anterior-lateral",
+    "Anterior-lateral regardless of the first set's position",
+    "Directly over the first set for maximum vector overlap",
+    "Both sets anterior-lateral on opposite sides of the chest"
+   ],
+   "answer_index": 0,
+   "explanation": "8.05 alternates the vectors — anterior-posterior if the first set is anterior-lateral and vice versa — and insists there be no overlap or contact between the two sets. The second set goes on with minimal interruption to CPR.",
+   "priority": "core",
+   "tags": [
+    "procedure:dsed",
+    "topic:pad-placement",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.05",
+   "title": "Dual Sequential External Defibrillation",
+   "page": 185,
+   "type": "complication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 8.05 warn is the risk if the two sets of defibrillation pads overlap or touch?",
+   "options": [
+    "Arcing and skin burns on the patient",
+    "Significant risk of damaging the defibrillators",
+    "Delivery of only one of the two shocks",
+    "Failure of the second monitor to charge"
+   ],
+   "answer_index": 1,
+   "explanation": "Current from one unit can be driven back into the other through contacting pads, which is why 8.05 requires separation and opposing vectors. Losing both defibrillators mid-arrest ends the resuscitation.",
+   "priority": "detail",
+   "tags": [
+    "procedure:dsed",
+    "topic:pad-placement",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.05",
+   "title": "Dual Sequential External Defibrillation",
+   "page": 185,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Who operates the defibrillators during Dual Sequential External Defibrillation under 8.05?",
+   "options": [
+    "Each provider operates one defibrillator",
+    "One provider operates both defibrillators",
+    "The provider managing the airway operates both",
+    "The crew member performing CPR operates both"
+   ],
+   "answer_index": 1,
+   "explanation": "8.05 has a single provider run both units so the shocks land as close together as possible but not simultaneously. Two operators cannot reliably achieve that sub-second separation.",
+   "priority": "core",
+   "tags": [
+    "procedure:dsed",
+    "topic:crew-roles",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.05",
+   "title": "Dual Sequential External Defibrillation",
+   "page": 185,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How far apart does 8.05 say the two DSED shocks should ideally be delivered?",
+   "options": [
+    "Less than one second apart",
+    "At exactly the same moment",
+    "Two to three seconds apart",
+    "Five seconds apart"
+   ],
+   "answer_index": 0,
+   "explanation": "8.05 wants the shocks as close together as possible but explicitly not at the same time, ideally under one second apart — hence 'shock one' called aloud as it is delivered, then immediately 'shock two'.",
+   "priority": "core",
+   "tags": [
+    "procedure:dsed",
+    "topic:cardiac-arrest",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.05",
+   "title": "Dual Sequential External Defibrillation",
+   "page": 185,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "At what point in the DSED sequence does 8.05 direct both defibrillators to be charged?",
+   "options": [
+    "After the pulse and rhythm check",
+    "While chest compressions are ongoing",
+    "After confirming refractory VF on both monitors",
+    "Immediately after the second set of pads is placed"
+   ],
+   "answer_index": 1,
+   "explanation": "Charging both units to the maximum setting during compressions keeps the hands-off interval short: CPR stops only once both are charged, for a pulse and rhythm check and to confirm refractory V-Fib/V-Tach on both monitors.",
+   "priority": "core",
+   "tags": [
+    "procedure:dsed",
+    "topic:cpr",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.06",
+   "title": "Epoprostenol (inhaled) Transport",
+   "page": 186,
+   "type": "equipment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "How many filters does 8.06 require for an epoprostenol transport, and where do they go?",
+   "options": [
+    "Three: one on the inspiratory limb, two on the expiratory limb",
+    "Three: two on the inspiratory limb, one on the expiratory limb",
+    "One HMEF on the inspiratory limb only",
+    "Two: one on each limb of the ventilator circuit"
+   ],
+   "answer_index": 0,
+   "explanation": "8.06 uses three filters — one for the inhalation port and two for exhalation — with the inspiratory filter placed closest to the Hamilton. They must be filters from the sending hospital, not the HMEFs normally used on the circuit.",
+   "priority": "core",
+   "tags": [
+    "drug:epoprostenol",
+    "equipment:ventilator-circuit",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.06",
+   "title": "Epoprostenol (inhaled) Transport",
+   "page": 186,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Where on the ventilator circuit does 8.06 place the Aerogen delivering epoprostenol?",
+   "options": [
+    "At the patient wye, before the HMEF",
+    "In line with the exhalation valve",
+    "On the inspiratory limb, after the filter",
+    "On the expiratory limb, after the filters"
+   ],
+   "answer_index": 2,
+   "explanation": "The nebulizer must sit downstream of the inspiratory filter so the aerosol reaches the patient rather than being trapped, while the two expiratory filters protect the ventilator and the cabin from exhaled drug.",
+   "priority": "detail",
+   "tags": [
+    "drug:epoprostenol",
+    "equipment:ventilator-circuit",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.06",
+   "title": "Epoprostenol (inhaled) Transport",
+   "page": 186,
+   "type": "dose",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What are the typical inhaled epoprostenol doses 8.06 tells a crew to expect?",
+   "options": [
+    "10 – 50 nanograms/kg/minute",
+    "1 – 5 nanograms/kg/minute",
+    "10 – 50 micrograms/kg/minute",
+    "50 – 100 nanograms/kg/minute"
+   ],
+   "answer_index": 0,
+   "explanation": "8.06 has the crew verify the running dose with the sending provider; typical doses are 10 – 50 nanograms/kg/minute. Confusing nanograms with micrograms would be a thousand-fold error.",
+   "priority": "core",
+   "tags": [
+    "drug:epoprostenol",
+    "route:inhaled",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.06",
+   "title": "Epoprostenol (inhaled) Transport",
+   "page": 186,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "On which body weight does 8.06 say inhaled epoprostenol is dosed?",
+   "options": [
+    "Lean body mass",
+    "Ideal body weight",
+    "Actual body weight",
+    "Adjusted body weight"
+   ],
+   "answer_index": 1,
+   "explanation": "8.06 has the crew confirm with the sending provider both the dose and that it is being calculated on ideal body weight — a check worth making, because an obese patient dosed on actual weight would be receiving substantially more drug.",
+   "priority": "core",
+   "tags": [
+    "drug:epoprostenol",
+    "route:inhaled",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.06",
+   "title": "Epoprostenol (inhaled) Transport",
+   "page": 186,
+   "type": "equipment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What battery life does 8.06 give for a fully charged Aerogen Pro-X controller?",
+   "options": [
+    "Up to 30 minutes",
+    "It has no internal battery",
+    "Up to 6 hours",
+    "Up to 45 minutes"
+   ],
+   "answer_index": 3,
+   "explanation": "The Pro-X holds up to 45 minutes of charge but must be plugged in to run continuously; unplugged it drops to 30-minute mode. The USB controller has no battery at all and must stay powered from the Hamilton T-1 or a wall outlet.",
+   "priority": "detail",
+   "tags": [
+    "drug:epoprostenol",
+    "equipment:aerogen",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.06",
+   "title": "Epoprostenol (inhaled) Transport",
+   "page": 186,
+   "type": "sequence",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "When does 8.06 direct the crew to unplug the Aerogen controller at the sending facility?",
+   "options": [
+    "Just prior to leaving the bedside",
+    "Only if the Pro-X battery is fully charged",
+    "Before switching the patient to the LFN ventilator",
+    "After the patient is loaded in the aircraft"
+   ],
+   "answer_index": 0,
+   "explanation": "Unplugging last keeps the Pro-X out of its 30-minute mode for as long as possible. Once in the ambulance or aircraft it is plugged back in and AC power confirmed, along with the syringe pump and the Hamilton.",
+   "priority": "detail",
+   "tags": [
+    "drug:epoprostenol",
+    "equipment:aerogen",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.06",
+   "title": "Epoprostenol (inhaled) Transport",
+   "page": 186,
+   "type": "scope",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What does 8.06 say about titrating inhaled epoprostenol during transport?",
+   "options": [
+    "It is titrated to the PA pressure",
+    "It is titrated to an SpO2 above 93%",
+    "It is not titrated without a physician's order",
+    "It is weaned over the final 10 minutes of transport"
+   ],
+   "answer_index": 2,
+   "explanation": "8.06 states the crew does not titrate this medication without an order from a physician. The crew's role is to monitor PA pressures if a catheter is present and report changes to the receiving facility, not to adjust the rate.",
+   "priority": "core",
+   "tags": [
+    "drug:epoprostenol",
+    "topic:scope-of-practice",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.06",
+   "title": "Epoprostenol (inhaled) Transport",
+   "page": 186,
+   "type": "assessment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What does 8.06 direct the crew to monitor during transport if a PA catheter is present?",
+   "options": [
+    "Mixed venous saturation hourly",
+    "Cardiac output every 30 minutes",
+    "Wedge pressure before and after takeoff",
+    "PA pressures, reporting changes to the receiving"
+   ],
+   "answer_index": 3,
+   "explanation": "Inhaled epoprostenol is given to drop pulmonary vascular resistance, so the PA pressure is the direct measure of whether it is still working — and a rise is the first sign that delivery has been interrupted.",
+   "priority": "detail",
+   "tags": [
+    "drug:epoprostenol",
+    "topic:pulmonary-hypertension",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.06",
+   "title": "Epoprostenol (inhaled) Transport",
+   "page": 187,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Why does 8.06 state that inhaled epoprostenol cannot be stopped during transport?",
+   "options": [
+    "The syringe pump cannot be restarted in flight",
+    "It causes rebound bronchospasm on withdrawal",
+    "It has an extremely short half-life",
+    "The Aerogen cup cannot be refilled once empty"
+   ],
+   "answer_index": 2,
+   "explanation": "The extremely short half-life means pulmonary vasodilation is lost within minutes of any interruption, with rebound pulmonary hypertension. That is also why 8.06 asks for a backup syringe of epoprostenol when one is available.",
+   "priority": "core",
+   "tags": [
+    "drug:epoprostenol",
+    "topic:pulmonary-hypertension",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.06",
+   "title": "Epoprostenol (inhaled) Transport",
+   "page": 187,
+   "type": "procedure",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 8.06 require of the Aerogen solo cup throughout transport?",
+   "options": [
+    "It must be kept below the patient's airway",
+    "It must be disconnected during ascent",
+    "It must remain upright",
+    "It must be refilled every hour"
+   ],
+   "answer_index": 2,
+   "explanation": "The vibrating mesh aperture plate only nebulizes drug sitting against it, so tipping the solo cup interrupts delivery of a medication that cannot be stopped. 8.06 pairs this with keeping the syringe pump free of alarms.",
+   "priority": "detail",
+   "tags": [
+    "drug:epoprostenol",
+    "equipment:aerogen",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which situation does 8.07 list as an indication for endotracheal tube exchange?",
+   "options": [
+    "A damaged or uncuffed ETT causing a significant air leak",
+    "ETT migration correctable by repositioning the tube",
+    "A tube that has become difficult to suction",
+    "Inadequate cuff inflation correctable by adding air"
+   ],
+   "answer_index": 0,
+   "explanation": "8.07 reserves exchange for a damaged or uncuffed tube with a significant air leak, or a tube depth that is wrong and is causing ventilation or oxygenation failure. Problems fixable by repositioning or by inflating the cuff further are contraindications.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "topic:airway",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which situation does 8.07 list as a contraindication to endotracheal tube exchange?",
+   "options": [
+    "A tube depth causing oxygenation failure",
+    "A damaged pilot balloon on the cuff",
+    "ETT migration correctable by less invasive means",
+    "An uncuffed ETT with a significant air leak"
+   ],
+   "answer_index": 2,
+   "explanation": "Exchange risks injury or loss of the airway, so 8.07 rules it out whenever a less invasive fix exists — repositioning a migrated tube, or simply adding air to an underinflated cuff.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "topic:airway",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What equipment does 8.07 list for an endotracheal tube exchange?",
+   "options": [
+    "An airway exchange catheter with an oxygen adapter",
+    "A supraglottic airway and a video laryngoscope only",
+    "A tube exchanger catheter and a fiberoptic scope",
+    "Everything required for intubation, plus a bougie"
+   ],
+   "answer_index": 3,
+   "explanation": "8.07 treats the exchange as an intubation that happens to start with a tube already in place, so the full intubation setup must be ready — plus a bougie, which is the device that holds the tracheal path between the two tubes.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "equipment:bougie",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How does 8.07 direct pre-oxygenation before an endotracheal tube exchange?",
+   "options": [
+    "Hyperventilate to an end-tidal CO2 below 30",
+    "Increase PEEP to 10 and place a nasal cannula at 6 LPM",
+    "Increase FiO2 to 100% and place a nasal cannula at 15 LPM",
+    "Increase FiO2 to 100% and give three minutes of BVM"
+   ],
+   "answer_index": 2,
+   "explanation": "The apnoeic period during an exchange is the dangerous part, so 8.07 denitrogenates on 100% FiO2 and adds a nasal cannula at 15 LPM for apnoeic oxygenation while the tube is out. Additional sedation and paralysis are given as for RSI.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "topic:preoxygenation",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "landmark",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How far does 8.07 direct the bougie to be advanced through the existing endotracheal tube?",
+   "options": [
+    "Until 10 cm has passed beyond the tube tip",
+    "To the depth of the original tube's 23 cm mark",
+    "Until resistance is felt at the carina",
+    "To the markings indicating mid-trachea, no deeper"
+   ],
+   "answer_index": 3,
+   "explanation": "The assistant advances the bougie gently to the markings indicating mid-trachea and stops if hold-up is encountered. Going deeper risks airway trauma or pneumothorax, and 8.07 requires the bougie to stay at that depth for the whole procedure.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "equipment:bougie",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "In 8.07, what does the crew do immediately before the old endotracheal tube is withdrawn?",
+   "options": [
+    "Deflate the cuff",
+    "Release the laryngoscopic view",
+    "Remove the bougie",
+    "Inflate the cuff fully"
+   ],
+   "answer_index": 0,
+   "explanation": "The cuff is deflated only after laryngoscopy has established and is maintaining a view of the glottic opening, so if the tube comes out early the operator can still see the cords and the bougie passing through them.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "topic:airway",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Once the old ETT tip clears the mouth during an exchange under 8.07, who controls the bougie?",
+   "options": [
+    "Neither — the bougie is released to prevent torque",
+    "The operator takes and maintains control of the bougie",
+    "Control alternates with each centimeter withdrawn",
+    "The assistant keeps control of the bougie throughout"
+   ],
+   "answer_index": 1,
+   "explanation": "8.07 hands control of the bougie back and forth deliberately: the assistant holds it while the operator withdraws the old tube, the operator takes it once the tip is clear so the assistant can strip the tube off, then the assistant retakes it as the new tube is advanced. The bougie is never unheld.",
+   "priority": "detail",
+   "tags": [
+    "procedure:ett-exchange",
+    "topic:crew-roles",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What manoeuvre does 8.07 use as the new tube is advanced over the bougie, and why?",
+   "options": [
+    "A BURP manoeuvre to align the glottic opening",
+    "A jaw thrust to lift the epiglottis off the tube",
+    "A 90-degree counter-clockwise turn to clear the arytenoid cartilage",
+    "A 90-degree clockwise turn to open the vocal cords"
+   ],
+   "answer_index": 2,
+   "explanation": "Rotating the tube 90 degrees counter-clockwise turns the bevel away from the right arytenoid, which is where a tube railroaded over a bougie typically hangs up. The laryngoscopic view is maintained throughout the advance.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "equipment:bougie",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What does 8.07 give as the final steps once the new tube is in the trachea?",
+   "options": [
+    "Verify placement, remove the laryngoscope, then inflate the cuff",
+    "Inflate the cuff, remove the bougie, verify placement, secure the tube",
+    "Secure the tube, then inflate the cuff and remove the bougie",
+    "Remove the bougie, obtain a chest x-ray, then inflate the cuff"
+   ],
+   "answer_index": 1,
+   "explanation": "8.07 inflates the cuff before the bougie comes out so ventilation can begin immediately, then verifies placement and secures the tube. Securing before confirming would commit the crew to an unverified airway.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "topic:confirmation",
+    "population:both"
+   ]
+  },
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "page": 192,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 8.07 state about performing an endotracheal tube exchange blind?",
+   "options": [
+    "It must never be done blind",
+    "It is preferred when the laryngoscopic view is poor",
+    "It is acceptable with a bougie in place",
+    "It is acceptable if the original airway was easy"
+   ],
+   "answer_index": 0,
+   "explanation": "8.07 requires visualization of the glottic opening throughout and says the procedure must NEVER be performed blind. Keeping it as close as possible to a standard intubation means the crew's usual rescue principles still apply if it goes wrong.",
+   "priority": "core",
+   "tags": [
+    "procedure:ett-exchange",
+    "topic:airway",
+    "population:both"
+   ]
+  }
+ ]
+}
