@@ -29,6 +29,12 @@ function blank() {
     cards: {},
     log: [],
     daily: {},              // 'YYYY-MM-DD' -> { new: n, reviews: n }
+    // Learner corrections to the shipped bank. The bank itself is rebuilt
+    // from the authoring pipeline, so a fix made here must live separately or
+    // it would be lost on the next content update.
+    flagged: {},            // qid -> { reason, note, at }
+    edits: {},              // qid -> { stem, options, answer, explanation, at }
+    suppressed: {},         // qid -> { reason, at }
   };
 }
 
@@ -57,6 +63,9 @@ function migrate(obj) {
     cards: obj.cards || {},
     log: Array.isArray(obj.log) ? obj.log : [],
     daily: obj.daily || {},
+    flagged: obj.flagged || {},
+    edits: obj.edits || {},
+    suppressed: obj.suppressed || {},
   };
 }
 
@@ -218,6 +227,12 @@ export function importProgress(json, { merge = false } = {}) {
       // keep whichever card was reviewed most recently
       if (!mine || (card.lastReview || '') > (mine.lastReview || '')) cur.cards[id] = card;
     }
+    for (const key of ['flagged', 'edits', 'suppressed']) {
+      for (const [id, v] of Object.entries(incoming[key] || {})) {
+        const mine = cur[key][id];
+        if (!mine || (v.at || '') > (mine.at || '')) cur[key][id] = v;
+      }
+    }
     for (const [d, v] of Object.entries(incoming.daily || {})) {
       cur.daily[d] = cur.daily[d] || { new: 0, reviews: 0 };
       cur.daily[d].new = Math.max(cur.daily[d].new, v.new || 0);
@@ -246,6 +261,69 @@ export function resetProgress({ keepSettings = true } = {}) {
   state = fresh;
   saveProgress(true);
   emit('reset');
+}
+
+/* ------------------------------------------------- question corrections */
+
+export function flagQuestion(id, reason = 'unclear', note = '') {
+  const s = loadProgress();
+  s.flagged[id] = { reason, note: String(note || '').slice(0, 500),
+                    at: new Date().toISOString() };
+  saveProgress(true);
+  emit('review');
+  return s.flagged[id];
+}
+
+export function unflagQuestion(id) {
+  const s = loadProgress();
+  delete s.flagged[id];
+  saveProgress(true);
+  emit('review');
+}
+
+export function isFlagged(id) { return !!loadProgress().flagged[id]; }
+export function getFlagged() { return loadProgress().flagged; }
+
+/** Save an edited version of a question. Pass null to revert to shipped text. */
+export function saveEdit(id, patch) {
+  const s = loadProgress();
+  if (!patch) delete s.edits[id];
+  else s.edits[id] = { ...patch, at: new Date().toISOString() };
+  saveProgress(true);
+  emit('review');
+}
+
+export function getEdits() { return loadProgress().edits; }
+
+/**
+ * Hide a question from study without destroying it. Deleting outright would
+ * be irreversible across a content rebuild, and a question that reads wrong
+ * today may simply need fixing — so this is a suppression the learner can undo.
+ */
+export function suppressQuestion(id, reason = '') {
+  const s = loadProgress();
+  s.suppressed[id] = { reason, at: new Date().toISOString() };
+  delete s.flagged[id];
+  saveProgress(true);
+  emit('review');
+}
+
+export function restoreQuestion(id) {
+  const s = loadProgress();
+  delete s.suppressed[id];
+  saveProgress(true);
+  emit('review');
+}
+
+export function getSuppressed() { return loadProgress().suppressed; }
+
+export function reviewCounts() {
+  const s = loadProgress();
+  return {
+    flagged: Object.keys(s.flagged).length,
+    edited: Object.keys(s.edits).length,
+    suppressed: Object.keys(s.suppressed).length,
+  };
 }
 
 export const _internals = { KEY, SCHEMA, DEFAULTS, blank };

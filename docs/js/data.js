@@ -38,8 +38,16 @@ export async function loadData() {
     const glByNumber = new Map(content.guidelines.map((g) => [g.number, g]));
     const drugByNumber = new Map(content.drugs.map((d) => [d.number, d]));
 
+    // Pristine copies of the editable fields, so a learner edit can always be
+    // reverted and a re-edit never compounds on a previous one.
+    const pristine = new Map(questions.questions.map((q) => [q.id, {
+      stem: q.stem, options: [...q.options], answer: q.answer,
+      explanation: q.explanation,
+    }]));
+
     cache = {
       version: content.version,
+      pristine,
       generated: questions.generated,
       content, questions: questions.questions, modules,
       qById, modById, glById, glByNumber, drugByNumber,
@@ -68,6 +76,40 @@ export function taxonomyById(id) {
   return taxonomies().find((t) => t.id === id) || taxonomies()[0];
 }
 
+/**
+ * Apply the learner's own corrections to the in-memory bank.
+ *
+ * Edits live in their progress, not in questions.json, because the bank is
+ * regenerated from the authoring pipeline whenever the guidelines are
+ * re-parsed — a fix written into the shipped file would be silently lost on
+ * the next content build.
+ */
+export function applyLearnerEdits({ edits = {}, suppressed = {} } = {}) {
+  const d = getData();
+  for (const q of d.questions) {
+    const base = d.pristine.get(q.id);
+    if (base) {
+      q.stem = base.stem;
+      q.options = [...base.options];
+      q.answer = base.answer;
+      q.explanation = base.explanation;
+    }
+    const e = edits[q.id];
+    if (e) {
+      if (typeof e.stem === 'string' && e.stem.trim()) q.stem = e.stem.trim();
+      if (Array.isArray(e.options) && e.options.length === 4) q.options = [...e.options];
+      if (Number.isInteger(e.answer) && e.answer >= 0 && e.answer < q.options.length) {
+        q.answer = e.answer;
+      }
+      if (typeof e.explanation === 'string') q.explanation = e.explanation;
+      q.edited = true;
+    } else {
+      delete q.edited;
+    }
+    if (suppressed[q.id]) q.suppressed = true; else delete q.suppressed;
+  }
+}
+
 /** Questions in the learner's enabled modules, de-duplicated across taxonomies. */
 export function enabledQuestions(settings) {
   const d = getData();
@@ -77,6 +119,7 @@ export function enabledQuestions(settings) {
     if (m) for (const qid of m.question_ids) ids.add(qid);
   }
   let out = [...ids].map((id) => d.qById.get(id)).filter(Boolean);
+  out = out.filter((q) => !q.suppressed);
   if (!settings.showLowConfidence) out = out.filter((q) => q.confidence !== 'low');
   return out;
 }

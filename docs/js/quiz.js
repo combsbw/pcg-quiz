@@ -133,6 +133,7 @@ function svgIcon(path, size = 18) {
 
 const ICON_TICK = '<path d="M20 6 9 17l-5-5"/>';
 const ICON_CROSS = '<path d="M18 6 6 18M6 6l12 12"/>';
+const ICON_FLAG = '<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V4s-1 1-4 1-5-2-8-2-4 1-4 1z"/><path d="M4 22v-7"/>';
 
 /* ========================================================================
    mount
@@ -557,6 +558,59 @@ export function mountQuiz(root, deps, route) {
     buildReveal(item, right);
   }
 
+
+  const FLAG_REASONS = [
+    ['wrong', 'Answer looks wrong'],
+    ['ambiguous', 'More than one answer fits'],
+    ['unclear', 'Confusing wording'],
+    ['outdated', 'Does not match the guideline'],
+    ['other', 'Something else'],
+  ];
+
+  /** "Flag for review" control shown under the source citation. */
+  function flagRow(q) {
+    const row = el('.q-flag');
+
+    function paintFlagged() {
+      row.replaceChildren(
+        el('span.q-flag-on', {}, [svgIcon(ICON_FLAG, 15), ' Flagged for review']),
+        el('button.btn.btn-ghost.btn-sm', {
+          type: 'button', text: 'Undo',
+          onclick: () => { store.unflagQuestion(q.id); paintIdle(); },
+        }),
+        el('a.btn.btn-ghost.btn-sm', { href: '#/review', text: 'Review queue →' }),
+      );
+    }
+
+    function paintPicker() {
+      row.replaceChildren(
+        el('span.q-flag-label', { text: "What's wrong with it?" }),
+        ...FLAG_REASONS.map(([k, lab]) => el('button.btn.btn-sm', {
+          type: 'button', text: lab,
+          onclick: () => {
+            store.flagQuestion(q.id, k);
+            toast('Flagged — find it under Review');
+            paintFlagged();
+          },
+        })),
+        el('button.btn.btn-ghost.btn-sm', {
+          type: 'button', text: 'Cancel', onclick: paintIdle,
+        }),
+      );
+    }
+
+    function paintIdle() {
+      row.replaceChildren(el('button.btn.btn-ghost.btn-sm.q-flag-btn', {
+        type: 'button', onclick: paintPicker,
+      }, [svgIcon(ICON_FLAG, 15), ' Flag this question']));
+    }
+
+    let flagged = false;
+    try { flagged = store.isFlagged(q.id); } catch { flagged = false; }
+    if (flagged) paintFlagged(); else paintIdle();
+    return row;
+  }
+
   function buildReveal(item, right) {
     const q = item.q;
     const wrap = S.nodes.reveal;
@@ -596,6 +650,11 @@ export function mountQuiz(root, deps, route) {
           ])
           : null,
       ]),
+
+      // Flagging belongs here, at the moment the question is in front of you
+      // and visibly wrong — not in a settings screen you would have to
+      // remember to visit afterwards.
+      flagRow(q),
     ].filter(Boolean));
 
     // --- grade buttons ---------------------------------------------------

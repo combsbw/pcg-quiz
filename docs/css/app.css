@@ -344,3 +344,36 @@ dl.kv dd { margin: 0; }
 @media (max-width: 680px) {
   .browse-row.has-snip { grid-template-areas: "num title" "snip snip"; }
 }
+
+/* --------------------------------------------- flag + review workflow */
+.q-flag { display: flex; align-items: center; gap: var(--sp-2);
+          flex-wrap: wrap; margin-top: var(--sp-3); }
+.q-flag-btn { color: var(--text-3); }
+.q-flag-btn:hover { color: var(--warn); }
+.q-flag-label { font-size: var(--fs-sm); color: var(--text-2); margin-right: var(--sp-1); }
+.q-flag-on { display: inline-flex; align-items: center; gap: var(--sp-2);
+             color: var(--warn); font-size: var(--fs-sm); font-weight: var(--fw-semi); }
+
+.nav-badge { display: inline-grid; place-items: center; min-width: 18px; height: 18px;
+  padding: 0 5px; border-radius: var(--r-full); background: var(--warn);
+  color: #fff; font-size: 11px; font-weight: var(--fw-bold); margin-left: 4px; }
+
+.review-list { display: flex; flex-direction: column; gap: var(--sp-4); }
+.review-card { border-left: 4px solid var(--warn); }
+.review-head { display: flex; gap: var(--sp-2); flex-wrap: wrap; margin-bottom: var(--sp-3); }
+.review-stem { font-weight: var(--fw-semi); font-size: var(--fs-lg); margin-bottom: var(--sp-3); }
+.review-opts { margin: 0 0 var(--sp-3); padding-left: 1.3rem; }
+.review-opts li { padding: 3px 0; color: var(--text-2); }
+.review-opts li.is-answer { color: var(--ok); font-weight: var(--fw-semi); }
+.review-expl { color: var(--text-2); font-size: var(--fs-sm); }
+.review-actions { display: flex; gap: var(--sp-2); flex-wrap: wrap; margin-top: var(--sp-4); }
+.review-label { display: block; font-size: var(--fs-xs); font-weight: var(--fw-semi);
+  text-transform: uppercase; letter-spacing: .05em; color: var(--text-3);
+  margin: var(--sp-4) 0 var(--sp-2); }
+.review-input { width: 100%; padding: var(--sp-3); border-radius: var(--r-md);
+  border: 1px solid var(--border-strong); background: var(--surface-2);
+  color: var(--text); font: inherit; }
+.review-input:focus-visible { border-color: var(--accent); box-shadow: var(--focus); }
+.review-opt-row { display: flex; align-items: center; gap: var(--sp-3);
+                  margin-bottom: var(--sp-2); }
+.review-opt-row input[type="radio"] { width: 20px; height: 20px; flex: none; accent-color: var(--ok); }

@@ -4,10 +4,10 @@
  * mounted from their own modules through the documented interface.
  */
 import { loadData, getData, enabledQuestions, taxonomies, taxonomyById,
-         moduleById, sourceLabel } from './data.js';
+         moduleById, sourceLabel, applyLearnerEdits } from './data.js';
 import * as store from './store.js';
 import * as srs from './srs.js';
-import { route, setNotFound, start, navigate, bus } from './router.js';
+import { route, setNotFound, start, navigate, bus, parse } from './router.js';
 import { el, mount, clear, toast, humanDays, relTime, plural, confirmDialog } from './ui.js';
 import * as search from './search.js';
 
@@ -531,6 +531,171 @@ function renderSettings() {
   );
 }
 
+
+/* ---------------------------------------------------------- review view */
+const FLAG_LABEL = {
+  wrong: 'Answer looks wrong', ambiguous: 'More than one answer fits',
+  unclear: 'Confusing wording', outdated: 'Does not match the guideline',
+  other: 'Flagged',
+};
+
+function renderReview({ params }) {
+  const d = getData();
+  const tab = params.tab || 'flagged';
+  const flagged = store.getFlagged();
+  const edits = store.getEdits();
+  const suppressed = store.getSuppressed();
+
+  const sets = {
+    flagged: Object.keys(flagged),
+    edited: Object.keys(edits),
+    removed: Object.keys(suppressed),
+  };
+  const ids = (sets[tab] || []).filter((id) => d.qById.has(id));
+
+  const tabs = el('.seg', { style: { marginTop: 'var(--sp-4)' } },
+    [['flagged', 'Flagged'], ['edited', 'Edited'], ['removed', 'Removed']]
+      .map(([k, lab]) => el('button', {
+        text: `${lab} (${sets[k].length})`, 'aria-pressed': String(k === tab),
+        onclick: () => navigate(`/review?tab=${k}`),
+      })));
+
+  const body = ids.length
+    ? el('.review-list', {}, ids.map((id) => reviewCard(d.qById.get(id), tab)))
+    : el('.empty', {}, [
+        el('h3', { text: {
+          flagged: 'Nothing flagged', edited: 'No edits yet',
+          removed: 'Nothing removed',
+        }[tab] }),
+        el('p', { text: {
+          flagged: 'When a question looks wrong while you are studying, tap "Flag this question" on the answer screen and it lands here.',
+          edited: 'Questions you rewrite keep their scheduling history and show an "edited" mark. Your edits live in this browser and survive content updates.',
+          removed: 'Removed questions stop appearing in study sessions but are never destroyed — you can restore any of them here.',
+        }[tab] }),
+        el('a.btn.btn-primary', { href: '#/study', text: 'Go study' }),
+      ]);
+
+  mount(view,
+    el('.page-head', {}, [
+      el('h1', { text: 'Review questions' }),
+      el('p', { text: 'Fix or remove questions that do not hold up. Changes are stored with your progress, not in the shipped question bank, so they survive a content rebuild and travel with your export.' }),
+      tabs,
+    ]),
+    body,
+  );
+}
+
+function reviewCard(q, tab) {
+  const wrap = el('.card.review-card');
+
+  function readMode() {
+    const flag = store.getFlagged()[q.id];
+    const sup = store.getSuppressed()[q.id];
+    wrap.replaceChildren(
+      el('.review-head', {}, [
+        el('span.chip', { text: `${q.source.number} · p.${q.source.page}` }),
+        el('span.chip', { text: q.type }),
+        q.edited ? el('span.chip.chip-due', { text: 'edited' }) : null,
+        flag ? el('span.chip.chip-new', { text: FLAG_LABEL[flag.reason] || 'flagged' }) : null,
+        sup ? el('span.chip.chip-new', { text: 'removed from study' }) : null,
+      ].filter(Boolean)),
+      el('p.review-stem', { text: q.stem }),
+      el('ol.review-opts', {}, q.options.map((o, i) => el('li', {
+        class: i === q.answer ? 'is-answer' : '', text: o,
+      }))),
+      q.explanation ? el('p.review-expl', { text: q.explanation }) : null,
+      el('.review-actions', {}, [
+        el('button.btn.btn-sm.btn-primary', { text: 'Edit', onclick: editMode }),
+        tab === 'removed'
+          ? el('button.btn.btn-sm', { text: 'Restore to study',
+              onclick: () => { store.restoreQuestion(q.id); refresh(); } })
+          : el('button.btn.btn-sm.btn-danger', { text: 'Remove from study',
+              onclick: async () => {
+                const ok = await confirmDialog({
+                  title: 'Remove this question?',
+                  body: 'It stops appearing in study sessions. Nothing is destroyed — you can restore it from the Removed tab at any time.',
+                  danger: true, okLabel: 'Remove',
+                });
+                if (ok) { store.suppressQuestion(q.id); refresh(); }
+              } }),
+        store.getFlagged()[q.id]
+          ? el('button.btn.btn-sm', { text: 'Clear flag',
+              onclick: () => { store.unflagQuestion(q.id); refresh(); } })
+          : null,
+        q.edited
+          ? el('button.btn.btn-sm', { text: 'Revert to original',
+              onclick: () => { store.saveEdit(q.id, null); refresh(); } })
+          : null,
+        el('a.btn.btn-sm.btn-ghost', { href: `#/item/${sourceItemId(q)}`, text: 'Open source →' }),
+      ].filter(Boolean)),
+    );
+  }
+
+  function editMode() {
+    const stem = el('textarea.review-input', { rows: 3, value: q.stem });
+    const opts = q.options.map((o) => el('input.review-input', { type: 'text', value: o }));
+    let answer = q.answer;
+    const radios = opts.map((inp, i) => el('label.review-opt-row', {}, [
+      el('input', {
+        type: 'radio', name: `ans-${q.id}`, checked: i === q.answer,
+        onchange: () => { answer = i; },
+      }),
+      inp,
+    ]));
+    const expl = el('textarea.review-input', { rows: 3, value: q.explanation || '' });
+
+    wrap.replaceChildren(
+      el('.review-head', {}, [el('span.chip', { text: `${q.source.number} · p.${q.source.page}` })]),
+      el('label.review-label', { text: 'Question' }), stem,
+      el('label.review-label', { text: 'Options — select the correct one' }),
+      ...radios,
+      el('label.review-label', { text: 'Explanation' }), expl,
+      el('p', { style: { color: 'var(--text-3)', fontSize: 'var(--fs-xs)' },
+        text: 'Check your wording against the cited page before saving. This edit replaces the question everywhere it appears, and keeps its scheduling history.' }),
+      el('.review-actions', {}, [
+        el('button.btn.btn-sm.btn-primary', {
+          text: 'Save', onclick: () => {
+            const vals = opts.map((o) => o.value.trim());
+            if (!stem.value.trim()) { toast('The question cannot be empty'); return; }
+            if (vals.some((v) => !v)) { toast('All four options need text'); return; }
+            if (new Set(vals.map((v) => v.toLowerCase())).size !== 4) {
+              toast('Options must be different from each other'); return;
+            }
+            store.saveEdit(q.id, { stem: stem.value.trim(), options: vals,
+                                   answer, explanation: expl.value.trim() });
+            toast('Saved');
+            refresh();
+          },
+        }),
+        el('button.btn.btn-sm', { text: 'Cancel', onclick: readMode }),
+      ]),
+    );
+    stem.focus();
+  }
+
+  readMode();
+  return wrap;
+}
+
+function sourceItemId(q) {
+  const d = getData();
+  const rec = d.glByNumber.get(q.source.number) || d.drugByNumber.get(q.source.number);
+  return rec ? encodeURIComponent(rec.id) : '';
+}
+
+/** Re-apply the learner's corrections to the in-memory bank. */
+function applyEdits() {
+  try {
+    applyLearnerEdits({ edits: store.getEdits(), suppressed: store.getSuppressed() });
+  } catch (err) { console.warn('could not apply edits', err); }
+}
+
+function refresh() {
+  applyEdits();
+  navigate(`/review?tab=${(parse().params.tab) || 'flagged'}`, { replace: true });
+  renderReview(parse());
+}
+
 function renderNotFound() {
   mount(view, el('.empty', {}, [
     el('h3', { text: 'Nothing here' }),
@@ -555,14 +720,28 @@ async function boot() {
   }
   const d = getData();
   document.getElementById('ver').textContent = d.version;
+  applyEdits();
 
   route('/', renderHome);
   route('/modules', renderModules);
   route('/browse', renderBrowse);
   route('/settings', renderSettings);
+  route('/review', renderReview);
   route('/study', (r) => import('./quiz.js').then((m) => m.mountQuiz(view, deps, r)));
   route('/stats', (r) => import('./analytics.js').then((m) => m.mountAnalytics(view, deps, r)));
   setNotFound((r) => (r.path.startsWith('/item/') ? renderItem(r) : renderNotFound()));
+
+  // Nav badge mirrors the flag count so a flag raised mid-session is visible
+  // without hunting for it later.
+  const badge = document.getElementById('revBadge');
+  function paintBadge() {
+    if (!badge) return;
+    const n = store.reviewCounts().flagged;
+    badge.textContent = n > 99 ? '99+' : String(n);
+    badge.hidden = n === 0;
+  }
+  store.onChange(() => { applyEdits(); paintBadge(); });
+  paintBadge();
 
   bus.on('progress:reset', renderHome);
   start();
