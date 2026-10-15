@@ -30,7 +30,8 @@
     },
     "result": 300,
     "unit": "mL"
-   }
+   },
+   "uid": "q_def0fa2c01"
   },
   {
    "number": "8.02",
@@ -53,7 +54,8 @@
     "topic:blood-products",
     "topic:shock-index",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_c89dffd0d1"
   },
   {
    "number": "8.02",
@@ -84,7 +86,8 @@
      "SBP": 120
     },
     "result": 1.25
-   }
+   },
+   "uid": "q_f2e53baa27"
   },
   {
    "number": "8.02",
@@ -107,7 +110,8 @@
     "topic:blood-products",
     "topic:hemorrhagic-shock",
     "drug:plasma"
-   ]
+   ],
+   "uid": "q_f61b420cad"
   },
   {
    "number": "8.02",
@@ -131,7 +135,8 @@
     "drug:plasma",
     "drug:prbc",
     "population:adult"
-   ]
+   ],
+   "uid": "q_de15d70cea"
   },
   {
    "number": "8.02",
@@ -154,7 +159,8 @@
     "topic:blood-products",
     "topic:transfusion-reaction",
     "topic:trali"
-   ]
+   ],
+   "uid": "q_b6bd7c589b"
   },
   {
    "number": "8.02",
@@ -176,7 +182,8 @@
    "tags": [
     "topic:blood-products",
     "topic:transfusion-reaction"
-   ]
+   ],
+   "uid": "q_fe59bf2941"
   },
   {
    "number": "8.02",
@@ -200,7 +207,8 @@
     "topic:transfusion-reaction",
     "population:pediatric",
     "route:iv"
-   ]
+   ],
+   "uid": "q_2dc4bf9268"
   },
   {
    "number": "8.02",
@@ -223,7 +231,8 @@
     "topic:blood-products",
     "topic:rh-status",
     "drug:ltowb"
-   ]
+   ],
+   "uid": "q_57845bb4fe"
   },
   {
    "number": "8.02",
@@ -246,7 +255,8 @@
     "topic:blood-products",
     "topic:rh-status",
     "topic:documentation"
-   ]
+   ],
+   "uid": "q_410db86f8a"
   },
   {
    "number": "8.02",
@@ -268,7 +278,8 @@
    "tags": [
     "topic:blood-products",
     "topic:administration"
-   ]
+   ],
+   "uid": "q_749a3e643c"
   },
   {
    "number": "8.02",
@@ -290,7 +301,8 @@
    "tags": [
     "topic:blood-products",
     "topic:warming"
-   ]
+   ],
+   "uid": "q_3cab262126"
   },
   {
    "number": "8.02",
@@ -313,7 +325,8 @@
     "topic:blood-products",
     "topic:transfusion-reaction",
     "topic:monitoring"
-   ]
+   ],
+   "uid": "q_10a21c5bf6"
   },
   {
    "number": "8.02",
@@ -336,7 +349,8 @@
     "drug:txa",
     "topic:blood-products",
     "topic:interfacility"
-   ]
+   ],
+   "uid": "q_5119c0bae9"
   },
   {
    "number": "8.02",
@@ -367,7 +381,8 @@
     },
     "result": 102,
     "unit": "mmHg"
-   }
+   },
+   "uid": "q_906d9bf4d4"
   },
   {
    "number": "8.02",
@@ -398,7 +413,8 @@
     },
     "result": 360,
     "unit": "mg"
-   }
+   },
+   "uid": "q_49c33be849"
   },
   {
    "number": "8.29",
@@ -421,7 +437,8 @@
     "drug:norepinephrine",
     "topic:push-dose-pressors",
     "topic:hypotension"
-   ]
+   ],
+   "uid": "q_052d3a2e0b"
   },
   {
    "number": "8.29",
@@ -444,7 +461,8 @@
     "drug:epinephrine",
     "topic:push-dose-pressors",
     "topic:mixing"
-   ]
+   ],
+   "uid": "q_3ecc33d701"
   },
   {
    "number": "8.29",
@@ -476,7 +494,8 @@
     },
     "result": 100,
     "unit": "mcg"
-   }
+   },
+   "uid": "q_cf96c847da"
   },
   {
    "number": "8.29",
@@ -508,7 +527,8 @@
     },
     "result": 2,
     "unit": "mL"
-   }
+   },
+   "uid": "q_37a6d0a2fb"
   },
   {
    "number": "8.29",
@@ -540,7 +560,8 @@
     },
     "result": 160,
     "unit": "mcg"
-   }
+   },
+   "uid": "q_a1371b2db6"
   },
   {
    "number": "8.29",
@@ -563,7 +584,8 @@
     "drug:epinephrine",
     "topic:push-dose-pressors",
     "procedure:push-dose"
-   ]
+   ],
+   "uid": "q_71ac6620ce"
   },
   {
    "number": "8.29",
@@ -586,7 +608,8 @@
     "drug:norepinephrine",
     "topic:push-dose-pressors",
     "procedure:push-dose"
-   ]
+   ],
+   "uid": "q_81aedbdc62"
   },
   {
    "number": "8.29",
@@ -616,7 +639,8 @@
      "SBP": 128
     },
     "result": 0.81
-   }
+   },
+   "uid": "q_3a95b61e10"
   }
  ]
 }

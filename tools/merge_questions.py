@@ -112,9 +112,46 @@ def algo_modules(title, tags):
     return [mid for mid, _lab, kws in ALGO if any(k in hay for k in kws)][:2]
 
 
+# Focused Drills: the procedures and reference charts the user asked to drill
+# as whole, unchunked modules (authored in depth by the F-batches).
+FOCUS = [(n, t, "Procedures") for n, t in [
+    ("8.30", "Rapid Sequence Induction (RSI)"),
+    ("8.23", "Mechanical Ventilation"),
+    ("8.03", "Chest Tube Insertion"),
+    ("8.08", "Finger Thoracostomy"),
+    ("8.24", "Needle Cricothyrotomy"),
+    ("8.32", "Surgical Cricothyrotomy"),
+    ("8.07", "Endotracheal Tube Exchange"),
+    ("8.12", "High Flow Nasal Cannula"),
+    ("8.14", "i-gel Supraglottic Airway"),
+    ("8.18", "Intraosseous Line Placement"),
+    ("8.28", "Pericardiocentesis"),
+    ("8.02", "Blood Product Administration"),
+    ("8.29", "Push Dose Vasopressors"),
+]] + [(n, t, "Supplementary References") for n, t in [
+    ("10.01", "Blood Pressure Treatment Chart"),
+    ("10.03", "Hemodynamic Pressure Table"),
+    ("10.05", "RSI Checklist"),
+    ("10.06", "Stroke Scales"),
+    ("10.07", "Termination of Resuscitation Algorithm"),
+    ("10.08", "Traumatic Arrest Algorithm"),
+]]
+
+
 def numkey(number):
     m = re.match(r"(\d+)\.(\d+)", str(number))
     return (int(m.group(1)), int(m.group(2))) if m else (999, 0)
+
+
+NUM_TITLE = {}   # section number -> its own title, filled in main()
+
+
+def sections_of(qs):
+    """[{number, title, count}] in document order — what a module card lists so
+    the learner sees *which guidelines* a module covers, not just a span."""
+    c = Counter(q["source"]["number"] for q in qs)
+    return [{"number": n, "title": NUM_TITLE.get(n, ""), "count": c[n]}
+            for n in sorted(c, key=numkey)]
 
 
 def chunk(mid, label, items, subtitle=""):
@@ -124,7 +161,8 @@ def chunk(mid, label, items, subtitle=""):
     if len(items) <= MAX_MODULE:
         return [{"id": mid, "label": label, "subtitle": subtitle or f"{len(items)} questions",
                  "group": label, "question_count": len(items),
-                 "question_ids": [q["id"] for q in items], "prereq": []}]
+                 "question_ids": [q["id"] for q in items], "prereq": [],
+                 "sections": sections_of(items)}]
     by_num = defaultdict(list)
     for q in items:
         by_num[q["source"]["number"]].append(q)
@@ -162,7 +200,8 @@ def chunk(mid, label, items, subtitle=""):
                     "subtitle": f"{len(qs)} questions", "group": label,
                     "question_count": len(qs),
                     "question_ids": [q["id"] for q in qs],
-                    "prereq": [prev] if prev else []})
+                    "prereq": [prev] if prev else [],
+                    "sections": sections_of(qs)})
         prev = pid
     return out
 
@@ -196,6 +235,10 @@ def main():
     version = content["version"]
     sec_title = {g["number"]: g["section_title"] for g in content["guidelines"]}
     sec_num = {g["number"]: g["section_number"] for g in content["guidelines"]}
+    for g in content["guidelines"]:
+        NUM_TITLE.setdefault(g["number"], g["title"])
+    for d in content["drugs"]:
+        NUM_TITLE.setdefault(d["number"], d["name"])
     drug_class = {}
     for d in content["drugs"]:
         cat = (d["info"].get("Pharmacologic Category") or "").split(",")[0]
@@ -283,12 +326,29 @@ def main():
             out.extend(x)
         return out
 
+    by_number = defaultdict(list)
+    for q in items:
+        by_number[q["source"]["number"]].append(q)
+
+    def focus_module(num, title, group):
+        qs = sorted(by_number.get(num, []), key=lambda q: q["id"])
+        if not qs:
+            return []
+        return [{"id": f"focus-{num}", "label": title, "group": group,
+                 "subtitle": f"{num} · {len(qs)} questions",
+                 "question_count": len(qs), "question_ids": [q["id"] for q in qs],
+                 "prereq": [], "sections": sections_of(qs)}]
+
     tax = [
         {"id": "section", "label": "Guideline Section",
          "description": "Mirrors the document's own organization — the fastest way to study one area at a time.",
          "default": True,
          "modules": flat([mk(k, sec_label[k]) for k in
                           sorted(sec_label, key=lambda k: int(k.split("-")[1]))])},
+        {"id": "focus", "label": "Focused Drills",
+         "description": "Deep drills on high-stakes procedures and the Supplementary Information reference charts — one module per topic, whole.",
+         "default": False,
+         "modules": flat([focus_module(n, t, g) for n, t, g in FOCUS])},
         {"id": "care-level", "label": "Care Level",
          "description": "Scope of practice first: learn your level, then the level above it.",
          "default": False,

@@ -7,10 +7,17 @@ Care Guidelines**, edition **2026.09.15**. It drills the content of the
 guidelines — doses, indications, routes, maximums, care-level scope and
 algorithm steps — rather than clinical scenarios.
 
-- **2,085 questions**, each written by reading the actual guideline page —
+- **2,353 questions**, each written by reading the actual guideline page —
   not pattern-matched from extracted text — and carrying its section and page.
-- **219 modules** across 5 different groupings, so you choose the path and add
+- **239 modules** across 6 different groupings, so you choose the path and add
   scope progressively instead of having the whole book come due at once.
+- **Focused Drills** — one whole module each for 13 high-stakes procedures
+  (RSI, mechanical ventilation with IBW and respiratory calculations, chest
+  tube, finger thoracostomy, needle and surgical cric, ETT exchange, HFNC,
+  i-gel sizing, IO landmarks, pericardiocentesis, blood products, push-dose
+  pressors) and 6 Supplementary Information charts (BP treatment chart,
+  hemodynamic table, RSI checklist, stroke scales, TOR and traumatic arrest
+  algorithms).
 - **FSRS** scheduling, which models both how you learn and how you forget.
 - Runs entirely in the browser. No account, no server, no network after the
   first load. Progress can be exported, imported and reset.

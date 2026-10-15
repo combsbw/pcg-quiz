@@ -512,11 +512,18 @@ modules must list section titles alongside numbers. (2) Dedicated modules for
 - [x] Focus manifests `authoring/focus/F01..F07.json`; rephrase assignments
       `authoring/rephrase/ASSIGNMENTS.json` (R1..R7).
 
-### To do (resume here)
-- [ ] Rephrase agents R1-R7 → `authoring/rephrase/R*.json`
-      Baseline: 1,280 stems cite section numbers. Target 0.
-- [ ] Focus agents F01-F07 → `authoring/out/F*.json`
-- [ ] `python3 tools/apply_rephrase.py authoring/rephrase/R*.json` (real run)
-- [ ] OCR complete → full grounding audit of all batches
-- [ ] Modules list section titles; new "Focused Drills" taxonomy
-- [ ] Merge, browser suites, push
+- [x] Rephrase pass R1-R8 applied: 1,367 stems, 301 explanations, 1 option
+      reworded; no answer/page/uid changed; 0 section numbers left in stems.
+- [x] Focus batches F01-F07: 268 new questions (RSI 43 + checklist 15,
+      ventilation 55 incl. IBW/respiratory calcs, invasive procedures 45,
+      airway/IO devices 48, blood/push-dose 24, reference charts 37,
+      arrest algorithms 16). uids stamped. 2 exact duplicates of formulary
+      questions removed from F01.
+- [x] OCR complete (406 pages). Full grounding audit of all 25 batches:
+      2,353 questions, 0 errors.
+- [x] Module cards list "number  title" for every section they cover
+      (collapsed to "+N more" past six); new "Focused Drills" taxonomy with
+      19 whole, unchunked modules (13 procedures, 6 supplemental references).
+- [x] Suites: e2e 52, e2e2 22, pure 250, srs 70, icons 21, fixes 17,
+      review 17, modules 11 — all pass; search top-3 30/30 and 27/28.
+      sw CACHE_VERSION v4.

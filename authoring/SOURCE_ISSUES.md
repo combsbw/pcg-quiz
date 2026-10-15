@@ -128,10 +128,11 @@ Ordered roughly by clinical consequence.
     of a second vasopressor", directly after "Billings Clinic: 24/7…". The same
     sentence appears correctly as PEARL 1 of 5.13.
 
-24. **Pediatric IBW formula truncated — 8.23, PDF p228.** The IBW Formulas box
-    ends mid-list at "Age 1-5 years: (Age in years x 2) + 8"; the next line is
-    clipped by the box boundary and absent from the text layer, so the formula
-    for older children is unrecoverable from this document.
+24. **Pediatric IBW formula clipped — 8.23, PDF p228.** The IBW Formulas box
+    visibly ends at "Age 1-5 years: (Age in years x 2) + 8". The next line,
+    "Age 6 – 12: (Age in years x 3) + 7", exists in the PDF's hidden text layer
+    but falls outside the box and does not render, so a crew reading the page
+    cannot see it. No question uses it.
 
 25. **Procedure may be missing a step — 8.08, PDF p193.** The page ends with
     "CONTINUES TO NEXT PAGE" after step 13, but p194 contains only PEARLS
@@ -162,6 +163,37 @@ Ordered roughly by clinical consequence.
 32. **RAM cannula sizing table half blank — 8.12, PDF p199.** Weights given for
     four of seven colours; yellow, teal and purple rows are empty.
 
+48. **Handtevy pediatric weight chart disagrees with the IBW formulas — 8.23,
+    PDF p229 vs p228.** Age 3: formula 14 kg, chart 15; age 4: 16 vs 17; age 5:
+    18 vs 20; age 6: hidden 6–12 formula 25 vs chart 22.
+49. **Adult IBW chart departs from the formula at 75–77 inches — 8.23, PDF
+    p229.** Male 87/89/94 kg vs 84.5/86.8/89.1 by formula; female 82 kg at
+    75 in vs 80.
+50. **i-gel weight bands overlap — 8.14, PDF p204.** 50–60 kg fits sizes 3 and
+    4; 30–35 kg fits 2.5 and 3; 10–12 kg fits 1.5 and 2. The lbs columns do not
+    convert exactly to the kg columns.
+51. **Hypoxemia cut-off differs within RSI — 10.05 vs 8.30.** HEAVEN flags
+    SpO2 ≤ 93%; the 8.30 pre-oxygenation escalation uses ≤ 94%. Similarly
+    HEAVEN's size extreme is ≤ 8 years while succinylcholine is first-line
+    unless < 10 years.
+52. **TOR algorithm pediatric path — 10.07, PDF p297.** The "> 20 min ACLS/PALS
+    without change" loop reaches the Medical Control / state-scope decisions
+    without passing the age ≥ 18 criterion, so read literally a pediatric
+    arrest could be terminated without Medical Control. 9.06 sets 18 as the
+    minimum age for termination without OLMC.
+53. **Push Dose Vasopressors prints no doses — 8.29, PDF p242.** The page gives
+    mixing steps and concentrations only; the push-dose epinephrine dose lives
+    in the formulary (12.26) and no push-dose norepinephrine dose appears
+    anywhere.
+54. **Blood products: inconsistent qualifiers — 8.02.** Calcium is "after 1–2
+    units" (adult) vs "after 1–2 boluses" (pediatric); plasma age cut-off is
+    "< 12 years" in the CCT box vs "< 12 yo or any patient < 50 kg" in PEARL 9.
+55. **Hemodynamic table units — 10.03, PDF p290.** Cardiac index printed as
+    "L/min" (normally L/min/m²); pulmonary artery pressure has two unlabelled
+    ranges (15–25 underlined, 6–12); stroke volume has no unit.
+56. **Surgical cric tube name changes mid-procedure — 8.32.** Step 11 says ETT,
+    step 12 says "Shiley airway".
+
 ---
 
 ## D. Typos and cosmetic
@@ -190,6 +222,8 @@ Ordered roughly by clinical consequence.
     no "a"; item 9 runs f–g continuing the previous page. 9.04's Montana
     sub-list restarts at "c./d.". 5.10 PEARL 7 runs ii–v with no "i".
     12.05 Albuterol's Special Considerations are numbered 6 and 7.
+57. **"PVC+" for PCV+** — 8.23 pediatric strategy table. **"Reversable
+    causes"** — 10.07 and 10.08.
 47. **APGAR timing** — 6.01 says "at time of birth and five minutes later",
     not the conventional 1 and 5 minutes. Authored to the document, but a crew
     trained to NRP may disagree.

@@ -30,7 +30,8 @@
     },
     "result": 77.6,
     "unit": "kg"
-   }
+   },
+   "uid": "q_b4e208c337"
   },
   {
    "number": "8.23",
@@ -61,7 +62,8 @@
     },
     "result": 57,
     "unit": "kg"
-   }
+   },
+   "uid": "q_aa571869cd"
   },
   {
    "number": "8.23",
@@ -94,7 +96,8 @@
     },
     "result": 54,
     "unit": "kg"
-   }
+   },
+   "uid": "q_1b861ab04a"
   },
   {
    "number": "8.23",
@@ -136,7 +139,8 @@
      "result": 566,
      "unit": "mL"
     }
-   ]
+   ],
+   "uid": "q_1577e4ee1f"
   },
   {
    "number": "8.23",
@@ -178,7 +182,8 @@
      "result": 493,
      "unit": "mL"
     }
-   ]
+   ],
+   "uid": "q_51d2a9d9b6"
   },
   {
    "number": "8.23",
@@ -209,7 +214,8 @@
     },
     "result": 14,
     "unit": "kg"
-   }
+   },
+   "uid": "q_a885b514d5"
   },
   {
    "number": "8.23",
@@ -240,7 +246,8 @@
     },
     "result": 18,
     "unit": "kg"
-   }
+   },
+   "uid": "q_b878a0d620"
   },
   {
    "number": "8.23",
@@ -272,7 +279,8 @@
     },
     "result": 10,
     "unit": "kg"
-   }
+   },
+   "uid": "q_c95aa36394"
   },
   {
    "number": "8.23",
@@ -304,7 +312,8 @@
     },
     "result": 128,
     "unit": "mL"
-   }
+   },
+   "uid": "q_92eac41ba9"
   },
   {
    "number": "8.23",
@@ -346,7 +355,8 @@
      "result": 80,
      "unit": "mL"
     }
-   ]
+   ],
+   "uid": "q_8eae165c13"
   },
   {
    "number": "8.23",
@@ -369,7 +379,8 @@
     "topic:mechanical-ventilation",
     "topic:ideal-body-weight",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_0333c5af0e"
   },
   {
    "number": "8.23",
@@ -393,7 +404,8 @@
     "topic:ideal-body-weight",
     "topic:tidal-volume",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_1359e5c0bf"
   },
   {
    "number": "8.23",
@@ -425,7 +437,8 @@
     },
     "result": 10.08,
     "unit": "L/min"
-   }
+   },
+   "uid": "q_682ce0af4e"
   },
   {
    "number": "8.23",
@@ -457,7 +470,8 @@
     },
     "result": 16,
     "unit": "L/min"
-   }
+   },
+   "uid": "q_eafe0e7b38"
   },
   {
    "number": "8.23",
@@ -489,7 +503,8 @@
     },
     "result": 15,
     "unit": "cmH2O"
-   }
+   },
+   "uid": "q_926d26c9f5"
   },
   {
    "number": "8.23",
@@ -522,7 +537,8 @@
     },
     "result": 33,
     "unit": "cmH2O"
-   }
+   },
+   "uid": "q_3ee25e4401"
   },
   {
    "number": "8.23",
@@ -555,7 +571,8 @@
     },
     "result": 35,
     "unit": "cmH2O"
-   }
+   },
+   "uid": "q_572d80bc38"
   },
   {
    "number": "8.23",
@@ -587,7 +604,8 @@
     },
     "result": 18,
     "unit": "cmH2O"
-   }
+   },
+   "uid": "q_7e68c04f25"
   },
   {
    "number": "8.23",
@@ -618,7 +636,8 @@
     },
     "result": 10,
     "unit": "cmH2O"
-   }
+   },
+   "uid": "q_e71be1331e"
   },
   {
    "number": "8.23",
@@ -649,7 +668,8 @@
     },
     "result": 29,
     "unit": "cmH2O"
-   }
+   },
+   "uid": "q_4492dddbd1"
   },
   {
    "number": "8.23",
@@ -690,7 +710,8 @@
      "result": 25,
      "unit": "mmHg"
     }
-   ]
+   ],
+   "uid": "q_0d8a978d0a"
   },
   {
    "number": "8.23",
@@ -732,7 +753,8 @@
      "result": 15,
      "unit": "mmHg"
     }
-   ]
+   ],
+   "uid": "q_ff38bc6e91"
   },
   {
    "number": "8.23",
@@ -764,7 +786,8 @@
      "B": 18
     },
     "result": 7.3
-   }
+   },
+   "uid": "q_8ce4680166"
   },
   {
    "number": "8.23",
@@ -795,7 +818,8 @@
      "D": 10
     },
     "result": 7.27
-   }
+   },
+   "uid": "q_1c8c992d49"
   },
   {
    "number": "8.23",
@@ -828,7 +852,8 @@
     },
     "result": 8.9,
     "unit": "mL/kg"
-   }
+   },
+   "uid": "q_d7aef8328f"
   },
   {
    "number": "8.23",
@@ -860,7 +885,8 @@
     },
     "result": 228,
     "unit": "mL"
-   }
+   },
+   "uid": "q_97d1bedf7f"
   },
   {
    "number": "8.23",
@@ -883,7 +909,8 @@
     "topic:mechanical-ventilation",
     "topic:ards",
     "topic:ie-ratio"
-   ]
+   ],
+   "uid": "q_a83ba7e113"
   },
   {
    "number": "8.23",
@@ -906,7 +933,8 @@
     "topic:mechanical-ventilation",
     "topic:ards",
     "topic:pmean"
-   ]
+   ],
+   "uid": "q_e391ca4419"
   },
   {
    "number": "8.23",
@@ -929,7 +957,8 @@
     "topic:mechanical-ventilation",
     "topic:ards",
     "topic:pmean"
-   ]
+   ],
+   "uid": "q_13945013ff"
   },
   {
    "number": "8.23",
@@ -952,7 +981,8 @@
     "topic:mechanical-ventilation",
     "topic:ards",
     "topic:pip"
-   ]
+   ],
+   "uid": "q_1e2da40f2f"
   },
   {
    "number": "8.23",
@@ -976,7 +1006,8 @@
     "topic:ards",
     "topic:peep",
     "topic:driving-pressure"
-   ]
+   ],
+   "uid": "q_32dac58610"
   },
   {
    "number": "8.23",
@@ -999,7 +1030,8 @@
     "topic:mechanical-ventilation",
     "topic:ards",
     "topic:peep"
-   ]
+   ],
+   "uid": "q_18fb3caab2"
   },
   {
    "number": "8.23",
@@ -1023,7 +1055,8 @@
     "topic:asthma",
     "topic:copd",
     "topic:obstructive"
-   ]
+   ],
+   "uid": "q_2b0602f2f7"
   },
   {
    "number": "8.23",
@@ -1047,7 +1080,8 @@
     "topic:asthma",
     "topic:copd",
     "topic:obstructive"
-   ]
+   ],
+   "uid": "q_84c994ab13"
   },
   {
    "number": "8.23",
@@ -1071,7 +1105,8 @@
     "topic:asthma",
     "topic:air-trapping",
     "topic:obstructive"
-   ]
+   ],
+   "uid": "q_d26e9caacd"
   },
   {
    "number": "8.23",
@@ -1095,7 +1130,8 @@
     "topic:asthma",
     "topic:hypercapnia",
     "topic:obstructive"
-   ]
+   ],
+   "uid": "q_a07431649d"
   },
   {
    "number": "8.23",
@@ -1119,7 +1155,8 @@
     "topic:asthma",
     "topic:peep",
     "topic:obstructive"
-   ]
+   ],
+   "uid": "q_ae2f3ebcfa"
   },
   {
    "number": "8.23",
@@ -1142,7 +1179,8 @@
     "topic:mechanical-ventilation",
     "topic:copd",
     "topic:obstructive"
-   ]
+   ],
+   "uid": "q_58df348aa3"
   },
   {
    "number": "8.23",
@@ -1164,7 +1202,8 @@
    "tags": [
     "topic:mechanical-ventilation",
     "topic:metabolic-acidosis"
-   ]
+   ],
+   "uid": "q_41397843e0"
   },
   {
    "number": "8.23",
@@ -1187,7 +1226,8 @@
     "topic:mechanical-ventilation",
     "topic:metabolic-acidosis",
     "topic:peep"
-   ]
+   ],
+   "uid": "q_b774fed407"
   },
   {
    "number": "8.23",
@@ -1210,7 +1250,8 @@
     "topic:mechanical-ventilation",
     "topic:metabolic-acidosis",
     "topic:winters-formula"
-   ]
+   ],
+   "uid": "q_4f5009ce64"
   },
   {
    "number": "8.23",
@@ -1233,7 +1274,8 @@
     "topic:mechanical-ventilation",
     "topic:metabolic-acidosis",
     "topic:toxicology"
-   ]
+   ],
+   "uid": "q_84196645e6"
   },
   {
    "number": "8.23",
@@ -1256,7 +1298,8 @@
     "topic:mechanical-ventilation",
     "topic:ards",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_3c6d623cf3"
   },
   {
    "number": "8.23",
@@ -1279,7 +1322,8 @@
     "topic:mechanical-ventilation",
     "topic:asthma",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_27dcbb123c"
   },
   {
    "number": "8.23",
@@ -1302,7 +1346,8 @@
     "topic:mechanical-ventilation",
     "topic:tidal-volume",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_222a37f759"
   },
   {
    "number": "8.23",
@@ -1326,7 +1371,8 @@
     "topic:deadspace",
     "topic:etco2",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_f8501174f1"
   },
   {
    "number": "8.23",
@@ -1349,7 +1395,8 @@
     "topic:mechanical-ventilation",
     "topic:ventilator-rate",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_8da0b42d20"
   },
   {
    "number": "8.23",
@@ -1372,7 +1419,8 @@
     "topic:mechanical-ventilation",
     "topic:ventilator-rate",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_e9a81419aa"
   },
   {
    "number": "8.23",
@@ -1395,7 +1443,8 @@
     "topic:mechanical-ventilation",
     "topic:inspiratory-time",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_8949a4e8be"
   },
   {
    "number": "8.23",
@@ -1418,7 +1467,8 @@
     "topic:mechanical-ventilation",
     "topic:monitoring",
     "topic:compliance"
-   ]
+   ],
+   "uid": "q_58d77b1dda"
   },
   {
    "number": "8.23",
@@ -1441,7 +1491,8 @@
     "topic:mechanical-ventilation",
     "topic:monitoring",
     "topic:pip"
-   ]
+   ],
+   "uid": "q_e4bc0b698f"
   },
   {
    "number": "8.23",
@@ -1464,7 +1515,8 @@
     "topic:mechanical-ventilation",
     "topic:monitoring",
     "topic:leak"
-   ]
+   ],
+   "uid": "q_4105bd4bc4"
   },
   {
    "number": "8.23",
@@ -1487,7 +1539,8 @@
     "topic:mechanical-ventilation",
     "topic:alarms",
     "topic:pressure-limitation"
-   ]
+   ],
+   "uid": "q_6a1832a760"
   },
   {
    "number": "8.23",
@@ -1509,7 +1562,8 @@
    "tags": [
     "topic:mechanical-ventilation",
     "topic:alarms"
-   ]
+   ],
+   "uid": "q_6531f7c5bf"
   },
   {
    "number": "8.23",
@@ -1531,7 +1585,8 @@
    "tags": [
     "topic:mechanical-ventilation",
     "topic:ett-cuff"
-   ]
+   ],
+   "uid": "q_1924d1123e"
   }
  ]
 }

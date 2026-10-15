@@ -21,7 +21,8 @@
    "tags": [
     "procedure:ett-exchange",
     "topic:airway"
-   ]
+   ],
+   "uid": "q_0b2da94ba5"
   },
   {
    "number": "8.07",
@@ -43,7 +44,8 @@
    "tags": [
     "procedure:ett-exchange",
     "topic:airway"
-   ]
+   ],
+   "uid": "q_8d7255ca4a"
   },
   {
    "number": "8.07",
@@ -64,7 +66,8 @@
    "priority": "detail",
    "tags": [
     "procedure:ett-exchange"
-   ]
+   ],
+   "uid": "q_6ccb50a4d7"
   },
   {
    "number": "8.07",
@@ -85,7 +88,8 @@
    "priority": "core",
    "tags": [
     "procedure:ett-exchange"
-   ]
+   ],
+   "uid": "q_4292db391f"
   },
   {
    "number": "8.07",
@@ -106,7 +110,8 @@
    "priority": "detail",
    "tags": [
     "procedure:ett-exchange"
-   ]
+   ],
+   "uid": "q_8e9a92d2c9"
   },
   {
    "number": "8.07",
@@ -128,7 +133,8 @@
    "tags": [
     "procedure:ett-exchange",
     "topic:rsi"
-   ]
+   ],
+   "uid": "q_eece39da5b"
   },
   {
    "number": "8.07",
@@ -149,7 +155,8 @@
    "priority": "core",
    "tags": [
     "procedure:ett-exchange"
-   ]
+   ],
+   "uid": "q_eedca42502"
   },
   {
    "number": "8.07",
@@ -170,7 +177,8 @@
    "priority": "detail",
    "tags": [
     "procedure:ett-exchange"
-   ]
+   ],
+   "uid": "q_f3e31cb183"
   },
   {
    "number": "8.12",
@@ -192,7 +200,8 @@
    "tags": [
     "procedure:hfnc",
     "topic:oxygenation"
-   ]
+   ],
+   "uid": "q_314525df23"
   },
   {
    "number": "8.12",
@@ -213,7 +222,8 @@
    "priority": "core",
    "tags": [
     "procedure:hfnc"
-   ]
+   ],
+   "uid": "q_b2fe2b32ac"
   },
   {
    "number": "8.12",
@@ -234,7 +244,8 @@
    "priority": "core",
    "tags": [
     "procedure:hfnc"
-   ]
+   ],
+   "uid": "q_78c0bd02a3"
   },
   {
    "number": "8.12",
@@ -255,7 +266,8 @@
    "priority": "detail",
    "tags": [
     "procedure:hfnc"
-   ]
+   ],
+   "uid": "q_a3a1a239e5"
   },
   {
    "number": "8.12",
@@ -277,7 +289,8 @@
    "tags": [
     "procedure:hfnc",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_8e1d07ac2e"
   },
   {
    "number": "8.12",
@@ -299,7 +312,8 @@
    "tags": [
     "procedure:hfnc",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_4263b97477"
   },
   {
    "number": "8.12",
@@ -321,7 +335,8 @@
    "tags": [
     "procedure:hfnc",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_0ec55f418a"
   },
   {
    "number": "8.12",
@@ -342,7 +357,8 @@
    "priority": "core",
    "tags": [
     "procedure:hfnc"
-   ]
+   ],
+   "uid": "q_f81e0bc83f"
   },
   {
    "number": "8.12",
@@ -363,7 +379,8 @@
    "priority": "detail",
    "tags": [
     "procedure:hfnc"
-   ]
+   ],
+   "uid": "q_ebde24fe5b"
   },
   {
    "number": "8.12",
@@ -384,7 +401,8 @@
    "priority": "detail",
    "tags": [
     "procedure:hfnc"
-   ]
+   ],
+   "uid": "q_72aefa222f"
   },
   {
    "number": "8.14",
@@ -406,7 +424,8 @@
    "tags": [
     "procedure:i-gel",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_e95d797636"
   },
   {
    "number": "8.14",
@@ -428,7 +447,8 @@
    "tags": [
     "procedure:i-gel",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_def06db5ca"
   },
   {
    "number": "8.14",
@@ -450,7 +470,8 @@
    "tags": [
     "procedure:i-gel",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_42d28dc1e6"
   },
   {
    "number": "8.14",
@@ -472,7 +493,8 @@
    "tags": [
     "procedure:i-gel",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_bc059d29bb"
   },
   {
    "number": "8.14",
@@ -494,7 +516,8 @@
    "tags": [
     "procedure:i-gel",
     "population:adult"
-   ]
+   ],
+   "uid": "q_69e9054c6d"
   },
   {
    "number": "8.14",
@@ -516,7 +539,8 @@
    "tags": [
     "procedure:i-gel",
     "population:adult"
-   ]
+   ],
+   "uid": "q_52bdeac3cc"
   },
   {
    "number": "8.14",
@@ -538,7 +562,8 @@
    "tags": [
     "procedure:i-gel",
     "population:adult"
-   ]
+   ],
+   "uid": "q_ef630e8ea0"
   },
   {
    "number": "8.14",
@@ -560,7 +585,8 @@
    "tags": [
     "procedure:i-gel",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_bc2ff8eebf"
   },
   {
    "number": "8.14",
@@ -582,7 +608,8 @@
    "tags": [
     "procedure:i-gel",
     "population:adult"
-   ]
+   ],
+   "uid": "q_a448acf08b"
   },
   {
    "number": "8.14",
@@ -603,7 +630,8 @@
    "priority": "detail",
    "tags": [
     "procedure:i-gel"
-   ]
+   ],
+   "uid": "q_6535b62dc4"
   },
   {
    "number": "8.14",
@@ -624,7 +652,8 @@
    "priority": "detail",
    "tags": [
     "procedure:i-gel"
-   ]
+   ],
+   "uid": "q_a7a732f57d"
   },
   {
    "number": "8.14",
@@ -645,7 +674,8 @@
    "priority": "core",
    "tags": [
     "procedure:i-gel"
-   ]
+   ],
+   "uid": "q_acbc14e085"
   },
   {
    "number": "8.14",
@@ -666,7 +696,8 @@
    "priority": "core",
    "tags": [
     "procedure:i-gel"
-   ]
+   ],
+   "uid": "q_43cbc939a5"
   },
   {
    "number": "8.14",
@@ -687,7 +718,8 @@
    "priority": "core",
    "tags": [
     "procedure:i-gel"
-   ]
+   ],
+   "uid": "q_9b0b420eb8"
   },
   {
    "number": "8.18",
@@ -709,7 +741,8 @@
    "tags": [
     "procedure:io",
     "population:adult"
-   ]
+   ],
+   "uid": "q_341357c38f"
   },
   {
    "number": "8.18",
@@ -730,7 +763,8 @@
    "priority": "core",
    "tags": [
     "procedure:io"
-   ]
+   ],
+   "uid": "q_ecc1a3cc77"
   },
   {
    "number": "8.18",
@@ -751,7 +785,8 @@
    "priority": "core",
    "tags": [
     "procedure:io"
-   ]
+   ],
+   "uid": "q_432eabc854"
   },
   {
    "number": "8.18",
@@ -773,7 +808,8 @@
    "tags": [
     "procedure:io",
     "population:adult"
-   ]
+   ],
+   "uid": "q_35740cc167"
   },
   {
    "number": "8.18",
@@ -795,7 +831,8 @@
    "tags": [
     "procedure:io",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_23fcd609ee"
   },
   {
    "number": "8.18",
@@ -817,7 +854,8 @@
    "tags": [
     "procedure:io",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_8373d4b84f"
   },
   {
    "number": "8.18",
@@ -839,7 +877,8 @@
    "tags": [
     "procedure:io",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_8b38d41c44"
   },
   {
    "number": "8.18",
@@ -861,7 +900,8 @@
    "tags": [
     "procedure:io",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_ead8c94076"
   },
   {
    "number": "8.18",
@@ -882,7 +922,8 @@
    "priority": "core",
    "tags": [
     "procedure:io"
-   ]
+   ],
+   "uid": "q_db51e330ce"
   },
   {
    "number": "8.18",
@@ -903,7 +944,8 @@
    "priority": "core",
    "tags": [
     "procedure:io"
-   ]
+   ],
+   "uid": "q_2ec1388c1c"
   },
   {
    "number": "8.18",
@@ -924,7 +966,8 @@
    "priority": "core",
    "tags": [
     "procedure:io"
-   ]
+   ],
+   "uid": "q_3649ed5b85"
   },
   {
    "number": "8.18",
@@ -945,7 +988,8 @@
    "priority": "core",
    "tags": [
     "procedure:io"
-   ]
+   ],
+   "uid": "q_d7f65fa64f"
   },
   {
    "number": "8.18",
@@ -966,7 +1010,8 @@
    "priority": "core",
    "tags": [
     "procedure:io"
-   ]
+   ],
+   "uid": "q_129239bc58"
   },
   {
    "number": "8.18",
@@ -988,7 +1033,8 @@
    "tags": [
     "procedure:io",
     "drug:lidocaine"
-   ]
+   ],
+   "uid": "q_3ac67f19de"
   },
   {
    "number": "8.18",
@@ -1019,7 +1065,8 @@
     },
     "result": 12,
     "unit": "mg"
-   }
+   },
+   "uid": "q_01fa309eec"
   },
   {
    "number": "8.18",
@@ -1048,7 +1095,8 @@
     "inputs": {},
     "result": 20,
     "unit": "mg"
-   }
+   },
+   "uid": "q_8a503a789d"
   }
  ]
 }

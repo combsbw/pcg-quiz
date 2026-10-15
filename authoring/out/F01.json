@@ -21,7 +21,8 @@
    "tags": [
     "topic:rsi",
     "topic:crash-airway"
-   ]
+   ],
+   "uid": "q_df5186dfd7"
   },
   {
    "number": "8.30",
@@ -44,7 +45,8 @@
     "topic:rsi",
     "topic:dsi",
     "drug:ketamine"
-   ]
+   ],
+   "uid": "q_676cd0576c"
   },
   {
    "number": "8.30",
@@ -67,7 +69,8 @@
     "topic:dsi",
     "drug:ketamine",
     "route:iv"
-   ]
+   ],
+   "uid": "q_3ae4980f97"
   },
   {
    "number": "8.30",
@@ -90,7 +93,8 @@
     "topic:rsi",
     "topic:hypotension",
     "topic:pre-intubation-optimization"
-   ]
+   ],
+   "uid": "q_9f751c361f"
   },
   {
    "number": "8.30",
@@ -113,7 +117,8 @@
     "topic:rsi",
     "drug:epinephrine",
     "topic:hypotension"
-   ]
+   ],
+   "uid": "q_7e92827f8e"
   },
   {
    "number": "8.30",
@@ -137,7 +142,8 @@
     "drug:ketamine",
     "drug:midazolam",
     "topic:hypotension"
-   ]
+   ],
+   "uid": "q_572a1cfdfe"
   },
   {
    "number": "8.30",
@@ -167,7 +173,8 @@
      "SBP": 120
     },
     "result": 0.92
-   }
+   },
+   "uid": "q_b7a1306d14"
   },
   {
    "number": "8.30",
@@ -197,7 +204,8 @@
      "SBP": 110
     },
     "result": 1.18
-   }
+   },
+   "uid": "q_6bda735d6e"
   },
   {
    "number": "8.30",
@@ -219,7 +227,8 @@
    "tags": [
     "drug:ketamine",
     "topic:rsi"
-   ]
+   ],
+   "uid": "q_3ff2fa2038"
   },
   {
    "number": "8.30",
@@ -241,29 +250,8 @@
    "tags": [
     "drug:etomidate",
     "route:iv"
-   ]
-  },
-  {
-   "number": "8.30",
-   "title": "Rapid Sequence Induction (RSI)",
-   "page": 245,
-   "type": "max_dose",
-   "care_level": "ALS",
-   "population": "pediatric",
-   "stem": "What is the maximum pediatric dose of etomidate for RSI?",
-   "options": [
-    "40 mg",
-    "100 mg",
-    "200 mg",
-    "20 mg"
    ],
-   "answer_index": 3,
-   "explanation": "Etomidate is capped at 20 mg for pediatric patients and 40 mg for adults.",
-   "priority": "core",
-   "tags": [
-    "drug:etomidate",
-    "population:pediatric"
-   ]
+   "uid": "q_7b387102db"
   },
   {
    "number": "8.30",
@@ -284,7 +272,8 @@
    "priority": "detail",
    "tags": [
     "drug:etomidate"
-   ]
+   ],
+   "uid": "q_4d7de91708"
   },
   {
    "number": "8.30",
@@ -306,7 +295,8 @@
    "tags": [
     "drug:etomidate",
     "topic:post-intubation-sedation"
-   ]
+   ],
+   "uid": "q_85c67706a4"
   },
   {
    "number": "8.30",
@@ -328,28 +318,8 @@
    "tags": [
     "drug:midazolam",
     "route:iv"
-   ]
-  },
-  {
-   "number": "8.30",
-   "title": "Rapid Sequence Induction (RSI)",
-   "page": 245,
-   "type": "max_dose",
-   "care_level": "ALS",
-   "population": "both",
-   "stem": "What is the maximum midazolam dose for RSI induction?",
-   "options": [
-    "40 mg",
-    "100 mg",
-    "3 mg",
-    "20 mg"
    ],
-   "answer_index": 3,
-   "explanation": "Midazolam induction is 0.2 mg/kg (adult) or 0.1 mg/kg (pediatric), with a maximum of 20 mg.",
-   "priority": "core",
-   "tags": [
-    "drug:midazolam"
-   ]
+   "uid": "q_14f187c21c"
   },
   {
    "number": "8.30",
@@ -371,7 +341,8 @@
    "tags": [
     "drug:midazolam",
     "topic:rsi-sequence"
-   ]
+   ],
+   "uid": "q_188cce193c"
   },
   {
    "number": "8.30",
@@ -393,7 +364,8 @@
    "tags": [
     "drug:succinylcholine",
     "route:iv"
-   ]
+   ],
+   "uid": "q_8a4ddb1d77"
   },
   {
    "number": "8.30",
@@ -415,7 +387,8 @@
    "tags": [
     "drug:succinylcholine",
     "topic:hyperkalemia"
-   ]
+   ],
+   "uid": "q_c229ae4c04"
   },
   {
    "number": "8.30",
@@ -437,7 +410,8 @@
    "tags": [
     "drug:rocuronium",
     "route:iv"
-   ]
+   ],
+   "uid": "q_5aa29c55b1"
   },
   {
    "number": "8.30",
@@ -458,7 +432,8 @@
    "priority": "core",
    "tags": [
     "drug:rocuronium"
-   ]
+   ],
+   "uid": "q_622cd26a22"
   },
   {
    "number": "8.30",
@@ -480,7 +455,8 @@
    "tags": [
     "procedure:burp",
     "topic:laryngoscopy"
-   ]
+   ],
+   "uid": "q_20be6c7125"
   },
   {
    "number": "8.30",
@@ -503,7 +479,8 @@
     "drug:atropine",
     "population:pediatric",
     "topic:bradycardia"
-   ]
+   ],
+   "uid": "q_fa96325f62"
   },
   {
    "number": "8.30",
@@ -526,7 +503,8 @@
     "topic:failed-airway",
     "procedure:sga",
     "procedure:cricothyrotomy"
-   ]
+   ],
+   "uid": "q_86cd99db5a"
   },
   {
    "number": "8.30",
@@ -548,7 +526,8 @@
    "tags": [
     "topic:tube-confirmation",
     "topic:etco2"
-   ]
+   ],
+   "uid": "q_9fd8fef2cd"
   },
   {
    "number": "8.30",
@@ -569,7 +548,8 @@
    "priority": "detail",
    "tags": [
     "topic:ett-depth"
-   ]
+   ],
+   "uid": "q_9968a72b9c"
   },
   {
    "number": "8.30",
@@ -598,7 +578,8 @@
     },
     "result": 22,
     "unit": "cm"
-   }
+   },
+   "uid": "q_35ff49fc8d"
   },
   {
    "number": "8.30",
@@ -628,7 +609,8 @@
     },
     "result": 16.5,
     "unit": "cm"
-   }
+   },
+   "uid": "q_6a557cd177"
   },
   {
    "number": "8.30",
@@ -650,7 +632,8 @@
    "tags": [
     "topic:cuff-pressure",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_a2a8fdb60c"
   },
   {
    "number": "8.30",
@@ -672,7 +655,8 @@
    "tags": [
     "topic:documentation",
     "topic:quality"
-   ]
+   ],
+   "uid": "q_5ad0a9caf1"
   },
   {
    "number": "8.30",
@@ -694,7 +678,8 @@
    "tags": [
     "topic:ett-size",
     "topic:ett-depth"
-   ]
+   ],
+   "uid": "q_ff99924a96"
   },
   {
    "number": "10.05",
@@ -716,7 +701,8 @@
    "tags": [
     "topic:heaven",
     "topic:difficult-airway"
-   ]
+   ],
+   "uid": "q_1939e01269"
   },
   {
    "number": "10.05",
@@ -737,7 +723,8 @@
    "priority": "detail",
    "tags": [
     "topic:heaven"
-   ]
+   ],
+   "uid": "q_44f35bde61"
   },
   {
    "number": "10.05",
@@ -758,7 +745,8 @@
    "priority": "detail",
    "tags": [
     "topic:heaven"
-   ]
+   ],
+   "uid": "q_c8cf5f7858"
   },
   {
    "number": "10.05",
@@ -780,7 +768,8 @@
    "tags": [
     "topic:shock-index",
     "topic:hypotension"
-   ]
+   ],
+   "uid": "q_db639ff112"
   },
   {
    "number": "10.05",
@@ -802,7 +791,8 @@
    "tags": [
     "equipment:c-mac",
     "topic:video-laryngoscopy"
-   ]
+   ],
+   "uid": "q_5d76db10ae"
   },
   {
    "number": "10.05",
@@ -823,7 +813,8 @@
    "priority": "core",
    "tags": [
     "topic:checklist"
-   ]
+   ],
+   "uid": "q_386b2e5aab"
   },
   {
    "number": "10.05",
@@ -845,7 +836,8 @@
    "tags": [
     "topic:tube-confirmation",
     "topic:checklist"
-   ]
+   ],
+   "uid": "q_94ebf4b2ce"
   },
   {
    "number": "10.05",
@@ -867,7 +859,8 @@
    "tags": [
     "topic:post-intubation-sedation",
     "topic:checklist"
-   ]
+   ],
+   "uid": "q_f3ac41e53e"
   },
   {
    "number": "10.05",
@@ -896,7 +889,8 @@
     },
     "result": 100,
     "unit": "mg"
-   }
+   },
+   "uid": "q_9753b13a12"
   },
   {
    "number": "10.05",
@@ -925,7 +919,8 @@
     },
     "result": 200,
     "unit": "mg"
-   }
+   },
+   "uid": "q_3baa09f6a3"
   },
   {
    "number": "10.05",
@@ -954,7 +949,8 @@
     },
     "result": 40,
     "unit": "mg"
-   }
+   },
+   "uid": "q_0ae4d56d3c"
   },
   {
    "number": "10.05",
@@ -984,7 +980,8 @@
     },
     "result": 2.5,
     "unit": "mg"
-   }
+   },
+   "uid": "q_95497215cf"
   },
   {
    "number": "10.05",
@@ -1014,7 +1011,8 @@
     },
     "result": 0.07,
     "unit": "mg"
-   }
+   },
+   "uid": "q_13664754b3"
   },
   {
    "number": "10.05",
@@ -1043,7 +1041,8 @@
      "A": 4
     },
     "result": 4.5
-   }
+   },
+   "uid": "q_639c185540"
   },
   {
    "number": "10.05",
@@ -1074,7 +1073,8 @@
     },
     "result": 18,
     "unit": "cm"
-   }
+   },
+   "uid": "q_746d685bbc"
   }
  ]
 }

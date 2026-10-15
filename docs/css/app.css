@@ -219,6 +219,12 @@ html, body { max-width: 100%; overflow-x: hidden; }
                       line-height: var(--lh-snug); }
 .modcard-tick { color: var(--accent); flex: none; }
 .modcard-sub  { color: var(--text-3); font-size: var(--fs-sm); }
+.modcard-secs { list-style: none; margin: var(--sp-2) 0 0; padding: 0; text-align: left;
+  font-size: var(--fs-sm); color: var(--text-2); display: grid; gap: 2px; }
+.modcard-secs li { display: flex; gap: var(--sp-2); min-width: 0; }
+.modcard-secs li > span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.modcard-num { flex: none; min-width: 3.2em; color: var(--text-3); font-variant-numeric: tabular-nums; }
+.modcard-more { color: var(--text-3); font-style: italic; }
 .modcard-foot { display: flex; justify-content: space-between; align-items: center;
                 gap: var(--sp-2); margin-top: auto; padding-top: var(--sp-3);
                 color: var(--text-3); font-size: var(--fs-xs); }

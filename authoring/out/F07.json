@@ -21,7 +21,8 @@
    "tags": [
     "topic:termination-of-resuscitation",
     "topic:cardiac-arrest"
-   ]
+   ],
+   "uid": "q_abf45296bb"
   },
   {
    "number": "10.07",
@@ -43,7 +44,8 @@
    "tags": [
     "topic:termination-of-resuscitation",
     "topic:medical-control"
-   ]
+   ],
+   "uid": "q_03def8bb74"
   },
   {
    "number": "10.07",
@@ -65,7 +67,8 @@
    "tags": [
     "topic:termination-of-resuscitation",
     "topic:scope"
-   ]
+   ],
+   "uid": "q_84c3623be5"
   },
   {
    "number": "10.07",
@@ -87,7 +90,8 @@
    "tags": [
     "topic:termination-of-resuscitation",
     "topic:cardiac-arrest"
-   ]
+   ],
+   "uid": "q_6132d5265f"
   },
   {
    "number": "10.07",
@@ -109,7 +113,8 @@
    "tags": [
     "topic:termination-of-resuscitation",
     "topic:reversible-causes"
-   ]
+   ],
+   "uid": "q_d0dd6ed9a0"
   },
   {
    "number": "10.07",
@@ -132,7 +137,8 @@
     "topic:termination-of-resuscitation",
     "population:pediatric",
     "topic:medical-control"
-   ]
+   ],
+   "uid": "q_041ecacae2"
   },
   {
    "number": "10.07",
@@ -153,7 +159,8 @@
    "priority": "core",
    "tags": [
     "topic:termination-of-resuscitation"
-   ]
+   ],
+   "uid": "q_bbd25abeaf"
   },
   {
    "number": "10.07",
@@ -175,7 +182,8 @@
    "tags": [
     "topic:termination-of-resuscitation",
     "topic:vascular-access"
-   ]
+   ],
+   "uid": "q_a459ae04cf"
   },
   {
    "number": "10.08",
@@ -197,7 +205,8 @@
    "tags": [
     "topic:traumatic-arrest",
     "topic:cardiac-arrest"
-   ]
+   ],
+   "uid": "q_cb4571d8c1"
   },
   {
    "number": "10.08",
@@ -218,7 +227,8 @@
    "priority": "core",
    "tags": [
     "topic:traumatic-arrest"
-   ]
+   ],
+   "uid": "q_b571b44617"
   },
   {
    "number": "10.08",
@@ -240,7 +250,8 @@
    "tags": [
     "topic:traumatic-arrest",
     "topic:cardiac-tamponade"
-   ]
+   ],
+   "uid": "q_bf00aae746"
   },
   {
    "number": "10.08",
@@ -263,7 +274,8 @@
     "topic:traumatic-arrest",
     "topic:hemorrhage",
     "topic:blood-products"
-   ]
+   ],
+   "uid": "q_9ee12ab30f"
   },
   {
    "number": "10.08",
@@ -284,7 +296,8 @@
    "priority": "core",
    "tags": [
     "topic:traumatic-arrest"
-   ]
+   ],
+   "uid": "q_c2d168f9dc"
   },
   {
    "number": "10.08",
@@ -306,7 +319,8 @@
    "tags": [
     "topic:traumatic-arrest",
     "topic:blood-products"
-   ]
+   ],
+   "uid": "q_a42746457f"
   },
   {
    "number": "10.08",
@@ -329,7 +343,8 @@
     "topic:traumatic-arrest",
     "procedure:finger-thoracostomy",
     "topic:tension-pneumothorax"
-   ]
+   ],
+   "uid": "q_b46ca3fb68"
   },
   {
    "number": "10.08",
@@ -351,7 +366,8 @@
    "tags": [
     "topic:traumatic-arrest",
     "topic:termination-of-resuscitation"
-   ]
+   ],
+   "uid": "q_b014a2ceb2"
   }
  ]
 }

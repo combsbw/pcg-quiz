@@ -191,11 +191,29 @@ function moduleCard(m, enabled, cards, params) {
         : '' }),
     ]),
     el('.modcard-sub', { text: m.subtitle || `${m.question_count} questions` }),
+    sectionList(m),
     el('.meter', { style: { marginTop: 'var(--sp-3)' } }, [el('i', { style: { width: `${prog * 100}%` } })]),
     el('.modcard-foot', {}, [
       el('span', { text: `${seen}/${m.question_count} seen` }),
       locked.length ? el('span.chip', { text: 'builds on earlier part' }) : null,
     ]),
+  ]);
+}
+
+/** The guidelines a module covers, as "number  title" rows, so a module reads
+ *  as "Pain Management, Post-Intubation Sedation…" rather than "2.07–2.09". */
+function sectionList(m) {
+  const secs = Array.isArray(m.sections) ? m.sections : [];
+  if (!secs.length || (secs.length === 1 && String(m.id).startsWith('focus-'))) return null;
+  const MAX = 6;
+  const shown = secs.length > MAX ? secs.slice(0, MAX - 1) : secs;
+  return el('ul.modcard-secs', {}, [
+    ...shown.map((x) => el('li', { title: `${x.number} ${x.title || ''}` }, [
+      el('span.modcard-num', { text: x.number }),
+      el('span', { text: x.title || '' }),
+    ])),
+    secs.length > shown.length
+      ? el('li.modcard-more', { text: `+ ${secs.length - shown.length} more sections` }) : null,
   ]);
 }
 

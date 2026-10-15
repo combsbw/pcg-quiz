@@ -21,7 +21,8 @@
    "tags": [
     "procedure:chest-tube",
     "topic:tension-pneumothorax"
-   ]
+   ],
+   "uid": "q_ddce397a29"
   },
   {
    "number": "8.03",
@@ -43,7 +44,8 @@
    "tags": [
     "procedure:chest-tube",
     "topic:equipment"
-   ]
+   ],
+   "uid": "q_8fcc03c94f"
   },
   {
    "number": "8.03",
@@ -66,7 +68,8 @@
     "procedure:chest-tube",
     "drug:lidocaine",
     "route:local"
-   ]
+   ],
+   "uid": "q_855a7072dc"
   },
   {
    "number": "8.03",
@@ -98,7 +101,8 @@
     },
     "result": 4,
     "unit": "mL"
-   }
+   },
+   "uid": "q_6b80ab8a06"
   },
   {
    "number": "8.03",
@@ -121,7 +125,8 @@
     "procedure:chest-tube",
     "drug:lidocaine",
     "topic:sterile-technique"
-   ]
+   ],
+   "uid": "q_0f5f5d31aa"
   },
   {
    "number": "8.03",
@@ -143,7 +148,8 @@
    "tags": [
     "procedure:chest-tube",
     "topic:equipment"
-   ]
+   ],
+   "uid": "q_850c0606eb"
   },
   {
    "number": "8.03",
@@ -165,7 +171,8 @@
    "tags": [
     "procedure:chest-tube",
     "topic:landmark"
-   ]
+   ],
+   "uid": "q_e8c9bf10e2"
   },
   {
    "number": "8.03",
@@ -186,7 +193,8 @@
    "priority": "detail",
    "tags": [
     "procedure:chest-tube"
-   ]
+   ],
+   "uid": "q_f6be78e2ff"
   },
   {
    "number": "8.03",
@@ -208,7 +216,8 @@
    "tags": [
     "procedure:chest-tube",
     "topic:hemothorax"
-   ]
+   ],
+   "uid": "q_63d43cffde"
   },
   {
    "number": "8.03",
@@ -230,7 +239,8 @@
    "tags": [
     "procedure:chest-tube",
     "topic:documentation"
-   ]
+   ],
+   "uid": "q_4711e8d715"
   },
   {
    "number": "8.03",
@@ -252,7 +262,8 @@
    "tags": [
     "procedure:chest-tube",
     "topic:landmark"
-   ]
+   ],
+   "uid": "q_7b8558c489"
   },
   {
    "number": "8.03",
@@ -274,7 +285,8 @@
    "tags": [
     "procedure:chest-tube",
     "topic:landmark"
-   ]
+   ],
+   "uid": "q_fba1cd1ffd"
   },
   {
    "number": "8.08",
@@ -296,7 +308,8 @@
    "tags": [
     "procedure:finger-thoracostomy",
     "topic:traumatic-arrest"
-   ]
+   ],
+   "uid": "q_2f41a9d96c"
   },
   {
    "number": "8.08",
@@ -318,7 +331,8 @@
    "tags": [
     "procedure:finger-thoracostomy",
     "topic:tension-pneumothorax"
-   ]
+   ],
+   "uid": "q_5b82ecab72"
   },
   {
    "number": "8.08",
@@ -341,7 +355,8 @@
     "procedure:finger-thoracostomy",
     "topic:tension-pneumothorax",
     "topic:capnography"
-   ]
+   ],
+   "uid": "q_e54fd17572"
   },
   {
    "number": "8.08",
@@ -363,7 +378,8 @@
    "tags": [
     "procedure:finger-thoracostomy",
     "topic:landmark"
-   ]
+   ],
+   "uid": "q_9f6975bdad"
   },
   {
    "number": "8.08",
@@ -385,7 +401,8 @@
    "tags": [
     "procedure:finger-thoracostomy",
     "topic:provider-safety"
-   ]
+   ],
+   "uid": "q_8025a2a4c8"
   },
   {
    "number": "8.08",
@@ -407,7 +424,8 @@
    "tags": [
     "procedure:finger-thoracostomy",
     "topic:wound-care"
-   ]
+   ],
+   "uid": "q_cac855e9aa"
   },
   {
    "number": "8.08",
@@ -429,7 +447,8 @@
    "tags": [
     "procedure:finger-thoracostomy",
     "topic:anatomy"
-   ]
+   ],
+   "uid": "q_61d11db323"
   },
   {
    "number": "8.24",
@@ -450,7 +469,8 @@
    "priority": "core",
    "tags": [
     "procedure:needle-cricothyrotomy"
-   ]
+   ],
+   "uid": "q_20b13b7ebd"
   },
   {
    "number": "8.24",
@@ -472,7 +492,8 @@
    "tags": [
     "procedure:needle-cricothyrotomy",
     "topic:complications"
-   ]
+   ],
+   "uid": "q_ed553d22a3"
   },
   {
    "number": "8.24",
@@ -494,7 +515,8 @@
    "tags": [
     "procedure:needle-cricothyrotomy",
     "topic:equipment"
-   ]
+   ],
+   "uid": "q_f71f5830b2"
   },
   {
    "number": "8.24",
@@ -515,7 +537,8 @@
    "priority": "detail",
    "tags": [
     "procedure:needle-cricothyrotomy"
-   ]
+   ],
+   "uid": "q_9e7088596c"
   },
   {
    "number": "8.24",
@@ -537,7 +560,8 @@
    "tags": [
     "procedure:needle-cricothyrotomy",
     "topic:technique"
-   ]
+   ],
+   "uid": "q_5c6d3039a4"
   },
   {
    "number": "8.24",
@@ -559,7 +583,8 @@
    "tags": [
     "procedure:needle-cricothyrotomy",
     "topic:ventilation"
-   ]
+   ],
+   "uid": "q_3035a6cb8a"
   },
   {
    "number": "8.24",
@@ -582,7 +607,8 @@
     "procedure:needle-cricothyrotomy",
     "topic:ventilation",
     "topic:capnography"
-   ]
+   ],
+   "uid": "q_07fb7c90a7"
   },
   {
    "number": "8.24",
@@ -604,7 +630,8 @@
    "tags": [
     "procedure:needle-cricothyrotomy",
     "topic:capnography"
-   ]
+   ],
+   "uid": "q_2bc4dbaad3"
   },
   {
    "number": "8.24",
@@ -626,7 +653,8 @@
    "tags": [
     "procedure:needle-cricothyrotomy",
     "topic:ventilation"
-   ]
+   ],
+   "uid": "q_9fb96e1839"
   },
   {
    "number": "8.24",
@@ -648,7 +676,8 @@
    "tags": [
     "procedure:needle-cricothyrotomy",
     "topic:securement"
-   ]
+   ],
+   "uid": "q_e5cccb5b65"
   },
   {
    "number": "8.32",
@@ -670,7 +699,8 @@
    "tags": [
     "procedure:surgical-cricothyrotomy",
     "topic:equipment"
-   ]
+   ],
+   "uid": "q_e1ccc03fbf"
   },
   {
    "number": "8.32",
@@ -692,7 +722,8 @@
    "tags": [
     "procedure:surgical-cricothyrotomy",
     "topic:provider-safety"
-   ]
+   ],
+   "uid": "q_0210d59752"
   },
   {
    "number": "8.32",
@@ -714,7 +745,8 @@
    "tags": [
     "procedure:surgical-cricothyrotomy",
     "topic:technique"
-   ]
+   ],
+   "uid": "q_0f4e95a3ec"
   },
   {
    "number": "8.32",
@@ -736,7 +768,8 @@
    "tags": [
     "procedure:surgical-cricothyrotomy",
     "topic:technique"
-   ]
+   ],
+   "uid": "q_226d142c91"
   },
   {
    "number": "8.32",
@@ -758,7 +791,8 @@
    "tags": [
     "procedure:surgical-cricothyrotomy",
     "topic:sequence"
-   ]
+   ],
+   "uid": "q_10a4e40516"
   },
   {
    "number": "8.32",
@@ -780,7 +814,8 @@
    "tags": [
     "procedure:surgical-cricothyrotomy",
     "topic:technique"
-   ]
+   ],
+   "uid": "q_08fcfeddb0"
   },
   {
    "number": "8.32",
@@ -802,7 +837,8 @@
    "tags": [
     "procedure:surgical-cricothyrotomy",
     "topic:sequence"
-   ]
+   ],
+   "uid": "q_74e8c72f4e"
   },
   {
    "number": "8.32",
@@ -824,7 +860,8 @@
    "tags": [
     "procedure:surgical-cricothyrotomy",
     "topic:securement"
-   ]
+   ],
+   "uid": "q_956810fc2e"
   },
   {
    "number": "8.32",
@@ -846,7 +883,8 @@
    "tags": [
     "procedure:surgical-cricothyrotomy",
     "topic:ventilation"
-   ]
+   ],
+   "uid": "q_69ae88cd01"
   },
   {
    "number": "8.28",
@@ -868,7 +906,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:equipment"
-   ]
+   ],
+   "uid": "q_6de0e08a09"
   },
   {
    "number": "8.28",
@@ -890,7 +929,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:landmark"
-   ]
+   ],
+   "uid": "q_68d3e12af3"
   },
   {
    "number": "8.28",
@@ -912,7 +952,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:technique"
-   ]
+   ],
+   "uid": "q_83baad2a3c"
   },
   {
    "number": "8.28",
@@ -934,7 +975,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:monitoring"
-   ]
+   ],
+   "uid": "q_c58839e580"
   },
   {
    "number": "8.28",
@@ -956,7 +998,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:technique"
-   ]
+   ],
+   "uid": "q_6f09994990"
   },
   {
    "number": "8.28",
@@ -977,7 +1020,8 @@
    "priority": "detail",
    "tags": [
     "procedure:pericardiocentesis"
-   ]
+   ],
+   "uid": "q_91b1370164"
   },
   {
    "number": "8.28",
@@ -1000,7 +1044,8 @@
     "procedure:pericardiocentesis",
     "topic:tamponade",
     "topic:capnography"
-   ]
+   ],
+   "uid": "q_6d8f66edf9"
   }
  ]
 }

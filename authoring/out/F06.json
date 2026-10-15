@@ -22,7 +22,8 @@
     "topic:anaphylaxis",
     "topic:blood-pressure",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_4db006cca3"
   },
   {
    "number": "10.01",
@@ -44,7 +45,8 @@
    "tags": [
     "topic:aortic-emergency",
     "drug:diltiazem"
-   ]
+   ],
+   "uid": "q_bf37f8ecb6"
   },
   {
    "number": "10.01",
@@ -67,7 +69,8 @@
     "topic:aortic-emergency",
     "drug:nicardipine",
     "drug:nitroglycerin"
-   ]
+   ],
+   "uid": "q_1b96bfcf1c"
   },
   {
    "number": "10.01",
@@ -90,7 +93,8 @@
     "topic:aortic-emergency",
     "drug:norepinephrine",
     "topic:hypotension"
-   ]
+   ],
+   "uid": "q_dfc3a879bf"
   },
   {
    "number": "10.01",
@@ -112,7 +116,8 @@
    "tags": [
     "topic:intracerebral-hemorrhage",
     "topic:blood-pressure"
-   ]
+   ],
+   "uid": "q_05eebeb883"
   },
   {
    "number": "10.01",
@@ -135,7 +140,8 @@
     "topic:intracerebral-hemorrhage",
     "drug:nicardipine",
     "drug:labetalol"
-   ]
+   ],
+   "uid": "q_bcafcedacc"
   },
   {
    "number": "10.01",
@@ -158,7 +164,8 @@
     "topic:cardiogenic-shock",
     "drug:epinephrine",
     "drug:norepinephrine"
-   ]
+   ],
+   "uid": "q_c3834e1d49"
   },
   {
    "number": "10.01",
@@ -189,7 +196,8 @@
     },
     "result": 102,
     "unit": "mmHg"
-   }
+   },
+   "uid": "q_bfea62258b"
   },
   {
    "number": "10.01",
@@ -211,7 +219,8 @@
    "tags": [
     "topic:hemorrhagic-shock",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_5bc977b344"
   },
   {
    "number": "10.01",
@@ -233,7 +242,8 @@
    "tags": [
     "topic:hemorrhagic-shock",
     "drug:epinephrine"
-   ]
+   ],
+   "uid": "q_47b59a5bf9"
   },
   {
    "number": "10.01",
@@ -255,7 +265,8 @@
    "tags": [
     "topic:hypovolemia",
     "topic:blood-pressure"
-   ]
+   ],
+   "uid": "q_3dc74424de"
   },
   {
    "number": "10.01",
@@ -277,7 +288,8 @@
    "tags": [
     "topic:ischemic-stroke",
     "topic:blood-pressure"
-   ]
+   ],
+   "uid": "q_5bcfb23b78"
   },
   {
    "number": "10.01",
@@ -300,7 +312,8 @@
     "topic:spinal-injury",
     "topic:neurogenic-shock",
     "drug:norepinephrine"
-   ]
+   ],
+   "uid": "q_29e3b45955"
   },
   {
    "number": "10.01",
@@ -323,7 +336,8 @@
     "topic:pre-eclampsia",
     "drug:labetalol",
     "drug:hydralazine"
-   ]
+   ],
+   "uid": "q_07fc0ab980"
   },
   {
    "number": "10.01",
@@ -345,7 +359,8 @@
    "tags": [
     "topic:post-rosc",
     "topic:blood-pressure"
-   ]
+   ],
+   "uid": "q_c54a193684"
   },
   {
    "number": "10.01",
@@ -367,7 +382,8 @@
    "tags": [
     "topic:post-rosc",
     "drug:epinephrine"
-   ]
+   ],
+   "uid": "q_d13b4247c3"
   },
   {
    "number": "10.03",
@@ -389,7 +405,8 @@
    "tags": [
     "topic:hemodynamics",
     "topic:cardiac-index"
-   ]
+   ],
+   "uid": "q_e7ead7f6e1"
   },
   {
    "number": "10.03",
@@ -411,7 +428,8 @@
    "tags": [
     "topic:hemodynamics",
     "topic:pap"
-   ]
+   ],
+   "uid": "q_00fd62d664"
   },
   {
    "number": "10.03",
@@ -433,7 +451,8 @@
    "tags": [
     "topic:hemodynamics",
     "topic:rap"
-   ]
+   ],
+   "uid": "q_fa52c20b02"
   },
   {
    "number": "10.03",
@@ -455,7 +474,8 @@
    "tags": [
     "topic:hemodynamics",
     "topic:pvr"
-   ]
+   ],
+   "uid": "q_b84d00864e"
   },
   {
    "number": "10.03",
@@ -477,7 +497,8 @@
    "tags": [
     "topic:hemodynamics",
     "topic:cvp"
-   ]
+   ],
+   "uid": "q_2cbdc69ad9"
   },
   {
    "number": "10.03",
@@ -499,7 +520,8 @@
    "tags": [
     "topic:hemodynamics",
     "topic:pcwp"
-   ]
+   ],
+   "uid": "q_f599101002"
   },
   {
    "number": "10.03",
@@ -521,7 +543,8 @@
    "tags": [
     "topic:hemodynamics",
     "topic:pcwp"
-   ]
+   ],
+   "uid": "q_b3dae00e12"
   },
   {
    "number": "10.03",
@@ -543,7 +566,8 @@
    "tags": [
     "topic:hemodynamics",
     "topic:stroke-volume"
-   ]
+   ],
+   "uid": "q_388759c345"
   },
   {
    "number": "10.06",
@@ -566,7 +590,8 @@
     "topic:stroke",
     "topic:van",
     "topic:lvo"
-   ]
+   ],
+   "uid": "q_377de96b4d"
   },
   {
    "number": "10.06",
@@ -588,7 +613,8 @@
    "tags": [
     "topic:stroke",
     "topic:van"
-   ]
+   ],
+   "uid": "q_beffa7ff4e"
   },
   {
    "number": "10.06",
@@ -611,7 +637,8 @@
     "topic:stroke",
     "topic:van",
     "topic:aphasia"
-   ]
+   ],
+   "uid": "q_115e71c003"
   },
   {
    "number": "10.06",
@@ -634,7 +661,8 @@
     "topic:stroke",
     "topic:c-stat",
     "topic:lvo"
-   ]
+   ],
+   "uid": "q_99c4d044ea"
   },
   {
    "number": "10.06",
@@ -657,7 +685,8 @@
     "topic:stroke",
     "topic:c-stat",
     "topic:lvo"
-   ]
+   ],
+   "uid": "q_9ef362e112"
   },
   {
    "number": "10.06",
@@ -680,7 +709,8 @@
     "topic:stroke",
     "topic:lams",
     "topic:lvo"
-   ]
+   ],
+   "uid": "q_6b0f2ee690"
   },
   {
    "number": "10.06",
@@ -703,7 +733,8 @@
     "topic:stroke",
     "topic:lams",
     "topic:lvo"
-   ]
+   ],
+   "uid": "q_e077f0daf4"
   },
   {
    "number": "10.06",
@@ -726,7 +757,8 @@
     "topic:stroke",
     "topic:race",
     "topic:agnosia"
-   ]
+   ],
+   "uid": "q_959d394f2d"
   },
   {
    "number": "10.06",
@@ -749,7 +781,8 @@
     "topic:stroke",
     "topic:race",
     "topic:lvo"
-   ]
+   ],
+   "uid": "q_241abd6d24"
   },
   {
    "number": "10.06",
@@ -772,7 +805,8 @@
     "topic:stroke",
     "topic:race",
     "topic:lvo"
-   ]
+   ],
+   "uid": "q_ed54301837"
   },
   {
    "number": "10.06",
@@ -794,7 +828,8 @@
    "tags": [
     "topic:stroke",
     "topic:lapss"
-   ]
+   ],
+   "uid": "q_5b82c1a739"
   },
   {
    "number": "10.06",
@@ -816,7 +851,8 @@
    "tags": [
     "topic:stroke",
     "topic:lapss"
-   ]
+   ],
+   "uid": "q_ec59596e57"
   },
   {
    "number": "10.06",
@@ -839,7 +875,8 @@
     "topic:stroke",
     "topic:lapss",
     "topic:stroke-alert"
-   ]
+   ],
+   "uid": "q_fcdbe48f1e"
   }
  ]
 }
