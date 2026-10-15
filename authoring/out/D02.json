@@ -1,0 +1,3086 @@
+{
+ "batch": "D02",
+ "questions": [
+  {
+   "number": "12.16",
+   "title": "CroFab",
+   "page": 328,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the initial CroFab dose for a symptomatic pit viper bite?",
+   "options": [
+    "4-6 grams",
+    "8-12 grams",
+    "2 grams",
+    "12 grams"
+   ],
+   "answer_index": 0,
+   "explanation": "All envenomations start at 4-6 grams regardless of age or weight. Some clinicians use 8 to 12 vials up front only for immediately life-threatening presentations such as shock or serious active bleeding, and 12 vials is the ceiling on the initial dose.",
+   "priority": "core",
+   "tags": [
+    "drug:crofab",
+    "topic:envenomation",
+    "topic:snakebite"
+   ]
+  },
+  {
+   "number": "12.16",
+   "title": "CroFab",
+   "page": 328,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum initial dose of CroFab?",
+   "options": [
+    "12 vials",
+    "6 vials",
+    "4 vials",
+    "2 vials"
+   ],
+   "answer_index": 0,
+   "explanation": "The initial dose is capped at 12 vials. If control is not achieved with the first 4-6 vials, repeat with another 4 to 6 vials rather than escalating past that ceiling in one go.",
+   "priority": "detail",
+   "tags": [
+    "drug:crofab",
+    "topic:envenomation"
+   ]
+  },
+  {
+   "number": "12.16",
+   "title": "CroFab",
+   "page": 328,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "A patient with a symptomatic pit viper bite has tolerated the first 10 minutes of a CroFab infusion with no allergic reaction. What does 12.16 direct?",
+   "options": [
+    "Increase the infusion rate to 250 mL/hr",
+    "Continue at 25-50 mL/hr for the full 60 minutes",
+    "Give an additional 4 to 6 vials now",
+    "Start maintenance dosing of 2 vials"
+   ],
+   "answer_index": 0,
+   "explanation": "CroFab is started slowly at 25-50 mL/hr for the first 10 minutes specifically to catch an anaphylactoid reaction; once that window passes uneventfully the rate goes up to 250 mL/hr so the dose finishes over about an hour.",
+   "priority": "core",
+   "tags": [
+    "drug:crofab",
+    "topic:envenomation",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.16",
+   "title": "CroFab",
+   "page": 329,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "Once initial control of envenomation is achieved, what is the CroFab maintenance dose?",
+   "options": [
+    "2 vials every 6 hours",
+    "4 vials every 6 hours",
+    "2 vials every 18 hours",
+    "6 vials every 12 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "Maintenance is 2 vials q6h for up to 18 hours. Dosing beyond 18 hours has not been established, though treatment may continue if the patient's condition warrants it.",
+   "priority": "detail",
+   "tags": [
+    "drug:crofab",
+    "topic:envenomation"
+   ]
+  },
+  {
+   "number": "12.16",
+   "title": "CroFab",
+   "page": 329,
+   "type": "threshold",
+   "care_level": null,
+   "population": "both",
+   "stem": "Within how long after a North American pit viper bite should antivenin therapy preferably be initiated?",
+   "options": [
+    "6 hours",
+    "1 hour",
+    "12 hours",
+    "18 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "Therapy should begin as soon as possible and preferably within 6 hours of the bite in any patient showing signs of envenomation; delay allows venom effects to become established and harder to reverse.",
+   "priority": "core",
+   "tags": [
+    "drug:crofab",
+    "topic:envenomation"
+   ]
+  },
+  {
+   "number": "12.16",
+   "title": "CroFab",
+   "page": 329,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "A pit viper bite patient arrives with a tourniquet already in place. What does 12.16 direct regarding that tourniquet?",
+   "options": [
+    "Leave it until antivenin is running and the full rate is tolerated",
+    "Remove it immediately, before antivenin is started",
+    "Leave it in place for the entire transport",
+    "Remove it after the first 10 minutes of infusion"
+   ],
+   "answer_index": 0,
+   "explanation": "Tourniquets are not recommended, but removing one releases a sequestered venom load. Antivenin is started first and the tourniquet comes off only once the patient tolerates the full infusion rate without signs of anaphylaxis.",
+   "priority": "core",
+   "tags": [
+    "drug:crofab",
+    "topic:envenomation"
+   ]
+  },
+  {
+   "number": "12.16",
+   "title": "CroFab",
+   "page": 329,
+   "type": "pearl",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "The CroFab table lists the pediatric dose as 'Same as adult.' What reason does 12.16 give?",
+   "options": [
+    "Antivenin dose reflects venom load, not patient size",
+    "Pediatric clearance of Fab fragments is slower",
+    "Vials cannot be split without losing potency",
+    "Weight-based dosing increases anaphylaxis risk"
+   ],
+   "answer_index": 0,
+   "explanation": "The FDA recommends the same initial and subsequent doses for adults and children regardless of age or weight, because the dose is titrated to the amount of venom injected rather than to the patient.",
+   "priority": "core",
+   "tags": [
+    "drug:crofab",
+    "topic:envenomation",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.16",
+   "title": "CroFab",
+   "page": 328,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of CroFab?",
+   "options": [
+    "Antivenin",
+    "Corticosteroid",
+    "Antihistamine",
+    "Antiemetic"
+   ],
+   "answer_index": 0,
+   "explanation": "CroFab is an ovine-derived antivenin: Fab fragments of IgG that bind and neutralize North American pit viper venom toxins and carry them away from target tissue for elimination.",
+   "priority": "detail",
+   "tags": [
+    "drug:crofab",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.16",
+   "title": "CroFab",
+   "page": 328,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Apart from hypersensitivity to the drug itself, which hypersensitivity is listed as a contraindication to CroFab?",
+   "options": [
+    "Papain and/or papaya",
+    "Latex or dust mites",
+    "Corticosteroids",
+    "Shellfish or iodine"
+   ],
+   "answer_index": 0,
+   "explanation": "Papain/papaya hypersensitivity is a contraindication unless benefit outweighs risk and anaphylaxis management is immediately available. Latex and dust mite sensitivity, or previous CroFab exposure, is a caution rather than a contraindication.",
+   "priority": "detail",
+   "tags": [
+    "drug:crofab",
+    "topic:allergy"
+   ]
+  },
+  {
+   "number": "12.17",
+   "title": "Dexamethasone",
+   "page": 330,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of dexamethasone for croup?",
+   "options": [
+    "0.6 mg/kg",
+    "0.3 mg/kg",
+    "0.15 mg/kg",
+    "0.1 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Croup is the only dexamethasone indication with an LFN standing order, and it is pediatric only at 0.6 mg/kg. There is no adult standing order for dexamethasone.",
+   "priority": "core",
+   "tags": [
+    "drug:dexamethasone",
+    "topic:croup",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.17",
+   "title": "Dexamethasone",
+   "page": 330,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric dose of dexamethasone for croup?",
+   "options": [
+    "12 mg",
+    "10 mg",
+    "20 mg",
+    "5 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The 0.6 mg/kg croup dose is capped at 12 mg, which is reached at about 20 kg, so most school-age children get the flat maximum rather than a weight-based calculation.",
+   "priority": "core",
+   "tags": [
+    "drug:dexamethasone",
+    "topic:croup",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.17",
+   "title": "Dexamethasone",
+   "page": 330,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of dexamethasone?",
+   "options": [
+    "Corticosteroid",
+    "Antihistamine",
+    "Antivenin",
+    "Beta blocker"
+   ],
+   "answer_index": 0,
+   "explanation": "Dexamethasone is a corticosteroid; it suppresses acute and chronic inflammation and potentiates beta-adrenergic vascular smooth muscle relaxation, which is why it is paired with nebulized epinephrine in croup.",
+   "priority": "detail",
+   "tags": [
+    "drug:dexamethasone",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.17",
+   "title": "Dexamethasone",
+   "page": 330,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which pair of effects does 12.17 warn dexamethasone may cause?",
+   "options": [
+    "Hypertension and hyperglycemia",
+    "Bradycardia and hypotension",
+    "QT prolongation and torsades",
+    "Respiratory depression and apnea"
+   ],
+   "answer_index": 0,
+   "explanation": "Dexamethasone may cause hypertension and hyperglycemia; the listed adverse reactions are nausea, vomiting, headache and dizziness. It has no cardiac conduction or respiratory depressant effect.",
+   "priority": "detail",
+   "tags": [
+    "drug:dexamethasone",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.17",
+   "title": "Dexamethasone",
+   "page": 330,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the stated duration of effect of dexamethasone?",
+   "options": [
+    "~72 hours",
+    "10-12 hours",
+    "12-23 hours",
+    "2-4 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "Onset is rapid with peak at 0.5-4 hours and duration around 72 hours. A single croup dose therefore covers the child well past the transport and the referring ED stay.",
+   "priority": "detail",
+   "tags": [
+    "drug:dexamethasone",
+    "topic:croup"
+   ]
+  },
+  {
+   "number": "12.18",
+   "title": "Dexmedetomidine",
+   "page": 331,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the starting dose of dexmedetomidine for post-intubation sedation?",
+   "options": [
+    "0.2 - 0.4 mcg/kg/hr",
+    "0.1 - 0.2 mcg/kg/hr",
+    "1.4 mcg/kg/hr",
+    "1 mcg/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Start at 0.2-0.4 mcg/kg/hr and titrate upward in 0.1-0.2 mcg/kg/hr steps; the pediatric dose is the same as adult. Dexmedetomidine sedates without respiratory depression but usually needs a supplemental agent for transport.",
+   "priority": "core",
+   "tags": [
+    "drug:dexmedetomidine",
+    "topic:sedation",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.18",
+   "title": "Dexmedetomidine",
+   "page": 331,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum dexmedetomidine infusion rate for post-intubation sedation?",
+   "options": [
+    "1.4 mcg/kg/hr",
+    "0.4 mcg/kg/hr",
+    "0.2 mcg/kg/hr",
+    "3 mcg/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Titration stops at 1.4 mcg/kg/hr. Bradycardia and hypotension become more likely at high maintenance doses, so reaching the ceiling without adequate sedation is a cue to add another agent rather than push further.",
+   "priority": "core",
+   "tags": [
+    "drug:dexmedetomidine",
+    "topic:sedation"
+   ]
+  },
+  {
+   "number": "12.18",
+   "title": "Dexmedetomidine",
+   "page": 331,
+   "type": "threshold",
+   "care_level": null,
+   "population": "both",
+   "stem": "How often may the dexmedetomidine infusion be increased?",
+   "options": [
+    "Every 20-30 minutes",
+    "Every 3-5 minutes",
+    "Every 10 minutes",
+    "Every 15 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Increases of 0.1-0.2 mcg/kg/hr are made q20-30 min. The 60-minute peak effect means faster titration stacks dose before the previous change has been seen.",
+   "priority": "detail",
+   "tags": [
+    "drug:dexmedetomidine",
+    "topic:sedation"
+   ]
+  },
+  {
+   "number": "12.18",
+   "title": "Dexmedetomidine",
+   "page": 331,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of dexmedetomidine?",
+   "options": [
+    "Alpha-2 adrenergic agonist",
+    "Non-barbiturate hypnotic",
+    "Opioid analgesic",
+    "Benzodiazepine"
+   ],
+   "answer_index": 0,
+   "explanation": "Dexmedetomidine is a selective alpha-2 agonist producing centrally mediated sympatholytic, sedative and analgesic effects, which is why bradycardia and hypotension are its characteristic problems.",
+   "priority": "detail",
+   "tags": [
+    "drug:dexmedetomidine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.18",
+   "title": "Dexmedetomidine",
+   "page": 331,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which adverse effect does 12.18 associate specifically with high maintenance doses of dexmedetomidine?",
+   "options": [
+    "Bradycardia",
+    "Tachycardia",
+    "Hypertension",
+    "Hyperglycemia"
+   ],
+   "answer_index": 0,
+   "explanation": "Bradycardia may occur with high maintenance doses, and caution is advised in heart block, hypovolemia and chronic hypertension; elderly and diabetic patients show more pronounced bradycardia and hypotension.",
+   "priority": "core",
+   "tags": [
+    "drug:dexmedetomidine",
+    "topic:sedation"
+   ]
+  },
+  {
+   "number": "12.18",
+   "title": "Dexmedetomidine",
+   "page": 331,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "Which drug does 12.18 say dexmedetomidine-induced bradycardia and sinus arrest usually respond to?",
+   "options": [
+    "Atropine",
+    "Epinephrine",
+    "Calcium chloride",
+    "Sodium bicarbonate"
+   ],
+   "answer_index": 0,
+   "explanation": "The bradycardia and sinus arrest are high vagal tone rather than a direct cardiac effect, so they usually respond to atropine alongside decreasing or stopping the infusion, fluids and vasopressors.",
+   "priority": "core",
+   "tags": [
+    "drug:dexmedetomidine",
+    "topic:bradycardia"
+   ]
+  },
+  {
+   "number": "12.18",
+   "title": "Dexmedetomidine",
+   "page": 331,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "Why does 12.18 warn against abruptly discontinuing dexmedetomidine?",
+   "options": [
+    "It can cause withdrawal symptoms",
+    "It causes rebound pulmonary hypertension",
+    "It precipitates in the IV line",
+    "It causes rebound hyperkalemia"
+   ],
+   "answer_index": 0,
+   "explanation": "Abrupt discontinuation, especially after high doses, causes withdrawal. Running out mid-transport is a planning failure, not an inconvenience.",
+   "priority": "core",
+   "tags": [
+    "drug:dexmedetomidine",
+    "topic:sedation"
+   ]
+  },
+  {
+   "number": "12.18",
+   "title": "Dexmedetomidine",
+   "page": 331,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the recommended mixture for a dexmedetomidine infusion?",
+   "options": [
+    "400 mcg / 100 mL",
+    "200 mcg / 100 mL",
+    "100 mg / 100 mL",
+    "400 mg / 250 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Dexmedetomidine is mixed 400 mcg in 100 mL, giving 4 mcg/mL. Confusing it with the 400 mg/250 mL dopamine mix is a thousand-fold error.",
+   "priority": "detail",
+   "tags": [
+    "drug:dexmedetomidine",
+    "topic:infusions"
+   ]
+  },
+  {
+   "number": "12.19",
+   "title": "Dextrose",
+   "page": 332,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dextrose dose for hypoglycemia or hypoglycemic altered mental status?",
+   "options": [
+    "250 mL of D10",
+    "5 mL/kg of D10",
+    "2 mL/kg of D10",
+    "25 mL of D50"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults get 250 mL of D10 PRN for a BGL under 60 mg/dL. The same 250 mL applies to beta blocker and salicylate overdose with hypoglycemia.",
+   "priority": "core",
+   "tags": [
+    "drug:dextrose",
+    "topic:hypoglycemia",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.19",
+   "title": "Dextrose",
+   "page": 332,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Below what blood glucose does 12.19 direct dextrose in an adult?",
+   "options": [
+    "60 mg/dL",
+    "40 mg/dL",
+    "250 mg/dL",
+    "100 mg/dL"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults and children are treated below 60 mg/dL; the neonatal threshold is lower at 40 mg/dL. The 250 mg/dL figure belongs to the hyperkalemia row, where D10 is not required above it.",
+   "priority": "core",
+   "tags": [
+    "drug:dextrose",
+    "topic:hypoglycemia"
+   ]
+  },
+  {
+   "number": "12.19",
+   "title": "Dextrose",
+   "page": 332,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dextrose dose for hypoglycemia?",
+   "options": [
+    "5 mL/kg of D10",
+    "2 mL/kg of D10",
+    "250 mL of D10",
+    "1 mL/kg of D10"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get 5 mL/kg of D10 PRN below 60 mg/dL. The 2 mL/kg figure is the neonatal dose and goes with the lower 40 mg/dL neonatal threshold.",
+   "priority": "core",
+   "tags": [
+    "drug:dextrose",
+    "topic:hypoglycemia",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.19",
+   "title": "Dextrose",
+   "page": 332,
+   "type": "dose",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "What is the neonatal dextrose dose for hypoglycemia?",
+   "options": [
+    "2 mL/kg of D10",
+    "5 mL/kg of D10",
+    "250 mL of D10",
+    "10 mL/kg of D10"
+   ],
+   "answer_index": 0,
+   "explanation": "Neonates get 2 mL/kg of D10 PRN, less than half the 5 mL/kg given to older children, and only below a BGL of 40 mg/dL rather than 60.",
+   "priority": "core",
+   "tags": [
+    "drug:dextrose",
+    "topic:hypoglycemia",
+    "population:neonatal"
+   ]
+  },
+  {
+   "number": "12.19",
+   "title": "Dextrose",
+   "page": 332,
+   "type": "threshold",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "Below what blood glucose does 12.19 direct dextrose in a neonate?",
+   "options": [
+    "40 mg/dL",
+    "60 mg/dL",
+    "250 mg/dL",
+    "80 mg/dL"
+   ],
+   "answer_index": 0,
+   "explanation": "The neonatal trigger is 40 mg/dL, lower than the 60 mg/dL used for adults and children. Treating every neonate below 60 overtreats a population that tolerates lower values.",
+   "priority": "core",
+   "tags": [
+    "drug:dextrose",
+    "topic:hypoglycemia",
+    "population:neonatal"
+   ]
+  },
+  {
+   "number": "12.19",
+   "title": "Dextrose",
+   "page": 332,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dextrose and insulin regimen for hyperkalemia?",
+   "options": [
+    "250 mL of D10 with insulin 10 units",
+    "250 mL of D10 with insulin 0.1 units/kg",
+    "2 mL/kg of D10 with insulin 10 units",
+    "250 mL of D10 alone"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults get 250 mL of D10 with 10 units of insulin to drive potassium intracellularly; the dextrose is there to prevent iatrogenic hypoglycemia and is not required if the BGL is already high.",
+   "priority": "core",
+   "tags": [
+    "drug:dextrose",
+    "topic:hyperkalemia",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.19",
+   "title": "Dextrose",
+   "page": 332,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dextrose and insulin regimen for hyperkalemia?",
+   "options": [
+    "2 mL/kg of D10 plus insulin 0.1 units/kg over 30 min",
+    "5 mL/kg of D10 plus insulin 0.1 units/kg over 30 min",
+    "2 mL/kg of D10 plus insulin 10 units over 30 min",
+    "250 mL of D10 plus insulin 0.1 units/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get 2 mL/kg of D10 with weight-based insulin at 0.1 units/kg given over 30 minutes, not the flat 10 units used in adults.",
+   "priority": "detail",
+   "tags": [
+    "drug:dextrose",
+    "topic:hyperkalemia",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.19",
+   "title": "Dextrose",
+   "page": 332,
+   "type": "procedure",
+   "care_level": null,
+   "population": null,
+   "stem": "How does 12.19 direct you to make D10 from D50?",
+   "options": [
+    "Waste 50 mL from a 250 mL bag of NS, then add 50 mL of D50",
+    "Draw 25 mL of D50 into a 60 mL syringe, then add 25 mL of NS",
+    "Waste 25 mL from a 250 mL bag of NS, then add 25 mL of D50",
+    "Add 50 mL of D50 to a 500 mL bag of NS"
+   ],
+   "answer_index": 0,
+   "explanation": "D10 is a 1:4 dilution made in the bag: waste 50 mL from a 250 mL NS bag and replace it with 50 mL of D50. The syringe method with 25 mL of each makes D25, not D10.",
+   "priority": "core",
+   "tags": [
+    "drug:dextrose",
+    "topic:hypoglycemia",
+    "procedure:drug preparation"
+   ]
+  },
+  {
+   "number": "12.19",
+   "title": "Dextrose",
+   "page": 332,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "In which patients does 12.19 direct giving 100 mg of thiamine along with dextrose?",
+   "options": [
+    "Those suspected of thiamine deficiency",
+    "All patients with a BGL under 60 mg/dL",
+    "All pediatric patients",
+    "Patients receiving insulin for hyperkalemia"
+   ],
+   "answer_index": 0,
+   "explanation": "In a thiamine-deficient patient dextrose can precipitate Wernicke's encephalopathy or Korsakoff's psychosis, so 100 mg of thiamine is given with it when deficiency is suspected.",
+   "priority": "detail",
+   "tags": [
+    "drug:dextrose",
+    "topic:hypoglycemia"
+   ]
+  },
+  {
+   "number": "12.19",
+   "title": "Dextrose",
+   "page": 332,
+   "type": "complication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which patient group does 12.19 caution about when giving dextrose?",
+   "options": [
+    "Patients with rising intracranial pressure",
+    "Patients with asthma or COPD",
+    "Patients with long QT syndrome",
+    "Patients with sick sinus syndrome"
+   ],
+   "answer_index": 0,
+   "explanation": "Dextrose may worsen cerebral edema when ICP is already rising. Extravasation is the other listed hazard, causing tissue necrosis especially in high concentrations.",
+   "priority": "detail",
+   "tags": [
+    "drug:dextrose",
+    "topic:head injury"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult IV dose of diazepam for seizures?",
+   "options": [
+    "5 - 10 mg",
+    "1 - 2 mg",
+    "1 - 5 mg",
+    "0.15 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Seizures get the largest diazepam dose, 5-10 mg IV repeatable q5min. The 1-2 mg dose is for anxiety and 1-5 mg covers the combative patient and post-intubation sedation.",
+   "priority": "core",
+   "tags": [
+    "drug:diazepam",
+    "topic:seizure",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric IV dose of diazepam for seizures?",
+   "options": [
+    "0.15 mg/kg",
+    "0.05 mg/kg",
+    "0.05 - 0.1 mg/kg",
+    "0.3 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric seizures get 0.15 mg/kg IV q5min, three times the 0.05 mg/kg anxiety dose. 0.05-0.1 mg/kg is the combative and post-intubation sedation dose.",
+   "priority": "core",
+   "tags": [
+    "drug:diazepam",
+    "topic:seizure",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum total dose of diazepam for an adult in status seizures?",
+   "options": [
+    "30 mg",
+    "10 mg",
+    "5 mg",
+    "20 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The 5-10 mg doses may be repeated q5min to a 30 mg total. The pediatric total is the same 30 mg, but pediatric single doses are capped at 5 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:diazepam",
+    "topic:seizure"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum single dose of diazepam for pediatric seizures?",
+   "options": [
+    "5 mg",
+    "10 mg",
+    "30 mg",
+    "2 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "A pediatric seizure dose of 0.15 mg/kg is capped at 5 mg per dose, so a child over about 33 kg gets the flat cap, while the cumulative total still runs to 30 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:diazepam",
+    "topic:seizure",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult IV dose of diazepam for anxiety?",
+   "options": [
+    "1 - 2 mg",
+    "1 - 5 mg",
+    "5 - 10 mg",
+    "0.05 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Anxiety gets the smallest dose, 1-2 mg IV repeatable q30min PRN. The combative patient gets 1-5 mg at the same q30min interval.",
+   "priority": "detail",
+   "tags": [
+    "drug:diazepam",
+    "topic:anxiety",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult IV dose of diazepam for a combative patient?",
+   "options": [
+    "1 - 5 mg",
+    "1 - 2 mg",
+    "5 - 10 mg",
+    "0.05 - 0.1 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "The combative patient gets 1-5 mg IV q30min PRN, repeatable every 30 minutes. 0.05-0.1 mg/kg is the pediatric dose for the same indication.",
+   "priority": "core",
+   "tags": [
+    "drug:diazepam",
+    "topic:agitation",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How often may diazepam be repeated when used for post-intubation sedation?",
+   "options": [
+    "Every 15 minutes",
+    "Every 30 minutes",
+    "Every 5 minutes",
+    "Every 10 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Post-intubation sedation uses the same 1-5 mg dose as the combative patient but repeats q15min rather than q30min, because an intubated patient cannot tell you the sedation has worn off.",
+   "priority": "core",
+   "tags": [
+    "drug:diazepam",
+    "topic:sedation"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum dose of diazepam for a pediatric combative patient?",
+   "options": [
+    "5 mg",
+    "10 mg",
+    "30 mg",
+    "2 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric combative dose of 0.05-0.1 mg/kg IV is capped at 5 mg, the same single-dose ceiling used for pediatric seizures and post-intubation sedation.",
+   "priority": "detail",
+   "tags": [
+    "drug:diazepam",
+    "topic:agitation",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum rate of IV diazepam administration in an adult?",
+   "options": [
+    "5 mg/min",
+    "2 mg/min",
+    "10 mg/min",
+    "25 mg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults are limited to 5 mg/min and children to 2 mg/min; rapid administration causes respiratory depression and hypotension.",
+   "priority": "detail",
+   "tags": [
+    "drug:diazepam",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "Why does 12.20 direct that diazepam never be diluted before administration?",
+   "options": [
+    "It precipitates",
+    "It loses potency within minutes",
+    "It causes hemolysis",
+    "It raises the risk of extravasation necrosis"
+   ],
+   "answer_index": 0,
+   "explanation": "Diazepam precipitates when diluted. It should be given undiluted as close to the IV hub as possible, with the line watched for extravasation.",
+   "priority": "core",
+   "tags": [
+    "drug:diazepam",
+    "procedure:drug preparation"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "Diazepam has extravasated. After stopping the infusion and disconnecting, what does 12.20 direct next?",
+   "options": [
+    "Gently aspirate the extravasated solution",
+    "Flush the line with normal saline",
+    "Remove the cannula and apply direct pressure",
+    "Inject the site with 0.1 mg/mL epinephrine"
+   ],
+   "answer_index": 0,
+   "explanation": "Leave the cannula in place, gently aspirate the extravasated drug and specifically do NOT flush the line; only then remove the needle, elevate the extremity and apply dry cold or warm compresses.",
+   "priority": "core",
+   "tags": [
+    "drug:diazepam",
+    "complication:extravasation"
+   ]
+  },
+  {
+   "number": "12.20",
+   "title": "Diazepam",
+   "page": 333,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which is a contraindication to diazepam?",
+   "options": [
+    "Acute narrow-angle glaucoma",
+    "Asthma or COPD",
+    "Sick sinus syndrome",
+    "Decompensated heart failure"
+   ],
+   "answer_index": 0,
+   "explanation": "Acute narrow-angle glaucoma and hypersensitivity are the listed contraindications. Asthma and COPD belong to diphenhydramine, sick sinus syndrome to diltiazem and decompensated heart failure to esmolol.",
+   "priority": "detail",
+   "tags": [
+    "drug:diazepam",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.21",
+   "title": "Diltiazem",
+   "page": 334,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult bolus dose of diltiazem for a narrow complex tachycardia?",
+   "options": [
+    "0.25 mg/kg",
+    "0.35 mg/kg",
+    "0.1 mg/kg",
+    "0.3 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "The first bolus is 0.25 mg/kg; 0.35 mg/kg is the repeat dose if the rate is still uncontrolled 15 minutes later. There is no LFN pediatric standing order for diltiazem.",
+   "priority": "core",
+   "tags": [
+    "drug:diltiazem",
+    "topic:tachycardia",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.21",
+   "title": "Diltiazem",
+   "page": 334,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "The rate is still uncontrolled 15 minutes after the first diltiazem bolus. What repeat bolus does 12.21 direct?",
+   "options": [
+    "0.35 mg/kg",
+    "0.25 mg/kg",
+    "0.5 mg/kg",
+    "0.15 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "The repeat bolus is larger than the first at 0.35 mg/kg, still subject to the 20 mg single-dose ceiling, and is given only after a full 15 minutes have passed.",
+   "priority": "core",
+   "tags": [
+    "drug:diltiazem",
+    "topic:tachycardia"
+   ]
+  },
+  {
+   "number": "12.21",
+   "title": "Diltiazem",
+   "page": 334,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum single bolus dose of diltiazem?",
+   "options": [
+    "20 mg",
+    "15 mg",
+    "10 mg",
+    "30 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Both weight-based boluses are capped at 20 mg, so a patient over 80 kg reaches the cap on the first dose. 15 mg/hr is the infusion ceiling for narrow complex tachycardia, not a bolus cap.",
+   "priority": "core",
+   "tags": [
+    "drug:diltiazem",
+    "topic:tachycardia"
+   ]
+  },
+  {
+   "number": "12.21",
+   "title": "Diltiazem",
+   "page": 334,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Once the rate is controlled in a narrow complex tachycardia, at what rate does 12.21 start the diltiazem infusion?",
+   "options": [
+    "5-10 mg/hr",
+    "5-20 mg/hr",
+    "10-15 mg/hr",
+    "1-5 mg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "The narrow complex tachycardia infusion runs 5-10 mg/hr with a 15 mg/hr ceiling. The wider 5-20 mg/hr range belongs to the aortic emergency row.",
+   "priority": "core",
+   "tags": [
+    "drug:diltiazem",
+    "topic:tachycardia",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.21",
+   "title": "Diltiazem",
+   "page": 334,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum diltiazem infusion rate for a narrow complex tachycardia?",
+   "options": [
+    "15 mg/hr",
+    "20 mg/hr",
+    "10 mg/hr",
+    "5 mg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "The narrow complex tachycardia infusion is capped at 15 mg/hr. Aortic emergencies may be run up to 20 mg/hr, so the ceiling depends on which indication you are treating.",
+   "priority": "detail",
+   "tags": [
+    "drug:diltiazem",
+    "topic:tachycardia"
+   ]
+  },
+  {
+   "number": "12.21",
+   "title": "Diltiazem",
+   "page": 334,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult diltiazem infusion rate for an aortic emergency?",
+   "options": [
+    "5-20 mg/hr",
+    "5-10 mg/hr",
+    "10-15 mg/hr",
+    "2-10 mg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Aortic emergencies get 0.25 mg/kg (max 20 mg) then an infusion at 5-20 mg/hr, used for tachycardia that persists despite beta blocker therapy as part of impulse control.",
+   "priority": "core",
+   "tags": [
+    "drug:diltiazem",
+    "topic:aortic emergency",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.21",
+   "title": "Diltiazem",
+   "page": 334,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which is a contraindication to diltiazem?",
+   "options": [
+    "Wolff-Parkinson-White syndrome",
+    "Atrial fibrillation with RVR",
+    "Narrow complex tachycardia",
+    "Tachycardia despite beta blockade"
+   ],
+   "answer_index": 0,
+   "explanation": "WPW is contraindicated because AV nodal blockade can accelerate conduction down the accessory pathway. Sick sinus syndrome, high-grade AV block, acute MI, cardiogenic shock and VT with a QRS over 0.12 seconds are also contraindications.",
+   "priority": "core",
+   "tags": [
+    "drug:diltiazem",
+    "topic:tachycardia"
+   ]
+  },
+  {
+   "number": "12.21",
+   "title": "Diltiazem",
+   "page": 334,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "Why does 12.21 warn against giving diltiazem with IV beta blockers?",
+   "options": [
+    "Increased risk of congestive heart failure",
+    "Increased risk of QT prolongation",
+    "Risk of precipitation in the line",
+    "Increased risk of hyperkalemia"
+   ],
+   "answer_index": 0,
+   "explanation": "Combining IV calcium channel and beta blockade compounds negative inotropy and raises the risk of CHF. Esmolol lists recent calcium channel blocker administration as a contraindication for the same reason.",
+   "priority": "core",
+   "tags": [
+    "drug:diltiazem",
+    "drug:esmolol",
+    "topic:tachycardia"
+   ]
+  },
+  {
+   "number": "12.21",
+   "title": "Diltiazem",
+   "page": 334,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "What does 12.21 direct you to consider before giving diltiazem for tachycardia?",
+   "options": [
+    "Physiologic causes such as heart failure, hypovolemia or pain",
+    "The patient's most recent potassium level",
+    "Whether the patient is on anticoagulation",
+    "Whether the QRS is under 0.08 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "A compensatory sinus tachycardia driven by hypovolemia, pain or heart failure is doing useful work; blunting it with a calcium channel blocker removes the compensation and drops cardiac output.",
+   "priority": "core",
+   "tags": [
+    "drug:diltiazem",
+    "topic:tachycardia"
+   ]
+  },
+  {
+   "number": "12.21",
+   "title": "Diltiazem",
+   "page": 334,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of diltiazem?",
+   "options": [
+    "Calcium channel blocker",
+    "Beta blocker",
+    "Inotrope",
+    "Class II antiarrhythmic"
+   ],
+   "answer_index": 0,
+   "explanation": "Diltiazem inhibits calcium influx through slow channels in myocardial and arterial smooth muscle, slowing SA and AV node conduction. Esmolol is the beta blocker and class II antiarrhythmic.",
+   "priority": "detail",
+   "tags": [
+    "drug:diltiazem",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.21",
+   "title": "Diltiazem",
+   "page": 334,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the recommended mixture for a diltiazem infusion?",
+   "options": [
+    "100 mg / 100 mL",
+    "250 mg / 250 mL",
+    "400 mg / 250 mL",
+    "200 mcg / 100 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Diltiazem is mixed 100 mg in 100 mL, giving 1 mg/mL, so a 10 mg/hr infusion runs at 10 mL/hr.",
+   "priority": "detail",
+   "tags": [
+    "drug:diltiazem",
+    "topic:infusions"
+   ]
+  },
+  {
+   "number": "12.22",
+   "title": "Diphenhydramine",
+   "page": 335,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the adult dose of diphenhydramine for an allergic reaction?",
+   "options": [
+    "1 mg/kg SIVP",
+    "25 - 50 mg IV/IO/IM",
+    "0.3 mg IM",
+    "0.01 mg/kg IM"
+   ],
+   "answer_index": 0,
+   "explanation": "Allergic reactions get 1 mg/kg slow IV push to a maximum of 50 mg; the pediatric dose is the same. The flat 25-50 mg dose is the post-droperidol dose for preventing dystonia.",
+   "priority": "core",
+   "tags": [
+    "drug:diphenhydramine",
+    "topic:anaphylaxis",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.22",
+   "title": "Diphenhydramine",
+   "page": 335,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum dose of diphenhydramine for an allergic reaction?",
+   "options": [
+    "50 mg",
+    "25 mg",
+    "12 mg",
+    "20 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Allergic reactions are capped at 50 mg, but the same 1 mg/kg dose given for refractory nausea and vomiting is capped at only 25 mg. The indication, not the weight, sets the ceiling.",
+   "priority": "core",
+   "tags": [
+    "drug:diphenhydramine",
+    "topic:anaphylaxis"
+   ]
+  },
+  {
+   "number": "12.22",
+   "title": "Diphenhydramine",
+   "page": 335,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum dose of diphenhydramine when it is given for refractory nausea and vomiting?",
+   "options": [
+    "25 mg",
+    "50 mg",
+    "12 mg",
+    "20 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The antiemetic ceiling is half the allergic reaction ceiling: 1 mg/kg SIVP to a maximum of 25 mg, used only after ondansetron and promethazine have failed.",
+   "priority": "core",
+   "tags": [
+    "drug:diphenhydramine",
+    "topic:nausea"
+   ]
+  },
+  {
+   "number": "12.22",
+   "title": "Diphenhydramine",
+   "page": 335,
+   "type": "indication",
+   "care_level": null,
+   "population": null,
+   "stem": "When does 12.22 indicate diphenhydramine for nausea and vomiting?",
+   "options": [
+    "Only when refractory to ondansetron or promethazine",
+    "As the first-line antiemetic in transport",
+    "Only for nausea caused by opioids",
+    "Only for nausea in pregnancy"
+   ],
+   "answer_index": 0,
+   "explanation": "Diphenhydramine is a third-line antiemetic, reserved for nausea and vomiting refractory to ondansetron or promethazine, and dosed lower for that purpose than for allergy.",
+   "priority": "core",
+   "tags": [
+    "drug:diphenhydramine",
+    "topic:nausea"
+   ]
+  },
+  {
+   "number": "12.22",
+   "title": "Diphenhydramine",
+   "page": 335,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of diphenhydramine given after droperidol administration?",
+   "options": [
+    "25 - 50 mg IV/IO/IM",
+    "1 mg/kg IV/IO/IM",
+    "0.625 - 1.25 mg IV",
+    "2.5 - 10 mg IM"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults get a flat 25-50 mg IV/IO/IM as soon as practical after droperidol to prevent dystonic symptoms; children get 1 mg/kg to a 50 mg maximum.",
+   "priority": "core",
+   "tags": [
+    "drug:diphenhydramine",
+    "drug:droperidol",
+    "topic:agitation"
+   ]
+  },
+  {
+   "number": "12.22",
+   "title": "Diphenhydramine",
+   "page": 335,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of diphenhydramine given after droperidol administration?",
+   "options": [
+    "1 mg/kg IV/IO/IM",
+    "25 - 50 mg IV/IO/IM",
+    "0.1 mg/kg IV/IM",
+    "0.01 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get 1 mg/kg IV/IO/IM to a maximum of 50 mg, given as soon as practical after droperidol rather than waiting for dystonia to appear.",
+   "priority": "detail",
+   "tags": [
+    "drug:diphenhydramine",
+    "drug:droperidol",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.22",
+   "title": "Diphenhydramine",
+   "page": 335,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the recommended rate of IV diphenhydramine administration?",
+   "options": [
+    "25 mg/min",
+    "5 mg/min",
+    "2 mg/min",
+    "50 mg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Give it no faster than 25 mg/min; rapid IV administration can cause chest tightness, dizziness, anxiety or hallucinations. The 5 and 2 mg/min limits belong to adult and pediatric diazepam.",
+   "priority": "detail",
+   "tags": [
+    "drug:diphenhydramine",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.22",
+   "title": "Diphenhydramine",
+   "page": 335,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which is a contraindication to diphenhydramine?",
+   "options": [
+    "COPD",
+    "Hyperkalemia",
+    "Sick sinus syndrome",
+    "Cardiogenic shock"
+   ],
+   "answer_index": 0,
+   "explanation": "Asthma, COPD, glaucoma and pregnant or nursing mothers are contraindications, largely because of the drying of bronchial secretions and anticholinergic effects.",
+   "priority": "core",
+   "tags": [
+    "drug:diphenhydramine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.22",
+   "title": "Diphenhydramine",
+   "page": 335,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of diphenhydramine?",
+   "options": [
+    "Antihistamine",
+    "Antiemetic",
+    "Corticosteroid",
+    "Anticholinergic"
+   ],
+   "answer_index": 0,
+   "explanation": "Diphenhydramine is an antihistamine: it blocks histamine receptors, which prevents further bronchoconstriction and vasodilation but does not reverse what histamine has already caused. That is why epinephrine, not diphenhydramine, treats anaphylaxis.",
+   "priority": "core",
+   "tags": [
+    "drug:diphenhydramine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.23",
+   "title": "Dobutamine",
+   "page": 336,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "At what rate is a dobutamine infusion started for cardiogenic shock?",
+   "options": [
+    "5 mcg/kg/min",
+    "5 - 20 mcg/kg/min",
+    "2 - 10 mcg/min",
+    "0.5 - 1 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Dobutamine starts at a flat 5 mcg/kg/min and is titrated upward; the pediatric dose is the same. The 5-20 mcg/kg/min range is dopamine's dosing band.",
+   "priority": "core",
+   "tags": [
+    "drug:dobutamine",
+    "topic:cardiogenic shock",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.23",
+   "title": "Dobutamine",
+   "page": 336,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum dobutamine infusion rate?",
+   "options": [
+    "20 mcg/kg/min",
+    "10 mcg/kg/min",
+    "5 mcg/kg/min",
+    "2 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Titration stops at 20 mcg/kg/min. Beyond that the beta-1 effect costs more myocardial oxygen demand and dysrhythmia than it buys in output.",
+   "priority": "core",
+   "tags": [
+    "drug:dobutamine",
+    "topic:cardiogenic shock"
+   ]
+  },
+  {
+   "number": "12.23",
+   "title": "Dobutamine",
+   "page": 336,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "By how much and how often is a dobutamine infusion titrated?",
+   "options": [
+    "0.5 - 1 mcg/kg/min every 3-5 min",
+    "1 - 2 mcg/kg/min every 3-5 min",
+    "0.5 - 1 mcg/kg/min every 10 min",
+    "5 mcg/kg/min every 3-5 min"
+   ],
+   "answer_index": 0,
+   "explanation": "Titrate in 0.5-1 mcg/kg/min steps q3-5 min, which matches the drug's 2 minute onset and 10 minute peak, so each change is assessed before the next.",
+   "priority": "detail",
+   "tags": [
+    "drug:dobutamine",
+    "topic:cardiogenic shock"
+   ]
+  },
+  {
+   "number": "12.23",
+   "title": "Dobutamine",
+   "page": 336,
+   "type": "indication",
+   "care_level": null,
+   "population": null,
+   "stem": "For which conditions does 12.23 list dobutamine?",
+   "options": [
+    "Cardiogenic shock and IABP failure",
+    "Hypotension with bradycardia",
+    "Right ventricular failure in ARDS",
+    "Aortic emergency with tachycardia"
+   ],
+   "answer_index": 0,
+   "explanation": "Dobutamine is the inotrope for cardiogenic shock and intra-aortic balloon pump failure, considered when blood pressure remains refractory to fluids and other vasopressors.",
+   "priority": "core",
+   "tags": [
+    "drug:dobutamine",
+    "topic:cardiogenic shock"
+   ]
+  },
+  {
+   "number": "12.23",
+   "title": "Dobutamine",
+   "page": 336,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which is a contraindication to dobutamine?",
+   "options": [
+    "Ventricular tachycardia",
+    "Atrial fibrillation",
+    "Chronic hypertension",
+    "Cardiogenic shock"
+   ],
+   "answer_index": 0,
+   "explanation": "Hypersensitivity and ventricular tachycardia are the contraindications. Chronic hypertension and atrial fibrillation are cautions only, and cardiogenic shock is the primary indication.",
+   "priority": "core",
+   "tags": [
+    "drug:dobutamine",
+    "topic:cardiogenic shock"
+   ]
+  },
+  {
+   "number": "12.23",
+   "title": "Dobutamine",
+   "page": 336,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "What does 12.23 say about using dobutamine in hypovolemic shock?",
+   "options": [
+    "Not as the sole agent unless fluid resuscitation is well underway",
+    "It is the preferred first agent in hypovolemia",
+    "It may be used only with an arterial line",
+    "It should be combined with dopamine"
+   ],
+   "answer_index": 0,
+   "explanation": "Dobutamine lowers systemic vascular resistance while increasing contractility, so giving it to an underfilled patient can drop pressure further. Fill the tank before leaning on the pump.",
+   "priority": "core",
+   "tags": [
+    "drug:dobutamine",
+    "topic:shock"
+   ]
+  },
+  {
+   "number": "12.23",
+   "title": "Dobutamine",
+   "page": 336,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the recommended mixture for a dobutamine infusion?",
+   "options": [
+    "250 mg / 250 mL",
+    "400 mg / 250 mL",
+    "100 mg / 100 mL",
+    "4 mg / 250 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Dobutamine is mixed 250 mg in 250 mL, giving 1 mg/mL. The 400 mg/250 mL mix is dopamine, the other inotrope on an adjacent page.",
+   "priority": "detail",
+   "tags": [
+    "drug:dobutamine",
+    "topic:infusions"
+   ]
+  },
+  {
+   "number": "12.24",
+   "title": "Dopamine",
+   "page": 337,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the dopamine infusion dose range for hypotension or shock?",
+   "options": [
+    "5 - 20 mcg/kg/min",
+    "0.5 - 1 mcg/kg/min",
+    "2 - 10 mcg/min",
+    "0.05 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Dopamine runs 5-20 mcg/kg/min, with the pediatric dose the same as adult. It is reserved for selected patients, specifically those who are bradycardic as well as hypotensive.",
+   "priority": "core",
+   "tags": [
+    "drug:dopamine",
+    "topic:shock",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.24",
+   "title": "Dopamine",
+   "page": 337,
+   "type": "indication",
+   "care_level": null,
+   "population": null,
+   "stem": "In which patients does 12.24 say dopamine should typically be used as a first-line agent?",
+   "options": [
+    "Those presenting with bradycardia and hypotension",
+    "Those in cardiogenic shock with a failing balloon pump",
+    "Those with hypotension refractory to two vasopressors",
+    "Those with right ventricular failure"
+   ],
+   "answer_index": 0,
+   "explanation": "Dopamine's chronotropic effect makes it useful where the hypotension is accompanied by bradycardia; in other shock states other agents are preferred first.",
+   "priority": "core",
+   "tags": [
+    "drug:dopamine",
+    "topic:shock",
+    "topic:bradycardia"
+   ]
+  },
+  {
+   "number": "12.24",
+   "title": "Dopamine",
+   "page": 337,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "At which dopamine dose range are predominately beta-1 effects and increased cardiac output expected?",
+   "options": [
+    "2 - 10 mcg/kg/min",
+    "Above 10 mcg/kg/min",
+    "Above 20 mcg/kg/min",
+    "0.5 - 1 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "From 2-10 mcg/kg/min beta-1 effects predominate and cardiac output rises; above 10 mcg/kg/min alpha-1 effects take over and the drug becomes primarily a vasoconstrictor.",
+   "priority": "core",
+   "tags": [
+    "drug:dopamine",
+    "topic:shock",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.24",
+   "title": "Dopamine",
+   "page": 337,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "Which drug does 12.24 state dopamine must NOT be mixed with?",
+   "options": [
+    "Sodium bicarbonate",
+    "Diazepam",
+    "Furosemide",
+    "Thiopental"
+   ],
+   "answer_index": 0,
+   "explanation": "Dopamine is inactivated in alkaline solution, so it must not be mixed with sodium bicarbonate. Diazepam, furosemide and thiopental are the agents esmolol must not be mixed with.",
+   "priority": "core",
+   "tags": [
+    "drug:dopamine",
+    "procedure:drug preparation"
+   ]
+  },
+  {
+   "number": "12.24",
+   "title": "Dopamine",
+   "page": 337,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which is a contraindication to dopamine?",
+   "options": [
+    "Pheochromocytoma",
+    "Bradycardia with hypotension",
+    "Cardiogenic shock",
+    "Hypovolemia corrected with fluids"
+   ],
+   "answer_index": 0,
+   "explanation": "Pheochromocytoma, uncorrected tachyarrhythmias and ventricular fibrillation are contraindications. Bradycardia with hypotension is the indication dopamine is specifically selected for.",
+   "priority": "detail",
+   "tags": [
+    "drug:dopamine",
+    "topic:shock"
+   ]
+  },
+  {
+   "number": "12.24",
+   "title": "Dopamine",
+   "page": 337,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which adverse reactions does 12.24 list for dopamine?",
+   "options": [
+    "Tachycardia, hypertension and widening QRS",
+    "Bradycardia and sinus arrest",
+    "Flushing, jaw pain and hypoxemia",
+    "Dystonia and QT prolongation"
+   ],
+   "answer_index": 0,
+   "explanation": "Tachycardia, hypertension, a widening QRS and palpitations are dopamine's adverse effects. Bradycardia and sinus arrest belong to dexmedetomidine, flushing and jaw pain to epoprostenol.",
+   "priority": "detail",
+   "tags": [
+    "drug:dopamine",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.24",
+   "title": "Dopamine",
+   "page": 337,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the recommended mixture for a dopamine infusion?",
+   "options": [
+    "400 mg / 250 mL",
+    "250 mg / 250 mL",
+    "100 mg / 100 mL",
+    "400 mcg / 100 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Dopamine is mixed 400 mg in 250 mL, giving 1,600 mcg/mL. The 400 mcg/100 mL mix is dexmedetomidine, so reading only the number 400 on a bag is not enough.",
+   "priority": "detail",
+   "tags": [
+    "drug:dopamine",
+    "topic:infusions"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 338,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of droperidol for a combative patient?",
+   "options": [
+    "2.5 - 10 mg",
+    "0.625 - 1.25 mg",
+    "1 - 5 mg",
+    "0.1 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "The combative adult gets 2.5-10 mg IM, repeatable once after 10 minutes to a 10 mg total. The much smaller 0.625-1.25 mg dose is for refractory nausea and vomiting.",
+   "priority": "core",
+   "tags": [
+    "drug:droperidol",
+    "topic:agitation",
+    "route:im"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 338,
+   "type": "route",
+   "care_level": null,
+   "population": "adult",
+   "stem": "By which route does 12.25 list droperidol for an adult combative patient?",
+   "options": [
+    "IM",
+    "IV",
+    "IO",
+    "IN"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult combative dose is IM only, which suits a patient who has no IV access and cannot safely be approached to get one. The adult antiemetic dose, by contrast, is IV.",
+   "priority": "core",
+   "tags": [
+    "drug:droperidol",
+    "topic:agitation",
+    "route:im"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 338,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum total dose of droperidol for an adult combative patient?",
+   "options": [
+    "10 mg",
+    "5 mg",
+    "20 mg",
+    "1.25 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The total is capped at 10 mg after a single repeat at 10 minutes. The pediatric total is also 10 mg, but each pediatric dose is capped at 5 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:droperidol",
+    "topic:agitation"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 338,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric dose of droperidol for a combative patient?",
+   "options": [
+    "0.1 mg/kg IV/IM",
+    "0.01 mg/kg IV",
+    "0.05 mg/kg IV",
+    "0.3 mg/kg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get 0.1 mg/kg IV or IM, capped at 5 mg per dose and 10 mg total. The ten-fold smaller 0.01 mg/kg is the pediatric antiemetic dose.",
+   "priority": "core",
+   "tags": [
+    "drug:droperidol",
+    "topic:agitation",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 338,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum single dose of droperidol for a pediatric combative patient?",
+   "options": [
+    "5 mg",
+    "10 mg",
+    "1.25 mg",
+    "2.5 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Each pediatric dose is capped at 5 mg even though the cumulative total may reach 10 mg, so a large adolescent does not simply get the adult single dose.",
+   "priority": "detail",
+   "tags": [
+    "drug:droperidol",
+    "topic:agitation",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 338,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult IV dose of droperidol for refractory nausea and vomiting?",
+   "options": [
+    "0.625 - 1.25 mg",
+    "2.5 - 10 mg",
+    "1 - 5 mg",
+    "0.01 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "The antiemetic dose is 0.625-1.25 mg IV with a total of 1.25 mg, roughly a tenth of the sedating dose, and droperidol is not a first-line antiemetic.",
+   "priority": "core",
+   "tags": [
+    "drug:droperidol",
+    "topic:nausea",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 338,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric IV dose of droperidol for refractory nausea and vomiting?",
+   "options": [
+    "0.01 mg/kg",
+    "0.1 mg/kg",
+    "0.05 mg/kg",
+    "1 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get 0.01 mg/kg IV to a maximum of 1.25 mg for nausea. Giving the 0.1 mg/kg combative dose by mistake delivers ten times the intended antiemetic dose.",
+   "priority": "detail",
+   "tags": [
+    "drug:droperidol",
+    "topic:nausea",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 338,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Dystonic symptoms develop in an adult after droperidol. What does 12.25 direct?",
+   "options": [
+    "Diphenhydramine 25-50 mg IV/IO/IM",
+    "Diazepam 1-5 mg IV",
+    "Dexamethasone 0.6 mg/kg IV",
+    "A second dose of droperidol"
+   ],
+   "answer_index": 0,
+   "explanation": "Dystonic reactions, sustained or repetitive movements of the face, neck, trunk or larynx, are treated with diphenhydramine 25-50 mg in adults and 1 mg/kg in children, given as soon as practicable.",
+   "priority": "core",
+   "tags": [
+    "drug:droperidol",
+    "drug:diphenhydramine",
+    "complication:dystonia"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 338,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which is a contraindication to droperidol?",
+   "options": [
+    "Known or suspected QT prolongation",
+    "Bradycardia under 50 bpm",
+    "Concurrent MAO inhibitor therapy",
+    "Hypokalemia"
+   ],
+   "answer_index": 0,
+   "explanation": "Known or suspected QT prolongation, including congenital long QT, is an absolute contraindication. Bradycardia, MAO inhibitors and electrolyte disturbance are listed as reasons for extreme caution rather than as contraindications.",
+   "priority": "core",
+   "tags": [
+    "drug:droperidol",
+    "topic:qt prolongation"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 339,
+   "type": "special",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Below what age is droperidol not recommended?",
+   "options": [
+    "2 years",
+    "1 year",
+    "5 years",
+    "6 months"
+   ],
+   "answer_index": 0,
+   "explanation": "Droperidol is not recommended under 2 years of age because that population has not been studied, not because of a known specific harm.",
+   "priority": "detail",
+   "tags": [
+    "drug:droperidol",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 339,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "What does 12.25 say about droperidol's place among anti-emetic agents?",
+   "options": [
+    "Not first line unless nothing else is available",
+    "First line for refractory nausea in transport",
+    "First line only in the combative patient",
+    "Preferred for nausea in pregnancy"
+   ],
+   "answer_index": 0,
+   "explanation": "Droperidol should not be used as a first-line anti-emetic unless everything else is unavailable or contraindicated, chiefly because of its QT and dystonia risks. Its use in hyperemesis gravidarum is specifically not recommended.",
+   "priority": "core",
+   "tags": [
+    "drug:droperidol",
+    "topic:nausea"
+   ]
+  },
+  {
+   "number": "12.25",
+   "title": "Droperidol",
+   "page": 338,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of droperidol?",
+   "options": [
+    "Typical antipsychotic",
+    "Benzodiazepine",
+    "Antihistamine",
+    "Non-barbiturate sedative hypnotic"
+   ],
+   "answer_index": 0,
+   "explanation": "Droperidol is a butyrophenone, a typical antipsychotic whose antiemetic effect comes from blocking dopamine at the chemoreceptor trigger zone. Its alpha-adrenergic blockade also causes hypotension.",
+   "priority": "detail",
+   "tags": [
+    "drug:droperidol",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 340,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of epinephrine for cardiac arrest?",
+   "options": [
+    "1 mg IV",
+    "0.3 mg IM",
+    "0.1 mg SIVP over 2 min",
+    "5 - 20 mcg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Cardiac arrest gets 1 mg IV repeatable q3-5 min. The 0.3 mg IM dose is for allergic reactions and asthma, and 0.1 mg SIVP is reserved for refractory anaphylaxis with hypotension.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:cardiac arrest",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 340,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the pediatric IV dose of epinephrine for cardiac arrest?",
+   "options": [
+    "0.1 mL/kg (0.01 mg/kg)",
+    "0.2 mL/kg (0.02 mg/kg)",
+    "0.1 mL/kg (1 mcg/kg)",
+    "0.01 mg/kg IM"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get 0.1 mL/kg, which is 0.01 mg/kg, repeatable q3-5 min to a single-dose maximum of 1 mg. Neonates get double that volume. Pediatric IV push doses are to be dosed and documented in mL/kg.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:cardiac arrest",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 340,
+   "type": "dose",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "What is the neonatal IV dose of epinephrine for cardiac arrest?",
+   "options": [
+    "0.2 mL/kg (0.02 mg/kg)",
+    "0.1 mL/kg (0.01 mg/kg)",
+    "0.1 mL/kg (1 mcg/kg)",
+    "0.01 mg/kg IM"
+   ],
+   "answer_index": 0,
+   "explanation": "Cardiac arrest is the one epinephrine row where the neonatal dose differs from pediatric: 0.2 mL/kg, or 0.02 mg/kg, twice the pediatric dose, still capped at 1 mg per dose. Every other row reads 'same as pediatric'.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:cardiac arrest",
+    "population:neonatal"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 340,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult IM dose of epinephrine for an allergic reaction or asthma?",
+   "options": [
+    "0.3 mg IM",
+    "1 mg IV",
+    "0.1 mg SIVP over 2 min",
+    "0.01 mg/kg IM"
+   ],
+   "answer_index": 0,
+   "explanation": "Allergic reactions and asthma get 0.3 mg IM of the 1 mg/mL concentration, repeatable q15min. IM doses are explicitly not appropriate for IV administration.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:anaphylaxis",
+    "route:im"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 340,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum single IM dose of epinephrine for a pediatric allergic reaction?",
+   "options": [
+    "0.3 mg",
+    "0.1 mg",
+    "1 mg",
+    "20 mcg"
+   ],
+   "answer_index": 0,
+   "explanation": "The pediatric IM dose is 0.01 mg/kg, capped at the 0.3 mg adult dose, so a child over 30 kg simply gets the adult dose.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:anaphylaxis",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 340,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of epinephrine for refractory anaphylaxis with severe symptoms and refractory hypotension?",
+   "options": [
+    "0.1 mg SIVP over 2 min",
+    "0.3 mg IM",
+    "1 mg IV",
+    "5 - 20 mcg IV"
+   ],
+   "answer_index": 0,
+   "explanation": "Refractory anaphylaxis gets 0.1 mg slow IV push over 2 minutes using the 0.1 mg/mL concentration, repeatable q3-5 min. It is reserved for severe symptoms with hypotension that has not responded to IM dosing.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:anaphylaxis",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 340,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "Which epinephrine concentration does 12.26 specify for refractory anaphylaxis given SIVP?",
+   "options": [
+    "0.1 mg/mL",
+    "1 mg/mL",
+    "10 mcg/mL",
+    "0.01 mg/mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Refractory anaphylaxis uses the 0.1 mg/mL concentration. The IM allergic reaction dose uses 1 mg/mL and push dose epinephrine uses 10 mcg/mL; epinephrine dosing is concentration dependent and getting this wrong harms patients.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:anaphylaxis",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 340,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult dose of push dose epinephrine?",
+   "options": [
+    "5 - 20 mcg IV",
+    "0.1 mg SIVP over 2 min",
+    "1 mg IV",
+    "2 - 10 mcg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Push dose epinephrine is 5-20 mcg IV q3-5 min using the 10 mcg/mL concentration. It is a temporary bridge while an infusion is being prepared, not a substitute for one.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:shock",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 341,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "How does 12.26 direct you to prepare push dose epinephrine?",
+   "options": [
+    "Mix 1 mL of 0.1 mg/mL epinephrine with 9 mL of saline",
+    "Mix 1 mL of 1 mg/mL epinephrine with 9 mL of saline",
+    "Mix 1 mL of 0.1 mg/mL epinephrine with 99 mL of saline",
+    "Add 4 mg of epinephrine to 250 mL of saline"
+   ],
+   "answer_index": 0,
+   "explanation": "One mL of the 0.1 mg/mL concentration diluted into 9 mL of saline yields 10 mL at 10 mcg/mL, so 0.5-2 mL of that syringe delivers the 5-20 mcg push dose. Starting with the 1 mg/mL vial gives a tenfold overdose.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "procedure:drug preparation",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 340,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "At what rate is an adult epinephrine infusion started?",
+   "options": [
+    "2 - 10 mcg/min",
+    "5 - 20 mcg/min",
+    "0.1 mcg/kg/min",
+    "2 - 10 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult infusion starts at 2-10 mcg/min, or alternatively 0.05 mcg/kg/min, titrated q3-5 min to patient response. The pediatric infusion is weight based at 0.05 mcg/kg/min regardless of weight.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:shock",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 340,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the nebulized dose of non-racemic epinephrine for croup or anaphylaxis?",
+   "options": [
+    "0.5 mL/kg of a 1 mg/mL solution",
+    "0.1 mL/kg of a 1 mg/mL solution",
+    "0.5 mL/kg of a 0.1 mg/mL solution",
+    "5 mL of a 1 mg/mL solution"
+   ],
+   "answer_index": 0,
+   "explanation": "Nebulized non-racemic epinephrine is 0.5 mL/kg of the 1 mg/mL solution, capped at 5 mL and repeatable twice at 15 minute intervals. Adult, pediatric and neonatal doses are all the same.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:croup",
+    "route:nebulized"
+   ]
+  },
+  {
+   "number": "12.26",
+   "title": "Epinephrine",
+   "page": 340,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult epinephrine dose for LOST (low output state of trauma)?",
+   "options": [
+    "20 mcg q 3-5 min, max 3 doses, then an infusion",
+    "1 mg IV q 3-5 min until return of circulation",
+    "5 - 20 mcg IV q 3-5 min titrated to pressure",
+    "0.1 mg SIVP over 2 min q 3-5 min"
+   ],
+   "answer_index": 0,
+   "explanation": "LOST gets 20 mcg q3-5 min to a maximum of three doses, then an infusion at 0.1 mcg/kg/min with no titrations. The fixed, untitrated infusion is what distinguishes this row from ordinary push dose use.",
+   "priority": "core",
+   "tags": [
+    "drug:epinephrine",
+    "topic:trauma",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.27",
+   "title": "Epoprostenol (inhaled)",
+   "page": 342,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult inhaled epoprostenol dose for right ventricular failure or refractory hypoxemia in ARDS?",
+   "options": [
+    "10 - 50 nanograms/kg/min",
+    "2 nanograms/kg/min",
+    "25 - 40 nanograms/kg/min",
+    "10 nanograms/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "The inhaled dose is 10-50 ng/kg/min via a high frequency nebulizer. The 2 ng/kg/min figure is the IV starting dose for pulmonary hypertension, which is uncommon in transport.",
+   "priority": "core",
+   "tags": [
+    "drug:epoprostenol",
+    "topic:ards",
+    "route:nebulized"
+   ]
+  },
+  {
+   "number": "12.27",
+   "title": "Epoprostenol (inhaled)",
+   "page": 342,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How is inhaled epoprostenol titrated for right ventricular failure?",
+   "options": [
+    "By 10 ng/kg/min q 30-120 minutes",
+    "By 1-2 ng/kg/min at intervals over 15 minutes",
+    "By 10 ng/kg/min q 3-5 minutes",
+    "By 2 ng/kg/min q 30-120 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "Inhaled epoprostenol is titrated in 10 ng/kg/min steps every 30-120 minutes to clinical response per physician order. The 1-2 ng/kg/min steps at intervals over 15 minutes belong to the IV pulmonary hypertension row.",
+   "priority": "detail",
+   "tags": [
+    "drug:epoprostenol",
+    "topic:ards"
+   ]
+  },
+  {
+   "number": "12.27",
+   "title": "Epoprostenol (inhaled)",
+   "page": 342,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the usual monotherapy dose of IV epoprostenol for pulmonary hypertension?",
+   "options": [
+    "25 - 40 ng/kg/min",
+    "10 - 50 ng/kg/min",
+    "2 ng/kg/min",
+    "10 ng/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "IV therapy starts at 2 ng/kg/min and is titrated in 1-2 ng/kg/min steps; the usual monotherapy dose ends up at 25-40 ng/kg/min. Titrations require medical direction.",
+   "priority": "detail",
+   "tags": [
+    "drug:epoprostenol",
+    "topic:pulmonary hypertension",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.27",
+   "title": "Epoprostenol (inhaled)",
+   "page": 342,
+   "type": "equipment",
+   "care_level": null,
+   "population": null,
+   "stem": "What equipment does 12.27 require for an epoprostenol infusion?",
+   "options": [
+    "A high frequency nebulizer and syringe pump",
+    "A standard small volume nebulizer",
+    "An MDI with spacer and inline adapter",
+    "A heated humidifier circuit"
+   ],
+   "answer_index": 0,
+   "explanation": "Inhaled epoprostenol must be given as a continuous infusion through a high frequency nebulizer driven by a syringe pump; an intermittent nebulizer cannot deliver a continuous ng/kg/min dose.",
+   "priority": "core",
+   "tags": [
+    "drug:epoprostenol",
+    "topic:ards",
+    "equipment:nebulizer"
+   ]
+  },
+  {
+   "number": "12.27",
+   "title": "Epoprostenol (inhaled)",
+   "page": 342,
+   "type": "complication",
+   "care_level": null,
+   "population": null,
+   "stem": "What does 12.27 warn happens if an epoprostenol infusion is abruptly discontinued?",
+   "options": [
+    "Rebound pulmonary hypertension",
+    "Withdrawal agitation",
+    "Rebound bronchospasm",
+    "Acute pulmonary hemorrhage"
+   ],
+   "answer_index": 0,
+   "explanation": "Stopping the drug abruptly causes rebound pulmonary hypertension, which is why crews must confirm they have enough medication on board to complete the transport before leaving.",
+   "priority": "core",
+   "tags": [
+    "drug:epoprostenol",
+    "topic:pulmonary hypertension"
+   ]
+  },
+  {
+   "number": "12.27",
+   "title": "Epoprostenol (inhaled)",
+   "page": 342,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which is a contraindication to epoprostenol?",
+   "options": [
+    "Acute pulmonary hemorrhage",
+    "Right ventricular failure",
+    "Refractory hypoxemia in ARDS",
+    "Hypoxemia with jaw pain"
+   ],
+   "answer_index": 0,
+   "explanation": "Acute pulmonary hemorrhage and secondary pulmonary hypertension are the contraindications; the drug inhibits platelet aggregation and is a pulmonary vasodilator, both bad in a bleeding lung. RV failure and refractory ARDS hypoxemia are indications.",
+   "priority": "core",
+   "tags": [
+    "drug:epoprostenol",
+    "topic:ards"
+   ]
+  },
+  {
+   "number": "12.27",
+   "title": "Epoprostenol (inhaled)",
+   "page": 342,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of epoprostenol?",
+   "options": [
+    "Prostacyclin and vasodilator",
+    "Beta blocker",
+    "Alpha and beta agonist",
+    "Calcium channel blocker"
+   ],
+   "answer_index": 0,
+   "explanation": "Epoprostenol is a prostacyclin that dilates all pulmonary vascular beds and potently inhibits platelet aggregation, giving flushing, jaw pain, headache, hypotension and hypoxemia as its characteristic side effects.",
+   "priority": "detail",
+   "tags": [
+    "drug:epoprostenol",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.28",
+   "title": "Esmolol",
+   "page": 343,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult esmolol loading dose for an aortic emergency?",
+   "options": [
+    "500 mcg/kg over 1 minute",
+    "50 mcg/kg/min over 1 minute",
+    "300 mcg/kg over 4 minutes",
+    "100 mcg/kg over 1 minute"
+   ],
+   "answer_index": 0,
+   "explanation": "The load is 500 mcg/kg over 1 minute, immediately followed by an infusion at 50 mcg/kg/min. The 300 mcg/kg/min figure is the maximum infusion rate, not a bolus.",
+   "priority": "core",
+   "tags": [
+    "drug:esmolol",
+    "topic:aortic emergency",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.28",
+   "title": "Esmolol",
+   "page": 343,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "At what rate is the esmolol infusion started after the loading dose?",
+   "options": [
+    "50 mcg/kg/min",
+    "100 mcg/kg/min",
+    "300 mcg/kg/min",
+    "500 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "The infusion starts at 50 mcg/kg/min. If target vitals are not met it goes to 100, then 150, then rises by 50 mcg/kg/min every 4 minutes, each step preceded by a repeat bolus.",
+   "priority": "core",
+   "tags": [
+    "drug:esmolol",
+    "topic:aortic emergency",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.28",
+   "title": "Esmolol",
+   "page": 343,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Four minutes after the esmolol load, target vitals are still not met. What does 12.28 direct?",
+   "options": [
+    "Repeat the bolus and increase the infusion to 100 mcg/kg/min",
+    "Increase the infusion to 100 mcg/kg/min without a bolus",
+    "Repeat the bolus and keep the infusion at 50 mcg/kg/min",
+    "Add a diltiazem bolus of 0.25 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Each escalation pairs a repeat bolus with a step up in the infusion, at 4 minute intervals: 100, then 150, then by 50 mcg/kg/min increments. Esmolol's 2-10 minute onset is what makes a 4 minute reassessment interval reasonable.",
+   "priority": "core",
+   "tags": [
+    "drug:esmolol",
+    "topic:aortic emergency"
+   ]
+  },
+  {
+   "number": "12.28",
+   "title": "Esmolol",
+   "page": 343,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum esmolol infusion rate?",
+   "options": [
+    "300 mcg/kg/min",
+    "150 mcg/kg/min",
+    "500 mcg/kg/min",
+    "100 mcg/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "The infusion ceiling is 300 mcg/kg/min. The 500 mcg/kg figure is the loading bolus given over one minute, which is a different unit entirely.",
+   "priority": "core",
+   "tags": [
+    "drug:esmolol",
+    "topic:aortic emergency"
+   ]
+  },
+  {
+   "number": "12.28",
+   "title": "Esmolol",
+   "page": 343,
+   "type": "indication",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Besides refractory VF or pulseless VT, for which conditions does 12.28 list esmolol?",
+   "options": [
+    "Aortic emergencies and AF/flutter with RVR",
+    "Cardiogenic shock and IABP failure",
+    "Hypotension with bradycardia",
+    "Narrow complex tachycardia and croup"
+   ],
+   "answer_index": 0,
+   "explanation": "Esmolol covers aortic emergencies, refractory VF or pulseless VT, and atrial fibrillation or flutter with RVR. There is no LFN pediatric standing order for any of them.",
+   "priority": "core",
+   "tags": [
+    "drug:esmolol",
+    "topic:tachycardia",
+    "topic:aortic emergency"
+   ]
+  },
+  {
+   "number": "12.28",
+   "title": "Esmolol",
+   "page": 343,
+   "type": "contraindication",
+   "care_level": null,
+   "population": null,
+   "stem": "Which is a contraindication to esmolol?",
+   "options": [
+    "Recent administration of a calcium channel blocker",
+    "Atrial fibrillation with RVR",
+    "Aortic emergency with hypertension",
+    "Refractory ventricular fibrillation"
+   ],
+   "answer_index": 0,
+   "explanation": "Recent calcium channel blocker administration is a contraindication because the combined negative inotropy is poorly tolerated; decompensated heart failure, cardiogenic shock, high-grade AV block and bradycardia are the others. The remaining options are indications.",
+   "priority": "core",
+   "tags": [
+    "drug:esmolol",
+    "topic:tachycardia"
+   ]
+  },
+  {
+   "number": "12.28",
+   "title": "Esmolol",
+   "page": 343,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "Which drugs does 12.28 state esmolol must NOT be mixed with?",
+   "options": [
+    "Sodium bicarbonate, diazepam, furosemide or thiopental",
+    "Dopamine, dobutamine or epinephrine",
+    "Diltiazem, dexmedetomidine or fentanyl",
+    "Dextrose, insulin or calcium chloride"
+   ],
+   "answer_index": 0,
+   "explanation": "Esmolol is incompatible with sodium bicarbonate, diazepam, furosemide and thiopental. With several infusions running through limited access, this is a line-planning problem, not a trivia item.",
+   "priority": "detail",
+   "tags": [
+    "drug:esmolol",
+    "procedure:drug preparation"
+   ]
+  },
+  {
+   "number": "12.28",
+   "title": "Esmolol",
+   "page": 343,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of esmolol?",
+   "options": [
+    "Beta blocker",
+    "Calcium channel blocker",
+    "Alpha-2 adrenergic agonist",
+    "Inotrope"
+   ],
+   "answer_index": 0,
+   "explanation": "Esmolol competitively blocks beta-1 stimulation with little beta-2 effect except at high doses. Its 10-30 minute duration makes it the beta blocker of choice when effects may need to be withdrawn quickly.",
+   "priority": "detail",
+   "tags": [
+    "drug:esmolol",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.28",
+   "title": "Esmolol",
+   "page": 343,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the recommended mixture for an esmolol infusion?",
+   "options": [
+    "2,500 mg / 250 mL",
+    "250 mg / 250 mL",
+    "400 mg / 250 mL",
+    "100 mg / 100 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Esmolol is mixed 2,500 mg in 250 mL, giving 10 mg/mL, which matches the 10 mg/mL dosing chart on the following page.",
+   "priority": "detail",
+   "tags": [
+    "drug:esmolol",
+    "topic:infusions"
+   ]
+  },
+  {
+   "number": "12.29",
+   "title": "Etomidate",
+   "page": 345,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the dose of etomidate for sedation for RSI?",
+   "options": [
+    "0.3 mg/kg",
+    "0.1 mg/kg",
+    "0.15 mg/kg",
+    "0.05 mg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "RSI induction is 0.3 mg/kg for both adults and children, repeatable twice. The 0.1 mg/kg dose is for procedural sedation, a third of the induction dose.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate",
+    "topic:rsi",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.29",
+   "title": "Etomidate",
+   "page": 345,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the maximum adult dose of etomidate for RSI?",
+   "options": [
+    "40 mg",
+    "20 mg",
+    "30 mg",
+    "10 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "The adult RSI ceiling is 40 mg; the pediatric ceiling for the same 0.3 mg/kg dose is half that at 20 mg.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate",
+    "topic:rsi"
+   ]
+  },
+  {
+   "number": "12.29",
+   "title": "Etomidate",
+   "page": 345,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum pediatric dose of etomidate for RSI?",
+   "options": [
+    "20 mg",
+    "40 mg",
+    "30 mg",
+    "10 mg"
+   ],
+   "answer_index": 0,
+   "explanation": "Children get the same 0.3 mg/kg but are capped at 20 mg, so the cap is reached around 66 kg rather than the adult's 133 kg.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate",
+    "topic:rsi",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.29",
+   "title": "Etomidate",
+   "page": 345,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the dose of etomidate for procedural sedation?",
+   "options": [
+    "0.1 mg/kg over 30-60 seconds",
+    "0.3 mg/kg over 30-60 seconds",
+    "0.05 mg/kg over 2 minutes",
+    "0.15 mg/kg over 30-60 seconds"
+   ],
+   "answer_index": 0,
+   "explanation": "Procedural sedation is 0.1 mg/kg pushed over 30-60 seconds, repeatable with 0.05 mg/kg q3-5 min PRN to a maximum of three doses; the pediatric dose is the same.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate",
+    "topic:sedation",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.29",
+   "title": "Etomidate",
+   "page": 345,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What repeat dose does 12.29 give for procedural sedation with etomidate?",
+   "options": [
+    "0.05 mg/kg q 3-5 min PRN",
+    "0.1 mg/kg q 3-5 min PRN",
+    "0.3 mg/kg q 3-5 min PRN",
+    "0.05 mg/kg q 10 min PRN"
+   ],
+   "answer_index": 0,
+   "explanation": "Repeats are half the initial procedural dose, 0.05 mg/kg q3-5 min, to a maximum total of three doses.",
+   "priority": "detail",
+   "tags": [
+    "drug:etomidate",
+    "topic:sedation"
+   ]
+  },
+  {
+   "number": "12.29",
+   "title": "Etomidate",
+   "page": 345,
+   "type": "pearl",
+   "care_level": null,
+   "population": null,
+   "stem": "Why does 12.29 direct that post-intubation sedation be prepared before etomidate induction?",
+   "options": [
+    "Etomidate has a short duration and no analgesic effect",
+    "Etomidate causes hypertension on emergence",
+    "Etomidate blunts the paralytic's onset",
+    "Etomidate must be reversed after the tube is placed"
+   ],
+   "answer_index": 0,
+   "explanation": "Etomidate lasts only 3-5 minutes and provides no analgesia at all, so a patient paralyzed for RSI will be awake and in pain within minutes unless the next agent is already drawn up.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate",
+    "topic:rsi",
+    "topic:sedation"
+   ]
+  },
+  {
+   "number": "12.29",
+   "title": "Etomidate",
+   "page": 345,
+   "type": "adverse",
+   "care_level": null,
+   "population": null,
+   "stem": "Which adverse effect of etomidate does 12.29 highlight in patients with sepsis?",
+   "options": [
+    "Adrenal suppression",
+    "Hyperkalemia",
+    "Prolonged QT interval",
+    "Bronchospasm"
+   ],
+   "answer_index": 0,
+   "explanation": "Etomidate causes adrenal suppression, particularly in septic patients. Apnea, hypotension, dysrhythmias, myoclonic movements and trismus are the other listed reactions.",
+   "priority": "core",
+   "tags": [
+    "drug:etomidate",
+    "topic:rsi",
+    "topic:sepsis"
+   ]
+  },
+  {
+   "number": "12.29",
+   "title": "Etomidate",
+   "page": 345,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of etomidate?",
+   "options": [
+    "Non-barbiturate sedative hypnotic",
+    "Long-acting benzodiazepine",
+    "Opioid analgesic",
+    "Alpha-2 adrenergic agonist"
+   ],
+   "answer_index": 0,
+   "explanation": "Etomidate is a non-barbiturate sedative hypnotic that induces anesthesia with minimal cardiovascular and respiratory effect, which is why it is favored for induction in unstable patients.",
+   "priority": "detail",
+   "tags": [
+    "drug:etomidate",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.30",
+   "title": "Fentanyl",
+   "page": 346,
+   "type": "dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the dose of fentanyl for pain management?",
+   "options": [
+    "1 - 2 mcg/kg",
+    "0.5 - 1 mcg/kg",
+    "0.5 mcg/kg/hr",
+    "3 mcg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Pain management is 1-2 mcg/kg IV/IO/IN/IM, repeatable q10min, and the pediatric dose is identical. The per-hour figures belong to the infusion row.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.30",
+   "title": "Fentanyl",
+   "page": 346,
+   "type": "route",
+   "care_level": null,
+   "population": "both",
+   "stem": "By which routes may fentanyl be given for pain management under 12.30?",
+   "options": [
+    "IV, IO, IN or IM",
+    "IV or IO only",
+    "IV or IM only",
+    "IV, IO or SQ"
+   ],
+   "answer_index": 0,
+   "explanation": "Fentanyl for pain may be given IV, IO, IN or IM. The intranasal route is useful when a child or an entrapped patient has no vascular access.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain",
+    "route:in"
+   ]
+  },
+  {
+   "number": "12.30",
+   "title": "Fentanyl",
+   "page": 346,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum single dose of fentanyl for pain management?",
+   "options": [
+    "150 mcg",
+    "200 mcg",
+    "100 mcg",
+    "50 mcg"
+   ],
+   "answer_index": 0,
+   "explanation": "Single doses are capped at 150 mcg for adults and children alike. The 200 mcg/hr figure is the alternative ceiling on an infusion, not a bolus limit.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain"
+   ]
+  },
+  {
+   "number": "12.30",
+   "title": "Fentanyl",
+   "page": 346,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "What is the maximum total dose of fentanyl for pain management in a pediatric patient?",
+   "options": [
+    "4 mcg/kg",
+    "2 mcg/kg",
+    "3 mcg/kg",
+    "150 mcg/kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Children have a cumulative cap of 4 mcg/kg for pain management, roughly two to four doses, which the adult row does not carry.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.30",
+   "title": "Fentanyl",
+   "page": 346,
+   "type": "dose",
+   "care_level": null,
+   "population": "adult",
+   "stem": "At what rate is an adult fentanyl infusion started?",
+   "options": [
+    "1 mcg/kg/hr",
+    "0.5 mcg/kg/hr",
+    "3 mcg/kg/hr",
+    "1 - 2 mcg/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults start at 1 mcg/kg/hr titrated by 1 mcg/kg/hr q10min; children start at half that, 0.5 mcg/kg/hr titrated in 0.5 mcg/kg/hr steps.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.30",
+   "title": "Fentanyl",
+   "page": 346,
+   "type": "dose",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "At what rate is a pediatric fentanyl infusion started?",
+   "options": [
+    "0.5 mcg/kg/hr",
+    "1 mcg/kg/hr",
+    "3 mcg/kg/hr",
+    "2 mcg/kg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Children start at 0.5 mcg/kg/hr and titrate in 0.5 mcg/kg/hr steps q10min, half the adult rate, though both share the same 3 mcg/kg/hr ceiling.",
+   "priority": "detail",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain",
+    "population:pediatric"
+   ]
+  },
+  {
+   "number": "12.30",
+   "title": "Fentanyl",
+   "page": 346,
+   "type": "max_dose",
+   "care_level": null,
+   "population": "both",
+   "stem": "What is the maximum fentanyl infusion rate?",
+   "options": [
+    "3 mcg/kg/hr or 200 mcg/hr",
+    "1 mcg/kg/hr or 150 mcg/hr",
+    "4 mcg/kg/hr or 200 mcg/hr",
+    "2 mcg/kg/hr or 100 mcg/hr"
+   ],
+   "answer_index": 0,
+   "explanation": "Both adult and pediatric infusions stop at 3 mcg/kg/hr or 200 mcg/hr, whichever comes first, so a large adult hits the flat 200 mcg/hr ceiling before the weight-based one.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain"
+   ]
+  },
+  {
+   "number": "12.30",
+   "title": "Fentanyl",
+   "page": 346,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "What does 12.30 direct each time a fentanyl infusion is titrated?",
+   "options": [
+    "Give a bolus dose with the titration",
+    "Recheck the weight-based maximum",
+    "Hold the infusion for 10 minutes",
+    "Reduce the rate first, then increase it"
+   ],
+   "answer_index": 0,
+   "explanation": "A bolus is given before starting the infusion and with every titration, because raising a continuous rate alone takes a long time to reach a new steady state in a patient who is in pain now.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain",
+    "route:iv"
+   ]
+  },
+  {
+   "number": "12.30",
+   "title": "Fentanyl",
+   "page": 346,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "What monitoring does 12.30 require for patients receiving multiple doses of opiates or sedatives?",
+   "options": [
+    "ETCO2",
+    "Serial temperatures",
+    "Continuous 12 lead ECG",
+    "Hourly blood glucose"
+   ],
+   "answer_index": 0,
+   "explanation": "ETCO2 must be monitored with multiple opiate or sedative doses; it detects hypoventilation well before pulse oximetry falls, especially in a patient on supplemental oxygen.",
+   "priority": "core",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pain",
+    "assessment:capnography"
+   ]
+  },
+  {
+   "number": "12.30",
+   "title": "Fentanyl",
+   "page": 346,
+   "type": "class",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the pharmacologic category of fentanyl?",
+   "options": [
+    "Opioid analgesic",
+    "Non-barbiturate sedative hypnotic",
+    "Benzodiazepine",
+    "Alpha-2 adrenergic agonist"
+   ],
+   "answer_index": 0,
+   "explanation": "Fentanyl is an opioid analgesic binding stereospecific CNS receptors to raise the pain threshold; CNS depression, hypotension and respiratory depression follow from that mechanism.",
+   "priority": "detail",
+   "tags": [
+    "drug:fentanyl",
+    "topic:pharmacology"
+   ]
+  },
+  {
+   "number": "12.30",
+   "title": "Fentanyl",
+   "page": 346,
+   "type": "dose",
+   "care_level": null,
+   "population": null,
+   "stem": "What is the recommended mixture for a fentanyl infusion?",
+   "options": [
+    "200 mcg / 100 mL",
+    "400 mcg / 100 mL",
+    "100 mg / 100 mL",
+    "250 mg / 250 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Fentanyl is mixed 200 mcg in 100 mL, giving 2 mcg/mL. The 400 mcg/100 mL mix is dexmedetomidine, the other common sedation infusion.",
+   "priority": "detail",
+   "tags": [
+    "drug:fentanyl",
+    "topic:infusions"
+   ]
+  }
+ ]
+}
