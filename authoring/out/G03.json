@@ -21,7 +21,8 @@
     "topic:iabp",
     "topic:contraindications"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_f08eade508"
   },
   {
    "number": "3.06",
@@ -43,7 +44,8 @@
     "topic:iabp",
     "topic:medical-control"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_f56c420bb2"
   },
   {
    "number": "3.06",
@@ -65,7 +67,8 @@
     "topic:iabp",
     "topic:scope-of-practice"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_157c02aeda"
   },
   {
    "number": "3.06",
@@ -88,7 +91,8 @@
     "topic:iabp",
     "route:iv"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_e37f2173d9"
   },
   {
    "number": "3.06",
@@ -111,7 +115,8 @@
     "topic:iabp",
     "route:iv"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_fdf5fb8be7"
   },
   {
    "number": "3.06",
@@ -133,7 +138,8 @@
     "topic:iabp",
     "procedure:placement-confirmation"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_2b2af506a1"
   },
   {
    "number": "3.06",
@@ -155,7 +161,8 @@
     "topic:iabp",
     "topic:assessment"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_4357b77a73"
   },
   {
    "number": "3.06",
@@ -177,7 +184,8 @@
     "topic:iabp",
     "topic:cardiac-arrest"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_aa69b17fac"
   },
   {
    "number": "3.06",
@@ -199,7 +207,8 @@
     "topic:iabp",
     "topic:balloon-rupture"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_bac035685c"
   },
   {
    "number": "3.06",
@@ -221,7 +230,8 @@
     "topic:iabp",
     "topic:pump-failure"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_9da38c474d"
   },
   {
    "number": "3.06",
@@ -243,7 +253,8 @@
     "topic:iabp",
     "procedure:manual-inflation"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_69f9f467bf"
   },
   {
    "number": "3.06",
@@ -265,7 +276,8 @@
     "topic:iabp",
     "topic:alarms"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_d492b0de10"
   },
   {
    "number": "3.07",
@@ -287,7 +299,8 @@
     "topic:impella",
     "topic:contraindications"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_0d0183e2ce"
   },
   {
    "number": "3.07",
@@ -309,7 +322,8 @@
     "topic:impella",
     "topic:contraindications"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_a870f43da9"
   },
   {
    "number": "3.07",
@@ -331,7 +345,8 @@
     "topic:impella",
     "topic:cardiac-arrest"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_72b723a45f"
   },
   {
    "number": "3.07",
@@ -353,7 +368,8 @@
     "topic:impella",
     "topic:cardiac-arrest"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_d4fb9225d0"
   },
   {
    "number": "3.07",
@@ -375,7 +391,8 @@
     "topic:impella",
     "topic:hemodynamics"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_7446604072"
   },
   {
    "number": "3.07",
@@ -397,7 +414,8 @@
     "topic:impella",
     "topic:hemodynamics"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_3ed2e14380"
   },
   {
    "number": "3.07",
@@ -419,7 +437,8 @@
     "topic:impella",
     "topic:equipment"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_45429daae5"
   },
   {
    "number": "3.07",
@@ -442,7 +461,8 @@
     "topic:impella",
     "topic:purge-fluid"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_cca4249a09"
   },
   {
    "number": "3.07",
@@ -464,7 +484,8 @@
     "topic:impella",
     "topic:purge-fluid"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_a07c89dc63"
   },
   {
    "number": "3.07",
@@ -486,7 +507,8 @@
     "topic:impella",
     "procedure:placement-confirmation"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_c92a4ee803"
   },
   {
    "number": "3.07",
@@ -508,7 +530,8 @@
     "topic:impella",
     "procedure:placement-confirmation"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_d2449e0aad"
   },
   {
    "number": "3.07",
@@ -530,7 +553,8 @@
     "topic:impella",
     "topic:positioning"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_b9ea6ee281"
   },
   {
    "number": "3.07",
@@ -552,7 +576,8 @@
     "topic:impella",
     "topic:documentation"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_62f060b81f"
   },
   {
    "number": "3.07",
@@ -574,7 +599,8 @@
     "topic:impella",
     "topic:purge-fluid"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_3f3bae8769"
   },
   {
    "number": "3.07",
@@ -596,7 +622,8 @@
     "topic:impella",
     "topic:purge-fluid"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_11dce31d6b"
   },
   {
    "number": "3.07",
@@ -618,7 +645,8 @@
     "topic:impella",
     "topic:equipment"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_bc8355c5e8"
   },
   {
    "number": "3.07",
@@ -640,7 +668,8 @@
     "topic:impella",
     "topic:equipment"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_a1676d38a1"
   },
   {
    "number": "3.07",
@@ -662,7 +691,8 @@
     "topic:impella",
     "topic:troubleshooting"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_af9c7b6949"
   },
   {
    "number": "3.07",
@@ -684,7 +714,8 @@
     "topic:impella",
     "topic:troubleshooting"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_58a31ae52c"
   },
   {
    "number": "3.07",
@@ -706,7 +737,8 @@
     "topic:impella",
     "topic:troubleshooting"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_3425d39f9c"
   },
   {
    "number": "3.07",
@@ -728,7 +760,8 @@
     "topic:impella",
     "topic:troubleshooting"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_9aa478d933"
   },
   {
    "number": "3.07",
@@ -750,7 +783,8 @@
     "topic:impella",
     "topic:troubleshooting"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_e40085901d"
   },
   {
    "number": "3.07",
@@ -772,7 +806,8 @@
     "topic:impella",
     "topic:troubleshooting"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_0bf0e74174"
   },
   {
    "number": "3.07",
@@ -794,7 +829,8 @@
     "topic:impella",
     "topic:equipment"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_efd62abfd1"
   },
   {
    "number": "3.08",
@@ -816,7 +852,8 @@
     "topic:lvad",
     "topic:cardiac-arrest"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_21a72748f1"
   },
   {
    "number": "3.08",
@@ -838,7 +875,8 @@
     "topic:lvad",
     "topic:assessment"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_2fbc899945"
   },
   {
    "number": "3.08",
@@ -860,7 +898,8 @@
     "topic:lvad",
     "topic:defibrillation"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_a920aa0305"
   },
   {
    "number": "3.08",
@@ -882,7 +921,8 @@
     "topic:lvad",
     "topic:cardiac-arrest"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_26d074f739"
   },
   {
    "number": "3.08",
@@ -904,7 +944,8 @@
     "topic:lvad",
     "topic:assessment"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_6680831459"
   },
   {
    "number": "3.08",
@@ -926,7 +967,8 @@
     "topic:lvad",
     "topic:assessment"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_9e385564c7"
   },
   {
    "number": "3.08",
@@ -948,7 +990,8 @@
     "topic:lvad",
     "topic:troubleshooting"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_1cc43eb825"
   },
   {
    "number": "3.08",
@@ -970,7 +1013,8 @@
     "topic:lvad",
     "topic:troubleshooting"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_a87a028b0b"
   },
   {
    "number": "3.08",
@@ -992,7 +1036,8 @@
     "topic:lvad",
     "topic:hemodynamics"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_d88615fb14"
   },
   {
    "number": "3.08",
@@ -1014,7 +1059,8 @@
     "topic:lvad",
     "topic:equipment"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_e4315df6ac"
   },
   {
    "number": "3.08",
@@ -1036,7 +1082,8 @@
     "topic:lvad",
     "topic:equipment"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_fd405b9c71"
   },
   {
    "number": "3.08",
@@ -1058,7 +1105,8 @@
     "topic:lvad",
     "topic:mechanism"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_9e76a07b8f"
   },
   {
    "number": "3.08",
@@ -1080,7 +1128,8 @@
     "topic:lvad",
     "topic:complications"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_c6cd31547f"
   },
   {
    "number": "3.08",
@@ -1102,7 +1151,8 @@
     "topic:lvad",
     "topic:equipment"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_027ac00ad1"
   },
   {
    "number": "3.09",
@@ -1124,7 +1174,8 @@
     "topic:pulmonary-edema",
     "topic:positioning"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_cc155daf28"
   },
   {
    "number": "3.09",
@@ -1147,7 +1198,8 @@
     "topic:fluid-resuscitation",
     "route:iv"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_252d956755"
   },
   {
    "number": "3.09",
@@ -1169,7 +1221,8 @@
     "topic:pulmonary-edema",
     "topic:hemodynamics"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_ea9dc2a816"
   },
   {
    "number": "3.09",
@@ -1192,7 +1245,8 @@
     "topic:pulmonary-edema",
     "route:iv"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_a08f28851b"
   },
   {
    "number": "3.09",
@@ -1215,7 +1269,8 @@
     "topic:pulmonary-edema",
     "route:iv"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_20ffe717c3"
   },
   {
    "number": "3.09",
@@ -1238,7 +1293,8 @@
     "topic:pulmonary-edema",
     "route:sl"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_7782154aee"
   },
   {
    "number": "3.09",
@@ -1260,7 +1316,8 @@
     "drug:nitroglycerin",
     "topic:pulmonary-edema"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_d6882fa9bd"
   },
   {
    "number": "3.09",
@@ -1283,7 +1340,8 @@
     "topic:pulmonary-edema",
     "route:iv"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_933eb8ef79"
   },
   {
    "number": "3.09",
@@ -1306,7 +1364,8 @@
     "topic:pulmonary-edema",
     "route:iv"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_deb7f437b6"
   },
   {
    "number": "3.09",
@@ -1330,7 +1389,8 @@
     "topic:pulmonary-edema",
     "route:neb"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_cb2a2480e3"
   },
   {
    "number": "3.09",
@@ -1353,7 +1413,8 @@
     "topic:pulmonary-edema",
     "route:neb"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_f7fed3f122"
   },
   {
    "number": "3.09",
@@ -1376,7 +1437,8 @@
     "topic:pulmonary-edema",
     "route:iv"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_ca339c3abf"
   },
   {
    "number": "3.09",
@@ -1399,7 +1461,8 @@
     "topic:pulmonary-edema",
     "route:iv"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_fe2d9efb98"
   },
   {
    "number": "3.09",
@@ -1422,7 +1485,8 @@
     "topic:pulmonary-edema",
     "route:iv"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_52dc847896"
   },
   {
    "number": "3.09",
@@ -1444,7 +1508,8 @@
     "drug:nitroglycerin",
     "topic:pulmonary-edema"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_86d301401d"
   },
   {
    "number": "3.09",
@@ -1466,7 +1531,8 @@
     "topic:pulmonary-edema",
     "population:pediatric"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_998fba9884"
   },
   {
    "number": "3.09",
@@ -1488,7 +1554,8 @@
     "topic:pulmonary-edema",
     "topic:mechanical-ventilation"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_971641cef7"
   },
   {
    "number": "3.09",
@@ -1510,7 +1577,8 @@
     "topic:pulmonary-edema",
     "topic:mechanical-ventilation"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_910976a1ee"
   },
   {
    "number": "3.10",
@@ -1532,7 +1600,8 @@
     "topic:tachycardia",
     "procedure:cardioversion"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_1cb96941f7"
   },
   {
    "number": "3.10",
@@ -1554,7 +1623,8 @@
     "topic:tachycardia",
     "procedure:cardioversion"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_25e572cca4"
   },
   {
    "number": "3.10",
@@ -1576,7 +1646,8 @@
     "topic:tachycardia",
     "procedure:cardioversion"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_b98d0d2b39"
   },
   {
    "number": "3.10",
@@ -1598,7 +1669,8 @@
     "topic:tachycardia",
     "procedure:defibrillation"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_e954de3d30"
   },
   {
    "number": "3.10",
@@ -1621,7 +1693,8 @@
     "topic:tachycardia",
     "route:iv"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_27dc29f8b5"
   },
   {
    "number": "3.10",
@@ -1644,7 +1717,8 @@
     "topic:tachycardia",
     "route:iv"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_386e647729"
   },
   {
    "number": "3.10",
@@ -1667,7 +1741,8 @@
     "topic:tachycardia",
     "route:iv"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_de962b95c0"
   },
   {
    "number": "3.10",
@@ -1690,7 +1765,8 @@
     "topic:tachycardia",
     "route:iv"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_ff6d9fec70"
   },
   {
    "number": "3.10",
@@ -1713,7 +1789,8 @@
     "topic:tachycardia",
     "route:iv"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_317a9f0b77"
   },
   {
    "number": "3.10",
@@ -1735,7 +1812,8 @@
     "topic:tachycardia",
     "topic:ecg"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_67e3da6582"
   },
   {
    "number": "3.10",
@@ -1758,7 +1836,8 @@
     "procedure:cardioversion",
     "population:pediatric"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_2087ee0086"
   },
   {
    "number": "3.10",
@@ -1781,7 +1860,8 @@
     "topic:tachycardia",
     "population:pediatric"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_8c1c7e00df"
   },
   {
    "number": "3.10",
@@ -1804,7 +1884,8 @@
     "topic:ecg",
     "population:pediatric"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_9292fc814d"
   },
   {
    "number": "3.10",
@@ -1826,7 +1907,8 @@
     "topic:tachycardia",
     "topic:safety"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_2210ce38c3"
   },
   {
    "number": "3.10",
@@ -1848,7 +1930,8 @@
     "topic:tachycardia",
     "topic:assessment"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_8b77e00c07"
   },
   {
    "number": "3.10",
@@ -1871,7 +1954,8 @@
     "topic:wpw",
     "topic:contraindications"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_075b66dc73"
   },
   {
    "number": "3.10",
@@ -1894,7 +1978,8 @@
     "topic:tachycardia",
     "topic:contraindications"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_c5ee45467d"
   },
   {
    "number": "3.10",
@@ -1916,7 +2001,8 @@
     "topic:tachycardia",
     "topic:rate-control"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_295b429fb7"
   },
   {
    "number": "3.10",
@@ -1938,7 +2024,8 @@
     "topic:wpw",
     "topic:ecg"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_2a595aa248"
   },
   {
    "number": "4.01",
@@ -1960,7 +2047,8 @@
     "topic:altitude-illness",
     "topic:oxygenation"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_54caf262ab"
   },
   {
    "number": "4.01",
@@ -1981,7 +2069,8 @@
    "tags": [
     "topic:altitude-illness"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_6bde51ef6a"
   },
   {
    "number": "4.01",
@@ -2004,7 +2093,8 @@
     "topic:altitude-illness",
     "route:iv"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_79f7822ab8"
   },
   {
    "number": "4.01",
@@ -2027,7 +2117,8 @@
     "topic:hape",
     "topic:hace"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_a8bfad774c"
   },
   {
    "number": "4.01",
@@ -2050,7 +2141,8 @@
     "topic:hape",
     "route:po"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_0dfa7439e0"
   },
   {
    "number": "4.01",
@@ -2072,7 +2164,8 @@
     "drug:nifedipine",
     "topic:hape"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_79e2408a8a"
   },
   {
    "number": "4.01",
@@ -2095,7 +2188,8 @@
     "topic:altitude-illness",
     "route:iv"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_b345e77c77"
   },
   {
    "number": "4.01",
@@ -2118,7 +2212,8 @@
     "topic:altitude-illness",
     "route:iv"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_d1bbb4b0eb"
   },
   {
    "number": "4.01",
@@ -2141,7 +2236,8 @@
     "topic:medical-control",
     "population:pediatric"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_18b9ef96c4"
   },
   {
    "number": "4.01",
@@ -2162,7 +2258,8 @@
    "tags": [
     "topic:altitude-illness"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_557261d7fe"
   },
   {
    "number": "4.01",
@@ -2184,7 +2281,8 @@
     "topic:hape",
     "topic:assessment"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_5405342332"
   },
   {
    "number": "4.01",
@@ -2206,7 +2304,8 @@
     "topic:ams",
     "topic:assessment"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_00650c6484"
   },
   {
    "number": "4.02",
@@ -2228,7 +2327,8 @@
     "topic:decompression-sickness",
     "topic:positioning"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_c18367f1e6"
   },
   {
    "number": "4.02",
@@ -2250,7 +2350,8 @@
     "topic:decompression-sickness",
     "topic:positioning"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_81a261e117"
   },
   {
    "number": "4.02",
@@ -2272,7 +2373,8 @@
     "topic:decompression-sickness",
     "topic:oxygenation"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_9a3a7c473e"
   },
   {
    "number": "4.02",
@@ -2294,7 +2396,8 @@
     "topic:decompression-sickness",
     "procedure:intubation"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_1a0edcae72"
   },
   {
    "number": "4.02",
@@ -2317,7 +2420,8 @@
     "topic:fluid-resuscitation",
     "route:iv"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_b47c2247e8"
   },
   {
    "number": "4.02",
@@ -2339,7 +2443,8 @@
     "topic:decompression-sickness",
     "topic:flight-physiology"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_4919980da1"
   },
   {
    "number": "4.02",
@@ -2361,7 +2466,8 @@
     "topic:decompression-sickness",
     "topic:flight-physiology"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_efe1e21c93"
   },
   {
    "number": "4.02",
@@ -2383,7 +2489,8 @@
     "topic:decompression-sickness",
     "topic:contraindications"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_76b1c15343"
   },
   {
    "number": "4.02",
@@ -2405,7 +2512,8 @@
     "topic:decompression-sickness",
     "topic:pain-management"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_4abce4eeff"
   },
   {
    "number": "4.02",
@@ -2426,7 +2534,8 @@
    "tags": [
     "topic:decompression-sickness"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_bc3141f66f"
   },
   {
    "number": "4.02",
@@ -2448,7 +2557,8 @@
     "topic:decompression-sickness",
     "topic:assessment"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_ba7dd80ca7"
   },
   {
    "number": "4.03",
@@ -2470,7 +2580,8 @@
     "topic:drowning",
     "topic:airway"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_6c304f5026"
   },
   {
    "number": "4.03",
@@ -2492,7 +2603,8 @@
     "topic:drowning",
     "topic:airway"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_110b8d8efe"
   },
   {
    "number": "4.03",
@@ -2514,7 +2626,8 @@
     "topic:drowning",
     "topic:airway"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_a66b6ad53e"
   },
   {
    "number": "4.03",
@@ -2536,7 +2649,8 @@
     "topic:drowning",
     "topic:spinal-immobilization"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_a05cb18c1e"
   },
   {
    "number": "4.03",
@@ -2558,7 +2672,8 @@
     "topic:drowning",
     "topic:resuscitation"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_d3bf71039c"
   },
   {
    "number": "4.03",
@@ -2580,7 +2695,8 @@
     "topic:drowning",
     "topic:resuscitation"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_ca8825d165"
   },
   {
    "number": "4.03",
@@ -2602,7 +2718,8 @@
     "topic:drowning",
     "topic:post-rosc"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_51e248e939"
   },
   {
    "number": "4.03",
@@ -2625,7 +2742,8 @@
     "topic:fluid-resuscitation",
     "route:iv"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_f2d4d96d19"
   },
   {
    "number": "4.03",
@@ -2648,7 +2766,8 @@
     "topic:fluid-resuscitation",
     "population:pediatric"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_b25ba8d5f5"
   },
   {
    "number": "4.03",
@@ -2672,7 +2791,8 @@
     "population:pediatric",
     "route:iv"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_a86b035707"
   },
   {
    "number": "4.03",
@@ -2695,7 +2815,8 @@
     "topic:drowning",
     "population:pediatric"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_602a71ecb1"
   },
   {
    "number": "4.03",
@@ -2719,7 +2840,8 @@
     "population:pediatric",
     "route:iv"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_dc07f76f3e"
   },
   {
    "number": "4.03",
@@ -2741,7 +2863,8 @@
     "topic:drowning",
     "topic:prognosis"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_0c64b3a376"
   },
   {
    "number": "4.03",
@@ -2764,7 +2887,8 @@
     "topic:hypothermia",
     "topic:prognosis"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_92b181f719"
   },
   {
    "number": "4.03",
@@ -2786,7 +2910,8 @@
     "topic:drowning",
     "topic:definitions"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_8f898d353a"
   },
   {
    "number": "4.03",
@@ -2808,7 +2933,8 @@
     "topic:drowning",
     "topic:mechanism"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_78f1b3c5a6"
   },
   {
    "number": "4.03",
@@ -2830,7 +2956,8 @@
     "topic:drowning",
     "procedure:salad"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_3558fae73a"
   },
   {
    "number": "4.03",
@@ -2852,7 +2979,8 @@
     "topic:drowning",
     "topic:transport"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_0387080858"
   },
   {
    "number": "4.04",
@@ -2874,7 +3002,8 @@
     "topic:envenomation",
     "topic:wound-care"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_0269d49bb0"
   },
   {
    "number": "4.04",
@@ -2896,7 +3025,8 @@
     "topic:envenomation",
     "topic:assessment"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_68875155b6"
   },
   {
    "number": "4.04",
@@ -2918,7 +3048,8 @@
     "topic:envenomation",
     "topic:positioning"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_2d68e024bd"
   },
   {
    "number": "4.04",
@@ -2940,7 +3071,8 @@
     "topic:envenomation",
     "topic:contraindications"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_8a9ac1c820"
   },
   {
    "number": "4.04",
@@ -2961,7 +3093,8 @@
    "tags": [
     "topic:envenomation"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_2a936a9061"
   },
   {
    "number": "4.04",
@@ -2983,7 +3116,8 @@
     "topic:envenomation",
     "topic:shock"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_bc2ad44875"
   },
   {
    "number": "4.04",
@@ -3005,7 +3139,8 @@
     "topic:envenomation",
     "topic:antivenin"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_7bce6d6bb3"
   },
   {
    "number": "4.04",
@@ -3026,7 +3161,8 @@
    "tags": [
     "topic:envenomation"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_23077248de"
   },
   {
    "number": "4.04",
@@ -3048,7 +3184,8 @@
     "topic:envenomation",
     "topic:antivenin"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_5bd0d7db29"
   },
   {
    "number": "4.04",
@@ -3071,7 +3208,8 @@
     "topic:antivenin",
     "topic:anaphylaxis"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_aaf06cddc1"
   },
   {
    "number": "4.04",
@@ -3093,7 +3231,8 @@
     "topic:envenomation",
     "topic:assessment"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_4354f4c6c6"
   },
   {
    "number": "4.04",
@@ -3115,7 +3254,8 @@
     "topic:envenomation",
     "topic:assessment"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_04f5e1f9d6"
   },
   {
    "number": "4.05",
@@ -3137,7 +3277,8 @@
     "topic:hyperthermia",
     "topic:cooling"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_10f4953c94"
   },
   {
    "number": "4.05",
@@ -3159,7 +3300,8 @@
     "topic:hyperthermia",
     "topic:cooling"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_3261857e59"
   },
   {
    "number": "4.05",
@@ -3181,7 +3323,8 @@
     "topic:hyperthermia",
     "topic:cooling"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_fb5ef95480"
   },
   {
    "number": "4.05",
@@ -3203,7 +3346,8 @@
     "topic:hyperthermia",
     "topic:cooling"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_57a141b855"
   },
   {
    "number": "4.05",
@@ -3225,7 +3369,8 @@
     "topic:hyperthermia",
     "topic:fluid-resuscitation"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_c6213be219"
   },
   {
    "number": "4.05",
@@ -3248,7 +3393,8 @@
     "topic:fluid-resuscitation",
     "route:iv"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_c7534ba616"
   },
   {
    "number": "4.05",
@@ -3271,7 +3417,8 @@
     "topic:cooling",
     "route:iv"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_3b5719fa0c"
   },
   {
    "number": "4.05",
@@ -3294,7 +3441,8 @@
     "topic:cooling",
     "population:pediatric"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_0c848d4fd8"
   },
   {
    "number": "4.05",
@@ -3316,7 +3464,8 @@
     "topic:hyperthermia",
     "topic:fluid-resuscitation"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_69d8a2340c"
   },
   {
    "number": "4.05",
@@ -3339,7 +3488,8 @@
     "topic:hyperthermia",
     "route:iv"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_89bf9b0349"
   },
   {
    "number": "4.05",
@@ -3362,7 +3512,8 @@
     "topic:hyperthermia",
     "route:iv"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_5420ab25a9"
   },
   {
    "number": "4.05",
@@ -3386,7 +3537,8 @@
     "population:pediatric",
     "route:iv"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_f2b8fb96c2"
   },
   {
    "number": "4.05",
@@ -3409,7 +3561,8 @@
     "topic:hyperthermia",
     "population:pediatric"
    ],
-   "answer_index": 0
+   "answer_index": 0,
+   "uid": "q_ba599dd511"
   },
   {
    "number": "4.05",
@@ -3431,7 +3584,8 @@
     "topic:hyperthermia",
     "topic:heat-stroke"
    ],
-   "answer_index": 1
+   "answer_index": 1,
+   "uid": "q_f45dc534f0"
   },
   {
    "number": "4.05",
@@ -3453,7 +3607,8 @@
     "topic:hyperthermia",
     "topic:heat-stroke"
    ],
-   "answer_index": 2
+   "answer_index": 2,
+   "uid": "q_d51b3e809c"
   },
   {
    "number": "4.05",
@@ -3475,7 +3630,8 @@
     "topic:hyperthermia",
     "topic:heat-exhaustion"
    ],
-   "answer_index": 3
+   "answer_index": 3,
+   "uid": "q_32c9fac806"
   }
  ]
 }

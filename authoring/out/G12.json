@@ -1,328 +1,413 @@
 {
-  "batch": "G12",
-  "questions": [
-    {
-      "number": "10.07",
-      "title": "Termination of Resuscitation Algorithm",
-      "page": 297,
-      "type": "indication",
-      "care_level": null,
-      "population": "adult",
-      "stem": "In the 10.07 Termination of Resuscitation Algorithm, what rhythm-and-time finding is the entry point that moves a crew toward termination rather than straight back to continued resuscitation?",
-      "options": [
-        "Asystole or agonal rhythm after 20 minutes of resuscitation",
-        "Pulseless electrical activity after 20 minutes of resuscitation",
-        "Asystole or agonal rhythm after 60 seconds of resuscitation",
-        "Ventricular fibrillation after 20 minutes of resuscitation"
-      ],
-      "answer_index": 0,
-      "explanation": "The algorithm opens on asystole or an agonal rhythm persisting after 20 minutes of resuscitation that has followed AHA and LFN guidelines; anything else loops the crew back toward continued resuscitation. The 20 minutes must be guideline-compliant resuscitation, not simply 20 minutes of elapsed time.",
-      "priority": "core",
-      "tags": ["topic:termination-of-resuscitation", "topic:cardiac-arrest", "population:adult"]
-    },
-    {
-      "number": "10.07",
-      "title": "Termination of Resuscitation Algorithm",
-      "page": 297,
-      "type": "treatment",
-      "care_level": null,
-      "population": "pediatric",
-      "stem": "A 16-year-old remains in asystole after 25 minutes of guideline-compliant resuscitation, with a confirmed advanced airway, patent vascular access and no ROSC at any point. What does 10.07 direct?",
-      "options": [
-        "Continue resuscitation",
-        "Contact Medical Control",
-        "Terminate resuscitation",
-        "Transport to the closest facility"
-      ],
-      "answer_index": 0,
-      "explanation": "Every criterion in the box must be met, and this patient fails the age requirement of 18 or older. Any single unmet criterion sends the algorithm back to continued resuscitation, regardless of how well the others are satisfied.",
-      "priority": "core",
-      "tags": ["topic:termination-of-resuscitation", "topic:cardiac-arrest", "population:pediatric"]
-    },
-    {
-      "number": "10.07",
-      "title": "Termination of Resuscitation Algorithm",
-      "page": 297,
-      "type": "procedure",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What airway standard must be satisfied before resuscitation may be terminated under 10.07?",
-      "options": [
-        "An advanced airway in place and confirmed with waveform ETCO2",
-        "A supraglottic airway in place with bilateral breath sounds",
-        "An advanced airway in place with a 12-lead ECG obtained",
-        "A patent airway maintained with a basic adjunct and BVM"
-      ],
-      "answer_index": 0,
-      "explanation": "Termination requires an advanced airway that is in place AND confirmed with waveform capnography. Waveform ETCO2 is what proves the airway is working and gives the objective end-tidal evidence that must later be uploaded with the termination documentation.",
-      "priority": "core",
-      "tags": ["topic:termination-of-resuscitation", "procedure:advanced-airway", "topic:capnography"]
-    },
-    {
-      "number": "10.07",
-      "title": "Termination of Resuscitation Algorithm",
-      "page": 297,
-      "type": "assessment",
-      "care_level": null,
-      "population": "adult",
-      "stem": "Under 10.07, for how long must a crew confirm that no heart tones are heard before resuscitation may be terminated?",
-      "options": [
-        "60 seconds",
-        "30 seconds",
-        "10 minutes",
-        "20 minutes"
-      ],
-      "answer_index": 0,
-      "explanation": "A full 60 seconds of auscultation with no heart tones is one of the criteria that must all be met. A brief listen is not enough, because low-output cardiac activity can be missed on a short assessment in a noisy aircraft.",
-      "priority": "detail",
-      "tags": ["topic:termination-of-resuscitation", "topic:cardiac-arrest", "population:adult"]
-    },
-    {
-      "number": "10.07",
-      "title": "Termination of Resuscitation Algorithm",
-      "page": 297,
-      "type": "contraindication",
-      "care_level": null,
-      "population": "adult",
-      "stem": "A cardiac arrest patient had a brief ROSC ten minutes into the resuscitation but is now in asystole at 25 minutes and meets every other 10.07 criterion. How does the earlier ROSC affect the decision?",
-      "options": [
-        "Termination is not permitted; resuscitation continues",
-        "Termination is permitted if Medical Control concurs",
-        "Termination is permitted after a second 20-minute cycle",
-        "Termination is permitted once heart tones are absent"
-      ],
-      "answer_index": 0,
-      "explanation": "The criterion is no ROSC obtained at any time during the resuscitation, so a transient ROSC at any point disqualifies the patient permanently. A heart that restarted once may do so again, which is why the algorithm treats it as an absolute bar.",
-      "priority": "core",
-      "tags": ["topic:termination-of-resuscitation", "topic:rosc", "population:adult"]
-    },
-    {
-      "number": "10.07",
-      "title": "Termination of Resuscitation Algorithm",
-      "page": 297,
-      "type": "scope",
-      "care_level": null,
-      "population": "adult",
-      "stem": "A patient meets every 10.07 termination criterion, Medical Control cannot be reached, and the crew's state scope of practice does not allow termination of resuscitation. What does the algorithm direct?",
-      "options": [
-        "Transport the patient to the closest facility",
-        "Terminate resuscitation and document the rhythm",
-        "Continue resuscitation for another 20 minutes",
-        "Transport the patient to the original destination"
-      ],
-      "answer_index": 0,
-      "explanation": "Without Medical Control contact, state scope of practice becomes the deciding factor; if it does not authorize termination, the patient goes to the closest facility rather than the originally planned destination. Only a state that permits termination lets the crew stop on their own authority.",
-      "priority": "core",
-      "tags": ["topic:termination-of-resuscitation", "topic:medical-control", "topic:scope-of-practice"]
-    },
-    {
-      "number": "10.07",
-      "title": "Termination of Resuscitation Algorithm",
-      "page": 297,
-      "type": "procedure",
-      "care_level": null,
-      "population": "adult",
-      "stem": "Once resuscitation has been terminated under 10.07, what documentation must be obtained and uploaded to the PCR?",
-      "options": [
-        "ETCO2 and ECG strips in two different leads at termination",
-        "A 12-lead ECG and the ETCO2 waveform at termination",
-        "ECG strips in a single lead and the GPS coordinates",
-        "ETCO2 values and heart tone documentation at termination"
-      ],
-      "answer_index": 0,
-      "explanation": "The algorithm closes by requiring ETCO2 and ECG strips showing the rhythm at the time of termination in two different leads, uploaded to the PCR. Two leads guard against a fine rhythm being mistaken for asystole on a single lead.",
-      "priority": "detail",
-      "tags": ["topic:termination-of-resuscitation", "topic:documentation", "topic:capnography"]
-    },
-    {
-      "number": "10.07",
-      "title": "Termination of Resuscitation Algorithm",
-      "page": 297,
-      "type": "special",
-      "care_level": null,
-      "population": "both",
-      "stem": "The 10.07 algorithm gives a second route to the Medical Control decision point for a patient who is not in asystole or an agonal rhythm. What condition opens that route?",
-      "options": [
-        "ACLS/PALS resuscitation for over 20 minutes without change",
-        "ACLS/PALS resuscitation for over 10 minutes without change",
-        "ACLS/PALS resuscitation with no ROSC and absent heart tones",
-        "ACLS/PALS resuscitation with a non-shockable rhythm present"
-      ],
-      "answer_index": 0,
-      "explanation": "A patient who fails the asystole/agonal entry question can still reach the Medical Control decision if ongoing ACLS or PALS resuscitation has run more than 20 minutes without change. If the resuscitation is still changing the patient, the algorithm returns the crew to continued resuscitation.",
-      "priority": "detail",
-      "tags": ["topic:termination-of-resuscitation", "topic:cardiac-arrest", "topic:medical-control"]
-    },
-    {
-      "number": "10.08",
-      "title": "Traumatic Arrest Algorithm",
-      "page": 298,
-      "type": "treatment",
-      "care_level": null,
-      "population": "both",
-      "stem": "In traumatic arrest, what priority does the 10.08 algorithm assign to CPR and epinephrine?",
-      "options": [
-        "They are not priorities in traumatic arrest",
-        "They are the first priority in traumatic arrest",
-        "They are started only after ROSC is obtained",
-        "They are reserved for patients in asystole"
-      ],
-      "answer_index": 0,
-      "explanation": "The algorithm states plainly that CPR and epinephrine are not priorities in traumatic arrest, because compressions and a vasopressor do nothing for an empty tank or an obstructed heart. Crew effort belongs on the reversible causes instead.",
-      "priority": "core",
-      "tags": ["topic:traumatic-arrest", "drug:epinephrine", "topic:cardiac-arrest"]
-    },
-    {
-      "number": "10.08",
-      "title": "Traumatic Arrest Algorithm",
-      "page": 298,
-      "type": "sequence",
-      "care_level": null,
-      "population": "both",
-      "stem": "How does 10.08 direct a crew to work through the reversible causes of traumatic arrest?",
-      "options": [
-        "Address them simultaneously",
-        "Address them in the listed order",
-        "Address them after ROSC is obtained",
-        "Address them only if CPR fails"
-      ],
-      "answer_index": 0,
-      "explanation": "The reversible causes are addressed simultaneously, not one at a time, because a traumatic arrest patient rarely has a single cause and has no time for sequential treatment. The numbering is a checklist, not a running order.",
-      "priority": "core",
-      "tags": ["topic:traumatic-arrest", "topic:reversible-causes", "topic:cardiac-arrest"]
-    },
-    {
-      "number": "10.08",
-      "title": "Traumatic Arrest Algorithm",
-      "page": 298,
-      "type": "procedure",
-      "care_level": null,
-      "population": "both",
-      "stem": "Under 10.08, how is tension pneumothorax addressed in a patient in traumatic arrest?",
-      "options": [
-        "Bilateral chest decompression",
-        "Unilateral decompression on the injured side",
-        "Chest tube placement after ROSC",
-        "Occlusive dressing and rapid transport"
-      ],
-      "answer_index": 0,
-      "explanation": "Decompression is performed bilaterally in traumatic arrest, since an arrested patient gives no reliable exam to localize the side and a missed contralateral tension pneumothorax is fatal. Waiting for ROSC to place a chest tube forfeits the chance to produce one.",
-      "priority": "core",
-      "tags": ["topic:traumatic-arrest", "procedure:thoracostomy", "topic:tension-pneumothorax"]
-    },
-    {
-      "number": "10.08",
-      "title": "Traumatic Arrest Algorithm",
-      "page": 298,
-      "type": "scope",
-      "care_level": null,
-      "population": "both",
-      "stem": "Which chest decompression technique does 10.08 specify for a CCT crew and which for an ALS crew in traumatic arrest?",
-      "options": [
-        "Finger thoracostomy at CCT, needle thoracostomy at ALS",
-        "Needle thoracostomy at CCT, finger thoracostomy at ALS",
-        "Finger thoracostomy at both CCT and ALS",
-        "Needle thoracostomy at both CCT and ALS"
-      ],
-      "answer_index": 0,
-      "explanation": "The algorithm assigns finger thoracostomy to CCT and needle thoracostomy to ALS, so the technique used depends on the level of the crew on scene. Either way the decompression is bilateral.",
-      "priority": "detail",
-      "tags": ["topic:traumatic-arrest", "procedure:thoracostomy", "topic:scope-of-practice"]
-    },
-    {
-      "number": "10.08",
-      "title": "Traumatic Arrest Algorithm",
-      "page": 298,
-      "type": "contraindication",
-      "care_level": null,
-      "population": "both",
-      "stem": "A traumatic arrest patient is in asystole with ongoing external hemorrhage. What does 10.08 direct regarding blood products?",
-      "options": [
-        "Do not initiate blood products while the patient is in asystole",
-        "Give blood products only after bilateral decompression",
-        "Give blood products as the first reversible-cause measure",
-        "Give blood products only with Medical Control approval"
-      ],
-      "answer_index": 0,
-      "explanation": "Because blood is a scarce resource and asystolic traumatic arrest is essentially unsalvageable, the algorithm directs the crew not to start blood products in asystole and to treat the other reversible causes instead. External bleeding control still applies.",
-      "priority": "core",
-      "tags": ["topic:traumatic-arrest", "topic:blood-products", "topic:hemorrhage"]
-    },
-    {
-      "number": "10.08",
-      "title": "Traumatic Arrest Algorithm",
-      "page": 298,
-      "type": "treatment",
-      "care_level": null,
-      "population": "both",
-      "stem": "Reversible causes have been addressed in a traumatic arrest, no ROSC has been obtained, and the underlying rhythm is asystole. What does 10.08 direct next?",
-      "options": [
-        "Consider termination of resuscitation",
-        "Rapid transport to an appropriate hospital",
-        "Begin CPR and give epinephrine",
-        "Refer to the ACLS/PALS algorithm"
-      ],
-      "answer_index": 0,
-      "explanation": "Once the reversible causes have been treated and the patient remains in asystole without ROSC, the algorithm moves to considering termination rather than transport. Asystole after corrected reversible causes is the branch where further effort has nothing left to correct.",
-      "priority": "core",
-      "tags": ["topic:traumatic-arrest", "topic:termination-of-resuscitation", "topic:cardiac-arrest"]
-    },
-    {
-      "number": "10.08",
-      "title": "Traumatic Arrest Algorithm",
-      "page": 298,
-      "type": "treatment",
-      "care_level": null,
-      "population": "both",
-      "stem": "ROSC is obtained while the reversible causes of a traumatic arrest are being treated. What does 10.08 direct next?",
-      "options": [
-        "Rapid transport to an appropriate hospital",
-        "Consider termination of resuscitation",
-        "Continue CPR and give epinephrine",
-        "Repeat bilateral chest decompression"
-      ],
-      "answer_index": 0,
-      "explanation": "ROSC in traumatic arrest sends the patient straight to rapid transport to an appropriate hospital, because the underlying injuries still need surgical control. The same rapid-transport endpoint also applies when there is no ROSC but the rhythm is something other than asystole.",
-      "priority": "detail",
-      "tags": ["topic:traumatic-arrest", "topic:rosc", "topic:transport"]
-    },
-    {
-      "number": "10.08",
-      "title": "Traumatic Arrest Algorithm",
-      "page": 298,
-      "type": "treatment",
-      "care_level": null,
-      "population": "both",
-      "stem": "A patient in traumatic arrest after a high-speed collision has an unstable pelvis. What does 10.08 include for this among the simultaneous reversible-cause measures?",
-      "options": [
-        "Apply a pelvic binder if available",
-        "Apply a traction splint to both legs",
-        "Defer pelvic management until ROSC",
-        "Apply a cervical collar before transport"
-      ],
-      "answer_index": 0,
-      "explanation": "A pelvic binder, if available, is listed alongside hemorrhage, hypoxia, tension pneumothorax and tamponade as a simultaneous measure, since an open-book pelvis is a hemorrhage source the crew can actually control. It is applied during the resuscitation, not deferred.",
-      "priority": "detail",
-      "tags": ["topic:traumatic-arrest", "equipment:pelvic-binder", "topic:hemorrhage"]
-    },
-    {
-      "number": "10.08",
-      "title": "Traumatic Arrest Algorithm",
-      "page": 298,
-      "type": "treatment",
-      "care_level": null,
-      "population": "both",
-      "stem": "How does 10.08 direct hypoxia to be addressed as a reversible cause of traumatic arrest?",
-      "options": [
-        "Secure and confirm an adequate airway, maximize oxygenation",
-        "Perform bilateral chest decompression before airway management",
-        "Ventilate with a BVM only until ROSC is obtained",
-        "Place a supraglottic airway only after hemorrhage control"
-      ],
-      "answer_index": 0,
-      "explanation": "Hypoxia is treated by securing an airway, confirming it is adequate, and maximizing oxygenation, done at the same time as the other reversible causes rather than in sequence behind them. Confirmation matters as much as placement in an arrested trauma patient.",
-      "priority": "detail",
-      "tags": ["topic:traumatic-arrest", "procedure:airway-management", "topic:hypoxia"]
-    }
-  ]
+ "batch": "G12",
+ "questions": [
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "indication",
+   "care_level": null,
+   "population": "adult",
+   "stem": "In the 10.07 Termination of Resuscitation Algorithm, what rhythm-and-time finding is the entry point that moves a crew toward termination rather than straight back to continued resuscitation?",
+   "options": [
+    "Asystole or agonal rhythm after 20 minutes of resuscitation",
+    "Pulseless electrical activity after 20 minutes of resuscitation",
+    "Asystole or agonal rhythm after 60 seconds of resuscitation",
+    "Ventricular fibrillation after 20 minutes of resuscitation"
+   ],
+   "answer_index": 0,
+   "explanation": "The algorithm opens on asystole or an agonal rhythm persisting after 20 minutes of resuscitation that has followed AHA and LFN guidelines; anything else loops the crew back toward continued resuscitation. The 20 minutes must be guideline-compliant resuscitation, not simply 20 minutes of elapsed time.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:cardiac-arrest",
+    "population:adult"
+   ],
+   "uid": "q_fb4438dad5"
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A 16-year-old remains in asystole after 25 minutes of guideline-compliant resuscitation, with a confirmed advanced airway, patent vascular access and no ROSC at any point. What does 10.07 direct?",
+   "options": [
+    "Continue resuscitation",
+    "Contact Medical Control",
+    "Terminate resuscitation",
+    "Transport to the closest facility"
+   ],
+   "answer_index": 0,
+   "explanation": "Every criterion in the box must be met, and this patient fails the age requirement of 18 or older. Any single unmet criterion sends the algorithm back to continued resuscitation, regardless of how well the others are satisfied.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:cardiac-arrest",
+    "population:pediatric"
+   ],
+   "uid": "q_d1dc0ee6ca"
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "procedure",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What airway standard must be satisfied before resuscitation may be terminated under 10.07?",
+   "options": [
+    "An advanced airway in place and confirmed with waveform ETCO2",
+    "A supraglottic airway in place with bilateral breath sounds",
+    "An advanced airway in place with a 12-lead ECG obtained",
+    "A patent airway maintained with a basic adjunct and BVM"
+   ],
+   "answer_index": 0,
+   "explanation": "Termination requires an advanced airway that is in place AND confirmed with waveform capnography. Waveform ETCO2 is what proves the airway is working and gives the objective end-tidal evidence that must later be uploaded with the termination documentation.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "procedure:advanced-airway",
+    "topic:capnography"
+   ],
+   "uid": "q_edc948e909"
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "assessment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Under 10.07, for how long must a crew confirm that no heart tones are heard before resuscitation may be terminated?",
+   "options": [
+    "60 seconds",
+    "30 seconds",
+    "10 minutes",
+    "20 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "A full 60 seconds of auscultation with no heart tones is one of the criteria that must all be met. A brief listen is not enough, because low-output cardiac activity can be missed on a short assessment in a noisy aircraft.",
+   "priority": "detail",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:cardiac-arrest",
+    "population:adult"
+   ],
+   "uid": "q_5132e18565"
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "contraindication",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A cardiac arrest patient had a brief ROSC ten minutes into the resuscitation but is now in asystole at 25 minutes and meets every other 10.07 criterion. How does the earlier ROSC affect the decision?",
+   "options": [
+    "Termination is not permitted; resuscitation continues",
+    "Termination is permitted if Medical Control concurs",
+    "Termination is permitted after a second 20-minute cycle",
+    "Termination is permitted once heart tones are absent"
+   ],
+   "answer_index": 0,
+   "explanation": "The criterion is no ROSC obtained at any time during the resuscitation, so a transient ROSC at any point disqualifies the patient permanently. A heart that restarted once may do so again, which is why the algorithm treats it as an absolute bar.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:rosc",
+    "population:adult"
+   ],
+   "uid": "q_e7b11959ff"
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "scope",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A patient meets every 10.07 termination criterion, Medical Control cannot be reached, and the crew's state scope of practice does not allow termination of resuscitation. What does the algorithm direct?",
+   "options": [
+    "Transport the patient to the closest facility",
+    "Terminate resuscitation and document the rhythm",
+    "Continue resuscitation for another 20 minutes",
+    "Transport the patient to the original destination"
+   ],
+   "answer_index": 0,
+   "explanation": "Without Medical Control contact, state scope of practice becomes the deciding factor; if it does not authorize termination, the patient goes to the closest facility rather than the originally planned destination. Only a state that permits termination lets the crew stop on their own authority.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:medical-control",
+    "topic:scope-of-practice"
+   ],
+   "uid": "q_80ea8ceafb"
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "procedure",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Once resuscitation has been terminated under 10.07, what documentation must be obtained and uploaded to the PCR?",
+   "options": [
+    "ETCO2 and ECG strips in two different leads at termination",
+    "A 12-lead ECG and the ETCO2 waveform at termination",
+    "ECG strips in a single lead and the GPS coordinates",
+    "ETCO2 values and heart tone documentation at termination"
+   ],
+   "answer_index": 0,
+   "explanation": "The algorithm closes by requiring ETCO2 and ECG strips showing the rhythm at the time of termination in two different leads, uploaded to the PCR. Two leads guard against a fine rhythm being mistaken for asystole on a single lead.",
+   "priority": "detail",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:documentation",
+    "topic:capnography"
+   ],
+   "uid": "q_0661a7dba4"
+  },
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "page": 297,
+   "type": "special",
+   "care_level": null,
+   "population": "both",
+   "stem": "The 10.07 algorithm gives a second route to the Medical Control decision point for a patient who is not in asystole or an agonal rhythm. What condition opens that route?",
+   "options": [
+    "ACLS/PALS resuscitation for over 20 minutes without change",
+    "ACLS/PALS resuscitation for over 10 minutes without change",
+    "ACLS/PALS resuscitation with no ROSC and absent heart tones",
+    "ACLS/PALS resuscitation with a non-shockable rhythm present"
+   ],
+   "answer_index": 0,
+   "explanation": "A patient who fails the asystole/agonal entry question can still reach the Medical Control decision if ongoing ACLS or PALS resuscitation has run more than 20 minutes without change. If the resuscitation is still changing the patient, the algorithm returns the crew to continued resuscitation.",
+   "priority": "detail",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:cardiac-arrest",
+    "topic:medical-control"
+   ],
+   "uid": "q_0abeee2409"
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "In traumatic arrest, what priority does the 10.08 algorithm assign to CPR and epinephrine?",
+   "options": [
+    "They are not priorities in traumatic arrest",
+    "They are the first priority in traumatic arrest",
+    "They are started only after ROSC is obtained",
+    "They are reserved for patients in asystole"
+   ],
+   "answer_index": 0,
+   "explanation": "The algorithm states plainly that CPR and epinephrine are not priorities in traumatic arrest, because compressions and a vasopressor do nothing for an empty tank or an obstructed heart. Crew effort belongs on the reversible causes instead.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "drug:epinephrine",
+    "topic:cardiac-arrest"
+   ],
+   "uid": "q_8e975e6e40"
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "sequence",
+   "care_level": null,
+   "population": "both",
+   "stem": "How does 10.08 direct a crew to work through the reversible causes of traumatic arrest?",
+   "options": [
+    "Address them simultaneously",
+    "Address them in the listed order",
+    "Address them after ROSC is obtained",
+    "Address them only if CPR fails"
+   ],
+   "answer_index": 0,
+   "explanation": "The reversible causes are addressed simultaneously, not one at a time, because a traumatic arrest patient rarely has a single cause and has no time for sequential treatment. The numbering is a checklist, not a running order.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:reversible-causes",
+    "topic:cardiac-arrest"
+   ],
+   "uid": "q_267b3bd551"
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "procedure",
+   "care_level": null,
+   "population": "both",
+   "stem": "Under 10.08, how is tension pneumothorax addressed in a patient in traumatic arrest?",
+   "options": [
+    "Bilateral chest decompression",
+    "Unilateral decompression on the injured side",
+    "Chest tube placement after ROSC",
+    "Occlusive dressing and rapid transport"
+   ],
+   "answer_index": 0,
+   "explanation": "Decompression is performed bilaterally in traumatic arrest, since an arrested patient gives no reliable exam to localize the side and a missed contralateral tension pneumothorax is fatal. Waiting for ROSC to place a chest tube forfeits the chance to produce one.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "procedure:thoracostomy",
+    "topic:tension-pneumothorax"
+   ],
+   "uid": "q_3cfc0b3aef"
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "scope",
+   "care_level": null,
+   "population": "both",
+   "stem": "Which chest decompression technique does 10.08 specify for a CCT crew and which for an ALS crew in traumatic arrest?",
+   "options": [
+    "Finger thoracostomy at CCT, needle thoracostomy at ALS",
+    "Needle thoracostomy at CCT, finger thoracostomy at ALS",
+    "Finger thoracostomy at both CCT and ALS",
+    "Needle thoracostomy at both CCT and ALS"
+   ],
+   "answer_index": 0,
+   "explanation": "The algorithm assigns finger thoracostomy to CCT and needle thoracostomy to ALS, so the technique used depends on the level of the crew on scene. Either way the decompression is bilateral.",
+   "priority": "detail",
+   "tags": [
+    "topic:traumatic-arrest",
+    "procedure:thoracostomy",
+    "topic:scope-of-practice"
+   ],
+   "uid": "q_9b5519f566"
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "contraindication",
+   "care_level": null,
+   "population": "both",
+   "stem": "A traumatic arrest patient is in asystole with ongoing external hemorrhage. What does 10.08 direct regarding blood products?",
+   "options": [
+    "Do not initiate blood products while the patient is in asystole",
+    "Give blood products only after bilateral decompression",
+    "Give blood products as the first reversible-cause measure",
+    "Give blood products only with Medical Control approval"
+   ],
+   "answer_index": 0,
+   "explanation": "Because blood is a scarce resource and asystolic traumatic arrest is essentially unsalvageable, the algorithm directs the crew not to start blood products in asystole and to treat the other reversible causes instead. External bleeding control still applies.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:blood-products",
+    "topic:hemorrhage"
+   ],
+   "uid": "q_44089ecaae"
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "Reversible causes have been addressed in a traumatic arrest, no ROSC has been obtained, and the underlying rhythm is asystole. What does 10.08 direct next?",
+   "options": [
+    "Consider termination of resuscitation",
+    "Rapid transport to an appropriate hospital",
+    "Begin CPR and give epinephrine",
+    "Refer to the ACLS/PALS algorithm"
+   ],
+   "answer_index": 0,
+   "explanation": "Once the reversible causes have been treated and the patient remains in asystole without ROSC, the algorithm moves to considering termination rather than transport. Asystole after corrected reversible causes is the branch where further effort has nothing left to correct.",
+   "priority": "core",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:termination-of-resuscitation",
+    "topic:cardiac-arrest"
+   ],
+   "uid": "q_637bd4917d"
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "ROSC is obtained while the reversible causes of a traumatic arrest are being treated. What does 10.08 direct next?",
+   "options": [
+    "Rapid transport to an appropriate hospital",
+    "Consider termination of resuscitation",
+    "Continue CPR and give epinephrine",
+    "Repeat bilateral chest decompression"
+   ],
+   "answer_index": 0,
+   "explanation": "ROSC in traumatic arrest sends the patient straight to rapid transport to an appropriate hospital, because the underlying injuries still need surgical control. The same rapid-transport endpoint also applies when there is no ROSC but the rhythm is something other than asystole.",
+   "priority": "detail",
+   "tags": [
+    "topic:traumatic-arrest",
+    "topic:rosc",
+    "topic:transport"
+   ],
+   "uid": "q_627840aecb"
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "A patient in traumatic arrest after a high-speed collision has an unstable pelvis. What does 10.08 include for this among the simultaneous reversible-cause measures?",
+   "options": [
+    "Apply a pelvic binder if available",
+    "Apply a traction splint to both legs",
+    "Defer pelvic management until ROSC",
+    "Apply a cervical collar before transport"
+   ],
+   "answer_index": 0,
+   "explanation": "A pelvic binder, if available, is listed alongside hemorrhage, hypoxia, tension pneumothorax and tamponade as a simultaneous measure, since an open-book pelvis is a hemorrhage source the crew can actually control. It is applied during the resuscitation, not deferred.",
+   "priority": "detail",
+   "tags": [
+    "topic:traumatic-arrest",
+    "equipment:pelvic-binder",
+    "topic:hemorrhage"
+   ],
+   "uid": "q_1d87af002b"
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "page": 298,
+   "type": "treatment",
+   "care_level": null,
+   "population": "both",
+   "stem": "How does 10.08 direct hypoxia to be addressed as a reversible cause of traumatic arrest?",
+   "options": [
+    "Secure and confirm an adequate airway, maximize oxygenation",
+    "Perform bilateral chest decompression before airway management",
+    "Ventilate with a BVM only until ROSC is obtained",
+    "Place a supraglottic airway only after hemorrhage control"
+   ],
+   "answer_index": 0,
+   "explanation": "Hypoxia is treated by securing an airway, confirming it is adequate, and maximizing oxygenation, done at the same time as the other reversible causes rather than in sequence behind them. Confirmation matters as much as placement in an arrested trauma patient.",
+   "priority": "detail",
+   "tags": [
+    "topic:traumatic-arrest",
+    "procedure:airway-management",
+    "topic:hypoxia"
+   ],
+   "uid": "q_f2eb87d94a"
+  }
+ ]
 }

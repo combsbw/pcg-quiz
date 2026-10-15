@@ -22,7 +22,8 @@
     "drug:lidocaine",
     "topic:cardiac arrest",
     "population:adult"
-   ]
+   ],
+   "uid": "q_4ef5d36b84"
   },
   {
    "number": "12.46",
@@ -45,7 +46,8 @@
     "drug:lidocaine",
     "topic:cardiac arrest",
     "population:adult"
-   ]
+   ],
+   "uid": "q_60ba4a6e02"
   },
   {
    "number": "12.46",
@@ -68,7 +70,8 @@
     "drug:lidocaine",
     "topic:post rosc",
     "population:adult"
-   ]
+   ],
+   "uid": "q_bac1cba223"
   },
   {
    "number": "12.46",
@@ -91,7 +94,8 @@
     "drug:lidocaine",
     "topic:tachycardia",
     "population:adult"
-   ]
+   ],
+   "uid": "q_4d58367dd0"
   },
   {
    "number": "12.46",
@@ -115,7 +119,8 @@
     "topic:chest tube",
     "route:local",
     "population:adult"
-   ]
+   ],
+   "uid": "q_14fef571d6"
   },
   {
    "number": "12.46",
@@ -139,7 +144,8 @@
     "topic:chest tube",
     "route:local",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_880bada962"
   },
   {
    "number": "12.46",
@@ -163,7 +169,8 @@
     "topic:io pain",
     "route:io",
     "population:adult"
-   ]
+   ],
+   "uid": "q_f7eb6e2465"
   },
   {
    "number": "12.46",
@@ -187,7 +194,8 @@
     "topic:io pain",
     "route:io",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_aea8d96969"
   },
   {
    "number": "12.46",
@@ -209,7 +217,8 @@
    "tags": [
     "drug:lidocaine",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_dffc3d7f98"
   },
   {
    "number": "12.46",
@@ -231,7 +240,8 @@
    "tags": [
     "drug:lidocaine",
     "topic:contraindications"
-   ]
+   ],
+   "uid": "q_3011bd47f7"
   },
   {
    "number": "12.47",
@@ -254,7 +264,8 @@
     "drug:lipid emulsion",
     "topic:overdose",
     "population:adult"
-   ]
+   ],
+   "uid": "q_2b548e3cbd"
   },
   {
    "number": "12.47",
@@ -277,7 +288,8 @@
     "drug:lipid emulsion",
     "topic:overdose",
     "population:adult"
-   ]
+   ],
+   "uid": "q_4f24715577"
   },
   {
    "number": "12.47",
@@ -299,7 +311,8 @@
    "tags": [
     "drug:lipid emulsion",
     "topic:overdose"
-   ]
+   ],
+   "uid": "q_784767d5b2"
   },
   {
    "number": "12.47",
@@ -321,7 +334,8 @@
    "tags": [
     "drug:lipid emulsion",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_33d303e475"
   },
   {
    "number": "12.47",
@@ -343,7 +357,8 @@
    "tags": [
     "drug:lipid emulsion",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_a892cbeb57"
   },
   {
    "number": "12.47",
@@ -365,7 +380,8 @@
    "tags": [
     "drug:lipid emulsion",
     "topic:contraindications"
-   ]
+   ],
+   "uid": "q_da9883a6b0"
   },
   {
    "number": "12.48",
@@ -388,7 +404,8 @@
     "drug:lorazepam",
     "topic:agitation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_04ae4fdc56"
   },
   {
    "number": "12.48",
@@ -411,7 +428,8 @@
     "drug:lorazepam",
     "topic:agitation",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_6c87e8446f"
   },
   {
    "number": "12.48",
@@ -434,7 +452,8 @@
     "drug:lorazepam",
     "topic:seizures",
     "population:adult"
-   ]
+   ],
+   "uid": "q_6279c842cc"
   },
   {
    "number": "12.48",
@@ -457,7 +476,8 @@
     "drug:lorazepam",
     "topic:seizures",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_26f8a6da82"
   },
   {
    "number": "12.48",
@@ -480,7 +500,8 @@
     "drug:lorazepam",
     "topic:seizures",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_47d8215267"
   },
   {
    "number": "12.48",
@@ -503,7 +524,8 @@
     "drug:lorazepam",
     "topic:anxiolysis",
     "population:adult"
-   ]
+   ],
+   "uid": "q_1a7a665e12"
   },
   {
    "number": "12.48",
@@ -526,7 +548,8 @@
     "drug:lorazepam",
     "topic:anxiolysis",
     "population:adult"
-   ]
+   ],
+   "uid": "q_de32780d28"
   },
   {
    "number": "12.48",
@@ -549,7 +572,8 @@
     "drug:lorazepam",
     "topic:nausea",
     "population:adult"
-   ]
+   ],
+   "uid": "q_a301b2c95b"
   },
   {
    "number": "12.48",
@@ -572,7 +596,8 @@
     "drug:lorazepam",
     "topic:heat stroke",
     "population:adult"
-   ]
+   ],
+   "uid": "q_e1da2d4fcf"
   },
   {
    "number": "12.48",
@@ -595,7 +620,8 @@
     "drug:lorazepam",
     "topic:sedation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_91c3f974e0"
   },
   {
    "number": "12.49",
@@ -618,7 +644,8 @@
     "drug:magnesium",
     "topic:torsades",
     "population:adult"
-   ]
+   ],
+   "uid": "q_bb27b273a4"
   },
   {
    "number": "12.49",
@@ -641,7 +668,8 @@
     "drug:magnesium",
     "topic:torsades",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_c84e99fc92"
   },
   {
    "number": "12.49",
@@ -664,7 +692,8 @@
     "drug:magnesium",
     "topic:asthma",
     "population:adult"
-   ]
+   ],
+   "uid": "q_20a818ba29"
   },
   {
    "number": "12.49",
@@ -687,7 +716,8 @@
     "drug:magnesium",
     "topic:asthma",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_cf36e76af8"
   },
   {
    "number": "12.49",
@@ -710,7 +740,8 @@
     "drug:magnesium",
     "topic:torsades",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_32e1fd38fd"
   },
   {
    "number": "12.49",
@@ -733,7 +764,8 @@
     "drug:magnesium",
     "topic:pre-term labor",
     "population:adult"
-   ]
+   ],
+   "uid": "q_0f444058e2"
   },
   {
    "number": "12.49",
@@ -756,7 +788,8 @@
     "drug:magnesium",
     "topic:eclampsia",
     "population:adult"
-   ]
+   ],
+   "uid": "q_6fe59bbee6"
   },
   {
    "number": "12.49",
@@ -779,7 +812,8 @@
     "drug:magnesium",
     "topic:eclampsia",
     "population:adult"
-   ]
+   ],
+   "uid": "q_2d096e5497"
   },
   {
    "number": "12.49",
@@ -801,7 +835,8 @@
    "tags": [
     "drug:magnesium",
     "topic:toxicity"
-   ]
+   ],
+   "uid": "q_12f4a41146"
   },
   {
    "number": "12.49",
@@ -824,7 +859,8 @@
     "drug:magnesium",
     "topic:monitoring",
     "population:adult"
-   ]
+   ],
+   "uid": "q_7c855bdae2"
   },
   {
    "number": "12.49",
@@ -846,7 +882,8 @@
    "tags": [
     "drug:magnesium",
     "topic:toxicity"
-   ]
+   ],
+   "uid": "q_307c5fb543"
   },
   {
    "number": "12.49",
@@ -868,7 +905,8 @@
    "tags": [
     "drug:magnesium",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_7ec8b40a65"
   },
   {
    "number": "12.50",
@@ -891,7 +929,8 @@
     "drug:mannitol",
     "topic:cerebral edema",
     "population:both"
-   ]
+   ],
+   "uid": "q_a79c189e8d"
   },
   {
    "number": "12.50",
@@ -913,7 +952,8 @@
    "tags": [
     "drug:mannitol",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_ec2c95a18e"
   },
   {
    "number": "12.50",
@@ -935,7 +975,8 @@
    "tags": [
     "drug:mannitol",
     "topic:contraindications"
-   ]
+   ],
+   "uid": "q_c1591b12cf"
   },
   {
    "number": "12.50",
@@ -957,7 +998,8 @@
    "tags": [
     "drug:mannitol",
     "topic:administration"
-   ]
+   ],
+   "uid": "q_c7ba451cf1"
   },
   {
    "number": "12.50",
@@ -979,7 +1021,8 @@
    "tags": [
     "drug:mannitol",
     "topic:administration"
-   ]
+   ],
+   "uid": "q_aec8aa154a"
   },
   {
    "number": "12.50",
@@ -1001,7 +1044,8 @@
    "tags": [
     "drug:mannitol",
     "topic:icp"
-   ]
+   ],
+   "uid": "q_8c81cec5bf"
   },
   {
    "number": "12.51",
@@ -1025,7 +1069,8 @@
     "topic:postpartum hemorrhage",
     "route:im",
     "population:adult"
-   ]
+   ],
+   "uid": "q_906ccd444f"
   },
   {
    "number": "12.51",
@@ -1048,7 +1093,8 @@
     "drug:methylergonovine",
     "topic:contraindications",
     "population:adult"
-   ]
+   ],
+   "uid": "q_b6c0ccddf1"
   },
   {
    "number": "12.51",
@@ -1070,7 +1116,8 @@
    "tags": [
     "drug:methylergonovine",
     "route:im"
-   ]
+   ],
+   "uid": "q_f8a831c947"
   },
   {
    "number": "12.51",
@@ -1092,7 +1139,8 @@
    "tags": [
     "drug:methylergonovine",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_ad5fad35ea"
   },
   {
    "number": "12.51",
@@ -1114,7 +1162,8 @@
    "tags": [
     "drug:methylergonovine",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_6f1fbb47f6"
   },
   {
    "number": "12.52",
@@ -1137,7 +1186,8 @@
     "drug:methylprednisolone",
     "topic:allergic reaction",
     "population:adult"
-   ]
+   ],
+   "uid": "q_629a74752c"
   },
   {
    "number": "12.52",
@@ -1160,7 +1210,8 @@
     "drug:methylprednisolone",
     "topic:asthma",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_2082fa0cec"
   },
   {
    "number": "12.52",
@@ -1182,7 +1233,8 @@
    "tags": [
     "drug:methylprednisolone",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_0b7f916e1c"
   },
   {
    "number": "12.52",
@@ -1205,7 +1257,8 @@
     "drug:methylprednisolone",
     "topic:septic shock",
     "population:adult"
-   ]
+   ],
+   "uid": "q_8114130c69"
   },
   {
    "number": "12.52",
@@ -1227,7 +1280,8 @@
    "tags": [
     "drug:methylprednisolone",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_48fe2a881b"
   },
   {
    "number": "12.52",
@@ -1249,7 +1303,8 @@
    "tags": [
     "drug:methylprednisolone",
     "topic:adverse reactions"
-   ]
+   ],
+   "uid": "q_3fabc240e5"
   },
   {
    "number": "12.53",
@@ -1272,7 +1327,8 @@
     "drug:metoprolol",
     "topic:stemi",
     "population:adult"
-   ]
+   ],
+   "uid": "q_24d52d1f97"
   },
   {
    "number": "12.53",
@@ -1295,7 +1351,8 @@
     "drug:metoprolol",
     "topic:tachycardia",
     "population:adult"
-   ]
+   ],
+   "uid": "q_fd18159881"
   },
   {
    "number": "12.53",
@@ -1318,7 +1375,8 @@
     "drug:metoprolol",
     "topic:tachycardia",
     "population:adult"
-   ]
+   ],
+   "uid": "q_63a3588c5a"
   },
   {
    "number": "12.53",
@@ -1341,7 +1399,8 @@
     "drug:metoprolol",
     "topic:cardiac arrest",
     "population:adult"
-   ]
+   ],
+   "uid": "q_89a9b57e29"
   },
   {
    "number": "12.53",
@@ -1363,7 +1422,8 @@
    "tags": [
     "drug:metoprolol",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_7c7fa7c796"
   },
   {
    "number": "12.53",
@@ -1385,7 +1445,8 @@
    "tags": [
     "drug:metoprolol",
     "topic:contraindications"
-   ]
+   ],
+   "uid": "q_aa6a3d844e"
   },
   {
    "number": "12.53",
@@ -1407,7 +1468,8 @@
    "tags": [
     "drug:metoprolol",
     "topic:drug interactions"
-   ]
+   ],
+   "uid": "q_0bb265f9f9"
   },
   {
    "number": "12.53",
@@ -1429,7 +1491,8 @@
    "tags": [
     "drug:metoprolol",
     "topic:drug interactions"
-   ]
+   ],
+   "uid": "q_2fe2effb83"
   },
   {
    "number": "12.54",
@@ -1452,7 +1515,8 @@
     "drug:midazolam",
     "topic:agitation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_0383c41dc1"
   },
   {
    "number": "12.54",
@@ -1476,7 +1540,8 @@
     "topic:agitation",
     "route:in",
     "population:both"
-   ]
+   ],
+   "uid": "q_bd62b735e5"
   },
   {
    "number": "12.54",
@@ -1499,7 +1564,8 @@
     "drug:midazolam",
     "topic:agitation",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_d2bbe6eccb"
   },
   {
    "number": "12.54",
@@ -1522,7 +1588,8 @@
     "drug:midazolam",
     "topic:sedation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_aced5f019d"
   },
   {
    "number": "12.54",
@@ -1545,7 +1612,8 @@
     "drug:midazolam",
     "topic:infusion",
     "population:adult"
-   ]
+   ],
+   "uid": "q_647b2128a7"
   },
   {
    "number": "12.54",
@@ -1568,7 +1636,8 @@
     "drug:midazolam",
     "topic:infusion",
     "population:adult"
-   ]
+   ],
+   "uid": "q_40982ec206"
   },
   {
    "number": "12.54",
@@ -1591,7 +1660,8 @@
     "drug:midazolam",
     "topic:infusion",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_1ce600f05d"
   },
   {
    "number": "12.54",
@@ -1614,7 +1684,8 @@
     "drug:midazolam",
     "topic:infusion",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_43b284595a"
   },
   {
    "number": "12.54",
@@ -1637,7 +1708,8 @@
     "drug:midazolam",
     "topic:seizures",
     "population:both"
-   ]
+   ],
+   "uid": "q_243e68e4d1"
   },
   {
    "number": "12.54",
@@ -1660,7 +1732,8 @@
     "drug:midazolam",
     "topic:rsi",
     "population:adult"
-   ]
+   ],
+   "uid": "q_ac3db2773e"
   },
   {
    "number": "12.54",
@@ -1683,7 +1756,8 @@
     "drug:midazolam",
     "topic:rsi",
     "population:adult"
-   ]
+   ],
+   "uid": "q_756278c187"
   },
   {
    "number": "12.54",
@@ -1706,7 +1780,8 @@
     "drug:midazolam",
     "topic:rsi",
     "population:both"
-   ]
+   ],
+   "uid": "q_e8e30bbb74"
   },
   {
    "number": "12.54",
@@ -1729,7 +1804,8 @@
     "drug:midazolam",
     "topic:anxiolysis",
     "population:both"
-   ]
+   ],
+   "uid": "q_f234e706f0"
   },
   {
    "number": "12.54",
@@ -1751,7 +1827,8 @@
    "tags": [
     "drug:midazolam",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_9e890a0437"
   },
   {
    "number": "12.55",
@@ -1774,7 +1851,8 @@
     "drug:milrinone",
     "topic:chf",
     "population:both"
-   ]
+   ],
+   "uid": "q_e34882e125"
   },
   {
    "number": "12.55",
@@ -1797,7 +1875,8 @@
     "drug:milrinone",
     "topic:chf",
     "population:both"
-   ]
+   ],
+   "uid": "q_7ce9af3508"
   },
   {
    "number": "12.55",
@@ -1819,7 +1898,8 @@
    "tags": [
     "drug:milrinone",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_e6daae196e"
   },
   {
    "number": "12.55",
@@ -1841,7 +1921,8 @@
    "tags": [
     "drug:milrinone",
     "topic:adverse reactions"
-   ]
+   ],
+   "uid": "q_ed1775fdbc"
   },
   {
    "number": "12.55",
@@ -1863,7 +1944,8 @@
    "tags": [
     "drug:milrinone",
     "topic:contraindications"
-   ]
+   ],
+   "uid": "q_92ab93e9b4"
   },
   {
    "number": "12.56",
@@ -1886,7 +1968,8 @@
     "drug:morphine",
     "topic:pain",
     "population:adult"
-   ]
+   ],
+   "uid": "q_b014e2813b"
   },
   {
    "number": "12.56",
@@ -1909,7 +1992,8 @@
     "drug:morphine",
     "topic:pain",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_93ec4cd117"
   },
   {
    "number": "12.56",
@@ -1931,7 +2015,8 @@
    "tags": [
     "drug:morphine",
     "topic:contraindications"
-   ]
+   ],
+   "uid": "q_4548b9c9d1"
   },
   {
    "number": "12.56",
@@ -1953,7 +2038,8 @@
    "tags": [
     "drug:morphine",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_d86da0dff6"
   },
   {
    "number": "12.56",
@@ -1975,7 +2061,8 @@
    "tags": [
     "drug:morphine",
     "topic:pharmacokinetics"
-   ]
+   ],
+   "uid": "q_70acc80325"
   },
   {
    "number": "12.57",
@@ -1999,7 +2086,8 @@
     "topic:acetaminophen overdose",
     "route:po",
     "population:both"
-   ]
+   ],
+   "uid": "q_d9bc854e1f"
   },
   {
    "number": "12.57",
@@ -2023,7 +2111,8 @@
     "topic:acetaminophen overdose",
     "route:po",
     "population:both"
-   ]
+   ],
+   "uid": "q_b129365d18"
   },
   {
    "number": "12.57",
@@ -2047,7 +2136,8 @@
     "topic:acetaminophen overdose",
     "route:iv",
     "population:both"
-   ]
+   ],
+   "uid": "q_69df9cc361"
   },
   {
    "number": "12.57",
@@ -2071,7 +2161,8 @@
     "topic:acetaminophen overdose",
     "route:iv",
     "population:both"
-   ]
+   ],
+   "uid": "q_4b08d69160"
   },
   {
    "number": "12.57",
@@ -2095,7 +2186,8 @@
     "topic:acetaminophen overdose",
     "route:iv",
     "population:both"
-   ]
+   ],
+   "uid": "q_d1661a8a38"
   },
   {
    "number": "12.57",
@@ -2117,7 +2209,8 @@
    "tags": [
     "drug:n-acetylcysteine",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_7c5921f311"
   },
   {
    "number": "12.58",
@@ -2140,7 +2233,8 @@
     "drug:naloxone",
     "topic:opioid overdose",
     "population:adult"
-   ]
+   ],
+   "uid": "q_f6dfdd56a8"
   },
   {
    "number": "12.58",
@@ -2163,7 +2257,8 @@
     "drug:naloxone",
     "topic:opioid overdose",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_902c0b061c"
   },
   {
    "number": "12.58",
@@ -2186,7 +2281,8 @@
     "drug:naloxone",
     "topic:opioid overdose",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_7963125ea8"
   },
   {
    "number": "12.58",
@@ -2209,7 +2305,8 @@
     "drug:naloxone",
     "topic:clonidine overdose",
     "population:adult"
-   ]
+   ],
+   "uid": "q_c870297797"
   },
   {
    "number": "12.58",
@@ -2232,7 +2329,8 @@
     "drug:naloxone",
     "topic:clonidine overdose",
     "population:adult"
-   ]
+   ],
+   "uid": "q_a8d343900d"
   },
   {
    "number": "12.58",
@@ -2255,7 +2353,8 @@
     "drug:naloxone",
     "topic:clonidine overdose",
     "population:adult"
-   ]
+   ],
+   "uid": "q_7032fb22c8"
   },
   {
    "number": "12.58",
@@ -2278,7 +2377,8 @@
     "drug:naloxone",
     "topic:clonidine overdose",
     "population:adult"
-   ]
+   ],
+   "uid": "q_8823455808"
   },
   {
    "number": "12.58",
@@ -2300,7 +2400,8 @@
    "tags": [
     "drug:naloxone",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_e3aea65ab3"
   },
   {
    "number": "12.58",
@@ -2322,7 +2423,8 @@
    "tags": [
     "drug:naloxone",
     "topic:contraindications"
-   ]
+   ],
+   "uid": "q_2e0c22446f"
   },
   {
    "number": "12.59",
@@ -2345,7 +2447,8 @@
     "drug:nicardipine",
     "topic:hypertension",
     "population:adult"
-   ]
+   ],
+   "uid": "q_83a5b7c95c"
   },
   {
    "number": "12.59",
@@ -2368,7 +2471,8 @@
     "drug:nicardipine",
     "topic:hypertension",
     "population:adult"
-   ]
+   ],
+   "uid": "q_8c815250be"
   },
   {
    "number": "12.59",
@@ -2391,7 +2495,8 @@
     "drug:nicardipine",
     "topic:hypertension",
     "population:adult"
-   ]
+   ],
+   "uid": "q_40bb9bc47c"
   },
   {
    "number": "12.59",
@@ -2414,7 +2519,8 @@
     "drug:nicardipine",
     "topic:hypertension",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_963f29e469"
   },
   {
    "number": "12.59",
@@ -2437,7 +2543,8 @@
     "drug:nicardipine",
     "topic:hypertension",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_e6def2ab7e"
   },
   {
    "number": "12.59",
@@ -2460,7 +2567,8 @@
     "drug:nicardipine",
     "topic:scope of practice",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_f7367ca8c6"
   },
   {
    "number": "12.59",
@@ -2482,7 +2590,8 @@
    "tags": [
     "drug:nicardipine",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_4427c1ee1e"
   },
   {
    "number": "12.59",
@@ -2504,7 +2613,8 @@
    "tags": [
     "drug:nicardipine",
     "topic:administration"
-   ]
+   ],
+   "uid": "q_a2c4add4b0"
   },
   {
    "number": "12.60",
@@ -2528,7 +2638,8 @@
     "topic:hape",
     "route:po",
     "population:adult"
-   ]
+   ],
+   "uid": "q_d5254cc864"
   },
   {
    "number": "12.60",
@@ -2552,7 +2663,8 @@
     "topic:pre-term labor",
     "route:po",
     "population:adult"
-   ]
+   ],
+   "uid": "q_91c7a32f3e"
   },
   {
    "number": "12.60",
@@ -2575,7 +2687,8 @@
     "drug:nifedipine",
     "topic:pre-term labor",
     "population:adult"
-   ]
+   ],
+   "uid": "q_d5928d3384"
   },
   {
    "number": "12.60",
@@ -2598,7 +2711,8 @@
     "drug:nifedipine",
     "topic:pre-term labor",
     "population:adult"
-   ]
+   ],
+   "uid": "q_1120feec87"
   },
   {
    "number": "12.60",
@@ -2620,7 +2734,8 @@
    "tags": [
     "drug:nifedipine",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_8827a1bfff"
   },
   {
    "number": "12.60",
@@ -2642,7 +2757,8 @@
    "tags": [
     "drug:nifedipine",
     "topic:adverse reactions"
-   ]
+   ],
+   "uid": "q_180949ff47"
   }
  ]
 }

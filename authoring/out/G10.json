@@ -21,7 +21,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:tamponade"
-   ]
+   ],
+   "uid": "q_68220b77e2"
   },
   {
    "number": "8.28",
@@ -43,7 +44,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:medical-control"
-   ]
+   ],
+   "uid": "q_6d7abab359"
   },
   {
    "number": "8.28",
@@ -65,7 +67,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:complications"
-   ]
+   ],
+   "uid": "q_933bec9812"
   },
   {
    "number": "8.28",
@@ -87,7 +90,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:landmarks"
-   ]
+   ],
+   "uid": "q_797954f5b9"
   },
   {
    "number": "8.28",
@@ -109,7 +113,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:monitoring"
-   ]
+   ],
+   "uid": "q_135b72d5db"
   },
   {
    "number": "8.28",
@@ -131,7 +136,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:equipment"
-   ]
+   ],
+   "uid": "q_708cb30a0c"
   },
   {
    "number": "8.28",
@@ -153,7 +159,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:obstructive-shock"
-   ]
+   ],
+   "uid": "q_a5147c6a1d"
   },
   {
    "number": "8.28",
@@ -175,7 +182,8 @@
    "tags": [
     "procedure:pericardiocentesis",
     "topic:scope"
-   ]
+   ],
+   "uid": "q_9b1946cfa5"
   },
   {
    "number": "8.29",
@@ -198,7 +206,8 @@
     "topic:push-dose-vasopressors",
     "topic:shock",
     "population:both"
-   ]
+   ],
+   "uid": "q_dc884126f0"
   },
   {
    "number": "8.29",
@@ -221,7 +230,8 @@
     "topic:push-dose-vasopressors",
     "topic:contraindications",
     "population:both"
-   ]
+   ],
+   "uid": "q_519079e9f2"
   },
   {
    "number": "8.29",
@@ -244,7 +254,8 @@
     "drug:epinephrine",
     "topic:push-dose-vasopressors",
     "population:both"
-   ]
+   ],
+   "uid": "q_3dfd4da732"
   },
   {
    "number": "8.29",
@@ -267,7 +278,8 @@
     "drug:epinephrine",
     "topic:push-dose-vasopressors",
     "route:iv"
-   ]
+   ],
+   "uid": "q_3b1b49332d"
   },
   {
    "number": "8.29",
@@ -290,7 +302,8 @@
     "drug:epinephrine",
     "topic:push-dose-vasopressors",
     "topic:drug-preparation"
-   ]
+   ],
+   "uid": "q_967e38aecf"
   },
   {
    "number": "8.29",
@@ -313,7 +326,8 @@
     "drug:norepinephrine",
     "topic:push-dose-vasopressors",
     "topic:drug-preparation"
-   ]
+   ],
+   "uid": "q_5d9d7167c8"
   },
   {
    "number": "8.29",
@@ -336,7 +350,8 @@
     "drug:norepinephrine",
     "topic:push-dose-vasopressors",
     "route:iv"
-   ]
+   ],
+   "uid": "q_eb85828ce3"
   },
   {
    "number": "8.29",
@@ -359,7 +374,8 @@
     "topic:shock-index",
     "topic:push-dose-vasopressors",
     "population:both"
-   ]
+   ],
+   "uid": "q_af75e89a9d"
   },
   {
    "number": "8.30",
@@ -382,7 +398,8 @@
     "procedure:rsi",
     "topic:indications",
     "population:both"
-   ]
+   ],
+   "uid": "q_10c9ea1a5e"
   },
   {
    "number": "8.30",
@@ -405,7 +422,8 @@
     "procedure:rsi",
     "topic:contraindications",
     "population:both"
-   ]
+   ],
+   "uid": "q_b3b92a5c37"
   },
   {
    "number": "8.30",
@@ -428,7 +446,8 @@
     "procedure:rsi",
     "topic:equipment",
     "population:both"
-   ]
+   ],
+   "uid": "q_65f45ce3d4"
   },
   {
    "number": "8.30",
@@ -451,7 +470,8 @@
     "procedure:rsi",
     "topic:positioning",
     "population:both"
-   ]
+   ],
+   "uid": "q_3ce1e37f2e"
   },
   {
    "number": "8.30",
@@ -474,7 +494,8 @@
     "procedure:rsi",
     "topic:pre-oxygenation",
     "population:both"
-   ]
+   ],
+   "uid": "q_d7571571ca"
   },
   {
    "number": "8.30",
@@ -497,7 +518,8 @@
     "procedure:rsi",
     "topic:pre-oxygenation",
     "population:both"
-   ]
+   ],
+   "uid": "q_ec45404707"
   },
   {
    "number": "8.30",
@@ -520,7 +542,8 @@
     "drug:ketamine",
     "procedure:rsi",
     "topic:dsi"
-   ]
+   ],
+   "uid": "q_91935e710a"
   },
   {
    "number": "8.30",
@@ -543,7 +566,8 @@
     "procedure:rsi",
     "topic:pre-intubation-optimization",
     "population:both"
-   ]
+   ],
+   "uid": "q_ca55f3243a"
   },
   {
    "number": "8.30",
@@ -566,7 +590,8 @@
     "procedure:rsi",
     "topic:shock-index",
     "population:adult"
-   ]
+   ],
+   "uid": "q_0aa524536e"
   },
   {
    "number": "8.30",
@@ -589,7 +614,8 @@
     "drug:atropine",
     "procedure:rsi",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_3b10b2e693"
   },
   {
    "number": "8.30",
@@ -612,7 +638,8 @@
     "drug:fentanyl",
     "procedure:rsi",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_5b77f2acf2"
   },
   {
    "number": "8.30",
@@ -635,7 +662,8 @@
     "drug:ketamine",
     "procedure:rsi",
     "route:iv"
-   ]
+   ],
+   "uid": "q_94366ac9db"
   },
   {
    "number": "8.30",
@@ -658,7 +686,8 @@
     "drug:ketamine",
     "procedure:rsi",
     "topic:sequence"
-   ]
+   ],
+   "uid": "q_2f7e37a38c"
   },
   {
    "number": "8.30",
@@ -681,7 +710,8 @@
     "drug:etomidate",
     "procedure:rsi",
     "topic:sequence"
-   ]
+   ],
+   "uid": "q_ea0331a64b"
   },
   {
    "number": "8.30",
@@ -704,7 +734,8 @@
     "drug:etomidate",
     "procedure:rsi",
     "population:adult"
-   ]
+   ],
+   "uid": "q_91abef5825"
   },
   {
    "number": "8.30",
@@ -727,7 +758,8 @@
     "drug:midazolam",
     "procedure:rsi",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_07c0f6399a"
   },
   {
    "number": "8.30",
@@ -750,7 +782,8 @@
     "drug:succinylcholine",
     "procedure:rsi",
     "population:both"
-   ]
+   ],
+   "uid": "q_6e4deed19d"
   },
   {
    "number": "8.30",
@@ -773,7 +806,8 @@
     "drug:succinylcholine",
     "procedure:rsi",
     "topic:contraindications"
-   ]
+   ],
+   "uid": "q_baf6de5ee7"
   },
   {
    "number": "8.30",
@@ -796,7 +830,8 @@
     "drug:rocuronium",
     "procedure:rsi",
     "route:im"
-   ]
+   ],
+   "uid": "q_e81baa2776"
   },
   {
    "number": "8.30",
@@ -819,7 +854,8 @@
     "procedure:rsi",
     "topic:failed-airway",
     "population:both"
-   ]
+   ],
+   "uid": "q_593907ef29"
   },
   {
    "number": "8.30",
@@ -842,7 +878,8 @@
     "procedure:rsi",
     "topic:failed-airway",
     "population:both"
-   ]
+   ],
+   "uid": "q_c31a8d6b85"
   },
   {
    "number": "8.30",
@@ -865,7 +902,8 @@
     "drug:atropine",
     "procedure:rsi",
     "population:adult"
-   ]
+   ],
+   "uid": "q_bccc370dfb"
   },
   {
    "number": "8.30",
@@ -888,7 +926,8 @@
     "procedure:rsi",
     "topic:tube-confirmation",
     "population:both"
-   ]
+   ],
+   "uid": "q_18e6fe4eec"
   },
   {
    "number": "8.30",
@@ -910,7 +949,8 @@
    "tags": [
     "procedure:rsi",
     "topic:tube-depth"
-   ]
+   ],
+   "uid": "q_b2eab9335b"
   },
   {
    "number": "8.30",
@@ -933,7 +973,8 @@
     "procedure:rsi",
     "topic:post-intubation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_95e01882a2"
   },
   {
    "number": "8.30",
@@ -956,7 +997,8 @@
     "drug:rocuronium",
     "procedure:rsi",
     "topic:post-intubation"
-   ]
+   ],
+   "uid": "q_622b3bc5a4"
   },
   {
    "number": "8.30",
@@ -979,7 +1021,8 @@
     "drug:rocuronium",
     "procedure:rsi",
     "topic:post-intubation"
-   ]
+   ],
+   "uid": "q_9bf9c06a08"
   },
   {
    "number": "8.30",
@@ -1002,7 +1045,8 @@
     "procedure:rsi",
     "topic:post-intubation",
     "population:both"
-   ]
+   ],
+   "uid": "q_4ec2c043b1"
   },
   {
    "number": "8.30",
@@ -1025,7 +1069,8 @@
     "procedure:rsi",
     "topic:documentation",
     "population:both"
-   ]
+   ],
+   "uid": "q_c5e532b48d"
   },
   {
    "number": "8.30",
@@ -1048,7 +1093,8 @@
     "procedure:rsi",
     "topic:laryngospasm",
     "population:both"
-   ]
+   ],
+   "uid": "q_2aba5ef8b9"
   },
   {
    "number": "8.30",
@@ -1071,7 +1117,8 @@
     "drug:ketamine",
     "procedure:rsi",
     "topic:laryngospasm"
-   ]
+   ],
+   "uid": "q_dd61c0bc7b"
   },
   {
    "number": "8.30",
@@ -1094,7 +1141,8 @@
     "drug:ketamine",
     "procedure:rsi",
     "topic:adverse-effects"
-   ]
+   ],
+   "uid": "q_e24b9c2298"
   },
   {
    "number": "8.30",
@@ -1116,7 +1164,8 @@
    "tags": [
     "procedure:rsi",
     "topic:tube-depth"
-   ]
+   ],
+   "uid": "q_4ab6d4b38b"
   },
   {
    "number": "8.30",
@@ -1139,7 +1188,8 @@
     "procedure:rsi",
     "topic:tube-confirmation",
     "population:both"
-   ]
+   ],
+   "uid": "q_5fb85ecd3e"
   },
   {
    "number": "8.31",
@@ -1162,7 +1212,8 @@
     "procedure:spinal-motion-restriction",
     "topic:indications",
     "population:both"
-   ]
+   ],
+   "uid": "q_760b874e55"
   },
   {
    "number": "8.31",
@@ -1185,7 +1236,8 @@
     "procedure:spinal-motion-restriction",
     "topic:assessment",
     "population:both"
-   ]
+   ],
+   "uid": "q_93b64aa488"
   },
   {
    "number": "8.31",
@@ -1208,7 +1260,8 @@
     "procedure:spinal-motion-restriction",
     "topic:assessment",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_74b0cca571"
   },
   {
    "number": "8.31",
@@ -1231,7 +1284,8 @@
     "procedure:spinal-motion-restriction",
     "topic:extrication",
     "population:both"
-   ]
+   ],
+   "uid": "q_736c246288"
   },
   {
    "number": "8.31",
@@ -1254,7 +1308,8 @@
     "procedure:spinal-motion-restriction",
     "topic:extrication",
     "population:both"
-   ]
+   ],
+   "uid": "q_d311c74d5d"
   },
   {
    "number": "8.31",
@@ -1277,7 +1332,8 @@
     "procedure:spinal-motion-restriction",
     "topic:equipment",
     "population:both"
-   ]
+   ],
+   "uid": "q_8d39824579"
   },
   {
    "number": "8.31",
@@ -1300,7 +1356,8 @@
     "procedure:spinal-motion-restriction",
     "topic:geriatric",
     "population:adult"
-   ]
+   ],
+   "uid": "q_f8ce537bf6"
   },
   {
    "number": "8.31",
@@ -1323,7 +1380,8 @@
     "procedure:spinal-motion-restriction",
     "topic:backboard",
     "population:both"
-   ]
+   ],
+   "uid": "q_2bb712c2e0"
   },
   {
    "number": "8.31",
@@ -1346,7 +1404,8 @@
     "procedure:spinal-motion-restriction",
     "topic:interfacility",
     "population:both"
-   ]
+   ],
+   "uid": "q_a9b6cb21de"
   },
   {
    "number": "8.31",
@@ -1369,7 +1428,8 @@
     "procedure:spinal-motion-restriction",
     "topic:airway",
     "population:both"
-   ]
+   ],
+   "uid": "q_117e551334"
   },
   {
    "number": "8.32",
@@ -1391,7 +1451,8 @@
    "tags": [
     "procedure:cricothyrotomy",
     "topic:landmarks"
-   ]
+   ],
+   "uid": "q_e551601829"
   },
   {
    "number": "8.32",
@@ -1413,7 +1474,8 @@
    "tags": [
     "procedure:cricothyrotomy",
     "topic:landmarks"
-   ]
+   ],
+   "uid": "q_757c273775"
   },
   {
    "number": "8.32",
@@ -1435,7 +1497,8 @@
    "tags": [
     "procedure:cricothyrotomy",
     "topic:technique"
-   ]
+   ],
+   "uid": "q_cae21b08d6"
   },
   {
    "number": "8.32",
@@ -1457,7 +1520,8 @@
    "tags": [
     "procedure:cricothyrotomy",
     "topic:positioning"
-   ]
+   ],
+   "uid": "q_c75d33cc35"
   },
   {
    "number": "8.32",
@@ -1479,7 +1543,8 @@
    "tags": [
     "procedure:cricothyrotomy",
     "topic:technique"
-   ]
+   ],
+   "uid": "q_b0733e98a6"
   },
   {
    "number": "8.32",
@@ -1501,7 +1566,8 @@
    "tags": [
     "procedure:cricothyrotomy",
     "topic:technique"
-   ]
+   ],
+   "uid": "q_05146da47c"
   },
   {
    "number": "8.32",
@@ -1523,7 +1589,8 @@
    "tags": [
     "procedure:cricothyrotomy",
     "topic:technique"
-   ]
+   ],
+   "uid": "q_8a5cba3a37"
   },
   {
    "number": "8.32",
@@ -1545,7 +1612,8 @@
    "tags": [
     "procedure:cricothyrotomy",
     "topic:sequence"
-   ]
+   ],
+   "uid": "q_31965e5f13"
   },
   {
    "number": "8.32",
@@ -1567,7 +1635,8 @@
    "tags": [
     "procedure:cricothyrotomy",
     "topic:tube-confirmation"
-   ]
+   ],
+   "uid": "q_26b70afbc5"
   },
   {
    "number": "8.32",
@@ -1589,7 +1658,8 @@
    "tags": [
     "procedure:cricothyrotomy",
     "topic:complications"
-   ]
+   ],
+   "uid": "q_2c9313dcd4"
   },
   {
    "number": "8.32",
@@ -1611,7 +1681,8 @@
    "tags": [
     "procedure:cricothyrotomy",
     "topic:post-procedure"
-   ]
+   ],
+   "uid": "q_196cdd22cf"
   },
   {
    "number": "8.33",
@@ -1634,7 +1705,8 @@
     "procedure:cardioversion",
     "topic:indications",
     "population:both"
-   ]
+   ],
+   "uid": "q_11afd43a1a"
   },
   {
    "number": "8.33",
@@ -1657,7 +1729,8 @@
     "procedure:cardioversion",
     "topic:contraindications",
     "population:both"
-   ]
+   ],
+   "uid": "q_6ca2115b3b"
   },
   {
    "number": "8.33",
@@ -1680,7 +1753,8 @@
     "procedure:cardioversion",
     "topic:pad-placement",
     "population:both"
-   ]
+   ],
+   "uid": "q_816c24cfbe"
   },
   {
    "number": "8.33",
@@ -1703,7 +1777,8 @@
     "procedure:cardioversion",
     "topic:equipment",
     "population:both"
-   ]
+   ],
+   "uid": "q_437e5cca64"
   },
   {
    "number": "8.33",
@@ -1726,7 +1801,8 @@
     "procedure:cardioversion",
     "topic:sedation",
     "population:both"
-   ]
+   ],
+   "uid": "q_5cf479fc3a"
   },
   {
    "number": "8.33",
@@ -1749,7 +1825,8 @@
     "procedure:cardioversion",
     "topic:sync-mode",
     "population:both"
-   ]
+   ],
+   "uid": "q_2a198500d2"
   },
   {
    "number": "8.33",
@@ -1772,7 +1849,8 @@
     "procedure:cardioversion",
     "topic:sync-mode",
     "population:both"
-   ]
+   ],
+   "uid": "q_a6af12ffae"
   },
   {
    "number": "8.33",
@@ -1795,7 +1873,8 @@
     "procedure:cardioversion",
     "topic:monitoring",
     "population:both"
-   ]
+   ],
+   "uid": "q_04984a128c"
   },
   {
    "number": "8.34",
@@ -1818,7 +1897,8 @@
     "procedure:tourniquet",
     "topic:hemorrhage-control",
     "population:both"
-   ]
+   ],
+   "uid": "q_11d36aded1"
   },
   {
    "number": "8.34",
@@ -1841,7 +1921,8 @@
     "procedure:tourniquet",
     "topic:contraindications",
     "population:both"
-   ]
+   ],
+   "uid": "q_f7413ca490"
   },
   {
    "number": "8.34",
@@ -1864,7 +1945,8 @@
     "procedure:tourniquet",
     "topic:placement",
     "population:both"
-   ]
+   ],
+   "uid": "q_1c25fad84f"
   },
   {
    "number": "8.34",
@@ -1887,7 +1969,8 @@
     "procedure:tourniquet",
     "topic:technique",
     "population:both"
-   ]
+   ],
+   "uid": "q_fa9d8fc2ed"
   },
   {
    "number": "8.34",
@@ -1910,7 +1993,8 @@
     "procedure:tourniquet",
     "topic:documentation",
     "population:both"
-   ]
+   ],
+   "uid": "q_6f9656d6c7"
   },
   {
    "number": "8.34",
@@ -1933,7 +2017,8 @@
     "procedure:tourniquet",
     "topic:amputation",
     "population:both"
-   ]
+   ],
+   "uid": "q_2967c34089"
   },
   {
    "number": "8.35",
@@ -1956,7 +2041,8 @@
     "procedure:transcutaneous-pacing",
     "topic:indications",
     "population:both"
-   ]
+   ],
+   "uid": "q_50dd3ba4d4"
   },
   {
    "number": "8.35",
@@ -1979,7 +2065,8 @@
     "procedure:transcutaneous-pacing",
     "topic:monitoring",
     "population:both"
-   ]
+   ],
+   "uid": "q_76c8f93826"
   },
   {
    "number": "8.35",
@@ -2002,7 +2089,8 @@
     "procedure:transcutaneous-pacing",
     "topic:settings",
     "population:both"
-   ]
+   ],
+   "uid": "q_5155f4480f"
   },
   {
    "number": "8.35",
@@ -2025,7 +2113,8 @@
     "procedure:transcutaneous-pacing",
     "topic:settings",
     "population:both"
-   ]
+   ],
+   "uid": "q_1b607bf2fe"
   },
   {
    "number": "8.35",
@@ -2048,7 +2137,8 @@
     "procedure:transcutaneous-pacing",
     "topic:settings",
     "population:both"
-   ]
+   ],
+   "uid": "q_741a654af0"
   },
   {
    "number": "8.35",
@@ -2071,7 +2161,8 @@
     "procedure:transcutaneous-pacing",
     "topic:settings",
     "population:both"
-   ]
+   ],
+   "uid": "q_990d661e7c"
   },
   {
    "number": "8.35",
@@ -2094,7 +2185,8 @@
     "procedure:transcutaneous-pacing",
     "topic:settings",
     "population:both"
-   ]
+   ],
+   "uid": "q_4f03ef9ad9"
   },
   {
    "number": "8.35",
@@ -2117,7 +2209,8 @@
     "procedure:transcutaneous-pacing",
     "topic:capture",
     "population:both"
-   ]
+   ],
+   "uid": "q_5eef66b2e3"
   },
   {
    "number": "8.35",
@@ -2140,7 +2233,8 @@
     "procedure:transcutaneous-pacing",
     "topic:capture",
     "population:both"
-   ]
+   ],
+   "uid": "q_1ee7ce28e0"
   },
   {
    "number": "8.35",
@@ -2163,7 +2257,8 @@
     "procedure:transcutaneous-pacing",
     "topic:capture",
     "population:both"
-   ]
+   ],
+   "uid": "q_6eec200027"
   },
   {
    "number": "9.01",
@@ -2185,7 +2280,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:resuscitation"
-   ]
+   ],
+   "uid": "q_b7e39f3db9"
   },
   {
    "number": "9.01",
@@ -2207,7 +2303,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:resuscitation"
-   ]
+   ],
+   "uid": "q_68cbac1bd3"
   },
   {
    "number": "9.01",
@@ -2229,7 +2326,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:medical-control"
-   ]
+   ],
+   "uid": "q_bf8436ca32"
   },
   {
    "number": "9.01",
@@ -2251,7 +2349,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:dnr"
-   ]
+   ],
+   "uid": "q_6b04e4cce4"
   },
   {
    "number": "9.01",
@@ -2273,7 +2372,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:polst"
-   ]
+   ],
+   "uid": "q_c418347267"
   },
   {
    "number": "9.01",
@@ -2295,7 +2395,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:polst"
-   ]
+   ],
+   "uid": "q_ec54cf997a"
   },
   {
    "number": "9.01",
@@ -2317,7 +2418,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:polst"
-   ]
+   ],
+   "uid": "q_011848d921"
   },
   {
    "number": "9.01",
@@ -2339,7 +2441,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:polst"
-   ]
+   ],
+   "uid": "q_2cfe887d6d"
   },
   {
    "number": "9.01",
@@ -2361,7 +2464,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:consent"
-   ]
+   ],
+   "uid": "q_a523fbc6c5"
   },
   {
    "number": "9.01",
@@ -2383,7 +2487,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:medical-control"
-   ]
+   ],
+   "uid": "q_37abe0f164"
   },
   {
    "number": "9.01",
@@ -2405,7 +2510,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:hospice"
-   ]
+   ],
+   "uid": "q_0c70c0e8b3"
   },
   {
    "number": "9.01",
@@ -2427,7 +2533,8 @@
    "tags": [
     "topic:death-in-the-field",
     "topic:grief-care"
-   ]
+   ],
+   "uid": "q_2863c217eb"
   },
   {
    "number": "9.02",
@@ -2449,7 +2556,8 @@
    "tags": [
     "topic:destination",
     "topic:scene-calls"
-   ]
+   ],
+   "uid": "q_4757cca5f5"
   },
   {
    "number": "9.02",
@@ -2471,7 +2579,8 @@
    "tags": [
     "topic:destination",
     "topic:trauma-levels"
-   ]
+   ],
+   "uid": "q_3b2bb2f671"
   },
   {
    "number": "9.02",
@@ -2493,7 +2602,8 @@
    "tags": [
     "topic:destination",
     "topic:transport-time"
-   ]
+   ],
+   "uid": "q_44395fbe8f"
   },
   {
    "number": "9.02",
@@ -2515,7 +2625,8 @@
    "tags": [
     "topic:destination",
     "topic:patient-preference"
-   ]
+   ],
+   "uid": "q_7a221c4f2b"
   },
   {
    "number": "9.02",
@@ -2537,7 +2648,8 @@
    "tags": [
     "topic:destination",
     "topic:refusal"
-   ]
+   ],
+   "uid": "q_426de52b85"
   },
   {
    "number": "9.02",
@@ -2559,7 +2671,8 @@
    "tags": [
     "topic:destination",
     "procedure:tourniquet"
-   ]
+   ],
+   "uid": "q_9635ad51ae"
   },
   {
    "number": "9.02",
@@ -2581,7 +2694,8 @@
    "tags": [
     "topic:destination",
     "topic:interfacility"
-   ]
+   ],
+   "uid": "q_bedd26556d"
   },
   {
    "number": "9.02",
@@ -2604,7 +2718,8 @@
     "topic:destination",
     "topic:idaho",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_dd46a42c38"
   },
   {
    "number": "9.02",
@@ -2627,7 +2742,8 @@
     "topic:destination",
     "topic:idaho",
     "topic:trauma-triage"
-   ]
+   ],
+   "uid": "q_94b5d221b6"
   },
   {
    "number": "9.02",
@@ -2650,7 +2766,8 @@
     "topic:destination",
     "topic:idaho",
     "topic:trauma-triage"
-   ]
+   ],
+   "uid": "q_758bae20a7"
   },
   {
    "number": "9.02",
@@ -2672,7 +2789,8 @@
    "tags": [
     "topic:destination",
     "topic:stemi"
-   ]
+   ],
+   "uid": "q_c1900d063c"
   },
   {
    "number": "9.02",
@@ -2695,7 +2813,8 @@
     "topic:destination",
     "topic:hawaii",
     "topic:trauma-triage"
-   ]
+   ],
+   "uid": "q_2994d6a420"
   },
   {
    "number": "9.02",
@@ -2718,7 +2837,8 @@
     "topic:destination",
     "topic:hawaii",
     "population:adult"
-   ]
+   ],
+   "uid": "q_7bc81024b0"
   },
   {
    "number": "9.02",
@@ -2741,7 +2861,8 @@
     "topic:destination",
     "topic:hawaii",
     "topic:trauma-triage"
-   ]
+   ],
+   "uid": "q_42fc65d90a"
   },
   {
    "number": "9.02",
@@ -2764,7 +2885,8 @@
     "topic:destination",
     "topic:stroke",
     "topic:washington"
-   ]
+   ],
+   "uid": "q_1ec16069e5"
   },
   {
    "number": "9.02",
@@ -2787,7 +2909,8 @@
     "topic:destination",
     "topic:stroke",
     "topic:washington"
-   ]
+   ],
+   "uid": "q_e3a0e7fad0"
   },
   {
    "number": "9.02",
@@ -2810,7 +2933,8 @@
     "topic:destination",
     "topic:stroke",
     "topic:washington"
-   ]
+   ],
+   "uid": "q_bf13e7b2b0"
   },
   {
    "number": "9.02",
@@ -2833,7 +2957,8 @@
     "topic:destination",
     "topic:stroke",
     "topic:washington"
-   ]
+   ],
+   "uid": "q_1da801ac7d"
   },
   {
    "number": "9.02",
@@ -2856,7 +2981,8 @@
     "topic:destination",
     "topic:stroke",
     "topic:washington"
-   ]
+   ],
+   "uid": "q_3afffc56ea"
   },
   {
    "number": "9.02",
@@ -2879,7 +3005,8 @@
     "topic:destination",
     "topic:stroke",
     "topic:washington"
-   ]
+   ],
+   "uid": "q_033a899f7c"
   },
   {
    "number": "9.02",
@@ -2902,7 +3029,8 @@
     "topic:destination",
     "topic:stroke",
     "topic:documentation"
-   ]
+   ],
+   "uid": "q_819f2fc4da"
   },
   {
    "number": "9.02",
@@ -2925,7 +3053,8 @@
     "topic:destination",
     "topic:washington",
     "topic:trauma-triage"
-   ]
+   ],
+   "uid": "q_99cddd69f7"
   },
   {
    "number": "9.02",
@@ -2948,7 +3077,8 @@
     "topic:destination",
     "topic:washington",
     "topic:trauma-triage"
-   ]
+   ],
+   "uid": "q_eabbb9e1f0"
   },
   {
    "number": "9.02",
@@ -2971,7 +3101,8 @@
     "topic:destination",
     "topic:washington",
     "topic:airway"
-   ]
+   ],
+   "uid": "q_1b9cc4371b"
   },
   {
    "number": "9.02",
@@ -2994,7 +3125,8 @@
     "topic:destination",
     "topic:burns",
     "topic:washington"
-   ]
+   ],
+   "uid": "q_4a4b04d75a"
   }
  ]
 }

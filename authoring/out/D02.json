@@ -22,7 +22,8 @@
     "drug:crofab",
     "topic:envenomation",
     "topic:snakebite"
-   ]
+   ],
+   "uid": "q_bf0945572b"
   },
   {
    "number": "12.16",
@@ -44,7 +45,8 @@
    "tags": [
     "drug:crofab",
     "topic:envenomation"
-   ]
+   ],
+   "uid": "q_8fb0a252fa"
   },
   {
    "number": "12.16",
@@ -67,7 +69,8 @@
     "drug:crofab",
     "topic:envenomation",
     "route:iv"
-   ]
+   ],
+   "uid": "q_0a5ee764e9"
   },
   {
    "number": "12.16",
@@ -89,7 +92,8 @@
    "tags": [
     "drug:crofab",
     "topic:envenomation"
-   ]
+   ],
+   "uid": "q_ab221c5eef"
   },
   {
    "number": "12.16",
@@ -111,7 +115,8 @@
    "tags": [
     "drug:crofab",
     "topic:envenomation"
-   ]
+   ],
+   "uid": "q_caf10e373f"
   },
   {
    "number": "12.16",
@@ -133,7 +138,8 @@
    "tags": [
     "drug:crofab",
     "topic:envenomation"
-   ]
+   ],
+   "uid": "q_9370bca69e"
   },
   {
    "number": "12.16",
@@ -156,7 +162,8 @@
     "drug:crofab",
     "topic:envenomation",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_8f58e6421f"
   },
   {
    "number": "12.16",
@@ -178,7 +185,8 @@
    "tags": [
     "drug:crofab",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_1b5d4bc221"
   },
   {
    "number": "12.16",
@@ -200,7 +208,8 @@
    "tags": [
     "drug:crofab",
     "topic:allergy"
-   ]
+   ],
+   "uid": "q_6b0a8a6107"
   },
   {
    "number": "12.17",
@@ -223,7 +232,8 @@
     "drug:dexamethasone",
     "topic:croup",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_3f476b1482"
   },
   {
    "number": "12.17",
@@ -246,7 +256,8 @@
     "drug:dexamethasone",
     "topic:croup",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_1cd45ee1df"
   },
   {
    "number": "12.17",
@@ -268,7 +279,8 @@
    "tags": [
     "drug:dexamethasone",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_adea50a68e"
   },
   {
    "number": "12.17",
@@ -290,7 +302,8 @@
    "tags": [
     "drug:dexamethasone",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_9f95022f72"
   },
   {
    "number": "12.17",
@@ -312,7 +325,8 @@
    "tags": [
     "drug:dexamethasone",
     "topic:croup"
-   ]
+   ],
+   "uid": "q_45e89fdf37"
   },
   {
    "number": "12.18",
@@ -335,7 +349,8 @@
     "drug:dexmedetomidine",
     "topic:sedation",
     "route:iv"
-   ]
+   ],
+   "uid": "q_ec8c87af88"
   },
   {
    "number": "12.18",
@@ -357,7 +372,8 @@
    "tags": [
     "drug:dexmedetomidine",
     "topic:sedation"
-   ]
+   ],
+   "uid": "q_0f3bcddaed"
   },
   {
    "number": "12.18",
@@ -379,7 +395,8 @@
    "tags": [
     "drug:dexmedetomidine",
     "topic:sedation"
-   ]
+   ],
+   "uid": "q_0456e54387"
   },
   {
    "number": "12.18",
@@ -401,7 +418,8 @@
    "tags": [
     "drug:dexmedetomidine",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_1cbfce2583"
   },
   {
    "number": "12.18",
@@ -423,7 +441,8 @@
    "tags": [
     "drug:dexmedetomidine",
     "topic:sedation"
-   ]
+   ],
+   "uid": "q_43fbede607"
   },
   {
    "number": "12.18",
@@ -445,7 +464,8 @@
    "tags": [
     "drug:dexmedetomidine",
     "topic:bradycardia"
-   ]
+   ],
+   "uid": "q_cdc7dc04b8"
   },
   {
    "number": "12.18",
@@ -467,7 +487,8 @@
    "tags": [
     "drug:dexmedetomidine",
     "topic:sedation"
-   ]
+   ],
+   "uid": "q_ba4b945551"
   },
   {
    "number": "12.18",
@@ -489,7 +510,8 @@
    "tags": [
     "drug:dexmedetomidine",
     "topic:infusions"
-   ]
+   ],
+   "uid": "q_2c9c23889a"
   },
   {
    "number": "12.19",
@@ -512,7 +534,8 @@
     "drug:dextrose",
     "topic:hypoglycemia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_3f766d5560"
   },
   {
    "number": "12.19",
@@ -534,7 +557,8 @@
    "tags": [
     "drug:dextrose",
     "topic:hypoglycemia"
-   ]
+   ],
+   "uid": "q_fb08b44366"
   },
   {
    "number": "12.19",
@@ -557,7 +581,8 @@
     "drug:dextrose",
     "topic:hypoglycemia",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_449af392e6"
   },
   {
    "number": "12.19",
@@ -580,7 +605,8 @@
     "drug:dextrose",
     "topic:hypoglycemia",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_824129b571"
   },
   {
    "number": "12.19",
@@ -603,7 +629,8 @@
     "drug:dextrose",
     "topic:hypoglycemia",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_2ca29fb5b4"
   },
   {
    "number": "12.19",
@@ -626,7 +653,8 @@
     "drug:dextrose",
     "topic:hyperkalemia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_b20405e3f9"
   },
   {
    "number": "12.19",
@@ -649,7 +677,8 @@
     "drug:dextrose",
     "topic:hyperkalemia",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_3f0a2b8a05"
   },
   {
    "number": "12.19",
@@ -672,7 +701,8 @@
     "drug:dextrose",
     "topic:hypoglycemia",
     "procedure:drug preparation"
-   ]
+   ],
+   "uid": "q_d33fa5a122"
   },
   {
    "number": "12.19",
@@ -694,7 +724,8 @@
    "tags": [
     "drug:dextrose",
     "topic:hypoglycemia"
-   ]
+   ],
+   "uid": "q_76f3456e60"
   },
   {
    "number": "12.19",
@@ -716,7 +747,8 @@
    "tags": [
     "drug:dextrose",
     "topic:head injury"
-   ]
+   ],
+   "uid": "q_b58b5f801c"
   },
   {
    "number": "12.20",
@@ -739,7 +771,8 @@
     "drug:diazepam",
     "topic:seizure",
     "route:iv"
-   ]
+   ],
+   "uid": "q_384d07f422"
   },
   {
    "number": "12.20",
@@ -762,7 +795,8 @@
     "drug:diazepam",
     "topic:seizure",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_18a3884e17"
   },
   {
    "number": "12.20",
@@ -784,7 +818,8 @@
    "tags": [
     "drug:diazepam",
     "topic:seizure"
-   ]
+   ],
+   "uid": "q_a3b2c84b14"
   },
   {
    "number": "12.20",
@@ -807,7 +842,8 @@
     "drug:diazepam",
     "topic:seizure",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_dd5c9586d7"
   },
   {
    "number": "12.20",
@@ -830,7 +866,8 @@
     "drug:diazepam",
     "topic:anxiety",
     "route:iv"
-   ]
+   ],
+   "uid": "q_5585a9fcbc"
   },
   {
    "number": "12.20",
@@ -853,7 +890,8 @@
     "drug:diazepam",
     "topic:agitation",
     "route:iv"
-   ]
+   ],
+   "uid": "q_e382229ebb"
   },
   {
    "number": "12.20",
@@ -875,7 +913,8 @@
    "tags": [
     "drug:diazepam",
     "topic:sedation"
-   ]
+   ],
+   "uid": "q_b5e0cf0b36"
   },
   {
    "number": "12.20",
@@ -898,7 +937,8 @@
     "drug:diazepam",
     "topic:agitation",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_df369f9364"
   },
   {
    "number": "12.20",
@@ -920,7 +960,8 @@
    "tags": [
     "drug:diazepam",
     "route:iv"
-   ]
+   ],
+   "uid": "q_4783fad635"
   },
   {
    "number": "12.20",
@@ -942,7 +983,8 @@
    "tags": [
     "drug:diazepam",
     "procedure:drug preparation"
-   ]
+   ],
+   "uid": "q_e162195839"
   },
   {
    "number": "12.20",
@@ -964,7 +1006,8 @@
    "tags": [
     "drug:diazepam",
     "complication:extravasation"
-   ]
+   ],
+   "uid": "q_27a835e6e0"
   },
   {
    "number": "12.20",
@@ -986,7 +1029,8 @@
    "tags": [
     "drug:diazepam",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_5bdce7faa1"
   },
   {
    "number": "12.21",
@@ -1009,7 +1053,8 @@
     "drug:diltiazem",
     "topic:tachycardia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_79c2c0aa03"
   },
   {
    "number": "12.21",
@@ -1031,7 +1076,8 @@
    "tags": [
     "drug:diltiazem",
     "topic:tachycardia"
-   ]
+   ],
+   "uid": "q_168ffeb483"
   },
   {
    "number": "12.21",
@@ -1053,7 +1099,8 @@
    "tags": [
     "drug:diltiazem",
     "topic:tachycardia"
-   ]
+   ],
+   "uid": "q_d7415a051f"
   },
   {
    "number": "12.21",
@@ -1076,7 +1123,8 @@
     "drug:diltiazem",
     "topic:tachycardia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_2708db8a99"
   },
   {
    "number": "12.21",
@@ -1098,7 +1146,8 @@
    "tags": [
     "drug:diltiazem",
     "topic:tachycardia"
-   ]
+   ],
+   "uid": "q_f7e56d0391"
   },
   {
    "number": "12.21",
@@ -1121,7 +1170,8 @@
     "drug:diltiazem",
     "topic:aortic emergency",
     "route:iv"
-   ]
+   ],
+   "uid": "q_fe9149f897"
   },
   {
    "number": "12.21",
@@ -1143,7 +1193,8 @@
    "tags": [
     "drug:diltiazem",
     "topic:tachycardia"
-   ]
+   ],
+   "uid": "q_06c4b74fdb"
   },
   {
    "number": "12.21",
@@ -1166,7 +1217,8 @@
     "drug:diltiazem",
     "drug:esmolol",
     "topic:tachycardia"
-   ]
+   ],
+   "uid": "q_107d141909"
   },
   {
    "number": "12.21",
@@ -1188,7 +1240,8 @@
    "tags": [
     "drug:diltiazem",
     "topic:tachycardia"
-   ]
+   ],
+   "uid": "q_c4a174412f"
   },
   {
    "number": "12.21",
@@ -1210,7 +1263,8 @@
    "tags": [
     "drug:diltiazem",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_4dd9f04a74"
   },
   {
    "number": "12.21",
@@ -1232,7 +1286,8 @@
    "tags": [
     "drug:diltiazem",
     "topic:infusions"
-   ]
+   ],
+   "uid": "q_938227a4b5"
   },
   {
    "number": "12.22",
@@ -1255,7 +1310,8 @@
     "drug:diphenhydramine",
     "topic:anaphylaxis",
     "route:iv"
-   ]
+   ],
+   "uid": "q_0bc91f2798"
   },
   {
    "number": "12.22",
@@ -1277,7 +1333,8 @@
    "tags": [
     "drug:diphenhydramine",
     "topic:anaphylaxis"
-   ]
+   ],
+   "uid": "q_e7d3f5bc71"
   },
   {
    "number": "12.22",
@@ -1299,7 +1356,8 @@
    "tags": [
     "drug:diphenhydramine",
     "topic:nausea"
-   ]
+   ],
+   "uid": "q_07add16ee1"
   },
   {
    "number": "12.22",
@@ -1321,7 +1379,8 @@
    "tags": [
     "drug:diphenhydramine",
     "topic:nausea"
-   ]
+   ],
+   "uid": "q_0a8edd3feb"
   },
   {
    "number": "12.22",
@@ -1344,7 +1403,8 @@
     "drug:diphenhydramine",
     "drug:droperidol",
     "topic:agitation"
-   ]
+   ],
+   "uid": "q_8b446d0d58"
   },
   {
    "number": "12.22",
@@ -1367,7 +1427,8 @@
     "drug:diphenhydramine",
     "drug:droperidol",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_a1a1dac2c6"
   },
   {
    "number": "12.22",
@@ -1389,7 +1450,8 @@
    "tags": [
     "drug:diphenhydramine",
     "route:iv"
-   ]
+   ],
+   "uid": "q_1f49dfe773"
   },
   {
    "number": "12.22",
@@ -1411,7 +1473,8 @@
    "tags": [
     "drug:diphenhydramine",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_61f5480089"
   },
   {
    "number": "12.22",
@@ -1433,7 +1496,8 @@
    "tags": [
     "drug:diphenhydramine",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_3930cac949"
   },
   {
    "number": "12.23",
@@ -1456,7 +1520,8 @@
     "drug:dobutamine",
     "topic:cardiogenic shock",
     "route:iv"
-   ]
+   ],
+   "uid": "q_93dc2430f7"
   },
   {
    "number": "12.23",
@@ -1478,7 +1543,8 @@
    "tags": [
     "drug:dobutamine",
     "topic:cardiogenic shock"
-   ]
+   ],
+   "uid": "q_57e581526d"
   },
   {
    "number": "12.23",
@@ -1500,7 +1566,8 @@
    "tags": [
     "drug:dobutamine",
     "topic:cardiogenic shock"
-   ]
+   ],
+   "uid": "q_b921e413dd"
   },
   {
    "number": "12.23",
@@ -1522,7 +1589,8 @@
    "tags": [
     "drug:dobutamine",
     "topic:cardiogenic shock"
-   ]
+   ],
+   "uid": "q_5e461bf091"
   },
   {
    "number": "12.23",
@@ -1544,7 +1612,8 @@
    "tags": [
     "drug:dobutamine",
     "topic:cardiogenic shock"
-   ]
+   ],
+   "uid": "q_b44e94831b"
   },
   {
    "number": "12.23",
@@ -1566,7 +1635,8 @@
    "tags": [
     "drug:dobutamine",
     "topic:shock"
-   ]
+   ],
+   "uid": "q_8b3cecd4de"
   },
   {
    "number": "12.23",
@@ -1588,7 +1658,8 @@
    "tags": [
     "drug:dobutamine",
     "topic:infusions"
-   ]
+   ],
+   "uid": "q_c586519eeb"
   },
   {
    "number": "12.24",
@@ -1611,7 +1682,8 @@
     "drug:dopamine",
     "topic:shock",
     "route:iv"
-   ]
+   ],
+   "uid": "q_b254d1102d"
   },
   {
    "number": "12.24",
@@ -1634,7 +1706,8 @@
     "drug:dopamine",
     "topic:shock",
     "topic:bradycardia"
-   ]
+   ],
+   "uid": "q_0d786d397d"
   },
   {
    "number": "12.24",
@@ -1657,7 +1730,8 @@
     "drug:dopamine",
     "topic:shock",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_5c29733d8d"
   },
   {
    "number": "12.24",
@@ -1679,7 +1753,8 @@
    "tags": [
     "drug:dopamine",
     "procedure:drug preparation"
-   ]
+   ],
+   "uid": "q_0362727d43"
   },
   {
    "number": "12.24",
@@ -1701,7 +1776,8 @@
    "tags": [
     "drug:dopamine",
     "topic:shock"
-   ]
+   ],
+   "uid": "q_a66d1346de"
   },
   {
    "number": "12.24",
@@ -1723,7 +1799,8 @@
    "tags": [
     "drug:dopamine",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_3d0b2e43b3"
   },
   {
    "number": "12.24",
@@ -1745,7 +1822,8 @@
    "tags": [
     "drug:dopamine",
     "topic:infusions"
-   ]
+   ],
+   "uid": "q_ea9d3b5778"
   },
   {
    "number": "12.25",
@@ -1768,7 +1846,8 @@
     "drug:droperidol",
     "topic:agitation",
     "route:im"
-   ]
+   ],
+   "uid": "q_0f7eb6a0dd"
   },
   {
    "number": "12.25",
@@ -1791,7 +1870,8 @@
     "drug:droperidol",
     "topic:agitation",
     "route:im"
-   ]
+   ],
+   "uid": "q_70b22c75ae"
   },
   {
    "number": "12.25",
@@ -1813,7 +1893,8 @@
    "tags": [
     "drug:droperidol",
     "topic:agitation"
-   ]
+   ],
+   "uid": "q_bb92010ab9"
   },
   {
    "number": "12.25",
@@ -1836,7 +1917,8 @@
     "drug:droperidol",
     "topic:agitation",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_f8791ba8eb"
   },
   {
    "number": "12.25",
@@ -1859,7 +1941,8 @@
     "drug:droperidol",
     "topic:agitation",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_3320331cad"
   },
   {
    "number": "12.25",
@@ -1882,7 +1965,8 @@
     "drug:droperidol",
     "topic:nausea",
     "route:iv"
-   ]
+   ],
+   "uid": "q_f61022c9d8"
   },
   {
    "number": "12.25",
@@ -1905,7 +1989,8 @@
     "drug:droperidol",
     "topic:nausea",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_3867cedcf4"
   },
   {
    "number": "12.25",
@@ -1928,7 +2013,8 @@
     "drug:droperidol",
     "drug:diphenhydramine",
     "complication:dystonia"
-   ]
+   ],
+   "uid": "q_9d5803416d"
   },
   {
    "number": "12.25",
@@ -1950,7 +2036,8 @@
    "tags": [
     "drug:droperidol",
     "topic:qt prolongation"
-   ]
+   ],
+   "uid": "q_c68b2a6aa5"
   },
   {
    "number": "12.25",
@@ -1972,7 +2059,8 @@
    "tags": [
     "drug:droperidol",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_b301336ca2"
   },
   {
    "number": "12.25",
@@ -1994,7 +2082,8 @@
    "tags": [
     "drug:droperidol",
     "topic:nausea"
-   ]
+   ],
+   "uid": "q_e85e43b1f1"
   },
   {
    "number": "12.25",
@@ -2016,7 +2105,8 @@
    "tags": [
     "drug:droperidol",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_39c03a9f01"
   },
   {
    "number": "12.26",
@@ -2039,7 +2129,8 @@
     "drug:epinephrine",
     "topic:cardiac arrest",
     "route:iv"
-   ]
+   ],
+   "uid": "q_97a294eb93"
   },
   {
    "number": "12.26",
@@ -2062,7 +2153,8 @@
     "drug:epinephrine",
     "topic:cardiac arrest",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_e11c21321b"
   },
   {
    "number": "12.26",
@@ -2085,7 +2177,8 @@
     "drug:epinephrine",
     "topic:cardiac arrest",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_01cbe32761"
   },
   {
    "number": "12.26",
@@ -2108,7 +2201,8 @@
     "drug:epinephrine",
     "topic:anaphylaxis",
     "route:im"
-   ]
+   ],
+   "uid": "q_f34a81b961"
   },
   {
    "number": "12.26",
@@ -2131,7 +2225,8 @@
     "drug:epinephrine",
     "topic:anaphylaxis",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_06eaec2bce"
   },
   {
    "number": "12.26",
@@ -2154,7 +2249,8 @@
     "drug:epinephrine",
     "topic:anaphylaxis",
     "route:iv"
-   ]
+   ],
+   "uid": "q_c227b1f90d"
   },
   {
    "number": "12.26",
@@ -2177,7 +2273,8 @@
     "drug:epinephrine",
     "topic:anaphylaxis",
     "route:iv"
-   ]
+   ],
+   "uid": "q_ae6bf28f7d"
   },
   {
    "number": "12.26",
@@ -2200,7 +2297,8 @@
     "drug:epinephrine",
     "topic:shock",
     "route:iv"
-   ]
+   ],
+   "uid": "q_883b34ba3e"
   },
   {
    "number": "12.26",
@@ -2223,7 +2321,8 @@
     "drug:epinephrine",
     "procedure:drug preparation",
     "route:iv"
-   ]
+   ],
+   "uid": "q_e9ddf8ab38"
   },
   {
    "number": "12.26",
@@ -2246,7 +2345,8 @@
     "drug:epinephrine",
     "topic:shock",
     "route:iv"
-   ]
+   ],
+   "uid": "q_b64b70b24c"
   },
   {
    "number": "12.26",
@@ -2269,7 +2369,8 @@
     "drug:epinephrine",
     "topic:croup",
     "route:nebulized"
-   ]
+   ],
+   "uid": "q_93ece42d46"
   },
   {
    "number": "12.26",
@@ -2292,7 +2393,8 @@
     "drug:epinephrine",
     "topic:trauma",
     "route:iv"
-   ]
+   ],
+   "uid": "q_29ed93a826"
   },
   {
    "number": "12.27",
@@ -2315,7 +2417,8 @@
     "drug:epoprostenol",
     "topic:ards",
     "route:nebulized"
-   ]
+   ],
+   "uid": "q_c2a64889f5"
   },
   {
    "number": "12.27",
@@ -2337,7 +2440,8 @@
    "tags": [
     "drug:epoprostenol",
     "topic:ards"
-   ]
+   ],
+   "uid": "q_dc59bbd79b"
   },
   {
    "number": "12.27",
@@ -2360,7 +2464,8 @@
     "drug:epoprostenol",
     "topic:pulmonary hypertension",
     "route:iv"
-   ]
+   ],
+   "uid": "q_bba36cb27f"
   },
   {
    "number": "12.27",
@@ -2383,7 +2488,8 @@
     "drug:epoprostenol",
     "topic:ards",
     "equipment:nebulizer"
-   ]
+   ],
+   "uid": "q_b90b231432"
   },
   {
    "number": "12.27",
@@ -2405,7 +2511,8 @@
    "tags": [
     "drug:epoprostenol",
     "topic:pulmonary hypertension"
-   ]
+   ],
+   "uid": "q_b8ad511644"
   },
   {
    "number": "12.27",
@@ -2427,7 +2534,8 @@
    "tags": [
     "drug:epoprostenol",
     "topic:ards"
-   ]
+   ],
+   "uid": "q_6662ce1273"
   },
   {
    "number": "12.27",
@@ -2449,7 +2557,8 @@
    "tags": [
     "drug:epoprostenol",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_1f7da7f9ed"
   },
   {
    "number": "12.28",
@@ -2472,7 +2581,8 @@
     "drug:esmolol",
     "topic:aortic emergency",
     "route:iv"
-   ]
+   ],
+   "uid": "q_95e6b35f75"
   },
   {
    "number": "12.28",
@@ -2495,7 +2605,8 @@
     "drug:esmolol",
     "topic:aortic emergency",
     "route:iv"
-   ]
+   ],
+   "uid": "q_5165bfe6d2"
   },
   {
    "number": "12.28",
@@ -2517,7 +2628,8 @@
    "tags": [
     "drug:esmolol",
     "topic:aortic emergency"
-   ]
+   ],
+   "uid": "q_c244300049"
   },
   {
    "number": "12.28",
@@ -2539,7 +2651,8 @@
    "tags": [
     "drug:esmolol",
     "topic:aortic emergency"
-   ]
+   ],
+   "uid": "q_cf746351ee"
   },
   {
    "number": "12.28",
@@ -2562,7 +2675,8 @@
     "drug:esmolol",
     "topic:tachycardia",
     "topic:aortic emergency"
-   ]
+   ],
+   "uid": "q_2796dccc0d"
   },
   {
    "number": "12.28",
@@ -2584,7 +2698,8 @@
    "tags": [
     "drug:esmolol",
     "topic:tachycardia"
-   ]
+   ],
+   "uid": "q_0f6479715b"
   },
   {
    "number": "12.28",
@@ -2606,7 +2721,8 @@
    "tags": [
     "drug:esmolol",
     "procedure:drug preparation"
-   ]
+   ],
+   "uid": "q_946b3c7525"
   },
   {
    "number": "12.28",
@@ -2628,7 +2744,8 @@
    "tags": [
     "drug:esmolol",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_c47980a440"
   },
   {
    "number": "12.28",
@@ -2650,7 +2767,8 @@
    "tags": [
     "drug:esmolol",
     "topic:infusions"
-   ]
+   ],
+   "uid": "q_0b4056f4d5"
   },
   {
    "number": "12.29",
@@ -2673,7 +2791,8 @@
     "drug:etomidate",
     "topic:rsi",
     "route:iv"
-   ]
+   ],
+   "uid": "q_6ab16cea4f"
   },
   {
    "number": "12.29",
@@ -2695,7 +2814,8 @@
    "tags": [
     "drug:etomidate",
     "topic:rsi"
-   ]
+   ],
+   "uid": "q_c0fdb040e2"
   },
   {
    "number": "12.29",
@@ -2718,7 +2838,8 @@
     "drug:etomidate",
     "topic:rsi",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_c97afc02cb"
   },
   {
    "number": "12.29",
@@ -2741,7 +2862,8 @@
     "drug:etomidate",
     "topic:sedation",
     "route:iv"
-   ]
+   ],
+   "uid": "q_156d6cfc42"
   },
   {
    "number": "12.29",
@@ -2763,7 +2885,8 @@
    "tags": [
     "drug:etomidate",
     "topic:sedation"
-   ]
+   ],
+   "uid": "q_ea1fb011d3"
   },
   {
    "number": "12.29",
@@ -2786,7 +2909,8 @@
     "drug:etomidate",
     "topic:rsi",
     "topic:sedation"
-   ]
+   ],
+   "uid": "q_60ec4c92f8"
   },
   {
    "number": "12.29",
@@ -2809,7 +2933,8 @@
     "drug:etomidate",
     "topic:rsi",
     "topic:sepsis"
-   ]
+   ],
+   "uid": "q_e6d704b32e"
   },
   {
    "number": "12.29",
@@ -2831,7 +2956,8 @@
    "tags": [
     "drug:etomidate",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_469b0616ec"
   },
   {
    "number": "12.30",
@@ -2854,7 +2980,8 @@
     "drug:fentanyl",
     "topic:pain",
     "route:iv"
-   ]
+   ],
+   "uid": "q_5e80f28a80"
   },
   {
    "number": "12.30",
@@ -2877,7 +3004,8 @@
     "drug:fentanyl",
     "topic:pain",
     "route:in"
-   ]
+   ],
+   "uid": "q_e4feb83343"
   },
   {
    "number": "12.30",
@@ -2899,7 +3027,8 @@
    "tags": [
     "drug:fentanyl",
     "topic:pain"
-   ]
+   ],
+   "uid": "q_8292cbc36c"
   },
   {
    "number": "12.30",
@@ -2922,7 +3051,8 @@
     "drug:fentanyl",
     "topic:pain",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_be4ec7386b"
   },
   {
    "number": "12.30",
@@ -2945,7 +3075,8 @@
     "drug:fentanyl",
     "topic:pain",
     "route:iv"
-   ]
+   ],
+   "uid": "q_82c4d70069"
   },
   {
    "number": "12.30",
@@ -2968,7 +3099,8 @@
     "drug:fentanyl",
     "topic:pain",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_912d1e1b8b"
   },
   {
    "number": "12.30",
@@ -2990,7 +3122,8 @@
    "tags": [
     "drug:fentanyl",
     "topic:pain"
-   ]
+   ],
+   "uid": "q_7df8009eb7"
   },
   {
    "number": "12.30",
@@ -3013,7 +3146,8 @@
     "drug:fentanyl",
     "topic:pain",
     "route:iv"
-   ]
+   ],
+   "uid": "q_62c6e23ca9"
   },
   {
    "number": "12.30",
@@ -3036,7 +3170,8 @@
     "drug:fentanyl",
     "topic:pain",
     "assessment:capnography"
-   ]
+   ],
+   "uid": "q_651c8fb4d5"
   },
   {
    "number": "12.30",
@@ -3058,7 +3193,8 @@
    "tags": [
     "drug:fentanyl",
     "topic:pharmacology"
-   ]
+   ],
+   "uid": "q_9ac568c5a9"
   },
   {
    "number": "12.30",
@@ -3080,7 +3216,8 @@
    "tags": [
     "drug:fentanyl",
     "topic:infusions"
-   ]
+   ],
+   "uid": "q_ba9f0682ef"
   }
  ]
 }

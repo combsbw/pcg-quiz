@@ -21,7 +21,8 @@
    "tags": [
     "topic:oxygenation",
     "topic:spo2-target"
-   ]
+   ],
+   "uid": "q_3b1ce890fa"
   },
   {
    "number": "2.05",
@@ -44,7 +45,8 @@
     "topic:oxygenation",
     "topic:trauma",
     "topic:spo2-target"
-   ]
+   ],
+   "uid": "q_f884cb86aa"
   },
   {
    "number": "2.05",
@@ -67,7 +69,8 @@
     "topic:oxygenation",
     "topic:cardiac",
     "topic:spo2-target"
-   ]
+   ],
+   "uid": "q_c1d1bdef12"
   },
   {
    "number": "2.05",
@@ -90,7 +93,8 @@
     "topic:oxygenation",
     "topic:ards",
     "topic:ventilator"
-   ]
+   ],
+   "uid": "q_b4ed2686f4"
   },
   {
    "number": "2.05",
@@ -112,7 +116,8 @@
    "tags": [
     "topic:ventilator",
     "procedure:advanced-airway"
-   ]
+   ],
+   "uid": "q_7d32dac34f"
   },
   {
    "number": "2.05",
@@ -134,7 +139,8 @@
    "tags": [
     "topic:ventilator",
     "topic:ift"
-   ]
+   ],
+   "uid": "q_526dad087d"
   },
   {
    "number": "2.05",
@@ -157,7 +163,8 @@
     "topic:capnography",
     "topic:monitoring",
     "drug:fentanyl"
-   ]
+   ],
+   "uid": "q_d13137690a"
   },
   {
    "number": "2.05",
@@ -179,7 +186,8 @@
    "tags": [
     "procedure:rsi",
     "topic:checklist"
-   ]
+   ],
+   "uid": "q_d9c1623e8c"
   },
   {
    "number": "2.05",
@@ -202,7 +210,8 @@
     "equipment:bougie",
     "procedure:intubation",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_4e72791073"
   },
   {
    "number": "2.05",
@@ -224,7 +233,8 @@
    "tags": [
     "equipment:stylet",
     "procedure:intubation"
-   ]
+   ],
+   "uid": "q_4563034949"
   },
   {
    "number": "2.05",
@@ -246,7 +256,8 @@
    "tags": [
     "equipment:c-mac",
     "procedure:intubation"
-   ]
+   ],
+   "uid": "q_4230f19023"
   },
   {
    "number": "2.06",
@@ -268,7 +279,8 @@
    "tags": [
     "topic:nausea",
     "topic:bls"
-   ]
+   ],
+   "uid": "q_58ed1c5394"
   },
   {
    "number": "2.06",
@@ -291,7 +303,8 @@
     "drug:ondansetron",
     "topic:nausea",
     "population:adult"
-   ]
+   ],
+   "uid": "q_75b0daad0b"
   },
   {
    "number": "2.06",
@@ -314,7 +327,8 @@
     "drug:promethazine",
     "topic:nausea",
     "population:adult"
-   ]
+   ],
+   "uid": "q_0ecca88c78"
   },
   {
    "number": "2.06",
@@ -337,7 +351,8 @@
     "drug:promethazine",
     "route:iv",
     "topic:administration"
-   ]
+   ],
+   "uid": "q_627b12a015"
   },
   {
    "number": "2.06",
@@ -359,7 +374,8 @@
    "tags": [
     "drug:promethazine",
     "topic:contraindication"
-   ]
+   ],
+   "uid": "q_2d722d2417"
   },
   {
    "number": "2.06",
@@ -382,7 +398,8 @@
     "drug:diphenhydramine",
     "topic:nausea",
     "population:adult"
-   ]
+   ],
+   "uid": "q_09c5ac00b8"
   },
   {
    "number": "2.06",
@@ -404,7 +421,8 @@
    "tags": [
     "drug:diphenhydramine",
     "population:adult"
-   ]
+   ],
+   "uid": "q_2eb288c487"
   },
   {
    "number": "2.06",
@@ -426,7 +444,8 @@
    "tags": [
     "drug:ondansetron",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_99064a91c2"
   },
   {
    "number": "2.06",
@@ -448,7 +467,8 @@
    "tags": [
     "drug:ondansetron",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_e733fc26a7"
   },
   {
    "number": "2.06",
@@ -471,7 +491,8 @@
     "drug:promethazine",
     "population:pediatric",
     "topic:adverse-effects"
-   ]
+   ],
+   "uid": "q_3712e193ad"
   },
   {
    "number": "2.06",
@@ -493,7 +514,8 @@
    "tags": [
     "drug:promethazine",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_b3a3311cbb"
   },
   {
    "number": "2.06",
@@ -516,7 +538,8 @@
     "drug:lorazepam",
     "topic:nausea",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_78b69104cb"
   },
   {
    "number": "2.06",
@@ -539,7 +562,8 @@
     "drug:lorazepam",
     "population:adult",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_6bc241fb51"
   },
   {
    "number": "2.06",
@@ -562,7 +586,8 @@
     "drug:lorazepam",
     "population:pediatric",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_e04b03e80a"
   },
   {
    "number": "2.06",
@@ -585,7 +610,8 @@
     "drug:ondansetron",
     "topic:monitoring",
     "topic:qt-prolongation"
-   ]
+   ],
+   "uid": "q_9955b4b00a"
   },
   {
    "number": "2.06",
@@ -608,7 +634,8 @@
     "drug:diphenhydramine",
     "drug:promethazine",
     "topic:adverse-effects"
-   ]
+   ],
+   "uid": "q_1b1efdf5f2"
   },
   {
    "number": "2.07",
@@ -631,7 +658,8 @@
     "drug:fentanyl",
     "topic:pain",
     "population:adult"
-   ]
+   ],
+   "uid": "q_769fedb01e"
   },
   {
    "number": "2.07",
@@ -654,7 +682,8 @@
     "drug:fentanyl",
     "topic:pain",
     "population:adult"
-   ]
+   ],
+   "uid": "q_d25ac57c40"
   },
   {
    "number": "2.07",
@@ -677,7 +706,8 @@
     "drug:fentanyl",
     "topic:pain",
     "population:adult"
-   ]
+   ],
+   "uid": "q_67cce44a2a"
   },
   {
    "number": "2.07",
@@ -700,7 +730,8 @@
     "drug:hydromorphone",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_df9a3ef777"
   },
   {
    "number": "2.07",
@@ -722,7 +753,8 @@
    "tags": [
     "drug:hydromorphone",
     "population:adult"
-   ]
+   ],
+   "uid": "q_a34bffe101"
   },
   {
    "number": "2.07",
@@ -745,7 +777,8 @@
     "drug:acetaminophen",
     "topic:pain",
     "population:adult"
-   ]
+   ],
+   "uid": "q_cb40d03fac"
   },
   {
    "number": "2.07",
@@ -767,7 +800,8 @@
    "tags": [
     "drug:acetaminophen",
     "population:adult"
-   ]
+   ],
+   "uid": "q_dea1eba291"
   },
   {
    "number": "2.07",
@@ -789,7 +823,8 @@
    "tags": [
     "drug:acetaminophen",
     "topic:contraindication"
-   ]
+   ],
+   "uid": "q_db7f87a4ca"
   },
   {
    "number": "2.07",
@@ -812,7 +847,8 @@
     "drug:ketamine",
     "topic:pain",
     "population:adult"
-   ]
+   ],
+   "uid": "q_1177251416"
   },
   {
    "number": "2.07",
@@ -834,7 +870,8 @@
    "tags": [
     "drug:ketamine",
     "topic:pain"
-   ]
+   ],
+   "uid": "q_0468191afa"
   },
   {
    "number": "2.07",
@@ -856,7 +893,8 @@
    "tags": [
     "drug:hydromorphone",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_3930492062"
   },
   {
    "number": "2.07",
@@ -878,7 +916,8 @@
    "tags": [
     "drug:hydromorphone",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_6af6ced2b2"
   },
   {
    "number": "2.07",
@@ -901,7 +940,8 @@
     "drug:hydromorphone",
     "population:pediatric",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_4c6812953b"
   },
   {
    "number": "2.07",
@@ -923,7 +963,8 @@
    "tags": [
     "drug:fentanyl",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_5937a48bcd"
   },
   {
    "number": "2.07",
@@ -946,7 +987,8 @@
     "drug:ketamine",
     "population:pediatric",
     "topic:administration"
-   ]
+   ],
+   "uid": "q_9749fea199"
   },
   {
    "number": "2.07",
@@ -968,7 +1010,8 @@
    "tags": [
     "drug:acetaminophen",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_033d3737b2"
   },
   {
    "number": "2.07",
@@ -991,7 +1034,8 @@
     "drug:fentanyl",
     "care-level:cct",
     "population:adult"
-   ]
+   ],
+   "uid": "q_ab610d2b68"
   },
   {
    "number": "2.07",
@@ -1014,7 +1058,8 @@
     "drug:fentanyl",
     "care-level:cct",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_5b26c0e421"
   },
   {
    "number": "2.07",
@@ -1037,7 +1082,8 @@
     "drug:fentanyl",
     "care-level:cct",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_9c0e52c962"
   },
   {
    "number": "2.07",
@@ -1060,7 +1106,8 @@
     "drug:fentanyl",
     "care-level:cct",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_8241fca9f2"
   },
   {
    "number": "2.07",
@@ -1083,7 +1130,8 @@
     "drug:hydromorphone",
     "drug:fentanyl",
     "topic:equianalgesia"
-   ]
+   ],
+   "uid": "q_07ef438d80"
   },
   {
    "number": "2.07",
@@ -1106,7 +1154,8 @@
     "drug:ketamine",
     "topic:monitoring",
     "topic:capnography"
-   ]
+   ],
+   "uid": "q_60b9da7154"
   },
   {
    "number": "2.07",
@@ -1128,7 +1177,8 @@
    "tags": [
     "topic:opioids",
     "topic:respiratory-depression"
-   ]
+   ],
+   "uid": "q_91ea4cb13d"
   },
   {
    "number": "2.08",
@@ -1150,7 +1200,8 @@
    "tags": [
     "topic:sedation",
     "topic:contraindication"
-   ]
+   ],
+   "uid": "q_6213590575"
   },
   {
    "number": "2.08",
@@ -1172,7 +1223,8 @@
    "tags": [
     "topic:sedation",
     "topic:analgesia"
-   ]
+   ],
+   "uid": "q_6fdf3823df"
   },
   {
    "number": "2.08",
@@ -1194,7 +1246,8 @@
    "tags": [
     "topic:sedation",
     "topic:hypotension"
-   ]
+   ],
+   "uid": "q_1f0c72cd56"
   },
   {
    "number": "2.08",
@@ -1216,7 +1269,8 @@
    "tags": [
     "topic:sedation",
     "topic:paralytic"
-   ]
+   ],
+   "uid": "q_5b90e0d2cd"
   },
   {
    "number": "2.08",
@@ -1239,7 +1293,8 @@
     "drug:midazolam",
     "topic:sedation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_8ddc8e9f90"
   },
   {
    "number": "2.08",
@@ -1262,7 +1317,8 @@
     "drug:lorazepam",
     "topic:sedation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_8d89c7adbd"
   },
   {
    "number": "2.08",
@@ -1285,7 +1341,8 @@
     "drug:ketamine",
     "topic:sedation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_835415e32e"
   },
   {
    "number": "2.08",
@@ -1308,7 +1365,8 @@
     "drug:ketamine",
     "topic:sedation",
     "topic:redosing"
-   ]
+   ],
+   "uid": "q_5ed7b41f27"
   },
   {
    "number": "2.08",
@@ -1331,7 +1389,8 @@
     "drug:ketamine",
     "topic:sedation",
     "topic:hypotension"
-   ]
+   ],
+   "uid": "q_81e4511946"
   },
   {
    "number": "2.08",
@@ -1354,7 +1413,8 @@
     "drug:midazolam",
     "population:pediatric",
     "topic:sedation"
-   ]
+   ],
+   "uid": "q_c1078088eb"
   },
   {
    "number": "2.08",
@@ -1376,7 +1436,8 @@
    "tags": [
     "drug:midazolam",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_20acff0c5c"
   },
   {
    "number": "2.08",
@@ -1399,7 +1460,8 @@
     "drug:midazolam",
     "care-level:cct",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_abb8531ca7"
   },
   {
    "number": "2.08",
@@ -1422,7 +1484,8 @@
     "drug:midazolam",
     "care-level:cct",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_46d2a50dd7"
   },
   {
    "number": "2.08",
@@ -1445,7 +1508,8 @@
     "drug:midazolam",
     "care-level:cct",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_768caf5e1e"
   },
   {
    "number": "2.08",
@@ -1468,7 +1532,8 @@
     "drug:propofol",
     "care-level:cct",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_b90e69120d"
   },
   {
    "number": "2.08",
@@ -1491,7 +1556,8 @@
     "drug:propofol",
     "care-level:cct",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_e86a07183d"
   },
   {
    "number": "2.08",
@@ -1514,7 +1580,8 @@
     "drug:propofol",
     "care-level:cct",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_a9930fe7ee"
   },
   {
    "number": "2.08",
@@ -1537,7 +1604,8 @@
     "drug:propofol",
     "care-level:cct",
     "population:adult"
-   ]
+   ],
+   "uid": "q_e9ac5360bc"
   },
   {
    "number": "2.08",
@@ -1560,7 +1628,8 @@
     "drug:propofol",
     "topic:paralytic",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_80944a5727"
   },
   {
    "number": "2.08",
@@ -1582,7 +1651,8 @@
    "tags": [
     "drug:propofol",
     "topic:analgesia"
-   ]
+   ],
+   "uid": "q_0a14ef9c02"
   },
   {
    "number": "2.08",
@@ -1605,7 +1675,8 @@
     "drug:dexmedetomidine",
     "care-level:cct",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_d6f1d64cd4"
   },
   {
    "number": "2.08",
@@ -1627,7 +1698,8 @@
    "tags": [
     "drug:dexmedetomidine",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_43b9023483"
   },
   {
    "number": "2.08",
@@ -1650,7 +1722,8 @@
     "drug:midazolam",
     "population:pediatric",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_e8cb49af21"
   },
   {
    "number": "2.08",
@@ -1673,7 +1746,8 @@
     "drug:propofol",
     "population:pediatric",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_57a0f58a4e"
   },
   {
    "number": "2.08",
@@ -1696,7 +1770,8 @@
     "topic:documentation",
     "topic:paralytic",
     "topic:rass"
-   ]
+   ],
+   "uid": "q_36df73010d"
   },
   {
    "number": "2.08",
@@ -1719,7 +1794,8 @@
     "drug:ketamine",
     "topic:emergence",
     "drug:midazolam"
-   ]
+   ],
+   "uid": "q_5e03868b3f"
   },
   {
    "number": "2.08",
@@ -1742,7 +1818,8 @@
     "drug:atropine",
     "drug:ketamine",
     "population:adult"
-   ]
+   ],
+   "uid": "q_13c7b12953"
   },
   {
    "number": "2.08",
@@ -1765,7 +1842,8 @@
     "topic:rass",
     "topic:sedation",
     "topic:assessment"
-   ]
+   ],
+   "uid": "q_e36a9a0474"
   },
   {
    "number": "2.09",
@@ -1787,7 +1865,8 @@
    "tags": [
     "topic:procedural-sedation",
     "topic:indication"
-   ]
+   ],
+   "uid": "q_d427bcf324"
   },
   {
    "number": "2.09",
@@ -1809,7 +1888,8 @@
    "tags": [
     "topic:procedural-sedation",
     "topic:contraindication"
-   ]
+   ],
+   "uid": "q_7b094717e2"
   },
   {
    "number": "2.09",
@@ -1832,7 +1912,8 @@
     "topic:capnography",
     "topic:procedural-sedation",
     "topic:monitoring"
-   ]
+   ],
+   "uid": "q_f1a1f59cc1"
   },
   {
    "number": "2.09",
@@ -1854,7 +1935,8 @@
    "tags": [
     "drug:etomidate",
     "topic:procedural-sedation"
-   ]
+   ],
+   "uid": "q_85b67a2ddc"
   },
   {
    "number": "2.09",
@@ -1876,7 +1958,8 @@
    "tags": [
     "drug:etomidate",
     "topic:procedural-sedation"
-   ]
+   ],
+   "uid": "q_1250a1cdc8"
   },
   {
    "number": "2.09",
@@ -1898,7 +1981,8 @@
    "tags": [
     "drug:ketamine",
     "topic:procedural-sedation"
-   ]
+   ],
+   "uid": "q_e1e208fa1e"
   },
   {
    "number": "2.09",
@@ -1921,7 +2005,8 @@
     "drug:etomidate",
     "topic:analgesia",
     "topic:procedural-sedation"
-   ]
+   ],
+   "uid": "q_8a21802d52"
   },
   {
    "number": "3.01",
@@ -1944,7 +2029,8 @@
     "topic:bls",
     "procedure:pulse-check",
     "population:adult"
-   ]
+   ],
+   "uid": "q_a04a34efde"
   },
   {
    "number": "3.01",
@@ -1967,7 +2053,8 @@
     "topic:bls",
     "topic:rescue-breathing",
     "population:adult"
-   ]
+   ],
+   "uid": "q_b3fa6099c4"
   },
   {
    "number": "3.01",
@@ -1990,7 +2077,8 @@
     "topic:bls",
     "drug:naloxone",
     "topic:opioid-overdose"
-   ]
+   ],
+   "uid": "q_f4b561fe50"
   },
   {
    "number": "3.01",
@@ -2013,7 +2101,8 @@
     "topic:bls",
     "procedure:defibrillation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_bdd9693e50"
   },
   {
    "number": "3.01",
@@ -2035,7 +2124,8 @@
    "tags": [
     "topic:bls",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_6574092bc7"
   },
   {
    "number": "3.01",
@@ -2058,7 +2148,8 @@
     "topic:fbao",
     "topic:bls",
     "population:adult"
-   ]
+   ],
+   "uid": "q_3265d97163"
   },
   {
    "number": "3.01",
@@ -2081,7 +2172,8 @@
     "topic:fbao",
     "topic:bls",
     "population:adult"
-   ]
+   ],
+   "uid": "q_829f125314"
   },
   {
    "number": "3.01",
@@ -2104,7 +2196,8 @@
     "topic:fbao",
     "topic:obstetric",
     "topic:bls"
-   ]
+   ],
+   "uid": "q_b3f32339da"
   },
   {
    "number": "3.01",
@@ -2127,7 +2220,8 @@
     "topic:fbao",
     "topic:cpr",
     "population:adult"
-   ]
+   ],
+   "uid": "q_d97b6e7b13"
   },
   {
    "number": "3.01",
@@ -2150,7 +2244,8 @@
     "topic:bls",
     "topic:rescue-breathing",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_27a767a9cd"
   },
   {
    "number": "3.01",
@@ -2173,7 +2268,8 @@
     "topic:bls",
     "topic:bradycardia",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_911c29bb1f"
   },
   {
    "number": "3.01",
@@ -2196,7 +2292,8 @@
     "topic:bls",
     "topic:cpr",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_5396013fb6"
   },
   {
    "number": "3.01",
@@ -2219,7 +2316,8 @@
     "topic:fbao",
     "population:pediatric",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_1082ecc414"
   },
   {
    "number": "3.01",
@@ -2242,7 +2340,8 @@
     "topic:fbao",
     "population:pediatric",
     "topic:assessment"
-   ]
+   ],
+   "uid": "q_f84f0f86d0"
   },
   {
    "number": "3.02",
@@ -2265,7 +2364,8 @@
     "drug:atropine",
     "topic:bradycardia",
     "population:adult"
-   ]
+   ],
+   "uid": "q_6c81093b86"
   },
   {
    "number": "3.02",
@@ -2288,7 +2388,8 @@
     "drug:atropine",
     "topic:bradycardia",
     "population:adult"
-   ]
+   ],
+   "uid": "q_cb23a66294"
   },
   {
    "number": "3.02",
@@ -2311,7 +2412,8 @@
     "topic:bradycardia",
     "procedure:pacing",
     "population:adult"
-   ]
+   ],
+   "uid": "q_7697b9b53b"
   },
   {
    "number": "3.02",
@@ -2334,7 +2436,8 @@
     "topic:bradycardia",
     "topic:assessment",
     "population:adult"
-   ]
+   ],
+   "uid": "q_e8fdc7e36f"
   },
   {
    "number": "3.02",
@@ -2357,7 +2460,8 @@
     "drug:dopamine",
     "topic:bradycardia",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_88ace7687d"
   },
   {
    "number": "3.02",
@@ -2380,7 +2484,8 @@
     "drug:epinephrine",
     "topic:bradycardia",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_6cb6b2079f"
   },
   {
    "number": "3.02",
@@ -2403,7 +2508,8 @@
     "topic:bradycardia",
     "topic:toxicology",
     "topic:differential"
-   ]
+   ],
+   "uid": "q_cd58af49d4"
   },
   {
    "number": "3.02",
@@ -2426,7 +2532,8 @@
     "topic:bradycardia",
     "topic:cpr",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_3bdeb86acf"
   },
   {
    "number": "3.02",
@@ -2449,7 +2556,8 @@
     "drug:epinephrine",
     "population:pediatric",
     "topic:bradycardia"
-   ]
+   ],
+   "uid": "q_a6c3977574"
   },
   {
    "number": "3.02",
@@ -2472,7 +2580,8 @@
     "drug:atropine",
     "population:pediatric",
     "topic:bradycardia"
-   ]
+   ],
+   "uid": "q_b42ba0f643"
   },
   {
    "number": "3.02",
@@ -2495,7 +2604,8 @@
     "drug:atropine",
     "population:pediatric",
     "topic:bradycardia"
-   ]
+   ],
+   "uid": "q_6e21287b1b"
   },
   {
    "number": "3.02",
@@ -2518,7 +2628,8 @@
     "drug:lidocaine",
     "topic:bradycardia",
     "topic:contraindication"
-   ]
+   ],
+   "uid": "q_5a7fe18d4a"
   },
   {
    "number": "3.02",
@@ -2540,7 +2651,8 @@
    "tags": [
     "procedure:pacing",
     "topic:pad-placement"
-   ]
+   ],
+   "uid": "q_e79162824c"
   },
   {
    "number": "3.02",
@@ -2563,7 +2675,8 @@
     "topic:bradycardia",
     "topic:hyperkalemia",
     "topic:differential"
-   ]
+   ],
+   "uid": "q_077f1635df"
   },
   {
    "number": "3.03",
@@ -2586,7 +2699,8 @@
     "drug:epinephrine",
     "topic:cardiac-arrest",
     "population:adult"
-   ]
+   ],
+   "uid": "q_77ad65c039"
   },
   {
    "number": "3.03",
@@ -2609,7 +2723,8 @@
     "drug:epinephrine",
     "topic:cardiac-arrest",
     "topic:asystole"
-   ]
+   ],
+   "uid": "q_b30a5fc26d"
   },
   {
    "number": "3.03",
@@ -2632,7 +2747,8 @@
     "drug:amiodarone",
     "drug:lidocaine",
     "topic:cardiac-arrest"
-   ]
+   ],
+   "uid": "q_f04f98e0c1"
   },
   {
    "number": "3.03",
@@ -2655,7 +2771,8 @@
     "drug:amiodarone",
     "topic:cardiac-arrest",
     "population:adult"
-   ]
+   ],
+   "uid": "q_0e393fbe89"
   },
   {
    "number": "3.03",
@@ -2678,7 +2795,8 @@
     "drug:lidocaine",
     "topic:cardiac-arrest",
     "population:adult"
-   ]
+   ],
+   "uid": "q_fe37b97c7a"
   },
   {
    "number": "3.03",
@@ -2701,7 +2819,8 @@
     "procedure:defibrillation",
     "topic:cardiac-arrest",
     "population:adult"
-   ]
+   ],
+   "uid": "q_202e6862b8"
   },
   {
    "number": "3.03",
@@ -2724,7 +2843,8 @@
     "procedure:defibrillation",
     "topic:cardiac-arrest",
     "population:adult"
-   ]
+   ],
+   "uid": "q_f3160538cb"
   },
   {
    "number": "3.03",
@@ -2747,7 +2867,8 @@
     "topic:cpr",
     "topic:cardiac-arrest",
     "procedure:advanced-airway"
-   ]
+   ],
+   "uid": "q_dd8cf7356a"
   },
   {
    "number": "3.03",
@@ -2770,7 +2891,8 @@
     "topic:capnography",
     "topic:cpr",
     "topic:cardiac-arrest"
-   ]
+   ],
+   "uid": "q_45df6456be"
   },
   {
    "number": "3.03",
@@ -2793,7 +2915,8 @@
     "procedure:defibrillation",
     "population:pediatric",
     "topic:cardiac-arrest"
-   ]
+   ],
+   "uid": "q_dc65343e07"
   },
   {
    "number": "3.03",
@@ -2816,7 +2939,8 @@
     "procedure:defibrillation",
     "population:pediatric",
     "topic:cardiac-arrest"
-   ]
+   ],
+   "uid": "q_e4728a3e39"
   },
   {
    "number": "3.03",
@@ -2839,7 +2963,8 @@
     "drug:amiodarone",
     "population:pediatric",
     "topic:cardiac-arrest"
-   ]
+   ],
+   "uid": "q_3c77f2b0bd"
   },
   {
    "number": "3.03",
@@ -2862,7 +2987,8 @@
     "topic:cpr",
     "population:pediatric",
     "topic:cardiac-arrest"
-   ]
+   ],
+   "uid": "q_07f7b280a7"
   },
   {
    "number": "3.03",
@@ -2885,7 +3011,8 @@
     "drug:amiodarone",
     "topic:refractory-vf",
     "population:adult"
-   ]
+   ],
+   "uid": "q_ca3dd12c28"
   },
   {
    "number": "3.03",
@@ -2908,7 +3035,8 @@
     "procedure:defibrillation",
     "topic:refractory-vf",
     "topic:dsed"
-   ]
+   ],
+   "uid": "q_86efad69e8"
   },
   {
    "number": "3.03",
@@ -2931,7 +3059,8 @@
     "procedure:pulse-check",
     "topic:cardiac-arrest",
     "topic:crew-resource-management"
-   ]
+   ],
+   "uid": "q_7c40d37417"
   },
   {
    "number": "3.03",
@@ -2954,7 +3083,8 @@
     "equipment:defib-pads",
     "population:pediatric",
     "topic:cardiac-arrest"
-   ]
+   ],
+   "uid": "q_b8996b2b56"
   },
   {
    "number": "3.03",
@@ -2977,7 +3107,8 @@
     "topic:ventilation",
     "population:pediatric",
     "topic:cardiac-arrest"
-   ]
+   ],
+   "uid": "q_0292bf137d"
   },
   {
    "number": "3.03",
@@ -3000,7 +3131,8 @@
     "drug:epinephrine",
     "population:pediatric",
     "topic:documentation"
-   ]
+   ],
+   "uid": "q_d96c90e159"
   },
   {
    "number": "3.04",
@@ -3023,7 +3155,8 @@
     "topic:ttm",
     "topic:scope-of-practice",
     "topic:post-rosc"
-   ]
+   ],
+   "uid": "q_74eac3d7ad"
   },
   {
    "number": "3.04",
@@ -3046,7 +3179,8 @@
     "topic:post-rosc",
     "topic:hemodynamics",
     "population:adult"
-   ]
+   ],
+   "uid": "q_c9c79e50a0"
   },
   {
    "number": "3.04",
@@ -3069,7 +3203,8 @@
     "drug:epinephrine",
     "topic:post-rosc",
     "topic:vasopressor"
-   ]
+   ],
+   "uid": "q_0d337978d4"
   },
   {
    "number": "3.04",
@@ -3092,7 +3227,8 @@
     "drug:epinephrine",
     "topic:post-rosc",
     "population:adult"
-   ]
+   ],
+   "uid": "q_ebff147d28"
   },
   {
    "number": "3.04",
@@ -3115,7 +3251,8 @@
     "drug:epinephrine",
     "topic:post-rosc",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_033025b070"
   },
   {
    "number": "3.04",
@@ -3138,7 +3275,8 @@
     "drug:epinephrine",
     "drug:norepinephrine",
     "topic:post-rosc"
-   ]
+   ],
+   "uid": "q_77cf40b166"
   },
   {
    "number": "3.04",
@@ -3161,7 +3299,8 @@
     "drug:norepinephrine",
     "topic:post-rosc",
     "population:adult"
-   ]
+   ],
+   "uid": "q_769d909beb"
   },
   {
    "number": "3.04",
@@ -3184,7 +3323,8 @@
     "drug:amiodarone",
     "topic:post-rosc",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_da86ee3a24"
   },
   {
    "number": "3.04",
@@ -3207,7 +3347,8 @@
     "drug:acetaminophen",
     "topic:post-rosc",
     "topic:fever"
-   ]
+   ],
+   "uid": "q_317c8ba27f"
   },
   {
    "number": "3.04",
@@ -3230,7 +3371,8 @@
     "drug:acetaminophen",
     "population:pediatric",
     "topic:post-rosc"
-   ]
+   ],
+   "uid": "q_a9e443f4ea"
   },
   {
    "number": "3.04",
@@ -3253,7 +3395,8 @@
     "topic:post-rosc",
     "topic:ventilation",
     "topic:hypotension"
-   ]
+   ],
+   "uid": "q_08ec36a33b"
   },
   {
    "number": "3.04",
@@ -3275,7 +3418,8 @@
    "tags": [
     "topic:post-rosc",
     "topic:ventilator"
-   ]
+   ],
+   "uid": "q_7e99d5c244"
   },
   {
    "number": "3.04",
@@ -3298,7 +3442,8 @@
     "topic:post-rosc",
     "topic:vasopressor",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_892a300747"
   },
   {
    "number": "3.04",
@@ -3321,7 +3466,8 @@
     "topic:post-rosc",
     "topic:ventilation",
     "topic:capnography"
-   ]
+   ],
+   "uid": "q_9f4a1e384d"
   },
   {
    "number": "3.04",
@@ -3343,7 +3489,8 @@
    "tags": [
     "topic:post-rosc",
     "topic:oxygenation"
-   ]
+   ],
+   "uid": "q_1874b46484"
   },
   {
    "number": "3.04",
@@ -3365,7 +3512,8 @@
    "tags": [
     "topic:post-rosc",
     "topic:neurologic-assessment"
-   ]
+   ],
+   "uid": "q_4f84d22b32"
   },
   {
    "number": "3.05",
@@ -3388,7 +3536,8 @@
     "drug:aspirin",
     "topic:acs",
     "care-level:bls"
-   ]
+   ],
+   "uid": "q_e643fe0ad3"
   },
   {
    "number": "3.05",
@@ -3411,7 +3560,8 @@
     "drug:aspirin",
     "topic:contraindication",
     "topic:acs"
-   ]
+   ],
+   "uid": "q_40b47dd462"
   },
   {
    "number": "3.05",
@@ -3434,7 +3584,8 @@
     "topic:oxygenation",
     "topic:acs",
     "care-level:bls"
-   ]
+   ],
+   "uid": "q_77ada27e45"
   },
   {
    "number": "3.05",
@@ -3457,7 +3608,8 @@
     "drug:nitroglycerin",
     "route:sl",
     "topic:acs"
-   ]
+   ],
+   "uid": "q_cf4206df0b"
   },
   {
    "number": "3.05",
@@ -3480,7 +3632,8 @@
     "drug:nitroglycerin",
     "topic:acs",
     "topic:hypotension"
-   ]
+   ],
+   "uid": "q_bc4a5ffa32"
   },
   {
    "number": "3.05",
@@ -3503,7 +3656,8 @@
     "drug:nitroglycerin",
     "topic:contraindication",
     "topic:acs"
-   ]
+   ],
+   "uid": "q_e5ca250ae8"
   },
   {
    "number": "3.05",
@@ -3526,7 +3680,8 @@
     "drug:fentanyl",
     "topic:acs",
     "topic:pain"
-   ]
+   ],
+   "uid": "q_09252ccbe2"
   },
   {
    "number": "3.05",
@@ -3549,7 +3704,8 @@
     "topic:stemi",
     "topic:12-lead",
     "topic:transport"
-   ]
+   ],
+   "uid": "q_e333c03fa4"
   },
   {
    "number": "3.05",
@@ -3572,7 +3728,8 @@
     "topic:stemi",
     "topic:transport",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_d88133ac39"
   },
   {
    "number": "3.05",
@@ -3595,7 +3752,8 @@
     "topic:scope-of-practice",
     "topic:ift",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_07406548ce"
   },
   {
    "number": "3.05",
@@ -3618,7 +3776,8 @@
     "topic:stemi",
     "equipment:defib-pads",
     "topic:transport"
-   ]
+   ],
+   "uid": "q_621534e2c0"
   },
   {
    "number": "3.05",
@@ -3641,7 +3800,8 @@
     "topic:stemi",
     "topic:pci",
     "topic:transport"
-   ]
+   ],
+   "uid": "q_3297d8de44"
   },
   {
    "number": "3.05",
@@ -3664,7 +3824,8 @@
     "drug:nitroglycerin",
     "care-level:cct",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_5de3874933"
   },
   {
    "number": "3.05",
@@ -3687,7 +3848,8 @@
     "drug:nitroglycerin",
     "care-level:cct",
     "topic:infusion"
-   ]
+   ],
+   "uid": "q_8ccbf52bee"
   },
   {
    "number": "3.05",
@@ -3710,7 +3872,8 @@
     "drug:nitroglycerin",
     "care-level:cct",
     "topic:hemodynamics"
-   ]
+   ],
+   "uid": "q_2b9b2f312c"
   },
   {
    "number": "3.05",
@@ -3733,7 +3896,8 @@
     "drug:metoprolol",
     "topic:stemi",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_0fe72185db"
   },
   {
    "number": "3.05",
@@ -3756,7 +3920,8 @@
     "drug:metoprolol",
     "topic:stemi",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_47293b8f68"
   },
   {
    "number": "3.05",
@@ -3779,7 +3944,8 @@
     "drug:metoprolol",
     "topic:stemi",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_168fe6905c"
   },
   {
    "number": "3.05",
@@ -3802,7 +3968,8 @@
     "drug:metoprolol",
     "topic:contraindication",
     "topic:stemi"
-   ]
+   ],
+   "uid": "q_9a18396cf7"
   },
   {
    "number": "3.05",
@@ -3825,7 +3992,8 @@
     "drug:heparin",
     "topic:stemi",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_1c8aec592b"
   },
   {
    "number": "3.05",
@@ -3848,7 +4016,8 @@
     "drug:heparin",
     "topic:stemi",
     "care-level:cct"
-   ]
+   ],
+   "uid": "q_79f1467c96"
   },
   {
    "number": "3.05",
@@ -3871,7 +4040,8 @@
     "topic:stemi",
     "topic:fibrinolysis",
     "topic:pci"
-   ]
+   ],
+   "uid": "q_85d890a72e"
   },
   {
    "number": "3.05",
@@ -3894,7 +4064,8 @@
     "drug:ticagrelor",
     "topic:stemi",
     "topic:ift"
-   ]
+   ],
+   "uid": "q_3bb2f0486c"
   },
   {
    "number": "3.05",
@@ -3917,7 +4088,8 @@
     "drug:clopidogrel",
     "topic:fibrinolysis",
     "topic:stemi"
-   ]
+   ],
+   "uid": "q_b621b2b8ab"
   },
   {
    "number": "3.05",
@@ -3940,7 +4112,8 @@
     "drug:ticagrelor",
     "topic:fibrinolysis",
     "topic:contraindication"
-   ]
+   ],
+   "uid": "q_60cd3d5fac"
   },
   {
    "number": "3.05",
@@ -3963,7 +4136,8 @@
     "topic:fibrinolysis",
     "topic:12-lead",
     "topic:handoff"
-   ]
+   ],
+   "uid": "q_0381bee6b3"
   },
   {
    "number": "3.05",
@@ -3986,7 +4160,8 @@
     "topic:stemi",
     "topic:pci",
     "topic:transport"
-   ]
+   ],
+   "uid": "q_08927bac11"
   },
   {
    "number": "3.05",
@@ -4009,7 +4184,8 @@
     "drug:heparin",
     "topic:stemi",
     "topic:regional-protocol"
-   ]
+   ],
+   "uid": "q_2f42444110"
   },
   {
    "number": "3.05",
@@ -4032,7 +4208,8 @@
     "topic:stemi",
     "topic:12-lead",
     "topic:regional-protocol"
-   ]
+   ],
+   "uid": "q_59fc561b52"
   },
   {
    "number": "3.05",
@@ -4055,7 +4232,8 @@
     "topic:scope-of-practice",
     "topic:stemi",
     "topic:regional-protocol"
-   ]
+   ],
+   "uid": "q_07827bc55a"
   }
  ]
 }

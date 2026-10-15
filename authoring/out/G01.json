@@ -21,7 +21,8 @@
    "tags": [
     "topic:scope-of-practice",
     "topic:medical-control"
-   ]
+   ],
+   "uid": "q_cdabd65b00"
   },
   {
    "number": "1.01",
@@ -43,7 +44,8 @@
    "tags": [
     "topic:scope-of-practice",
     "topic:documentation"
-   ]
+   ],
+   "uid": "q_b01a5af8ec"
   },
   {
    "number": "1.02",
@@ -65,7 +67,8 @@
    "tags": [
     "topic:scope-of-practice",
     "topic:care-levels"
-   ]
+   ],
+   "uid": "q_774c16be3f"
   },
   {
    "number": "1.02",
@@ -87,7 +90,8 @@
    "tags": [
     "topic:scope-of-practice",
     "topic:care-levels"
-   ]
+   ],
+   "uid": "q_9132f3c0b6"
   },
   {
    "number": "1.02",
@@ -109,7 +113,8 @@
    "tags": [
     "topic:document-structure",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_246de16100"
   },
   {
    "number": "1.02",
@@ -131,7 +136,8 @@
    "tags": [
     "topic:document-structure",
     "topic:pearls"
-   ]
+   ],
+   "uid": "q_caa23545cd"
   },
   {
    "number": "1.02",
@@ -153,7 +159,8 @@
    "tags": [
     "topic:document-structure",
     "topic:medication-selection"
-   ]
+   ],
+   "uid": "q_fee3909bfb"
   },
   {
    "number": "1.02",
@@ -175,7 +182,8 @@
    "tags": [
     "topic:document-structure",
     "topic:formulary"
-   ]
+   ],
+   "uid": "q_025addeb03"
   },
   {
    "number": "1.02",
@@ -197,7 +205,8 @@
    "tags": [
     "topic:document-structure",
     "topic:care-levels"
-   ]
+   ],
+   "uid": "q_26453fe5d0"
   },
   {
    "number": "1.03",
@@ -220,7 +229,8 @@
     "drug:naloxone",
     "topic:scope-of-practice",
     "topic:care-levels"
-   ]
+   ],
+   "uid": "q_c29c3134e4"
   },
   {
    "number": "1.03",
@@ -242,7 +252,8 @@
    "tags": [
     "topic:formulary",
     "topic:interfacility-transfer"
-   ]
+   ],
+   "uid": "q_c50e3dc808"
   },
   {
    "number": "1.03",
@@ -265,7 +276,8 @@
     "drug:ketamine",
     "topic:scope-of-practice",
     "topic:care-levels"
-   ]
+   ],
+   "uid": "q_7427e2f67b"
   },
   {
    "number": "1.03",
@@ -288,7 +300,8 @@
     "drug:albuterol",
     "topic:scope-of-practice",
     "topic:respiratory"
-   ]
+   ],
+   "uid": "q_01c7ac241e"
   },
   {
    "number": "1.03",
@@ -311,7 +324,8 @@
     "drug:epinephrine",
     "topic:anaphylaxis",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_ce057bbb28"
   },
   {
    "number": "1.04",
@@ -334,7 +348,8 @@
     "procedure:needle-thoracostomy",
     "procedure:intraosseous",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_09bb432b44"
   },
   {
    "number": "1.04",
@@ -357,7 +372,8 @@
     "procedure:intraosseous",
     "topic:scope-of-practice",
     "topic:state-rules"
-   ]
+   ],
+   "uid": "q_59e8c1d436"
   },
   {
    "number": "1.04",
@@ -380,7 +396,8 @@
     "topic:scope-of-practice",
     "topic:state-rules",
     "topic:documentation"
-   ]
+   ],
+   "uid": "q_5ea5f1f3a1"
   },
   {
    "number": "1.04",
@@ -402,7 +419,8 @@
    "tags": [
     "topic:scope-of-practice",
     "topic:crew-roles"
-   ]
+   ],
+   "uid": "q_3297df6ca7"
   },
   {
    "number": "1.04",
@@ -425,7 +443,8 @@
     "topic:scope-of-practice",
     "topic:state-rules",
     "topic:infusions"
-   ]
+   ],
+   "uid": "q_ea76fa2bad"
   },
   {
    "number": "1.04",
@@ -448,7 +467,8 @@
     "topic:scope-of-practice",
     "topic:crew-roles",
     "topic:state-rules"
-   ]
+   ],
+   "uid": "q_25a733cc5b"
   },
   {
    "number": "1.04",
@@ -471,7 +491,8 @@
     "topic:scope-of-practice",
     "topic:crew-roles",
     "topic:state-rules"
-   ]
+   ],
+   "uid": "q_02e6ceb305"
   },
   {
    "number": "1.04",
@@ -493,7 +514,8 @@
    "tags": [
     "topic:scope-of-practice",
     "topic:care-levels"
-   ]
+   ],
+   "uid": "q_06231e3b88"
   },
   {
    "number": "1.05",
@@ -516,7 +538,8 @@
     "topic:termination-of-resuscitation",
     "topic:state-rules",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_dba4a841fd"
   },
   {
    "number": "1.05",
@@ -539,7 +562,8 @@
     "topic:termination-of-resuscitation",
     "topic:state-rules",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_79b2c1ed73"
   },
   {
    "number": "1.05",
@@ -561,7 +585,8 @@
    "tags": [
     "topic:termination-of-resuscitation",
     "topic:state-rules"
-   ]
+   ],
+   "uid": "q_fc13f4d06f"
   },
   {
    "number": "1.05",
@@ -584,7 +609,8 @@
     "drug:potassium",
     "topic:state-rules",
     "topic:infusions"
-   ]
+   ],
+   "uid": "q_170a5ab0a6"
   },
   {
    "number": "1.05",
@@ -607,7 +633,8 @@
     "procedure:chest-tube",
     "topic:state-rules",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_7950d3bfac"
   },
   {
    "number": "1.05",
@@ -630,7 +657,8 @@
     "procedure:finger-thoracostomy",
     "topic:blood-products",
     "topic:state-rules"
-   ]
+   ],
+   "uid": "q_85871abbe6"
   },
   {
    "number": "1.05",
@@ -653,7 +681,8 @@
     "topic:state-rules",
     "topic:infusions",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_3e9cd0e758"
   },
   {
    "number": "1.05",
@@ -676,7 +705,8 @@
     "drug:insulin",
     "topic:state-rules",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_256f6c3ea5"
   },
   {
    "number": "1.06",
@@ -699,7 +729,8 @@
     "drug:naloxone",
     "route:in",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_f60dcb4e63"
   },
   {
    "number": "1.06",
@@ -721,7 +752,8 @@
    "tags": [
     "drug:nitroglycerin",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_fac1fc5c31"
   },
   {
    "number": "1.06",
@@ -744,7 +776,8 @@
     "procedure:airway",
     "topic:scope-of-practice",
     "equipment:supraglottic-airway"
-   ]
+   ],
+   "uid": "q_8ecd96b378"
   },
   {
    "number": "1.06",
@@ -767,7 +800,8 @@
     "procedure:defibrillation",
     "topic:scope-of-practice",
     "equipment:aed"
-   ]
+   ],
+   "uid": "q_d985e9d686"
   },
   {
    "number": "1.06",
@@ -789,7 +823,8 @@
    "tags": [
     "topic:nausea",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_a5c790dd19"
   },
   {
    "number": "1.06",
@@ -811,7 +846,8 @@
    "tags": [
     "topic:crew-configuration",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_4142cb22b4"
   },
   {
    "number": "1.06",
@@ -834,7 +870,8 @@
     "topic:infusions",
     "topic:medical-control",
     "topic:interfacility-transfer"
-   ]
+   ],
+   "uid": "q_8240ebafff"
   },
   {
    "number": "2.01",
@@ -856,7 +893,8 @@
    "tags": [
     "topic:ppe",
     "topic:crew-safety"
-   ]
+   ],
+   "uid": "q_6c0e52a86a"
   },
   {
    "number": "2.01",
@@ -879,7 +917,8 @@
     "topic:cardiac-arrest",
     "topic:stemi",
     "topic:transport-decision"
-   ]
+   ],
+   "uid": "q_4e92e86dcf"
   },
   {
    "number": "2.01",
@@ -901,7 +940,8 @@
    "tags": [
     "topic:transport-decision",
     "topic:time-sensitive-emergency"
-   ]
+   ],
+   "uid": "q_e0188af27b"
   },
   {
    "number": "2.01",
@@ -924,7 +964,8 @@
     "drug:ketamine",
     "topic:monitoring",
     "topic:etco2"
-   ]
+   ],
+   "uid": "q_c4e3cddcbd"
   },
   {
    "number": "2.01",
@@ -947,7 +988,8 @@
     "procedure:airway",
     "topic:etco2",
     "topic:patient-movement"
-   ]
+   ],
+   "uid": "q_feb3d72929"
   },
   {
    "number": "2.01",
@@ -969,7 +1011,8 @@
    "tags": [
     "topic:pediatric-dosing",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_79247dc3ac"
   },
   {
    "number": "2.01",
@@ -991,7 +1034,8 @@
    "tags": [
     "topic:pediatric-definition",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_0ed3f4def0"
   },
   {
    "number": "2.01",
@@ -1014,7 +1058,8 @@
     "procedure:intubation",
     "topic:pediatric-equipment",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_b01395110d"
   },
   {
    "number": "2.01",
@@ -1036,7 +1081,8 @@
    "tags": [
     "topic:maintenance-fluids",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_cc5377658d"
   },
   {
    "number": "2.01",
@@ -1058,7 +1104,8 @@
    "tags": [
     "topic:maintenance-fluids",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_57c4aef3b2"
   },
   {
    "number": "2.01",
@@ -1080,7 +1127,8 @@
    "tags": [
     "topic:maintenance-fluids",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_4558062626"
   },
   {
    "number": "2.01",
@@ -1103,7 +1151,8 @@
     "topic:fluid-resuscitation",
     "topic:hypoglycemia",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_fd1230c095"
   },
   {
    "number": "2.01",
@@ -1125,7 +1174,8 @@
    "tags": [
     "topic:neurologic-assessment",
     "topic:monitoring"
-   ]
+   ],
+   "uid": "q_cbef8011f3"
   },
   {
    "number": "2.01",
@@ -1147,7 +1197,8 @@
    "tags": [
     "topic:blood-pressure-goals",
     "population:adult"
-   ]
+   ],
+   "uid": "q_ae2f72d7b8"
   },
   {
    "number": "2.01",
@@ -1170,7 +1221,8 @@
     "topic:blood-pressure-goals",
     "topic:head-injury",
     "population:adult"
-   ]
+   ],
+   "uid": "q_906e1e8fe1"
   },
   {
    "number": "2.01",
@@ -1193,7 +1245,8 @@
     "topic:blood-pressure-goals",
     "topic:hemorrhagic-shock",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_e11fbcf19e"
   },
   {
    "number": "2.01",
@@ -1215,7 +1268,8 @@
    "tags": [
     "topic:medication-safety",
     "drug:epinephrine"
-   ]
+   ],
+   "uid": "q_a764b7f9d6"
   },
   {
    "number": "2.01",
@@ -1238,7 +1292,8 @@
     "topic:vital-signs",
     "topic:monitoring",
     "topic:documentation"
-   ]
+   ],
+   "uid": "q_730fd0668c"
   },
   {
    "number": "2.01",
@@ -1261,7 +1316,8 @@
     "topic:ventilator",
     "topic:documentation",
     "topic:monitoring"
-   ]
+   ],
+   "uid": "q_b2a5c9ed5d"
   },
   {
    "number": "2.01",
@@ -1284,7 +1340,8 @@
     "topic:ventilator",
     "topic:plateau-pressure",
     "topic:monitoring"
-   ]
+   ],
+   "uid": "q_c2bccddc06"
   },
   {
    "number": "2.02",
@@ -1307,7 +1364,8 @@
     "topic:cpap",
     "equipment:flow-safe-ii",
     "topic:respiratory"
-   ]
+   ],
+   "uid": "q_e7c449f3a2"
   },
   {
    "number": "2.02",
@@ -1329,7 +1387,8 @@
    "tags": [
     "topic:shock",
     "topic:positioning"
-   ]
+   ],
+   "uid": "q_3fa9618d5c"
   },
   {
    "number": "2.02",
@@ -1352,7 +1411,8 @@
     "topic:restraints",
     "topic:monitoring",
     "topic:documentation"
-   ]
+   ],
+   "uid": "q_0551ecf404"
   },
   {
    "number": "2.02",
@@ -1375,7 +1435,8 @@
     "topic:restraints",
     "topic:combative-patient",
     "topic:scope-of-practice"
-   ]
+   ],
+   "uid": "q_11a9536a46"
   },
   {
    "number": "2.02",
@@ -1398,7 +1459,8 @@
     "drug:nitroglycerin",
     "topic:scope-of-practice",
     "route:sublingual"
-   ]
+   ],
+   "uid": "q_7c5dc77493"
   },
   {
    "number": "2.02",
@@ -1420,7 +1482,8 @@
    "tags": [
     "topic:scope-of-practice",
     "topic:crew-roles"
-   ]
+   ],
+   "uid": "q_f8c0cc18c4"
   },
   {
    "number": "2.02",
@@ -1443,7 +1506,8 @@
     "topic:restraints",
     "topic:documentation",
     "topic:quality-management"
-   ]
+   ],
+   "uid": "q_4563fcf415"
   },
   {
    "number": "2.03",
@@ -1465,7 +1529,8 @@
    "tags": [
     "topic:anxiolysis",
     "topic:sedation"
-   ]
+   ],
+   "uid": "q_77f56a23ae"
   },
   {
    "number": "2.03",
@@ -1488,7 +1553,8 @@
     "topic:anxiolysis",
     "topic:sedation",
     "topic:contraindications"
-   ]
+   ],
+   "uid": "q_383bfc9e64"
   },
   {
    "number": "2.03",
@@ -1512,7 +1578,8 @@
     "topic:anxiolysis",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_471469d443"
   },
   {
    "number": "2.03",
@@ -1535,7 +1602,8 @@
     "drug:midazolam",
     "topic:anxiolysis",
     "topic:maximum-dose"
-   ]
+   ],
+   "uid": "q_86fff36c04"
   },
   {
    "number": "2.03",
@@ -1558,7 +1626,8 @@
     "drug:lorazepam",
     "topic:anxiolysis",
     "topic:maximum-dose"
-   ]
+   ],
+   "uid": "q_bb8724dc37"
   },
   {
    "number": "2.03",
@@ -1581,7 +1650,8 @@
     "drug:midazolam",
     "route:in",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_78069e54cf"
   },
   {
    "number": "2.03",
@@ -1604,7 +1674,8 @@
     "drug:midazolam",
     "topic:anxiolysis",
     "topic:dosing-interval"
-   ]
+   ],
+   "uid": "q_ee6e1e09eb"
   },
   {
    "number": "2.03",
@@ -1627,7 +1698,8 @@
     "drug:lorazepam",
     "topic:anxiolysis",
     "topic:dosing-interval"
-   ]
+   ],
+   "uid": "q_b61ca4433d"
   },
   {
    "number": "2.03",
@@ -1650,7 +1722,8 @@
     "topic:monitoring",
     "topic:etco2",
     "topic:sedation"
-   ]
+   ],
+   "uid": "q_968014e869"
   },
   {
    "number": "2.03",
@@ -1673,7 +1746,8 @@
     "topic:analgesia",
     "topic:sedation",
     "topic:pearls"
-   ]
+   ],
+   "uid": "q_fe75c7ac4b"
   },
   {
    "number": "2.03",
@@ -1696,7 +1770,8 @@
     "topic:sedation",
     "topic:analgesia",
     "topic:pearls"
-   ]
+   ],
+   "uid": "q_ea04273a53"
   },
   {
    "number": "2.04",
@@ -1719,7 +1794,8 @@
     "topic:combative-patient",
     "topic:crew-safety",
     "topic:transport-decision"
-   ]
+   ],
+   "uid": "q_009c8b39a4"
   },
   {
    "number": "2.04",
@@ -1741,7 +1817,8 @@
    "tags": [
     "topic:consent",
     "topic:combative-patient"
-   ]
+   ],
+   "uid": "q_8cc72066fb"
   },
   {
    "number": "2.04",
@@ -1764,7 +1841,8 @@
     "topic:combative-patient",
     "topic:blood-glucose",
     "topic:assessment"
-   ]
+   ],
+   "uid": "q_2a6d6e6c85"
   },
   {
    "number": "2.04",
@@ -1787,7 +1865,8 @@
     "topic:restraints",
     "topic:positional-asphyxia",
     "topic:positioning"
-   ]
+   ],
+   "uid": "q_cd75b099b1"
   },
   {
    "number": "2.04",
@@ -1810,7 +1889,8 @@
     "topic:restraints",
     "topic:monitoring",
     "topic:etco2"
-   ]
+   ],
+   "uid": "q_5d3fb132ed"
   },
   {
    "number": "2.04",
@@ -1833,7 +1913,8 @@
     "topic:combative-patient",
     "topic:sedation",
     "topic:de-escalation"
-   ]
+   ],
+   "uid": "q_a44a7baf8a"
   },
   {
    "number": "2.04",
@@ -1857,7 +1938,8 @@
     "topic:combative-patient",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_558a29cea4"
   },
   {
    "number": "2.04",
@@ -1881,7 +1963,8 @@
     "topic:combative-patient",
     "route:in",
     "population:adult"
-   ]
+   ],
+   "uid": "q_97563587f3"
   },
   {
    "number": "2.04",
@@ -1905,7 +1988,8 @@
     "topic:combative-patient",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_df0d02166d"
   },
   {
    "number": "2.04",
@@ -1929,7 +2013,8 @@
     "topic:combative-patient",
     "route:iv",
     "route:io"
-   ]
+   ],
+   "uid": "q_d723c0c06e"
   },
   {
    "number": "2.04",
@@ -1952,7 +2037,8 @@
     "drug:ketamine",
     "topic:combative-patient",
     "route:im"
-   ]
+   ],
+   "uid": "q_8c32a5ea2e"
   },
   {
    "number": "2.04",
@@ -1976,7 +2062,8 @@
     "topic:combative-patient",
     "route:im",
     "population:adult"
-   ]
+   ],
+   "uid": "q_3dc9990ece"
   },
   {
    "number": "2.04",
@@ -1999,7 +2086,8 @@
     "drug:droperidol",
     "topic:maximum-dose",
     "topic:combative-patient"
-   ]
+   ],
+   "uid": "q_49779d8180"
   },
   {
    "number": "2.04",
@@ -2023,7 +2111,8 @@
     "topic:combative-patient",
     "route:im",
     "topic:crew-safety"
-   ]
+   ],
+   "uid": "q_f0a9593d2f"
   },
   {
    "number": "2.04",
@@ -2047,7 +2136,8 @@
     "topic:combative-patient",
     "route:im",
     "topic:paralytics"
-   ]
+   ],
+   "uid": "q_edf8fbfd06"
   },
   {
    "number": "2.04",
@@ -2070,7 +2160,8 @@
     "procedure:rsi",
     "topic:combative-patient",
     "topic:airway"
-   ]
+   ],
+   "uid": "q_fba53c37b1"
   },
   {
    "number": "2.04",
@@ -2094,7 +2185,8 @@
     "topic:combative-patient",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_ee28e2c1bf"
   },
   {
    "number": "2.04",
@@ -2118,7 +2210,8 @@
     "topic:combative-patient",
     "route:im",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_b3c3d793ac"
   },
   {
    "number": "2.04",
@@ -2141,7 +2234,8 @@
     "topic:de-escalation",
     "topic:restraints",
     "topic:pearls"
-   ]
+   ],
+   "uid": "q_ccad9196b3"
   },
   {
    "number": "2.04",
@@ -2164,7 +2258,8 @@
     "topic:rass",
     "topic:sedation",
     "topic:documentation"
-   ]
+   ],
+   "uid": "q_7de976dd7f"
   },
   {
    "number": "2.04",
@@ -2187,7 +2282,8 @@
     "drug:droperidol",
     "drug:diphenhydramine",
     "topic:adverse-effects"
-   ]
+   ],
+   "uid": "q_a5048fb16a"
   }
  ]
 }

@@ -22,7 +22,8 @@
     "topic:neurogenic-shock",
     "topic:spinal-injury",
     "population:adult"
-   ]
+   ],
+   "uid": "q_2041d2b389"
   },
   {
    "number": "7.06",
@@ -45,7 +46,8 @@
     "topic:neurogenic-shock",
     "topic:spinal-injury",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_06c00eaa29"
   },
   {
    "number": "7.06",
@@ -68,7 +70,8 @@
     "topic:neurogenic-shock",
     "drug:norepinephrine",
     "population:adult"
-   ]
+   ],
+   "uid": "q_aaa8b8b87d"
   },
   {
    "number": "7.06",
@@ -91,7 +94,8 @@
     "drug:norepinephrine",
     "topic:neurogenic-shock",
     "route:iv"
-   ]
+   ],
+   "uid": "q_8aad68564a"
   },
   {
    "number": "7.06",
@@ -114,7 +118,8 @@
     "drug:norepinephrine",
     "topic:neurogenic-shock",
     "route:iv"
-   ]
+   ],
+   "uid": "q_caa5ac7d53"
   },
   {
    "number": "7.06",
@@ -137,7 +142,8 @@
     "drug:norepinephrine",
     "topic:neurogenic-shock",
     "route:iv"
-   ]
+   ],
+   "uid": "q_907d72bc54"
   },
   {
    "number": "7.06",
@@ -160,7 +166,8 @@
     "topic:neurogenic-shock",
     "topic:fluid-resuscitation",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_29b6450b65"
   },
   {
    "number": "7.06",
@@ -183,7 +190,8 @@
     "topic:neurogenic-shock",
     "drug:norepinephrine",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_184286e5cf"
   },
   {
    "number": "7.06",
@@ -206,7 +214,8 @@
     "topic:neurogenic-shock",
     "topic:spinal-injury",
     "population:both"
-   ]
+   ],
+   "uid": "q_3b47360a0b"
   },
   {
    "number": "7.06",
@@ -229,7 +238,8 @@
     "topic:spinal-shock",
     "topic:spinal-injury",
     "population:both"
-   ]
+   ],
+   "uid": "q_1a543db6b9"
   },
   {
    "number": "7.06",
@@ -252,7 +262,8 @@
     "topic:spinal-injury",
     "procedure:intubation",
     "population:both"
-   ]
+   ],
+   "uid": "q_f92ace2166"
   },
   {
    "number": "7.07",
@@ -275,7 +286,8 @@
     "topic:suspension-trauma",
     "topic:rescue",
     "population:both"
-   ]
+   ],
+   "uid": "q_a9f91268ea"
   },
   {
    "number": "7.07",
@@ -298,7 +310,8 @@
     "topic:suspension-trauma",
     "topic:positioning",
     "population:both"
-   ]
+   ],
+   "uid": "q_298481fabb"
   },
   {
    "number": "7.07",
@@ -321,7 +334,8 @@
     "topic:suspension-trauma",
     "topic:positioning",
     "population:both"
-   ]
+   ],
+   "uid": "q_61b3388068"
   },
   {
    "number": "7.07",
@@ -343,7 +357,8 @@
    "tags": [
     "topic:suspension-trauma",
     "population:both"
-   ]
+   ],
+   "uid": "q_0896c6c9ca"
   },
   {
    "number": "7.07",
@@ -366,7 +381,8 @@
     "topic:suspension-trauma",
     "topic:positioning",
     "population:both"
-   ]
+   ],
+   "uid": "q_77953b119c"
   },
   {
    "number": "7.07",
@@ -388,7 +404,8 @@
    "tags": [
     "topic:suspension-trauma",
     "population:both"
-   ]
+   ],
+   "uid": "q_7861cda032"
   },
   {
    "number": "7.07",
@@ -410,7 +427,8 @@
    "tags": [
     "topic:suspension-trauma",
     "population:both"
-   ]
+   ],
+   "uid": "q_e5b9d5400d"
   },
   {
    "number": "7.08",
@@ -433,7 +451,8 @@
     "topic:traumatic-arrest",
     "topic:ventilation",
     "population:both"
-   ]
+   ],
+   "uid": "q_493881e21b"
   },
   {
    "number": "7.08",
@@ -456,7 +475,8 @@
     "topic:traumatic-arrest",
     "topic:hemorrhage-control",
     "population:both"
-   ]
+   ],
+   "uid": "q_60b4d8aa02"
   },
   {
    "number": "7.08",
@@ -479,7 +499,8 @@
     "topic:traumatic-arrest",
     "topic:cpr",
     "population:both"
-   ]
+   ],
+   "uid": "q_58441c1886"
   },
   {
    "number": "7.08",
@@ -502,7 +523,8 @@
     "topic:traumatic-arrest",
     "topic:cpr",
     "population:both"
-   ]
+   ],
+   "uid": "q_397b5eb36d"
   },
   {
    "number": "7.08",
@@ -525,7 +547,8 @@
     "topic:traumatic-arrest",
     "procedure:needle-thoracostomy",
     "population:both"
-   ]
+   ],
+   "uid": "q_7cd0f8d4ab"
   },
   {
    "number": "7.08",
@@ -548,7 +571,8 @@
     "drug:epinephrine",
     "topic:traumatic-arrest",
     "route:iv"
-   ]
+   ],
+   "uid": "q_7ed710fa08"
   },
   {
    "number": "7.08",
@@ -571,7 +595,8 @@
     "drug:epinephrine",
     "topic:lost",
     "route:iv"
-   ]
+   ],
+   "uid": "q_2636e621e6"
   },
   {
    "number": "7.08",
@@ -594,7 +619,8 @@
     "drug:epinephrine",
     "topic:lost",
     "route:iv"
-   ]
+   ],
+   "uid": "q_36c9313b45"
   },
   {
    "number": "7.08",
@@ -617,7 +643,8 @@
     "drug:epinephrine",
     "topic:lost",
     "route:iv"
-   ]
+   ],
+   "uid": "q_af934dd596"
   },
   {
    "number": "7.08",
@@ -640,7 +667,8 @@
     "drug:epinephrine",
     "topic:traumatic-arrest",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_21b96d52c6"
   },
   {
    "number": "7.08",
@@ -663,7 +691,8 @@
     "topic:traumatic-arrest",
     "topic:fluid-resuscitation",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_d6221de595"
   },
   {
    "number": "7.08",
@@ -686,7 +715,8 @@
     "topic:traumatic-arrest",
     "topic:blood-products",
     "population:both"
-   ]
+   ],
+   "uid": "q_a5321c6c43"
   },
   {
    "number": "7.08",
@@ -709,7 +739,8 @@
     "topic:traumatic-arrest",
     "procedure:finger-thoracostomy",
     "population:both"
-   ]
+   ],
+   "uid": "q_f8deb6ed61"
   },
   {
    "number": "7.08",
@@ -732,7 +763,8 @@
     "topic:traumatic-arrest",
     "procedure:finger-thoracostomy",
     "population:both"
-   ]
+   ],
+   "uid": "q_9591dcde5f"
   },
   {
    "number": "7.08",
@@ -755,7 +787,8 @@
     "topic:traumatic-arrest",
     "procedure:finger-thoracostomy",
     "population:adult"
-   ]
+   ],
+   "uid": "q_477fa7f5af"
   },
   {
    "number": "7.08",
@@ -778,7 +811,8 @@
     "topic:traumatic-arrest",
     "topic:pregnancy",
     "population:adult"
-   ]
+   ],
+   "uid": "q_7848d77887"
   },
   {
    "number": "7.08",
@@ -801,7 +835,8 @@
     "topic:traumatic-arrest",
     "topic:tension-pneumothorax",
     "population:both"
-   ]
+   ],
+   "uid": "q_f174260baa"
   },
   {
    "number": "7.08",
@@ -824,7 +859,8 @@
     "topic:traumatic-arrest",
     "topic:termination",
     "population:both"
-   ]
+   ],
+   "uid": "q_1290e22d69"
   },
   {
    "number": "7.08",
@@ -847,7 +883,8 @@
     "topic:lost",
     "topic:traumatic-arrest",
     "population:both"
-   ]
+   ],
+   "uid": "q_87d0c9173f"
   },
   {
    "number": "7.08",
@@ -870,7 +907,8 @@
     "topic:lost",
     "topic:traumatic-arrest",
     "population:both"
-   ]
+   ],
+   "uid": "q_90f80425d5"
   },
   {
    "number": "7.08",
@@ -893,7 +931,8 @@
     "topic:traumatic-arrest",
     "topic:termination",
     "population:both"
-   ]
+   ],
+   "uid": "q_3b86c222a9"
   },
   {
    "number": "8.01",
@@ -916,7 +955,8 @@
     "procedure:12-lead-ecg",
     "topic:chest-pain",
     "population:both"
-   ]
+   ],
+   "uid": "q_4f21d6fffb"
   },
   {
    "number": "8.01",
@@ -938,7 +978,8 @@
    "tags": [
     "procedure:12-lead-ecg",
     "population:both"
-   ]
+   ],
+   "uid": "q_2d7d04411f"
   },
   {
    "number": "8.01",
@@ -960,7 +1001,8 @@
    "tags": [
     "procedure:12-lead-ecg",
     "population:both"
-   ]
+   ],
+   "uid": "q_7dbcb42b96"
   },
   {
    "number": "8.01",
@@ -982,7 +1024,8 @@
    "tags": [
     "procedure:12-lead-ecg",
     "population:both"
-   ]
+   ],
+   "uid": "q_8dc76e345f"
   },
   {
    "number": "8.01",
@@ -1005,7 +1048,8 @@
     "procedure:12-lead-ecg",
     "topic:lead-placement",
     "population:both"
-   ]
+   ],
+   "uid": "q_949be1fff0"
   },
   {
    "number": "8.01",
@@ -1028,7 +1072,8 @@
     "procedure:12-lead-ecg",
     "topic:lead-placement",
     "population:both"
-   ]
+   ],
+   "uid": "q_fc4d4c43b6"
   },
   {
    "number": "8.01",
@@ -1051,7 +1096,8 @@
     "procedure:12-lead-ecg",
     "topic:lead-placement",
     "population:both"
-   ]
+   ],
+   "uid": "q_9a1c2a35f6"
   },
   {
    "number": "8.01",
@@ -1074,7 +1120,8 @@
     "procedure:12-lead-ecg",
     "topic:lead-placement",
     "population:both"
-   ]
+   ],
+   "uid": "q_cf546ba231"
   },
   {
    "number": "8.01",
@@ -1096,7 +1143,8 @@
    "tags": [
     "procedure:12-lead-ecg",
     "population:adult"
-   ]
+   ],
+   "uid": "q_22e7793b3d"
   },
   {
    "number": "8.01",
@@ -1118,7 +1166,8 @@
    "tags": [
     "procedure:12-lead-ecg",
     "population:adult"
-   ]
+   ],
+   "uid": "q_3cbe805df1"
   },
   {
    "number": "8.02",
@@ -1141,7 +1190,8 @@
     "topic:blood-products",
     "topic:hemorrhagic-shock",
     "population:both"
-   ]
+   ],
+   "uid": "q_1963523e34"
   },
   {
    "number": "8.02",
@@ -1164,7 +1214,8 @@
     "topic:blood-products",
     "topic:traumatic-arrest",
     "population:both"
-   ]
+   ],
+   "uid": "q_1d174e6d75"
   },
   {
    "number": "8.02",
@@ -1186,7 +1237,8 @@
    "tags": [
     "topic:blood-products",
     "population:adult"
-   ]
+   ],
+   "uid": "q_2debf1e70c"
   },
   {
    "number": "8.02",
@@ -1209,7 +1261,8 @@
     "topic:blood-products",
     "topic:permissive-hypotension",
     "population:adult"
-   ]
+   ],
+   "uid": "q_9735a0c63e"
   },
   {
    "number": "8.02",
@@ -1232,7 +1285,8 @@
     "topic:blood-products",
     "topic:permissive-hypotension",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_10ca2503fd"
   },
   {
    "number": "8.02",
@@ -1255,7 +1309,8 @@
     "topic:blood-products",
     "topic:fluid-resuscitation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_63b5b646ba"
   },
   {
    "number": "8.02",
@@ -1278,7 +1333,8 @@
     "topic:blood-products",
     "topic:shock-index",
     "population:both"
-   ]
+   ],
+   "uid": "q_4431902c6a"
   },
   {
    "number": "8.02",
@@ -1301,7 +1357,8 @@
     "drug:calcium-gluconate",
     "topic:blood-products",
     "route:iv"
-   ]
+   ],
+   "uid": "q_aa9c41616d"
   },
   {
    "number": "8.02",
@@ -1324,7 +1381,8 @@
     "drug:calcium-gluconate",
     "topic:blood-products",
     "population:adult"
-   ]
+   ],
+   "uid": "q_f31ef2b8ac"
   },
   {
    "number": "8.02",
@@ -1347,7 +1405,8 @@
     "drug:txa",
     "topic:blood-products",
     "route:iv"
-   ]
+   ],
+   "uid": "q_8ad8703691"
   },
   {
    "number": "8.02",
@@ -1370,7 +1429,8 @@
     "drug:txa",
     "topic:blood-products",
     "population:both"
-   ]
+   ],
+   "uid": "q_066e074ccb"
   },
   {
    "number": "8.02",
@@ -1393,7 +1453,8 @@
     "topic:blood-products",
     "topic:ltowb",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_76cc165d0a"
   },
   {
    "number": "8.02",
@@ -1416,7 +1477,8 @@
     "drug:calcium-gluconate",
     "topic:blood-products",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_6082e74630"
   },
   {
    "number": "8.02",
@@ -1439,7 +1501,8 @@
     "drug:txa",
     "topic:blood-products",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_fcc7dd2812"
   },
   {
    "number": "8.02",
@@ -1462,7 +1525,8 @@
     "drug:txa",
     "topic:blood-products",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_e9628b3814"
   },
   {
    "number": "8.02",
@@ -1485,7 +1549,8 @@
     "drug:acetaminophen",
     "topic:transfusion-reaction",
     "route:iv"
-   ]
+   ],
+   "uid": "q_5a3d8cca0c"
   },
   {
    "number": "8.02",
@@ -1508,7 +1573,8 @@
     "topic:transfusion-reaction",
     "topic:blood-products",
     "population:both"
-   ]
+   ],
+   "uid": "q_1e132d9f61"
   },
   {
    "number": "8.02",
@@ -1531,7 +1597,8 @@
     "topic:blood-products",
     "topic:hemorrhagic-shock",
     "population:both"
-   ]
+   ],
+   "uid": "q_fa317c7afc"
   },
   {
    "number": "8.02",
@@ -1554,7 +1621,8 @@
     "topic:transfusion-reaction",
     "topic:blood-products",
     "population:both"
-   ]
+   ],
+   "uid": "q_31df3985dc"
   },
   {
    "number": "8.02",
@@ -1577,7 +1645,8 @@
     "topic:blood-products",
     "topic:documentation",
     "population:both"
-   ]
+   ],
+   "uid": "q_4d91d7527d"
   },
   {
    "number": "8.02",
@@ -1600,7 +1669,8 @@
     "drug:txa",
     "topic:blood-products",
     "route:iv"
-   ]
+   ],
+   "uid": "q_329a01fab9"
   },
   {
    "number": "8.02",
@@ -1623,7 +1693,8 @@
     "topic:blood-products",
     "topic:head-injury",
     "population:adult"
-   ]
+   ],
+   "uid": "q_37968f976e"
   },
   {
    "number": "8.03",
@@ -1646,7 +1717,8 @@
     "procedure:chest-tube",
     "topic:tension-pneumothorax",
     "population:both"
-   ]
+   ],
+   "uid": "q_6355c3992f"
   },
   {
    "number": "8.03",
@@ -1669,7 +1741,8 @@
     "procedure:chest-tube",
     "topic:altitude",
     "population:both"
-   ]
+   ],
+   "uid": "q_b054fc8250"
   },
   {
    "number": "8.03",
@@ -1692,7 +1765,8 @@
     "procedure:chest-tube",
     "topic:scene-response",
     "population:both"
-   ]
+   ],
+   "uid": "q_92f586e325"
   },
   {
    "number": "8.03",
@@ -1715,7 +1789,8 @@
     "procedure:chest-tube",
     "topic:ift",
     "population:both"
-   ]
+   ],
+   "uid": "q_ec65b28100"
   },
   {
    "number": "8.03",
@@ -1738,7 +1813,8 @@
     "drug:lidocaine",
     "procedure:chest-tube",
     "route:local"
-   ]
+   ],
+   "uid": "q_a846bb2a8a"
   },
   {
    "number": "8.03",
@@ -1760,7 +1836,8 @@
    "tags": [
     "procedure:chest-tube",
     "population:both"
-   ]
+   ],
+   "uid": "q_d24fd45029"
   },
   {
    "number": "8.03",
@@ -1783,7 +1860,8 @@
     "procedure:chest-tube",
     "topic:landmark",
     "population:both"
-   ]
+   ],
+   "uid": "q_d3c8256448"
   },
   {
    "number": "8.03",
@@ -1806,7 +1884,8 @@
     "procedure:chest-tube",
     "topic:landmark",
     "population:both"
-   ]
+   ],
+   "uid": "q_ba85a58dd6"
   },
   {
    "number": "8.03",
@@ -1829,7 +1908,8 @@
     "procedure:chest-tube",
     "topic:landmark",
     "population:both"
-   ]
+   ],
+   "uid": "q_34831ad658"
   },
   {
    "number": "8.03",
@@ -1852,7 +1932,8 @@
     "procedure:chest-tube",
     "topic:confirmation",
     "population:both"
-   ]
+   ],
+   "uid": "q_1997c8387f"
   },
   {
    "number": "8.03",
@@ -1874,7 +1955,8 @@
    "tags": [
     "procedure:chest-tube",
     "population:both"
-   ]
+   ],
+   "uid": "q_ea6a0f6805"
   },
   {
    "number": "8.03",
@@ -1897,7 +1979,8 @@
     "procedure:chest-tube",
     "topic:confirmation",
     "population:both"
-   ]
+   ],
+   "uid": "q_8a82b5b8e2"
   },
   {
    "number": "8.03",
@@ -1920,7 +2003,8 @@
     "procedure:chest-tube",
     "topic:confirmation",
     "population:both"
-   ]
+   ],
+   "uid": "q_ab17a8b874"
   },
   {
    "number": "8.03",
@@ -1943,7 +2027,8 @@
     "procedure:chest-tube",
     "topic:hemothorax",
     "population:both"
-   ]
+   ],
+   "uid": "q_d86f1515fd"
   },
   {
    "number": "8.03",
@@ -1966,7 +2051,8 @@
     "procedure:chest-tube",
     "topic:tension-pneumothorax",
     "population:both"
-   ]
+   ],
+   "uid": "q_89a8b0a9af"
   },
   {
    "number": "8.03",
@@ -1989,7 +2075,8 @@
     "procedure:chest-tube",
     "topic:documentation",
     "population:both"
-   ]
+   ],
+   "uid": "q_38b76e1411"
   },
   {
    "number": "8.03",
@@ -2012,7 +2099,8 @@
     "procedure:chest-tube",
     "topic:landmark",
     "population:both"
-   ]
+   ],
+   "uid": "q_c6c3b94cdd"
   },
   {
    "number": "8.04",
@@ -2035,7 +2123,8 @@
     "procedure:defibrillation",
     "topic:cardiac-arrest",
     "population:both"
-   ]
+   ],
+   "uid": "q_28aa45aea9"
   },
   {
    "number": "8.04",
@@ -2058,7 +2147,8 @@
     "procedure:defibrillation",
     "topic:cardiac-arrest",
     "population:both"
-   ]
+   ],
+   "uid": "q_9e90dfa9d5"
   },
   {
    "number": "8.04",
@@ -2081,7 +2171,8 @@
     "procedure:defibrillation",
     "topic:pad-placement",
     "population:both"
-   ]
+   ],
+   "uid": "q_a186f6edc6"
   },
   {
    "number": "8.04",
@@ -2104,7 +2195,8 @@
     "procedure:defibrillation",
     "topic:pad-placement",
     "population:both"
-   ]
+   ],
+   "uid": "q_45bf0f154e"
   },
   {
    "number": "8.04",
@@ -2127,7 +2219,8 @@
     "procedure:defibrillation",
     "equipment:x-series",
     "population:both"
-   ]
+   ],
+   "uid": "q_ddaaed6dc0"
   },
   {
    "number": "8.04",
@@ -2150,7 +2243,8 @@
     "procedure:defibrillation",
     "equipment:x-series",
     "population:both"
-   ]
+   ],
+   "uid": "q_9666071ec6"
   },
   {
    "number": "8.04",
@@ -2173,7 +2267,8 @@
     "procedure:defibrillation",
     "topic:pad-placement",
     "population:both"
-   ]
+   ],
+   "uid": "q_7ff9f48733"
   },
   {
    "number": "8.05",
@@ -2196,7 +2291,8 @@
     "procedure:dsed",
     "topic:cardiac-arrest",
     "population:both"
-   ]
+   ],
+   "uid": "q_696884a3d8"
   },
   {
    "number": "8.05",
@@ -2219,7 +2315,8 @@
     "procedure:dsed",
     "topic:pad-placement",
     "population:both"
-   ]
+   ],
+   "uid": "q_9a7933b910"
   },
   {
    "number": "8.05",
@@ -2242,7 +2339,8 @@
     "procedure:dsed",
     "topic:pad-placement",
     "population:both"
-   ]
+   ],
+   "uid": "q_6cdde7f987"
   },
   {
    "number": "8.05",
@@ -2265,7 +2363,8 @@
     "procedure:dsed",
     "topic:crew-roles",
     "population:both"
-   ]
+   ],
+   "uid": "q_670b6c3abe"
   },
   {
    "number": "8.05",
@@ -2288,7 +2387,8 @@
     "procedure:dsed",
     "topic:cardiac-arrest",
     "population:both"
-   ]
+   ],
+   "uid": "q_a9c4bf9fa0"
   },
   {
    "number": "8.05",
@@ -2311,7 +2411,8 @@
     "procedure:dsed",
     "topic:cpr",
     "population:both"
-   ]
+   ],
+   "uid": "q_e304809828"
   },
   {
    "number": "8.06",
@@ -2334,7 +2435,8 @@
     "drug:epoprostenol",
     "equipment:ventilator-circuit",
     "population:both"
-   ]
+   ],
+   "uid": "q_ee7574e199"
   },
   {
    "number": "8.06",
@@ -2357,7 +2459,8 @@
     "drug:epoprostenol",
     "equipment:ventilator-circuit",
     "population:both"
-   ]
+   ],
+   "uid": "q_54a671cf21"
   },
   {
    "number": "8.06",
@@ -2380,7 +2483,8 @@
     "drug:epoprostenol",
     "route:inhaled",
     "population:both"
-   ]
+   ],
+   "uid": "q_c803e76994"
   },
   {
    "number": "8.06",
@@ -2403,7 +2507,8 @@
     "drug:epoprostenol",
     "route:inhaled",
     "population:both"
-   ]
+   ],
+   "uid": "q_a201fd8e0c"
   },
   {
    "number": "8.06",
@@ -2426,7 +2531,8 @@
     "drug:epoprostenol",
     "equipment:aerogen",
     "population:both"
-   ]
+   ],
+   "uid": "q_712f2a4317"
   },
   {
    "number": "8.06",
@@ -2449,7 +2555,8 @@
     "drug:epoprostenol",
     "equipment:aerogen",
     "population:both"
-   ]
+   ],
+   "uid": "q_63b701bbd0"
   },
   {
    "number": "8.06",
@@ -2472,7 +2579,8 @@
     "drug:epoprostenol",
     "topic:scope-of-practice",
     "population:both"
-   ]
+   ],
+   "uid": "q_562b663068"
   },
   {
    "number": "8.06",
@@ -2495,7 +2603,8 @@
     "drug:epoprostenol",
     "topic:pulmonary-hypertension",
     "population:both"
-   ]
+   ],
+   "uid": "q_2b24adaae3"
   },
   {
    "number": "8.06",
@@ -2518,7 +2627,8 @@
     "drug:epoprostenol",
     "topic:pulmonary-hypertension",
     "population:both"
-   ]
+   ],
+   "uid": "q_20229b9e00"
   },
   {
    "number": "8.06",
@@ -2541,7 +2651,8 @@
     "drug:epoprostenol",
     "equipment:aerogen",
     "population:both"
-   ]
+   ],
+   "uid": "q_f0ce3e487d"
   },
   {
    "number": "8.07",
@@ -2564,7 +2675,8 @@
     "procedure:ett-exchange",
     "topic:airway",
     "population:both"
-   ]
+   ],
+   "uid": "q_5393ff5761"
   },
   {
    "number": "8.07",
@@ -2587,7 +2699,8 @@
     "procedure:ett-exchange",
     "topic:airway",
     "population:both"
-   ]
+   ],
+   "uid": "q_5bca85076a"
   },
   {
    "number": "8.07",
@@ -2610,7 +2723,8 @@
     "procedure:ett-exchange",
     "equipment:bougie",
     "population:both"
-   ]
+   ],
+   "uid": "q_3788d823ad"
   },
   {
    "number": "8.07",
@@ -2633,7 +2747,8 @@
     "procedure:ett-exchange",
     "topic:preoxygenation",
     "population:both"
-   ]
+   ],
+   "uid": "q_c34502f051"
   },
   {
    "number": "8.07",
@@ -2656,7 +2771,8 @@
     "procedure:ett-exchange",
     "equipment:bougie",
     "population:both"
-   ]
+   ],
+   "uid": "q_c4bcfe7fd5"
   },
   {
    "number": "8.07",
@@ -2679,7 +2795,8 @@
     "procedure:ett-exchange",
     "topic:airway",
     "population:both"
-   ]
+   ],
+   "uid": "q_439099b8b3"
   },
   {
    "number": "8.07",
@@ -2702,7 +2819,8 @@
     "procedure:ett-exchange",
     "topic:crew-roles",
     "population:both"
-   ]
+   ],
+   "uid": "q_ace2b0d24e"
   },
   {
    "number": "8.07",
@@ -2725,7 +2843,8 @@
     "procedure:ett-exchange",
     "equipment:bougie",
     "population:both"
-   ]
+   ],
+   "uid": "q_6a28a634c0"
   },
   {
    "number": "8.07",
@@ -2748,7 +2867,8 @@
     "procedure:ett-exchange",
     "topic:confirmation",
     "population:both"
-   ]
+   ],
+   "uid": "q_a4b557a2b2"
   },
   {
    "number": "8.07",
@@ -2771,7 +2891,8 @@
     "procedure:ett-exchange",
     "topic:airway",
     "population:both"
-   ]
+   ],
+   "uid": "q_2304f2e0ee"
   }
  ]
 }

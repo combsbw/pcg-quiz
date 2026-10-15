@@ -231,8 +231,14 @@ def main():
                 "tags": sorted(set(q.get("tags") or [])),
                 "modules": [],
             }
-            rec["id"] = qid({"type": rec["type"], "stem": rec["stem"],
-                             "options": rec["options"], "answer_index": ai})
+            # A question's id is its identity for scheduling: the learner's
+            # card, review log, flags and edits are all keyed on it. It is
+            # stamped into the authoring file as `uid` the first time the
+            # question ships, and honoured from then on, so rewording a stem
+            # never orphans someone's study history. Only a brand-new question
+            # gets an id derived from its content.
+            rec["id"] = q.get("uid") or qid({"type": rec["type"], "stem": rec["stem"],
+                                             "options": rec["options"], "answer_index": ai})
             if rec["id"] in seen_id:
                 dropped["duplicate"] += 1
                 continue

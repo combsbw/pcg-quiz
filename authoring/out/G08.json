@@ -1,1223 +1,2018 @@
 {
-  "batch": "G08",
-  "questions": [
-    {
-      "number": "8.08",
-      "title": "Finger Thoracostomy",
-      "page": 193,
-      "type": "indication",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "Which single finding must be present before a finger thoracostomy may be performed under 8.08?",
-      "options": ["Hypotension", "Tachycardia", "Jugular venous distention", "Tracheal deviation"],
-      "answer_index": 0,
-      "explanation": "8.08 states in red that hypotension is REQUIRED to perform a finger thoracostomy. Tachycardia, JVD and tracheal deviation are supporting signs of peri-arrest tension physiology, but none of them substitutes for hypotension as the trigger to cut.",
-      "priority": "core",
-      "tags": ["procedure:finger-thoracostomy", "topic:tension-pneumothorax", "population:both"]
-    },
-    {
-      "number": "8.08",
-      "title": "Finger Thoracostomy",
-      "page": 193,
-      "type": "contraindication",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "Which condition is listed as a contraindication to finger thoracostomy in 8.08?",
-      "options": ["Simple pneumothorax", "Traumatic arrest", "Hypocarbia with a falling ETCO2", "Unilateral decreased breath sounds"],
-      "answer_index": 0,
-      "explanation": "Simple pneumothorax, normotension and hypertension are the listed contraindications — without tension physiology and hypotension there is nothing to decompress. Traumatic arrest is itself an indication, and decreased breath sounds and falling ETCO2 are supporting signs of tension.",
-      "priority": "core",
-      "tags": ["procedure:finger-thoracostomy", "topic:tension-pneumothorax"]
-    },
-    {
-      "number": "8.08",
-      "title": "Finger Thoracostomy",
-      "page": 193,
-      "type": "landmark",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "Where does 8.08 place the incision for a finger thoracostomy?",
-      "options": ["4th or 5th intercostal space, between the anterior and mid-axillary lines", "2nd intercostal space at the mid-clavicular line", "5th intercostal space at the mid-clavicular line", "4th or 5th intercostal space at the posterior axillary line"],
-      "answer_index": 0,
-      "explanation": "The incision is lateral to the nipple at the 4th or 5th intercostal space, between the anterior and mid-axillary lines. The 2nd intercostal space at the mid-clavicular line is a needle thoracostomy site, not a finger thoracostomy site.",
-      "priority": "core",
-      "tags": ["procedure:finger-thoracostomy", "topic:landmarks"]
-    },
-    {
-      "number": "8.08",
-      "title": "Finger Thoracostomy",
-      "page": 193,
-      "type": "pearl",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "If the provider is in doubt about which rib interspace to use for a finger thoracostomy, what does 8.08 advise?",
-      "options": ["Err one rib interspace more superior", "Err one rib interspace more inferior", "Default to the 2nd intercostal space at the mid-clavicular line", "Confirm the interspace with ultrasound before cutting"],
-      "answer_index": 0,
-      "explanation": "8.08 directs erring one interspace more superior when in doubt. Going too low risks entering the abdomen through the diaphragm, which is a far worse error than opening the chest one space high.",
-      "priority": "core",
-      "tags": ["procedure:finger-thoracostomy", "topic:landmarks"]
-    },
-    {
-      "number": "8.08",
-      "title": "Finger Thoracostomy",
-      "page": 193,
-      "type": "equipment",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "Which instrument does 8.08 use to pass through the soft tissue and enter the pleural space after the skin incision?",
-      "options": ["A large Kelly clamp", "A #10 scalpel", "A Ruiz hook", "A bougie"],
-      "answer_index": 0,
-      "explanation": "The #10 scalpel makes the skin incision only; the large Kelly clamp, held by the shanks, is pushed through the soft tissue to the rib and then over its superior border into the pleural space. The Ruiz hook and bougie belong to the surgical cricothyrotomy kit.",
-      "priority": "detail",
-      "tags": ["procedure:finger-thoracostomy", "topic:equipment"]
-    },
-    {
-      "number": "8.08",
-      "title": "Finger Thoracostomy",
-      "page": 193,
-      "type": "complication",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "Which structures does 8.08 warn lie at the inferior border of the rib and must be avoided during a finger thoracostomy?",
-      "options": ["The intercostal vein, artery and nerve", "The pleura and endothoracic fascia", "The innermost intercostal muscle", "The superficial fascia"],
-      "answer_index": 0,
-      "explanation": "The neurovascular bundle runs in the groove along the inferior rib border, so the clamp is pressed over the TOP of the rib. Striking that bundle causes brisk arterial bleeding into a chest that is already compromised.",
-      "priority": "core",
-      "tags": ["procedure:finger-thoracostomy", "topic:complications"]
-    },
-    {
-      "number": "8.08",
-      "title": "Finger Thoracostomy",
-      "page": 193,
-      "type": "sequence",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "In 8.08, what is the next step immediately after the Kelly clamp has been pressed over the rib and into the pleural space?",
-      "options": ["Spread the clamp as you pull it out to enlarge the opening", "Insert a gloved finger to verify entry into the pleura", "Place a vented chest seal over the site", "Make a 2-inch transverse incision"],
-      "answer_index": 0,
-      "explanation": "The opening is enlarged by spreading the Kelly clamp as it is withdrawn, and only then is the gloved finger inserted to verify the pleura has been entered. Inserting the finger into an unspread tract usually fails to confirm anything.",
-      "priority": "core",
-      "tags": ["procedure:finger-thoracostomy", "topic:steps"]
-    },
-    {
-      "number": "8.08",
-      "title": "Finger Thoracostomy",
-      "page": 193,
-      "type": "procedure",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "How does 8.08 direct the crew to verify that the pleural space has actually been entered?",
-      "options": ["Insert a gloved finger and hook it against the inner side of the ribs", "Auscultate for returning breath sounds on the treated side", "Observe a rise in ETCO2 on the waveform", "Look for a rush of air escaping the incision"],
-      "answer_index": 0,
-      "explanation": "Confirmation is tactile: a gloved finger is inserted and hooked to feel the inner surface of the ribs. 8.08 also warns that rib fractures may be present and can lacerate the finger.",
-      "priority": "core",
-      "tags": ["procedure:finger-thoracostomy", "topic:confirmation"]
-    },
-    {
-      "number": "8.08",
-      "title": "Finger Thoracostomy",
-      "page": 193,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "What estimated volume of blood return from a finger thoracostomy prompts an occlusive dressing and initiation of blood products?",
-      "options": ["More than 1000 mL", "More than 500 mL", "More than 1500 mL", "More than 2000 mL"],
-      "answer_index": 0,
-      "explanation": "Excessive blood return estimated at more than 1000 mL means the open chest is now the exsanguination route, so the site is occluded deliberately to tamponade and blood products are started. The crew must then watch for a recurrent tension pneumothorax.",
-      "priority": "core",
-      "tags": ["procedure:finger-thoracostomy", "topic:hemorrhage"]
-    },
-    {
-      "number": "8.08",
-      "title": "Finger Thoracostomy",
-      "page": 193,
-      "type": "treatment",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "The patient re-tensions after a finger thoracostomy. What does 8.08 direct the crew to do?",
-      "options": ["Insert a finger into the existing incision", "Make a new incision one interspace more superior", "Perform a needle decompression on the same side", "Place a vented chest seal over the incision"],
-      "answer_index": 0,
-      "explanation": "The tract is already there; re-tensioning means it has sealed over, so the finger goes back into the existing incision to re-open the pleura. A second incision or a needle adds injury without addressing the closed tract.",
-      "priority": "core",
-      "tags": ["procedure:finger-thoracostomy", "topic:tension-pneumothorax"]
-    },
-    {
-      "number": "8.09",
-      "title": "Flow-Safe II CPAP Delivery System",
-      "page": 195,
-      "type": "indication",
-      "care_level": "BLS",
-      "population": "adult",
-      "stem": "Which patient presentation is listed as an indication for the Flow-Safe II CPAP delivery system?",
-      "options": ["CHF/pulmonary edema", "Pneumothorax", "Respiratory failure", "Severe altered level of consciousness"],
-      "answer_index": 0,
-      "explanation": "CHF/pulmonary edema, asthma/COPD, moderate to severe respiratory distress and pre-oxygenation for RSI are the indications. Pneumothorax, frank respiratory failure and severe altered LOC are all contraindications — CPAP needs a patient who can breathe and protect the airway.",
-      "priority": "core",
-      "tags": ["procedure:cpap", "topic:respiratory-distress"]
-    },
-    {
-      "number": "8.09",
-      "title": "Flow-Safe II CPAP Delivery System",
-      "page": 195,
-      "type": "threshold",
-      "care_level": "BLS",
-      "population": "adult",
-      "stem": "Below what systolic blood pressure is the Flow-Safe II CPAP system contraindicated?",
-      "options": ["SBP < 100", "SBP < 90", "SBP < 80", "SBP < 70"],
-      "answer_index": 0,
-      "explanation": "8.09 lists SBP < 100 as a contraindication. Positive intrathoracic pressure reduces venous return, so CPAP can tip a marginally compensated patient into frank hypotension.",
-      "priority": "core",
-      "tags": ["procedure:cpap", "topic:hypotension"]
-    },
-    {
-      "number": "8.09",
-      "title": "Flow-Safe II CPAP Delivery System",
-      "page": 195,
-      "type": "threshold",
-      "care_level": "BLS",
-      "population": "pediatric",
-      "stem": "At or below what weight are pediatric patients contraindicated for the Flow-Safe II CPAP system, absent a ventilator malfunction?",
-      "options": ["15 kg", "10 kg", "20 kg", "25 kg"],
-      "answer_index": 0,
-      "explanation": "Pediatric patients weighing 15 kg or less are a contraindication unless the ventilator has malfunctioned. The Flow-Safe II is a fixed, flow-driven device with no ability to scale safely to a small child.",
-      "priority": "core",
-      "tags": ["procedure:cpap", "population:pediatric"]
-    },
-    {
-      "number": "8.09",
-      "title": "Flow-Safe II CPAP Delivery System",
-      "page": 195,
-      "type": "equipment",
-      "care_level": "BLS",
-      "population": "adult",
-      "stem": "On the Flow-Safe II flow chart, which oxygen flow rate corresponds to a desired PEEP of 10 cmH2O?",
-      "options": ["13 – 14 LPM", "8 – 9 LPM", "10 – 12 LPM", "Flush"],
-      "answer_index": 0,
-      "explanation": "The chart attached to the oxygen tubing pairs 5 cmH2O with 8–9 LPM, 7.5 cmH2O with 10–12 LPM, 10 cmH2O with 13–14 LPM, and 13 cmH2O (the maximum) with flush. The Flow-Safe II has no PEEP dial — flow IS the PEEP setting.",
-      "priority": "core",
-      "tags": ["procedure:cpap", "topic:peep"]
-    },
-    {
-      "number": "8.09",
-      "title": "Flow-Safe II CPAP Delivery System",
-      "page": 195,
-      "type": "threshold",
-      "care_level": "BLS",
-      "population": "adult",
-      "stem": "By how much may the pressure shown on the Flow-Safe II manometer differ from the desired CPAP level, per 8.09?",
-      "options": ["± 3 cmH2O", "± 1 cmH2O", "± 2 cmH2O", "± 5 cmH2O"],
-      "answer_index": 0,
-      "explanation": "8.09 accepts a reading within ± 3 cmH2O of the desired CPAP. A larger discrepancy usually means a mask leak, which is corrected by repositioning or changing mask size rather than by turning up the flow.",
-      "priority": "detail",
-      "tags": ["procedure:cpap", "topic:peep"]
-    },
-    {
-      "number": "8.09",
-      "title": "Flow-Safe II CPAP Delivery System",
-      "page": 195,
-      "type": "treatment",
-      "care_level": "BLS",
-      "population": "adult",
-      "stem": "A patient requires both ventilatory and oxygenation support. What does 8.09 direct instead of the Flow-Safe II?",
-      "options": ["BiPAP therapy via ventilator", "CPAP at a higher PEEP level", "High flow nasal cannula", "A non-rebreather mask"],
-      "answer_index": 0,
-      "explanation": "The Flow-Safe II provides CPAP only, so it supports oxygenation but does nothing for ventilation. A patient who is also failing to ventilate needs BiPAP delivered through the transport ventilator.",
-      "priority": "core",
-      "tags": ["procedure:cpap", "topic:ventilation"]
-    },
-    {
-      "number": "8.09",
-      "title": "Flow-Safe II CPAP Delivery System",
-      "page": 195,
-      "type": "procedure",
-      "care_level": "BLS",
-      "population": "adult",
-      "stem": "If nebulized medication is needed for a patient on the Flow-Safe II, where does 8.09 direct the nebulizer to be connected?",
-      "options": ["Between the mask and the Flow-Safe manometer via a T piece", "Between the flow sensor and the ETT", "Into the ventilator's nebulizer port", "Upstream of the device at the oxygen source"],
-      "answer_index": 0,
-      "explanation": "The nebulizer set-up goes between the mask and the manometer using a T piece, so the drug is delivered close to the patient without disturbing the pressure reading. Its own oxygen tubing must run to a secondary oxygen source.",
-      "priority": "detail",
-      "tags": ["procedure:cpap", "drug:nebulized", "topic:nebulizer"]
-    },
-    {
-      "number": "8.09",
-      "title": "Flow-Safe II CPAP Delivery System",
-      "page": 195,
-      "type": "equipment",
-      "care_level": "BLS",
-      "population": "adult",
-      "stem": "When a nebulizer is added to the Flow-Safe II circuit, where does 8.09 direct its oxygen tubing to be connected?",
-      "options": ["To a secondary oxygen source", "To the same oxygen source driving the CPAP", "To the ventilator high-pressure inlet", "To a flow meter Christmas tree on the CPAP line"],
-      "answer_index": 0,
-      "explanation": "The nebulizer runs off a second oxygen source. Sharing the CPAP source would steal flow and drop the delivered PEEP, which on this device is set purely by flow rate.",
-      "priority": "detail",
-      "tags": ["procedure:cpap", "topic:nebulizer", "topic:oxygen"]
-    },
-    {
-      "number": "8.10",
-      "title": "Gastric Tube Insertion",
-      "page": 196,
-      "type": "indication",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "Which patient condition is listed as an indication for gastric tube insertion in 8.10?",
-      "options": ["Gastric distension", "Esophageal rupture", "Caustic ingestion", "Severe facial trauma"],
-      "answer_index": 0,
-      "explanation": "Intubation, comatose patients, GI bleeds, overdoses, gastric distension and gastric obstruction are the indications. Esophageal rupture, caustic ingestion and severe facial trauma are contraindications — in each, blind tube passage risks creating or extending a perforation.",
-      "priority": "core",
-      "tags": ["procedure:gastric-tube", "topic:decompression"]
-    },
-    {
-      "number": "8.10",
-      "title": "Gastric Tube Insertion",
-      "page": 196,
-      "type": "contraindication",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "A patient who needs gastric decompression has had recent nasal surgery. What does 8.10 direct?",
-      "options": ["Place an orogastric tube instead", "Place a nasogastric tube in the opposite nare", "Withhold gastric tube placement entirely", "Place the nasogastric tube with extra lubrication"],
-      "answer_index": 0,
-      "explanation": "Recent nasal surgery is a contraindication to the nasal route only — 8.10 specifically notes an OG may be placed. The other listed contraindications (esophageal rupture, caustic ingestion) rule out both routes.",
-      "priority": "core",
-      "tags": ["procedure:gastric-tube", "route:og"]
-    },
-    {
-      "number": "8.10",
-      "title": "Gastric Tube Insertion",
-      "page": 196,
-      "type": "procedure",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "How does 8.10 direct nasogastric tube insertion depth to be measured?",
-      "options": ["Tip of the nose to the corner of the ear, then to the xiphoid process", "Corner of the mouth to the tip of the ear, then to the xiphoid process", "Tip of the nose to the earlobe, then to the umbilicus", "Corner of the mouth to the angle of the jaw, then to the sternal notch"],
-      "answer_index": 0,
-      "explanation": "The NG measurement starts at the tip of the nose; the mouth-to-ear-to-xiphoid route is the orogastric measurement. Using the OG measurement for an NG leaves the tube short of the stomach by roughly the length of the nasal passage.",
-      "priority": "core",
-      "tags": ["procedure:gastric-tube", "route:ng"]
-    },
-    {
-      "number": "8.10",
-      "title": "Gastric Tube Insertion",
-      "page": 196,
-      "type": "complication",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "During nasogastric tube insertion the patient begins to cough and develops new onset dyspnea. What does 8.10 direct?",
-      "options": ["Remove the tube", "Withdraw the tube slightly and reassess", "Continue advancing as the patient swallows", "Apply suction and continue advancing"],
-      "answer_index": 0,
-      "explanation": "Coughing or new dyspnea suggests the tube has entered the airway, so 8.10 directs removal rather than repositioning. Continuing to advance risks intubating the trachea with a gastric tube.",
-      "priority": "core",
-      "tags": ["procedure:gastric-tube", "topic:complications"]
-    },
-    {
-      "number": "8.10",
-      "title": "Gastric Tube Insertion",
-      "page": 196,
-      "type": "equipment",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "What size syringe does 8.10 specify for aspirating gastric contents to assess tube placement?",
-      "options": ["60 mL", "20 mL", "10 mL", "3 mL"],
-      "answer_index": 0,
-      "explanation": "A 60 mL syringe is connected and aspirated back while assessing for gastric contents. The same assessment then uses a separate injection of air while listening over the stomach.",
-      "priority": "detail",
-      "tags": ["procedure:gastric-tube", "topic:confirmation"]
-    },
-    {
-      "number": "8.10",
-      "title": "Gastric Tube Insertion",
-      "page": 196,
-      "type": "procedure",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "After aspirating for gastric contents, how much air does 8.10 direct to be injected while listening over the stomach?",
-      "options": ["About 20 mL", "About 60 mL", "About 10 mL", "About 5 mL"],
-      "answer_index": 0,
-      "explanation": "Roughly 20 mL of air is injected and the crew listens or feels for the air rush in the stomach. This applies identically to the nasogastric and orogastric routes.",
-      "priority": "detail",
-      "tags": ["procedure:gastric-tube", "topic:confirmation"]
-    },
-    {
-      "number": "8.10",
-      "title": "Gastric Tube Insertion",
-      "page": 196,
-      "type": "procedure",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "Once gastric tube placement is confirmed, what does 8.10 specify about securing the tube?",
-      "options": ["Tape it in place, but not to the ETT", "Tape it to the ETT so the two move together", "Suture it in place before transport", "Secure it with a commercial tube holder"],
-      "answer_index": 0,
-      "explanation": "8.10 explicitly states the gastric tube should NOT be taped to the ETT. Tying the two together means any tug on the gastric tube transmits directly to the airway and risks extubation.",
-      "priority": "core",
-      "tags": ["procedure:gastric-tube", "topic:securement"]
-    },
-    {
-      "number": "8.11",
-      "title": "Hemostatic Agents",
-      "page": 197,
-      "type": "sequence",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "Before packing a hemostatic agent into a wound, what does 8.11 direct be done first?",
-      "options": ["Remove any saturated gauze from the wound", "Irrigate the wound with sterile saline", "Apply a tourniquet proximal to the wound", "Pack the wound with plain gauze first"],
-      "answer_index": 0,
-      "explanation": "Saturated gauze is removed so the hemostatic agent can make direct contact with the bleeding vessels. An agent packed on top of blood-soaked gauze never reaches the source and will fail.",
-      "priority": "core",
-      "tags": ["procedure:hemostatic-agent", "topic:hemorrhage-control"]
-    },
-    {
-      "number": "8.11",
-      "title": "Hemostatic Agents",
-      "page": 197,
-      "type": "procedure",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "After packing rolled gauze into the wound, how long does 8.11 direct direct pressure to be held?",
-      "options": ["3 minutes", "5 minutes", "10 minutes", "2 minutes"],
-      "answer_index": 0,
-      "explanation": "8.11 directs a continuous 3 minutes of direct pressure on the bleeding source through the packed gauze. Releasing early is the most common reason a hemostatic dressing fails.",
-      "priority": "core",
-      "tags": ["procedure:hemostatic-agent", "topic:hemorrhage-control"]
-    },
-    {
-      "number": "8.11",
-      "title": "Hemostatic Agents",
-      "page": 197,
-      "type": "treatment",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "A hemostatic dressing packed into a wound is now fully red. What does 8.11 direct?",
-      "options": ["Remove it and replace it with a new hemostatic dressing", "Add a second dressing on top and hold pressure", "Apply a tourniquet proximal to the wound", "Wrap and tie the bandage to maintain pressure"],
-      "answer_index": 0,
-      "explanation": "A fully red dressing means the agent was not applied to the bleeding source or pressure was not held long enough, so it is removed and replaced rather than layered over. Wrapping and tying is only done once bleeding is actually controlled.",
-      "priority": "core",
-      "tags": ["procedure:hemostatic-agent", "topic:hemorrhage-control"]
-    },
-    {
-      "number": "8.11",
-      "title": "Hemostatic Agents",
-      "page": 197,
-      "type": "class",
-      "care_level": "PEARLS",
-      "population": "both",
-      "stem": "With which agent are QuickClot dressings impregnated, per 8.11 PEARLS?",
-      "options": ["Kaolin, an inorganic mineral", "Chitosan derived from shellfish", "Thrombin of human origin", "Zeolite, which is exothermic"],
-      "answer_index": 0,
-      "explanation": "QuickClot uses kaolin, an inorganic mineral. 8.11 specifically notes the dressings contain no human, animal or shellfish product and do not cause an exothermic reaction, so shellfish allergy and burn risk are not reasons to withhold them.",
-      "priority": "detail",
-      "tags": ["procedure:hemostatic-agent", "topic:quickclot"]
-    },
-    {
-      "number": "8.11",
-      "title": "Hemostatic Agents",
-      "page": 197,
-      "type": "threshold",
-      "care_level": "PEARLS",
-      "population": "both",
-      "stem": "How long may a hemostatic dressing remain in a wound, per 8.11 PEARLS?",
-      "options": ["Up to 24 hours", "Up to 12 hours", "Up to 48 hours", "Up to 6 hours"],
-      "answer_index": 0,
-      "explanation": "Dressings can stay packed for up to 24 hours, which comfortably covers any transport. There is no reason to disturb a controlled wound en route — 8.11 warns 'if you peek, you leak.'",
-      "priority": "detail",
-      "tags": ["procedure:hemostatic-agent", "topic:hemorrhage-control"]
-    },
-    {
-      "number": "8.11",
-      "title": "Hemostatic Agents",
-      "page": 197,
-      "type": "pearl",
-      "care_level": "PEARLS",
-      "population": "both",
-      "stem": "Besides major hemorrhage, what other use for hemostatic agents does 8.11 PEARLS describe?",
-      "options": ["Controlling nuisance bleeding such as head lacerations", "Packing open abdominal evisceration wounds", "Hemostasis at intraosseous insertion sites", "Control of epistaxis after nasal airway placement"],
-      "answer_index": 0,
-      "explanation": "8.11 notes hemostatic agents are not reserved for exsanguinating injury — they are effective for persistent 'nuisance bleeding' such as scalp lacerations that would otherwise consume crew attention throughout transport.",
-      "priority": "detail",
-      "tags": ["procedure:hemostatic-agent", "topic:hemorrhage-control"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 198,
-      "type": "indication",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "A patient is being prepared for RSI. What role does 8.12 give to high flow nasal cannula?",
-      "options": ["Pre-oxygenation and apneic oxygenation during RSI", "Post-intubation oxygen conservation", "A bridge to CPAP after extubation", "Humidified oxygen delivery only"],
-      "answer_index": 0,
-      "explanation": "Pre and apneic oxygenation during RSI is an explicit indication — the high flow continues to drive oxygen into the airway through the apneic period. Hypoxia, hypercarbia and mild to moderate respiratory distress are the other listed indications.",
-      "priority": "core",
-      "tags": ["procedure:hfnc", "topic:oxygenation"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 198,
-      "type": "contraindication",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "Which finding contraindicates high flow nasal cannula under 8.12?",
-      "options": ["Basilar skull fracture", "Hypercarbia", "Mild to moderate respiratory distress", "Hypoxia"],
-      "answer_index": 0,
-      "explanation": "Basilar skull fracture is a contraindication because high flow into the nasopharynx can be driven through the skull base defect. Hypoxia, hypercarbia and mild to moderate distress are indications for the therapy.",
-      "priority": "core",
-      "tags": ["procedure:hfnc", "topic:head-injury"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 198,
-      "type": "threshold",
-      "care_level": "ALS",
-      "population": "adult",
-      "stem": "What adult flow rate range does 8.12 give for high flow nasal cannula?",
-      "options": ["8 – 60 LPM", "8 – 9 LPM", "13 – 14 LPM", "0.5 – 1 L/kg/min"],
-      "answer_index": 0,
-      "explanation": "Adults are run at 8–60 LPM, titrated to work of breathing while FiO2 is titrated to oxygenation. The weight-based 0.5–1 L/kg/min figure is the pediatric rate, and the single-digit LPM figures belong to the Flow-Safe II CPAP chart.",
-      "priority": "core",
-      "tags": ["procedure:hfnc", "population:adult", "topic:flow-rate"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 198,
-      "type": "threshold",
-      "care_level": "ALS",
-      "population": "pediatric",
-      "stem": "What pediatric flow rate range does 8.12 give for high flow nasal cannula?",
-      "options": ["0.5 – 1 L/kg/min", "2 L/kg/min", "8 – 60 LPM", "20 LPM"],
-      "answer_index": 0,
-      "explanation": "Pediatric HFNC starts at 0.5–1 L/kg/min. The 2 L/kg/min and 20 LPM figures are the ceiling that may be used only when transporting without heat and humidification, not the starting range.",
-      "priority": "core",
-      "tags": ["procedure:hfnc", "population:pediatric", "topic:flow-rate"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 198,
-      "type": "max_dose",
-      "care_level": "ALS",
-      "population": "pediatric",
-      "stem": "To what may the pediatric HFNC flow be titrated if there is no heat or humidification, per 8.12?",
-      "options": ["2 L/kg/min or 20 LPM", "1 L/kg/min or 8 LPM", "0.5 L/kg/min or 8 LPM", "60 LPM"],
-      "answer_index": 0,
-      "explanation": "Without heat and humidification the pediatric flow may be titrated up to 2 L/kg/min or 20 LPM. The 60 LPM ceiling applies to adults only.",
-      "priority": "detail",
-      "tags": ["procedure:hfnc", "population:pediatric", "topic:flow-rate"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 198,
-      "type": "special",
-      "care_level": "ALS",
-      "population": "adult",
-      "stem": "What does 8.12 require before transporting an adult on HFNC without heat and/or humidification?",
-      "options": ["Approval from the sending provider or OLMC", "A physician escort for the transport", "Notification of the receiving facility only", "A baseline arterial blood gas"],
-      "answer_index": 0,
-      "explanation": "8.12 carries this in a red box: approval from the sending provider or OLMC is required for unheated, unhumidified HFNC in adults, because dry high flow gas rapidly dries secretions and injures the nasal mucosa.",
-      "priority": "core",
-      "tags": ["procedure:hfnc", "topic:olmc"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 198,
-      "type": "procedure",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "How does 8.12 direct the RAM cannula prongs to be sized against the patient's nares?",
-      "options": ["They should not occlude more than 80% of the nares", "They should completely occlude the nares to hold pressure", "They should occlude roughly half of the nares", "They should be sized to the smaller of the two nares"],
-      "answer_index": 0,
-      "explanation": "The prongs must leave a leak — no more than 80% occlusion — so that exhaled gas can escape. A fully occlusive fit converts HFNC into an uncontrolled positive-pressure device.",
-      "priority": "core",
-      "tags": ["procedure:hfnc", "topic:ram-cannula"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 198,
-      "type": "equipment",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "Which Hamilton T-1 mode does 8.12 direct for delivering high flow nasal cannula?",
-      "options": ["HiFloO2 under Noninvasive", "CPAP under Noninvasive", "Assist/Control volume", "LPO (low pressure oxygen)"],
-      "answer_index": 0,
-      "explanation": "HFNC is run in HiFloO2 mode found under Noninvasive, with FiO2 and flow set independently. LPO is not available at all while HiFloO2 is running.",
-      "priority": "core",
-      "tags": ["procedure:hfnc", "topic:ventilator"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 198,
-      "type": "treatment",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "A patient on high flow nasal cannula deteriorates during transport. What does 8.12 direct the crew to consider?",
-      "options": ["CPAP, BiPAP, or intubation (RSI)", "Increasing the flow rate above 60 LPM", "Switching to a non-rebreather mask", "Adding LPO mode to conserve oxygen"],
-      "answer_index": 0,
-      "explanation": "HFNC has a ceiling; a deteriorating patient escalates to CPAP, BiPAP or RSI rather than to more flow. LPO is unavailable during HFNC therapy and a non-rebreather is a step down, not up.",
-      "priority": "core",
-      "tags": ["procedure:hfnc", "topic:escalation"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 199,
-      "type": "pearl",
-      "care_level": "PEARLS",
-      "population": "both",
-      "stem": "Which oxygen-conserving ventilator mode is unavailable while HFNC therapy is running, per 8.12 PEARLS?",
-      "options": ["Low Pressure Oxygen (LPO)", "HiFloO2", "Noninvasive CPAP", "Assist/Control"],
-      "answer_index": 0,
-      "explanation": "LPO cannot be used during HFNC. If oxygen conservation becomes necessary on a long transport, 8.12 directs switching the patient to CPAP or BiPAP instead — which is why the LFN oxygen calculator must be run before departure.",
-      "priority": "detail",
-      "tags": ["procedure:hfnc", "topic:oxygen"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 199,
-      "type": "mechanism",
-      "care_level": "PEARLS",
-      "population": "both",
-      "stem": "What does 8.12 PEARLS give as the therapeutic goal of high flow oxygen therapy?",
-      "options": ["Increase PaO2 to widen the oxygen diffusion gradient", "Generate a set level of positive end-expiratory pressure", "Unload the diaphragm to reduce work of breathing", "Provide ventilatory as well as oxygenation support"],
-      "answer_index": 0,
-      "explanation": "High flow delivers volumes beyond what the patient ventilates, washing out CO2 from the upper airway and raising delivered O2; the stated goal is a higher PaO2 and therefore a steeper diffusion gradient. It is not a pressure-targeted mode.",
-      "priority": "detail",
-      "tags": ["procedure:hfnc", "topic:physiology"]
-    },
-    {
-      "number": "8.12",
-      "title": "High Flow Nasal Cannula",
-      "page": 199,
-      "type": "pearl",
-      "care_level": "PEARLS",
-      "population": "both",
-      "stem": "If a Hamilton T-1 is not readily available, what alternative does 8.12 PEARLS permit for the RAM cannula?",
-      "options": ["Regular oxygen tubing on a flow meter Christmas tree", "A Flow-Safe II CPAP device with the mask removed", "An LTV ventilator run in HiFloO2 mode", "A non-rebreather reservoir line at 15 LPM"],
-      "answer_index": 0,
-      "explanation": "The RAM cannula can be driven from regular oxygen tubing on a standard flow meter, but 8.12 warns this gives a reduced maximum flow rate and no humidification.",
-      "priority": "detail",
-      "tags": ["procedure:hfnc", "topic:ram-cannula"]
-    },
-    {
-      "number": "8.13",
-      "title": "Intra-Aortic Balloon Pump (Maquet)",
-      "page": 200,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "How many autofill cycles does the internal helium reservoir of the Maquet IABP hold?",
-      "options": ["36", "6", "12", "24"],
-      "answer_index": 0,
-      "explanation": "The internal reservoir carries enough helium for 36 autofill cycles. Because altitude change, power cycling and run time all consume cycles, the crew must budget them against the planned flight profile.",
-      "priority": "core",
-      "tags": ["procedure:iabp", "topic:helium"]
-    },
-    {
-      "number": "8.13",
-      "title": "Intra-Aortic Balloon Pump (Maquet)",
-      "page": 200,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "How many autofill cycles does the Maquet IABP perform each time the pump is powered on or off, or the balloon is disconnected and reconnected?",
-      "options": ["6", "36", "1", "2"],
-      "answer_index": 0,
-      "explanation": "Each power cycle or balloon disconnect/reconnect costs 6 autofill cycles out of a reservoir of 36. Needless power cycling on the ramp can consume a third of the available helium before the flight begins.",
-      "priority": "detail",
-      "tags": ["procedure:iabp", "topic:helium"]
-    },
-    {
-      "number": "8.13",
-      "title": "Intra-Aortic Balloon Pump (Maquet)",
-      "page": 200,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "During IABP transport, at what interval of altitude GAIN does the Maquet pump perform an autofill cycle?",
-      "options": ["Every 1000 feet", "Every 2000 feet", "Every 500 feet", "Every 2 hours"],
-      "answer_index": 0,
-      "explanation": "An internal transducer senses barometric change, triggering one autofill for every 1000 feet of climb and one for every 2000 feet of descent. Climbing therefore burns helium twice as fast as descending.",
-      "priority": "core",
-      "tags": ["procedure:iabp", "topic:altitude"]
-    },
-    {
-      "number": "8.13",
-      "title": "Intra-Aortic Balloon Pump (Maquet)",
-      "page": 200,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "Apart from altitude change, at what interval does the Maquet IABP perform an additional autofill cycle?",
-      "options": ["Every 2 hours of pump operation", "Every 15 minutes of pump operation", "Every 30 minutes of pump operation", "Every 6 hours of pump operation"],
-      "answer_index": 0,
-      "explanation": "One extra autofill occurs for every 2 hours of pump operation. On a long fixed-wing leg this time-based consumption must be added to the altitude-driven cycles when estimating remaining helium.",
-      "priority": "detail",
-      "tags": ["procedure:iabp", "topic:helium"]
-    },
-    {
-      "number": "8.13",
-      "title": "Intra-Aortic Balloon Pump (Maquet)",
-      "page": 200,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "To what pressure does 8.13 direct the IABP flush bag pressure infuser to be inflated?",
-      "options": ["300 mmHg", "250 mmHg", "200 mmHg", "150 mmHg"],
-      "answer_index": 0,
-      "explanation": "The pressure bag is inflated to 300 mmHg, the line flushed for several seconds, and the zero button held for two seconds. Too little pressure allows blood to track back and damp or clot the inner lumen.",
-      "priority": "detail",
-      "tags": ["procedure:iabp", "topic:transducer"]
-    },
-    {
-      "number": "8.13",
-      "title": "Intra-Aortic Balloon Pump (Maquet)",
-      "page": 200,
-      "type": "special",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "The patient arrives on an Arrow pump with an Arrow fiber-optic balloon. What does 8.13 require when transferring to the Maquet console?",
-      "options": ["Use the pressure cable and transducer for the IAB", "Zero the fiber-optic cable before pressing START", "Connect the fiber-optic sensor cable first", "Run the pump in semi-auto mode for the transport"],
-      "answer_index": 0,
-      "explanation": "An Arrow fiber-optic balloon will not communicate with the Maquet console, so timing must come from the conventional pressure cable and transducer. Connecting the fiber-optic cable first applies only to a Maquet/Datascope balloon.",
-      "priority": "core",
-      "tags": ["procedure:iabp", "topic:transfer"]
-    },
-    {
-      "number": "8.13",
-      "title": "Intra-Aortic Balloon Pump (Maquet)",
-      "page": 201,
-      "type": "treatment",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "The IABP arterial pressure waveform becomes damped in flight. What does 8.13 direct first?",
-      "options": ["Aspirate 3 mL from the IAB inner lumen and discard it", "Flush the inner lumen for 15 seconds", "Place the pump on standby and switch to semi-auto", "Cap the lumen and use an alternative pressure source"],
-      "answer_index": 0,
-      "explanation": "Aspirating 3 mL first tells you whether the lumen is patent. If blood returns, the line is flushed for 15 seconds with the pump on standby; if nothing aspirates, the lumen is presumed clotted and is capped with an alternative pressure source used.",
-      "priority": "core",
-      "tags": ["procedure:iabp", "topic:waveform"]
-    },
-    {
-      "number": "8.13",
-      "title": "Intra-Aortic Balloon Pump (Maquet)",
-      "page": 201,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "How often does 8.13 direct the IAB inner lumen to be flushed during transport to prevent damping?",
-      "options": ["Every 15 minutes", "Every 30 minutes", "Every hour", "Every 5 minutes"],
-      "answer_index": 0,
-      "explanation": "A brief flush of the inner lumen every 15 minutes maintains patency. Losing the pressure waveform in flight costs the trigger source for timing if no fiber-optic cable is in place.",
-      "priority": "core",
-      "tags": ["procedure:iabp", "topic:waveform"]
-    },
-    {
-      "number": "8.13",
-      "title": "Intra-Aortic Balloon Pump (Maquet)",
-      "page": 202,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "Where should the IABP Augmentation alarm be set relative to the patient's augmented diastolic pressure?",
-      "options": ["10 mmHg below it", "10 mmHg above it", "20 mmHg below it", "5 mmHg below it"],
-      "answer_index": 0,
-      "explanation": "The augmentation alarm is set 10 mmHg below the patient's augmented diastolic pressure, roughly 3 minutes after assist begins. Set that close, any real loss of augmentation alarms promptly instead of being missed.",
-      "priority": "core",
-      "tags": ["procedure:iabp", "topic:alarms"]
-    },
-    {
-      "number": "8.13",
-      "title": "Intra-Aortic Balloon Pump (Maquet)",
-      "page": 202,
-      "type": "equipment",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "Which operation mode does 8.13 designate as the default on the Maquet IABP?",
-      "options": ["Auto", "Semi-auto", "Manual", "Standby"],
-      "answer_index": 0,
-      "explanation": "Auto is the default; semi-auto is rarely needed. In auto the pump selects the lead and trigger and manages inflation/deflation timing continuously, which is what you want in a vibrating, noisy aircraft.",
-      "priority": "detail",
-      "tags": ["procedure:iabp", "topic:modes"]
-    },
-    {
-      "number": "8.13",
-      "title": "Intra-Aortic Balloon Pump (Maquet)",
-      "page": 200,
-      "type": "special",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "After the IABP and patient are loaded into the rotor-wing aircraft, where does 8.13 direct the pump to be secured?",
-      "options": ["Between the stretcher and the aft-facing seat", "Behind the forward-facing seat, left of the loading door", "On the brownline rail with the foam pad removed", "At the forward bulkhead beside the patient's head"],
-      "answer_index": 0,
-      "explanation": "In the rotor the IABP sits between the stretcher and the aft-facing seat; behind the forward-facing seat left of the patient loading door is the fixed-wing position. In both, the foam pad keeps the pump off the brownline rail and Pilatus tie-down straps run through the pump handles.",
-      "priority": "detail",
-      "tags": ["procedure:iabp", "topic:aircraft"]
-    },
-    {
-      "number": "8.14",
-      "title": "i-gel© Supraglottic Airway",
-      "page": 204,
-      "type": "indication",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "Which airway reflex finding does 8.14 require before an i-gel is placed?",
-      "options": ["An absent gag reflex", "An intact gag reflex", "An absent cough reflex", "A preserved swallow reflex"],
-      "answer_index": 0,
-      "explanation": "The indication is an unconscious patient with respiratory compromise AND an absent gag reflex; a responsive patient with a gag reflex is an explicit contraindication, since the device will be rejected or provoke vomiting.",
-      "priority": "core",
-      "tags": ["procedure:i-gel", "topic:airway"]
-    },
-    {
-      "number": "8.14",
-      "title": "i-gel© Supraglottic Airway",
-      "page": 204,
-      "type": "contraindication",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "Which condition is listed as a contraindication to the i-gel in 8.14?",
-      "options": ["Known esophageal disease", "An absent gag reflex", "Respiratory compromise", "Unconsciousness"],
-      "answer_index": 0,
-      "explanation": "Known esophageal disease, caustic ingestion and a responsive patient with a gag reflex are the contraindications. Unconsciousness, respiratory compromise and an absent gag reflex together form the indication.",
-      "priority": "core",
-      "tags": ["procedure:i-gel", "topic:airway"]
-    },
-    {
-      "number": "8.14",
-      "title": "i-gel© Supraglottic Airway",
-      "page": 204,
-      "type": "equipment",
-      "care_level": "BLS",
-      "population": "adult",
-      "stem": "Using the 8.14 sizing table, which i-gel size is indicated for a 70 kg adult?",
-      "options": ["Size 4", "Size 3", "Size 5", "Size 2.5"],
-      "answer_index": 0,
-      "explanation": "Size 4 (green) is the medium adult device covering 50–90 kg. Size 3 is the small adult at 30–60 kg and size 5 the large adult at 90+ kg, so a 70 kg patient falls squarely in size 4.",
-      "priority": "core",
-      "tags": ["procedure:i-gel", "topic:sizing", "population:adult"]
-    },
-    {
-      "number": "8.14",
-      "title": "i-gel© Supraglottic Airway",
-      "page": 204,
-      "type": "procedure",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "What type of lubricant does 8.14 specify for the i-gel?",
-      "options": ["Water-based", "Silicone-based", "Petroleum-based", "Lidocaine jelly"],
-      "answer_index": 0,
-      "explanation": "A small bolus of water-based lubricant is used on the back, sides and front of the cuff; 8.14 explicitly prohibits silicone-based lubricants. No bolus may be left sitting in the bowl of the cuff, where it would be driven into the airway on insertion.",
-      "priority": "detail",
-      "tags": ["procedure:i-gel", "topic:preparation"]
-    },
-    {
-      "number": "8.14",
-      "title": "i-gel© Supraglottic Airway",
-      "page": 204,
-      "type": "procedure",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "In which position does 8.14 direct the patient's head and neck for i-gel insertion, trauma permitting?",
-      "options": ["Sniffing position, head extended and neck flexed", "Neutral in-line with a chin lift", "Full extension with the shoulders padded", "Supine with support under the shoulders and neck"],
-      "answer_index": 0,
-      "explanation": "The sniffing position with head extended and neck flexed aligns the hypopharynx for the device to glide along the hard palate. The chin is gently pressed down before insertion begins.",
-      "priority": "core",
-      "tags": ["procedure:i-gel", "topic:positioning"]
-    },
-    {
-      "number": "8.14",
-      "title": "i-gel© Supraglottic Airway",
-      "page": 204,
-      "type": "procedure",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "In which direction does 8.14 direct the leading soft tip of the i-gel to be introduced into the mouth?",
-      "options": ["Toward the hard palate", "Toward the posterior pharyngeal wall", "Toward the floor of the mouth", "Toward the epiglottis"],
-      "answer_index": 0,
-      "explanation": "The tip is introduced toward the hard palate, then glided downward and backward along it with continuous gentle pressure until definitive resistance is felt. Aiming elsewhere tends to fold the tip or catch the tongue.",
-      "priority": "core",
-      "tags": ["procedure:i-gel", "topic:insertion"]
-    },
-    {
-      "number": "8.14",
-      "title": "i-gel© Supraglottic Airway",
-      "page": 204,
-      "type": "treatment",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "Early resistance is met during i-gel insertion. What does 8.14 direct?",
-      "options": ["Perform a jaw thrust and insert with a deep rotation", "Apply firm steady force until the resistance gives", "Withdraw and select the next smaller size", "Insert a finger to guide the device past the tongue"],
-      "answer_index": 0,
-      "explanation": "Early resistance is managed with a jaw thrust and a deep rotation of the device. 8.14 forbids excessive force and notes it is not necessary to put fingers or thumbs into the patient's mouth during insertion.",
-      "priority": "core",
-      "tags": ["procedure:i-gel", "topic:insertion"]
-    },
-    {
-      "number": "8.14",
-      "title": "i-gel© Supraglottic Airway",
-      "page": 205,
-      "type": "procedure",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "How does 8.14 direct i-gel placement to be confirmed?",
-      "options": ["Waveform ETCO2 plus lung sounds in both fields and the epigastrium", "Chest rise together with misting in the device", "Waveform ETCO2 alone", "Aspiration of gastric contents through the gastric channel"],
-      "answer_index": 0,
-      "explanation": "Confirmation requires waveform ETCO2 and auscultation of both lung fields and over the epigastrium. Epigastric sounds would indicate the device is seated incorrectly and ventilating the stomach.",
-      "priority": "core",
-      "tags": ["procedure:i-gel", "topic:confirmation"]
-    },
-    {
-      "number": "8.14",
-      "title": "i-gel© Supraglottic Airway",
-      "page": 205,
-      "type": "equipment",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "In which i-gel sizes does 8.14 permit a #10 feeding tube to be passed down the gastric channel?",
-      "options": ["Size 1.5 and larger", "All i-gel sizes", "Size 3 and larger", "Size 2.5 and larger"],
-      "answer_index": 0,
-      "explanation": "The gastric channel will accept a #10 feeding tube only in size 1.5 and above; the size 1 neonatal device cannot take one. Decompressing the stomach reduces regurgitation risk around the cuff.",
-      "priority": "detail",
-      "tags": ["procedure:i-gel", "topic:gastric-channel"]
-    },
-    {
-      "number": "8.14",
-      "title": "i-gel© Supraglottic Airway",
-      "page": 205,
-      "type": "procedure",
-      "care_level": "BLS",
-      "population": "pediatric",
-      "stem": "The taped securement technique described in 8.14 applies to which i-gel sizes?",
-      "options": ["Sizes 1, 1.5, 2 and 2.5", "Sizes 3, 4 and 5", "All i-gel sizes", "Sizes 2.5 and larger"],
-      "answer_index": 0,
-      "explanation": "The two-piece nylon tape technique exists for the small devices — sizes 1 through 2.5 — because these tubes are too small for a commercial securement device. Adult sizes are secured with a commercial device.",
-      "priority": "detail",
-      "tags": ["procedure:i-gel", "topic:securement", "population:pediatric"]
-    },
-    {
-      "number": "8.15",
-      "title": "Inline Nebulizer Treatment",
-      "page": 207,
-      "type": "indication",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "Which condition is listed as an indication for inline nebulizer treatment in 8.15?",
-      "options": ["Hyperkalemia", "Pneumothorax", "Pulmonary edema", "Hypoxia alone"],
-      "answer_index": 0,
-      "explanation": "Bronchospasm, croup/epiglottitis/laryngospasm and hyperkalemia are the listed indications — the last because nebulized beta-agonist drives potassium intracellularly. 8.15 lists no contraindications.",
-      "priority": "core",
-      "tags": ["procedure:inline-nebulizer", "topic:bronchospasm"]
-    },
-    {
-      "number": "8.15",
-      "title": "Inline Nebulizer Treatment",
-      "page": 207,
-      "type": "sequence",
-      "care_level": "ALS",
-      "population": "both",
-      "stem": "In the adult/pediatric circuit diagram in 8.15, where does the inline nebulizer set-up sit?",
-      "options": ["Between the flow sensor and the vent tubing", "Between the ETT and the ETCO2 adaptor", "Between the ETCO2 adaptor and the flow sensor", "Between the ETT and the flow sensor"],
-      "answer_index": 0,
-      "explanation": "The circuit runs ETT > ETCO2 > flow sensor > inline neb set-up > vent tubing. Placing the nebulizer distal to the flow sensor would add dead space and corrupt the measured volumes.",
-      "priority": "core",
-      "tags": ["procedure:inline-nebulizer", "topic:circuit"]
-    },
-    {
-      "number": "8.15",
-      "title": "Inline Nebulizer Treatment",
-      "page": 209,
-      "type": "complication",
-      "care_level": "PEARLS",
-      "population": "both",
-      "stem": "What does 8.15 PEARLS warn will result from connecting the nebulizer between the flow sensor and the ETT?",
-      "options": ["Increased dead space and incorrect measurements", "Loss of the ETCO2 waveform", "Delivery of the drug into the expiratory limb", "Auto-triggering of the ventilator"],
-      "answer_index": 0,
-      "explanation": "Putting the nebulizer distal to the flow sensor adds dead space between the sensor and the patient and makes the ventilator's measurements wrong. This is the single most common inline nebulizer set-up error.",
-      "priority": "core",
-      "tags": ["procedure:inline-nebulizer", "topic:dead-space"]
-    },
-    {
-      "number": "8.15",
-      "title": "Inline Nebulizer Treatment",
-      "page": 209,
-      "type": "threshold",
-      "care_level": "PEARLS",
-      "population": "both",
-      "stem": "On the Hamilton T1, for how long is the fixed nebulizer flow synchronized with the inspiratory phase of each breath?",
-      "options": ["30 minutes", "20 minutes", "10 minutes", "60 minutes"],
-      "answer_index": 0,
-      "explanation": "The Hamilton T1 runs the fixed nebulizer flow, using 100% O2, synchronized to inspiration for 30 minutes. Crews should expect the feature to stop on its own at that point rather than when the medication cup empties.",
-      "priority": "detail",
-      "tags": ["procedure:inline-nebulizer", "topic:hamilton-t1"]
-    },
-    {
-      "number": "8.15",
-      "title": "Inline Nebulizer Treatment",
-      "page": 209,
-      "type": "threshold",
-      "care_level": "PEARLS",
-      "population": "both",
-      "stem": "On the Hamilton T1, a pneumatic nebulizer connected to the nebulizer port is optimally specified for approximately what flow?",
-      "options": ["8 L/min", "6 L/min", "10 L/min", "15 L/min"],
-      "answer_index": 0,
-      "explanation": "The Hamilton T1 nebulizer port is specified for roughly 8 L/min, and the ventilator automatically compensates for the added volume so the set tidal volume is still delivered. The 6 L/min figure is the LTV/ReVel drive port flow.",
-      "priority": "detail",
-      "tags": ["procedure:inline-nebulizer", "topic:hamilton-t1"]
-    },
-    {
-      "number": "8.15",
-      "title": "Inline Nebulizer Treatment",
-      "page": 209,
-      "type": "threshold",
-      "care_level": "PEARLS",
-      "population": "both",
-      "stem": "When the nebulizer is activated on the LTV/ReVel ventilator, what nominal flow is delivered to the nebulizer drive port?",
-      "options": ["6 L/min", "8 L/min", "2 L/min", "10 L/min"],
-      "answer_index": 0,
-      "explanation": "The LTV/ReVel delivers a six L/min nominal flow of 100% oxygen to the nebulizer drive port, and reduces inspiratory limb flow to compensate at the patient wye. The 8 L/min figure belongs to the Hamilton T1.",
-      "priority": "detail",
-      "tags": ["procedure:inline-nebulizer", "topic:ltv"]
-    },
-    {
-      "number": "8.15",
-      "title": "Inline Nebulizer Treatment",
-      "page": 209,
-      "type": "equipment",
-      "care_level": "PEARLS",
-      "population": "both",
-      "stem": "How does 8.15 PEARLS direct an Aerogen nebulizer to be connected to the Hamilton T1?",
-      "options": ["Via the USB port on the side of the ventilator", "Via the nebulizer port on the front panel", "Via a T piece in the inspiratory limb", "Via the high-pressure oxygen inlet"],
-      "answer_index": 0,
-      "explanation": "The Aerogen is a vibrating-mesh device and takes its power from the USB port on the side of the Hamilton T1, not from the pneumatic nebulizer port used by jet nebulizers.",
-      "priority": "detail",
-      "tags": ["procedure:inline-nebulizer", "topic:aerogen"]
-    },
-    {
-      "number": "8.16",
-      "title": "Intracranial Pressure Monitoring",
-      "page": 210,
-      "type": "indication",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "Which finding is listed as an indication for intracranial pressure monitoring in 8.16?",
-      "options": ["Posturing", "Hypotension", "Seizure activity", "A widened pulse pressure"],
-      "answer_index": 0,
-      "explanation": "Intraventricular bleeds, CT showing edema and/or shifts, confirmed head injury with GCS < 8 and posturing are the indications. 8.16 lists no contraindications.",
-      "priority": "detail",
-      "tags": ["procedure:icp-monitoring", "topic:head-injury"]
-    },
-    {
-      "number": "8.16",
-      "title": "Intracranial Pressure Monitoring",
-      "page": 210,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "Below which Glasgow Coma Scale score does 8.16 indicate ICP monitoring for a confirmed head injury?",
-      "options": ["GCS < 8", "GCS < 9", "GCS < 13", "GCS < 15"],
-      "answer_index": 0,
-      "explanation": "A confirmed head injury with a GCS below 8 is a listed indication, matching the conventional threshold at which a patient can no longer protect the airway or be followed by serial neuro exam.",
-      "priority": "core",
-      "tags": ["procedure:icp-monitoring", "topic:gcs"]
-    },
-    {
-      "number": "8.16",
-      "title": "Intracranial Pressure Monitoring",
-      "page": 210,
-      "type": "landmark",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "Level with which anatomic landmark does 8.16 direct the ICP transducer to be placed and secured?",
-      "options": ["The foramen of Monro", "The external auditory meatus", "The phlebostatic axis", "The angle of the mandible"],
-      "answer_index": 0,
-      "explanation": "The transducer is leveled to the foramen of Monro, on the same side the ventriculostomy catheter is inserted. A transducer leveled anywhere else produces an ICP reading that is wrong by the height difference.",
-      "priority": "core",
-      "tags": ["procedure:icp-monitoring", "topic:transducer"]
-    },
-    {
-      "number": "8.16",
-      "title": "Intracranial Pressure Monitoring",
-      "page": 210,
-      "type": "procedure",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "With what does 8.16 direct the ICP transducer system to be primed?",
-      "options": ["Preservative-free normal saline", "Heparinized saline", "Lactated Ringer's solution", "Normal saline under a pressure bag"],
-      "answer_index": 0,
-      "explanation": "Priming uses preservative-free normal saline under strict aseptic technique. 8.16 also directs that IV fluids must not be hung and a pressure bag must not be used — any pressurized infusion into a ventriculostomy is dangerous.",
-      "priority": "core",
-      "tags": ["procedure:icp-monitoring", "topic:transducer"]
-    },
-    {
-      "number": "8.16",
-      "title": "Intracranial Pressure Monitoring",
-      "page": 210,
-      "type": "sequence",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "What is the first step in zeroing the ventriculostomy line, per 8.16?",
-      "options": ["Turn the stopcock open to air", "Press Zero on the monitor", "Observe the waveform flatten", "Replace the cap and close the stopcock to air"],
-      "answer_index": 0,
-      "explanation": "The stopcock is opened to air first, the waveform is observed to flatten, Zero is pressed, and only then is the cap replaced and the stopcock closed to air to begin transducing. Pressing Zero before opening to air zeroes against the patient's pressure.",
-      "priority": "detail",
-      "tags": ["procedure:icp-monitoring", "topic:zeroing"]
-    },
-    {
-      "number": "8.16",
-      "title": "Intracranial Pressure Monitoring",
-      "page": 210,
-      "type": "special",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "When does 8.16 require the ventriculostomy drain to be closed during transport?",
-      "options": ["For all patient movements and altitude changes", "Only during takeoff and landing", "Only when the ICP exceeds the ordered threshold", "Only during patient movements"],
-      "answer_index": 0,
-      "explanation": "The drain is closed for every patient movement and every altitude change. An open drain during a position or pressure change can siphon CSF uncontrollably.",
-      "priority": "core",
-      "tags": ["procedure:icp-monitoring", "topic:drain"]
-    },
-    {
-      "number": "8.16",
-      "title": "Intracranial Pressure Monitoring",
-      "page": 210,
-      "type": "procedure",
-      "care_level": "CCT",
-      "population": "both",
-      "stem": "What does 8.16 require each time the aircraft changes altitude with an ICP monitor in place?",
-      "options": ["Re-zero the transducer", "Re-level the transducer to the foramen of Monro", "Open the drain to equalize the pressure", "Document the drainage position"],
-      "answer_index": 0,
-      "explanation": "The transducer must be zeroed with each altitude change, because the reference pressure the system was zeroed against has moved. The drain stays closed throughout the altitude change.",
-      "priority": "core",
-      "tags": ["procedure:icp-monitoring", "topic:altitude"]
-    },
-    {
-      "number": "8.17",
-      "title": "Intranasal Medication Delivery",
-      "page": 211,
-      "type": "indication",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "What does 8.17 give as the indication for intranasal medication delivery?",
-      "options": ["IV access is not present or is undesirable", "The patient is combative and cannot be restrained", "The patient has a documented allergy to IM medications", "Rapid onset is required during cardiac arrest"],
-      "answer_index": 0,
-      "explanation": "The intranasal route exists for when IV access is absent or undesirable — the classic cases being a seizing patient, a combative overdose, or a child in whom a line would delay treatment.",
-      "priority": "core",
-      "tags": ["procedure:intranasal", "route:in"]
-    },
-    {
-      "number": "8.17",
-      "title": "Intranasal Medication Delivery",
-      "page": 211,
-      "type": "contraindication",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "Which finding contraindicates intranasal medication delivery under 8.17?",
-      "options": ["Epistaxis", "Hypotension", "An absent gag reflex", "Hypoxia"],
-      "answer_index": 0,
-      "explanation": "Facial trauma, epistaxis, nasal congestion or discharge, and recent nasal cocaine use are the contraindications — each either blocks the mucosa or washes the drug away before it can be absorbed.",
-      "priority": "core",
-      "tags": ["procedure:intranasal", "route:in"]
-    },
-    {
-      "number": "8.17",
-      "title": "Intranasal Medication Delivery",
-      "page": 211,
-      "type": "max_dose",
-      "care_level": "BLS",
-      "population": "adult",
-      "stem": "For a patient aged 10 years or older, what is the maximum intranasal volume 8.17 permits per nostril?",
-      "options": ["1 mL", "0.5 mL", "2 mL", "3 mL"],
-      "answer_index": 0,
-      "explanation": "Patients 10 years and older take no more than 1 mL per nostril. Larger volumes run out of the nose or down the pharynx instead of being absorbed across the nasal mucosa.",
-      "priority": "core",
-      "tags": ["procedure:intranasal", "route:in", "population:adult"]
-    },
-    {
-      "number": "8.17",
-      "title": "Intranasal Medication Delivery",
-      "page": 211,
-      "type": "max_dose",
-      "care_level": "BLS",
-      "population": "pediatric",
-      "stem": "For a child under 10 years of age, what is the maximum intranasal volume 8.17 permits per nostril?",
-      "options": ["0.5 mL", "1 mL", "0.25 mL", "2 mL"],
-      "answer_index": 0,
-      "explanation": "Children under 10 take no more than 0.5 mL per nostril — half the adult limit. If the calculated volume exceeds this, the concentration must be increased rather than the volume.",
-      "priority": "core",
-      "tags": ["procedure:intranasal", "route:in", "population:pediatric"]
-    },
-    {
-      "number": "8.17",
-      "title": "Intranasal Medication Delivery",
-      "page": 211,
-      "type": "dose",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "How much extra medication does 8.17 direct to be drawn into the syringe to account for atomizer dead space?",
-      "options": ["0.1 mL", "0.3 mL", "0.5 mL", "1 mL"],
-      "answer_index": 0,
-      "explanation": "An extra 0.1 mL is drawn up because that volume remains in the mucosal atomizer device and never reaches the patient. Omitting it under-doses every intranasal administration.",
-      "priority": "core",
-      "tags": ["procedure:intranasal", "route:in", "topic:dead-space"]
-    },
-    {
-      "number": "8.17",
-      "title": "Intranasal Medication Delivery",
-      "page": 211,
-      "type": "landmark",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "Once the MAD is inserted into the nares, toward what does 8.17 direct the tip to be aimed?",
-      "options": ["The top of the ipsilateral ear", "The posterior nasopharynx", "The nasal septum", "The contralateral eye"],
-      "answer_index": 0,
-      "explanation": "Aiming at the top of the ear on the same side directs the spray onto the highly vascular superior turbinate region. Aiming at the septum sprays the drug onto a poorly absorbing surface.",
-      "priority": "core",
-      "tags": ["procedure:intranasal", "route:in", "topic:landmarks"]
-    },
-    {
-      "number": "8.17",
-      "title": "Intranasal Medication Delivery",
-      "page": 211,
-      "type": "procedure",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "When does 8.17 direct the plunger to be depressed during intranasal administration?",
-      "options": ["Rapidly upon exhalation, before inhalation", "Slowly at the start of inhalation", "Rapidly at the peak of inhalation", "Slowly between two full breaths"],
-      "answer_index": 0,
-      "explanation": "The plunger is pushed rapidly, timed to exhalation but before the next breath in, so the atomized drug is deposited on the mucosa rather than inhaled into the lower airway.",
-      "priority": "core",
-      "tags": ["procedure:intranasal", "route:in"]
-    },
-    {
-      "number": "8.17",
-      "title": "Intranasal Medication Delivery",
-      "page": 211,
-      "type": "procedure",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "What portion of the total intranasal dose does 8.17 direct to be given in each nare?",
-      "options": ["Half of the total dose in each nare", "The entire dose in the larger nare", "Two-thirds in the larger nare", "The entire dose divided over three doses"],
-      "answer_index": 0,
-      "explanation": "Half the total dose goes in each nostril, doubling the mucosal surface area available for absorption and keeping the per-nostril volume within the 1 mL (or 0.5 mL pediatric) limit.",
-      "priority": "core",
-      "tags": ["procedure:intranasal", "route:in"]
-    },
-    {
-      "number": "8.17",
-      "title": "Intranasal Medication Delivery",
-      "page": 211,
-      "type": "pearl",
-      "care_level": "BLS",
-      "population": "both",
-      "stem": "To improve the success of intranasal delivery, what does 8.17 direct regarding drug volume and concentration?",
-      "options": ["Minimize the volume and maximize the concentration", "Maximize the volume and dilute the drug", "Match the volume to the patient's weight", "Use the standard IV concentration unchanged"],
-      "answer_index": 0,
-      "explanation": "Absorption is limited by mucosal surface area, not by volume, so the smallest possible volume of the most concentrated preparation works best. Extra diluent simply runs out of the nose.",
-      "priority": "detail",
-      "tags": ["procedure:intranasal", "route:in"]
-    }
-  ]
+ "batch": "G08",
+ "questions": [
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "indication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Which single finding must be present before a finger thoracostomy may be performed under 8.08?",
+   "options": [
+    "Hypotension",
+    "Tachycardia",
+    "Jugular venous distention",
+    "Tracheal deviation"
+   ],
+   "answer_index": 0,
+   "explanation": "8.08 states in red that hypotension is REQUIRED to perform a finger thoracostomy. Tachycardia, JVD and tracheal deviation are supporting signs of peri-arrest tension physiology, but none of them substitutes for hypotension as the trigger to cut.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:tension-pneumothorax",
+    "population:both"
+   ],
+   "uid": "q_68b40f4e52"
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "contraindication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Which condition is listed as a contraindication to finger thoracostomy in 8.08?",
+   "options": [
+    "Simple pneumothorax",
+    "Traumatic arrest",
+    "Hypocarbia with a falling ETCO2",
+    "Unilateral decreased breath sounds"
+   ],
+   "answer_index": 0,
+   "explanation": "Simple pneumothorax, normotension and hypertension are the listed contraindications — without tension physiology and hypotension there is nothing to decompress. Traumatic arrest is itself an indication, and decreased breath sounds and falling ETCO2 are supporting signs of tension.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:tension-pneumothorax"
+   ],
+   "uid": "q_5c8da7b810"
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "landmark",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Where does 8.08 place the incision for a finger thoracostomy?",
+   "options": [
+    "4th or 5th intercostal space, between the anterior and mid-axillary lines",
+    "2nd intercostal space at the mid-clavicular line",
+    "5th intercostal space at the mid-clavicular line",
+    "4th or 5th intercostal space at the posterior axillary line"
+   ],
+   "answer_index": 0,
+   "explanation": "The incision is lateral to the nipple at the 4th or 5th intercostal space, between the anterior and mid-axillary lines. The 2nd intercostal space at the mid-clavicular line is a needle thoracostomy site, not a finger thoracostomy site.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:landmarks"
+   ],
+   "uid": "q_6762e31940"
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "pearl",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "If the provider is in doubt about which rib interspace to use for a finger thoracostomy, what does 8.08 advise?",
+   "options": [
+    "Err one rib interspace more superior",
+    "Err one rib interspace more inferior",
+    "Default to the 2nd intercostal space at the mid-clavicular line",
+    "Confirm the interspace with ultrasound before cutting"
+   ],
+   "answer_index": 0,
+   "explanation": "8.08 directs erring one interspace more superior when in doubt. Going too low risks entering the abdomen through the diaphragm, which is a far worse error than opening the chest one space high.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:landmarks"
+   ],
+   "uid": "q_4ee35e4e34"
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "equipment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Which instrument does 8.08 use to pass through the soft tissue and enter the pleural space after the skin incision?",
+   "options": [
+    "A large Kelly clamp",
+    "A #10 scalpel",
+    "A Ruiz hook",
+    "A bougie"
+   ],
+   "answer_index": 0,
+   "explanation": "The #10 scalpel makes the skin incision only; the large Kelly clamp, held by the shanks, is pushed through the soft tissue to the rib and then over its superior border into the pleural space. The Ruiz hook and bougie belong to the surgical cricothyrotomy kit.",
+   "priority": "detail",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:equipment"
+   ],
+   "uid": "q_56a2971c98"
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "complication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Which structures does 8.08 warn lie at the inferior border of the rib and must be avoided during a finger thoracostomy?",
+   "options": [
+    "The intercostal vein, artery and nerve",
+    "The pleura and endothoracic fascia",
+    "The innermost intercostal muscle",
+    "The superficial fascia"
+   ],
+   "answer_index": 0,
+   "explanation": "The neurovascular bundle runs in the groove along the inferior rib border, so the clamp is pressed over the TOP of the rib. Striking that bundle causes brisk arterial bleeding into a chest that is already compromised.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:complications"
+   ],
+   "uid": "q_0b2f652776"
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "sequence",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "In 8.08, what is the next step immediately after the Kelly clamp has been pressed over the rib and into the pleural space?",
+   "options": [
+    "Spread the clamp as you pull it out to enlarge the opening",
+    "Insert a gloved finger to verify entry into the pleura",
+    "Place a vented chest seal over the site",
+    "Make a 2-inch transverse incision"
+   ],
+   "answer_index": 0,
+   "explanation": "The opening is enlarged by spreading the Kelly clamp as it is withdrawn, and only then is the gloved finger inserted to verify the pleura has been entered. Inserting the finger into an unspread tract usually fails to confirm anything.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:steps"
+   ],
+   "uid": "q_f280d0a529"
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "How does 8.08 direct the crew to verify that the pleural space has actually been entered?",
+   "options": [
+    "Insert a gloved finger and hook it against the inner side of the ribs",
+    "Auscultate for returning breath sounds on the treated side",
+    "Observe a rise in ETCO2 on the waveform",
+    "Look for a rush of air escaping the incision"
+   ],
+   "answer_index": 0,
+   "explanation": "Confirmation is tactile: a gloved finger is inserted and hooked to feel the inner surface of the ribs. 8.08 also warns that rib fractures may be present and can lacerate the finger.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:confirmation"
+   ],
+   "uid": "q_70b3bd4857"
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What estimated volume of blood return from a finger thoracostomy prompts an occlusive dressing and initiation of blood products?",
+   "options": [
+    "More than 1000 mL",
+    "More than 500 mL",
+    "More than 1500 mL",
+    "More than 2000 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Excessive blood return estimated at more than 1000 mL means the open chest is now the exsanguination route, so the site is occluded deliberately to tamponade and blood products are started. The crew must then watch for a recurrent tension pneumothorax.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:hemorrhage"
+   ],
+   "uid": "q_ca7791fb5d"
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "page": 193,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "The patient re-tensions after a finger thoracostomy. What does 8.08 direct the crew to do?",
+   "options": [
+    "Insert a finger into the existing incision",
+    "Make a new incision one interspace more superior",
+    "Perform a needle decompression on the same side",
+    "Place a vented chest seal over the incision"
+   ],
+   "answer_index": 0,
+   "explanation": "The tract is already there; re-tensioning means it has sealed over, so the finger goes back into the existing incision to re-open the pleura. A second incision or a needle adds injury without addressing the closed tract.",
+   "priority": "core",
+   "tags": [
+    "procedure:finger-thoracostomy",
+    "topic:tension-pneumothorax"
+   ],
+   "uid": "q_ad79e1b6f4"
+  },
+  {
+   "number": "8.09",
+   "title": "Flow-Safe II CPAP Delivery System",
+   "page": 195,
+   "type": "indication",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "Which patient presentation is listed as an indication for the Flow-Safe II CPAP delivery system?",
+   "options": [
+    "CHF/pulmonary edema",
+    "Pneumothorax",
+    "Respiratory failure",
+    "Severe altered level of consciousness"
+   ],
+   "answer_index": 0,
+   "explanation": "CHF/pulmonary edema, asthma/COPD, moderate to severe respiratory distress and pre-oxygenation for RSI are the indications. Pneumothorax, frank respiratory failure and severe altered LOC are all contraindications — CPAP needs a patient who can breathe and protect the airway.",
+   "priority": "core",
+   "tags": [
+    "procedure:cpap",
+    "topic:respiratory-distress"
+   ],
+   "uid": "q_d344cf83e8"
+  },
+  {
+   "number": "8.09",
+   "title": "Flow-Safe II CPAP Delivery System",
+   "page": 195,
+   "type": "threshold",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "Below what systolic blood pressure is the Flow-Safe II CPAP system contraindicated?",
+   "options": [
+    "SBP < 100",
+    "SBP < 90",
+    "SBP < 80",
+    "SBP < 70"
+   ],
+   "answer_index": 0,
+   "explanation": "8.09 lists SBP < 100 as a contraindication. Positive intrathoracic pressure reduces venous return, so CPAP can tip a marginally compensated patient into frank hypotension.",
+   "priority": "core",
+   "tags": [
+    "procedure:cpap",
+    "topic:hypotension"
+   ],
+   "uid": "q_1a92f92fa9"
+  },
+  {
+   "number": "8.09",
+   "title": "Flow-Safe II CPAP Delivery System",
+   "page": 195,
+   "type": "threshold",
+   "care_level": "BLS",
+   "population": "pediatric",
+   "stem": "At or below what weight are pediatric patients contraindicated for the Flow-Safe II CPAP system, absent a ventilator malfunction?",
+   "options": [
+    "15 kg",
+    "10 kg",
+    "20 kg",
+    "25 kg"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric patients weighing 15 kg or less are a contraindication unless the ventilator has malfunctioned. The Flow-Safe II is a fixed, flow-driven device with no ability to scale safely to a small child.",
+   "priority": "core",
+   "tags": [
+    "procedure:cpap",
+    "population:pediatric"
+   ],
+   "uid": "q_d29e642f07"
+  },
+  {
+   "number": "8.09",
+   "title": "Flow-Safe II CPAP Delivery System",
+   "page": 195,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "On the Flow-Safe II flow chart, which oxygen flow rate corresponds to a desired PEEP of 10 cmH2O?",
+   "options": [
+    "13 – 14 LPM",
+    "8 – 9 LPM",
+    "10 – 12 LPM",
+    "Flush"
+   ],
+   "answer_index": 0,
+   "explanation": "The chart attached to the oxygen tubing pairs 5 cmH2O with 8–9 LPM, 7.5 cmH2O with 10–12 LPM, 10 cmH2O with 13–14 LPM, and 13 cmH2O (the maximum) with flush. The Flow-Safe II has no PEEP dial — flow IS the PEEP setting.",
+   "priority": "core",
+   "tags": [
+    "procedure:cpap",
+    "topic:peep"
+   ],
+   "uid": "q_4b0201a04a"
+  },
+  {
+   "number": "8.09",
+   "title": "Flow-Safe II CPAP Delivery System",
+   "page": 195,
+   "type": "threshold",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "By how much may the pressure shown on the Flow-Safe II manometer differ from the desired CPAP level, per 8.09?",
+   "options": [
+    "± 3 cmH2O",
+    "± 1 cmH2O",
+    "± 2 cmH2O",
+    "± 5 cmH2O"
+   ],
+   "answer_index": 0,
+   "explanation": "8.09 accepts a reading within ± 3 cmH2O of the desired CPAP. A larger discrepancy usually means a mask leak, which is corrected by repositioning or changing mask size rather than by turning up the flow.",
+   "priority": "detail",
+   "tags": [
+    "procedure:cpap",
+    "topic:peep"
+   ],
+   "uid": "q_c6fb24ed38"
+  },
+  {
+   "number": "8.09",
+   "title": "Flow-Safe II CPAP Delivery System",
+   "page": 195,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "A patient requires both ventilatory and oxygenation support. What does 8.09 direct instead of the Flow-Safe II?",
+   "options": [
+    "BiPAP therapy via ventilator",
+    "CPAP at a higher PEEP level",
+    "High flow nasal cannula",
+    "A non-rebreather mask"
+   ],
+   "answer_index": 0,
+   "explanation": "The Flow-Safe II provides CPAP only, so it supports oxygenation but does nothing for ventilation. A patient who is also failing to ventilate needs BiPAP delivered through the transport ventilator.",
+   "priority": "core",
+   "tags": [
+    "procedure:cpap",
+    "topic:ventilation"
+   ],
+   "uid": "q_3d806ea66d"
+  },
+  {
+   "number": "8.09",
+   "title": "Flow-Safe II CPAP Delivery System",
+   "page": 195,
+   "type": "procedure",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "If nebulized medication is needed for a patient on the Flow-Safe II, where does 8.09 direct the nebulizer to be connected?",
+   "options": [
+    "Between the mask and the Flow-Safe manometer via a T piece",
+    "Between the flow sensor and the ETT",
+    "Into the ventilator's nebulizer port",
+    "Upstream of the device at the oxygen source"
+   ],
+   "answer_index": 0,
+   "explanation": "The nebulizer set-up goes between the mask and the manometer using a T piece, so the drug is delivered close to the patient without disturbing the pressure reading. Its own oxygen tubing must run to a secondary oxygen source.",
+   "priority": "detail",
+   "tags": [
+    "procedure:cpap",
+    "drug:nebulized",
+    "topic:nebulizer"
+   ],
+   "uid": "q_6e78374107"
+  },
+  {
+   "number": "8.09",
+   "title": "Flow-Safe II CPAP Delivery System",
+   "page": 195,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "When a nebulizer is added to the Flow-Safe II circuit, where does 8.09 direct its oxygen tubing to be connected?",
+   "options": [
+    "To a secondary oxygen source",
+    "To the same oxygen source driving the CPAP",
+    "To the ventilator high-pressure inlet",
+    "To a flow meter Christmas tree on the CPAP line"
+   ],
+   "answer_index": 0,
+   "explanation": "The nebulizer runs off a second oxygen source. Sharing the CPAP source would steal flow and drop the delivered PEEP, which on this device is set purely by flow rate.",
+   "priority": "detail",
+   "tags": [
+    "procedure:cpap",
+    "topic:nebulizer",
+    "topic:oxygen"
+   ],
+   "uid": "q_36f25ab236"
+  },
+  {
+   "number": "8.10",
+   "title": "Gastric Tube Insertion",
+   "page": 196,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which patient condition is listed as an indication for gastric tube insertion in 8.10?",
+   "options": [
+    "Gastric distension",
+    "Esophageal rupture",
+    "Caustic ingestion",
+    "Severe facial trauma"
+   ],
+   "answer_index": 0,
+   "explanation": "Intubation, comatose patients, GI bleeds, overdoses, gastric distension and gastric obstruction are the indications. Esophageal rupture, caustic ingestion and severe facial trauma are contraindications — in each, blind tube passage risks creating or extending a perforation.",
+   "priority": "core",
+   "tags": [
+    "procedure:gastric-tube",
+    "topic:decompression"
+   ],
+   "uid": "q_9f96374769"
+  },
+  {
+   "number": "8.10",
+   "title": "Gastric Tube Insertion",
+   "page": 196,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A patient who needs gastric decompression has had recent nasal surgery. What does 8.10 direct?",
+   "options": [
+    "Place an orogastric tube instead",
+    "Place a nasogastric tube in the opposite nare",
+    "Withhold gastric tube placement entirely",
+    "Place the nasogastric tube with extra lubrication"
+   ],
+   "answer_index": 0,
+   "explanation": "Recent nasal surgery is a contraindication to the nasal route only — 8.10 specifically notes an OG may be placed. The other listed contraindications (esophageal rupture, caustic ingestion) rule out both routes.",
+   "priority": "core",
+   "tags": [
+    "procedure:gastric-tube",
+    "route:og"
+   ],
+   "uid": "q_09746d8696"
+  },
+  {
+   "number": "8.10",
+   "title": "Gastric Tube Insertion",
+   "page": 196,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How does 8.10 direct nasogastric tube insertion depth to be measured?",
+   "options": [
+    "Tip of the nose to the corner of the ear, then to the xiphoid process",
+    "Corner of the mouth to the tip of the ear, then to the xiphoid process",
+    "Tip of the nose to the earlobe, then to the umbilicus",
+    "Corner of the mouth to the angle of the jaw, then to the sternal notch"
+   ],
+   "answer_index": 0,
+   "explanation": "The NG measurement starts at the tip of the nose; the mouth-to-ear-to-xiphoid route is the orogastric measurement. Using the OG measurement for an NG leaves the tube short of the stomach by roughly the length of the nasal passage.",
+   "priority": "core",
+   "tags": [
+    "procedure:gastric-tube",
+    "route:ng"
+   ],
+   "uid": "q_77989ba25c"
+  },
+  {
+   "number": "8.10",
+   "title": "Gastric Tube Insertion",
+   "page": 196,
+   "type": "complication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "During nasogastric tube insertion the patient begins to cough and develops new onset dyspnea. What does 8.10 direct?",
+   "options": [
+    "Remove the tube",
+    "Withdraw the tube slightly and reassess",
+    "Continue advancing as the patient swallows",
+    "Apply suction and continue advancing"
+   ],
+   "answer_index": 0,
+   "explanation": "Coughing or new dyspnea suggests the tube has entered the airway, so 8.10 directs removal rather than repositioning. Continuing to advance risks intubating the trachea with a gastric tube.",
+   "priority": "core",
+   "tags": [
+    "procedure:gastric-tube",
+    "topic:complications"
+   ],
+   "uid": "q_b7fb296d73"
+  },
+  {
+   "number": "8.10",
+   "title": "Gastric Tube Insertion",
+   "page": 196,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "What size syringe does 8.10 specify for aspirating gastric contents to assess tube placement?",
+   "options": [
+    "60 mL",
+    "20 mL",
+    "10 mL",
+    "3 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "A 60 mL syringe is connected and aspirated back while assessing for gastric contents. The same assessment then uses a separate injection of air while listening over the stomach.",
+   "priority": "detail",
+   "tags": [
+    "procedure:gastric-tube",
+    "topic:confirmation"
+   ],
+   "uid": "q_934b0e5548"
+  },
+  {
+   "number": "8.10",
+   "title": "Gastric Tube Insertion",
+   "page": 196,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "After aspirating for gastric contents, how much air does 8.10 direct to be injected while listening over the stomach?",
+   "options": [
+    "About 20 mL",
+    "About 60 mL",
+    "About 10 mL",
+    "About 5 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Roughly 20 mL of air is injected and the crew listens or feels for the air rush in the stomach. This applies identically to the nasogastric and orogastric routes.",
+   "priority": "detail",
+   "tags": [
+    "procedure:gastric-tube",
+    "topic:confirmation"
+   ],
+   "uid": "q_545aa4c314"
+  },
+  {
+   "number": "8.10",
+   "title": "Gastric Tube Insertion",
+   "page": 196,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Once gastric tube placement is confirmed, what does 8.10 specify about securing the tube?",
+   "options": [
+    "Tape it in place, but not to the ETT",
+    "Tape it to the ETT so the two move together",
+    "Suture it in place before transport",
+    "Secure it with a commercial tube holder"
+   ],
+   "answer_index": 0,
+   "explanation": "8.10 explicitly states the gastric tube should NOT be taped to the ETT. Tying the two together means any tug on the gastric tube transmits directly to the airway and risks extubation.",
+   "priority": "core",
+   "tags": [
+    "procedure:gastric-tube",
+    "topic:securement"
+   ],
+   "uid": "q_9bebf6149e"
+  },
+  {
+   "number": "8.11",
+   "title": "Hemostatic Agents",
+   "page": 197,
+   "type": "sequence",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Before packing a hemostatic agent into a wound, what does 8.11 direct be done first?",
+   "options": [
+    "Remove any saturated gauze from the wound",
+    "Irrigate the wound with sterile saline",
+    "Apply a tourniquet proximal to the wound",
+    "Pack the wound with plain gauze first"
+   ],
+   "answer_index": 0,
+   "explanation": "Saturated gauze is removed so the hemostatic agent can make direct contact with the bleeding vessels. An agent packed on top of blood-soaked gauze never reaches the source and will fail.",
+   "priority": "core",
+   "tags": [
+    "procedure:hemostatic-agent",
+    "topic:hemorrhage-control"
+   ],
+   "uid": "q_5f09148898"
+  },
+  {
+   "number": "8.11",
+   "title": "Hemostatic Agents",
+   "page": 197,
+   "type": "procedure",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "After packing rolled gauze into the wound, how long does 8.11 direct direct pressure to be held?",
+   "options": [
+    "3 minutes",
+    "5 minutes",
+    "10 minutes",
+    "2 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "8.11 directs a continuous 3 minutes of direct pressure on the bleeding source through the packed gauze. Releasing early is the most common reason a hemostatic dressing fails.",
+   "priority": "core",
+   "tags": [
+    "procedure:hemostatic-agent",
+    "topic:hemorrhage-control"
+   ],
+   "uid": "q_fbdb64ab04"
+  },
+  {
+   "number": "8.11",
+   "title": "Hemostatic Agents",
+   "page": 197,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "A hemostatic dressing packed into a wound is now fully red. What does 8.11 direct?",
+   "options": [
+    "Remove it and replace it with a new hemostatic dressing",
+    "Add a second dressing on top and hold pressure",
+    "Apply a tourniquet proximal to the wound",
+    "Wrap and tie the bandage to maintain pressure"
+   ],
+   "answer_index": 0,
+   "explanation": "A fully red dressing means the agent was not applied to the bleeding source or pressure was not held long enough, so it is removed and replaced rather than layered over. Wrapping and tying is only done once bleeding is actually controlled.",
+   "priority": "core",
+   "tags": [
+    "procedure:hemostatic-agent",
+    "topic:hemorrhage-control"
+   ],
+   "uid": "q_e89d527c95"
+  },
+  {
+   "number": "8.11",
+   "title": "Hemostatic Agents",
+   "page": 197,
+   "type": "class",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "With which agent are QuickClot dressings impregnated, per 8.11 PEARLS?",
+   "options": [
+    "Kaolin, an inorganic mineral",
+    "Chitosan derived from shellfish",
+    "Thrombin of human origin",
+    "Zeolite, which is exothermic"
+   ],
+   "answer_index": 0,
+   "explanation": "QuickClot uses kaolin, an inorganic mineral. 8.11 specifically notes the dressings contain no human, animal or shellfish product and do not cause an exothermic reaction, so shellfish allergy and burn risk are not reasons to withhold them.",
+   "priority": "detail",
+   "tags": [
+    "procedure:hemostatic-agent",
+    "topic:quickclot"
+   ],
+   "uid": "q_47397f0254"
+  },
+  {
+   "number": "8.11",
+   "title": "Hemostatic Agents",
+   "page": 197,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "How long may a hemostatic dressing remain in a wound, per 8.11 PEARLS?",
+   "options": [
+    "Up to 24 hours",
+    "Up to 12 hours",
+    "Up to 48 hours",
+    "Up to 6 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "Dressings can stay packed for up to 24 hours, which comfortably covers any transport. There is no reason to disturb a controlled wound en route — 8.11 warns 'if you peek, you leak.'",
+   "priority": "detail",
+   "tags": [
+    "procedure:hemostatic-agent",
+    "topic:hemorrhage-control"
+   ],
+   "uid": "q_678d769c73"
+  },
+  {
+   "number": "8.11",
+   "title": "Hemostatic Agents",
+   "page": 197,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Besides major hemorrhage, what other use for hemostatic agents does 8.11 PEARLS describe?",
+   "options": [
+    "Controlling nuisance bleeding such as head lacerations",
+    "Packing open abdominal evisceration wounds",
+    "Hemostasis at intraosseous insertion sites",
+    "Control of epistaxis after nasal airway placement"
+   ],
+   "answer_index": 0,
+   "explanation": "8.11 notes hemostatic agents are not reserved for exsanguinating injury — they are effective for persistent 'nuisance bleeding' such as scalp lacerations that would otherwise consume crew attention throughout transport.",
+   "priority": "detail",
+   "tags": [
+    "procedure:hemostatic-agent",
+    "topic:hemorrhage-control"
+   ],
+   "uid": "q_c51af17283"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A patient is being prepared for RSI. What role does 8.12 give to high flow nasal cannula?",
+   "options": [
+    "Pre-oxygenation and apneic oxygenation during RSI",
+    "Post-intubation oxygen conservation",
+    "A bridge to CPAP after extubation",
+    "Humidified oxygen delivery only"
+   ],
+   "answer_index": 0,
+   "explanation": "Pre and apneic oxygenation during RSI is an explicit indication — the high flow continues to drive oxygen into the airway through the apneic period. Hypoxia, hypercarbia and mild to moderate respiratory distress are the other listed indications.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc",
+    "topic:oxygenation"
+   ],
+   "uid": "q_bb2c8da5a7"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "contraindication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which finding contraindicates high flow nasal cannula under 8.12?",
+   "options": [
+    "Basilar skull fracture",
+    "Hypercarbia",
+    "Mild to moderate respiratory distress",
+    "Hypoxia"
+   ],
+   "answer_index": 0,
+   "explanation": "Basilar skull fracture is a contraindication because high flow into the nasopharynx can be driven through the skull base defect. Hypoxia, hypercarbia and mild to moderate distress are indications for the therapy.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc",
+    "topic:head-injury"
+   ],
+   "uid": "q_e0652074eb"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What adult flow rate range does 8.12 give for high flow nasal cannula?",
+   "options": [
+    "8 – 60 LPM",
+    "8 – 9 LPM",
+    "13 – 14 LPM",
+    "0.5 – 1 L/kg/min"
+   ],
+   "answer_index": 0,
+   "explanation": "Adults are run at 8–60 LPM, titrated to work of breathing while FiO2 is titrated to oxygenation. The weight-based 0.5–1 L/kg/min figure is the pediatric rate, and the single-digit LPM figures belong to the Flow-Safe II CPAP chart.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc",
+    "population:adult",
+    "topic:flow-rate"
+   ],
+   "uid": "q_2ab05c1f4c"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "threshold",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "What pediatric flow rate range does 8.12 give for high flow nasal cannula?",
+   "options": [
+    "0.5 – 1 L/kg/min",
+    "2 L/kg/min",
+    "8 – 60 LPM",
+    "20 LPM"
+   ],
+   "answer_index": 0,
+   "explanation": "Pediatric HFNC starts at 0.5–1 L/kg/min. The 2 L/kg/min and 20 LPM figures are the ceiling that may be used only when transporting without heat and humidification, not the starting range.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc",
+    "population:pediatric",
+    "topic:flow-rate"
+   ],
+   "uid": "q_3bbac8c53e"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "max_dose",
+   "care_level": "ALS",
+   "population": "pediatric",
+   "stem": "To what may the pediatric HFNC flow be titrated if there is no heat or humidification, per 8.12?",
+   "options": [
+    "2 L/kg/min or 20 LPM",
+    "1 L/kg/min or 8 LPM",
+    "0.5 L/kg/min or 8 LPM",
+    "60 LPM"
+   ],
+   "answer_index": 0,
+   "explanation": "Without heat and humidification the pediatric flow may be titrated up to 2 L/kg/min or 20 LPM. The 60 LPM ceiling applies to adults only.",
+   "priority": "detail",
+   "tags": [
+    "procedure:hfnc",
+    "population:pediatric",
+    "topic:flow-rate"
+   ],
+   "uid": "q_a7d0ac48df"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "special",
+   "care_level": "ALS",
+   "population": "adult",
+   "stem": "What does 8.12 require before transporting an adult on HFNC without heat and/or humidification?",
+   "options": [
+    "Approval from the sending provider or OLMC",
+    "A physician escort for the transport",
+    "Notification of the receiving facility only",
+    "A baseline arterial blood gas"
+   ],
+   "answer_index": 0,
+   "explanation": "8.12 carries this in a red box: approval from the sending provider or OLMC is required for unheated, unhumidified HFNC in adults, because dry high flow gas rapidly dries secretions and injures the nasal mucosa.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc",
+    "topic:olmc"
+   ],
+   "uid": "q_f7de5c4513"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "procedure",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "How does 8.12 direct the RAM cannula prongs to be sized against the patient's nares?",
+   "options": [
+    "They should not occlude more than 80% of the nares",
+    "They should completely occlude the nares to hold pressure",
+    "They should occlude roughly half of the nares",
+    "They should be sized to the smaller of the two nares"
+   ],
+   "answer_index": 0,
+   "explanation": "The prongs must leave a leak — no more than 80% occlusion — so that exhaled gas can escape. A fully occlusive fit converts HFNC into an uncontrolled positive-pressure device.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc",
+    "topic:ram-cannula"
+   ],
+   "uid": "q_e5dde59b44"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "equipment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which Hamilton T-1 mode does 8.12 direct for delivering high flow nasal cannula?",
+   "options": [
+    "HiFloO2 under Noninvasive",
+    "CPAP under Noninvasive",
+    "Assist/Control volume",
+    "LPO (low pressure oxygen)"
+   ],
+   "answer_index": 0,
+   "explanation": "HFNC is run in HiFloO2 mode found under Noninvasive, with FiO2 and flow set independently. LPO is not available at all while HiFloO2 is running.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc",
+    "topic:ventilator"
+   ],
+   "uid": "q_d02ec8413a"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 198,
+   "type": "treatment",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "A patient on high flow nasal cannula deteriorates during transport. What does 8.12 direct the crew to consider?",
+   "options": [
+    "CPAP, BiPAP, or intubation (RSI)",
+    "Increasing the flow rate above 60 LPM",
+    "Switching to a non-rebreather mask",
+    "Adding LPO mode to conserve oxygen"
+   ],
+   "answer_index": 0,
+   "explanation": "HFNC has a ceiling; a deteriorating patient escalates to CPAP, BiPAP or RSI rather than to more flow. LPO is unavailable during HFNC therapy and a non-rebreather is a step down, not up.",
+   "priority": "core",
+   "tags": [
+    "procedure:hfnc",
+    "topic:escalation"
+   ],
+   "uid": "q_4f95105d32"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 199,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "Which oxygen-conserving ventilator mode is unavailable while HFNC therapy is running, per 8.12 PEARLS?",
+   "options": [
+    "Low Pressure Oxygen (LPO)",
+    "HiFloO2",
+    "Noninvasive CPAP",
+    "Assist/Control"
+   ],
+   "answer_index": 0,
+   "explanation": "LPO cannot be used during HFNC. If oxygen conservation becomes necessary on a long transport, 8.12 directs switching the patient to CPAP or BiPAP instead — which is why the LFN oxygen calculator must be run before departure.",
+   "priority": "detail",
+   "tags": [
+    "procedure:hfnc",
+    "topic:oxygen"
+   ],
+   "uid": "q_c2b29d8b6e"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 199,
+   "type": "mechanism",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 8.12 PEARLS give as the therapeutic goal of high flow oxygen therapy?",
+   "options": [
+    "Increase PaO2 to widen the oxygen diffusion gradient",
+    "Generate a set level of positive end-expiratory pressure",
+    "Unload the diaphragm to reduce work of breathing",
+    "Provide ventilatory as well as oxygenation support"
+   ],
+   "answer_index": 0,
+   "explanation": "High flow delivers volumes beyond what the patient ventilates, washing out CO2 from the upper airway and raising delivered O2; the stated goal is a higher PaO2 and therefore a steeper diffusion gradient. It is not a pressure-targeted mode.",
+   "priority": "detail",
+   "tags": [
+    "procedure:hfnc",
+    "topic:physiology"
+   ],
+   "uid": "q_90809af0de"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "page": 199,
+   "type": "pearl",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "If a Hamilton T-1 is not readily available, what alternative does 8.12 PEARLS permit for the RAM cannula?",
+   "options": [
+    "Regular oxygen tubing on a flow meter Christmas tree",
+    "A Flow-Safe II CPAP device with the mask removed",
+    "An LTV ventilator run in HiFloO2 mode",
+    "A non-rebreather reservoir line at 15 LPM"
+   ],
+   "answer_index": 0,
+   "explanation": "The RAM cannula can be driven from regular oxygen tubing on a standard flow meter, but 8.12 warns this gives a reduced maximum flow rate and no humidification.",
+   "priority": "detail",
+   "tags": [
+    "procedure:hfnc",
+    "topic:ram-cannula"
+   ],
+   "uid": "q_2e437fd351"
+  },
+  {
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 200,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "How many autofill cycles does the internal helium reservoir of the Maquet IABP hold?",
+   "options": [
+    "36",
+    "6",
+    "12",
+    "24"
+   ],
+   "answer_index": 0,
+   "explanation": "The internal reservoir carries enough helium for 36 autofill cycles. Because altitude change, power cycling and run time all consume cycles, the crew must budget them against the planned flight profile.",
+   "priority": "core",
+   "tags": [
+    "procedure:iabp",
+    "topic:helium"
+   ],
+   "uid": "q_56b447bffe"
+  },
+  {
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 200,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "How many autofill cycles does the Maquet IABP perform each time the pump is powered on or off, or the balloon is disconnected and reconnected?",
+   "options": [
+    "6",
+    "36",
+    "1",
+    "2"
+   ],
+   "answer_index": 0,
+   "explanation": "Each power cycle or balloon disconnect/reconnect costs 6 autofill cycles out of a reservoir of 36. Needless power cycling on the ramp can consume a third of the available helium before the flight begins.",
+   "priority": "detail",
+   "tags": [
+    "procedure:iabp",
+    "topic:helium"
+   ],
+   "uid": "q_307f2b154f"
+  },
+  {
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 200,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "During IABP transport, at what interval of altitude GAIN does the Maquet pump perform an autofill cycle?",
+   "options": [
+    "Every 1000 feet",
+    "Every 2000 feet",
+    "Every 500 feet",
+    "Every 2 hours"
+   ],
+   "answer_index": 0,
+   "explanation": "An internal transducer senses barometric change, triggering one autofill for every 1000 feet of climb and one for every 2000 feet of descent. Climbing therefore burns helium twice as fast as descending.",
+   "priority": "core",
+   "tags": [
+    "procedure:iabp",
+    "topic:altitude"
+   ],
+   "uid": "q_42b7c02178"
+  },
+  {
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 200,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "Apart from altitude change, at what interval does the Maquet IABP perform an additional autofill cycle?",
+   "options": [
+    "Every 2 hours of pump operation",
+    "Every 15 minutes of pump operation",
+    "Every 30 minutes of pump operation",
+    "Every 6 hours of pump operation"
+   ],
+   "answer_index": 0,
+   "explanation": "One extra autofill occurs for every 2 hours of pump operation. On a long fixed-wing leg this time-based consumption must be added to the altitude-driven cycles when estimating remaining helium.",
+   "priority": "detail",
+   "tags": [
+    "procedure:iabp",
+    "topic:helium"
+   ],
+   "uid": "q_5bca5bbb4a"
+  },
+  {
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 200,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "To what pressure does 8.13 direct the IABP flush bag pressure infuser to be inflated?",
+   "options": [
+    "300 mmHg",
+    "250 mmHg",
+    "200 mmHg",
+    "150 mmHg"
+   ],
+   "answer_index": 0,
+   "explanation": "The pressure bag is inflated to 300 mmHg, the line flushed for several seconds, and the zero button held for two seconds. Too little pressure allows blood to track back and damp or clot the inner lumen.",
+   "priority": "detail",
+   "tags": [
+    "procedure:iabp",
+    "topic:transducer"
+   ],
+   "uid": "q_b0ce58effa"
+  },
+  {
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 200,
+   "type": "special",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "The patient arrives on an Arrow pump with an Arrow fiber-optic balloon. What does 8.13 require when transferring to the Maquet console?",
+   "options": [
+    "Use the pressure cable and transducer for the IAB",
+    "Zero the fiber-optic cable before pressing START",
+    "Connect the fiber-optic sensor cable first",
+    "Run the pump in semi-auto mode for the transport"
+   ],
+   "answer_index": 0,
+   "explanation": "An Arrow fiber-optic balloon will not communicate with the Maquet console, so timing must come from the conventional pressure cable and transducer. Connecting the fiber-optic cable first applies only to a Maquet/Datascope balloon.",
+   "priority": "core",
+   "tags": [
+    "procedure:iabp",
+    "topic:transfer"
+   ],
+   "uid": "q_b7ba22fd41"
+  },
+  {
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 201,
+   "type": "treatment",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "The IABP arterial pressure waveform becomes damped in flight. What does 8.13 direct first?",
+   "options": [
+    "Aspirate 3 mL from the IAB inner lumen and discard it",
+    "Flush the inner lumen for 15 seconds",
+    "Place the pump on standby and switch to semi-auto",
+    "Cap the lumen and use an alternative pressure source"
+   ],
+   "answer_index": 0,
+   "explanation": "Aspirating 3 mL first tells you whether the lumen is patent. If blood returns, the line is flushed for 15 seconds with the pump on standby; if nothing aspirates, the lumen is presumed clotted and is capped with an alternative pressure source used.",
+   "priority": "core",
+   "tags": [
+    "procedure:iabp",
+    "topic:waveform"
+   ],
+   "uid": "q_a0acd93125"
+  },
+  {
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 201,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "How often does 8.13 direct the IAB inner lumen to be flushed during transport to prevent damping?",
+   "options": [
+    "Every 15 minutes",
+    "Every 30 minutes",
+    "Every hour",
+    "Every 5 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "A brief flush of the inner lumen every 15 minutes maintains patency. Losing the pressure waveform in flight costs the trigger source for timing if no fiber-optic cable is in place.",
+   "priority": "core",
+   "tags": [
+    "procedure:iabp",
+    "topic:waveform"
+   ],
+   "uid": "q_ccd6e286b3"
+  },
+  {
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 202,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "Where should the IABP Augmentation alarm be set relative to the patient's augmented diastolic pressure?",
+   "options": [
+    "10 mmHg below it",
+    "10 mmHg above it",
+    "20 mmHg below it",
+    "5 mmHg below it"
+   ],
+   "answer_index": 0,
+   "explanation": "The augmentation alarm is set 10 mmHg below the patient's augmented diastolic pressure, roughly 3 minutes after assist begins. Set that close, any real loss of augmentation alarms promptly instead of being missed.",
+   "priority": "core",
+   "tags": [
+    "procedure:iabp",
+    "topic:alarms"
+   ],
+   "uid": "q_2d27588192"
+  },
+  {
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 202,
+   "type": "equipment",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "Which operation mode does 8.13 designate as the default on the Maquet IABP?",
+   "options": [
+    "Auto",
+    "Semi-auto",
+    "Manual",
+    "Standby"
+   ],
+   "answer_index": 0,
+   "explanation": "Auto is the default; semi-auto is rarely needed. In auto the pump selects the lead and trigger and manages inflation/deflation timing continuously, which is what you want in a vibrating, noisy aircraft.",
+   "priority": "detail",
+   "tags": [
+    "procedure:iabp",
+    "topic:modes"
+   ],
+   "uid": "q_27c395ca4a"
+  },
+  {
+   "number": "8.13",
+   "title": "Intra-Aortic Balloon Pump (Maquet)",
+   "page": 200,
+   "type": "special",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "After the IABP and patient are loaded into the rotor-wing aircraft, where does 8.13 direct the pump to be secured?",
+   "options": [
+    "Between the stretcher and the aft-facing seat",
+    "Behind the forward-facing seat, left of the loading door",
+    "On the brownline rail with the foam pad removed",
+    "At the forward bulkhead beside the patient's head"
+   ],
+   "answer_index": 0,
+   "explanation": "In the rotor the IABP sits between the stretcher and the aft-facing seat; behind the forward-facing seat left of the patient loading door is the fixed-wing position. In both, the foam pad keeps the pump off the brownline rail and Pilatus tie-down straps run through the pump handles.",
+   "priority": "detail",
+   "tags": [
+    "procedure:iabp",
+    "topic:aircraft"
+   ],
+   "uid": "q_ab52ebf4e6"
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "indication",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Which airway reflex finding does 8.14 require before an i-gel is placed?",
+   "options": [
+    "An absent gag reflex",
+    "An intact gag reflex",
+    "An absent cough reflex",
+    "A preserved swallow reflex"
+   ],
+   "answer_index": 0,
+   "explanation": "The indication is an unconscious patient with respiratory compromise AND an absent gag reflex; a responsive patient with a gag reflex is an explicit contraindication, since the device will be rejected or provoke vomiting.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "topic:airway"
+   ],
+   "uid": "q_53125cc244"
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "contraindication",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Which condition is listed as a contraindication to the i-gel in 8.14?",
+   "options": [
+    "Known esophageal disease",
+    "An absent gag reflex",
+    "Respiratory compromise",
+    "Unconsciousness"
+   ],
+   "answer_index": 0,
+   "explanation": "Known esophageal disease, caustic ingestion and a responsive patient with a gag reflex are the contraindications. Unconsciousness, respiratory compromise and an absent gag reflex together form the indication.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "topic:airway"
+   ],
+   "uid": "q_63f323c4d1"
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "Using the 8.14 sizing table, which i-gel size is indicated for a 70 kg adult?",
+   "options": [
+    "Size 4",
+    "Size 3",
+    "Size 5",
+    "Size 2.5"
+   ],
+   "answer_index": 0,
+   "explanation": "Size 4 (green) is the medium adult device covering 50–90 kg. Size 3 is the small adult at 30–60 kg and size 5 the large adult at 90+ kg, so a 70 kg patient falls squarely in size 4.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "topic:sizing",
+    "population:adult"
+   ],
+   "uid": "q_877831ad38"
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "procedure",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What type of lubricant does 8.14 specify for the i-gel?",
+   "options": [
+    "Water-based",
+    "Silicone-based",
+    "Petroleum-based",
+    "Lidocaine jelly"
+   ],
+   "answer_index": 0,
+   "explanation": "A small bolus of water-based lubricant is used on the back, sides and front of the cuff; 8.14 explicitly prohibits silicone-based lubricants. No bolus may be left sitting in the bowl of the cuff, where it would be driven into the airway on insertion.",
+   "priority": "detail",
+   "tags": [
+    "procedure:i-gel",
+    "topic:preparation"
+   ],
+   "uid": "q_c38117c5bb"
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "procedure",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "In which position does 8.14 direct the patient's head and neck for i-gel insertion, trauma permitting?",
+   "options": [
+    "Sniffing position, head extended and neck flexed",
+    "Neutral in-line with a chin lift",
+    "Full extension with the shoulders padded",
+    "Supine with support under the shoulders and neck"
+   ],
+   "answer_index": 0,
+   "explanation": "The sniffing position with head extended and neck flexed aligns the hypopharynx for the device to glide along the hard palate. The chin is gently pressed down before insertion begins.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "topic:positioning"
+   ],
+   "uid": "q_5add458d77"
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "procedure",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "In which direction does 8.14 direct the leading soft tip of the i-gel to be introduced into the mouth?",
+   "options": [
+    "Toward the hard palate",
+    "Toward the posterior pharyngeal wall",
+    "Toward the floor of the mouth",
+    "Toward the epiglottis"
+   ],
+   "answer_index": 0,
+   "explanation": "The tip is introduced toward the hard palate, then glided downward and backward along it with continuous gentle pressure until definitive resistance is felt. Aiming elsewhere tends to fold the tip or catch the tongue.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "topic:insertion"
+   ],
+   "uid": "q_012b5e7ea6"
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 204,
+   "type": "treatment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Early resistance is met during i-gel insertion. What does 8.14 direct?",
+   "options": [
+    "Perform a jaw thrust and insert with a deep rotation",
+    "Apply firm steady force until the resistance gives",
+    "Withdraw and select the next smaller size",
+    "Insert a finger to guide the device past the tongue"
+   ],
+   "answer_index": 0,
+   "explanation": "Early resistance is managed with a jaw thrust and a deep rotation of the device. 8.14 forbids excessive force and notes it is not necessary to put fingers or thumbs into the patient's mouth during insertion.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "topic:insertion"
+   ],
+   "uid": "q_64114ea6ed"
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 205,
+   "type": "procedure",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "How does 8.14 direct i-gel placement to be confirmed?",
+   "options": [
+    "Waveform ETCO2 plus lung sounds in both fields and the epigastrium",
+    "Chest rise together with misting in the device",
+    "Waveform ETCO2 alone",
+    "Aspiration of gastric contents through the gastric channel"
+   ],
+   "answer_index": 0,
+   "explanation": "Confirmation requires waveform ETCO2 and auscultation of both lung fields and over the epigastrium. Epigastric sounds would indicate the device is seated incorrectly and ventilating the stomach.",
+   "priority": "core",
+   "tags": [
+    "procedure:i-gel",
+    "topic:confirmation"
+   ],
+   "uid": "q_6838e2e52e"
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 205,
+   "type": "equipment",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "In which i-gel sizes does 8.14 permit a #10 feeding tube to be passed down the gastric channel?",
+   "options": [
+    "Size 1.5 and larger",
+    "All i-gel sizes",
+    "Size 3 and larger",
+    "Size 2.5 and larger"
+   ],
+   "answer_index": 0,
+   "explanation": "The gastric channel will accept a #10 feeding tube only in size 1.5 and above; the size 1 neonatal device cannot take one. Decompressing the stomach reduces regurgitation risk around the cuff.",
+   "priority": "detail",
+   "tags": [
+    "procedure:i-gel",
+    "topic:gastric-channel"
+   ],
+   "uid": "q_35f5652408"
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "page": 205,
+   "type": "procedure",
+   "care_level": "BLS",
+   "population": "pediatric",
+   "stem": "The taped securement technique described in 8.14 applies to which i-gel sizes?",
+   "options": [
+    "Sizes 1, 1.5, 2 and 2.5",
+    "Sizes 3, 4 and 5",
+    "All i-gel sizes",
+    "Sizes 2.5 and larger"
+   ],
+   "answer_index": 0,
+   "explanation": "The two-piece nylon tape technique exists for the small devices — sizes 1 through 2.5 — because these tubes are too small for a commercial securement device. Adult sizes are secured with a commercial device.",
+   "priority": "detail",
+   "tags": [
+    "procedure:i-gel",
+    "topic:securement",
+    "population:pediatric"
+   ],
+   "uid": "q_ec242ebf2d"
+  },
+  {
+   "number": "8.15",
+   "title": "Inline Nebulizer Treatment",
+   "page": 207,
+   "type": "indication",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "Which condition is listed as an indication for inline nebulizer treatment in 8.15?",
+   "options": [
+    "Hyperkalemia",
+    "Pneumothorax",
+    "Pulmonary edema",
+    "Hypoxia alone"
+   ],
+   "answer_index": 0,
+   "explanation": "Bronchospasm, croup/epiglottitis/laryngospasm and hyperkalemia are the listed indications — the last because nebulized beta-agonist drives potassium intracellularly. 8.15 lists no contraindications.",
+   "priority": "core",
+   "tags": [
+    "procedure:inline-nebulizer",
+    "topic:bronchospasm"
+   ],
+   "uid": "q_de5864e8c0"
+  },
+  {
+   "number": "8.15",
+   "title": "Inline Nebulizer Treatment",
+   "page": 207,
+   "type": "sequence",
+   "care_level": "ALS",
+   "population": "both",
+   "stem": "In the adult/pediatric circuit diagram in 8.15, where does the inline nebulizer set-up sit?",
+   "options": [
+    "Between the flow sensor and the vent tubing",
+    "Between the ETT and the ETCO2 adaptor",
+    "Between the ETCO2 adaptor and the flow sensor",
+    "Between the ETT and the flow sensor"
+   ],
+   "answer_index": 0,
+   "explanation": "The circuit runs ETT > ETCO2 > flow sensor > inline neb set-up > vent tubing. Placing the nebulizer distal to the flow sensor would add dead space and corrupt the measured volumes.",
+   "priority": "core",
+   "tags": [
+    "procedure:inline-nebulizer",
+    "topic:circuit"
+   ],
+   "uid": "q_429434a8c1"
+  },
+  {
+   "number": "8.15",
+   "title": "Inline Nebulizer Treatment",
+   "page": 209,
+   "type": "complication",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "What does 8.15 PEARLS warn will result from connecting the nebulizer between the flow sensor and the ETT?",
+   "options": [
+    "Increased dead space and incorrect measurements",
+    "Loss of the ETCO2 waveform",
+    "Delivery of the drug into the expiratory limb",
+    "Auto-triggering of the ventilator"
+   ],
+   "answer_index": 0,
+   "explanation": "Putting the nebulizer distal to the flow sensor adds dead space between the sensor and the patient and makes the ventilator's measurements wrong. This is the single most common inline nebulizer set-up error.",
+   "priority": "core",
+   "tags": [
+    "procedure:inline-nebulizer",
+    "topic:dead-space"
+   ],
+   "uid": "q_537c3ee000"
+  },
+  {
+   "number": "8.15",
+   "title": "Inline Nebulizer Treatment",
+   "page": 209,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "On the Hamilton T1, for how long is the fixed nebulizer flow synchronized with the inspiratory phase of each breath?",
+   "options": [
+    "30 minutes",
+    "20 minutes",
+    "10 minutes",
+    "60 minutes"
+   ],
+   "answer_index": 0,
+   "explanation": "The Hamilton T1 runs the fixed nebulizer flow, using 100% O2, synchronized to inspiration for 30 minutes. Crews should expect the feature to stop on its own at that point rather than when the medication cup empties.",
+   "priority": "detail",
+   "tags": [
+    "procedure:inline-nebulizer",
+    "topic:hamilton-t1"
+   ],
+   "uid": "q_cf758da73e"
+  },
+  {
+   "number": "8.15",
+   "title": "Inline Nebulizer Treatment",
+   "page": 209,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "On the Hamilton T1, a pneumatic nebulizer connected to the nebulizer port is optimally specified for approximately what flow?",
+   "options": [
+    "8 L/min",
+    "6 L/min",
+    "10 L/min",
+    "15 L/min"
+   ],
+   "answer_index": 0,
+   "explanation": "The Hamilton T1 nebulizer port is specified for roughly 8 L/min, and the ventilator automatically compensates for the added volume so the set tidal volume is still delivered. The 6 L/min figure is the LTV/ReVel drive port flow.",
+   "priority": "detail",
+   "tags": [
+    "procedure:inline-nebulizer",
+    "topic:hamilton-t1"
+   ],
+   "uid": "q_270de88184"
+  },
+  {
+   "number": "8.15",
+   "title": "Inline Nebulizer Treatment",
+   "page": 209,
+   "type": "threshold",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "When the nebulizer is activated on the LTV/ReVel ventilator, what nominal flow is delivered to the nebulizer drive port?",
+   "options": [
+    "6 L/min",
+    "8 L/min",
+    "2 L/min",
+    "10 L/min"
+   ],
+   "answer_index": 0,
+   "explanation": "The LTV/ReVel delivers a six L/min nominal flow of 100% oxygen to the nebulizer drive port, and reduces inspiratory limb flow to compensate at the patient wye. The 8 L/min figure belongs to the Hamilton T1.",
+   "priority": "detail",
+   "tags": [
+    "procedure:inline-nebulizer",
+    "topic:ltv"
+   ],
+   "uid": "q_80a3368379"
+  },
+  {
+   "number": "8.15",
+   "title": "Inline Nebulizer Treatment",
+   "page": 209,
+   "type": "equipment",
+   "care_level": "PEARLS",
+   "population": "both",
+   "stem": "How does 8.15 PEARLS direct an Aerogen nebulizer to be connected to the Hamilton T1?",
+   "options": [
+    "Via the USB port on the side of the ventilator",
+    "Via the nebulizer port on the front panel",
+    "Via a T piece in the inspiratory limb",
+    "Via the high-pressure oxygen inlet"
+   ],
+   "answer_index": 0,
+   "explanation": "The Aerogen is a vibrating-mesh device and takes its power from the USB port on the side of the Hamilton T1, not from the pneumatic nebulizer port used by jet nebulizers.",
+   "priority": "detail",
+   "tags": [
+    "procedure:inline-nebulizer",
+    "topic:aerogen"
+   ],
+   "uid": "q_fc8668056a"
+  },
+  {
+   "number": "8.16",
+   "title": "Intracranial Pressure Monitoring",
+   "page": 210,
+   "type": "indication",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Which finding is listed as an indication for intracranial pressure monitoring in 8.16?",
+   "options": [
+    "Posturing",
+    "Hypotension",
+    "Seizure activity",
+    "A widened pulse pressure"
+   ],
+   "answer_index": 0,
+   "explanation": "Intraventricular bleeds, CT showing edema and/or shifts, confirmed head injury with GCS < 8 and posturing are the indications. 8.16 lists no contraindications.",
+   "priority": "detail",
+   "tags": [
+    "procedure:icp-monitoring",
+    "topic:head-injury"
+   ],
+   "uid": "q_11832fda5c"
+  },
+  {
+   "number": "8.16",
+   "title": "Intracranial Pressure Monitoring",
+   "page": 210,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Below which Glasgow Coma Scale score does 8.16 indicate ICP monitoring for a confirmed head injury?",
+   "options": [
+    "GCS < 8",
+    "GCS < 9",
+    "GCS < 13",
+    "GCS < 15"
+   ],
+   "answer_index": 0,
+   "explanation": "A confirmed head injury with a GCS below 8 is a listed indication, matching the conventional threshold at which a patient can no longer protect the airway or be followed by serial neuro exam.",
+   "priority": "core",
+   "tags": [
+    "procedure:icp-monitoring",
+    "topic:gcs"
+   ],
+   "uid": "q_a4c3982962"
+  },
+  {
+   "number": "8.16",
+   "title": "Intracranial Pressure Monitoring",
+   "page": 210,
+   "type": "landmark",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "Level with which anatomic landmark does 8.16 direct the ICP transducer to be placed and secured?",
+   "options": [
+    "The foramen of Monro",
+    "The external auditory meatus",
+    "The phlebostatic axis",
+    "The angle of the mandible"
+   ],
+   "answer_index": 0,
+   "explanation": "The transducer is leveled to the foramen of Monro, on the same side the ventriculostomy catheter is inserted. A transducer leveled anywhere else produces an ICP reading that is wrong by the height difference.",
+   "priority": "core",
+   "tags": [
+    "procedure:icp-monitoring",
+    "topic:transducer"
+   ],
+   "uid": "q_f8bc508bd4"
+  },
+  {
+   "number": "8.16",
+   "title": "Intracranial Pressure Monitoring",
+   "page": 210,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "With what does 8.16 direct the ICP transducer system to be primed?",
+   "options": [
+    "Preservative-free normal saline",
+    "Heparinized saline",
+    "Lactated Ringer's solution",
+    "Normal saline under a pressure bag"
+   ],
+   "answer_index": 0,
+   "explanation": "Priming uses preservative-free normal saline under strict aseptic technique. 8.16 also directs that IV fluids must not be hung and a pressure bag must not be used — any pressurized infusion into a ventriculostomy is dangerous.",
+   "priority": "core",
+   "tags": [
+    "procedure:icp-monitoring",
+    "topic:transducer"
+   ],
+   "uid": "q_ef4b9094cb"
+  },
+  {
+   "number": "8.16",
+   "title": "Intracranial Pressure Monitoring",
+   "page": 210,
+   "type": "sequence",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What is the first step in zeroing the ventriculostomy line, per 8.16?",
+   "options": [
+    "Turn the stopcock open to air",
+    "Press Zero on the monitor",
+    "Observe the waveform flatten",
+    "Replace the cap and close the stopcock to air"
+   ],
+   "answer_index": 0,
+   "explanation": "The stopcock is opened to air first, the waveform is observed to flatten, Zero is pressed, and only then is the cap replaced and the stopcock closed to air to begin transducing. Pressing Zero before opening to air zeroes against the patient's pressure.",
+   "priority": "detail",
+   "tags": [
+    "procedure:icp-monitoring",
+    "topic:zeroing"
+   ],
+   "uid": "q_6caae7f699"
+  },
+  {
+   "number": "8.16",
+   "title": "Intracranial Pressure Monitoring",
+   "page": 210,
+   "type": "special",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "When does 8.16 require the ventriculostomy drain to be closed during transport?",
+   "options": [
+    "For all patient movements and altitude changes",
+    "Only during takeoff and landing",
+    "Only when the ICP exceeds the ordered threshold",
+    "Only during patient movements"
+   ],
+   "answer_index": 0,
+   "explanation": "The drain is closed for every patient movement and every altitude change. An open drain during a position or pressure change can siphon CSF uncontrollably.",
+   "priority": "core",
+   "tags": [
+    "procedure:icp-monitoring",
+    "topic:drain"
+   ],
+   "uid": "q_2b214d8313"
+  },
+  {
+   "number": "8.16",
+   "title": "Intracranial Pressure Monitoring",
+   "page": 210,
+   "type": "procedure",
+   "care_level": "CCT",
+   "population": "both",
+   "stem": "What does 8.16 require each time the aircraft changes altitude with an ICP monitor in place?",
+   "options": [
+    "Re-zero the transducer",
+    "Re-level the transducer to the foramen of Monro",
+    "Open the drain to equalize the pressure",
+    "Document the drainage position"
+   ],
+   "answer_index": 0,
+   "explanation": "The transducer must be zeroed with each altitude change, because the reference pressure the system was zeroed against has moved. The drain stays closed throughout the altitude change.",
+   "priority": "core",
+   "tags": [
+    "procedure:icp-monitoring",
+    "topic:altitude"
+   ],
+   "uid": "q_40e5d3bfa8"
+  },
+  {
+   "number": "8.17",
+   "title": "Intranasal Medication Delivery",
+   "page": 211,
+   "type": "indication",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What does 8.17 give as the indication for intranasal medication delivery?",
+   "options": [
+    "IV access is not present or is undesirable",
+    "The patient is combative and cannot be restrained",
+    "The patient has a documented allergy to IM medications",
+    "Rapid onset is required during cardiac arrest"
+   ],
+   "answer_index": 0,
+   "explanation": "The intranasal route exists for when IV access is absent or undesirable — the classic cases being a seizing patient, a combative overdose, or a child in whom a line would delay treatment.",
+   "priority": "core",
+   "tags": [
+    "procedure:intranasal",
+    "route:in"
+   ],
+   "uid": "q_e56a5ce76b"
+  },
+  {
+   "number": "8.17",
+   "title": "Intranasal Medication Delivery",
+   "page": 211,
+   "type": "contraindication",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Which finding contraindicates intranasal medication delivery under 8.17?",
+   "options": [
+    "Epistaxis",
+    "Hypotension",
+    "An absent gag reflex",
+    "Hypoxia"
+   ],
+   "answer_index": 0,
+   "explanation": "Facial trauma, epistaxis, nasal congestion or discharge, and recent nasal cocaine use are the contraindications — each either blocks the mucosa or washes the drug away before it can be absorbed.",
+   "priority": "core",
+   "tags": [
+    "procedure:intranasal",
+    "route:in"
+   ],
+   "uid": "q_7b24a9cea1"
+  },
+  {
+   "number": "8.17",
+   "title": "Intranasal Medication Delivery",
+   "page": 211,
+   "type": "max_dose",
+   "care_level": "BLS",
+   "population": "adult",
+   "stem": "For a patient aged 10 years or older, what is the maximum intranasal volume 8.17 permits per nostril?",
+   "options": [
+    "1 mL",
+    "0.5 mL",
+    "2 mL",
+    "3 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Patients 10 years and older take no more than 1 mL per nostril. Larger volumes run out of the nose or down the pharynx instead of being absorbed across the nasal mucosa.",
+   "priority": "core",
+   "tags": [
+    "procedure:intranasal",
+    "route:in",
+    "population:adult"
+   ],
+   "uid": "q_ba24a70382"
+  },
+  {
+   "number": "8.17",
+   "title": "Intranasal Medication Delivery",
+   "page": 211,
+   "type": "max_dose",
+   "care_level": "BLS",
+   "population": "pediatric",
+   "stem": "For a child under 10 years of age, what is the maximum intranasal volume 8.17 permits per nostril?",
+   "options": [
+    "0.5 mL",
+    "1 mL",
+    "0.25 mL",
+    "2 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "Children under 10 take no more than 0.5 mL per nostril — half the adult limit. If the calculated volume exceeds this, the concentration must be increased rather than the volume.",
+   "priority": "core",
+   "tags": [
+    "procedure:intranasal",
+    "route:in",
+    "population:pediatric"
+   ],
+   "uid": "q_dfc2a1a396"
+  },
+  {
+   "number": "8.17",
+   "title": "Intranasal Medication Delivery",
+   "page": 211,
+   "type": "dose",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "How much extra medication does 8.17 direct to be drawn into the syringe to account for atomizer dead space?",
+   "options": [
+    "0.1 mL",
+    "0.3 mL",
+    "0.5 mL",
+    "1 mL"
+   ],
+   "answer_index": 0,
+   "explanation": "An extra 0.1 mL is drawn up because that volume remains in the mucosal atomizer device and never reaches the patient. Omitting it under-doses every intranasal administration.",
+   "priority": "core",
+   "tags": [
+    "procedure:intranasal",
+    "route:in",
+    "topic:dead-space"
+   ],
+   "uid": "q_eba55e4ac8"
+  },
+  {
+   "number": "8.17",
+   "title": "Intranasal Medication Delivery",
+   "page": 211,
+   "type": "landmark",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "Once the MAD is inserted into the nares, toward what does 8.17 direct the tip to be aimed?",
+   "options": [
+    "The top of the ipsilateral ear",
+    "The posterior nasopharynx",
+    "The nasal septum",
+    "The contralateral eye"
+   ],
+   "answer_index": 0,
+   "explanation": "Aiming at the top of the ear on the same side directs the spray onto the highly vascular superior turbinate region. Aiming at the septum sprays the drug onto a poorly absorbing surface.",
+   "priority": "core",
+   "tags": [
+    "procedure:intranasal",
+    "route:in",
+    "topic:landmarks"
+   ],
+   "uid": "q_9b79db5442"
+  },
+  {
+   "number": "8.17",
+   "title": "Intranasal Medication Delivery",
+   "page": 211,
+   "type": "procedure",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "When does 8.17 direct the plunger to be depressed during intranasal administration?",
+   "options": [
+    "Rapidly upon exhalation, before inhalation",
+    "Slowly at the start of inhalation",
+    "Rapidly at the peak of inhalation",
+    "Slowly between two full breaths"
+   ],
+   "answer_index": 0,
+   "explanation": "The plunger is pushed rapidly, timed to exhalation but before the next breath in, so the atomized drug is deposited on the mucosa rather than inhaled into the lower airway.",
+   "priority": "core",
+   "tags": [
+    "procedure:intranasal",
+    "route:in"
+   ],
+   "uid": "q_9cdb0a0eb0"
+  },
+  {
+   "number": "8.17",
+   "title": "Intranasal Medication Delivery",
+   "page": 211,
+   "type": "procedure",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "What portion of the total intranasal dose does 8.17 direct to be given in each nare?",
+   "options": [
+    "Half of the total dose in each nare",
+    "The entire dose in the larger nare",
+    "Two-thirds in the larger nare",
+    "The entire dose divided over three doses"
+   ],
+   "answer_index": 0,
+   "explanation": "Half the total dose goes in each nostril, doubling the mucosal surface area available for absorption and keeping the per-nostril volume within the 1 mL (or 0.5 mL pediatric) limit.",
+   "priority": "core",
+   "tags": [
+    "procedure:intranasal",
+    "route:in"
+   ],
+   "uid": "q_18c177b732"
+  },
+  {
+   "number": "8.17",
+   "title": "Intranasal Medication Delivery",
+   "page": 211,
+   "type": "pearl",
+   "care_level": "BLS",
+   "population": "both",
+   "stem": "To improve the success of intranasal delivery, what does 8.17 direct regarding drug volume and concentration?",
+   "options": [
+    "Minimize the volume and maximize the concentration",
+    "Maximize the volume and dilute the drug",
+    "Match the volume to the patient's weight",
+    "Use the standard IV concentration unchanged"
+   ],
+   "answer_index": 0,
+   "explanation": "Absorption is limited by mucosal surface area, not by volume, so the smallest possible volume of the most concentrated preparation works best. Extra diluent simply runs out of the nose.",
+   "priority": "detail",
+   "tags": [
+    "procedure:intranasal",
+    "route:in"
+   ],
+   "uid": "q_1eea54647f"
+  }
+ ]
 }

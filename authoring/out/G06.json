@@ -22,7 +22,8 @@
     "topic:postpartum-hemorrhage",
     "topic:transfusion",
     "population:adult"
-   ]
+   ],
+   "uid": "q_13c5be9485"
   },
   {
    "number": "6.06",
@@ -45,7 +46,8 @@
     "topic:postpartum-hemorrhage",
     "topic:uterine-atony",
     "population:adult"
-   ]
+   ],
+   "uid": "q_e7b17b7cfb"
   },
   {
    "number": "6.06",
@@ -68,7 +70,8 @@
     "drug:oxytocin",
     "topic:postpartum-hemorrhage",
     "route:iv"
-   ]
+   ],
+   "uid": "q_f718756e86"
   },
   {
    "number": "6.06",
@@ -91,7 +94,8 @@
     "drug:oxytocin",
     "topic:postpartum-hemorrhage",
     "route:iv"
-   ]
+   ],
+   "uid": "q_3bdff5fb4e"
   },
   {
    "number": "6.06",
@@ -114,7 +118,8 @@
     "drug:oxytocin",
     "topic:postpartum-hemorrhage",
     "route:iv"
-   ]
+   ],
+   "uid": "q_8f23e5c807"
   },
   {
    "number": "6.06",
@@ -137,7 +142,8 @@
     "drug:methylergonovine",
     "topic:postpartum-hemorrhage",
     "route:im"
-   ]
+   ],
+   "uid": "q_e21909b63a"
   },
   {
    "number": "6.06",
@@ -160,7 +166,8 @@
     "drug:methylergonovine",
     "topic:postpartum-hemorrhage",
     "topic:hypertension"
-   ]
+   ],
+   "uid": "q_450ea9c052"
   },
   {
    "number": "6.06",
@@ -183,7 +190,8 @@
     "topic:postpartum-hemorrhage",
     "procedure:cord-traction",
     "population:adult"
-   ]
+   ],
+   "uid": "q_a9fabfed9a"
   },
   {
    "number": "6.06",
@@ -206,7 +214,8 @@
     "topic:postpartum-hemorrhage",
     "topic:hemorrhage-control",
     "population:adult"
-   ]
+   ],
+   "uid": "q_6978ebfa12"
   },
   {
    "number": "6.07",
@@ -229,7 +238,8 @@
     "drug:magnesium-sulfate",
     "topic:pre-eclampsia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_fd41ba7dc0"
   },
   {
    "number": "6.07",
@@ -252,7 +262,8 @@
     "drug:magnesium-sulfate",
     "topic:pre-eclampsia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_8ddb6718b5"
   },
   {
    "number": "6.07",
@@ -275,7 +286,8 @@
     "drug:magnesium-sulfate",
     "topic:eclampsia",
     "topic:seizure"
-   ]
+   ],
+   "uid": "q_1912cf0b2d"
   },
   {
    "number": "6.07",
@@ -298,7 +310,8 @@
     "drug:magnesium-sulfate",
     "topic:pre-eclampsia",
     "topic:toxicity"
-   ]
+   ],
+   "uid": "q_a32f8181ed"
   },
   {
    "number": "6.07",
@@ -321,7 +334,8 @@
     "drug:magnesium-sulfate",
     "topic:toxicity",
     "topic:pre-eclampsia"
-   ]
+   ],
+   "uid": "q_a6abbf1658"
   },
   {
    "number": "6.07",
@@ -344,7 +358,8 @@
     "drug:calcium-gluconate",
     "topic:magnesium-toxicity",
     "route:iv"
-   ]
+   ],
+   "uid": "q_b638ed2653"
   },
   {
    "number": "6.07",
@@ -367,7 +382,8 @@
     "drug:calcium-gluconate",
     "topic:magnesium-toxicity",
     "route:iv"
-   ]
+   ],
+   "uid": "q_c0afbf1202"
   },
   {
    "number": "6.07",
@@ -390,7 +406,8 @@
     "drug:magnesium-sulfate",
     "topic:eclampsia",
     "topic:seizure"
-   ]
+   ],
+   "uid": "q_bfc75bd9ae"
   },
   {
    "number": "6.07",
@@ -413,7 +430,8 @@
     "drug:magnesium-sulfate",
     "topic:eclampsia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_d633a58cd8"
   },
   {
    "number": "6.07",
@@ -436,7 +454,8 @@
     "topic:eclampsia",
     "topic:seizure",
     "drug:magnesium-sulfate"
-   ]
+   ],
+   "uid": "q_7c311bfc27"
   },
   {
    "number": "6.07",
@@ -459,7 +478,8 @@
     "topic:pre-eclampsia",
     "topic:hypertension",
     "population:adult"
-   ]
+   ],
+   "uid": "q_0b7c051106"
   },
   {
    "number": "6.07",
@@ -482,7 +502,8 @@
     "drug:labetalol",
     "topic:pre-eclampsia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_38c879d230"
   },
   {
    "number": "6.07",
@@ -505,7 +526,8 @@
     "drug:labetalol",
     "topic:pre-eclampsia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_c43ca02e17"
   },
   {
    "number": "6.07",
@@ -528,7 +550,8 @@
     "drug:labetalol",
     "topic:pre-eclampsia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_37399907ac"
   },
   {
    "number": "6.07",
@@ -551,7 +574,8 @@
     "drug:hydralazine",
     "topic:pre-eclampsia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_f97a68f4e6"
   },
   {
    "number": "6.07",
@@ -574,7 +598,8 @@
     "drug:hydralazine",
     "topic:pre-eclampsia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_55efd4f1bd"
   },
   {
    "number": "6.07",
@@ -597,7 +622,8 @@
     "topic:pre-eclampsia",
     "topic:fluids",
     "population:adult"
-   ]
+   ],
+   "uid": "q_3cff132284"
   },
   {
    "number": "6.07",
@@ -620,7 +646,8 @@
     "topic:pre-eclampsia",
     "topic:seizure",
     "population:adult"
-   ]
+   ],
+   "uid": "q_9e2c5603a2"
   },
   {
    "number": "6.07",
@@ -643,7 +670,8 @@
     "topic:pre-eclampsia",
     "topic:hypertension",
     "population:adult"
-   ]
+   ],
+   "uid": "q_be32eca16e"
   },
   {
    "number": "6.08",
@@ -666,7 +694,8 @@
     "topic:preterm-labor",
     "topic:interfacility",
     "population:adult"
-   ]
+   ],
+   "uid": "q_68466ba79b"
   },
   {
    "number": "6.08",
@@ -689,7 +718,8 @@
     "topic:preterm-labor",
     "topic:interfacility",
     "population:adult"
-   ]
+   ],
+   "uid": "q_bc38d43b61"
   },
   {
    "number": "6.08",
@@ -712,7 +742,8 @@
     "topic:preterm-labor",
     "topic:tocolysis",
     "population:adult"
-   ]
+   ],
+   "uid": "q_31000923e2"
   },
   {
    "number": "6.08",
@@ -735,7 +766,8 @@
     "drug:magnesium-sulfate",
     "topic:tocolysis",
     "route:iv"
-   ]
+   ],
+   "uid": "q_e1e9aed1be"
   },
   {
    "number": "6.08",
@@ -758,7 +790,8 @@
     "drug:magnesium-sulfate",
     "topic:tocolysis",
     "topic:preterm-labor"
-   ]
+   ],
+   "uid": "q_d333bb410a"
   },
   {
    "number": "6.08",
@@ -781,7 +814,8 @@
     "drug:nifedipine",
     "topic:tocolysis",
     "route:po"
-   ]
+   ],
+   "uid": "q_208dffb5bc"
   },
   {
    "number": "6.08",
@@ -804,7 +838,8 @@
     "drug:nifedipine",
     "topic:tocolysis",
     "route:po"
-   ]
+   ],
+   "uid": "q_dc91737652"
   },
   {
    "number": "6.08",
@@ -827,7 +862,8 @@
     "drug:nifedipine",
     "topic:tocolysis",
     "topic:hypotension"
-   ]
+   ],
+   "uid": "q_d8953b6602"
   },
   {
    "number": "6.08",
@@ -850,7 +886,8 @@
     "drug:terbutaline",
     "topic:tocolysis",
     "route:sq"
-   ]
+   ],
+   "uid": "q_882fab21f0"
   },
   {
    "number": "6.08",
@@ -873,7 +910,8 @@
     "drug:terbutaline",
     "topic:tocolysis",
     "topic:tachycardia"
-   ]
+   ],
+   "uid": "q_baa9d0c64d"
   },
   {
    "number": "6.08",
@@ -896,7 +934,8 @@
     "drug:terbutaline",
     "topic:tocolysis",
     "topic:preterm-labor"
-   ]
+   ],
+   "uid": "q_47adf85419"
   },
   {
    "number": "6.08",
@@ -919,7 +958,8 @@
     "topic:tocolysis",
     "topic:chorioamnionitis",
     "population:adult"
-   ]
+   ],
+   "uid": "q_286e5dda0c"
   },
   {
    "number": "6.08",
@@ -942,7 +982,8 @@
     "topic:prom",
     "topic:chorioamnionitis",
     "population:adult"
-   ]
+   ],
+   "uid": "q_e108fb049a"
   },
   {
    "number": "6.08",
@@ -965,7 +1006,8 @@
     "drug:nifedipine",
     "drug:magnesium-sulfate",
     "topic:tocolysis"
-   ]
+   ],
+   "uid": "q_a71837314b"
   },
   {
    "number": "6.09",
@@ -988,7 +1030,8 @@
     "topic:trauma-in-pregnancy",
     "topic:resuscitation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_05ddc44c9c"
   },
   {
    "number": "6.09",
@@ -1011,7 +1054,8 @@
     "topic:trauma-in-pregnancy",
     "topic:hypotension",
     "procedure:left-lateral-tilt"
-   ]
+   ],
+   "uid": "q_8af5470a92"
   },
   {
    "number": "6.09",
@@ -1034,7 +1078,8 @@
     "topic:trauma-in-pregnancy",
     "topic:placental-abruption",
     "population:adult"
-   ]
+   ],
+   "uid": "q_3147114ab6"
   },
   {
    "number": "6.09",
@@ -1057,7 +1102,8 @@
     "topic:trauma-in-pregnancy",
     "topic:chest-injury",
     "population:adult"
-   ]
+   ],
+   "uid": "q_127a22fda2"
   },
   {
    "number": "6.09",
@@ -1080,7 +1126,8 @@
     "topic:trauma-in-pregnancy",
     "topic:interfacility",
     "topic:scope"
-   ]
+   ],
+   "uid": "q_d0935b4d7d"
   },
   {
    "number": "6.09",
@@ -1103,7 +1150,8 @@
     "topic:trauma-in-pregnancy",
     "topic:vasopressors",
     "topic:shock"
-   ]
+   ],
+   "uid": "q_4e1b5caf7e"
   },
   {
    "number": "6.09",
@@ -1126,7 +1174,8 @@
     "topic:trauma-in-pregnancy",
     "topic:fetal-monitoring",
     "topic:interfacility"
-   ]
+   ],
+   "uid": "q_6608988ce8"
   },
   {
    "number": "6.10",
@@ -1149,7 +1198,8 @@
     "topic:vaginal-bleeding",
     "topic:oxygenation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_3365fafddf"
   },
   {
    "number": "6.10",
@@ -1172,7 +1222,8 @@
     "topic:vaginal-bleeding",
     "procedure:uterine-massage",
     "population:adult"
-   ]
+   ],
+   "uid": "q_db4f1614be"
   },
   {
    "number": "6.10",
@@ -1195,7 +1246,8 @@
     "topic:vaginal-bleeding",
     "topic:shock",
     "population:adult"
-   ]
+   ],
+   "uid": "q_f6aa537e53"
   },
   {
    "number": "6.10",
@@ -1218,7 +1270,8 @@
     "drug:terbutaline",
     "topic:vaginal-bleeding",
     "topic:tocolysis"
-   ]
+   ],
+   "uid": "q_59c75008c9"
   },
   {
    "number": "6.10",
@@ -1241,7 +1294,8 @@
     "topic:vaginal-bleeding",
     "topic:placenta-previa",
     "topic:scope"
-   ]
+   ],
+   "uid": "q_cea71f1c79"
   },
   {
    "number": "6.10",
@@ -1264,7 +1318,8 @@
     "topic:vaginal-bleeding",
     "topic:transfusion",
     "population:adult"
-   ]
+   ],
+   "uid": "q_5f3fdfbf57"
   },
   {
    "number": "6.10",
@@ -1287,7 +1342,8 @@
     "topic:placenta-previa",
     "topic:vaginal-bleeding",
     "population:adult"
-   ]
+   ],
+   "uid": "q_9e17b53183"
   },
   {
    "number": "6.10",
@@ -1310,7 +1366,8 @@
     "topic:placental-abruption",
     "topic:vaginal-bleeding",
     "population:adult"
-   ]
+   ],
+   "uid": "q_a7676b5789"
   },
   {
    "number": "7.01",
@@ -1333,7 +1390,8 @@
     "topic:burns",
     "topic:inhalation-injury",
     "topic:oxygenation"
-   ]
+   ],
+   "uid": "q_ad037505be"
   },
   {
    "number": "7.01",
@@ -1356,7 +1414,8 @@
     "topic:burns",
     "topic:wound-care",
     "topic:hypothermia"
-   ]
+   ],
+   "uid": "q_d55d1ff012"
   },
   {
    "number": "7.01",
@@ -1379,7 +1438,8 @@
     "topic:burns",
     "topic:airway",
     "topic:positioning"
-   ]
+   ],
+   "uid": "q_85c7a2c4b5"
   },
   {
    "number": "7.01",
@@ -1402,7 +1462,8 @@
     "topic:burns",
     "topic:fluids",
     "population:adult"
-   ]
+   ],
+   "uid": "q_43089582e2"
   },
   {
    "number": "7.01",
@@ -1425,7 +1486,8 @@
     "topic:burns",
     "topic:fluids",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_03c31199ac"
   },
   {
    "number": "7.01",
@@ -1448,7 +1510,8 @@
     "topic:burns",
     "topic:fluids",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_58251b92a0"
   },
   {
    "number": "7.01",
@@ -1471,7 +1534,8 @@
     "topic:burns",
     "topic:fluids",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_d97c7bbbdf"
   },
   {
    "number": "7.01",
@@ -1494,7 +1558,8 @@
     "drug:norepinephrine",
     "topic:burns",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_65f904c5ee"
   },
   {
    "number": "7.01",
@@ -1517,7 +1582,8 @@
     "drug:norepinephrine",
     "topic:burns",
     "route:iv"
-   ]
+   ],
+   "uid": "q_ebbccb7e1e"
   },
   {
    "number": "7.01",
@@ -1540,7 +1606,8 @@
     "topic:burns",
     "procedure:urinary-catheter",
     "topic:interfacility"
-   ]
+   ],
+   "uid": "q_a0c07e4ade"
   },
   {
    "number": "7.01",
@@ -1563,7 +1630,8 @@
     "topic:burns",
     "topic:urine-output",
     "population:adult"
-   ]
+   ],
+   "uid": "q_d22bc07726"
   },
   {
    "number": "7.01",
@@ -1586,7 +1654,8 @@
     "topic:burns",
     "topic:vital-signs",
     "population:adult"
-   ]
+   ],
+   "uid": "q_df3e718f96"
   },
   {
    "number": "7.01",
@@ -1609,7 +1678,8 @@
     "topic:burns",
     "topic:tbsa",
     "topic:assessment"
-   ]
+   ],
+   "uid": "q_88a732fd38"
   },
   {
    "number": "7.01",
@@ -1632,7 +1702,8 @@
     "topic:burns",
     "topic:electrical-injury",
     "topic:triage"
-   ]
+   ],
+   "uid": "q_515003e19e"
   },
   {
    "number": "7.01",
@@ -1655,7 +1726,8 @@
     "topic:burns",
     "topic:fluids",
     "topic:tbsa"
-   ]
+   ],
+   "uid": "q_b227d51026"
   },
   {
    "number": "7.01",
@@ -1678,7 +1750,8 @@
     "topic:burns",
     "topic:fluids",
     "topic:resuscitation"
-   ]
+   ],
+   "uid": "q_fd5ac98f20"
   },
   {
    "number": "7.01",
@@ -1701,7 +1774,8 @@
     "topic:burns",
     "topic:destination",
     "topic:burn-center"
-   ]
+   ],
+   "uid": "q_0a17cdb0a4"
   },
   {
    "number": "7.02",
@@ -1724,7 +1798,8 @@
     "topic:entrapment",
     "topic:tourniquet",
     "topic:hemorrhage-control"
-   ]
+   ],
+   "uid": "q_2d769ac808"
   },
   {
    "number": "7.02",
@@ -1747,7 +1822,8 @@
     "topic:entrapment",
     "procedure:pelvic-binder",
     "topic:hemorrhage-control"
-   ]
+   ],
+   "uid": "q_420bc2052f"
   },
   {
    "number": "7.02",
@@ -1770,7 +1846,8 @@
     "topic:entrapment",
     "topic:hyperkalemia",
     "topic:ecg"
-   ]
+   ],
+   "uid": "q_28e3229ab3"
   },
   {
    "number": "7.02",
@@ -1793,7 +1870,8 @@
     "topic:entrapment",
     "topic:crush-injury",
     "topic:fluids"
-   ]
+   ],
+   "uid": "q_3802bc282a"
   },
   {
    "number": "7.02",
@@ -1816,7 +1894,8 @@
     "topic:entrapment",
     "topic:crush-injury",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_1680b8a2bd"
   },
   {
    "number": "7.02",
@@ -1839,7 +1918,8 @@
     "drug:calcium-gluconate",
     "topic:hyperkalemia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_42b194d0f3"
   },
   {
    "number": "7.02",
@@ -1862,7 +1942,8 @@
     "drug:sodium-bicarbonate",
     "topic:hyperkalemia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_ec5ab36536"
   },
   {
    "number": "7.02",
@@ -1885,7 +1966,8 @@
     "drug:albuterol",
     "topic:hyperkalemia",
     "route:nebulized"
-   ]
+   ],
+   "uid": "q_ebf07f9db7"
   },
   {
    "number": "7.02",
@@ -1908,7 +1990,8 @@
     "drug:calcium-gluconate",
     "drug:sodium-bicarbonate",
     "topic:hyperkalemia"
-   ]
+   ],
+   "uid": "q_b2972a64d5"
   },
   {
    "number": "7.02",
@@ -1931,7 +2014,8 @@
     "drug:sodium-bicarbonate",
     "topic:entrapment",
     "population:adult"
-   ]
+   ],
+   "uid": "q_cfd48d357e"
   },
   {
    "number": "7.02",
@@ -1954,7 +2038,8 @@
     "drug:sodium-bicarbonate",
     "topic:entrapment",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_d39ce16324"
   },
   {
    "number": "7.02",
@@ -1977,7 +2062,8 @@
     "drug:sodium-bicarbonate",
     "topic:entrapment",
     "procedure:infusion-prep"
-   ]
+   ],
+   "uid": "q_8e129f655a"
   },
   {
    "number": "7.02",
@@ -2000,7 +2086,8 @@
     "topic:entrapment",
     "topic:hyperkalemia",
     "topic:tourniquet"
-   ]
+   ],
+   "uid": "q_d75d7cc6c0"
   },
   {
    "number": "7.03",
@@ -2023,7 +2110,8 @@
     "topic:extremity-trauma",
     "topic:tourniquet",
     "procedure:tourniquet"
-   ]
+   ],
+   "uid": "q_989eda2143"
   },
   {
    "number": "7.03",
@@ -2046,7 +2134,8 @@
     "topic:extremity-trauma",
     "topic:tourniquet",
     "procedure:tourniquet"
-   ]
+   ],
+   "uid": "q_f054b561fa"
   },
   {
    "number": "7.03",
@@ -2069,7 +2158,8 @@
     "topic:extremity-trauma",
     "topic:amputation",
     "procedure:amputated-part"
-   ]
+   ],
+   "uid": "q_4aab7b7233"
   },
   {
    "number": "7.03",
@@ -2092,7 +2182,8 @@
     "topic:extremity-trauma",
     "topic:open-fracture",
     "topic:wound-care"
-   ]
+   ],
+   "uid": "q_b487e973a3"
   },
   {
    "number": "7.03",
@@ -2115,7 +2206,8 @@
     "topic:extremity-trauma",
     "equipment:traction-splint",
     "topic:femur-fracture"
-   ]
+   ],
+   "uid": "q_15e1e198fb"
   },
   {
    "number": "7.03",
@@ -2138,7 +2230,8 @@
     "topic:extremity-trauma",
     "topic:neurovascular",
     "topic:assessment"
-   ]
+   ],
+   "uid": "q_ccb23cadfa"
   },
   {
    "number": "7.03",
@@ -2161,7 +2254,8 @@
     "drug:txa",
     "topic:extremity-trauma",
     "topic:hemorrhage-control"
-   ]
+   ],
+   "uid": "q_edd77b59f8"
   },
   {
    "number": "7.03",
@@ -2184,7 +2278,8 @@
     "drug:txa",
     "topic:extremity-trauma",
     "route:iv"
-   ]
+   ],
+   "uid": "q_bd14525f27"
   },
   {
    "number": "7.03",
@@ -2207,7 +2302,8 @@
     "drug:txa",
     "topic:extremity-trauma",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_c2f6fe7a5d"
   },
   {
    "number": "7.03",
@@ -2230,7 +2326,8 @@
     "drug:cefazolin",
     "topic:open-fracture",
     "route:iv"
-   ]
+   ],
+   "uid": "q_1dede89ed0"
   },
   {
    "number": "7.03",
@@ -2253,7 +2350,8 @@
     "drug:cefazolin",
     "topic:open-fracture",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_8e62f2a062"
   },
   {
    "number": "7.03",
@@ -2276,7 +2374,8 @@
     "topic:extremity-trauma",
     "procedure:realignment",
     "topic:vascular-compromise"
-   ]
+   ],
+   "uid": "q_9eb66fbb94"
   },
   {
    "number": "7.04",
@@ -2299,7 +2398,8 @@
     "topic:general-trauma",
     "topic:airway",
     "topic:oxygenation"
-   ]
+   ],
+   "uid": "q_689dd6a4aa"
   },
   {
    "number": "7.04",
@@ -2322,7 +2422,8 @@
     "topic:general-trauma",
     "topic:spinal-motion-restriction",
     "topic:c-spine"
-   ]
+   ],
+   "uid": "q_dc0b26165c"
   },
   {
    "number": "7.04",
@@ -2345,7 +2446,8 @@
     "topic:general-trauma",
     "topic:pelvis",
     "procedure:pelvic-assessment"
-   ]
+   ],
+   "uid": "q_ba2c38783c"
   },
   {
    "number": "7.04",
@@ -2368,7 +2470,8 @@
     "topic:general-trauma",
     "topic:pelvis",
     "topic:hemorrhage-control"
-   ]
+   ],
+   "uid": "q_42d1f18791"
   },
   {
    "number": "7.04",
@@ -2391,7 +2494,8 @@
     "topic:general-trauma",
     "topic:evisceration",
     "topic:wound-care"
-   ]
+   ],
+   "uid": "q_2dfa6178e0"
   },
   {
    "number": "7.04",
@@ -2414,7 +2518,8 @@
     "topic:general-trauma",
     "procedure:urinary-catheter",
     "topic:gu-trauma"
-   ]
+   ],
+   "uid": "q_a93a4a400d"
   },
   {
    "number": "7.04",
@@ -2437,7 +2542,8 @@
     "topic:general-trauma",
     "topic:tension-pneumothorax",
     "procedure:needle-thoracostomy"
-   ]
+   ],
+   "uid": "q_780e3aceba"
   },
   {
    "number": "7.04",
@@ -2460,7 +2566,8 @@
     "topic:general-trauma",
     "topic:open-pneumothorax",
     "topic:chest-trauma"
-   ]
+   ],
+   "uid": "q_e012a90d5f"
   },
   {
    "number": "7.04",
@@ -2483,7 +2590,8 @@
     "topic:general-trauma",
     "procedure:finger-thoracostomy",
     "topic:traumatic-arrest"
-   ]
+   ],
+   "uid": "q_f443b0a8a7"
   },
   {
    "number": "7.04",
@@ -2506,7 +2614,8 @@
     "topic:general-trauma",
     "procedure:chest-tube",
     "topic:scope"
-   ]
+   ],
+   "uid": "q_0b3d01f27f"
   },
   {
    "number": "7.04",
@@ -2529,7 +2638,8 @@
     "drug:epinephrine",
     "topic:general-trauma",
     "procedure:scalp-hemorrhage"
-   ]
+   ],
+   "uid": "q_5c3c7f6966"
   },
   {
    "number": "7.04",
@@ -2552,7 +2662,8 @@
     "drug:epinephrine",
     "topic:general-trauma",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_1fc561a2ae"
   },
   {
    "number": "7.04",
@@ -2575,7 +2686,8 @@
     "drug:txa",
     "topic:general-trauma",
     "topic:transfusion"
-   ]
+   ],
+   "uid": "q_43c1a24a60"
   },
   {
    "number": "7.04",
@@ -2598,7 +2710,8 @@
     "topic:general-trauma",
     "topic:guideline-structure",
     "topic:assessment"
-   ]
+   ],
+   "uid": "q_ac80eb4715"
   },
   {
    "number": "7.04",
@@ -2621,7 +2734,8 @@
     "topic:general-trauma",
     "topic:scene-time",
     "topic:vascular-access"
-   ]
+   ],
+   "uid": "q_e7d3bf3be1"
   },
   {
    "number": "7.05",
@@ -2644,7 +2758,8 @@
     "topic:head-injury",
     "topic:etco2",
     "topic:ventilation"
-   ]
+   ],
+   "uid": "q_1366a8b744"
   },
   {
    "number": "7.05",
@@ -2667,7 +2782,8 @@
     "topic:head-injury",
     "topic:ventilation",
     "equipment:bvm"
-   ]
+   ],
+   "uid": "q_2988315e89"
   },
   {
    "number": "7.05",
@@ -2690,7 +2806,8 @@
     "topic:head-injury",
     "topic:secondary-injury",
     "topic:mortality"
-   ]
+   ],
+   "uid": "q_f49953729c"
   },
   {
    "number": "7.05",
@@ -2713,7 +2830,8 @@
     "topic:head-injury",
     "topic:hypotension",
     "population:adult"
-   ]
+   ],
+   "uid": "q_185453b652"
   },
   {
    "number": "7.05",
@@ -2736,7 +2854,8 @@
     "topic:head-injury",
     "topic:hypotension",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_fa763b8c43"
   },
   {
    "number": "7.05",
@@ -2759,7 +2878,8 @@
     "drug:hypertonic-saline",
     "topic:herniation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_9c08a54f52"
   },
   {
    "number": "7.05",
@@ -2782,7 +2902,8 @@
     "drug:hypertonic-saline",
     "topic:herniation",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_19c6361651"
   },
   {
    "number": "7.05",
@@ -2805,7 +2926,8 @@
     "drug:mannitol",
     "topic:herniation",
     "route:iv"
-   ]
+   ],
+   "uid": "q_a222f78d03"
   },
   {
    "number": "7.05",
@@ -2828,7 +2950,8 @@
     "drug:mannitol",
     "drug:hypertonic-saline",
     "topic:herniation"
-   ]
+   ],
+   "uid": "q_e4d573cbe0"
   },
   {
    "number": "7.05",
@@ -2851,7 +2974,8 @@
     "drug:mannitol",
     "topic:herniation",
     "equipment:filter"
-   ]
+   ],
+   "uid": "q_ffc1acb777"
   },
   {
    "number": "7.05",
@@ -2874,7 +2998,8 @@
     "topic:head-injury",
     "topic:herniation",
     "topic:assessment"
-   ]
+   ],
+   "uid": "q_18491f0cd5"
   },
   {
    "number": "7.05",
@@ -2897,7 +3022,8 @@
     "topic:head-injury",
     "topic:icp",
     "topic:gcs"
-   ]
+   ],
+   "uid": "q_30d40ad08f"
   },
   {
    "number": "7.05",
@@ -2920,7 +3046,8 @@
     "topic:head-injury",
     "topic:herniation",
     "topic:cushing-reflex"
-   ]
+   ],
+   "uid": "q_2959155a72"
   },
   {
    "number": "7.05",
@@ -2943,7 +3070,8 @@
     "topic:head-injury",
     "topic:sodium",
     "topic:hypertonic-saline"
-   ]
+   ],
+   "uid": "q_4df3537394"
   },
   {
    "number": "7.05",
@@ -2966,7 +3094,8 @@
     "topic:head-injury",
     "topic:cpp",
     "population:adult"
-   ]
+   ],
+   "uid": "q_b5a74b33ba"
   },
   {
    "number": "7.05",
@@ -2989,7 +3118,8 @@
     "topic:head-injury",
     "topic:penetrating-trauma",
     "topic:transfusion"
-   ]
+   ],
+   "uid": "q_a82e71d089"
   }
  ]
 }

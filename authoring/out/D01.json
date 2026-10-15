@@ -22,7 +22,8 @@
     "drug:epinephrine",
     "topic:infusions",
     "route:iv"
-   ]
+   ],
+   "uid": "q_6d5a4df232"
   },
   {
    "number": "12.01",
@@ -45,7 +46,8 @@
     "drug:magnesium sulfate",
     "topic:infusions",
     "topic:obstetrics"
-   ]
+   ],
+   "uid": "q_5692c7bf3c"
   },
   {
    "number": "12.01",
@@ -68,7 +70,8 @@
     "drug:ketamine",
     "topic:infusions",
     "route:iv"
-   ]
+   ],
+   "uid": "q_70b5423682"
   },
   {
    "number": "12.01",
@@ -91,7 +94,8 @@
     "drug:propofol",
     "topic:infusions",
     "route:iv"
-   ]
+   ],
+   "uid": "q_ad888cc846"
   },
   {
    "number": "12.01",
@@ -114,7 +118,8 @@
     "drug:nitroglycerin",
     "topic:infusions",
     "route:iv"
-   ]
+   ],
+   "uid": "q_4a86947897"
   },
   {
    "number": "12.01",
@@ -137,7 +142,8 @@
     "drug:labetalol",
     "topic:infusions",
     "route:iv"
-   ]
+   ],
+   "uid": "q_f8cf6f4cb1"
   },
   {
    "number": "12.02",
@@ -161,7 +167,8 @@
     "topic:pain",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_ddbdcf1b2d"
   },
   {
    "number": "12.02",
@@ -185,7 +192,8 @@
     "topic:pain",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_74f5efebc3"
   },
   {
    "number": "12.02",
@@ -208,7 +216,8 @@
     "drug:acetaminophen",
     "topic:pain",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_24a03397c0"
   },
   {
    "number": "12.02",
@@ -231,7 +240,8 @@
     "drug:acetaminophen",
     "topic:pain",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_da01bc118b"
   },
   {
    "number": "12.02",
@@ -254,7 +264,8 @@
     "drug:acetaminophen",
     "topic:pain",
     "population:both"
-   ]
+   ],
+   "uid": "q_a417e84dc6"
   },
   {
    "number": "12.02",
@@ -277,7 +288,8 @@
     "drug:acetaminophen",
     "topic:pain",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_2128940729"
   },
   {
    "number": "12.02",
@@ -299,7 +311,8 @@
    "tags": [
     "drug:acetaminophen",
     "topic:pain"
-   ]
+   ],
+   "uid": "q_80f81d8ad5"
   },
   {
    "number": "12.02",
@@ -322,7 +335,8 @@
     "drug:acetaminophen",
     "topic:pain",
     "route:iv"
-   ]
+   ],
+   "uid": "q_cc75971d50"
   },
   {
    "number": "12.03",
@@ -346,7 +360,8 @@
     "topic:toxicology",
     "route:po",
     "population:adult"
-   ]
+   ],
+   "uid": "q_764bc04e14"
   },
   {
    "number": "12.03",
@@ -369,7 +384,8 @@
     "drug:activated charcoal",
     "topic:toxicology",
     "population:adult"
-   ]
+   ],
+   "uid": "q_24c1f23215"
   },
   {
    "number": "12.03",
@@ -392,7 +408,8 @@
     "drug:activated charcoal",
     "topic:toxicology",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_915ebe2188"
   },
   {
    "number": "12.03",
@@ -414,7 +431,8 @@
    "tags": [
     "drug:activated charcoal",
     "topic:toxicology"
-   ]
+   ],
+   "uid": "q_f63bdc2aa0"
   },
   {
    "number": "12.03",
@@ -436,7 +454,8 @@
    "tags": [
     "drug:activated charcoal",
     "topic:toxicology"
-   ]
+   ],
+   "uid": "q_3a2f3e67b0"
   },
   {
    "number": "12.03",
@@ -458,7 +477,8 @@
    "tags": [
     "drug:activated charcoal",
     "topic:toxicology"
-   ]
+   ],
+   "uid": "q_d019741ec6"
   },
   {
    "number": "12.04",
@@ -482,7 +502,8 @@
     "topic:svt",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_b13fcb02da"
   },
   {
    "number": "12.04",
@@ -505,7 +526,8 @@
     "drug:adenosine",
     "topic:svt",
     "population:adult"
-   ]
+   ],
+   "uid": "q_0beeaa7a20"
   },
   {
    "number": "12.04",
@@ -529,7 +551,8 @@
     "topic:svt",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_c98e1da74f"
   },
   {
    "number": "12.04",
@@ -552,7 +575,8 @@
     "drug:adenosine",
     "topic:svt",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_640d04d747"
   },
   {
    "number": "12.04",
@@ -575,7 +599,8 @@
     "drug:adenosine",
     "topic:svt",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_d83dd7a713"
   },
   {
    "number": "12.04",
@@ -598,7 +623,8 @@
     "drug:adenosine",
     "topic:svt",
     "route:iv"
-   ]
+   ],
+   "uid": "q_b489114de4"
   },
   {
    "number": "12.04",
@@ -620,7 +646,8 @@
    "tags": [
     "drug:adenosine",
     "topic:svt"
-   ]
+   ],
+   "uid": "q_24ac5a098a"
   },
   {
    "number": "12.04",
@@ -642,7 +669,8 @@
    "tags": [
     "drug:adenosine",
     "topic:svt"
-   ]
+   ],
+   "uid": "q_8e1583864c"
   },
   {
    "number": "12.05",
@@ -666,7 +694,8 @@
     "topic:entrapment",
     "route:inhalation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_5974737328"
   },
   {
    "number": "12.05",
@@ -690,7 +719,8 @@
     "topic:hyperkalemia",
     "route:inhalation",
     "population:adult"
-   ]
+   ],
+   "uid": "q_8c9b73b114"
   },
   {
    "number": "12.05",
@@ -713,7 +743,8 @@
     "drug:albuterol",
     "topic:hyperkalemia",
     "population:adult"
-   ]
+   ],
+   "uid": "q_3477ab333e"
   },
   {
    "number": "12.05",
@@ -737,7 +768,8 @@
     "topic:asthma",
     "route:inhalation",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_4a288e3b96"
   },
   {
    "number": "12.05",
@@ -761,7 +793,8 @@
     "drug:ipratropium",
     "topic:asthma",
     "population:both"
-   ]
+   ],
+   "uid": "q_c1747b877b"
   },
   {
    "number": "12.05",
@@ -785,7 +818,8 @@
     "topic:asthma",
     "route:inhalation",
     "population:both"
-   ]
+   ],
+   "uid": "q_ce2318a531"
   },
   {
    "number": "12.05",
@@ -807,7 +841,8 @@
    "tags": [
     "drug:albuterol",
     "topic:asthma"
-   ]
+   ],
+   "uid": "q_9477a6743d"
   },
   {
    "number": "12.05",
@@ -829,7 +864,8 @@
    "tags": [
     "drug:albuterol",
     "topic:asthma"
-   ]
+   ],
+   "uid": "q_e2704364ba"
   },
   {
    "number": "12.06",
@@ -853,7 +889,8 @@
     "topic:stroke",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_1def0c9f50"
   },
   {
    "number": "12.06",
@@ -877,7 +914,8 @@
     "topic:stroke",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_2361807dce"
   },
   {
    "number": "12.06",
@@ -901,7 +939,8 @@
     "topic:stroke",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_1e4aaafd37"
   },
   {
    "number": "12.06",
@@ -925,7 +964,8 @@
     "topic:stroke",
     "procedure:infusion",
     "population:adult"
-   ]
+   ],
+   "uid": "q_656a79056b"
   },
   {
    "number": "12.06",
@@ -947,7 +987,8 @@
    "tags": [
     "drug:alteplase",
     "topic:stroke"
-   ]
+   ],
+   "uid": "q_e7626cf85e"
   },
   {
    "number": "12.06",
@@ -969,7 +1010,8 @@
    "tags": [
     "drug:alteplase",
     "topic:stroke"
-   ]
+   ],
+   "uid": "q_052a74d8f7"
   },
   {
    "number": "12.06",
@@ -991,7 +1033,8 @@
    "tags": [
     "drug:alteplase",
     "topic:stroke"
-   ]
+   ],
+   "uid": "q_fc31969fa2"
   },
   {
    "number": "12.06",
@@ -1013,7 +1056,8 @@
    "tags": [
     "drug:alteplase",
     "topic:stroke"
-   ]
+   ],
+   "uid": "q_6b13f5ed9e"
   },
   {
    "number": "12.07",
@@ -1037,7 +1081,8 @@
     "topic:cardiac arrest",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_a48dff9bd3"
   },
   {
    "number": "12.07",
@@ -1060,7 +1105,8 @@
     "drug:amiodarone",
     "topic:cardiac arrest",
     "population:adult"
-   ]
+   ],
+   "uid": "q_f7f49696b1"
   },
   {
    "number": "12.07",
@@ -1084,7 +1130,8 @@
     "topic:vt",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_315fb44351"
   },
   {
    "number": "12.07",
@@ -1107,7 +1154,8 @@
     "drug:amiodarone",
     "topic:vt",
     "population:adult"
-   ]
+   ],
+   "uid": "q_18e782e1f4"
   },
   {
    "number": "12.07",
@@ -1131,7 +1179,8 @@
     "topic:cardiac arrest",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_ef7799e1ad"
   },
   {
    "number": "12.07",
@@ -1155,7 +1204,8 @@
     "topic:vt",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_91a5ebeee3"
   },
   {
    "number": "12.07",
@@ -1179,7 +1229,8 @@
     "topic:infusions",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_e0b9980635"
   },
   {
    "number": "12.07",
@@ -1202,7 +1253,8 @@
     "drug:amiodarone",
     "topic:infusions",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_1c42127654"
   },
   {
    "number": "12.07",
@@ -1225,7 +1277,8 @@
     "drug:amiodarone",
     "topic:infusions",
     "route:iv"
-   ]
+   ],
+   "uid": "q_263bbab8f9"
   },
   {
    "number": "12.07",
@@ -1248,7 +1301,8 @@
     "drug:amiodarone",
     "topic:cardiac arrest",
     "route:iv"
-   ]
+   ],
+   "uid": "q_f557d65278"
   },
   {
    "number": "12.07",
@@ -1270,7 +1324,8 @@
    "tags": [
     "drug:amiodarone",
     "topic:vt"
-   ]
+   ],
+   "uid": "q_1f9c89141f"
   },
   {
    "number": "12.08",
@@ -1294,7 +1349,8 @@
     "topic:acs",
     "route:po",
     "population:adult"
-   ]
+   ],
+   "uid": "q_f9bdc6539c"
   },
   {
    "number": "12.08",
@@ -1317,7 +1373,8 @@
     "drug:aspirin",
     "topic:altitude",
     "population:adult"
-   ]
+   ],
+   "uid": "q_4fb859a49a"
   },
   {
    "number": "12.08",
@@ -1339,7 +1396,8 @@
    "tags": [
     "drug:aspirin",
     "topic:acs"
-   ]
+   ],
+   "uid": "q_84c7a535cb"
   },
   {
    "number": "12.08",
@@ -1361,7 +1419,8 @@
    "tags": [
     "drug:aspirin",
     "topic:acs"
-   ]
+   ],
+   "uid": "q_6be76a6024"
   },
   {
    "number": "12.08",
@@ -1383,7 +1442,8 @@
    "tags": [
     "drug:aspirin",
     "topic:acs"
-   ]
+   ],
+   "uid": "q_d758e1b12c"
   },
   {
    "number": "12.08",
@@ -1405,7 +1465,8 @@
    "tags": [
     "drug:aspirin",
     "topic:acs"
-   ]
+   ],
+   "uid": "q_1f734bdf2c"
   },
   {
    "number": "12.09",
@@ -1429,7 +1490,8 @@
     "topic:bradycardia",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_ab75e04ec7"
   },
   {
    "number": "12.09",
@@ -1452,7 +1514,8 @@
     "drug:atropine",
     "topic:bradycardia",
     "population:adult"
-   ]
+   ],
+   "uid": "q_3d994f5658"
   },
   {
    "number": "12.09",
@@ -1476,7 +1539,8 @@
     "topic:bradycardia",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_44e7cb0ced"
   },
   {
    "number": "12.09",
@@ -1499,7 +1563,8 @@
     "drug:atropine",
     "topic:bradycardia",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_e676a404c8"
   },
   {
    "number": "12.09",
@@ -1524,7 +1589,8 @@
     "topic:secretions",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_783b5d79c2"
   },
   {
    "number": "12.09",
@@ -1549,7 +1615,8 @@
     "topic:secretions",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_5eab2ac31d"
   },
   {
    "number": "12.09",
@@ -1573,7 +1640,8 @@
     "topic:toxicology",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_56d547df38"
   },
   {
    "number": "12.09",
@@ -1597,7 +1665,8 @@
     "topic:toxicology",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_5654039549"
   },
   {
    "number": "12.09",
@@ -1620,7 +1689,8 @@
     "drug:atropine",
     "topic:toxicology",
     "population:both"
-   ]
+   ],
+   "uid": "q_bba91735aa"
   },
   {
    "number": "12.09",
@@ -1643,7 +1713,8 @@
     "drug:atropine",
     "topic:rsi",
     "population:neonatal"
-   ]
+   ],
+   "uid": "q_7429e3b7cd"
   },
   {
    "number": "12.09",
@@ -1666,7 +1737,8 @@
     "drug:atropine",
     "topic:toxicology",
     "population:adult"
-   ]
+   ],
+   "uid": "q_883f5fdb71"
   },
   {
    "number": "12.09",
@@ -1688,7 +1760,8 @@
    "tags": [
     "drug:atropine",
     "topic:bradycardia"
-   ]
+   ],
+   "uid": "q_63f788e10f"
   },
   {
    "number": "12.10",
@@ -1712,7 +1785,8 @@
     "topic:obstetrics",
     "route:im",
     "population:adult"
-   ]
+   ],
+   "uid": "q_9b40d5b91c"
   },
   {
    "number": "12.10",
@@ -1735,7 +1809,8 @@
     "drug:betamethasone",
     "topic:obstetrics",
     "population:adult"
-   ]
+   ],
+   "uid": "q_b47bad7014"
   },
   {
    "number": "12.10",
@@ -1758,7 +1833,8 @@
     "drug:betamethasone",
     "topic:obstetrics",
     "population:adult"
-   ]
+   ],
+   "uid": "q_c9fd4c16cd"
   },
   {
    "number": "12.10",
@@ -1781,7 +1857,8 @@
     "drug:betamethasone",
     "topic:obstetrics",
     "population:adult"
-   ]
+   ],
+   "uid": "q_e29496e83e"
   },
   {
    "number": "12.10",
@@ -1803,7 +1880,8 @@
    "tags": [
     "drug:betamethasone",
     "topic:obstetrics"
-   ]
+   ],
+   "uid": "q_66a7f002fe"
   },
   {
    "number": "12.10",
@@ -1825,7 +1903,8 @@
    "tags": [
     "drug:betamethasone",
     "topic:obstetrics"
-   ]
+   ],
+   "uid": "q_79f206e695"
   },
   {
    "number": "12.11",
@@ -1849,7 +1928,8 @@
     "topic:hyperkalemia",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_cbad61ed18"
   },
   {
    "number": "12.11",
@@ -1873,7 +1953,8 @@
     "topic:transfusion",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_0fdb143220"
   },
   {
    "number": "12.11",
@@ -1897,7 +1978,8 @@
     "topic:hyperkalemia",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_ea310354c1"
   },
   {
    "number": "12.11",
@@ -1921,7 +2003,8 @@
     "topic:transfusion",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_9dca4a4303"
   },
   {
    "number": "12.11",
@@ -1943,7 +2026,8 @@
    "tags": [
     "drug:calcium chloride",
     "topic:hyperkalemia"
-   ]
+   ],
+   "uid": "q_149dd51809"
   },
   {
    "number": "12.11",
@@ -1966,7 +2050,8 @@
     "drug:calcium chloride",
     "topic:hyperkalemia",
     "route:iv"
-   ]
+   ],
+   "uid": "q_c27cc4bb15"
   },
   {
    "number": "12.11",
@@ -1989,7 +2074,8 @@
     "drug:calcium chloride",
     "drug:calcium gluconate",
     "topic:hyperkalemia"
-   ]
+   ],
+   "uid": "q_11eb154684"
   },
   {
    "number": "12.12",
@@ -2013,7 +2099,8 @@
     "topic:hyperkalemia",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_e44548d41a"
   },
   {
    "number": "12.12",
@@ -2037,7 +2124,8 @@
     "topic:hyperkalemia",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_8bdefad9e1"
   },
   {
    "number": "12.12",
@@ -2061,7 +2149,8 @@
     "topic:toxicology",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_191c34b0e6"
   },
   {
    "number": "12.12",
@@ -2084,7 +2173,8 @@
     "drug:calcium gluconate",
     "topic:toxicology",
     "population:adult"
-   ]
+   ],
+   "uid": "q_0b58cd9c6d"
   },
   {
    "number": "12.12",
@@ -2108,7 +2198,8 @@
     "topic:obstetrics",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_89b6629197"
   },
   {
    "number": "12.12",
@@ -2132,7 +2223,8 @@
     "topic:obstetrics",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_f2a00ac90b"
   },
   {
    "number": "12.12",
@@ -2156,7 +2248,8 @@
     "topic:transfusion",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_172fb02ee2"
   },
   {
    "number": "12.12",
@@ -2179,7 +2272,8 @@
     "drug:calcium gluconate",
     "topic:transfusion",
     "population:adult"
-   ]
+   ],
+   "uid": "q_eb3ae045bc"
   },
   {
    "number": "12.12",
@@ -2203,7 +2297,8 @@
     "topic:sepsis",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_0b622ebb8d"
   },
   {
    "number": "12.12",
@@ -2226,7 +2321,8 @@
     "drug:calcium gluconate",
     "topic:sepsis",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_a3d4dd44b2"
   },
   {
    "number": "12.12",
@@ -2250,7 +2346,8 @@
     "topic:entrapment",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_9147428bb9"
   },
   {
    "number": "12.13",
@@ -2274,7 +2371,8 @@
     "topic:trauma",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_9479c7a80f"
   },
   {
    "number": "12.13",
@@ -2298,7 +2396,8 @@
     "topic:trauma",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_e34da9dfb7"
   },
   {
    "number": "12.13",
@@ -2321,7 +2420,8 @@
     "drug:cefazolin",
     "topic:trauma",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_01d211bfd5"
   },
   {
    "number": "12.13",
@@ -2344,7 +2444,8 @@
     "drug:cefazolin",
     "topic:trauma",
     "route:iv"
-   ]
+   ],
+   "uid": "q_db9341aeac"
   },
   {
    "number": "12.13",
@@ -2366,7 +2467,8 @@
    "tags": [
     "drug:cefazolin",
     "topic:trauma"
-   ]
+   ],
+   "uid": "q_cfbb38f174"
   },
   {
    "number": "12.13",
@@ -2388,7 +2490,8 @@
    "tags": [
     "drug:cefazolin",
     "topic:trauma"
-   ]
+   ],
+   "uid": "q_c195bc5eee"
   },
   {
    "number": "12.14",
@@ -2412,7 +2515,8 @@
     "topic:paralysis",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_111bd8bcbc"
   },
   {
    "number": "12.14",
@@ -2436,7 +2540,8 @@
     "topic:paralysis",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_affec4467f"
   },
   {
    "number": "12.14",
@@ -2460,7 +2565,8 @@
     "topic:paralysis",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_ff3634bafd"
   },
   {
    "number": "12.14",
@@ -2484,7 +2590,8 @@
     "topic:paralysis",
     "route:iv",
     "population:pediatric"
-   ]
+   ],
+   "uid": "q_fa0dd2e7c8"
   },
   {
    "number": "12.14",
@@ -2506,7 +2613,8 @@
    "tags": [
     "drug:cisatracurium",
     "topic:paralysis"
-   ]
+   ],
+   "uid": "q_71ed7c5913"
   },
   {
    "number": "12.14",
@@ -2528,7 +2636,8 @@
    "tags": [
     "drug:cisatracurium",
     "topic:paralysis"
-   ]
+   ],
+   "uid": "q_efb35b54cd"
   },
   {
    "number": "12.15",
@@ -2552,7 +2661,8 @@
     "topic:hypertension",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_2665667d92"
   },
   {
    "number": "12.15",
@@ -2576,7 +2686,8 @@
     "topic:hypertension",
     "route:iv",
     "population:adult"
-   ]
+   ],
+   "uid": "q_722e4cbf47"
   },
   {
    "number": "12.15",
@@ -2599,7 +2710,8 @@
     "drug:clevidipine",
     "topic:hypertension",
     "population:adult"
-   ]
+   ],
+   "uid": "q_2ece4cdb01"
   },
   {
    "number": "12.15",
@@ -2621,7 +2733,8 @@
    "tags": [
     "drug:clevidipine",
     "topic:hypertension"
-   ]
+   ],
+   "uid": "q_077edd43f8"
   },
   {
    "number": "12.15",
@@ -2643,7 +2756,8 @@
    "tags": [
     "drug:clevidipine",
     "topic:hypertension"
-   ]
+   ],
+   "uid": "q_0f55bdafd3"
   },
   {
    "number": "12.15",
@@ -2665,7 +2779,8 @@
    "tags": [
     "drug:clevidipine",
     "topic:hypertension"
-   ]
+   ],
+   "uid": "q_b05f7298a3"
   }
  ]
 }

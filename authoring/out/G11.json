@@ -1,2121 +1,2216 @@
 {
-  "batch": "G11",
-  "questions": [
-    {
-      "number": "9.03",
-      "title": "Physician On Scene",
-      "page": 278,
-      "type": "scope",
-      "care_level": null,
-      "population": null,
-      "stem": "A physician on scene offers assistance and medical direction. What does 9.03 direct Life Flight Network personnel to do first?",
-      "options": [
-        "Determine the physician's identity and medical specialty",
-        "Contact on-line medical control for concurrence",
-        "Have the physician sign the LFN Patient Care Record",
-        "Confirm the pilot will allow the physician aboard"
-      ],
-      "answer_index": 0,
-      "explanation": "In all cases the crew first establishes who the physician is and what their specialty is, because the specialty must be pertinent to the patient's condition before the offer can be accepted. Everything else in 9.03 follows from that determination.",
-      "priority": "core",
-      "tags": [
-        "topic:physician-on-scene",
-        "topic:medical-direction"
-      ]
-    },
-    {
-      "number": "9.03",
-      "title": "Physician On Scene",
-      "page": 278,
-      "type": "scope",
-      "care_level": null,
-      "population": null,
-      "stem": "Under 9.03, where must an on-scene physician hold a current license to practice medicine before they may provide assistance or medical direction?",
-      "options": [
-        "In the state where the receiving hospital is located",
-        "In the state where the scene is located",
-        "In any state within Life Flight Network's service area",
-        "In the state where the aircraft is based"
-      ],
-      "answer_index": 1,
-      "explanation": "Licensure must be current in the state where the scene is located; a license valid elsewhere in the service area does not qualify a physician to direct care at that scene.",
-      "priority": "detail",
-      "tags": [
-        "topic:physician-on-scene",
-        "topic:licensure"
-      ]
-    },
-    {
-      "number": "9.03",
-      "title": "Physician On Scene",
-      "page": 278,
-      "type": "scope",
-      "care_level": null,
-      "population": null,
-      "stem": "Whose approval is required before an on-scene physician may accompany the patient on a fixed-wing or rotor-wing transport under 9.03?",
-      "options": [
-        "The Clinical Manager On Call",
-        "An LFN Medical Director",
-        "The pilot",
-        "The LFN Communications Center"
-      ],
-      "answer_index": 2,
-      "explanation": "The physician must agree to accompany the patient to the hospital, but that agreement is subject to pilot approval — the pilot retains authority over who is carried on the aircraft.",
-      "priority": "core",
-      "tags": [
-        "topic:physician-on-scene",
-        "topic:aircraft-operations"
-      ]
-    },
-    {
-      "number": "9.03",
-      "title": "Physician On Scene",
-      "page": 278,
-      "type": "scope",
-      "care_level": null,
-      "population": null,
-      "stem": "Which physicians does 9.03 exempt from the on-scene physician policy, provided they are licensed to practice in the state where the call occurs?",
-      "options": [
-        "Any emergency medicine or critical care physician on scene",
-        "The receiving facility's physician and on-line medical control",
-        "The Medical Program Director and the Clinical Manager On Call",
-        "LFN Medical Directors and the patient's attending physician"
-      ],
-      "answer_index": 3,
-      "explanation": "Only Life Flight Network Medical Directors and the patient's own attending physician are exempt. Specialty alone does not exempt a physician from the identity, agreement and signature requirements.",
-      "priority": "detail",
-      "tags": [
-        "topic:physician-on-scene",
-        "topic:medical-direction"
-      ]
-    },
-    {
-      "number": "9.03",
-      "title": "Physician On Scene",
-      "page": 278,
-      "type": "scope",
-      "care_level": null,
-      "population": null,
-      "stem": "An exempt physician on scene orders an intervention that is outside the crew's scope of practice and training. What does 9.03 direct?",
-      "options": [
-        "Decline — crew never work outside their scope at a physician's direction",
-        "Perform it, because exempt physicians may direct any care",
-        "Perform it once the physician signs the Patient Care Record",
-        "Perform it if the physician accompanies the patient to the hospital"
-      ],
-      "answer_index": 0,
-      "explanation": "At no time will LFN personnel render care outside their scope of practice and training at the direction of a physician on scene — and 9.03 states this applies to the exempt physicians as well.",
-      "priority": "core",
-      "tags": [
-        "topic:physician-on-scene",
-        "topic:scope-of-practice"
-      ]
-    },
-    {
-      "number": "9.03",
-      "title": "Physician On Scene",
-      "page": 278,
-      "type": "treatment",
-      "care_level": null,
-      "population": null,
-      "stem": "During transport with the attending physician aboard, the patient's condition warrants treatment other than what that physician has requested. Who must the crew contact?",
-      "options": [
-        "The Clinical Manager On Call (CMOC)",
-        "On-line medical control or an LFN Medical Director",
-        "The LFN Communications Center",
-        "The receiving hospital's emergency physician"
-      ],
-      "answer_index": 1,
-      "explanation": "The guideline requires contacting OLMC or an LFN Medical Director for advice and concurrence before deviating from the accompanying physician's plan, so the conflict is resolved by LFN's own medical authority rather than at the bedside.",
-      "priority": "core",
-      "tags": [
-        "topic:physician-on-scene",
-        "topic:olmc"
-      ]
-    },
-    {
-      "number": "9.03",
-      "title": "Physician On Scene",
-      "page": 278,
-      "type": "special",
-      "care_level": null,
-      "population": null,
-      "stem": "Under 9.03, when must a Quality Management (QM) report be completed?",
-      "options": [
-        "Only when the physician's orders exceed the crew's scope of practice",
-        "Only when the physician accompanies the patient to the hospital",
-        "Any time a physician assumes or attempts to assume medical control",
-        "Only when the physician refuses to sign the electronic chart"
-      ],
-      "answer_index": 2,
-      "explanation": "The QM report is triggered by the attempt, not just by a completed handover of control, so the event is reviewed even when the crew declines the physician's involvement.",
-      "priority": "detail",
-      "tags": [
-        "topic:physician-on-scene",
-        "topic:documentation"
-      ]
-    },
-    {
-      "number": "9.03",
-      "title": "Physician On Scene",
-      "page": 278,
-      "type": "threshold",
-      "care_level": null,
-      "population": null,
-      "stem": "For how long must the electronic chart carrying an on-scene physician's original signature be maintained at Life Flight Network administrative offices?",
-      "options": [
-        "Not less than 15 years",
-        "Not less than 20 years",
-        "Not less than 25 years",
-        "Not less than 30 years"
-      ],
-      "answer_index": 2,
-      "explanation": "9.03 sets a retention floor of 25 years for the signed electronic chart, which is why the crew must secure the physician's verbal agreement to sign at the time of the event.",
-      "priority": "detail",
-      "tags": [
-        "topic:physician-on-scene",
-        "topic:documentation"
-      ]
-    },
-    {
-      "number": "9.04",
-      "title": "Refusal of Treatment/Transport",
-      "page": 279,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "Among the findings 9.04 lists as suggesting reasonable medical decision-making capacity, what must the patient be able to do with the risks of refusal?",
-      "options": [
-        "Sign an acknowledgement of the risks in front of a witness",
-        "State a reason for refusing that the crew finds reasonable",
-        "Discuss the risks directly with a physician by phone",
-        "Reiterate the risks when asked"
-      ],
-      "answer_index": 3,
-      "explanation": "Understanding the risks of refusal is only demonstrated when the patient can repeat those risks back on request — a nod or a signature is not evidence of understanding.",
-      "priority": "core",
-      "tags": [
-        "topic:refusal",
-        "topic:capacity"
-      ]
-    },
-    {
-      "number": "9.04",
-      "title": "Refusal of Treatment/Transport",
-      "page": 279,
-      "type": "scope",
-      "care_level": null,
-      "population": null,
-      "stem": "A patient who has taken an intentional overdose is awake, oriented, and refusing transport. What does 9.04 direct?",
-      "options": [
-        "Transport to the closest appropriate facility — they may not refuse",
-        "Honor the refusal if they can reiterate the risks of refusing",
-        "Honor the refusal once it is documented on LFN 201.07",
-        "Honor the refusal if a physician by radio agrees with it"
-      ],
-      "answer_index": 0,
-      "explanation": "Intentional overdose is one of the categories 9.04 says may not refuse care, alongside attempted or threatened suicide, gross intoxication, minors and inadequate capacity. Apparent alertness does not restore the right to refuse in these patients.",
-      "priority": "core",
-      "tags": [
-        "topic:refusal",
-        "topic:overdose"
-      ]
-    },
-    {
-      "number": "9.04",
-      "title": "Refusal of Treatment/Transport",
-      "page": 279,
-      "type": "treatment",
-      "care_level": null,
-      "population": null,
-      "stem": "For aviation safety reasons, what does 9.04 direct the crew to consider for a patient who cannot refuse care and is agitated or combative?",
-      "options": [
-        "Enlisting the patient's family or friends to help",
-        "Sedation or RSI",
-        "Having the patient speak with a physician via OLMC",
-        "Documenting the episode on LFN 201.07, Addendum A"
-      ],
-      "answer_index": 1,
-      "explanation": "An agitated patient who cannot legally refuse still has to be flown safely, so 9.04 explicitly raises sedation or RSI as an aviation-safety consideration rather than a purely clinical one.",
-      "priority": "core",
-      "tags": [
-        "topic:refusal",
-        "procedure:rsi",
-        "topic:sedation"
-      ]
-    },
-    {
-      "number": "9.04",
-      "title": "Refusal of Treatment/Transport",
-      "page": 279,
-      "type": "treatment",
-      "care_level": null,
-      "population": null,
-      "stem": "Whenever possible, what does 9.04 say is preferable when an individual is refusing transport altogether?",
-      "options": [
-        "Have them sign LFN 201.07 in the presence of a witness",
-        "Contact the Clinical Manager On Call for concurrence",
-        "Have them speak directly with a physician via on-line medical control",
-        "Enlist the patient's family or friends to convince them"
-      ],
-      "answer_index": 2,
-      "explanation": "A direct physician-to-patient conversation through OLMC is the preferred step before a transport-altogether refusal is accepted; the other actions are permitted but are not what the guideline prefers.",
-      "priority": "detail",
-      "tags": [
-        "topic:refusal",
-        "topic:olmc"
-      ]
-    },
-    {
-      "number": "9.04",
-      "title": "Refusal of Treatment/Transport",
-      "page": 279,
-      "type": "special",
-      "care_level": null,
-      "population": null,
-      "stem": "Which document does 9.04 require be used when a patient refuses a recommended treatment, refuses air transport, or refuses transport altogether?",
-      "options": [
-        "A Quality Management (QM) report",
-        "An event log entry in the electronic chart",
-        "A POLST form completed with the patient",
-        "LFN 201.07 Refusal of Treatment Form, Addendum A"
-      ],
-      "answer_index": 3,
-      "explanation": "Patient-initiated refusals are documented in the patient care record using LFN 201.07, Addendum A, and that single form covers all three kinds of refusal.",
-      "priority": "detail",
-      "tags": [
-        "topic:refusal",
-        "topic:documentation"
-      ]
-    },
-    {
-      "number": "9.04",
-      "title": "Refusal of Treatment/Transport",
-      "page": 279,
-      "type": "special",
-      "care_level": null,
-      "population": null,
-      "stem": "9.04 allows crew acting as patient advocates to speak with a refusing patient's family or friends. What constraint does the guideline place on that conversation?",
-      "options": [
-        "The patient's privacy and HIPAA rights must be protected",
-        "It must take place with on-line medical control on the line",
-        "It must be documented on LFN 201.07, Addendum A",
-        "It may occur only after the patient has signed a refusal"
-      ],
-      "answer_index": 0,
-      "explanation": "Enlisting family or friends is permitted in certain patient-specific situations, but the patient's privacy and HIPAA rights still apply — the crew may not disclose more than the conversation requires.",
-      "priority": "detail",
-      "tags": [
-        "topic:refusal",
-        "topic:hipaa"
-      ]
-    },
-    {
-      "number": "9.04",
-      "title": "Refusal of Treatment/Transport",
-      "page": 280,
-      "type": "scope",
-      "care_level": null,
-      "population": "pediatric",
-      "stem": "A 17-year-old in Idaho who is in active military service wishes to refuse transport. Under 9.04, may they sign the refusal of treatment form?",
-      "options": [
-        "Yes — but only after speaking with a physician via OLMC",
-        "Yes — active military service makes an Idaho minor emancipated",
-        "No — in Idaho only marriage confers emancipation on a minor",
-        "No — minors may never refuse and must be transported"
-      ],
-      "answer_index": 1,
-      "explanation": "Idaho is the only one of the four states where active military service is listed as an emancipating status; an emancipated minor may refuse treatment and sign the refusal form.",
-      "priority": "detail",
-      "tags": [
-        "topic:refusal",
-        "topic:emancipated-minor",
-        "population:pediatric"
-      ]
-    },
-    {
-      "number": "9.04",
-      "title": "Refusal of Treatment/Transport",
-      "page": 279,
-      "type": "scope",
-      "care_level": null,
-      "population": "pediatric",
-      "stem": "Under 9.04, what makes a patient under 18 in Washington emancipated and therefore able to refuse treatment?",
-      "options": [
-        "Married to a person of any age, or in active military service",
-        "Emancipated by court order, or living independently of parents",
-        "Married to a person aged 18 or older, or emancipated by court order",
-        "In active military service, or married to a person of any age"
-      ],
-      "answer_index": 2,
-      "explanation": "Washington adds an age qualifier the other states do not: marriage only emancipates a minor if the spouse is 18 or older. A court order is the other route.",
-      "priority": "detail",
-      "tags": [
-        "topic:refusal",
-        "topic:emancipated-minor",
-        "population:pediatric"
-      ]
-    },
-    {
-      "number": "9.05",
-      "title": "Safe Haven",
-      "page": 281,
-      "type": "scope",
-      "care_level": null,
-      "population": "neonatal",
-      "stem": "In which of the four states covered by 9.05 may EMS personnel themselves serve as a Safe Haven accepting provider?",
-      "options": [
-        "Oregon",
-        "Montana",
-        "Washington",
-        "Idaho"
-      ],
-      "answer_index": 3,
-      "explanation": "Idaho lists certified first responders, EMTs and paramedics among its Safe Haven providers. Oregon, Montana and Washington all exclude EMS providers outside of fire departments, so their statutes are included in 9.05 as a resource only.",
-      "priority": "core",
-      "tags": [
-        "topic:safe-haven",
-        "population:neonatal"
-      ]
-    },
-    {
-      "number": "9.05",
-      "title": "Safe Haven",
-      "page": 281,
-      "type": "threshold",
-      "care_level": null,
-      "population": "neonatal",
-      "stem": "Under Idaho's Safe Haven Act as described in 9.05, up to what age may a custodial parent leave their baby?",
-      "options": [
-        "Up to 30 days old",
-        "Up to 72 hours old",
-        "Up to 60 days old",
-        "Up to 1 year old"
-      ],
-      "answer_index": 0,
-      "explanation": "Idaho allows surrender up to thirty days of age. Washington's window is far shorter at 72 hours, so the age limit must be checked against the state the crew is standing in.",
-      "priority": "core",
-      "tags": [
-        "topic:safe-haven",
-        "population:neonatal"
-      ]
-    },
-    {
-      "number": "9.05",
-      "title": "Safe Haven",
-      "page": 282,
-      "type": "threshold",
-      "care_level": null,
-      "population": "neonatal",
-      "stem": "Under Washington's Safe Haven law as described in 9.05, a newborn is defined as a live human being younger than what age?",
-      "options": [
-        "24 hours",
-        "72 hours",
-        "30 days",
-        "60 days"
-      ],
-      "answer_index": 1,
-      "explanation": "Washington uses the narrowest window of the four states — younger than 72 hours — whereas Idaho, Oregon and Montana all work to roughly 30 days.",
-      "priority": "core",
-      "tags": [
-        "topic:safe-haven",
-        "population:neonatal"
-      ]
-    },
-    {
-      "number": "9.05",
-      "title": "Safe Haven",
-      "page": 282,
-      "type": "scope",
-      "care_level": null,
-      "population": "neonatal",
-      "stem": "Under Montana's Safe Haven provisions in 9.05, what condition must be met for a newborn surrender in addition to the age limit?",
-      "options": [
-        "There must be no evidence of abuse",
-        "The parent must not be asked for their identity",
-        "The parent cannot express an intent to return for the newborn",
-        "Law enforcement must already be present at the scene"
-      ],
-      "answer_index": 2,
-      "explanation": "Montana's statute turns on the parent's stated intent — a parent who says they will come back is not making a Safe Haven surrender. Absence of abuse is Oregon's additional condition.",
-      "priority": "detail",
-      "tags": [
-        "topic:safe-haven",
-        "population:neonatal"
-      ]
-    },
-    {
-      "number": "9.05",
-      "title": "Safe Haven",
-      "page": 281,
-      "type": "treatment",
-      "care_level": null,
-      "population": "neonatal",
-      "stem": "A parent presents an infant to an Idaho crew as a Safe Haven and law enforcement is neither present nor en route. What does 9.05 direct?",
-      "options": [
-        "Ask the parent to remain with the crew until officers arrive",
-        "Transport the infant and notify law enforcement from the hospital",
-        "Contact the Clinical Manager On Call for guidance",
-        "Notify the LFN Communications Center to send law enforcement"
-      ],
-      "answer_index": 3,
-      "explanation": "The Communications Center arranges law enforcement so the infant can be placed in protective custody. The crew does not detain the parent — 9.05 is built around letting the parent leave anonymously.",
-      "priority": "core",
-      "tags": [
-        "topic:safe-haven",
-        "population:neonatal"
-      ]
-    },
-    {
-      "number": "9.05",
-      "title": "Safe Haven",
-      "page": 281,
-      "type": "special",
-      "care_level": null,
-      "population": "neonatal",
-      "stem": "What does 9.05 direct regarding the identity of a parent surrendering an infant under the Safe Haven Act?",
-      "options": [
-        "Do not ask for it; if it is known, keep it confidential",
-        "Obtain it and document it in the patient care record",
-        "Obtain it and release it only to law enforcement",
-        "Obtain it and report it to hospital personnel on arrival"
-      ],
-      "answer_index": 0,
-      "explanation": "Anonymity is the point of a Safe Haven surrender; asking for identity defeats it. Voluntary health history is accepted and passed on, but the identities of parent and infant stay confidential.",
-      "priority": "core",
-      "tags": [
-        "topic:safe-haven",
-        "population:neonatal"
-      ]
-    },
-    {
-      "number": "9.05",
-      "title": "Safe Haven",
-      "page": 281,
-      "type": "equipment",
-      "care_level": null,
-      "population": "neonatal",
-      "stem": "How does 9.05 direct that a Safe Haven infant be transported to the hospital?",
-      "options": [
-        "Secured on the stretcher beside the accompanying parent",
-        "In a child safety seat or other appropriate infant restraint device",
-        "Held by a crew member in the patient compartment",
-        "Swaddled and strapped directly to the gurney"
-      ],
-      "answer_index": 1,
-      "explanation": "A Safe Haven infant is an uninjured well newborn being transported, so the ordinary infant restraint standard applies rather than stretcher or in-arms carriage.",
-      "priority": "detail",
-      "tags": [
-        "topic:safe-haven",
-        "population:neonatal"
-      ]
-    },
-    {
-      "number": "9.05",
-      "title": "Safe Haven",
-      "page": 281,
-      "type": "special",
-      "care_level": null,
-      "population": "neonatal",
-      "stem": "What primary impression does 9.05 direct the crew to document in the patient care record for a Safe Haven infant?",
-      "options": [
-        "Abandoned child",
-        "Protective custody",
-        "Safe Haven",
-        "Well newborn"
-      ],
-      "answer_index": 2,
-      "explanation": "Documenting the primary impression as \"Safe Haven\" is what marks the record as a statutory surrender rather than an abandonment or welfare case, which changes how the receiving facility and law enforcement handle it.",
-      "priority": "detail",
-      "tags": [
-        "topic:safe-haven",
-        "topic:documentation",
-        "population:neonatal"
-      ]
-    },
-    {
-      "number": "9.05",
-      "title": "Safe Haven",
-      "page": 282,
-      "type": "scope",
-      "care_level": null,
-      "population": "neonatal",
-      "stem": "Which location does 9.05 list as an appropriate Safe Haven location under Washington law but not under Oregon law?",
-      "options": [
-        "A sheriff's office or police station",
-        "A free standing birthing center",
-        "A physician's office",
-        "A federally designated rural health clinic"
-      ],
-      "answer_index": 3,
-      "explanation": "Washington's list is limited to a hospital emergency department, a staffed fire station and a federally designated rural health clinic, each during their hours of operation. Police stations, birthing centers and physicians' offices appear on Oregon's list instead.",
-      "priority": "detail",
-      "tags": [
-        "topic:safe-haven",
-        "population:neonatal"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 283,
-      "type": "equipment",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What two things does 9.06 state must be in place before termination of resuscitation can be performed at all?",
-      "options": [
-        "An advanced airway in place and waveform ETCO2",
-        "An advanced airway in place and patent vascular access",
-        "Waveform ETCO2 and a 12-lead ECG",
-        "An advanced airway in place and OLMC contact"
-      ],
-      "answer_index": 0,
-      "explanation": "The guideline opens with an absolute statement: termination cannot be performed without an advanced airway in place and waveform ETCO2. Vascular access and OLMC are separate criteria that come later.",
-      "priority": "core",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "topic:capnography"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 283,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What is the minimum age for considering termination of resuscitation in a medical arrest patient without contacting OLMC?",
-      "options": [
-        "12 years or older",
-        "16 years or older",
-        "18 years or older",
-        "21 years or older"
-      ],
-      "answer_index": 2,
-      "explanation": "Termination without an OLMC consult is restricted to patients 18 years of age or older; a younger arrest patient falls outside the criteria regardless of how the rest of the checklist reads.",
-      "priority": "core",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "population:adult"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 283,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "For how long must the ECG remain in asystole, after resuscitation following AHA and LFN guidelines, before termination may be considered?",
-      "options": [
-        "10 minutes",
-        "15 minutes",
-        "20 minutes",
-        "30 minutes"
-      ],
-      "answer_index": 2,
-      "explanation": "Twenty minutes of guideline-concordant resuscitation with persistent asystole is the rhythm criterion. The fifteen- and thirty-minute figures in this guideline refer to transport time and to the remainder of a rotor-wing flight.",
-      "priority": "core",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "topic:asystole"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 283,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "For at least how long must absent heart tones be verified as part of the termination of resuscitation criteria?",
-      "options": [
-        "30 seconds",
-        "60 seconds",
-        "90 seconds",
-        "2 minutes"
-      ],
-      "answer_index": 1,
-      "explanation": "A full 60 seconds of auscultation is required to verify absent heart tones, which is why 9.06 stresses getting the patient out of the aircraft where pulses, heart sounds and airway can actually be evaluated.",
-      "priority": "core",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "topic:assessment"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 283,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "Resuscitation during transport should not be terminated if the transport time to the original destination hospital or airport is less than what?",
-      "options": [
-        "5 minutes",
-        "10 minutes",
-        "15 minutes",
-        "20 minutes"
-      ],
-      "answer_index": 2,
-      "explanation": "Inside 15 minutes, 9.06 directs the crew to finish the transport and unload the patient before deciding, because pulses, heart sounds and airway status can be evaluated far better on the ground than in the aircraft.",
-      "priority": "core",
-      "tags": [
-        "topic:termination-of-resuscitation"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 283,
-      "type": "scope",
-      "care_level": null,
-      "population": "adult",
-      "stem": "Transport time to the original destination hospital is greater than 15 minutes. Under what condition does 9.06 allow resuscitation to be terminated?",
-      "options": [
-        "The aircraft has landed and the patient has been unloaded",
-        "The Clinical Manager On Call concurs with the decision",
-        "The patient meets Death in the Field criteria, with OLMC consult",
-        "An LFN Medical Director is physically present at the scene"
-      ],
-      "answer_index": 2,
-      "explanation": "Beyond 15 minutes of transport time, termination is permitted for cardiopulmonary arrest patients meeting Death in the Field criteria after an OLMC consult — the consult, not landing, is what unlocks it.",
-      "priority": "core",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "topic:olmc"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 283,
-      "type": "scope",
-      "care_level": null,
-      "population": "adult",
-      "stem": "The crew cannot reach on-line medical control, and termination of resuscitation falls within their state scope of practice. What does 9.06 permit?",
-      "options": [
-        "They must continue the transport and terminate on arrival",
-        "They may terminate only after notifying the CMOC",
-        "They must continue resuscitation until the Coroner is reached",
-        "They may terminate resuscitation"
-      ],
-      "answer_index": 3,
-      "explanation": "Failure to reach OLMC does not block termination if the crew's state scope allows it; if it does not, 9.06 directs them to continue the transport instead.",
-      "priority": "core",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "topic:scope-of-practice"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 283,
-      "type": "special",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What recordings does 9.06 require be obtained and uploaded to the PCR at the time resuscitation is terminated?",
-      "options": [
-        "ETCO2 and ECG strips showing the rhythm in two different leads",
-        "ETCO2 trend data and the defibrillator event summary",
-        "A 12-lead ECG and a single ETCO2 waveform strip",
-        "ECG strips in one lead and a pulse oximetry trace"
-      ],
-      "answer_index": 0,
-      "explanation": "Two different leads are specified so the asystole is documented as a genuine rhythm finding rather than a lead artifact, and the ETCO2 strip corroborates it.",
-      "priority": "detail",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "topic:documentation",
-        "topic:capnography"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 283,
-      "type": "scope",
-      "care_level": null,
-      "population": "adult",
-      "stem": "A 34-year-old in medical cardiac arrest meets every other termination criterion but is known to be 22 weeks pregnant. What does 9.06 direct?",
-      "options": [
-        "Terminate, since the criteria address only the mother",
-        "Criteria are not met — continue resuscitation",
-        "Terminate only with an OLMC consult",
-        "Terminate only after confirming absent fetal heart tones"
-      ],
-      "answer_index": 1,
-      "explanation": "\"Not knowingly pregnant\" is one of the required criteria, so a known pregnancy removes this patient from the termination pathway entirely — pregnancy is also a potentially reversible context for the arrest.",
-      "priority": "core",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "topic:pregnancy"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 283,
-      "type": "treatment",
-      "care_level": null,
-      "population": "adult",
-      "stem": "Resuscitation is terminated aboard a rotor-wing aircraft in flight. What does 9.06 direct the crew to do?",
-      "options": [
-        "Land at the nearest safe location and contact 911",
-        "Divert to the nearest airport and await the Medical Examiner",
-        "Notify the receiving facility and continue transport to it",
-        "Return to base and notify the Clinical Manager On Call"
-      ],
-      "answer_index": 2,
-      "explanation": "Rotor-wing crews continue to the receiving facility after notifying them, and the body stays in the aircraft until the Medical Examiner or Coroner retrieves it. Pulling over and calling 911 is the ground ambulance pathway.",
-      "priority": "core",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "topic:aircraft-operations"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 283,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "After termination aboard a rotor-wing aircraft, beyond what expected remaining transport time must the crew contact the CMOC for guidance?",
-      "options": [
-        "More than 15 minutes",
-        "More than 20 minutes",
-        "More than 30 minutes",
-        "More than 60 minutes"
-      ],
-      "answer_index": 2,
-      "explanation": "A remaining flight time over 30 minutes with a deceased patient aboard triggers a CMOC consult, separate from the 15-minute rule that governs whether termination may happen at all.",
-      "priority": "detail",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "topic:aircraft-operations"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 284,
-      "type": "treatment",
-      "care_level": null,
-      "population": "adult",
-      "stem": "Resuscitation is terminated in an LFN ground ambulance. What does 9.06 direct the crew to do?",
-      "options": [
-        "Continue to the receiving hospital and notify the ED en route",
-        "Return to the scene location and await the Coroner",
-        "Proceed to the destination airport and remain with the vehicle",
-        "Pull over at the next safe location and contact 911"
-      ],
-      "answer_index": 3,
-      "explanation": "The ground pathway differs from both air pathways: the crew stops at the next available safe location and calls 911 to report a death in the vehicle, then the Medical Examiner or Coroner chooses the rendezvous point.",
-      "priority": "core",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "topic:ground-transport"
-      ]
-    },
-    {
-      "number": "9.06",
-      "title": "Termination of Resuscitation During Transport",
-      "page": 284,
-      "type": "treatment",
-      "care_level": null,
-      "population": "adult",
-      "stem": "After termination of resuscitation aboard a fixed-wing aircraft, where does 9.06 direct the crew to go?",
-      "options": [
-        "Proceed to the destination airport",
-        "Return to the departure airport",
-        "Divert to the nearest airport with a Coroner's office",
-        "Proceed to the receiving hospital's helipad"
-      ],
-      "answer_index": 0,
-      "explanation": "Fixed-wing crews complete the leg to the destination airport, and as with rotor-wing the body is left inside the aircraft until the Medical Examiner or Coroner retrieves it.",
-      "priority": "detail",
-      "tags": [
-        "topic:termination-of-resuscitation",
-        "topic:aircraft-operations"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 286,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What are the heart rate and systolic blood pressure targets for an aortic dissection in the Blood Pressure Treatment Chart?",
-      "options": [
-        "HR < 60 and SBP < 100",
-        "HR < 60 and SBP < 120",
-        "HR < 80 and SBP < 140",
-        "SBP > 80 with no heart rate target"
-      ],
-      "answer_index": 1,
-      "explanation": "Dissection management is aimed at shear stress, so both rate and pressure are driven down — HR under 60 and SBP under 120. The SBP > 80 figure applies to aortic rupture, where the goal is the opposite.",
-      "priority": "core",
-      "tags": [
-        "topic:aortic-emergency",
-        "topic:blood-pressure"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 286,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What is the systolic blood pressure target for an aortic rupture in the Blood Pressure Treatment Chart?",
-      "options": [
-        "SBP > 80",
-        "SBP > 90",
-        "SBP > 100",
-        "SBP < 120"
-      ],
-      "answer_index": 0,
-      "explanation": "A ruptured aorta is managed permissively at SBP above 80, in contrast to the aggressive rate and pressure control used for a dissection that has not ruptured.",
-      "priority": "detail",
-      "tags": [
-        "topic:aortic-emergency",
-        "topic:blood-pressure"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 286,
-      "type": "sequence",
-      "care_level": null,
-      "population": "adult",
-      "stem": "In what order does the Blood Pressure Treatment Chart direct first-line treatment of an aortic emergency?",
-      "options": [
-        "Beta blocker therapy first, then aggressive analgesia",
-        "Diltiazem first, then nicardipine or nitroglycerin",
-        "Aggressive analgesia first, then beta blocker therapy",
-        "Nicardipine first, then aggressive analgesia"
-      ],
-      "answer_index": 2,
-      "explanation": "The chart capitalises THEN for a reason: pain drives the catecholamine surge, so analgesia is given before beta blockade rather than alongside it. Diltiazem, nicardipine and NTG are second-line agents.",
-      "priority": "core",
-      "tags": [
-        "topic:aortic-emergency",
-        "drug:beta-blocker"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 286,
-      "type": "treatment",
-      "care_level": null,
-      "population": "adult",
-      "stem": "A patient being treated for an aortic emergency develops severe hypotension. What does the Blood Pressure Treatment Chart direct first?",
-      "options": [
-        "Start norepinephrine targeting a palpable radial pulse",
-        "Start push dose epinephrine until an infusion is running",
-        "Give a fluid bolus and reassess in five minutes",
-        "Turn off all vasoactive, analgesia and sedative medications"
-      ],
-      "answer_index": 3,
-      "explanation": "The hypotension is usually iatrogenic from the aggressive rate and pressure control, so everything contributing is stopped before a vasopressor is added. Norepinephrine is the next step only if hypotension persists.",
-      "priority": "core",
-      "tags": [
-        "topic:aortic-emergency",
-        "topic:hypotension"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 286,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What is the systolic blood pressure target for atraumatic intracerebral hemorrhage with unknown ICP?",
-      "options": [
-        "SBP 140 - 150",
-        "SBP 80 - 90",
-        "SBP > 100",
-        "SBP 180/105"
-      ],
-      "answer_index": 0,
-      "explanation": "With ICP unknown, the chart holds SBP in a narrow 140 to 150 band — high enough to preserve cerebral perfusion pressure, low enough to limit hematoma expansion. 180/105 is the ischemic stroke thrombolytic target.",
-      "priority": "core",
-      "tags": [
-        "topic:intracerebral-hemorrhage",
-        "topic:blood-pressure"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 286,
-      "type": "scope",
-      "care_level": null,
-      "population": null,
-      "stem": "What does the Blood Pressure Treatment Chart require before blood pressure is lowered in traumatic intracerebral hemorrhage?",
-      "options": [
-        "Contact with the Clinical Manager On Call",
-        "A physician order",
-        "A documented SBP above 150",
-        "Confirmed intracranial pressure monitoring"
-      ],
-      "answer_index": 1,
-      "explanation": "The 140 to 150 target belongs to atraumatic ICH. In traumatic ICH the chart prohibits lowering blood pressure without a physician order, because cerebral perfusion pressure after trauma depends on it.",
-      "priority": "core",
-      "tags": [
-        "topic:intracerebral-hemorrhage",
-        "topic:head-trauma"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 286,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What is the adult systolic blood pressure target for hemorrhagic shock without head trauma?",
-      "options": [
-        "SBP > 100",
-        "SBP 140 - 150",
-        "SBP > 80 - 90",
-        "SBP > 120"
-      ],
-      "answer_index": 2,
-      "explanation": "Without head injury the chart permits hypotensive resuscitation at 80 to 90 systolic. The presence of head trauma raises the same target to above 100 to protect cerebral perfusion.",
-      "priority": "core",
-      "tags": [
-        "topic:hemorrhagic-shock",
-        "topic:blood-pressure"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 286,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What is the adult systolic blood pressure target for hemorrhagic shock with head trauma?",
-      "options": [
-        "SBP > 80",
-        "SBP > 90",
-        "SBP > 100",
-        "SBP 140 - 150"
-      ],
-      "answer_index": 2,
-      "explanation": "Head trauma overrides permissive hypotension: the target rises to above 100 systolic, and the chart also warns not to treat an elevated pressure in this patient without physician orders.",
-      "priority": "core",
-      "tags": [
-        "topic:hemorrhagic-shock",
-        "topic:head-trauma"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 286,
-      "type": "treatment",
-      "care_level": null,
-      "population": null,
-      "stem": "What does the Blood Pressure Treatment Chart require before vasopressors are started in a trauma patient?",
-      "options": [
-        "That a physician order has been obtained",
-        "That procedural treatments have been completed",
-        "That push dose epinephrine has already failed",
-        "That fluid and blood resuscitation has been started"
-      ],
-      "answer_index": 3,
-      "explanation": "A vasopressor squeezes an empty tank. The chart repeats under both hemorrhagic shock rows that fluid and blood resuscitation must be underway before norepinephrine or epinephrine is added.",
-      "priority": "core",
-      "tags": [
-        "topic:hemorrhagic-shock",
-        "topic:vasopressors"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 287,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What is the blood pressure target for an ischemic stroke patient who is a thrombolytic candidate?",
-      "options": [
-        "180/105 mmHg",
-        "SBP 220 and DBP 120",
-        "SBP 140 - 150 and DBP 90 - 100",
-        "SBP 80 - 90"
-      ],
-      "answer_index": 0,
-      "explanation": "A thrombolytic candidate is brought down to 180/105 to reduce bleeding risk with the drug. The far more permissive 220/120 ceiling applies only when thrombolysis is off the table.",
-      "priority": "core",
-      "tags": [
-        "topic:ischemic-stroke",
-        "topic:thrombolytics"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 287,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What is the blood pressure ceiling for an ischemic stroke patient who is not a thrombolytic candidate?",
-      "options": [
-        "SBP 180 or less and DBP 105 or less",
-        "SBP 220 or less and DBP 120 or less",
-        "SBP 150 or less and DBP 100 or less",
-        "SBP 140 or less and DBP 90 or less"
-      ],
-      "answer_index": 1,
-      "explanation": "Without thrombolysis the permissive ceiling is 220/120, because dropping pressure threatens the ischemic penumbra. The 180/105 figure is reserved for thrombolytic candidates.",
-      "priority": "core",
-      "tags": [
-        "topic:ischemic-stroke",
-        "topic:blood-pressure"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 287,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "In an ischemic stroke patient who is not a thrombolytic candidate, by how much does the chart allow blood pressure to be lowered from baseline?",
-      "options": [
-        "No more than 15%",
-        "No more than 20%",
-        "No more than 25%",
-        "No more than 40%"
-      ],
-      "answer_index": 0,
-      "explanation": "Even when treatment is indicated, lowering more than 15% from baseline risks collapsing collateral flow to the penumbra. The chart also sets a floor of SBP above 100/70 with a MAP above 80.",
-      "priority": "detail",
-      "tags": [
-        "topic:ischemic-stroke",
-        "topic:blood-pressure"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 287,
-      "type": "treatment",
-      "care_level": null,
-      "population": "adult",
-      "stem": "How does the Blood Pressure Treatment Chart direct the head of the bed be positioned for an ischemic stroke patient?",
-      "options": [
-        "Elevated",
-        "Elevated with the patient in reverse Trendelenburg",
-        "Flat or minimally elevated",
-        "Flat with the patient in the left lateral position"
-      ],
-      "answer_index": 2,
-      "explanation": "Ischemic stroke is managed with the head flat or barely raised to favour cerebral perfusion, which is the opposite of the elevated head of bed the same chart directs for atraumatic intracerebral hemorrhage.",
-      "priority": "core",
-      "tags": [
-        "topic:ischemic-stroke",
-        "topic:positioning"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 287,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "In refractory non-traumatic hypovolemia, which vasopressor does the chart prefer and at what heart rate does that preference change?",
-      "options": [
-        "Epinephrine, unless the heart rate is 100 or greater",
-        "Norepinephrine, unless the heart rate is 120 or greater",
-        "Norepinephrine, unless the heart rate is 100 or greater",
-        "Epinephrine, unless the heart rate is 120 or greater"
-      ],
-      "answer_index": 3,
-      "explanation": "Epinephrine is preferred for its inotropy in non-traumatic hypovolemia, but once the heart rate reaches 120 the added chronotropy is counterproductive and norepinephrine becomes the better choice.",
-      "priority": "core",
-      "tags": [
-        "topic:hypovolemia",
-        "drug:epinephrine",
-        "drug:norepinephrine"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 287,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What are the systolic and diastolic targets for pre-eclampsia, eclampsia and pregnancy-induced hypertension?",
-      "options": [
-        "SBP 140 - 150 and DBP 90 - 100",
-        "SBP 140 - 150 and DBP 80 - 90",
-        "SBP 180 and DBP 105",
-        "SBP 220 and DBP 120"
-      ],
-      "answer_index": 0,
-      "explanation": "Both numbers matter here — the chart specifies treating systolic and diastolic until both thresholds are met, because overcorrection risks inadequate uteroplacental perfusion and fetal distress.",
-      "priority": "core",
-      "tags": [
-        "topic:pre-eclampsia",
-        "topic:obstetrics"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 287,
-      "type": "treatment",
-      "care_level": null,
-      "population": "adult",
-      "stem": "What is the first-line treatment for pre-eclampsia, eclampsia and pregnancy-induced hypertension in the Blood Pressure Treatment Chart?",
-      "options": [
-        "Nicardipine or labetalol",
-        "Labetalol or hydralazine",
-        "Nicardipine or nitroglycerin",
-        "Diltiazem or labetalol"
-      ],
-      "answer_index": 1,
-      "explanation": "Labetalol or hydralazine are first line in pregnancy, with an infusion of either as second line. Nicardipine pairs with labetalol for stroke and intracerebral hemorrhage instead.",
-      "priority": "detail",
-      "tags": [
-        "topic:pre-eclampsia",
-        "drug:labetalol",
-        "drug:hydralazine"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 287,
-      "type": "treatment",
-      "care_level": null,
-      "population": "pediatric",
-      "stem": "Which vasopressor does the Blood Pressure Treatment Chart name as first line for pediatric sepsis?",
-      "options": [
-        "Norepinephrine",
-        "Labetalol",
-        "Epinephrine",
-        "Hydralazine"
-      ],
-      "answer_index": 2,
-      "explanation": "The chart calls out explicitly that epinephrine is the first-line vasopressor for PEDIATRIC sepsis, which is the reverse of the adult sepsis row where norepinephrine comes first.",
-      "priority": "core",
-      "tags": [
-        "topic:sepsis",
-        "drug:epinephrine",
-        "population:pediatric"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 287,
-      "type": "treatment",
-      "care_level": null,
-      "population": "adult",
-      "stem": "Which vasopressor does the Blood Pressure Treatment Chart name as first line for adult sepsis?",
-      "options": [
-        "Epinephrine",
-        "Labetalol",
-        "Hydralazine",
-        "Norepinephrine"
-      ],
-      "answer_index": 3,
-      "explanation": "Adult sepsis starts with norepinephrine and adds epinephrine second; the pediatric sepsis row inverts that order. Mixing the two up is the classic error this chart exists to prevent.",
-      "priority": "core",
-      "tags": [
-        "topic:sepsis",
-        "drug:norepinephrine",
-        "population:adult"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 287,
-      "type": "threshold",
-      "care_level": null,
-      "population": "adult",
-      "stem": "At what norepinephrine rate does the Blood Pressure Treatment Chart direct adding a second vasopressor in adult sepsis?",
-      "options": [
-        "More than 20 mcg/min",
-        "More than 30 mcg/min",
-        "More than 40 mcg/min",
-        "More than 65 mcg/min"
-      ],
-      "answer_index": 2,
-      "explanation": "Once norepinephrine passes 40 mcg/min the chart directs adding a second agent rather than continuing to climb, with a MAP above 65 as the resuscitation target.",
-      "priority": "core",
-      "tags": [
-        "topic:sepsis",
-        "drug:norepinephrine"
-      ]
-    },
-    {
-      "number": "10.01",
-      "title": "Blood Pressure Treatment Chart",
-      "page": 286,
-      "type": "treatment",
-      "care_level": null,
-      "population": null,
-      "stem": "Blood pressure remains refractory in anaphylactic shock despite IM epinephrine and fluids. What does the Blood Pressure Treatment Chart direct?",
-      "options": [
-        "IV epinephrine",
-        "Norepinephrine infusion",
-        "Push dose epinephrine",
-        "A further fluid bolus"
-      ],
-      "answer_index": 0,
-      "explanation": "The chart escalates within the same drug rather than switching agents, noting that epinephrine is the priority treatment in anaphylaxis; the IV route is reserved for refractory pressure.",
-      "priority": "detail",
-      "tags": [
-        "topic:anaphylaxis",
-        "drug:epinephrine",
-        "route:iv"
-      ]
-    },
-    {
-      "number": "10.02",
-      "title": "Glossary of Abbreviations",
-      "page": 288,
-      "type": "special",
-      "care_level": null,
-      "population": null,
-      "stem": "In the Glossary of Abbreviations, what does LTOWB stand for?",
-      "options": [
-        "Low Titer O-Negative Whole Blood",
-        "Low Titer O-Positive Whole Blood",
-        "Leukocyte-Reduced Type O Whole Blood",
-        "Liquid Type O Washed Blood"
-      ],
-      "answer_index": 1,
-      "explanation": "The product carried is low titer O-POSITIVE whole blood, not O-negative — the low anti-A and anti-B titer, not the Rh type, is what makes it safe to give without a crossmatch.",
-      "priority": "detail",
-      "tags": [
-        "topic:abbreviations",
-        "topic:blood-products"
-      ]
-    },
-    {
-      "number": "10.02",
-      "title": "Glossary of Abbreviations",
-      "page": 288,
-      "type": "special",
-      "care_level": null,
-      "population": null,
-      "stem": "In the Glossary of Abbreviations, what does LKW stand for?",
-      "options": [
-        "Last Known Weight",
-        "Last Known Witness",
-        "Last Known Well",
-        "Left-sided Known Weakness"
-      ],
-      "answer_index": 2,
-      "explanation": "Last Known Well is the time anchor for every stroke decision — it is the figure the BEFAST screen asks the crew to document alongside the time symptoms were noted.",
-      "priority": "detail",
-      "tags": [
-        "topic:abbreviations",
-        "topic:stroke"
-      ]
-    },
-    {
-      "number": "10.02",
-      "title": "Glossary of Abbreviations",
-      "page": 289,
-      "type": "special",
-      "care_level": null,
-      "population": null,
-      "stem": "In the Glossary of Abbreviations, what does RASS stand for?",
-      "options": [
-        "Ramsay Agitation and Sedation Score",
-        "Rapid Assessment of Sedation Scale",
-        "Richmond Analgesia and Sedation Score",
-        "Richmond Agitation and Sedation Scale"
-      ],
-      "answer_index": 3,
-      "explanation": "The Richmond Agitation and Sedation Scale is the sedation depth score referenced throughout the guidelines for titrating post-intubation sedation.",
-      "priority": "detail",
-      "tags": [
-        "topic:abbreviations",
-        "topic:sedation"
-      ]
-    },
-    {
-      "number": "10.03",
-      "title": "Hemodynamic Pressure Table",
-      "page": 290,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "What normal value does the Hemodynamic Pressure Table give for central venous pressure?",
-      "options": [
-        "0 - 8 mmHg",
-        "2 - 6 mmHg",
-        "5 - 12 mmHg",
-        "9 - 16 mmHg"
-      ],
-      "answer_index": 0,
-      "explanation": "CVP of 0 to 8 mmHg reflects right ventricular filling pressure and the mean pressure of the systemic veins; 5 to 12 is the wedge pressure and 9 to 16 the mean pulmonary artery pressure.",
-      "priority": "core",
-      "tags": [
-        "topic:hemodynamics",
-        "topic:cvp"
-      ]
-    },
-    {
-      "number": "10.03",
-      "title": "Hemodynamic Pressure Table",
-      "page": 290,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "What normal range does the Hemodynamic Pressure Table give for mean arterial pressure?",
-      "options": [
-        "70 - 105 mmHg",
-        "60 - 80 mmHg",
-        "15 - 25 mmHg",
-        "9 - 16 mmHg"
-      ],
-      "answer_index": 0,
-      "explanation": "The table's normal MAP of 70 to 105 mmHg sits well above the MAP > 65 resuscitation floor used in the sepsis and post-ROSC rows of the Blood Pressure Treatment Chart.",
-      "priority": "core",
-      "tags": [
-        "topic:hemodynamics",
-        "topic:map"
-      ]
-    },
-    {
-      "number": "10.03",
-      "title": "Hemodynamic Pressure Table",
-      "page": 290,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "What normal range does the Hemodynamic Pressure Table give for pulmonary capillary wedge pressure?",
-      "options": [
-        "0 - 8 mmHg",
-        "5 - 12 mmHg",
-        "2 - 6 mmHg",
-        "15 - 25 mmHg"
-      ],
-      "answer_index": 1,
-      "explanation": "A wedge of 5 to 12 mmHg reflects left ventricular filling pressure provided nothing obstructs between the balloon tip and the left ventricle — a rising wedge is the earliest marker of left heart failure on transport.",
-      "priority": "core",
-      "tags": [
-        "topic:hemodynamics",
-        "topic:pcwp"
-      ]
-    },
-    {
-      "number": "10.03",
-      "title": "Hemodynamic Pressure Table",
-      "page": 290,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "What normal range does the Hemodynamic Pressure Table give for cardiac output?",
-      "options": [
-        "2.5 - 4 L/min",
-        "5 - 12 L/min",
-        "4 - 8 L/min",
-        "9 - 16 L/min"
-      ],
-      "answer_index": 2,
-      "explanation": "Cardiac output is 4 to 8 L/min; the 2.5 to 4 L/min figure is the cardiac index, which is the same output adjusted for body size.",
-      "priority": "detail",
-      "tags": [
-        "topic:hemodynamics",
-        "topic:cardiac-output"
-      ]
-    },
-    {
-      "number": "10.03",
-      "title": "Hemodynamic Pressure Table",
-      "page": 290,
-      "type": "threshold",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "What normal range does the Hemodynamic Pressure Table give for coronary artery perfusion pressure?",
-      "options": [
-        "70 - 105 mmHg",
-        "15 - 25 mmHg",
-        "5 - 12 mmHg",
-        "60 - 80 mmHg"
-      ],
-      "answer_index": 3,
-      "explanation": "Coronary artery perfusion pressure of 60 to 80 mmHg is the gradient driving flow through the coronaries — it is why diastolic pressure, not systolic, matters most in cardiogenic shock.",
-      "priority": "detail",
-      "tags": [
-        "topic:hemodynamics",
-        "topic:coronary-perfusion"
-      ]
-    },
-    {
-      "number": "10.03",
-      "title": "Hemodynamic Pressure Table",
-      "page": 290,
-      "type": "mechanism",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "According to the Hemodynamic Pressure Table, systemic vascular resistance reflects which of the following?",
-      "options": [
-        "Left ventricular afterload",
-        "Right ventricular afterload",
-        "Left ventricular preload",
-        "Right ventricular preload"
-      ],
-      "answer_index": 0,
-      "explanation": "SVR is resistance to left ventricular ejection offered by aortic pressure, so it reflects LV afterload. Pulmonary vascular resistance is the mirror figure for the right ventricle.",
-      "priority": "core",
-      "tags": [
-        "topic:hemodynamics",
-        "topic:svr"
-      ]
-    },
-    {
-      "number": "10.03",
-      "title": "Hemodynamic Pressure Table",
-      "page": 290,
-      "type": "mechanism",
-      "care_level": "CCT",
-      "population": "adult",
-      "stem": "According to the Hemodynamic Pressure Table, pulmonary artery pressure reflects which two things?",
-      "options": [
-        "Right ventricular afterload and right ventricular preload",
-        "Right ventricular afterload and left ventricular preload",
-        "Left ventricular afterload and left ventricular preload",
-        "Left ventricular afterload and right ventricular preload"
-      ],
-      "answer_index": 1,
-      "explanation": "The pulmonary artery sits between the two ventricles, so its pressure is what the right ventricle ejects against and what fills the left — RV afterload and LV preload in one number.",
-      "priority": "detail",
-      "tags": [
-        "topic:hemodynamics",
-        "topic:pap"
-      ]
-    },
-    {
-      "number": "10.04",
-      "title": "Medication Administration Cross Check (MACC)",
-      "page": 291,
-      "type": "sequence",
-      "care_level": null,
-      "population": null,
-      "stem": "How does the MACC tool begin, and what is the expected response?",
-      "options": [
-        "Crew 1 says \"Ready\"; Crew 2 responds \"Medication Check\"",
-        "Crew 1 says \"Medication Check\"; Crew 2 responds \"Agreed\"",
-        "Crew 1 says \"Medication Check\"; Crew 2 responds \"Ready\"",
-        "Crew 1 says \"Confirm\"; Crew 2 responds \"Verified\""
-      ],
-      "answer_index": 2,
-      "explanation": "The call and response is fixed so both crew members know the cross check has formally started. \"Agreed\" belongs at the end of the process, after verification is correct.",
-      "priority": "core",
-      "tags": [
-        "topic:macc",
-        "topic:medication-safety"
-      ]
-    },
-    {
-      "number": "10.04",
-      "title": "Medication Administration Cross Check (MACC)",
-      "page": 291,
-      "type": "procedure",
-      "care_level": null,
-      "population": null,
-      "stem": "What must Crew 1 physically show Crew 2 during the MACC check?",
-      "options": [
-        "The vial and the medication order",
-        "The syringe and the patient care record",
-        "The infusion pump screen and the vial",
-        "The vial and the syringe or bag"
-      ],
-      "answer_index": 3,
-      "explanation": "The cross check is done against the physical product, not against what anyone remembers drawing up — Crew 2 has to see both the source vial and the prepared syringe or bag.",
-      "priority": "core",
-      "tags": [
-        "topic:macc",
-        "topic:medication-safety"
-      ]
-    },
-    {
-      "number": "10.04",
-      "title": "Medication Administration Cross Check (MACC)",
-      "page": 291,
-      "type": "sequence",
-      "care_level": null,
-      "population": null,
-      "stem": "Which question in the MACC tool determines which read-back Crew 2 performs?",
-      "options": [
-        "Is this an infusion via IV pump?",
-        "Is this a high-alert medication?",
-        "Is the dose weight based?",
-        "Has this medication been given already?"
-      ],
-      "answer_index": 0,
-      "explanation": "The flowchart branches on whether the medication is a pump infusion, because an infusion needs the volume to be infused and the rate read back, which a bolus or tablet does not.",
-      "priority": "detail",
-      "tags": [
-        "topic:macc",
-        "topic:medication-safety"
-      ]
-    },
-    {
-      "number": "10.04",
-      "title": "Medication Administration Cross Check (MACC)",
-      "page": 291,
-      "type": "sequence",
-      "care_level": null,
-      "population": null,
-      "stem": "For a medication being given as an infusion via IV pump, what does the MACC tool have Crew 2 state out loud?",
-      "options": [
-        "Name, concentration, volume in the syringe or bag, and dose",
-        "Name, concentration, dose, volume to be infused, and infusion rate",
-        "Name, dose, route, time, and indication",
-        "Name, concentration, expiration date, and dose"
-      ],
-      "answer_index": 1,
-      "explanation": "The pump branch adds volume to be infused and infusion rate on top of name, concentration and dose, since a pump programming error is the failure mode this branch exists to catch.",
-      "priority": "core",
-      "tags": [
-        "topic:macc",
-        "topic:infusion"
-      ]
-    },
-    {
-      "number": "10.04",
-      "title": "Medication Administration Cross Check (MACC)",
-      "page": 291,
-      "type": "sequence",
-      "care_level": null,
-      "population": null,
-      "stem": "The MACC verification is not correct. What does the tool direct next?",
-      "options": [
-        "Correct the error and continue from the read-back step",
-        "Have a third crew member perform the verification",
-        "Correct the identified error and repeat the MACC check from step 1",
-        "Discard the preparation and contact on-line medical control"
-      ],
-      "answer_index": 2,
-      "explanation": "The flowchart loops all the way back to Crew 1's \"Medication Check\" rather than resuming mid-process, so the corrected preparation is verified from the beginning.",
-      "priority": "core",
-      "tags": [
-        "topic:macc",
-        "topic:medication-safety"
-      ]
-    },
-    {
-      "number": "10.04",
-      "title": "Medication Administration Cross Check (MACC)",
-      "page": 291,
-      "type": "procedure",
-      "care_level": null,
-      "population": null,
-      "stem": "Once the MACC verification is correct, what does Crew 1 state before administering the medication?",
-      "options": [
-        "\"Confirmed, proceed with administration\"",
-        "\"Verified, medication check complete\"",
-        "\"Ready, administering now\"",
-        "\"Agreed, that is my intended dose for this patient\""
-      ],
-      "answer_index": 3,
-      "explanation": "The closing statement puts the dose decision back on Crew 1 explicitly — Crew 2 verified what was prepared, but Crew 1 confirms it is what they intended for this patient.",
-      "priority": "detail",
-      "tags": [
-        "topic:macc",
-        "topic:medication-safety"
-      ]
-    },
-    {
-      "number": "10.05",
-      "title": "RSI Checklist",
-      "page": 292,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "In the HEAVEN airway assessment on the RSI Checklist, why is exsanguination flagged?",
-      "options": [
-        "It may accelerate desaturation",
-        "It limits the range of motion of the neck",
-        "It predicts a difficult laryngoscopic view",
-        "It makes cuff pressure unreliable"
-      ],
-      "answer_index": 0,
-      "explanation": "A bleeding patient has less oxygen-carrying capacity, so the safe apneic window is shorter than the pre-induction saturation suggests. Limited neck range of motion is the separate \"N\" item.",
-      "priority": "detail",
-      "tags": [
-        "procedure:rsi",
-        "topic:heaven",
-        "topic:airway"
-      ]
-    },
-    {
-      "number": "10.05",
-      "title": "RSI Checklist",
-      "page": 292,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "Which patients does the \"Extremes of size\" item of the HEAVEN assessment flag on the RSI Checklist?",
-      "options": [
-        "Patients 28 days of age or younger, and obese patients",
-        "Patients 8 years of age or younger, and obese patients",
-        "Patients 1 year of age or younger, and cachectic patients",
-        "Patients 12 years of age or younger, and obese patients"
-      ],
-      "answer_index": 1,
-      "explanation": "Both ends of the size range shorten the safe apneic window and complicate laryngoscopy — small children through reduced functional residual capacity, obese patients through chest wall mechanics.",
-      "priority": "detail",
-      "tags": [
-        "procedure:rsi",
-        "topic:heaven",
-        "topic:airway"
-      ]
-    },
-    {
-      "number": "10.05",
-      "title": "RSI Checklist",
-      "page": 292,
-      "type": "procedure",
-      "care_level": null,
-      "population": null,
-      "stem": "What does the pre-oxygenation step of the RSI Checklist specify as the standard setup?",
-      "options": [
-        "Nasal cannula at 6 LPM plus a non-rebreather at 15 LPM",
-        "Non-rebreather at flush rate alone",
-        "Nasal cannula at 15 LPM plus a non-rebreather at flush rate",
-        "BVM with PEEP alone"
-      ],
-      "answer_index": 2,
-      "explanation": "Apneic oxygenation by nasal cannula runs underneath the non-rebreather at flush rate, so oxygen delivery continues through the apneic period after the mask comes off.",
-      "priority": "core",
-      "tags": [
-        "procedure:rsi",
-        "topic:pre-oxygenation"
-      ]
-    },
-    {
-      "number": "10.05",
-      "title": "RSI Checklist",
-      "page": 292,
-      "type": "procedure",
-      "care_level": null,
-      "population": null,
-      "stem": "What does the RSI Checklist direct when the saturation remains at or below 94% after pre-oxygenation?",
-      "options": [
-        "Non-rebreather at flush rate plus nasal cannula at 15 LPM",
-        "Proceed with induction and intubate rapidly",
-        "Place a supraglottic airway before induction",
-        "BVM with PEEP plus nasal cannula at 15 LPM"
-      ],
-      "answer_index": 3,
-      "explanation": "A saturation that will not rise with a non-rebreather means shunt, which needs positive pressure — the checklist escalates to a BVM with PEEP while the nasal cannula keeps running.",
-      "priority": "core",
-      "tags": [
-        "procedure:rsi",
-        "topic:pre-oxygenation",
-        "topic:peep"
-      ]
-    },
-    {
-      "number": "10.05",
-      "title": "RSI Checklist",
-      "page": 292,
-      "type": "treatment",
-      "care_level": null,
-      "population": null,
-      "stem": "Which agent does the RSI Checklist specify for delayed sequence intubation (DSI) pre-oxygenation?",
-      "options": [
-        "Ketamine",
-        "Etomidate",
-        "Midazolam",
-        "Succinylcholine"
-      ],
-      "answer_index": 0,
-      "explanation": "Ketamine preserves respiratory drive and airway reflexes, so it is the agent that allows a patient to be dissociated enough to tolerate pre-oxygenation. The checklist also directs repeating it before RSI.",
-      "priority": "core",
-      "tags": [
-        "procedure:rsi",
-        "drug:ketamine",
-        "topic:dsi"
-      ]
-    },
-    {
-      "number": "10.05",
-      "title": "RSI Checklist",
-      "page": 292,
-      "type": "indication",
-      "care_level": null,
-      "population": "neonatal",
-      "stem": "The RSI Checklist prompts the crew to consider atropine for patients of what age?",
-      "options": [
-        "8 years of age or younger",
-        "28 days of age or younger",
-        "1 year of age or younger",
-        "12 years of age or younger"
-      ],
-      "answer_index": 1,
-      "explanation": "Neonates in the first month depend heavily on heart rate for cardiac output and have a brisk vagal response to laryngoscopy, so the checklist carries a dedicated atropine prompt for that age group.",
-      "priority": "core",
-      "tags": [
-        "procedure:rsi",
-        "drug:atropine",
-        "population:neonatal"
-      ]
-    },
-    {
-      "number": "10.05",
-      "title": "RSI Checklist",
-      "page": 292,
-      "type": "procedure",
-      "care_level": null,
-      "population": null,
-      "stem": "Which technique does the RSI Checklist suggest when vomit, blood or other fluids are present in the airway?",
-      "options": [
-        "Cricoid pressure",
-        "Bougie-assisted intubation",
-        "SALAD technique",
-        "External laryngeal manipulation"
-      ],
-      "answer_index": 2,
-      "explanation": "SALAD — suction-assisted laryngoscopy and airway decontamination — is the technique the HEAVEN \"V\" item points to, with suction confirmed functional during equipment preparation.",
-      "priority": "core",
-      "tags": [
-        "procedure:rsi",
-        "topic:salad",
-        "topic:airway"
-      ]
-    },
-    {
-      "number": "10.05",
-      "title": "RSI Checklist",
-      "page": 292,
-      "type": "equipment",
-      "care_level": null,
-      "population": null,
-      "stem": "Besides the intended tube, which endotracheal tube does the RSI Checklist direct the crew to have out during equipment preparation?",
-      "options": [
-        "One a size larger",
-        "One cuffed and one uncuffed of the same size",
-        "A second tube of the same size",
-        "One a size smaller"
-      ],
-      "answer_index": 3,
-      "explanation": "The backup is a size smaller because the failure that needs rescuing is a tube that will not pass, not one that is too loose.",
-      "priority": "detail",
-      "tags": [
-        "procedure:rsi",
-        "topic:equipment",
-        "topic:airway"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 293,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "In the BEFAST screen, what does the \"B\" prompt the crew to assess?",
-      "options": [
-        "Balance — trouble walking, dizziness, loss of coordination",
-        "Breathing — rate, effort and airway protection",
-        "Blood glucose — hypoglycemia as a stroke mimic",
-        "Blood pressure — systolic and diastolic extremes"
-      ],
-      "answer_index": 0,
-      "explanation": "Balance and Eyes were added ahead of the classic FAST letters precisely because posterior circulation strokes present with ataxia and visual loss rather than face, arm or speech findings.",
-      "priority": "core",
-      "tags": [
-        "topic:stroke",
-        "topic:befast"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 293,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "What does the \"T\" in the BEFAST screen direct the crew to document?",
-      "options": [
-        "Time of arrival at the patient's side",
-        "Time last seen normal and time symptoms were noted",
-        "Total duration of symptoms in hours",
-        "Time of the last blood pressure measurement"
-      ],
-      "answer_index": 1,
-      "explanation": "Both times are required because they are different numbers: a patient found with deficits was last seen normal earlier than symptoms were noticed, and the earlier time is what drives thrombolytic and thrombectomy eligibility.",
-      "priority": "detail",
-      "tags": [
-        "topic:stroke",
-        "topic:befast",
-        "topic:documentation"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 293,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "In the EMS VAN tool, which finding must be present before the vision, aphasia and neglect tests are performed at all?",
-      "options": [
-        "Facial droop",
-        "Slurred speech",
-        "Arm weakness",
-        "Forced gaze"
-      ],
-      "answer_index": 2,
-      "explanation": "Arm drift is the gate for the whole tool — with no arm weakness the patient is VAN negative and no further testing is done, which is what makes VAN quick to perform.",
-      "priority": "core",
-      "tags": [
-        "topic:stroke",
-        "topic:van",
-        "topic:lvo"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 294,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "What makes the neglect component of the EMS VAN tool positive?",
-      "options": [
-        "Forced gaze together with inability to count fingers",
-        "Inability to name two objects or follow two commands",
-        "Failure to track a finger from side to side",
-        "Forced gaze, or inability to identify which arm is being touched"
-      ],
-      "answer_index": 3,
-      "explanation": "Either finding alone is positive. Naming objects and following commands belong to the aphasia component, and finger tracking belongs to the vision component.",
-      "priority": "detail",
-      "tags": [
-        "topic:stroke",
-        "topic:van",
-        "topic:lvo"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 294,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "A patient has arm weakness, but all three VAN tests are normal. How is the patient scored?",
-      "options": [
-        "VAN negative",
-        "VAN positive",
-        "Positive for a large vessel occlusion",
-        "VAN cannot be scored"
-      ],
-      "answer_index": 0,
-      "explanation": "Arm weakness alone is not enough — VAN turns positive only when arm weakness is accompanied by at least one positive vision, aphasia or neglect test.",
-      "priority": "core",
-      "tags": [
-        "topic:stroke",
-        "topic:van",
-        "topic:lvo"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 294,
-      "type": "threshold",
-      "care_level": null,
-      "population": null,
-      "stem": "What Cincinnati Stroke Triage Assessment Tool (C-STAT) score is considered positive and suggests a large vessel occlusion?",
-      "options": [
-        "1 or greater",
-        "2 or greater",
-        "3 or greater",
-        "4 or greater"
-      ],
-      "answer_index": 1,
-      "explanation": "C-STAT runs 0 to 4 and turns positive at 2. Because abnormal gaze alone scores 2, a patient with conjugate gaze deviation is C-STAT positive on that finding by itself.",
-      "priority": "core",
-      "tags": [
-        "topic:stroke",
-        "topic:c-stat",
-        "topic:lvo"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 294,
-      "type": "threshold",
-      "care_level": null,
-      "population": null,
-      "stem": "How many points does abnormal gaze score on the Cincinnati Stroke Triage Assessment Tool (C-STAT)?",
-      "options": [
-        "0 points",
-        "1 point",
-        "2 points",
-        "3 points"
-      ],
-      "answer_index": 2,
-      "explanation": "Gaze is weighted at 2 points while arm weakness and level of consciousness score 1 each, so inability to look in a given direction with both eyes makes the tool positive on its own.",
-      "priority": "detail",
-      "tags": [
-        "topic:stroke",
-        "topic:c-stat",
-        "topic:lvo"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 295,
-      "type": "threshold",
-      "care_level": null,
-      "population": null,
-      "stem": "What Los Angeles Motor Scale (LAMS) score is considered positive for a large vessel occlusion?",
-      "options": [
-        "2 or greater",
-        "3 or greater",
-        "4 or greater",
-        "5 or greater"
-      ],
-      "answer_index": 2,
-      "explanation": "LAMS runs 0 to 5 across facial droop, arm drift and grip strength, and turns positive at 4 — which in practice requires severe deficits in at least two of the three items.",
-      "priority": "core",
-      "tags": [
-        "topic:stroke",
-        "topic:lams",
-        "topic:lvo"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 295,
-      "type": "threshold",
-      "care_level": null,
-      "population": null,
-      "stem": "On the Los Angeles Motor Scale (LAMS), how is an absent grip scored?",
-      "options": [
-        "0 points",
-        "1 point",
-        "2 points",
-        "4 points"
-      ],
-      "answer_index": 2,
-      "explanation": "Grip strength and arm drift each run to 2 points, while facial droop maxes out at 1 — so the motor items carry most of the weight toward the positive threshold of 4.",
-      "priority": "detail",
-      "tags": [
-        "topic:stroke",
-        "topic:lams",
-        "topic:lvo"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 295,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "In the RACE scale, which item is scored in a patient who has right hemiparesis?",
-      "options": [
-        "Agnosia",
-        "Aphasia",
-        "Head and gaze deviation",
-        "Leg motor function"
-      ],
-      "answer_index": 1,
-      "explanation": "RACE scores aphasia for right hemiparesis and agnosia for left hemiparesis, matching the cortical deficit to the dominant or non-dominant hemisphere being affected. Facial palsy, arm, leg and gaze are scored in every patient.",
-      "priority": "core",
-      "tags": [
-        "topic:stroke",
-        "topic:race",
-        "topic:lvo"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 295,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "At what RACE score does the scale indicate the patient may have an ischemic stroke with a large vessel occlusion?",
-      "options": [
-        "3 or greater",
-        "4 or greater",
-        "5 or greater",
-        "7 or greater"
-      ],
-      "answer_index": 2,
-      "explanation": "RACE totals 0 to 9, and a score of 5 or more suggests a large vessel occlusion. Note the different cut points across the scales — C-STAT turns positive at 2 and LAMS at 4.",
-      "priority": "core",
-      "tags": [
-        "topic:stroke",
-        "topic:race",
-        "topic:lvo"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 296,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "What pattern of weakness does the Los Angeles Prehospital Stroke Screen (LAPSS) require on examination?",
-      "options": [
-        "Bilateral weakness",
-        "Any motor deficit, unilateral or bilateral",
-        "Unilateral, not bilateral, weakness",
-        "Facial droop with normal limb strength"
-      ],
-      "answer_index": 2,
-      "explanation": "LAPSS asks the crew to look for obvious asymmetry in facial smile, hand grip and arm strength; bilateral weakness does not meet the screen, which is why it points toward stroke rather than a global process.",
-      "priority": "detail",
-      "tags": [
-        "topic:stroke",
-        "topic:lapss"
-      ]
-    },
-    {
-      "number": "10.06",
-      "title": "Stroke Scales",
-      "page": 296,
-      "type": "assessment",
-      "care_level": null,
-      "population": null,
-      "stem": "A patient's findings do not meet the LAPSS screening criteria. What does 10.06f note about this?",
-      "options": [
-        "Stroke has been ruled out and another cause should be sought",
-        "The screen should be repeated in fifteen minutes",
-        "The receiving hospital should still be alerted for stroke",
-        "The patient may still be experiencing a stroke"
-      ],
-      "answer_index": 3,
-      "explanation": "LAPSS is a screening tool, not a rule-out. The note exists so crews do not stand down a stroke alert on a patient whose glucose, age or seizure history disqualifies them from the screen.",
-      "priority": "core",
-      "tags": [
-        "topic:stroke",
-        "topic:lapss"
-      ]
-    }
-  ]
+ "batch": "G11",
+ "questions": [
+  {
+   "number": "9.03",
+   "title": "Physician On Scene",
+   "page": 278,
+   "type": "scope",
+   "care_level": null,
+   "population": null,
+   "stem": "A physician on scene offers assistance and medical direction. What does 9.03 direct Life Flight Network personnel to do first?",
+   "options": [
+    "Determine the physician's identity and medical specialty",
+    "Contact on-line medical control for concurrence",
+    "Have the physician sign the LFN Patient Care Record",
+    "Confirm the pilot will allow the physician aboard"
+   ],
+   "answer_index": 0,
+   "explanation": "In all cases the crew first establishes who the physician is and what their specialty is, because the specialty must be pertinent to the patient's condition before the offer can be accepted. Everything else in 9.03 follows from that determination.",
+   "priority": "core",
+   "tags": [
+    "topic:physician-on-scene",
+    "topic:medical-direction"
+   ],
+   "uid": "q_e513fdc4a7"
+  },
+  {
+   "number": "9.03",
+   "title": "Physician On Scene",
+   "page": 278,
+   "type": "scope",
+   "care_level": null,
+   "population": null,
+   "stem": "Under 9.03, where must an on-scene physician hold a current license to practice medicine before they may provide assistance or medical direction?",
+   "options": [
+    "In the state where the receiving hospital is located",
+    "In the state where the scene is located",
+    "In any state within Life Flight Network's service area",
+    "In the state where the aircraft is based"
+   ],
+   "answer_index": 1,
+   "explanation": "Licensure must be current in the state where the scene is located; a license valid elsewhere in the service area does not qualify a physician to direct care at that scene.",
+   "priority": "detail",
+   "tags": [
+    "topic:physician-on-scene",
+    "topic:licensure"
+   ],
+   "uid": "q_74dc240e97"
+  },
+  {
+   "number": "9.03",
+   "title": "Physician On Scene",
+   "page": 278,
+   "type": "scope",
+   "care_level": null,
+   "population": null,
+   "stem": "Whose approval is required before an on-scene physician may accompany the patient on a fixed-wing or rotor-wing transport under 9.03?",
+   "options": [
+    "The Clinical Manager On Call",
+    "An LFN Medical Director",
+    "The pilot",
+    "The LFN Communications Center"
+   ],
+   "answer_index": 2,
+   "explanation": "The physician must agree to accompany the patient to the hospital, but that agreement is subject to pilot approval — the pilot retains authority over who is carried on the aircraft.",
+   "priority": "core",
+   "tags": [
+    "topic:physician-on-scene",
+    "topic:aircraft-operations"
+   ],
+   "uid": "q_0f6f72c6d7"
+  },
+  {
+   "number": "9.03",
+   "title": "Physician On Scene",
+   "page": 278,
+   "type": "scope",
+   "care_level": null,
+   "population": null,
+   "stem": "Which physicians does 9.03 exempt from the on-scene physician policy, provided they are licensed to practice in the state where the call occurs?",
+   "options": [
+    "Any emergency medicine or critical care physician on scene",
+    "The receiving facility's physician and on-line medical control",
+    "The Medical Program Director and the Clinical Manager On Call",
+    "LFN Medical Directors and the patient's attending physician"
+   ],
+   "answer_index": 3,
+   "explanation": "Only Life Flight Network Medical Directors and the patient's own attending physician are exempt. Specialty alone does not exempt a physician from the identity, agreement and signature requirements.",
+   "priority": "detail",
+   "tags": [
+    "topic:physician-on-scene",
+    "topic:medical-direction"
+   ],
+   "uid": "q_4a8a35ecd6"
+  },
+  {
+   "number": "9.03",
+   "title": "Physician On Scene",
+   "page": 278,
+   "type": "scope",
+   "care_level": null,
+   "population": null,
+   "stem": "An exempt physician on scene orders an intervention that is outside the crew's scope of practice and training. What does 9.03 direct?",
+   "options": [
+    "Decline — crew never work outside their scope at a physician's direction",
+    "Perform it, because exempt physicians may direct any care",
+    "Perform it once the physician signs the Patient Care Record",
+    "Perform it if the physician accompanies the patient to the hospital"
+   ],
+   "answer_index": 0,
+   "explanation": "At no time will LFN personnel render care outside their scope of practice and training at the direction of a physician on scene — and 9.03 states this applies to the exempt physicians as well.",
+   "priority": "core",
+   "tags": [
+    "topic:physician-on-scene",
+    "topic:scope-of-practice"
+   ],
+   "uid": "q_b0606d0021"
+  },
+  {
+   "number": "9.03",
+   "title": "Physician On Scene",
+   "page": 278,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "During transport with the attending physician aboard, the patient's condition warrants treatment other than what that physician has requested. Who must the crew contact?",
+   "options": [
+    "The Clinical Manager On Call (CMOC)",
+    "On-line medical control or an LFN Medical Director",
+    "The LFN Communications Center",
+    "The receiving hospital's emergency physician"
+   ],
+   "answer_index": 1,
+   "explanation": "The guideline requires contacting OLMC or an LFN Medical Director for advice and concurrence before deviating from the accompanying physician's plan, so the conflict is resolved by LFN's own medical authority rather than at the bedside.",
+   "priority": "core",
+   "tags": [
+    "topic:physician-on-scene",
+    "topic:olmc"
+   ],
+   "uid": "q_43a3d9881c"
+  },
+  {
+   "number": "9.03",
+   "title": "Physician On Scene",
+   "page": 278,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "Under 9.03, when must a Quality Management (QM) report be completed?",
+   "options": [
+    "Only when the physician's orders exceed the crew's scope of practice",
+    "Only when the physician accompanies the patient to the hospital",
+    "Any time a physician assumes or attempts to assume medical control",
+    "Only when the physician refuses to sign the electronic chart"
+   ],
+   "answer_index": 2,
+   "explanation": "The QM report is triggered by the attempt, not just by a completed handover of control, so the event is reviewed even when the crew declines the physician's involvement.",
+   "priority": "detail",
+   "tags": [
+    "topic:physician-on-scene",
+    "topic:documentation"
+   ],
+   "uid": "q_2a637cee09"
+  },
+  {
+   "number": "9.03",
+   "title": "Physician On Scene",
+   "page": 278,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "For how long must the electronic chart carrying an on-scene physician's original signature be maintained at Life Flight Network administrative offices?",
+   "options": [
+    "Not less than 15 years",
+    "Not less than 20 years",
+    "Not less than 25 years",
+    "Not less than 30 years"
+   ],
+   "answer_index": 2,
+   "explanation": "9.03 sets a retention floor of 25 years for the signed electronic chart, which is why the crew must secure the physician's verbal agreement to sign at the time of the event.",
+   "priority": "detail",
+   "tags": [
+    "topic:physician-on-scene",
+    "topic:documentation"
+   ],
+   "uid": "q_8fd2164d4e"
+  },
+  {
+   "number": "9.04",
+   "title": "Refusal of Treatment/Transport",
+   "page": 279,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "Among the findings 9.04 lists as suggesting reasonable medical decision-making capacity, what must the patient be able to do with the risks of refusal?",
+   "options": [
+    "Sign an acknowledgement of the risks in front of a witness",
+    "State a reason for refusing that the crew finds reasonable",
+    "Discuss the risks directly with a physician by phone",
+    "Reiterate the risks when asked"
+   ],
+   "answer_index": 3,
+   "explanation": "Understanding the risks of refusal is only demonstrated when the patient can repeat those risks back on request — a nod or a signature is not evidence of understanding.",
+   "priority": "core",
+   "tags": [
+    "topic:refusal",
+    "topic:capacity"
+   ],
+   "uid": "q_855b734b7c"
+  },
+  {
+   "number": "9.04",
+   "title": "Refusal of Treatment/Transport",
+   "page": 279,
+   "type": "scope",
+   "care_level": null,
+   "population": null,
+   "stem": "A patient who has taken an intentional overdose is awake, oriented, and refusing transport. What does 9.04 direct?",
+   "options": [
+    "Transport to the closest appropriate facility — they may not refuse",
+    "Honor the refusal if they can reiterate the risks of refusing",
+    "Honor the refusal once it is documented on LFN 201.07",
+    "Honor the refusal if a physician by radio agrees with it"
+   ],
+   "answer_index": 0,
+   "explanation": "Intentional overdose is one of the categories 9.04 says may not refuse care, alongside attempted or threatened suicide, gross intoxication, minors and inadequate capacity. Apparent alertness does not restore the right to refuse in these patients.",
+   "priority": "core",
+   "tags": [
+    "topic:refusal",
+    "topic:overdose"
+   ],
+   "uid": "q_1ba4202b54"
+  },
+  {
+   "number": "9.04",
+   "title": "Refusal of Treatment/Transport",
+   "page": 279,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "For aviation safety reasons, what does 9.04 direct the crew to consider for a patient who cannot refuse care and is agitated or combative?",
+   "options": [
+    "Enlisting the patient's family or friends to help",
+    "Sedation or RSI",
+    "Having the patient speak with a physician via OLMC",
+    "Documenting the episode on LFN 201.07, Addendum A"
+   ],
+   "answer_index": 1,
+   "explanation": "An agitated patient who cannot legally refuse still has to be flown safely, so 9.04 explicitly raises sedation or RSI as an aviation-safety consideration rather than a purely clinical one.",
+   "priority": "core",
+   "tags": [
+    "topic:refusal",
+    "procedure:rsi",
+    "topic:sedation"
+   ],
+   "uid": "q_f9a83ae215"
+  },
+  {
+   "number": "9.04",
+   "title": "Refusal of Treatment/Transport",
+   "page": 279,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "Whenever possible, what does 9.04 say is preferable when an individual is refusing transport altogether?",
+   "options": [
+    "Have them sign LFN 201.07 in the presence of a witness",
+    "Contact the Clinical Manager On Call for concurrence",
+    "Have them speak directly with a physician via on-line medical control",
+    "Enlist the patient's family or friends to convince them"
+   ],
+   "answer_index": 2,
+   "explanation": "A direct physician-to-patient conversation through OLMC is the preferred step before a transport-altogether refusal is accepted; the other actions are permitted but are not what the guideline prefers.",
+   "priority": "detail",
+   "tags": [
+    "topic:refusal",
+    "topic:olmc"
+   ],
+   "uid": "q_739f125a77"
+  },
+  {
+   "number": "9.04",
+   "title": "Refusal of Treatment/Transport",
+   "page": 279,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "Which document does 9.04 require be used when a patient refuses a recommended treatment, refuses air transport, or refuses transport altogether?",
+   "options": [
+    "A Quality Management (QM) report",
+    "An event log entry in the electronic chart",
+    "A POLST form completed with the patient",
+    "LFN 201.07 Refusal of Treatment Form, Addendum A"
+   ],
+   "answer_index": 3,
+   "explanation": "Patient-initiated refusals are documented in the patient care record using LFN 201.07, Addendum A, and that single form covers all three kinds of refusal.",
+   "priority": "detail",
+   "tags": [
+    "topic:refusal",
+    "topic:documentation"
+   ],
+   "uid": "q_a81d573047"
+  },
+  {
+   "number": "9.04",
+   "title": "Refusal of Treatment/Transport",
+   "page": 279,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "9.04 allows crew acting as patient advocates to speak with a refusing patient's family or friends. What constraint does the guideline place on that conversation?",
+   "options": [
+    "The patient's privacy and HIPAA rights must be protected",
+    "It must take place with on-line medical control on the line",
+    "It must be documented on LFN 201.07, Addendum A",
+    "It may occur only after the patient has signed a refusal"
+   ],
+   "answer_index": 0,
+   "explanation": "Enlisting family or friends is permitted in certain patient-specific situations, but the patient's privacy and HIPAA rights still apply — the crew may not disclose more than the conversation requires.",
+   "priority": "detail",
+   "tags": [
+    "topic:refusal",
+    "topic:hipaa"
+   ],
+   "uid": "q_4780d1da51"
+  },
+  {
+   "number": "9.04",
+   "title": "Refusal of Treatment/Transport",
+   "page": 280,
+   "type": "scope",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "A 17-year-old in Idaho who is in active military service wishes to refuse transport. Under 9.04, may they sign the refusal of treatment form?",
+   "options": [
+    "Yes — but only after speaking with a physician via OLMC",
+    "Yes — active military service makes an Idaho minor emancipated",
+    "No — in Idaho only marriage confers emancipation on a minor",
+    "No — minors may never refuse and must be transported"
+   ],
+   "answer_index": 1,
+   "explanation": "Idaho is the only one of the four states where active military service is listed as an emancipating status; an emancipated minor may refuse treatment and sign the refusal form.",
+   "priority": "detail",
+   "tags": [
+    "topic:refusal",
+    "topic:emancipated-minor",
+    "population:pediatric"
+   ],
+   "uid": "q_e566e7fae8"
+  },
+  {
+   "number": "9.04",
+   "title": "Refusal of Treatment/Transport",
+   "page": 279,
+   "type": "scope",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Under 9.04, what makes a patient under 18 in Washington emancipated and therefore able to refuse treatment?",
+   "options": [
+    "Married to a person of any age, or in active military service",
+    "Emancipated by court order, or living independently of parents",
+    "Married to a person aged 18 or older, or emancipated by court order",
+    "In active military service, or married to a person of any age"
+   ],
+   "answer_index": 2,
+   "explanation": "Washington adds an age qualifier the other states do not: marriage only emancipates a minor if the spouse is 18 or older. A court order is the other route.",
+   "priority": "detail",
+   "tags": [
+    "topic:refusal",
+    "topic:emancipated-minor",
+    "population:pediatric"
+   ],
+   "uid": "q_1492645b30"
+  },
+  {
+   "number": "9.05",
+   "title": "Safe Haven",
+   "page": 281,
+   "type": "scope",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "In which of the four states covered by 9.05 may EMS personnel themselves serve as a Safe Haven accepting provider?",
+   "options": [
+    "Oregon",
+    "Montana",
+    "Washington",
+    "Idaho"
+   ],
+   "answer_index": 3,
+   "explanation": "Idaho lists certified first responders, EMTs and paramedics among its Safe Haven providers. Oregon, Montana and Washington all exclude EMS providers outside of fire departments, so their statutes are included in 9.05 as a resource only.",
+   "priority": "core",
+   "tags": [
+    "topic:safe-haven",
+    "population:neonatal"
+   ],
+   "uid": "q_170b56e9e1"
+  },
+  {
+   "number": "9.05",
+   "title": "Safe Haven",
+   "page": 281,
+   "type": "threshold",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "Under Idaho's Safe Haven Act as described in 9.05, up to what age may a custodial parent leave their baby?",
+   "options": [
+    "Up to 30 days old",
+    "Up to 72 hours old",
+    "Up to 60 days old",
+    "Up to 1 year old"
+   ],
+   "answer_index": 0,
+   "explanation": "Idaho allows surrender up to thirty days of age. Washington's window is far shorter at 72 hours, so the age limit must be checked against the state the crew is standing in.",
+   "priority": "core",
+   "tags": [
+    "topic:safe-haven",
+    "population:neonatal"
+   ],
+   "uid": "q_bb0a0e2dd4"
+  },
+  {
+   "number": "9.05",
+   "title": "Safe Haven",
+   "page": 282,
+   "type": "threshold",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "Under Washington's Safe Haven law as described in 9.05, a newborn is defined as a live human being younger than what age?",
+   "options": [
+    "24 hours",
+    "72 hours",
+    "30 days",
+    "60 days"
+   ],
+   "answer_index": 1,
+   "explanation": "Washington uses the narrowest window of the four states — younger than 72 hours — whereas Idaho, Oregon and Montana all work to roughly 30 days.",
+   "priority": "core",
+   "tags": [
+    "topic:safe-haven",
+    "population:neonatal"
+   ],
+   "uid": "q_49262f9feb"
+  },
+  {
+   "number": "9.05",
+   "title": "Safe Haven",
+   "page": 282,
+   "type": "scope",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "Under Montana's Safe Haven provisions in 9.05, what condition must be met for a newborn surrender in addition to the age limit?",
+   "options": [
+    "There must be no evidence of abuse",
+    "The parent must not be asked for their identity",
+    "The parent cannot express an intent to return for the newborn",
+    "Law enforcement must already be present at the scene"
+   ],
+   "answer_index": 2,
+   "explanation": "Montana's statute turns on the parent's stated intent — a parent who says they will come back is not making a Safe Haven surrender. Absence of abuse is Oregon's additional condition.",
+   "priority": "detail",
+   "tags": [
+    "topic:safe-haven",
+    "population:neonatal"
+   ],
+   "uid": "q_4ee17abf6f"
+  },
+  {
+   "number": "9.05",
+   "title": "Safe Haven",
+   "page": 281,
+   "type": "treatment",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "A parent presents an infant to an Idaho crew as a Safe Haven and law enforcement is neither present nor en route. What does 9.05 direct?",
+   "options": [
+    "Ask the parent to remain with the crew until officers arrive",
+    "Transport the infant and notify law enforcement from the hospital",
+    "Contact the Clinical Manager On Call for guidance",
+    "Notify the LFN Communications Center to send law enforcement"
+   ],
+   "answer_index": 3,
+   "explanation": "The Communications Center arranges law enforcement so the infant can be placed in protective custody. The crew does not detain the parent — 9.05 is built around letting the parent leave anonymously.",
+   "priority": "core",
+   "tags": [
+    "topic:safe-haven",
+    "population:neonatal"
+   ],
+   "uid": "q_1fb68f8bb9"
+  },
+  {
+   "number": "9.05",
+   "title": "Safe Haven",
+   "page": 281,
+   "type": "special",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "What does 9.05 direct regarding the identity of a parent surrendering an infant under the Safe Haven Act?",
+   "options": [
+    "Do not ask for it; if it is known, keep it confidential",
+    "Obtain it and document it in the patient care record",
+    "Obtain it and release it only to law enforcement",
+    "Obtain it and report it to hospital personnel on arrival"
+   ],
+   "answer_index": 0,
+   "explanation": "Anonymity is the point of a Safe Haven surrender; asking for identity defeats it. Voluntary health history is accepted and passed on, but the identities of parent and infant stay confidential.",
+   "priority": "core",
+   "tags": [
+    "topic:safe-haven",
+    "population:neonatal"
+   ],
+   "uid": "q_ffc2f9a56b"
+  },
+  {
+   "number": "9.05",
+   "title": "Safe Haven",
+   "page": 281,
+   "type": "equipment",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "How does 9.05 direct that a Safe Haven infant be transported to the hospital?",
+   "options": [
+    "Secured on the stretcher beside the accompanying parent",
+    "In a child safety seat or other appropriate infant restraint device",
+    "Held by a crew member in the patient compartment",
+    "Swaddled and strapped directly to the gurney"
+   ],
+   "answer_index": 1,
+   "explanation": "A Safe Haven infant is an uninjured well newborn being transported, so the ordinary infant restraint standard applies rather than stretcher or in-arms carriage.",
+   "priority": "detail",
+   "tags": [
+    "topic:safe-haven",
+    "population:neonatal"
+   ],
+   "uid": "q_987b8c42d7"
+  },
+  {
+   "number": "9.05",
+   "title": "Safe Haven",
+   "page": 281,
+   "type": "special",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "What primary impression does 9.05 direct the crew to document in the patient care record for a Safe Haven infant?",
+   "options": [
+    "Abandoned child",
+    "Protective custody",
+    "Safe Haven",
+    "Well newborn"
+   ],
+   "answer_index": 2,
+   "explanation": "Documenting the primary impression as \"Safe Haven\" is what marks the record as a statutory surrender rather than an abandonment or welfare case, which changes how the receiving facility and law enforcement handle it.",
+   "priority": "detail",
+   "tags": [
+    "topic:safe-haven",
+    "topic:documentation",
+    "population:neonatal"
+   ],
+   "uid": "q_9951e9c60c"
+  },
+  {
+   "number": "9.05",
+   "title": "Safe Haven",
+   "page": 282,
+   "type": "scope",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "Which location does 9.05 list as an appropriate Safe Haven location under Washington law but not under Oregon law?",
+   "options": [
+    "A sheriff's office or police station",
+    "A free standing birthing center",
+    "A physician's office",
+    "A federally designated rural health clinic"
+   ],
+   "answer_index": 3,
+   "explanation": "Washington's list is limited to a hospital emergency department, a staffed fire station and a federally designated rural health clinic, each during their hours of operation. Police stations, birthing centers and physicians' offices appear on Oregon's list instead.",
+   "priority": "detail",
+   "tags": [
+    "topic:safe-haven",
+    "population:neonatal"
+   ],
+   "uid": "q_9d0ad6d227"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 283,
+   "type": "equipment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What two things does 9.06 state must be in place before termination of resuscitation can be performed at all?",
+   "options": [
+    "An advanced airway in place and waveform ETCO2",
+    "An advanced airway in place and patent vascular access",
+    "Waveform ETCO2 and a 12-lead ECG",
+    "An advanced airway in place and OLMC contact"
+   ],
+   "answer_index": 0,
+   "explanation": "The guideline opens with an absolute statement: termination cannot be performed without an advanced airway in place and waveform ETCO2. Vascular access and OLMC are separate criteria that come later.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:capnography"
+   ],
+   "uid": "q_b1380b870c"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 283,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the minimum age for considering termination of resuscitation in a medical arrest patient without contacting OLMC?",
+   "options": [
+    "12 years or older",
+    "16 years or older",
+    "18 years or older",
+    "21 years or older"
+   ],
+   "answer_index": 2,
+   "explanation": "Termination without an OLMC consult is restricted to patients 18 years of age or older; a younger arrest patient falls outside the criteria regardless of how the rest of the checklist reads.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "population:adult"
+   ],
+   "uid": "q_507aa43124"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 283,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "For how long must the ECG remain in asystole, after resuscitation following AHA and LFN guidelines, before termination may be considered?",
+   "options": [
+    "10 minutes",
+    "15 minutes",
+    "20 minutes",
+    "30 minutes"
+   ],
+   "answer_index": 2,
+   "explanation": "Twenty minutes of guideline-concordant resuscitation with persistent asystole is the rhythm criterion. The fifteen- and thirty-minute figures in this guideline refer to transport time and to the remainder of a rotor-wing flight.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:asystole"
+   ],
+   "uid": "q_3cfc4cb5f2"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 283,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "For at least how long must absent heart tones be verified as part of the termination of resuscitation criteria?",
+   "options": [
+    "30 seconds",
+    "60 seconds",
+    "90 seconds",
+    "2 minutes"
+   ],
+   "answer_index": 1,
+   "explanation": "A full 60 seconds of auscultation is required to verify absent heart tones, which is why 9.06 stresses getting the patient out of the aircraft where pulses, heart sounds and airway can actually be evaluated.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:assessment"
+   ],
+   "uid": "q_2bc608fdad"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 283,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Resuscitation during transport should not be terminated if the transport time to the original destination hospital or airport is less than what?",
+   "options": [
+    "5 minutes",
+    "10 minutes",
+    "15 minutes",
+    "20 minutes"
+   ],
+   "answer_index": 2,
+   "explanation": "Inside 15 minutes, 9.06 directs the crew to finish the transport and unload the patient before deciding, because pulses, heart sounds and airway status can be evaluated far better on the ground than in the aircraft.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation"
+   ],
+   "uid": "q_4998d73c2a"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 283,
+   "type": "scope",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Transport time to the original destination hospital is greater than 15 minutes. Under what condition does 9.06 allow resuscitation to be terminated?",
+   "options": [
+    "The aircraft has landed and the patient has been unloaded",
+    "The Clinical Manager On Call concurs with the decision",
+    "The patient meets Death in the Field criteria, with OLMC consult",
+    "An LFN Medical Director is physically present at the scene"
+   ],
+   "answer_index": 2,
+   "explanation": "Beyond 15 minutes of transport time, termination is permitted for cardiopulmonary arrest patients meeting Death in the Field criteria after an OLMC consult — the consult, not landing, is what unlocks it.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:olmc"
+   ],
+   "uid": "q_adb56b11f6"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 283,
+   "type": "scope",
+   "care_level": null,
+   "population": "adult",
+   "stem": "The crew cannot reach on-line medical control, and termination of resuscitation falls within their state scope of practice. What does 9.06 permit?",
+   "options": [
+    "They must continue the transport and terminate on arrival",
+    "They may terminate only after notifying the CMOC",
+    "They must continue resuscitation until the Coroner is reached",
+    "They may terminate resuscitation"
+   ],
+   "answer_index": 3,
+   "explanation": "Failure to reach OLMC does not block termination if the crew's state scope allows it; if it does not, 9.06 directs them to continue the transport instead.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:scope-of-practice"
+   ],
+   "uid": "q_5e8995b810"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 283,
+   "type": "special",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What recordings does 9.06 require be obtained and uploaded to the PCR at the time resuscitation is terminated?",
+   "options": [
+    "ETCO2 and ECG strips showing the rhythm in two different leads",
+    "ETCO2 trend data and the defibrillator event summary",
+    "A 12-lead ECG and a single ETCO2 waveform strip",
+    "ECG strips in one lead and a pulse oximetry trace"
+   ],
+   "answer_index": 0,
+   "explanation": "Two different leads are specified so the asystole is documented as a genuine rhythm finding rather than a lead artifact, and the ETCO2 strip corroborates it.",
+   "priority": "detail",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:documentation",
+    "topic:capnography"
+   ],
+   "uid": "q_c620ed3178"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 283,
+   "type": "scope",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A 34-year-old in medical cardiac arrest meets every other termination criterion but is known to be 22 weeks pregnant. What does 9.06 direct?",
+   "options": [
+    "Terminate, since the criteria address only the mother",
+    "Criteria are not met — continue resuscitation",
+    "Terminate only with an OLMC consult",
+    "Terminate only after confirming absent fetal heart tones"
+   ],
+   "answer_index": 1,
+   "explanation": "\"Not knowingly pregnant\" is one of the required criteria, so a known pregnancy removes this patient from the termination pathway entirely — pregnancy is also a potentially reversible context for the arrest.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:pregnancy"
+   ],
+   "uid": "q_33b4245916"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 283,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Resuscitation is terminated aboard a rotor-wing aircraft in flight. What does 9.06 direct the crew to do?",
+   "options": [
+    "Land at the nearest safe location and contact 911",
+    "Divert to the nearest airport and await the Medical Examiner",
+    "Notify the receiving facility and continue transport to it",
+    "Return to base and notify the Clinical Manager On Call"
+   ],
+   "answer_index": 2,
+   "explanation": "Rotor-wing crews continue to the receiving facility after notifying them, and the body stays in the aircraft until the Medical Examiner or Coroner retrieves it. Pulling over and calling 911 is the ground ambulance pathway.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:aircraft-operations"
+   ],
+   "uid": "q_80e76da211"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 283,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "After termination aboard a rotor-wing aircraft, beyond what expected remaining transport time must the crew contact the CMOC for guidance?",
+   "options": [
+    "More than 15 minutes",
+    "More than 20 minutes",
+    "More than 30 minutes",
+    "More than 60 minutes"
+   ],
+   "answer_index": 2,
+   "explanation": "A remaining flight time over 30 minutes with a deceased patient aboard triggers a CMOC consult, separate from the 15-minute rule that governs whether termination may happen at all.",
+   "priority": "detail",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:aircraft-operations"
+   ],
+   "uid": "q_ebca88c4e9"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 284,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Resuscitation is terminated in an LFN ground ambulance. What does 9.06 direct the crew to do?",
+   "options": [
+    "Continue to the receiving hospital and notify the ED en route",
+    "Return to the scene location and await the Coroner",
+    "Proceed to the destination airport and remain with the vehicle",
+    "Pull over at the next safe location and contact 911"
+   ],
+   "answer_index": 3,
+   "explanation": "The ground pathway differs from both air pathways: the crew stops at the next available safe location and calls 911 to report a death in the vehicle, then the Medical Examiner or Coroner chooses the rendezvous point.",
+   "priority": "core",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:ground-transport"
+   ],
+   "uid": "q_fc19e7c6ef"
+  },
+  {
+   "number": "9.06",
+   "title": "Termination of Resuscitation During Transport",
+   "page": 284,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "After termination of resuscitation aboard a fixed-wing aircraft, where does 9.06 direct the crew to go?",
+   "options": [
+    "Proceed to the destination airport",
+    "Return to the departure airport",
+    "Divert to the nearest airport with a Coroner's office",
+    "Proceed to the receiving hospital's helipad"
+   ],
+   "answer_index": 0,
+   "explanation": "Fixed-wing crews complete the leg to the destination airport, and as with rotor-wing the body is left inside the aircraft until the Medical Examiner or Coroner retrieves it.",
+   "priority": "detail",
+   "tags": [
+    "topic:termination-of-resuscitation",
+    "topic:aircraft-operations"
+   ],
+   "uid": "q_1eac0bf116"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What are the heart rate and systolic blood pressure targets for an aortic dissection in the Blood Pressure Treatment Chart?",
+   "options": [
+    "HR < 60 and SBP < 100",
+    "HR < 60 and SBP < 120",
+    "HR < 80 and SBP < 140",
+    "SBP > 80 with no heart rate target"
+   ],
+   "answer_index": 1,
+   "explanation": "Dissection management is aimed at shear stress, so both rate and pressure are driven down — HR under 60 and SBP under 120. The SBP > 80 figure applies to aortic rupture, where the goal is the opposite.",
+   "priority": "core",
+   "tags": [
+    "topic:aortic-emergency",
+    "topic:blood-pressure"
+   ],
+   "uid": "q_194cc0213a"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the systolic blood pressure target for an aortic rupture in the Blood Pressure Treatment Chart?",
+   "options": [
+    "SBP > 80",
+    "SBP > 90",
+    "SBP > 100",
+    "SBP < 120"
+   ],
+   "answer_index": 0,
+   "explanation": "A ruptured aorta is managed permissively at SBP above 80, in contrast to the aggressive rate and pressure control used for a dissection that has not ruptured.",
+   "priority": "detail",
+   "tags": [
+    "topic:aortic-emergency",
+    "topic:blood-pressure"
+   ],
+   "uid": "q_0e011f3f4e"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "sequence",
+   "care_level": null,
+   "population": "adult",
+   "stem": "In what order does the Blood Pressure Treatment Chart direct first-line treatment of an aortic emergency?",
+   "options": [
+    "Beta blocker therapy first, then aggressive analgesia",
+    "Diltiazem first, then nicardipine or nitroglycerin",
+    "Aggressive analgesia first, then beta blocker therapy",
+    "Nicardipine first, then aggressive analgesia"
+   ],
+   "answer_index": 2,
+   "explanation": "The chart capitalises THEN for a reason: pain drives the catecholamine surge, so analgesia is given before beta blockade rather than alongside it. Diltiazem, nicardipine and NTG are second-line agents.",
+   "priority": "core",
+   "tags": [
+    "topic:aortic-emergency",
+    "drug:beta-blocker"
+   ],
+   "uid": "q_ef5a6fe575"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "A patient being treated for an aortic emergency develops severe hypotension. What does the Blood Pressure Treatment Chart direct first?",
+   "options": [
+    "Start norepinephrine targeting a palpable radial pulse",
+    "Start push dose epinephrine until an infusion is running",
+    "Give a fluid bolus and reassess in five minutes",
+    "Turn off all vasoactive, analgesia and sedative medications"
+   ],
+   "answer_index": 3,
+   "explanation": "The hypotension is usually iatrogenic from the aggressive rate and pressure control, so everything contributing is stopped before a vasopressor is added. Norepinephrine is the next step only if hypotension persists.",
+   "priority": "core",
+   "tags": [
+    "topic:aortic-emergency",
+    "topic:hypotension"
+   ],
+   "uid": "q_a16b51f5e6"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the systolic blood pressure target for atraumatic intracerebral hemorrhage with unknown ICP?",
+   "options": [
+    "SBP 140 - 150",
+    "SBP 80 - 90",
+    "SBP > 100",
+    "SBP 180/105"
+   ],
+   "answer_index": 0,
+   "explanation": "With ICP unknown, the chart holds SBP in a narrow 140 to 150 band — high enough to preserve cerebral perfusion pressure, low enough to limit hematoma expansion. 180/105 is the ischemic stroke thrombolytic target.",
+   "priority": "core",
+   "tags": [
+    "topic:intracerebral-hemorrhage",
+    "topic:blood-pressure"
+   ],
+   "uid": "q_31a22895c1"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "scope",
+   "care_level": null,
+   "population": null,
+   "stem": "What does the Blood Pressure Treatment Chart require before blood pressure is lowered in traumatic intracerebral hemorrhage?",
+   "options": [
+    "Contact with the Clinical Manager On Call",
+    "A physician order",
+    "A documented SBP above 150",
+    "Confirmed intracranial pressure monitoring"
+   ],
+   "answer_index": 1,
+   "explanation": "The 140 to 150 target belongs to atraumatic ICH. In traumatic ICH the chart prohibits lowering blood pressure without a physician order, because cerebral perfusion pressure after trauma depends on it.",
+   "priority": "core",
+   "tags": [
+    "topic:intracerebral-hemorrhage",
+    "topic:head-trauma"
+   ],
+   "uid": "q_d2c6165695"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult systolic blood pressure target for hemorrhagic shock without head trauma?",
+   "options": [
+    "SBP > 100",
+    "SBP 140 - 150",
+    "SBP > 80 - 90",
+    "SBP > 120"
+   ],
+   "answer_index": 2,
+   "explanation": "Without head injury the chart permits hypotensive resuscitation at 80 to 90 systolic. The presence of head trauma raises the same target to above 100 to protect cerebral perfusion.",
+   "priority": "core",
+   "tags": [
+    "topic:hemorrhagic-shock",
+    "topic:blood-pressure"
+   ],
+   "uid": "q_9955c8cf5a"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the adult systolic blood pressure target for hemorrhagic shock with head trauma?",
+   "options": [
+    "SBP > 80",
+    "SBP > 90",
+    "SBP > 100",
+    "SBP 140 - 150"
+   ],
+   "answer_index": 2,
+   "explanation": "Head trauma overrides permissive hypotension: the target rises to above 100 systolic, and the chart also warns not to treat an elevated pressure in this patient without physician orders.",
+   "priority": "core",
+   "tags": [
+    "topic:hemorrhagic-shock",
+    "topic:head-trauma"
+   ],
+   "uid": "q_9fa63ba7a8"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "What does the Blood Pressure Treatment Chart require before vasopressors are started in a trauma patient?",
+   "options": [
+    "That a physician order has been obtained",
+    "That procedural treatments have been completed",
+    "That push dose epinephrine has already failed",
+    "That fluid and blood resuscitation has been started"
+   ],
+   "answer_index": 3,
+   "explanation": "A vasopressor squeezes an empty tank. The chart repeats under both hemorrhagic shock rows that fluid and blood resuscitation must be underway before norepinephrine or epinephrine is added.",
+   "priority": "core",
+   "tags": [
+    "topic:hemorrhagic-shock",
+    "topic:vasopressors"
+   ],
+   "uid": "q_bd73665304"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the blood pressure target for an ischemic stroke patient who is a thrombolytic candidate?",
+   "options": [
+    "180/105 mmHg",
+    "SBP 220 and DBP 120",
+    "SBP 140 - 150 and DBP 90 - 100",
+    "SBP 80 - 90"
+   ],
+   "answer_index": 0,
+   "explanation": "A thrombolytic candidate is brought down to 180/105 to reduce bleeding risk with the drug. The far more permissive 220/120 ceiling applies only when thrombolysis is off the table.",
+   "priority": "core",
+   "tags": [
+    "topic:ischemic-stroke",
+    "topic:thrombolytics"
+   ],
+   "uid": "q_382d6ae342"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the blood pressure ceiling for an ischemic stroke patient who is not a thrombolytic candidate?",
+   "options": [
+    "SBP 180 or less and DBP 105 or less",
+    "SBP 220 or less and DBP 120 or less",
+    "SBP 150 or less and DBP 100 or less",
+    "SBP 140 or less and DBP 90 or less"
+   ],
+   "answer_index": 1,
+   "explanation": "Without thrombolysis the permissive ceiling is 220/120, because dropping pressure threatens the ischemic penumbra. The 180/105 figure is reserved for thrombolytic candidates.",
+   "priority": "core",
+   "tags": [
+    "topic:ischemic-stroke",
+    "topic:blood-pressure"
+   ],
+   "uid": "q_e459b5f1f7"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "In an ischemic stroke patient who is not a thrombolytic candidate, by how much does the chart allow blood pressure to be lowered from baseline?",
+   "options": [
+    "No more than 15%",
+    "No more than 20%",
+    "No more than 25%",
+    "No more than 40%"
+   ],
+   "answer_index": 0,
+   "explanation": "Even when treatment is indicated, lowering more than 15% from baseline risks collapsing collateral flow to the penumbra. The chart also sets a floor of SBP above 100/70 with a MAP above 80.",
+   "priority": "detail",
+   "tags": [
+    "topic:ischemic-stroke",
+    "topic:blood-pressure"
+   ],
+   "uid": "q_57b284cec9"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "How does the Blood Pressure Treatment Chart direct the head of the bed be positioned for an ischemic stroke patient?",
+   "options": [
+    "Elevated",
+    "Elevated with the patient in reverse Trendelenburg",
+    "Flat or minimally elevated",
+    "Flat with the patient in the left lateral position"
+   ],
+   "answer_index": 2,
+   "explanation": "Ischemic stroke is managed with the head flat or barely raised to favour cerebral perfusion, which is the opposite of the elevated head of bed the same chart directs for atraumatic intracerebral hemorrhage.",
+   "priority": "core",
+   "tags": [
+    "topic:ischemic-stroke",
+    "topic:positioning"
+   ],
+   "uid": "q_689cff2a97"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "In refractory non-traumatic hypovolemia, which vasopressor does the chart prefer and at what heart rate does that preference change?",
+   "options": [
+    "Epinephrine, unless the heart rate is 100 or greater",
+    "Norepinephrine, unless the heart rate is 120 or greater",
+    "Norepinephrine, unless the heart rate is 100 or greater",
+    "Epinephrine, unless the heart rate is 120 or greater"
+   ],
+   "answer_index": 3,
+   "explanation": "Epinephrine is preferred for its inotropy in non-traumatic hypovolemia, but once the heart rate reaches 120 the added chronotropy is counterproductive and norepinephrine becomes the better choice.",
+   "priority": "core",
+   "tags": [
+    "topic:hypovolemia",
+    "drug:epinephrine",
+    "drug:norepinephrine"
+   ],
+   "uid": "q_b987fc7567"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What are the systolic and diastolic targets for pre-eclampsia, eclampsia and pregnancy-induced hypertension?",
+   "options": [
+    "SBP 140 - 150 and DBP 90 - 100",
+    "SBP 140 - 150 and DBP 80 - 90",
+    "SBP 180 and DBP 105",
+    "SBP 220 and DBP 120"
+   ],
+   "answer_index": 0,
+   "explanation": "Both numbers matter here — the chart specifies treating systolic and diastolic until both thresholds are met, because overcorrection risks inadequate uteroplacental perfusion and fetal distress.",
+   "priority": "core",
+   "tags": [
+    "topic:pre-eclampsia",
+    "topic:obstetrics"
+   ],
+   "uid": "q_c7bda826b2"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "What is the first-line treatment for pre-eclampsia, eclampsia and pregnancy-induced hypertension in the Blood Pressure Treatment Chart?",
+   "options": [
+    "Nicardipine or labetalol",
+    "Labetalol or hydralazine",
+    "Nicardipine or nitroglycerin",
+    "Diltiazem or labetalol"
+   ],
+   "answer_index": 1,
+   "explanation": "Labetalol or hydralazine are first line in pregnancy, with an infusion of either as second line. Nicardipine pairs with labetalol for stroke and intracerebral hemorrhage instead.",
+   "priority": "detail",
+   "tags": [
+    "topic:pre-eclampsia",
+    "drug:labetalol",
+    "drug:hydralazine"
+   ],
+   "uid": "q_7be8c47e48"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "treatment",
+   "care_level": null,
+   "population": "pediatric",
+   "stem": "Which vasopressor does the Blood Pressure Treatment Chart name as first line for pediatric sepsis?",
+   "options": [
+    "Norepinephrine",
+    "Labetalol",
+    "Epinephrine",
+    "Hydralazine"
+   ],
+   "answer_index": 2,
+   "explanation": "The chart calls out explicitly that epinephrine is the first-line vasopressor for PEDIATRIC sepsis, which is the reverse of the adult sepsis row where norepinephrine comes first.",
+   "priority": "core",
+   "tags": [
+    "topic:sepsis",
+    "drug:epinephrine",
+    "population:pediatric"
+   ],
+   "uid": "q_d36b667015"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "treatment",
+   "care_level": null,
+   "population": "adult",
+   "stem": "Which vasopressor does the Blood Pressure Treatment Chart name as first line for adult sepsis?",
+   "options": [
+    "Epinephrine",
+    "Labetalol",
+    "Hydralazine",
+    "Norepinephrine"
+   ],
+   "answer_index": 3,
+   "explanation": "Adult sepsis starts with norepinephrine and adds epinephrine second; the pediatric sepsis row inverts that order. Mixing the two up is the classic error this chart exists to prevent.",
+   "priority": "core",
+   "tags": [
+    "topic:sepsis",
+    "drug:norepinephrine",
+    "population:adult"
+   ],
+   "uid": "q_308709d91b"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 287,
+   "type": "threshold",
+   "care_level": null,
+   "population": "adult",
+   "stem": "At what norepinephrine rate does the Blood Pressure Treatment Chart direct adding a second vasopressor in adult sepsis?",
+   "options": [
+    "More than 20 mcg/min",
+    "More than 30 mcg/min",
+    "More than 40 mcg/min",
+    "More than 65 mcg/min"
+   ],
+   "answer_index": 2,
+   "explanation": "Once norepinephrine passes 40 mcg/min the chart directs adding a second agent rather than continuing to climb, with a MAP above 65 as the resuscitation target.",
+   "priority": "core",
+   "tags": [
+    "topic:sepsis",
+    "drug:norepinephrine"
+   ],
+   "uid": "q_ed6e732a45"
+  },
+  {
+   "number": "10.01",
+   "title": "Blood Pressure Treatment Chart",
+   "page": 286,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "Blood pressure remains refractory in anaphylactic shock despite IM epinephrine and fluids. What does the Blood Pressure Treatment Chart direct?",
+   "options": [
+    "IV epinephrine",
+    "Norepinephrine infusion",
+    "Push dose epinephrine",
+    "A further fluid bolus"
+   ],
+   "answer_index": 0,
+   "explanation": "The chart escalates within the same drug rather than switching agents, noting that epinephrine is the priority treatment in anaphylaxis; the IV route is reserved for refractory pressure.",
+   "priority": "detail",
+   "tags": [
+    "topic:anaphylaxis",
+    "drug:epinephrine",
+    "route:iv"
+   ],
+   "uid": "q_851684146e"
+  },
+  {
+   "number": "10.02",
+   "title": "Glossary of Abbreviations",
+   "page": 288,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "In the Glossary of Abbreviations, what does LTOWB stand for?",
+   "options": [
+    "Low Titer O-Negative Whole Blood",
+    "Low Titer O-Positive Whole Blood",
+    "Leukocyte-Reduced Type O Whole Blood",
+    "Liquid Type O Washed Blood"
+   ],
+   "answer_index": 1,
+   "explanation": "The product carried is low titer O-POSITIVE whole blood, not O-negative — the low anti-A and anti-B titer, not the Rh type, is what makes it safe to give without a crossmatch.",
+   "priority": "detail",
+   "tags": [
+    "topic:abbreviations",
+    "topic:blood-products"
+   ],
+   "uid": "q_31f554cbe0"
+  },
+  {
+   "number": "10.02",
+   "title": "Glossary of Abbreviations",
+   "page": 288,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "In the Glossary of Abbreviations, what does LKW stand for?",
+   "options": [
+    "Last Known Weight",
+    "Last Known Witness",
+    "Last Known Well",
+    "Left-sided Known Weakness"
+   ],
+   "answer_index": 2,
+   "explanation": "Last Known Well is the time anchor for every stroke decision — it is the figure the BEFAST screen asks the crew to document alongside the time symptoms were noted.",
+   "priority": "detail",
+   "tags": [
+    "topic:abbreviations",
+    "topic:stroke"
+   ],
+   "uid": "q_b2229a8d62"
+  },
+  {
+   "number": "10.02",
+   "title": "Glossary of Abbreviations",
+   "page": 289,
+   "type": "special",
+   "care_level": null,
+   "population": null,
+   "stem": "In the Glossary of Abbreviations, what does RASS stand for?",
+   "options": [
+    "Ramsay Agitation and Sedation Score",
+    "Rapid Assessment of Sedation Scale",
+    "Richmond Analgesia and Sedation Score",
+    "Richmond Agitation and Sedation Scale"
+   ],
+   "answer_index": 3,
+   "explanation": "The Richmond Agitation and Sedation Scale is the sedation depth score referenced throughout the guidelines for titrating post-intubation sedation.",
+   "priority": "detail",
+   "tags": [
+    "topic:abbreviations",
+    "topic:sedation"
+   ],
+   "uid": "q_ce7518a470"
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What normal value does the Hemodynamic Pressure Table give for central venous pressure?",
+   "options": [
+    "0 - 8 mmHg",
+    "2 - 6 mmHg",
+    "5 - 12 mmHg",
+    "9 - 16 mmHg"
+   ],
+   "answer_index": 0,
+   "explanation": "CVP of 0 to 8 mmHg reflects right ventricular filling pressure and the mean pressure of the systemic veins; 5 to 12 is the wedge pressure and 9 to 16 the mean pulmonary artery pressure.",
+   "priority": "core",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:cvp"
+   ],
+   "uid": "q_a15d77c17d"
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What normal range does the Hemodynamic Pressure Table give for mean arterial pressure?",
+   "options": [
+    "70 - 105 mmHg",
+    "60 - 80 mmHg",
+    "15 - 25 mmHg",
+    "9 - 16 mmHg"
+   ],
+   "answer_index": 0,
+   "explanation": "The table's normal MAP of 70 to 105 mmHg sits well above the MAP > 65 resuscitation floor used in the sepsis and post-ROSC rows of the Blood Pressure Treatment Chart.",
+   "priority": "core",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:map"
+   ],
+   "uid": "q_6eb15ab64b"
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What normal range does the Hemodynamic Pressure Table give for pulmonary capillary wedge pressure?",
+   "options": [
+    "0 - 8 mmHg",
+    "5 - 12 mmHg",
+    "2 - 6 mmHg",
+    "15 - 25 mmHg"
+   ],
+   "answer_index": 1,
+   "explanation": "A wedge of 5 to 12 mmHg reflects left ventricular filling pressure provided nothing obstructs between the balloon tip and the left ventricle — a rising wedge is the earliest marker of left heart failure on transport.",
+   "priority": "core",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:pcwp"
+   ],
+   "uid": "q_abe7c223b4"
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What normal range does the Hemodynamic Pressure Table give for cardiac output?",
+   "options": [
+    "2.5 - 4 L/min",
+    "5 - 12 L/min",
+    "4 - 8 L/min",
+    "9 - 16 L/min"
+   ],
+   "answer_index": 2,
+   "explanation": "Cardiac output is 4 to 8 L/min; the 2.5 to 4 L/min figure is the cardiac index, which is the same output adjusted for body size.",
+   "priority": "detail",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:cardiac-output"
+   ],
+   "uid": "q_36f6c42a5d"
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "threshold",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "What normal range does the Hemodynamic Pressure Table give for coronary artery perfusion pressure?",
+   "options": [
+    "70 - 105 mmHg",
+    "15 - 25 mmHg",
+    "5 - 12 mmHg",
+    "60 - 80 mmHg"
+   ],
+   "answer_index": 3,
+   "explanation": "Coronary artery perfusion pressure of 60 to 80 mmHg is the gradient driving flow through the coronaries — it is why diastolic pressure, not systolic, matters most in cardiogenic shock.",
+   "priority": "detail",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:coronary-perfusion"
+   ],
+   "uid": "q_9c30862fd2"
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "mechanism",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "According to the Hemodynamic Pressure Table, systemic vascular resistance reflects which of the following?",
+   "options": [
+    "Left ventricular afterload",
+    "Right ventricular afterload",
+    "Left ventricular preload",
+    "Right ventricular preload"
+   ],
+   "answer_index": 0,
+   "explanation": "SVR is resistance to left ventricular ejection offered by aortic pressure, so it reflects LV afterload. Pulmonary vascular resistance is the mirror figure for the right ventricle.",
+   "priority": "core",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:svr"
+   ],
+   "uid": "q_8b2f8bbed4"
+  },
+  {
+   "number": "10.03",
+   "title": "Hemodynamic Pressure Table",
+   "page": 290,
+   "type": "mechanism",
+   "care_level": "CCT",
+   "population": "adult",
+   "stem": "According to the Hemodynamic Pressure Table, pulmonary artery pressure reflects which two things?",
+   "options": [
+    "Right ventricular afterload and right ventricular preload",
+    "Right ventricular afterload and left ventricular preload",
+    "Left ventricular afterload and left ventricular preload",
+    "Left ventricular afterload and right ventricular preload"
+   ],
+   "answer_index": 1,
+   "explanation": "The pulmonary artery sits between the two ventricles, so its pressure is what the right ventricle ejects against and what fills the left — RV afterload and LV preload in one number.",
+   "priority": "detail",
+   "tags": [
+    "topic:hemodynamics",
+    "topic:pap"
+   ],
+   "uid": "q_495247298c"
+  },
+  {
+   "number": "10.04",
+   "title": "Medication Administration Cross Check (MACC)",
+   "page": 291,
+   "type": "sequence",
+   "care_level": null,
+   "population": null,
+   "stem": "How does the MACC tool begin, and what is the expected response?",
+   "options": [
+    "Crew 1 says \"Ready\"; Crew 2 responds \"Medication Check\"",
+    "Crew 1 says \"Medication Check\"; Crew 2 responds \"Agreed\"",
+    "Crew 1 says \"Medication Check\"; Crew 2 responds \"Ready\"",
+    "Crew 1 says \"Confirm\"; Crew 2 responds \"Verified\""
+   ],
+   "answer_index": 2,
+   "explanation": "The call and response is fixed so both crew members know the cross check has formally started. \"Agreed\" belongs at the end of the process, after verification is correct.",
+   "priority": "core",
+   "tags": [
+    "topic:macc",
+    "topic:medication-safety"
+   ],
+   "uid": "q_c6ff0295f7"
+  },
+  {
+   "number": "10.04",
+   "title": "Medication Administration Cross Check (MACC)",
+   "page": 291,
+   "type": "procedure",
+   "care_level": null,
+   "population": null,
+   "stem": "What must Crew 1 physically show Crew 2 during the MACC check?",
+   "options": [
+    "The vial and the medication order",
+    "The syringe and the patient care record",
+    "The infusion pump screen and the vial",
+    "The vial and the syringe or bag"
+   ],
+   "answer_index": 3,
+   "explanation": "The cross check is done against the physical product, not against what anyone remembers drawing up — Crew 2 has to see both the source vial and the prepared syringe or bag.",
+   "priority": "core",
+   "tags": [
+    "topic:macc",
+    "topic:medication-safety"
+   ],
+   "uid": "q_78b4af34fd"
+  },
+  {
+   "number": "10.04",
+   "title": "Medication Administration Cross Check (MACC)",
+   "page": 291,
+   "type": "sequence",
+   "care_level": null,
+   "population": null,
+   "stem": "Which question in the MACC tool determines which read-back Crew 2 performs?",
+   "options": [
+    "Is this an infusion via IV pump?",
+    "Is this a high-alert medication?",
+    "Is the dose weight based?",
+    "Has this medication been given already?"
+   ],
+   "answer_index": 0,
+   "explanation": "The flowchart branches on whether the medication is a pump infusion, because an infusion needs the volume to be infused and the rate read back, which a bolus or tablet does not.",
+   "priority": "detail",
+   "tags": [
+    "topic:macc",
+    "topic:medication-safety"
+   ],
+   "uid": "q_ad214ff545"
+  },
+  {
+   "number": "10.04",
+   "title": "Medication Administration Cross Check (MACC)",
+   "page": 291,
+   "type": "sequence",
+   "care_level": null,
+   "population": null,
+   "stem": "For a medication being given as an infusion via IV pump, what does the MACC tool have Crew 2 state out loud?",
+   "options": [
+    "Name, concentration, volume in the syringe or bag, and dose",
+    "Name, concentration, dose, volume to be infused, and infusion rate",
+    "Name, dose, route, time, and indication",
+    "Name, concentration, expiration date, and dose"
+   ],
+   "answer_index": 1,
+   "explanation": "The pump branch adds volume to be infused and infusion rate on top of name, concentration and dose, since a pump programming error is the failure mode this branch exists to catch.",
+   "priority": "core",
+   "tags": [
+    "topic:macc",
+    "topic:infusion"
+   ],
+   "uid": "q_1563d0db80"
+  },
+  {
+   "number": "10.04",
+   "title": "Medication Administration Cross Check (MACC)",
+   "page": 291,
+   "type": "sequence",
+   "care_level": null,
+   "population": null,
+   "stem": "The MACC verification is not correct. What does the tool direct next?",
+   "options": [
+    "Correct the error and continue from the read-back step",
+    "Have a third crew member perform the verification",
+    "Correct the identified error and repeat the MACC check from step 1",
+    "Discard the preparation and contact on-line medical control"
+   ],
+   "answer_index": 2,
+   "explanation": "The flowchart loops all the way back to Crew 1's \"Medication Check\" rather than resuming mid-process, so the corrected preparation is verified from the beginning.",
+   "priority": "core",
+   "tags": [
+    "topic:macc",
+    "topic:medication-safety"
+   ],
+   "uid": "q_9e485955f5"
+  },
+  {
+   "number": "10.04",
+   "title": "Medication Administration Cross Check (MACC)",
+   "page": 291,
+   "type": "procedure",
+   "care_level": null,
+   "population": null,
+   "stem": "Once the MACC verification is correct, what does Crew 1 state before administering the medication?",
+   "options": [
+    "\"Confirmed, proceed with administration\"",
+    "\"Verified, medication check complete\"",
+    "\"Ready, administering now\"",
+    "\"Agreed, that is my intended dose for this patient\""
+   ],
+   "answer_index": 3,
+   "explanation": "The closing statement puts the dose decision back on Crew 1 explicitly — Crew 2 verified what was prepared, but Crew 1 confirms it is what they intended for this patient.",
+   "priority": "detail",
+   "tags": [
+    "topic:macc",
+    "topic:medication-safety"
+   ],
+   "uid": "q_5ca4d2dced"
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "In the HEAVEN airway assessment on the RSI Checklist, why is exsanguination flagged?",
+   "options": [
+    "It may accelerate desaturation",
+    "It limits the range of motion of the neck",
+    "It predicts a difficult laryngoscopic view",
+    "It makes cuff pressure unreliable"
+   ],
+   "answer_index": 0,
+   "explanation": "A bleeding patient has less oxygen-carrying capacity, so the safe apneic window is shorter than the pre-induction saturation suggests. Limited neck range of motion is the separate \"N\" item.",
+   "priority": "detail",
+   "tags": [
+    "procedure:rsi",
+    "topic:heaven",
+    "topic:airway"
+   ],
+   "uid": "q_428d66820e"
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "Which patients does the \"Extremes of size\" item of the HEAVEN assessment flag on the RSI Checklist?",
+   "options": [
+    "Patients 28 days of age or younger, and obese patients",
+    "Patients 8 years of age or younger, and obese patients",
+    "Patients 1 year of age or younger, and cachectic patients",
+    "Patients 12 years of age or younger, and obese patients"
+   ],
+   "answer_index": 1,
+   "explanation": "Both ends of the size range shorten the safe apneic window and complicate laryngoscopy — small children through reduced functional residual capacity, obese patients through chest wall mechanics.",
+   "priority": "detail",
+   "tags": [
+    "procedure:rsi",
+    "topic:heaven",
+    "topic:airway"
+   ],
+   "uid": "q_fbe658ac48"
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "procedure",
+   "care_level": null,
+   "population": null,
+   "stem": "What does the pre-oxygenation step of the RSI Checklist specify as the standard setup?",
+   "options": [
+    "Nasal cannula at 6 LPM plus a non-rebreather at 15 LPM",
+    "Non-rebreather at flush rate alone",
+    "Nasal cannula at 15 LPM plus a non-rebreather at flush rate",
+    "BVM with PEEP alone"
+   ],
+   "answer_index": 2,
+   "explanation": "Apneic oxygenation by nasal cannula runs underneath the non-rebreather at flush rate, so oxygen delivery continues through the apneic period after the mask comes off.",
+   "priority": "core",
+   "tags": [
+    "procedure:rsi",
+    "topic:pre-oxygenation"
+   ],
+   "uid": "q_ff5cbcc1a3"
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "procedure",
+   "care_level": null,
+   "population": null,
+   "stem": "What does the RSI Checklist direct when the saturation remains at or below 94% after pre-oxygenation?",
+   "options": [
+    "Non-rebreather at flush rate plus nasal cannula at 15 LPM",
+    "Proceed with induction and intubate rapidly",
+    "Place a supraglottic airway before induction",
+    "BVM with PEEP plus nasal cannula at 15 LPM"
+   ],
+   "answer_index": 3,
+   "explanation": "A saturation that will not rise with a non-rebreather means shunt, which needs positive pressure — the checklist escalates to a BVM with PEEP while the nasal cannula keeps running.",
+   "priority": "core",
+   "tags": [
+    "procedure:rsi",
+    "topic:pre-oxygenation",
+    "topic:peep"
+   ],
+   "uid": "q_45791e8a45"
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "treatment",
+   "care_level": null,
+   "population": null,
+   "stem": "Which agent does the RSI Checklist specify for delayed sequence intubation (DSI) pre-oxygenation?",
+   "options": [
+    "Ketamine",
+    "Etomidate",
+    "Midazolam",
+    "Succinylcholine"
+   ],
+   "answer_index": 0,
+   "explanation": "Ketamine preserves respiratory drive and airway reflexes, so it is the agent that allows a patient to be dissociated enough to tolerate pre-oxygenation. The checklist also directs repeating it before RSI.",
+   "priority": "core",
+   "tags": [
+    "procedure:rsi",
+    "drug:ketamine",
+    "topic:dsi"
+   ],
+   "uid": "q_ac9de16fd7"
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "indication",
+   "care_level": null,
+   "population": "neonatal",
+   "stem": "The RSI Checklist prompts the crew to consider atropine for patients of what age?",
+   "options": [
+    "8 years of age or younger",
+    "28 days of age or younger",
+    "1 year of age or younger",
+    "12 years of age or younger"
+   ],
+   "answer_index": 1,
+   "explanation": "Neonates in the first month depend heavily on heart rate for cardiac output and have a brisk vagal response to laryngoscopy, so the checklist carries a dedicated atropine prompt for that age group.",
+   "priority": "core",
+   "tags": [
+    "procedure:rsi",
+    "drug:atropine",
+    "population:neonatal"
+   ],
+   "uid": "q_4e4bdc00ed"
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "procedure",
+   "care_level": null,
+   "population": null,
+   "stem": "Which technique does the RSI Checklist suggest when vomit, blood or other fluids are present in the airway?",
+   "options": [
+    "Cricoid pressure",
+    "Bougie-assisted intubation",
+    "SALAD technique",
+    "External laryngeal manipulation"
+   ],
+   "answer_index": 2,
+   "explanation": "SALAD — suction-assisted laryngoscopy and airway decontamination — is the technique the HEAVEN \"V\" item points to, with suction confirmed functional during equipment preparation.",
+   "priority": "core",
+   "tags": [
+    "procedure:rsi",
+    "topic:salad",
+    "topic:airway"
+   ],
+   "uid": "q_ef822f8df7"
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "page": 292,
+   "type": "equipment",
+   "care_level": null,
+   "population": null,
+   "stem": "Besides the intended tube, which endotracheal tube does the RSI Checklist direct the crew to have out during equipment preparation?",
+   "options": [
+    "One a size larger",
+    "One cuffed and one uncuffed of the same size",
+    "A second tube of the same size",
+    "One a size smaller"
+   ],
+   "answer_index": 3,
+   "explanation": "The backup is a size smaller because the failure that needs rescuing is a tube that will not pass, not one that is too loose.",
+   "priority": "detail",
+   "tags": [
+    "procedure:rsi",
+    "topic:equipment",
+    "topic:airway"
+   ],
+   "uid": "q_a309371b17"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 293,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "In the BEFAST screen, what does the \"B\" prompt the crew to assess?",
+   "options": [
+    "Balance — trouble walking, dizziness, loss of coordination",
+    "Breathing — rate, effort and airway protection",
+    "Blood glucose — hypoglycemia as a stroke mimic",
+    "Blood pressure — systolic and diastolic extremes"
+   ],
+   "answer_index": 0,
+   "explanation": "Balance and Eyes were added ahead of the classic FAST letters precisely because posterior circulation strokes present with ataxia and visual loss rather than face, arm or speech findings.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:befast"
+   ],
+   "uid": "q_253100bc95"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 293,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "What does the \"T\" in the BEFAST screen direct the crew to document?",
+   "options": [
+    "Time of arrival at the patient's side",
+    "Time last seen normal and time symptoms were noted",
+    "Total duration of symptoms in hours",
+    "Time of the last blood pressure measurement"
+   ],
+   "answer_index": 1,
+   "explanation": "Both times are required because they are different numbers: a patient found with deficits was last seen normal earlier than symptoms were noticed, and the earlier time is what drives thrombolytic and thrombectomy eligibility.",
+   "priority": "detail",
+   "tags": [
+    "topic:stroke",
+    "topic:befast",
+    "topic:documentation"
+   ],
+   "uid": "q_8d0d41ea5e"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 293,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "In the EMS VAN tool, which finding must be present before the vision, aphasia and neglect tests are performed at all?",
+   "options": [
+    "Facial droop",
+    "Slurred speech",
+    "Arm weakness",
+    "Forced gaze"
+   ],
+   "answer_index": 2,
+   "explanation": "Arm drift is the gate for the whole tool — with no arm weakness the patient is VAN negative and no further testing is done, which is what makes VAN quick to perform.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:van",
+    "topic:lvo"
+   ],
+   "uid": "q_8e021ddd59"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 294,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "What makes the neglect component of the EMS VAN tool positive?",
+   "options": [
+    "Forced gaze together with inability to count fingers",
+    "Inability to name two objects or follow two commands",
+    "Failure to track a finger from side to side",
+    "Forced gaze, or inability to identify which arm is being touched"
+   ],
+   "answer_index": 3,
+   "explanation": "Either finding alone is positive. Naming objects and following commands belong to the aphasia component, and finger tracking belongs to the vision component.",
+   "priority": "detail",
+   "tags": [
+    "topic:stroke",
+    "topic:van",
+    "topic:lvo"
+   ],
+   "uid": "q_b6b43cdafd"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 294,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "A patient has arm weakness, but all three VAN tests are normal. How is the patient scored?",
+   "options": [
+    "VAN negative",
+    "VAN positive",
+    "Positive for a large vessel occlusion",
+    "VAN cannot be scored"
+   ],
+   "answer_index": 0,
+   "explanation": "Arm weakness alone is not enough — VAN turns positive only when arm weakness is accompanied by at least one positive vision, aphasia or neglect test.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:van",
+    "topic:lvo"
+   ],
+   "uid": "q_017a81e5dc"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 294,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "What Cincinnati Stroke Triage Assessment Tool (C-STAT) score is considered positive and suggests a large vessel occlusion?",
+   "options": [
+    "1 or greater",
+    "2 or greater",
+    "3 or greater",
+    "4 or greater"
+   ],
+   "answer_index": 1,
+   "explanation": "C-STAT runs 0 to 4 and turns positive at 2. Because abnormal gaze alone scores 2, a patient with conjugate gaze deviation is C-STAT positive on that finding by itself.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:c-stat",
+    "topic:lvo"
+   ],
+   "uid": "q_878ed2f5e8"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 294,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "How many points does abnormal gaze score on the Cincinnati Stroke Triage Assessment Tool (C-STAT)?",
+   "options": [
+    "0 points",
+    "1 point",
+    "2 points",
+    "3 points"
+   ],
+   "answer_index": 2,
+   "explanation": "Gaze is weighted at 2 points while arm weakness and level of consciousness score 1 each, so inability to look in a given direction with both eyes makes the tool positive on its own.",
+   "priority": "detail",
+   "tags": [
+    "topic:stroke",
+    "topic:c-stat",
+    "topic:lvo"
+   ],
+   "uid": "q_6430f3e80b"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 295,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "What Los Angeles Motor Scale (LAMS) score is considered positive for a large vessel occlusion?",
+   "options": [
+    "2 or greater",
+    "3 or greater",
+    "4 or greater",
+    "5 or greater"
+   ],
+   "answer_index": 2,
+   "explanation": "LAMS runs 0 to 5 across facial droop, arm drift and grip strength, and turns positive at 4 — which in practice requires severe deficits in at least two of the three items.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:lams",
+    "topic:lvo"
+   ],
+   "uid": "q_603aa7dfd0"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 295,
+   "type": "threshold",
+   "care_level": null,
+   "population": null,
+   "stem": "On the Los Angeles Motor Scale (LAMS), how is an absent grip scored?",
+   "options": [
+    "0 points",
+    "1 point",
+    "2 points",
+    "4 points"
+   ],
+   "answer_index": 2,
+   "explanation": "Grip strength and arm drift each run to 2 points, while facial droop maxes out at 1 — so the motor items carry most of the weight toward the positive threshold of 4.",
+   "priority": "detail",
+   "tags": [
+    "topic:stroke",
+    "topic:lams",
+    "topic:lvo"
+   ],
+   "uid": "q_198617237c"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 295,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "In the RACE scale, which item is scored in a patient who has right hemiparesis?",
+   "options": [
+    "Agnosia",
+    "Aphasia",
+    "Head and gaze deviation",
+    "Leg motor function"
+   ],
+   "answer_index": 1,
+   "explanation": "RACE scores aphasia for right hemiparesis and agnosia for left hemiparesis, matching the cortical deficit to the dominant or non-dominant hemisphere being affected. Facial palsy, arm, leg and gaze are scored in every patient.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:race",
+    "topic:lvo"
+   ],
+   "uid": "q_f31b3163ee"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 295,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "At what RACE score does the scale indicate the patient may have an ischemic stroke with a large vessel occlusion?",
+   "options": [
+    "3 or greater",
+    "4 or greater",
+    "5 or greater",
+    "7 or greater"
+   ],
+   "answer_index": 2,
+   "explanation": "RACE totals 0 to 9, and a score of 5 or more suggests a large vessel occlusion. Note the different cut points across the scales — C-STAT turns positive at 2 and LAMS at 4.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:race",
+    "topic:lvo"
+   ],
+   "uid": "q_a94768891d"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 296,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "What pattern of weakness does the Los Angeles Prehospital Stroke Screen (LAPSS) require on examination?",
+   "options": [
+    "Bilateral weakness",
+    "Any motor deficit, unilateral or bilateral",
+    "Unilateral, not bilateral, weakness",
+    "Facial droop with normal limb strength"
+   ],
+   "answer_index": 2,
+   "explanation": "LAPSS asks the crew to look for obvious asymmetry in facial smile, hand grip and arm strength; bilateral weakness does not meet the screen, which is why it points toward stroke rather than a global process.",
+   "priority": "detail",
+   "tags": [
+    "topic:stroke",
+    "topic:lapss"
+   ],
+   "uid": "q_e4d1f0dfee"
+  },
+  {
+   "number": "10.06",
+   "title": "Stroke Scales",
+   "page": 296,
+   "type": "assessment",
+   "care_level": null,
+   "population": null,
+   "stem": "A patient's findings do not meet the LAPSS screening criteria. What does 10.06f note about this?",
+   "options": [
+    "Stroke has been ruled out and another cause should be sought",
+    "The screen should be repeated in fifteen minutes",
+    "The receiving hospital should still be alerted for stroke",
+    "The patient may still be experiencing a stroke"
+   ],
+   "answer_index": 3,
+   "explanation": "LAPSS is a screening tool, not a rule-out. The note exists so crews do not stand down a stroke alert on a patient whose glucose, age or seizure history disqualifies them from the screen.",
+   "priority": "core",
+   "tags": [
+    "topic:stroke",
+    "topic:lapss"
+   ],
+   "uid": "q_a1de83b8d7"
+  }
+ ]
 }
