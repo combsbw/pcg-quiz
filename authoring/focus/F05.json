@@ -1,0 +1,27 @@
+{
+ "id": "F05",
+ "label": "Blood products and push-dose vasopressors",
+ "kind": "focus",
+ "sections": [
+  {
+   "number": "8.02",
+   "title": "Blood Product Administration",
+   "pages": [
+    177,
+    180
+   ],
+   "focus": "Indications and transfusion triggers, products and order of use, administration rate and set-up, warming, reaction recognition and management, documentation.",
+   "target_new": "12-16"
+  },
+  {
+   "number": "8.29",
+   "title": "Push Dose Vasopressors",
+   "pages": [
+    242,
+    242
+   ],
+   "focus": "Preparation and mixing arithmetic (as `calculation` questions where it is maths), resulting concentration, dose and repeat interval, indications, which agents.",
+   "target_new": "8-10"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "F01",
+ "label": "RSI and the RSI checklist",
+ "kind": "focus",
+ "sections": [
+  {
+   "number": "8.30",
+   "title": "Rapid Sequence Induction (RSI)",
+   "pages": [
+    243,
+    248
+   ],
+   "focus": "Every induction and paralytic dose and its maximum; pre-oxygenation and pre-intubation optimisation thresholds; the sequence and wait intervals; attempt limits and when to stop an attempt; confirmation of placement; post-intubation management; pediatric differences.",
+   "target_new": "20-30"
+  },
+  {
+   "number": "10.05",
+   "title": "RSI Checklist",
+   "pages": [
+    292,
+    292
+   ],
+   "focus": "The checklist itself (PDF p292 is an image — read it visually; OCR backs the validator): each checklist line, HEAVEN criteria, pre-oxygenation set-up, the atropine age cut-off, the drug-dose card values, ETT depth formulas. Ask what the checklist requires at each step.",
+   "target_new": "15-20"
+  }
+ ]
+}

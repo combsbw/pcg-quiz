@@ -487,3 +487,36 @@ Final: **2,893 questions · 231 modules · 5 taxonomies.**
 Note: the `algorithm` taxonomy intentionally lists 526 questions in two families
 (e.g. Traumatic Arrest is both arrest and trauma); scheduling de-duplicates by
 question id, so this never double-schedules a card.
+
+---
+
+## Workstream 3 — verbiage pass + focused modules (2026-10-15)
+
+User request: (1) questions must name the condition/procedure, never the
+section number ("Aortic Emergencies", not "5.03"), with light rephrasing;
+modules must list section titles alongside numbers. (2) Dedicated modules for
+13 procedures and 6 supplemental references.
+
+### Done
+- [x] Stable ids: every authored question carries `uid` = its live id;
+      `merge_questions.py` honours it, so rewording never orphans history.
+- [x] Validator: errors on real section numbers in stems (unit-aware, so
+      `0.05 mg/kg` is not flagged); grounds numbers against native text +
+      OCR; grounding extended to equipment/landmark/route; new `calculation`
+      type with machine-checked `calc` blocks (formula recomputed, constants
+      grounded on page, inputs must appear in stem). `--no-grounding` mode.
+- [x] `tools/build_ocr.py` → `authoring/ocr.json` (tesseract, 300 dpi, two
+      passes). Slow on 2 CPUs; resumable — re-run until "up to date".
+- [x] `authoring/REPHRASE_SPEC.md` + `tools/apply_rephrase.py` (patches keyed
+      by uid; guards forbid touching answers/options/pages).
+- [x] Focus manifests `authoring/focus/F01..F07.json`; rephrase assignments
+      `authoring/rephrase/ASSIGNMENTS.json` (R1..R7).
+
+### To do (resume here)
+- [ ] Rephrase agents R1-R7 → `authoring/rephrase/R*.json`
+      Baseline: 1,280 stems cite section numbers. Target 0.
+- [ ] Focus agents F01-F07 → `authoring/out/F*.json`
+- [ ] `python3 tools/apply_rephrase.py authoring/rephrase/R*.json` (real run)
+- [ ] OCR complete → full grounding audit of all batches
+- [ ] Modules list section titles; new "Focused Drills" taxonomy
+- [ ] Merge, browser suites, push

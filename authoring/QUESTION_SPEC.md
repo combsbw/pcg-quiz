@@ -65,13 +65,31 @@ stem needs the options to make sense, it is wrong.
 Name the full context: drug **and** indication **and** population where they
 vary.
 
+### Name the condition, not the section number
+
+**Never write a section number in a stem.** Not "in 5.02", not "per 8.23",
+not "what does 4.02 direct". The learner sees the source (number, title and
+page) on the answer screen; in the question itself the number is just an extra
+lookup between them and the clinical idea. Name the pathology, condition,
+procedure or drug instead, and ask about it directly.
+
+| Instead of | Write |
+|---|---|
+| What does 2.06 require whenever ondansetron is administered? | What must be done whenever ondansetron is given for nausea and vomiting? |
+| How does 5.10 direct an ischemic stroke patient be positioned? | How should a patient with an ischemic stroke be positioned for transport? |
+| What starting respiratory rate does 8.23 set for a 7 kg infant? | What starting ventilator rate is set for a 7 kg infant? |
+| What is the adult dose in 5.01 for suspected opioid overdose? | What is the adult intranasal naloxone dose for suspected opioid overdose with respiratory depression? |
+
+Where the document itself is genuinely the subject ("Which crew may perform
+X?"), say "LFN" or "the guidelines", never a number.
+
 ### Good
 - `What is the adult dose of epinephrine for anaphylaxis with moderate or severe symptoms?`
-- `In 5.02 Anaphylaxis, what is the pediatric IM epinephrine dose?`
-- `A patient in cardiac arrest has refractory VF after three defibrillations. What does 3.03 direct next?`
+- `What is the pediatric IM epinephrine dose for anaphylaxis?`
+- `A patient in cardiac arrest has refractory VF after three defibrillations. What is the next step?`
 - `What is the maximum single dose of diphenhydramine?`
 - `At which landmark is a needle thoracostomy placed?`
-- `Which finding requires a BLS crew to request ALS intercept under 2.02?`
+- `Which finding requires a BLS crew to request an ALS intercept?`
 
 ### Forbidden
 - Reverse lookups: *"A dose of 2 grams corresponds to which indication?"*
@@ -80,6 +98,7 @@ vary.
 - "All of the above" / "None of the above" / "Both A and B"
 - Negative stems unless the guideline itself is a prohibition
   (*"Which is a contraindication to…"* is fine; *"Which is NOT a step…"* is not)
+- Any section number in the stem ("in 5.02", "per 8.23") — see above
 - Anything whose answer is a heading, a page number, or a section title
 - Two questions that are the same question reworded
 
@@ -147,13 +166,50 @@ Field rules:
 - `type` — one of: `indication`, `treatment`, `dose`, `max_dose`, `route`,
   `sequence`, `threshold`, `contraindication`, `scope`, `assessment`,
   `procedure`, `landmark`, `complication`, `equipment`, `class`, `adverse`,
-  `mechanism`, `pearl`, `special`.
+  `mechanism`, `pearl`, `special`, `calculation`.
 - `care_level` — `BLS`, `ALS`, `CCT`, `PEARLS`, or `null` for formulary/general.
 - `population` — `adult`, `pediatric`, `neonatal`, `both`, or `null`.
 - `priority` — `core` for what a crew must know cold; `detail` for the rest.
   Aim for roughly 60% core.
 - `tags` — lowercase `prefix:value`. Use `drug:`, `topic:`, `route:`,
   `procedure:`, `population:` as they apply.
+
+---
+
+## 6b. Calculation questions
+
+For anything worked out rather than read off the page — ideal body weight,
+tidal volume from mL/kg, minute ventilation, driving or plateau pressure, a
+weight-based dose for a stated weight — use `"type": "calculation"` and include
+the working so the validator can check it:
+
+```json
+{
+  "type": "calculation",
+  "stem": "What is the ideal body weight of a male patient who is 70 inches tall?",
+  "options": ["73 kg", "68.5 kg", "80 kg", "63 kg"],
+  "answer_index": 0,
+  "calc": {"formula": "50 + 2.3 * (H - 60)", "inputs": {"H": 70},
+           "result": 73, "unit": "kg"}
+}
+```
+
+The validator recomputes `formula` with `inputs`, checks the correct option
+states `result`, checks every input value appears in the stem, and checks the
+formula's constants (50, 2.3, 60) appear on the cited page. **That last check
+means the formula must be the one printed in the guidelines**, not one recalled
+from training — if the document's formula differs from the textbook one, the
+document wins.
+
+- Use `calc` as a list when the answer has two numbers (a range):
+  `"calc": [{"formula": "6 * W", "inputs": {"W": 70}, "result": 420},
+            {"formula": "8 * W", "inputs": {"W": 70}, "result": 560}]`
+- Allowed in formulas: numbers, input names, `+ - * / **`, parentheses,
+  `round(x, n)`, `min`, `max`.
+- Distractors should be the results of plausible *mistakes*: the female
+  formula for a male, the wrong age band's pediatric formula, mL/kg against
+  actual rather than ideal weight, forgetting to subtract PEEP.
+- Round the way a crew would: kg to one decimal at most, mL to whole numbers.
 
 ---
 

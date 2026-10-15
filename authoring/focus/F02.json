@@ -1,0 +1,17 @@
+{
+ "id": "F02",
+ "label": "Mechanical ventilation",
+ "kind": "focus",
+ "sections": [
+  {
+   "number": "8.23",
+   "title": "Mechanical Ventilation",
+   "pages": [
+    223,
+    230
+   ],
+   "focus": "Three emphases, all requested by the user. (1) PATHOLOGY-SPECIFIC CHANGES: the basic settings and each strategy table — ARDS/hypoxia, severe hypoxia, obstructive (asthma/COPD), metabolic acidosis, pediatric and neonatal — and what to change and why for each. (2) IDEAL BODY WEIGHT FOR ALL AGES: adult male and female formulas and the pediatric age-band formulas (read p228 visually — a line may be clipped; the IBW charts on p229 are image-only), as `calculation` questions across a spread of heights and ages, with distractors from plausible mistakes (wrong sex formula, wrong age band). (3) RESPIRATORY CALCULATIONS: tidal volume from mL/kg IBW, minute ventilation (RR x Vt), plateau pressure ((Vte/Cstat)+PEEP), driving pressure (Pplat - PEEP), target values, as `calculation` questions. Also alarm troubleshooting.",
+   "target_new": "40-55"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "F03",
+ "label": "Surgical and needle airway, chest and pericardial procedures",
+ "kind": "focus",
+ "sections": [
+  {
+   "number": "8.03",
+   "title": "Chest Tube Insertion",
+   "pages": [
+    181,
+    183
+   ],
+   "focus": "Indications, landmark and site, equipment and tube sizes, step sequence, confirmation, complications.",
+   "target_new": "8-12"
+  },
+  {
+   "number": "8.08",
+   "title": "Finger Thoracostomy",
+   "pages": [
+    193,
+    194
+   ],
+   "focus": "Indications, site, technique steps, reassessment.",
+   "target_new": "6-8"
+  },
+  {
+   "number": "8.24",
+   "title": "Needle Cricothyrotomy",
+   "pages": [
+    231,
+    232
+   ],
+   "focus": "Indications (age limits), equipment, landmark, technique, ventilation method and its limits, complications.",
+   "target_new": "8-10"
+  },
+  {
+   "number": "8.32",
+   "title": "Surgical Cricothyrotomy",
+   "pages": [
+    251,
+    252
+   ],
+   "focus": "Equipment, landmark identification, step sequence, tube placement and confirmation, complications.",
+   "target_new": "8-10"
+  },
+  {
+   "number": "8.28",
+   "title": "Pericardiocentesis",
+   "pages": [
+    240,
+    241
+   ],
+   "focus": "Indications and the requirement for consultation, landmark/approach, needle and equipment, complications.",
+   "target_new": "6-8"
+  }
+ ]
+}

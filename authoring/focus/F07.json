@@ -1,0 +1,27 @@
+{
+ "id": "F07",
+ "label": "Resuscitation algorithms",
+ "kind": "focus",
+ "sections": [
+  {
+   "number": "10.07",
+   "title": "Termination of Resuscitation Algorithm",
+   "pages": [
+    297,
+    297
+   ],
+   "focus": "Every decision point and criterion in the termination-of-resuscitation algorithm, what happens on each branch, required documentation. Note the known conflict with 9.06 (agonal rhythm) — teach the algorithm as printed and say so in the explanation.",
+   "target_new": "8-10"
+  },
+  {
+   "number": "10.08",
+   "title": "Traumatic Arrest Algorithm",
+   "pages": [
+    298,
+    298
+   ],
+   "focus": "Every branch of the traumatic arrest algorithm: the reversible causes it targets, the interventions in order, the decision points.",
+   "target_new": "8-10"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "F04",
+ "label": "Airway devices, oxygenation and vascular access",
+ "kind": "focus",
+ "sections": [
+  {
+   "number": "8.07",
+   "title": "Endotracheal Tube Exchange",
+   "pages": [
+    192,
+    192
+   ],
+   "focus": "Indications, equipment, step sequence for exchange, confirmation, what to do if the exchange fails.",
+   "target_new": "6-8"
+  },
+  {
+   "number": "8.12",
+   "title": "High Flow Nasal Cannula",
+   "pages": [
+    198,
+    199
+   ],
+   "focus": "Indications, flow and FiO2 settings by age/weight, titration, cannula sizing, contraindications, mechanism (why HFNC works).",
+   "target_new": "8-10"
+  },
+  {
+   "number": "8.14",
+   "title": "i-gel© Supraglottic Airway",
+   "pages": [
+    204,
+    206
+   ],
+   "focus": "MOSTLY SIZING: the i-gel size-to-weight table (p204, image) for every size, plus insertion technique, confirmation and contraindications. Ask sizing in both directions — weight to size, and a patient description to size.",
+   "target_new": "10-14"
+  },
+  {
+   "number": "8.18",
+   "title": "Intraosseous Line Placement",
+   "pages": [
+    212,
+    215
+   ],
+   "focus": "FOCUS ON PLACEMENT AND LANDMARKS: each insertion site for adult and pediatric, how to find it (bony landmarks, distances in cm from the figures on pp213-214, which are images), needle selection, confirmation of placement, contraindications, and the lidocaine analgesia flow.",
+   "target_new": "12-16"
+  }
+ ]
+}
