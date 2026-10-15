@@ -8,7 +8,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What size NS/LR fluid bolus does 5.09 direct for an adult in hypovolemic or hemorrhagic shock?",
+   "stem": "What size NS/LR fluid bolus is given to an adult in hypovolemic or hemorrhagic shock?",
    "options": [
     "500 mL",
     "20 mL/kg",
@@ -32,7 +32,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "To what blood pressure endpoint does 5.09 direct adult fluid boluses be titrated in hemorrhagic shock?",
+   "stem": "In adult hemorrhagic shock, to what blood pressure endpoint are fluid boluses titrated?",
    "options": [
     "SBP 80 – 90 mmHg",
     "SBP 80 mmHg",
@@ -56,7 +56,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How is the shock index described in 5.09 calculated?",
+   "stem": "How is the shock index calculated when assessing hypovolemic or hemorrhagic shock?",
    "options": [
     "Heart rate divided by systolic blood pressure",
     "Systolic blood pressure divided by heart rate",
@@ -79,7 +79,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult push-dose epinephrine dose in 5.09 for shock that persists after fluid resuscitation?",
+   "stem": "In adult hypovolemic or hemorrhagic shock that persists after fluid resuscitation, what is the push-dose epinephrine dose?",
    "options": [
     "5 – 20 mcg IV q 3 – 5 min",
     "0.1 mL/kg IV q 3 – 5 min",
@@ -104,7 +104,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "An adult remains hypotensive after adequate fluid resuscitation with a heart rate of 135. Which vasopressor infusion does 5.09 prefer?",
+   "stem": "An adult in hypovolemic or hemorrhagic shock remains hypotensive after adequate fluid resuscitation with a heart rate of 135. Which vasopressor infusion is preferred?",
    "options": [
     "Norepinephrine",
     "Epinephrine",
@@ -112,7 +112,7 @@
     "Vasopressin"
    ],
    "answer_index": 0,
-   "explanation": "5.09 splits vasopressor choice by rate: norepinephrine is preferred when the heart rate is 120 or above, epinephrine when it is below 120, because epinephrine's beta effect would worsen an already fast rate.",
+   "explanation": "Vasopressor choice in hypovolemic and hemorrhagic shock is split by rate: norepinephrine is preferred when the heart rate is 120 or above, epinephrine when it is below 120, because epinephrine's beta effect would worsen an already fast rate.",
    "priority": "core",
    "tags": [
     "drug:norepinephrine",
@@ -128,7 +128,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What maximum volume of crystalloid does 5.09 allow in an adult with no signs of pulmonary edema?",
+   "stem": "In adult hypovolemic or hemorrhagic shock with no signs of pulmonary edema, what is the maximum volume of crystalloid?",
    "options": [
     "3 L",
     "1 L",
@@ -152,7 +152,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What NS/LR bolus volume does 5.09 direct for a child in hypovolemic shock?",
+   "stem": "What NS/LR bolus volume is given to a child in hypovolemic shock?",
    "options": [
     "20 mL/kg",
     "10 mL/kg",
@@ -176,7 +176,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "neonatal",
-   "stem": "What maximum total fluid volume does 5.09 allow for a neonate receiving 10 mL/kg boluses?",
+   "stem": "A neonate in hypovolemic shock is receiving 10 mL/kg fluid boluses. What is the maximum total fluid volume?",
    "options": [
     "30 mL/kg",
     "20 mL/kg",
@@ -199,7 +199,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "neonatal",
-   "stem": "Which resuscitation fluid does 5.09 direct crews to avoid in neonates?",
+   "stem": "Which resuscitation fluid should be avoided in neonates with hypovolemic shock?",
    "options": [
     "Lactated Ringers",
     "Normal saline",
@@ -207,7 +207,7 @@
     "Dextrose 10%"
    ],
    "answer_index": 0,
-   "explanation": "5.09 specifically says to avoid lactated Ringers in neonates when giving 10 mL/kg boluses; normal saline is the fluid of choice in that population.",
+   "explanation": "The Hypovolemic & Hemorrhagic Shock guideline specifically says to avoid lactated Ringers in neonates when giving 10 mL/kg boluses; normal saline is the fluid of choice in that population.",
    "priority": "core",
    "tags": [
     "topic:fluid-resuscitation",
@@ -222,7 +222,7 @@
    "type": "special",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "In what unit does 5.09 require pediatric IV push doses of epinephrine to be dosed and documented?",
+   "stem": "In pediatric hypovolemic or hemorrhagic shock, in what unit must IV push doses of epinephrine be dosed and documented?",
    "options": [
     "mL/kg",
     "mcg/kg",
@@ -246,7 +246,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "To what maximum rate does 5.09 allow a norepinephrine infusion to be titrated?",
+   "stem": "In hypovolemic or hemorrhagic shock, to what maximum rate may a norepinephrine infusion be titrated?",
    "options": [
     "45 mcg/min",
     "20 mcg/min",
@@ -270,7 +270,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "A stroke patient has no signs of respiratory distress. At what SpO2 does 5.10 direct supplemental oxygen be applied?",
+   "stem": "A patient with a suspected ischemic stroke has no signs of respiratory distress. At what SpO2 should supplemental oxygen be applied?",
    "options": [
     "Below 94%",
     "Below 90%",
@@ -294,7 +294,7 @@
    "type": "sequence",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "The initial stroke screen on a patient is negative. What does 5.10 direct the crew to do?",
+   "stem": "The initial stroke screen on a patient with suspected stroke is negative. What should the crew do?",
    "options": [
     "Stop here and transport per local destination protocol",
     "Perform a stroke severity (LVO) screen",
@@ -318,7 +318,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "Which stroke severity (LVO) screening tool does 5.10 specify for Washington?",
+   "stem": "Which stroke severity (LVO) screening tool is specified for Washington?",
    "options": [
     "LAMS",
     "BEFAST",
@@ -342,7 +342,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "How does 5.10 direct an ischemic stroke patient be positioned for transport?",
+   "stem": "How should a patient with an ischemic stroke be positioned for transport?",
    "options": [
     "Supine with no head elevation",
     "Head of bed elevated 30 degrees",
@@ -366,7 +366,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "How often does 5.10 require serial neurological examinations to be documented in an ischemic stroke patient?",
+   "stem": "How often must serial neurological examinations be documented in an ischemic stroke patient?",
    "options": [
     "Every 15 minutes",
     "Every 5 minutes",
@@ -390,7 +390,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "At what temperature does 5.10 direct ALS crews to remove sources of heat and consider antipyretics in an ischemic stroke patient?",
+   "stem": "At what temperature should ALS crews remove sources of heat and consider antipyretics in an ischemic stroke patient?",
    "options": [
     "Above 99.5°F (37.5°C)",
     "Above 101°F",
@@ -414,7 +414,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "A 70 kg adult with an ischemic stroke has a temperature of 100.8°F. What acetaminophen dose does 5.10 direct?",
+   "stem": "A 70 kg adult with an ischemic stroke has a temperature of 100.8°F. What acetaminophen dose is given?",
    "options": [
     "1000 mg IV over 15 minutes",
     "750 mg IV over 15 minutes",
@@ -439,7 +439,7 @@
    "type": "equipment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What vascular access does 5.10 direct ALS crews to establish in an ischemic stroke patient?",
+   "stem": "What vascular access should ALS crews establish in an ischemic stroke patient?",
    "options": [
     "18 gauge or larger in a proximal site",
     "Any patent peripheral IV",
@@ -463,7 +463,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "A stroke patient who has already received thrombolytics has a blood pressure of 192/98. What does the 5.10 CCT blood pressure algorithm direct?",
+   "stem": "An ischemic stroke patient who has already received thrombolytics has a blood pressure of 192/98. What does the CCT stroke blood pressure algorithm direct?",
    "options": [
     "Reduce the BP to a target of 180/105",
     "Reduce the BP by no more than 15%",
@@ -487,7 +487,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "A stroke patient who is not a thrombolytic candidate and has not received thrombolytics has a blood pressure of 236/118. What does the 5.10 CCT algorithm direct?",
+   "stem": "An ischemic stroke patient who is not a thrombolytic candidate and has not received thrombolytics has a blood pressure of 236/118. What does the CCT stroke blood pressure algorithm direct?",
    "options": [
     "Reduce the BP by no more than 15%",
     "Reduce the BP to a target of 180/105",
@@ -511,7 +511,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What perfusion targets does 5.10 direct CCT crews to maintain when treating hypotension in an ischemic stroke patient?",
+   "stem": "When treating hypotension in an ischemic stroke patient, what perfusion targets should CCT crews maintain?",
    "options": [
     "SBP above 100/70 with a MAP above 80",
     "SBP 80 – 90 mmHg",
@@ -535,7 +535,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What is the general time window from last known well for IV thrombolytics in 5.10?",
+   "stem": "In ischemic stroke, what is the general time window from last known well for IV thrombolytics?",
    "options": [
     "4.5 hours",
     "6 hours",
@@ -559,7 +559,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "By how many hours from last known well must a patient arrive at the facility for endovascular thrombectomy under 5.10?",
+   "stem": "For endovascular thrombectomy in ischemic stroke, by how many hours from last known well must the patient arrive at the facility?",
    "options": [
     "22 hours",
     "4 hours",
@@ -583,7 +583,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "With a negative VAN or C-STAT screen, how much extra transport time does 5.10 allow in order to reach a higher-level stroke center?",
+   "stem": "A suspected stroke patient has a negative VAN or C-STAT screen. How much extra transport time is acceptable to reach a higher-level stroke center?",
    "options": [
     "No more than 30 minutes",
     "No more than 15 minutes",
@@ -607,7 +607,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "In the Washington prehospital stroke triage procedure in 5.10, what stroke severity score triggers transport to an endovascular-capable center?",
+   "stem": "In the Washington prehospital stroke triage procedure, what stroke severity score triggers transport to an endovascular-capable center?",
    "options": [
     "4 or more",
     "2 or more",
@@ -631,7 +631,7 @@
    "type": "dose",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "A patient on an alteplase drip develops orolingual angioedema. After stopping the infusion, what methylprednisolone dose does 5.10 direct?",
+   "stem": "A stroke patient on an alteplase drip develops orolingual angioedema. After stopping the infusion, what methylprednisolone dose is given?",
    "options": [
     "125 mg IV",
     "100 mg IV",
@@ -656,7 +656,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "Orolingual angioedema continues to worsen after alteplase is stopped and steroids and diphenhydramine are given. What does 5.10 direct next?",
+   "stem": "In a stroke patient, orolingual angioedema continues to worsen after alteplase is stopped and steroids and diphenhydramine are given. What is the next treatment?",
    "options": [
     "Epinephrine 0.3 mg IM",
     "Epinephrine 5 – 20 mcg IV push",
@@ -681,7 +681,7 @@
    "type": "contraindication",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "Which agents does 5.10 say must never be used to lower blood pressure in a known or suspected stroke patient?",
+   "stem": "Which agents must never be used to lower blood pressure in a known or suspected stroke patient?",
    "options": [
     "Nitroglycerin and nifedipine",
     "Labetalol and nicardipine",
@@ -706,7 +706,7 @@
    "type": "class",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "Which stroke center designation in 5.10 can perform mechanical thrombectomy but is not a Comprehensive Stroke Center?",
+   "stem": "Which stroke center designation can perform mechanical thrombectomy but is not a Comprehensive Stroke Center?",
    "options": [
     "Thrombectomy-Capable Stroke Center, level II+",
     "Comprehensive Stroke Center, level I",
@@ -729,7 +729,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "How does 5.11 direct BLS crews to deliver oxygen to a patient with carbon monoxide poisoning?",
+   "stem": "How should BLS crews deliver oxygen to a patient with carbon monoxide poisoning?",
    "options": [
     "100% oxygen via maximum-flow non-rebreather mask",
     "Titrate oxygen to an SpO2 of 94%",
@@ -737,7 +737,7 @@
     "Nasal cannula titrated to work of breathing"
    ],
    "answer_index": 0,
-   "explanation": "Carboxyhemoglobin is read as saturated by a standard pulse oximeter, so 5.11 directs maximum-flow 100% oxygen and explicitly says not to base the oxygen need on SpO2 values.",
+   "explanation": "Carboxyhemoglobin is read as saturated by a standard pulse oximeter, so the guideline for carbon monoxide poisoning directs maximum-flow 100% oxygen and explicitly says not to base the oxygen need on SpO2 values.",
    "priority": "core",
    "tags": [
     "topic:carbon-monoxide",
@@ -753,7 +753,7 @@
    "type": "dose",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What is the adult intranasal naloxone dose in 5.11 for opioid overdose?",
+   "stem": "What is the adult intranasal naloxone dose for opioid overdose?",
    "options": [
     "0.4 mg",
     "0.1 mg/kg",
@@ -778,7 +778,7 @@
    "type": "dose",
    "care_level": "BLS",
    "population": "pediatric",
-   "stem": "What is the pediatric intranasal naloxone dose in 5.11 for suspected opioid overdose with respiratory depression?",
+   "stem": "What is the pediatric intranasal naloxone dose for suspected opioid overdose with respiratory depression?",
    "options": [
     "0.1 mg/kg",
     "0.4 mg",
@@ -803,7 +803,7 @@
    "type": "max_dose",
    "care_level": "BLS",
    "population": "pediatric",
-   "stem": "What is the maximum total naloxone dose for a pediatric opioid overdose under 5.11 BLS?",
+   "stem": "For BLS crews, what is the maximum total naloxone dose for a pediatric opioid overdose?",
    "options": [
     "5 mg",
     "0.4 mg",
@@ -827,7 +827,7 @@
    "type": "special",
    "care_level": "BLS",
    "population": "both",
-   "stem": "To what endpoint does 5.11 direct naloxone be titrated in opioid overdose?",
+   "stem": "To what endpoint is naloxone titrated in opioid overdose?",
    "options": [
     "Respiratory effort, not mental status",
     "Full return of consciousness",
@@ -850,7 +850,7 @@
    "type": "special",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "Under what circumstance does 5.11 allow naloxone to be administered in flight?",
+   "stem": "Under what circumstance may naloxone be administered in flight for an opioid overdose?",
    "options": [
     "Only if the patient has cardiovascular collapse from narcotics",
     "Any time the respiratory rate falls below 10",
@@ -858,7 +858,7 @@
     "Only with online medical control approval"
    ],
    "answer_index": 0,
-   "explanation": "5.11 directs crews not to give naloxone in flight unless the patient has cardiovascular collapse from narcotics, which is rare; an abrupt reversal in a confined cabin is more dangerous than continued support of ventilation.",
+   "explanation": "Crews are directed not to give naloxone in flight unless the patient has cardiovascular collapse from narcotics, which is rare; an abrupt reversal in a confined cabin is more dangerous than continued support of ventilation.",
    "priority": "core",
    "tags": [
     "drug:naloxone",
@@ -874,7 +874,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "Within what time frame of a toxic exposure does 5.11 direct ALS crews to consider activated charcoal on an interfacility transfer?",
+   "stem": "On an interfacility transfer of a poisoned patient, within what time frame of the toxic exposure should ALS crews consider activated charcoal?",
    "options": [
     "The last 2 hours",
     "The last hour",
@@ -897,7 +897,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What mental status requirement does 5.11 place on a patient before activated charcoal is given?",
+   "stem": "What mental status requirement must a poisoned patient meet before activated charcoal is given?",
    "options": [
     "Awake and alert, or intubated first and given via NG",
     "Any mental status, provided it is given via NG tube",
@@ -921,7 +921,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What activated charcoal dose and maximum does 5.11 direct for anticholinergic overdose?",
+   "stem": "What activated charcoal dose and maximum are given for an anticholinergic overdose?",
    "options": [
     "1 gram/kg, maximum 50 grams",
     "1 gram/kg, maximum 100 grams",
@@ -945,7 +945,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "How does 5.11 direct an adult sodium bicarbonate infusion be mixed and run for anticholinergic or tricyclic overdose?",
+   "stem": "How is an adult sodium bicarbonate infusion mixed and run for anticholinergic or tricyclic overdose?",
    "options": [
     "150 mEq in 850 mL D5W, infused at 200 mL/hr",
     "3 amps in 850 mL D5W, infused at 250 mL/hr",
@@ -969,7 +969,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What glucagon dose does 5.11 direct for beta blocker overdose?",
+   "stem": "What glucagon dose is given for a beta blocker overdose?",
    "options": [
     "5 – 10 mg SIVP",
     "2 – 5 mg SIVP",
@@ -993,7 +993,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What insulin regimen does 5.11 direct for refractory hypotension in beta blocker overdose?",
+   "stem": "What insulin regimen is used for refractory hypotension in beta blocker overdose?",
    "options": [
     "1 unit/kg bolus, then 0.5 units/kg/hr",
     "0.5 units/kg bolus, then 1 unit/kg/hr",
@@ -1017,7 +1017,7 @@
    "type": "sequence",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Which electrolyte abnormality does 5.11 direct be corrected before starting high-dose insulin therapy in beta blocker overdose?",
+   "stem": "In beta blocker overdose, which electrolyte abnormality must be corrected before starting high-dose insulin therapy?",
    "options": [
     "Hypokalemia",
     "Hyponatremia",
@@ -1041,7 +1041,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What adult calcium gluconate dose does 5.11 direct for calcium channel blocker overdose?",
+   "stem": "What adult calcium gluconate dose is given for calcium channel blocker overdose?",
    "options": [
     "3 grams SIVP over 2 minutes",
     "1 – 3 grams SIVP",
@@ -1065,7 +1065,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What naloxone dose does 5.11 direct for clonidine overdose with respiratory depression and altered mental status?",
+   "stem": "What naloxone dose is given for clonidine overdose with respiratory depression and altered mental status?",
    "options": [
     "0.1 mg/kg IV",
     "0.4 mg IV",
@@ -1089,7 +1089,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What adult hydroxocobalamin dose does 5.11 direct for cyanide poisoning?",
+   "stem": "What adult hydroxocobalamin dose is given for cyanide poisoning?",
    "options": [
     "5 grams IV over 15 minutes",
     "70 mg/kg IV over 15 minutes",
@@ -1113,7 +1113,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What pediatric hydroxocobalamin dose does 5.11 direct for cyanide poisoning?",
+   "stem": "What pediatric hydroxocobalamin dose is given for cyanide poisoning?",
    "options": [
     "70 mg/kg IV over 15 minutes",
     "5 grams IV over 15 minutes",
@@ -1137,7 +1137,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What adult atropine dose does 5.11 direct for organophosphate poisoning?",
+   "stem": "What adult atropine dose is given for organophosphate poisoning?",
    "options": [
     "2 – 5 mg SIVP/IM",
     "1 mg IV",
@@ -1161,7 +1161,7 @@
    "type": "special",
    "care_level": "CCT",
    "population": "both",
-   "stem": "To what endpoint does 5.11 direct atropine be repeated in organophosphate poisoning?",
+   "stem": "In organophosphate poisoning, to what endpoint is atropine repeated?",
    "options": [
     "Until secretions have decreased",
     "Until the heart rate exceeds 60",
@@ -1184,7 +1184,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What adult pralidoxime (2-PAM) dose does 5.11 direct for organophosphate poisoning?",
+   "stem": "What adult pralidoxime (2-PAM) dose is given for organophosphate poisoning?",
    "options": [
     "1 – 2 grams IV over 15 – 30 minutes",
     "20 – 50 mg/kg IV over 15 – 30 minutes",
@@ -1208,7 +1208,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": "both",
-   "stem": "Which paralytic does 5.11 direct for RSI in organophosphate poisoning?",
+   "stem": "Which paralytic should be used for RSI in organophosphate poisoning?",
    "options": [
     "Rocuronium",
     "Succinylcholine",
@@ -1216,7 +1216,7 @@
     "Cisatracurium"
    ],
    "answer_index": 0,
-   "explanation": "Organophosphates inhibit plasma cholinesterase, so succinylcholine's action is markedly prolonged. 5.11 directs rocuronium instead when RSI is required.",
+   "explanation": "Organophosphates inhibit plasma cholinesterase, so succinylcholine's action is markedly prolonged. Rocuronium is directed instead when RSI is required.",
    "priority": "core",
    "tags": [
     "drug:rocuronium",
@@ -1232,7 +1232,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What sodium bicarbonate bolus does 5.11 direct for salicylate poisoning?",
+   "stem": "What sodium bicarbonate bolus is given for salicylate poisoning?",
    "options": [
     "2 mEq/kg IV",
     "1 mEq/kg IV",
@@ -1256,7 +1256,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What flumazenil dose does 5.11 direct for an iatrogenic benzodiazepine overdose?",
+   "stem": "What flumazenil dose is given for an iatrogenic benzodiazepine overdose?",
    "options": [
     "0.2 mg IV over 15 seconds",
     "0.4 mg IV over 15 seconds",
@@ -1280,7 +1280,7 @@
    "type": "indication",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "For which benzodiazepine overdoses does 5.11 restrict the use of flumazenil?",
+   "stem": "For which benzodiazepine overdoses is the use of flumazenil restricted?",
    "options": [
     "Iatrogenic overdoses only",
     "Any suspected benzodiazepine overdose",
@@ -1304,7 +1304,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Above what blood pressure does 5.11 treat benzodiazepine-refractory hypertension in sympathomimetic overdose?",
+   "stem": "In sympathomimetic overdose, above what blood pressure is benzodiazepine-refractory hypertension treated?",
    "options": [
     "210/120",
     "180/105",
@@ -1328,7 +1328,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "At what rate does 5.11 direct a nitroglycerin infusion be started for refractory hypertension in sympathomimetic overdose?",
+   "stem": "At what rate is a nitroglycerin infusion started for refractory hypertension in sympathomimetic overdose?",
    "options": [
     "10 mcg/min",
     "0.3 mcg/kg/min",
@@ -1352,7 +1352,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Above what QRS duration does 5.11 direct alkalinization in tricyclic antidepressant overdose?",
+   "stem": "Above what QRS duration is alkalinization indicated in tricyclic antidepressant overdose?",
    "options": [
     "100 msec",
     "120 msec",
@@ -1376,7 +1376,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "An adult tricyclic overdose has a QRS of 180 msec and no D5W is available for an infusion. What sodium bicarbonate bolus does 5.11 direct?",
+   "stem": "An adult with a tricyclic overdose has a QRS of 180 msec and no D5W is available for an infusion. What sodium bicarbonate bolus is given?",
    "options": [
     "100 mEq",
     "50 mEq",
@@ -1400,7 +1400,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "A 15 kg child with a tricyclic overdose needs a weight-based sodium bicarbonate infusion. What rate does 5.11 direct?",
+   "stem": "A 15 kg child with a tricyclic overdose needs a weight-based sodium bicarbonate infusion. At what rate is it run?",
    "options": [
     "8 mL/kg/hr for the first 10 kg, then 4 mL/kg/hr",
     "4 mL/kg/hr for the first 10 kg, then 8 mL/kg/hr",
@@ -1424,7 +1424,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What minimum systolic blood pressure does 5.11 direct when starting a vasopressor for severe hypotension in a pediatric tricyclic overdose?",
+   "stem": "When starting a vasopressor for severe hypotension in a pediatric tricyclic overdose, what minimum systolic blood pressure is the target?",
    "options": [
     "90 plus twice the age in years",
     "80 plus twice the age in years",
@@ -1448,7 +1448,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What acetaminophen level drawn 4 hours post-ingestion does 5.11 say reflects possible toxicity?",
+   "stem": "In acetaminophen overdose, what level drawn 4 hours post-ingestion reflects possible toxicity?",
    "options": [
     "Greater than 150 mcg/mL",
     "Greater than 40 mcg/mL",
@@ -1471,7 +1471,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which symptom pattern does 5.11 describe for clonidine overdose?",
+   "stem": "Which symptom pattern is typical of clonidine overdose?",
    "options": [
     "CNS depression, bradycardia, hypotension and small pupils",
     "Tachycardia, hypertension, dilated pupils and agitation",
@@ -1494,7 +1494,7 @@
    "type": "contraindication",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "For which ingestion does 5.11 say activated charcoal is not indicated?",
+   "stem": "For which ingestion is activated charcoal not indicated?",
    "options": [
     "Petroleum products",
     "Acetaminophen",
@@ -1517,7 +1517,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Above what serum salicylate level does 5.11 say toxicity may be present?",
+   "stem": "Above what serum salicylate level may toxicity be present?",
    "options": [
     "40 mg/dL",
     "30 mg/dL",
@@ -1540,7 +1540,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What acid-base picture does 5.11 say adults with acute salicylate poisoning usually present with?",
+   "stem": "What acid-base picture do adults with acute salicylate poisoning usually present with?",
    "options": [
     "Mixed respiratory alkalosis and metabolic acidosis",
     "Mixed respiratory acidosis and metabolic alkalosis",
@@ -1564,7 +1564,7 @@
    "type": "indication",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "Above what carboxyhemoglobin level does 5.11 list hyperbaric oxygen as indicated in a pregnant patient?",
+   "stem": "In a pregnant patient with carbon monoxide poisoning, above what carboxyhemoglobin level is hyperbaric oxygen indicated?",
    "options": [
     "20%",
     "25%",
@@ -1588,7 +1588,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Chin-lift, jaw thrust and suction have not relieved airway obstruction in a seizing patient. What does 5.12 direct BLS crews to do next?",
+   "stem": "Chin-lift, jaw thrust and suction have not relieved airway obstruction in a seizing patient. What should BLS crews do next?",
    "options": [
     "Place an OPA or NPA and ventilate via BVM as needed",
     "Insert a bite block between the teeth",
@@ -1611,7 +1611,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult lorazepam dose in 5.12 for an actively seizing patient?",
+   "stem": "What is the adult lorazepam dose for an actively seizing patient?",
    "options": [
     "2 – 4 mg IV/IM",
     "0.1 mg/kg IV/IM",
@@ -1635,7 +1635,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the midazolam dose in 5.12 when given IV, IO or IM for an active seizure?",
+   "stem": "What is the midazolam dose when given IV, IO or IM for an active seizure?",
    "options": [
     "0.1 mg/kg",
     "0.3 mg/kg",
@@ -1659,7 +1659,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the intranasal midazolam dose in 5.12 for an active seizure?",
+   "stem": "What is the intranasal midazolam dose for an active seizure?",
    "options": [
     "0.3 mg/kg",
     "0.1 mg/kg",
@@ -1683,7 +1683,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the maximum single dose of midazolam in 5.12?",
+   "stem": "When treating an active seizure, what is the maximum single dose of midazolam?",
    "options": [
     "10 mg",
     "4 mg",
@@ -1706,7 +1706,7 @@
    "type": "route",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How does 5.12 direct an intranasal midazolam dose be delivered?",
+   "stem": "How should an intranasal midazolam dose be delivered to a seizing patient?",
    "options": [
     "Split between both nostrils",
     "All into a single nostril",
@@ -1730,7 +1730,7 @@
    "type": "special",
    "care_level": "ALS",
    "population": "both",
-   "stem": "If rocuronium or another long-acting paralytic is used in a seizing patient, what does 5.12 require?",
+   "stem": "If rocuronium or another long-acting paralytic is used in a seizing patient, what is required?",
    "options": [
     "The patient remains adequately sedated beyond the paralytic's duration of action",
     "The paralytic is reversed as soon as the airway is secured",
@@ -1738,7 +1738,7 @@
     "Continuous EEG monitoring is established before transport"
    ],
    "answer_index": 0,
-   "explanation": "A paralytic stops the convulsion but not the seizure, so sedation must outlast the paralysis. 5.12 prefers avoiding long-acting blockers entirely because they mask ongoing seizure activity.",
+   "explanation": "A paralytic stops the convulsion but not the seizure, so sedation must outlast the paralysis. The Seizures guideline prefers avoiding long-acting blockers entirely because they mask ongoing seizure activity.",
    "priority": "core",
    "tags": [
     "topic:seizures",
@@ -1754,7 +1754,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the pediatric lorazepam dose in 5.12 for an actively seizing child?",
+   "stem": "What is the pediatric lorazepam dose for an actively seizing child?",
    "options": [
     "0.1 mg/kg IV/IM",
     "2 – 4 mg IV/IM",
@@ -1778,7 +1778,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "A child who has been seizing is febrile. What acetaminophen dose does 5.12 direct?",
+   "stem": "A child who has been seizing is febrile. What acetaminophen dose is given?",
    "options": [
     "15 mg/kg IV, max dose 750 mg",
     "1000 mg IV over 15 minutes",
@@ -1786,7 +1786,7 @@
     "1 mg/kg IV, max dose 5 mg/kg"
    ],
    "answer_index": 0,
-   "explanation": "Fever lowers the seizure threshold in children, so 5.12 directs acetaminophen 15 mg/kg IV over 15 minutes to a maximum of 750 mg. The 50 mg/kg figure is levetiracetam.",
+   "explanation": "Fever lowers the seizure threshold in children, so acetaminophen 15 mg/kg IV over 15 minutes is given to a maximum of 750 mg. The 50 mg/kg figure is levetiracetam.",
    "priority": "core",
    "tags": [
     "drug:acetaminophen",
@@ -1802,7 +1802,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What ketamine dose does 5.12 direct for seizures refractory to benzodiazepines?",
+   "stem": "What ketamine dose is given for seizures refractory to benzodiazepines?",
    "options": [
     "1 mg/kg IV",
     "0.3 mg/kg IV",
@@ -1825,7 +1825,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What is the maximum total ketamine dose in 5.12 for refractory seizures?",
+   "stem": "What is the maximum total ketamine dose for refractory seizures?",
    "options": [
     "5 mg/kg",
     "1 mg/kg",
@@ -1848,7 +1848,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What are the adult and pediatric maximum levetiracetam doses in 5.12?",
+   "stem": "For seizures, what are the adult and pediatric maximum levetiracetam doses?",
    "options": [
     "Adult 3000 mg, pediatric 1500 mg",
     "Adult 2000 mg, pediatric 1000 mg",
@@ -1871,7 +1871,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What is the maximum fosphenytoin dose in 5.12 for refractory seizures?",
+   "stem": "What is the maximum fosphenytoin dose for refractory seizures?",
    "options": [
     "2000 mg",
     "1000 mg",
@@ -1894,7 +1894,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What phenobarbital dose and maximum does 5.12 direct for refractory seizures?",
+   "stem": "What phenobarbital dose and maximum are given for refractory seizures?",
    "options": [
     "15 – 20 mg/kg, max 1000 mg",
     "15 – 20 mg/kg, max 2000 mg",
@@ -1917,7 +1917,7 @@
    "type": "special",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "A patient in the third trimester of pregnancy is seizing. Which guideline does 5.12 direct the crew to?",
+   "stem": "A patient in the third trimester of pregnancy is seizing. Which guideline should the crew follow?",
    "options": [
     "Pre-eclampsia, eclampsia and PIH",
     "General OB Care and Transport Considerations",
@@ -1941,7 +1941,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "neonatal",
-   "stem": "What does 5.12 direct for a seizing neonate?",
+   "stem": "What is the management for a seizing neonate?",
    "options": [
     "Supportive care and treatment of the underlying cause",
     "Benzodiazepines at the same weight-based dose as older children",
@@ -1964,7 +1964,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What NS/LR bolus volume does 5.13 direct for an adult with septic shock at the ALS level?",
+   "stem": "What NS/LR bolus volume is given at the ALS level to an adult with septic shock?",
    "options": [
     "500 mL",
     "250 mL",
@@ -1988,7 +1988,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What mean arterial pressure does 5.13 direct adult fluid resuscitation be titrated to?",
+   "stem": "In adult sepsis and septic shock, to what mean arterial pressure is fluid resuscitation titrated?",
    "options": [
     "Above 65 mmHg",
     "Above 80 mmHg",
@@ -2012,7 +2012,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "At what rate does 5.13 direct norepinephrine be started in an adult with fluid-unresponsive septic shock?",
+   "stem": "At what rate is norepinephrine started in an adult with fluid-unresponsive septic shock?",
    "options": [
     "2 – 10 mcg/min",
     "5 mcg/kg/min",
@@ -2036,7 +2036,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What acetaminophen dose does 5.13 direct for an untreated fever in an adult with sepsis?",
+   "stem": "What acetaminophen dose is given for an untreated fever in an adult with sepsis?",
    "options": [
     "1000 mg IV over 15 minutes q 6 hours",
     "15 mg/kg IV to a max of 750 mg",
@@ -2060,7 +2060,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What NS/LR bolus volume does 5.13 direct for a child with septic shock?",
+   "stem": "What NS/LR bolus volume is given to a child with septic shock?",
    "options": [
     "20 mL/kg",
     "10 mL/kg",
@@ -2084,7 +2084,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "Which vasopressor does 5.13 name as first line for a child with fluid-unresponsive septic shock?",
+   "stem": "Which vasopressor is first line for a child with fluid-unresponsive septic shock?",
    "options": [
     "Epinephrine",
     "Norepinephrine",
@@ -2108,7 +2108,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What systolic blood pressure does 5.13 direct pediatric fluid boluses be titrated to?",
+   "stem": "In pediatric septic shock, to what systolic blood pressure are fluid boluses titrated?",
    "options": [
     "90 plus twice the age in years",
     "80 plus twice the age in years",
@@ -2132,7 +2132,7 @@
    "type": "special",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "Why does 5.13 suggest a pressure bag or a push-pull syringe method for pediatric fluid boluses?",
+   "stem": "Why is a pressure bag or a push-pull syringe method suggested for pediatric fluid boluses in septic shock?",
    "options": [
     "Because IV pump flow rate limits slow rapid bolus delivery",
     "Because it reduces the risk of fluid overload",
@@ -2156,7 +2156,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "An adult with sepsis has a MAP of 62 and a lactate of 5 mmol/L. What fluid bolus does 5.13 direct at the CCT level?",
+   "stem": "An adult with sepsis has a MAP of 62 and a lactate of 5 mmol/L. What fluid bolus is given at the CCT level?",
    "options": [
     "30 mL/kg",
     "20 mL/kg",
@@ -2180,7 +2180,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What vasopressin dose does 5.13 direct when adding to fluids and other vasopressors?",
+   "stem": "In septic shock, what vasopressin dose is given when adding it to fluids and other vasopressors?",
    "options": [
     "0.03 units/min",
     "0.05 mcg/kg/min",
@@ -2204,7 +2204,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "At what rate does 5.13 direct a dopamine infusion be started in septic shock, and in which patients?",
+   "stem": "At what rate is a dopamine infusion started in septic shock, and in which patients?",
    "options": [
     "5 mcg/kg/min, in highly selective bradycardic patients",
     "2 – 10 mcg/min, in any fluid-refractory patient",
@@ -2212,7 +2212,7 @@
     "0.05 mcg/kg/min, as the first-line vasopressor"
    ],
    "answer_index": 0,
-   "explanation": "Dopamine starts at 5 mcg/kg/min and is titrated to a maximum of 20 mcg/kg/min, but 5.13 restricts it to highly selective patients with bradycardia because of its arrhythmogenic profile.",
+   "explanation": "Dopamine starts at 5 mcg/kg/min and is titrated to a maximum of 20 mcg/kg/min, but in septic shock it is restricted to highly selective patients with bradycardia because of its arrhythmogenic profile.",
    "priority": "detail",
    "tags": [
     "drug:dopamine",
@@ -2228,7 +2228,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Hypotension has persisted for over an hour despite adequate fluid and vasopressors. Which steroid and dose does 5.13 direct first?",
+   "stem": "In septic shock, hypotension has persisted for over an hour despite adequate fluid and vasopressors. Which steroid and dose are given first?",
    "options": [
     "Hydrocortisone 100 mg IV",
     "Methylprednisolone 125 mg IV",
@@ -2252,7 +2252,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "How many SIRS criteria does 5.13 require, with a suspected infection, for a clinical diagnosis of sepsis in an adult?",
+   "stem": "How many SIRS criteria, with a suspected infection, are required for a clinical diagnosis of sepsis in an adult?",
    "options": [
     "Two or more",
     "One or more",
@@ -2276,7 +2276,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What heart rate meets a SIRS criterion in 5.13?",
+   "stem": "In screening for sepsis, what heart rate meets a SIRS criterion?",
    "options": [
     "Above 90 bpm",
     "Above 100 bpm",
@@ -2300,7 +2300,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "pediatric",
-   "stem": "What does 5.13 say about hypotension in diagnosing pediatric septic shock?",
+   "stem": "What role does hypotension play in diagnosing pediatric septic shock?",
    "options": [
     "It is not necessary for the diagnosis, but its presence is confirmatory",
     "It is required before septic shock can be diagnosed",
@@ -2323,7 +2323,7 @@
    "type": "sequence",
    "care_level": "BLS",
    "population": "both",
-   "stem": "A term infant is delivered, breathing and vigorous and needs no resuscitation. When does 6.01 direct the umbilical cord be clamped and cut?",
+   "stem": "A term infant is delivered, breathing and vigorous and needs no resuscitation. When should the umbilical cord be clamped and cut?",
    "options": [
     "At 1 to 3 minutes after delivery",
     "Immediately after delivery",
@@ -2346,7 +2346,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "neonatal",
-   "stem": "How far from the infant does 6.01 direct the umbilical cord be clamped and cut?",
+   "stem": "During an uncomplicated childbirth, how far from the infant should the umbilical cord be clamped and cut?",
    "options": [
     "About 6 inches from the infant",
     "About 2 inches from the infant",
@@ -2370,7 +2370,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "neonatal",
-   "stem": "When does 6.01 direct suctioning of a newborn's nose and mouth?",
+   "stem": "After an uncomplicated delivery, when should a newborn's nose and mouth be suctioned?",
    "options": [
     "Only if unable to maintain a patent airway",
     "Routinely, mouth first and then nose",
@@ -2394,7 +2394,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "neonatal",
-   "stem": "At what points does 6.01 direct the infant be assessed using APGAR?",
+   "stem": "At what points should a newborn be assessed using APGAR?",
    "options": [
     "At the time of birth and five minutes later",
     "At one minute and five minutes",
@@ -2402,7 +2402,7 @@
     "At one, five and ten minutes"
    ],
    "answer_index": 0,
-   "explanation": "6.01 specifies assessment at the time of birth and again five minutes later, and adds that resuscitation must never be delayed in order to obtain an APGAR.",
+   "explanation": "The Childbirth - Uncomplicated guideline specifies assessment at the time of birth and again five minutes later, and adds that resuscitation must never be delayed in order to obtain an APGAR.",
    "priority": "detail",
    "tags": [
     "topic:childbirth",
@@ -2418,7 +2418,7 @@
    "type": "special",
    "care_level": "BLS",
    "population": "neonatal",
-   "stem": "How does 6.01 direct the newborn's APGAR assessment be documented?",
+   "stem": "How should a newborn's APGAR assessment be documented?",
    "options": [
     "Describe the infant using the criteria rather than a numerical score",
     "Record only the total score at birth and at five minutes",
@@ -2442,7 +2442,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "both",
-   "stem": "A nuchal cord cannot be unwrapped from the newborn's neck. What does 6.01 direct?",
+   "stem": "During childbirth, a nuchal cord cannot be unwrapped from the newborn's neck. What should be done?",
    "options": [
     "Attach two umbilical clamps and cut the cord between them",
     "Push the infant back up the birth canal",
@@ -2465,7 +2465,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What volume of blood loss does 6.01 define as significant postpartum hemorrhage?",
+   "stem": "After an uncomplicated vaginal delivery, what volume of blood loss is considered significant postpartum hemorrhage?",
    "options": [
     "More than 500 mL",
     "More than 250 mL",
@@ -2489,7 +2489,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "both",
-   "stem": "How does 6.01 direct the shoulders be delivered once the head has emerged?",
+   "stem": "During an uncomplicated delivery, how are the shoulders delivered once the head has emerged?",
    "options": [
     "Guide the head downward for the anterior shoulder, then lift upward for the posterior shoulder",
     "Lift the head upward for the anterior shoulder, then guide downward for the posterior shoulder",
@@ -2512,7 +2512,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "neonatal",
-   "stem": "In the APGAR scoring table in 6.01, which pulse range earns 2 points?",
+   "stem": "In the APGAR scoring table for a newborn, which pulse range earns 2 points?",
    "options": [
     "100 – 140",
     "Less than 100",
@@ -2535,7 +2535,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "In what position does 6.02 direct a patient with a prolapsed cord be placed?",
+   "stem": "In what position should a patient with a prolapsed cord be placed?",
    "options": [
     "Knee-chest position",
     "Left lateral tilt",
@@ -2559,7 +2559,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What does 6.02 direct a crew to do with the cord itself in a prolapsed cord?",
+   "stem": "In a prolapsed cord, what should the crew do with the cord itself?",
    "options": [
     "Leave it out and push the baby up the vagina to relieve pressure",
     "Push the cord back into the vagina and hold it there",
@@ -2582,7 +2582,7 @@
    "type": "indication",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What does 6.02 say the presentation of an arm or leg through the vagina is an indication for?",
+   "stem": "During labor, an arm or leg presents through the vagina. What is this an indication for?",
    "options": [
     "Immediate transport to the hospital",
     "Delivery on scene with fundal pressure",
@@ -2605,7 +2605,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "both",
-   "stem": "In a breech delivery, within what time does 6.02 say the head must deliver before suffocation can occur?",
+   "stem": "In a breech delivery, within what time must the head deliver before suffocation can occur?",
    "options": [
     "3 minutes",
     "1 minute",
@@ -2628,7 +2628,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "both",
-   "stem": "How does 6.02 direct an airspace be created for a breech baby whose head has not yet delivered?",
+   "stem": "How is an airspace created for a breech baby whose head has not yet delivered?",
    "options": [
     "Form a V with the fingers either side of the nose and push the vaginal wall away",
     "Insert an oropharyngeal airway into the baby's mouth",
@@ -2651,7 +2651,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What does 6.02 describe as the Pinard manoeuvre in a breech delivery?",
+   "stem": "In a breech delivery, what is the Pinard manoeuvre?",
    "options": [
     "Abduct the hip, flex the knee and sweep the foot and leg medially to deliver it",
     "Rotate the trunk so the back is anterior and apply downward traction",
@@ -2675,7 +2675,7 @@
    "type": "sequence",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What is the initial manoeuvre for shoulder dystocia in 6.02?",
+   "stem": "What is the initial manoeuvre for shoulder dystocia?",
    "options": [
     "Flex the maternal hips and legs until the thighs touch the abdomen",
     "Rotate the anterior shoulder out of the AP diameter of the pelvis",
@@ -2699,7 +2699,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What pressure does 6.02 direct an assistant to apply during the McRoberts manoeuvre?",
+   "stem": "During the McRoberts manoeuvre for shoulder dystocia, what pressure should an assistant apply?",
    "options": [
     "Downward suprapubic pressure",
     "Downward fundal pressure",
@@ -2723,7 +2723,7 @@
    "type": "contraindication",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "Which action does 6.02 warn against once a shoulder dystocia is suspected?",
+   "stem": "Which action should be avoided once a shoulder dystocia is suspected?",
    "options": [
     "Forcible rotation or traction on the fetal head",
     "Flexing the maternal hips and legs",
@@ -2746,7 +2746,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "How long does 6.02 direct crews to wait for spontaneous delivery of the placenta?",
+   "stem": "After delivery of the infant, how long should crews wait for spontaneous delivery of the placenta?",
    "options": [
     "Up to 30 minutes",
     "Up to 10 minutes",
@@ -2769,7 +2769,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "How often does 6.02 direct fundal height and firmness be checked after the placenta delivers?",
+   "stem": "After the placenta delivers, how often should fundal height and firmness be checked?",
    "options": [
     "Every 15 minutes for the first hour",
     "Every 5 minutes for the first hour",
@@ -2792,7 +2792,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "A mother with a prolapsed cord shows signs of hypoperfusion. What fluid bolus does 6.02 direct at the ALS level?",
+   "stem": "A mother with a prolapsed cord shows signs of hypoperfusion. What fluid bolus is given at the ALS level?",
    "options": [
     "250 mL",
     "500 mL",
@@ -2816,7 +2816,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "After the cord is clamped in a vertex or breech delivery, what oxytocin regimen does 6.02 direct?",
+   "stem": "After the cord is clamped in a vertex or breech delivery, what oxytocin regimen is given?",
    "options": [
     "20 units in 1000 mL NS/LR, 500 mL wide open then 100 mL/hr",
     "40 units in 1 L NS/LR, 500 mL over 10 minutes",
@@ -2840,7 +2840,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Once an inverted uterus has been replaced, what oxytocin regimen does 6.02 direct?",
+   "stem": "Once an inverted uterus has been replaced, what oxytocin regimen is given?",
    "options": [
     "40 units in 1 L NS/LR, 500 mL over 10 minutes",
     "20 units in 1000 mL NS/LR, 500 mL wide open",
@@ -2864,7 +2864,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What nitroglycerin dose does 6.02 direct crews to discuss with the receiving physician for uterine inversion?",
+   "stem": "For uterine inversion, what nitroglycerin dose should crews discuss with the receiving physician?",
    "options": [
     "50 mcg IV",
     "10 mcg/min",
@@ -2888,7 +2888,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Manual replacement of an inverted uterus falls outside whose scope of practice under 6.02?",
+   "stem": "Manual replacement of an inverted uterus falls outside whose scope of practice?",
    "options": [
     "Paramedic",
     "Registered nurse",
@@ -2896,7 +2896,7 @@
     "Advanced practice provider"
    ],
    "answer_index": 0,
-   "explanation": "6.02 states manual replacement is not within the paramedic scope of practice; it is also extremely painful, so analgesia or anxiolysis should be considered when it is performed.",
+   "explanation": "The Delivery Complications guideline states manual replacement is not within the paramedic scope of practice; it is also extremely painful, so analgesia or anxiolysis should be considered when it is performed.",
    "priority": "core",
    "tags": [
     "topic:uterine-inversion",
@@ -2911,7 +2911,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which breech type does 6.02 say accounts for 50 to 70 percent of breech fetuses at term?",
+   "stem": "Which breech type accounts for 50 to 70 percent of breech fetuses at term?",
    "options": [
     "Frank breech",
     "Complete breech",
@@ -2933,7 +2933,7 @@
    "type": "mechanism",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "How does 6.02 define a nuchal cord?",
+   "stem": "In delivery complications, how is a nuchal cord defined?",
    "options": [
     "A cord that passes 360 degrees around the fetal neck",
     "A cord that presents ahead of the fetus through the cervix",
@@ -2955,7 +2955,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "Beyond what cervical dilation does 6.03 require the crew to consult the patient's RN or sending provider before accepting an obstetric transport?",
+   "stem": "Beyond what cervical dilation must the crew consult the patient's RN or sending provider before accepting an obstetric transport?",
    "options": [
     "Greater than 5 cm",
     "Greater than 3 cm",
@@ -2978,7 +2978,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "Which examination does 6.03 state LFN clinicians are not to perform?",
+   "stem": "Which examination are LFN clinicians not to perform on an obstetric patient?",
    "options": [
     "Digital pelvic exams",
     "Visual inspection of the perineum",
@@ -2986,7 +2986,7 @@
     "Fetal heart rate auscultation"
    ],
    "answer_index": 0,
-   "explanation": "Digital pelvic exams are prohibited at every care level in 6.03. The crew inspects the perineum visually for bleeding, fluid and colour instead.",
+   "explanation": "Digital pelvic exams are prohibited at every care level for obstetric patients. The crew inspects the perineum visually for bleeding, fluid and colour instead.",
    "priority": "core",
    "tags": [
     "topic:ob-transport",
@@ -3002,7 +3002,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "Which findings does 6.03 list as signs and symptoms of imminent delivery?",
+   "stem": "Which findings are signs and symptoms of imminent delivery?",
    "options": [
     "Sensation of impending defecation, urge to push, crowning",
     "Ruptured membranes, regular contractions, back pain",
@@ -3025,7 +3025,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What oxygen saturation does 6.03 direct be maintained in the obstetric patient prior to transport?",
+   "stem": "What oxygen saturation should be maintained in the obstetric patient prior to transport?",
    "options": [
     "Above 92%",
     "Above 90%",
@@ -3033,7 +3033,7 @@
     "Between 94% and 99%"
    ],
    "answer_index": 0,
-   "explanation": "6.03 sets supplemental oxygen to hold the saturation above 92%; 6.02 uses a 94% to 99% target during an active delivery complication.",
+   "explanation": "General OB care sets supplemental oxygen to hold the saturation above 92%; the Delivery Complications guideline uses a 94% to 99% target during an active delivery complication.",
    "priority": "detail",
    "tags": [
     "topic:ob-transport",
@@ -3049,7 +3049,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "How does 6.03 direct the gravid patient be positioned for transport?",
+   "stem": "How should the gravid patient be positioned for transport?",
    "options": [
     "Wedge under the right hip to maintain a left lateral lift",
     "Wedge under the left hip to maintain a right lateral lift",
@@ -3073,7 +3073,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What betamethasone dose does 6.03 direct for a patient at risk of preterm delivery?",
+   "stem": "What betamethasone dose is given to a patient at risk of preterm delivery?",
    "options": [
     "12 mg IM x 1",
     "12 mg IV x 1",
@@ -3098,7 +3098,7 @@
    "type": "indication",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "For which patients does 6.03 indicate betamethasone?",
+   "stem": "For which obstetric patients is betamethasone indicated?",
    "options": [
     "EGA 24 0/7 to 36 6/7 weeks with risk of preterm delivery within 7 days",
     "EGA 27 weeks or more with severe preeclampsia",
@@ -3122,7 +3122,7 @@
    "type": "assessment",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "How often does 6.03 direct the fetal heart rate be documented during transport?",
+   "stem": "During obstetric transport, how often should the fetal heart rate be documented?",
    "options": [
     "Every 15 minutes",
     "Every 5 minutes",
@@ -3146,7 +3146,7 @@
    "type": "mechanism",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What does the acronym HELLP stand for in 6.04?",
+   "stem": "What does the acronym HELLP stand for?",
    "options": [
     "Hemolysis, Elevated Liver enzymes, Low Platelets",
     "Hypertension, Edema, Liver failure, Low Platelets",
@@ -3169,7 +3169,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "How does 6.04 direct HELLP syndrome be treated?",
+   "stem": "How is HELLP syndrome treated?",
    "options": [
     "Per the preeclampsia guidelines regardless of the blood pressure",
     "Per the preeclampsia guidelines only if the SBP exceeds 160",
@@ -3193,7 +3193,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "What blood pressure does 6.04 list in the assessment of severe preeclampsia?",
+   "stem": "In assessing a patient for HELLP syndrome, what blood pressure indicates severe preeclampsia?",
    "options": [
     "SBP above 160 or DBP above 110",
     "SBP above 140 or DBP above 90",
@@ -3217,7 +3217,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "At what gestational age does 6.04 say HELLP syndrome typically occurs?",
+   "stem": "At what gestational age does HELLP syndrome typically occur?",
    "options": [
     "27 weeks or more",
     "20 weeks or more",
@@ -3240,7 +3240,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "How long after delivery can signs and symptoms of HELLP first appear per 6.04?",
+   "stem": "How long after delivery can signs and symptoms of HELLP syndrome first appear?",
    "options": [
     "Up to seven days after delivery",
     "Up to 48 hours after delivery",
@@ -3263,7 +3263,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Which blood products does 6.04 direct CCT crews to consider for a patient with HELLP syndrome?",
+   "stem": "Which blood products should CCT crews consider for a patient with HELLP syndrome?",
    "options": [
     "Platelets, PRBCs and plasma per order of the sending or receiving physician",
     "Cryoprecipitate and factor concentrate on standing order",
@@ -3287,7 +3287,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "neonatal",
-   "stem": "In what order does 6.05 direct bulb suctioning of a newborn?",
+   "stem": "During neonatal resuscitation, in what order is a newborn bulb suctioned?",
    "options": [
     "Oropharynx first, then both nares",
     "Both nares first, then the oropharynx",
@@ -3311,7 +3311,7 @@
    "type": "complication",
    "care_level": "BLS",
    "population": "neonatal",
-   "stem": "Why does 6.05 direct caution when suctioning a newborn?",
+   "stem": "Why is caution needed when suctioning a newborn?",
    "options": [
     "Vagus nerve stimulation causes neonatal bradycardia",
     "It increases the risk of meconium aspiration",
@@ -3335,7 +3335,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "neonatal",
-   "stem": "On what does 6.05 direct initial resuscitation of a newborn of 35 weeks gestation or more to begin?",
+   "stem": "On what should initial resuscitation of a newborn of 35 weeks gestation or more begin?",
    "options": [
     "Room air",
     "30% oxygen",
@@ -3359,7 +3359,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "neonatal",
-   "stem": "On what does 6.05 direct resuscitation of a newborn under 35 weeks gestation to begin?",
+   "stem": "On what should resuscitation of a newborn under 35 weeks gestation begin?",
    "options": [
     "Room air up to 30% oxygen",
     "Room air only",
@@ -3383,7 +3383,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "neonatal",
-   "stem": "A newborn responds poorly to ventilation and chest compressions. What IV or IO epinephrine dose does 6.05 direct?",
+   "stem": "A newborn responds poorly to ventilation and chest compressions. What IV or IO epinephrine dose is given?",
    "options": [
     "0.2 mL/kg of 0.1 mg/mL (0.02 mg/kg)",
     "1 mL/kg of 0.1 mg/mL (0.1 mg/kg)",
@@ -3408,7 +3408,7 @@
    "type": "route",
    "care_level": "ALS",
    "population": "neonatal",
-   "stem": "A newborn needs epinephrine but there is no IV or IO access. What dose of the 0.1 mg/mL concentration does 6.05 direct via the endotracheal tube?",
+   "stem": "A newborn needs epinephrine but there is no IV or IO access. What dose of the 0.1 mg/mL concentration is given via the endotracheal tube?",
    "options": [
     "1 mL/kg",
     "0.2 mL/kg",
@@ -3433,7 +3433,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "neonatal",
-   "stem": "What flush does 6.05 direct after giving epinephrine to a newborn?",
+   "stem": "During neonatal resuscitation, what flush follows epinephrine?",
    "options": [
     "3 mL NS",
     "1 mL NS",
@@ -3457,7 +3457,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "neonatal",
-   "stem": "After how long with no heart rate response, despite all resuscitation steps being effectively completed, does 6.05 direct redirection of care be discussed?",
+   "stem": "In neonatal resuscitation, after how long with no heart rate response, despite all steps being effectively completed, should redirection of care be discussed?",
    "options": [
     "20 minutes",
     "10 minutes",
@@ -3480,7 +3480,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "neonatal",
-   "stem": "At what heart rate does the neonatal resuscitation algorithm in 6.05 direct chest compressions be started?",
+   "stem": "In neonatal resuscitation, at what heart rate are chest compressions started?",
    "options": [
     "Below 60 per minute",
     "Below 80 per minute",
@@ -3504,7 +3504,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "neonatal",
-   "stem": "What compression-to-ventilation ratio does the neonatal algorithm in 6.05 direct?",
+   "stem": "What compression-to-ventilation ratio is used in neonatal resuscitation?",
    "options": [
     "3:1",
     "5:1",
@@ -3528,7 +3528,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "neonatal",
-   "stem": "What preductal oxygen saturation target does the 6.05 algorithm give at 5 minutes of life?",
+   "stem": "During neonatal resuscitation, what is the preductal oxygen saturation target at 5 minutes of life?",
    "options": [
     "80% to 85%",
     "65% to 70%",
@@ -3552,7 +3552,7 @@
    "type": "procedure",
    "care_level": "PEARLS",
    "population": "neonatal",
-   "stem": "In the MR. SOPA ventilation corrective steps in 6.05, what do the S and the O stand for?",
+   "stem": "In the MR. SOPA ventilation corrective steps for neonatal resuscitation, what do the S and the O stand for?",
    "options": [
     "Suction mouth and nose, then Open the mouth",
     "Stimulate the infant, then Oxygenate",
@@ -3576,7 +3576,7 @@
    "type": "equipment",
    "care_level": "PEARLS",
    "population": "neonatal",
-   "stem": "What maximum ventilation pressure does 6.05 recommend in a term baby during the MR. SOPA pressure step?",
+   "stem": "During the MR. SOPA pressure step of neonatal resuscitation, what maximum ventilation pressure is recommended in a term baby?",
    "options": [
     "40 cm H2O",
     "20 cm H2O",
@@ -3600,7 +3600,7 @@
    "type": "equipment",
    "care_level": "PEARLS",
    "population": "neonatal",
-   "stem": "What endotracheal tube size does 6.05 give for a newborn over 2,200 g and more than 34 weeks gestation?",
+   "stem": "What endotracheal tube size is used for a newborn over 2,200 g and more than 34 weeks gestation?",
    "options": [
     "3.5 mm ID",
     "2.5 mm ID",
@@ -3624,7 +3624,7 @@
    "type": "landmark",
    "care_level": "PEARLS",
    "population": "neonatal",
-   "stem": "What initial endotracheal tube insertion depth at the gum does 6.05 give for a 30 to 32 week infant?",
+   "stem": "What initial endotracheal tube insertion depth at the gum is used for a 30 to 32 week infant?",
    "options": [
     "7.0 cm",
     "6.0 cm",

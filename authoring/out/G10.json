@@ -8,7 +8,7 @@
    "type": "indication",
    "care_level": "CCT",
    "population": null,
-   "stem": "Which patient meets the indication for pericardiocentesis under 8.28?",
+   "stem": "Which patient meets the indication for pericardiocentesis?",
    "options": [
     "A patient with pericardial effusion or tamponade and cardiovascular instability",
     "A patient with a pericardial effusion and normal vital signs",
@@ -16,7 +16,7 @@
     "A patient with obstructive shock from a tension pneumothorax"
    ],
    "answer_index": 0,
-   "explanation": "8.28 lists only pericardial effusion/tamponade with cardiovascular instability, or a physician order. A stable effusion is not drained in transport, and obstructive shock from a tension pneumothorax is treated by chest decompression instead.",
+   "explanation": "The pericardiocentesis guideline lists only pericardial effusion/tamponade with cardiovascular instability, or a physician order. A stable effusion is not drained in transport, and obstructive shock from a tension pneumothorax is treated by chest decompression instead.",
    "priority": "core",
    "tags": [
     "procedure:pericardiocentesis",
@@ -31,7 +31,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": null,
-   "stem": "8.28 states that pericardiocentesis is not covered by standing orders in any patient care guideline. What must be obtained before a crew performs it?",
+   "stem": "Pericardiocentesis is not covered by standing orders in any patient care guideline. What must be obtained before a crew performs it?",
    "options": [
     "An OLMC consult",
     "A QM report",
@@ -54,7 +54,7 @@
    "type": "complication",
    "care_level": "CCT",
    "population": null,
-   "stem": "Which complication does 8.28 list for pericardiocentesis?",
+   "stem": "Which complication is listed for pericardiocentesis?",
    "options": [
     "Coronary artery laceration",
     "Pneumothorax",
@@ -77,7 +77,7 @@
    "type": "landmark",
    "care_level": "CCT",
    "population": null,
-   "stem": "Where does 8.28 direct the pericardiocentesis needle be inserted?",
+   "stem": "Where is the needle inserted for pericardiocentesis?",
    "options": [
     "Left of the xiphoid, 1 cm inferior to the lower costal margin",
     "2nd intercostal space at the mid-clavicular line",
@@ -100,7 +100,7 @@
    "type": "procedure",
    "care_level": "CCT",
    "population": null,
-   "stem": "During needle advancement in 8.28, which finding indicates epicardial contact and requires the needle be withdrawn?",
+   "stem": "During needle advancement for pericardiocentesis, which finding indicates epicardial contact and requires the needle be withdrawn?",
    "options": [
     "An ST elevation injury pattern",
     "A drop in ETCO2",
@@ -123,7 +123,7 @@
    "type": "procedure",
    "care_level": "CCT",
    "population": null,
-   "stem": "After the initial aspiration in 8.28, what does the crew do with the needle and catheter?",
+   "stem": "After the initial aspiration during pericardiocentesis, what does the crew do with the needle and catheter?",
    "options": [
     "Remove the needle and leave the catheter with a three-way stopcock attached",
     "Remove both the needle and the catheter once the effusion is drained",
@@ -146,7 +146,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": null,
-   "stem": "Cardiac tamponade is a form of obstructive shock. What do the 8.28 PEARLS direct for ventilation and preload in these patients?",
+   "stem": "Cardiac tamponade is a form of obstructive shock. What is directed for ventilation and preload in these patients?",
    "options": [
     "Avoid positive pressure ventilation or increased PEEP, and maximize preload",
     "Apply positive pressure ventilation with increased PEEP, and restrict fluids",
@@ -169,7 +169,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": null,
-   "stem": "To which patients do the 8.28 PEARLS limit pericardiocentesis?",
+   "stem": "To which patients is pericardiocentesis limited?",
    "options": [
     "Patients with a known, verified effusion who decompensate",
     "Patients with a presumptive diagnosis of tamponade on exam",
@@ -192,7 +192,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which patient meets the indication for push dose vasopressors under 8.29?",
+   "stem": "Which patient meets the indication for push dose vasopressors?",
    "options": [
     "A hypotensive patient awaiting a vasopressor infusion",
     "A non-hypotensive patient with tachycardia",
@@ -216,7 +216,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which patient does 8.29 list as a contraindication to push dose vasopressors?",
+   "stem": "Which patient is listed as a contraindication to push dose vasopressors?",
    "options": [
     "A non-hypotensive patient",
     "A bradycardic patient",
@@ -240,7 +240,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which push dose vasopressor does 8.29 prefer for a hypotensive patient who is bradycardic with no suspected cardiac ischemia?",
+   "stem": "Which push dose vasopressor is preferred for a hypotensive patient who is bradycardic with no suspected cardiac ischemia?",
    "options": [
     "Push dose epinephrine",
     "Push dose norepinephrine",
@@ -264,7 +264,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "After preparing push dose epinephrine the way 8.29 describes, what is the concentration in the syringe?",
+   "stem": "After push dose epinephrine is prepared as directed, what is the concentration in the syringe?",
    "options": [
     "10 mcg/mL",
     "16 mcg/mL",
@@ -288,7 +288,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "In preparing push dose epinephrine per 8.29, what is done to the 10 mL saline flush before the epinephrine is added?",
+   "stem": "When preparing push dose epinephrine, what is done to the 10 mL saline flush before the epinephrine is added?",
    "options": [
     "1 mL of saline is removed from it",
     "4 mL of saline is removed from it",
@@ -312,7 +312,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How does 8.29 direct norepinephrine be mixed for push dose use?",
+   "stem": "How is norepinephrine mixed for push dose use?",
    "options": [
     "4 mg in a 250 mL bag of NS",
     "1 mg in a 250 mL bag of NS",
@@ -336,7 +336,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the final concentration of the norepinephrine mixture in 8.29?",
+   "stem": "What is the final concentration of the push dose norepinephrine mixture?",
    "options": [
     "16 mcg/mL",
     "4 mcg/mL",
@@ -360,7 +360,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "The 8.29 PEARLS give a shock index value that is highly sensitive for occult shock. What is it?",
+   "stem": "When guiding fluids and push dose pressors, what shock index value is highly sensitive for occult shock?",
    "options": [
     "0.8 or greater",
     "0.9 or greater",
@@ -368,7 +368,7 @@
     "1.22 or greater"
    ],
    "answer_index": 0,
-   "explanation": "A shock index of 0.8 or more flags occult shock before the blood pressure falls, and may guide fluids and push dose pressors. The higher age-banded values of 0.9, 1.0 and 1.22 belong to the RSI pre-intubation optimization check in 8.30.",
+   "explanation": "A shock index of 0.8 or more flags occult shock before the blood pressure falls, and may guide fluids and push dose pressors. The higher age-banded values of 0.9, 1.0 and 1.22 belong to the RSI pre-intubation optimization check.",
    "priority": "core",
    "tags": [
     "topic:shock-index",
@@ -384,7 +384,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which Glasgow Coma Scale value does 8.30 give as the example of altered mental status warranting RSI?",
+   "stem": "Which Glasgow Coma Scale value is given as the example of altered mental status warranting RSI?",
    "options": [
     "GCS < 8",
     "GCS < 13",
@@ -408,7 +408,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "In which situation does 8.30 direct intubation without RSI?",
+   "stem": "In which situation is a patient intubated without RSI?",
    "options": [
     "Cardiac arrest",
     "Shock",
@@ -416,7 +416,7 @@
     "Failure to protect the airway"
    ],
    "answer_index": 0,
-   "explanation": "8.30 has no absolute contraindications, but cardiac arrest, a difficult airway and a crash airway are intubated without the RSI sequence. Shock, combativeness and failure to protect the airway are indications for RSI, not reasons to skip it.",
+   "explanation": "RSI has no absolute contraindications, but cardiac arrest, a difficult airway and a crash airway are intubated without the RSI sequence. Shock, combativeness and failure to protect the airway are indications for RSI, not reasons to skip it.",
    "priority": "core",
    "tags": [
     "procedure:rsi",
@@ -432,7 +432,7 @@
    "type": "equipment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What endotracheal tube preparation does the 8.30 Preparation step require?",
+   "stem": "What endotracheal tube preparation does the RSI Preparation step require?",
    "options": [
     "The appropriate size plus one size smaller",
     "The appropriate size plus one size larger",
@@ -456,7 +456,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How does 8.30 direct the patient be positioned for intubation when spinal motion restriction does not apply?",
+   "stem": "During RSI, how should the patient be positioned for intubation when spinal motion restriction does not apply?",
    "options": [
     "Tragus of the ear above the sternum",
     "Head flat with the neck fully extended",
@@ -480,7 +480,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 8.30 direct for pre-oxygenation before RSI?",
+   "stem": "What pre-oxygenation is directed before RSI?",
    "options": [
     "NRB at flush rate plus nasal cannula at 15 LPM",
     "NRB at flush rate alone",
@@ -504,7 +504,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Despite five minutes of pre-oxygenation an RSI candidate's SpO2 remains 93%. What does 8.30 direct next?",
+   "stem": "Despite five minutes of pre-oxygenation an RSI candidate's SpO2 remains 93%. What should be done next?",
    "options": [
     "Remove the NRB and apply a BVM with 10 PEEP",
     "Proceed with induction and paralysis",
@@ -528,7 +528,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "In delayed sequence intubation under 8.30, what ketamine dose is given first to the agitated patient who will not tolerate the mask?",
+   "stem": "In delayed sequence intubation, what ketamine dose is given first to the agitated patient who will not tolerate the mask?",
    "options": [
     "1 mg/kg",
     "2 mg/kg",
@@ -552,7 +552,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "8.30 requires hemodynamic resuscitation before any RSI medication is given if the patient is hypotensive. What systolic pressures define that?",
+   "stem": "Hemodynamic resuscitation is required before any RSI medication is given if the patient is hypotensive. What systolic pressures define that?",
    "options": [
     "< 110 in head injuries and < 90 for all others",
     "< 90 in head injuries and < 110 for all others",
@@ -576,7 +576,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "In the 8.30 pre-intubation optimization check, what shock index is positive in a patient aged 13 or older?",
+   "stem": "In the RSI pre-intubation optimization check, what shock index is positive in a patient aged 13 or older?",
    "options": [
     "> 0.9",
     "> 1.0",
@@ -600,7 +600,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "neonatal",
-   "stem": "8.30 directs a pre-treatment medication for patients 28 days old or younger. A three-week-old is to be intubated — what is given?",
+   "stem": "RSI includes a pre-treatment medication for patients 28 days old or younger. A three-week-old is to be intubated — what is given?",
    "options": [
     "Atropine 0.02 mg/kg IV",
     "Atropine 1 mg IV",
@@ -624,7 +624,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "A pediatric patient is to be induced with midazolam for RSI. What pre-treatment does 8.30 direct, and when is it withheld?",
+   "stem": "A pediatric patient is to be induced with midazolam for RSI. What pre-treatment is given, and when is it withheld?",
    "options": [
     "Fentanyl 2 mcg/kg IV, withheld if hypotensive",
     "Atropine 0.02 mg/kg IV, withheld if tachycardic",
@@ -648,7 +648,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the induction dose of ketamine for RSI under 8.30?",
+   "stem": "What is the induction dose of ketamine for RSI?",
    "options": [
     "1 – 2 mg/kg IV",
     "0.3 mg/kg IV",
@@ -672,7 +672,7 @@
    "type": "sequence",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How long does 8.30 direct waiting after ketamine before giving the paralytic?",
+   "stem": "During RSI, how long should the crew wait after ketamine before giving the paralytic?",
    "options": [
     "At least 30 seconds",
     "At least three minutes",
@@ -696,7 +696,7 @@
    "type": "sequence",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which induction agent in 8.30 requires the paralytic be administered immediately after it is given?",
+   "stem": "Which RSI induction agent requires the paralytic be administered immediately after it is given?",
    "options": [
     "Etomidate",
     "Ketamine",
@@ -704,7 +704,7 @@
     "Fentanyl"
    ],
    "answer_index": 0,
-   "explanation": "Etomidate's effect is brief, so a delayed paralytic means the patient wakes mid-procedure; 8.30 also requires post-intubation sedation and analgesia be drawn up before it is given. Ketamine waits 30 seconds and midazolam three minutes.",
+   "explanation": "Etomidate's effect is brief, so a delayed paralytic means the patient wakes mid-procedure; the RSI guideline also requires post-intubation sedation and analgesia be drawn up before it is given. Ketamine waits 30 seconds and midazolam three minutes.",
    "priority": "detail",
    "tags": [
     "drug:etomidate",
@@ -720,7 +720,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the maximum adult dose of etomidate for RSI under 8.30?",
+   "stem": "What is the maximum adult dose of etomidate for RSI?",
    "options": [
     "40 mg",
     "20 mg",
@@ -744,7 +744,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the pediatric induction dose of midazolam under 8.30?",
+   "stem": "What is the pediatric induction dose of midazolam for RSI?",
    "options": [
     "0.1 mg/kg IV",
     "0.2 mg/kg IV",
@@ -768,7 +768,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What maximum dose of succinylcholine does 8.30 set for RSI?",
+   "stem": "What is the maximum dose of succinylcholine for RSI?",
    "options": [
     "200 mg",
     "100 mg",
@@ -776,7 +776,7 @@
     "20 mg"
    ],
    "answer_index": 0,
-   "explanation": "Succinylcholine is 1-2 mg/kg IV to a maximum of 200 mg, and 8.30 states the dose is not repeated. 100 mg is the rocuronium ceiling, 40 mg and 20 mg the adult and pediatric etomidate ceilings.",
+   "explanation": "Succinylcholine is 1-2 mg/kg IV to a maximum of 200 mg, and the RSI guideline states the dose is not repeated. 100 mg is the rocuronium ceiling, 40 mg and 20 mg the adult and pediatric etomidate ceilings.",
    "priority": "core",
    "tags": [
     "drug:succinylcholine",
@@ -792,7 +792,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "8.30 makes succinylcholine the first-line paralytic for RSI except in certain patients. Which patient should receive a different paralytic?",
+   "stem": "Succinylcholine is the first-line paralytic for RSI except in certain patients. Which patient should receive a different paralytic?",
    "options": [
     "A 7-year-old child",
     "A 14-year-old adolescent",
@@ -800,7 +800,7 @@
     "An adult with a closed head injury"
    ],
    "answer_index": 0,
-   "explanation": "Succinylcholine is first line unless the patient is under 10 years old or has other contraindications — 8.30 also directs avoiding it when potassium is 6 mEq/L or above. Hypotension and head injury change the induction agent and its dose, not the paralytic.",
+   "explanation": "Succinylcholine is first line unless the patient is under 10 years old or has other contraindications — the RSI guideline also directs avoiding it when potassium is 6 mEq/L or above. Hypotension and head injury change the induction agent and its dose, not the paralytic.",
    "priority": "core",
    "tags": [
     "drug:succinylcholine",
@@ -816,7 +816,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the intramuscular dose of rocuronium for RSI under 8.30?",
+   "stem": "What is the intramuscular dose of rocuronium for RSI?",
    "options": [
     "2 mg/kg IM",
     "1 mg/kg IM",
@@ -840,7 +840,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "During an RSI intubation attempt the patient's SpO2 drops below 90%. What does 8.30 direct?",
+   "stem": "During an RSI intubation attempt the patient's SpO2 drops below 90%. What should the crew do?",
    "options": [
     "Stop and re-oxygenate with 100% oxygen plus 5 – 10 cmH2O PEEP",
     "Continue the attempt — the view is already obtained",
@@ -864,7 +864,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How many intubation attempts does 8.30 allow per team member?",
+   "stem": "During RSI, how many intubation attempts are allowed per team member?",
    "options": [
     "Two",
     "Three",
@@ -888,7 +888,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "An adult RSI patient remains bradycardic despite adequate re-oxygenation. What atropine dose does 8.30 direct?",
+   "stem": "An adult RSI patient remains bradycardic despite adequate re-oxygenation. What atropine dose is given?",
    "options": [
     "1 mg IV q 3 – 5 min to a max of 3 mg",
     "0.02 mg/kg IV q 3 – 5 min",
@@ -896,7 +896,7 @@
     "0.02 mg/kg IV as a single dose"
    ],
    "answer_index": 0,
-   "explanation": "8.30 first directs stopping the attempt, then atropine 1 mg IV every 3-5 minutes to a 3 mg ceiling in adults; the pediatric equivalent is 0.02 mg/kg on the same interval. Persistent bradycardia after re-oxygenation means vagal tone, not hypoxia alone.",
+   "explanation": "The RSI guideline first directs stopping the attempt, then atropine 1 mg IV every 3-5 minutes to a 3 mg ceiling in adults; the pediatric equivalent is 0.02 mg/kg on the same interval. Persistent bradycardia after re-oxygenation means vagal tone, not hypoxia alone.",
    "priority": "core",
    "tags": [
     "drug:atropine",
@@ -912,7 +912,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "ETCO2 is mandatory with all intubations under 8.30. If there is no consistent ETCO2 waveform, what does the guideline direct?",
+   "stem": "ETCO2 is mandatory with all RSI intubations. If there is no consistent ETCO2 waveform, what is directed?",
    "options": [
     "Recorded video laryngoscopy validated by a partner, or remove the ETT",
     "Auscultation and equal chest rise are sufficient",
@@ -936,7 +936,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": null,
-   "stem": "How does 8.30 direct estimating ETT depth at the incisors in a patient 5 feet tall or taller?",
+   "stem": "After intubation, how is ETT depth at the incisors estimated in a patient 5 feet tall or taller?",
    "options": [
     "(height in inches / 4) + 4",
     "3 × ETT size",
@@ -959,7 +959,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What ETT cuff pressure does 8.30 target in an adult after intubation?",
+   "stem": "What ETT cuff pressure is targeted in an adult after intubation?",
    "options": [
     "20 – 25 cmH2O",
     "15 – 20 cmH2O",
@@ -983,7 +983,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "To maintain paralysis in a patient already intubated and paralysed, what rocuronium dose does 8.30 direct?",
+   "stem": "To maintain paralysis in a patient already intubated and paralysed, what rocuronium dose is given?",
    "options": [
     "0.5 mg/kg IV q 30 min",
     "1 mg/kg IV q 30 min",
@@ -991,7 +991,7 @@
     "2 mg/kg IV q 30 min"
    ],
    "answer_index": 0,
-   "explanation": "Maintenance is half the induction dose — 0.5 mg/kg IV repeated every 30 minutes or more often as needed. 8.30 adds that not every patient needs ongoing paralysis; analgesia and sedation come first, with paralysis reserved for combativeness, patient size or crew safety.",
+   "explanation": "Maintenance is half the induction dose — 0.5 mg/kg IV repeated every 30 minutes or more often as needed. The RSI guideline adds that not every patient needs ongoing paralysis; analgesia and sedation come first, with paralysis reserved for combativeness, patient size or crew safety.",
    "priority": "core",
    "tags": [
     "drug:rocuronium",
@@ -1007,7 +1007,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "To re-initiate paralysis in an intubated patient who is no longer paralysed, what rocuronium doses does 8.30 give?",
+   "stem": "To re-initiate paralysis in an intubated patient who is no longer paralysed, what rocuronium doses are given?",
    "options": [
     "1 mg/kg IV or 1.8 mg/kg IM",
     "0.5 mg/kg IV or 1 mg/kg IM",
@@ -1031,7 +1031,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which intubated patients does 8.30 direct be placed on a ventilator for transport?",
+   "stem": "Which intubated patients should be placed on a ventilator for transport?",
    "options": [
     "All of them, regardless of estimated transport time",
     "Only those with a transport time over 30 minutes",
@@ -1039,7 +1039,7 @@
     "Only those who cannot be adequately bagged"
    ],
    "answer_index": 0,
-   "explanation": "8.30 requires the ventilator regardless of estimated transport time, because hand ventilation drifts in rate and volume exactly when a freshly intubated patient can least tolerate hypo- or hyperventilation.",
+   "explanation": "The RSI guideline requires the ventilator regardless of estimated transport time, because hand ventilation drifts in rate and volume exactly when a freshly intubated patient can least tolerate hypo- or hyperventilation.",
    "priority": "detail",
    "tags": [
     "procedure:rsi",
@@ -1055,7 +1055,7 @@
    "type": "special",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 8.30 require be documented before the clinical chart for an intubation is finalised?",
+   "stem": "What must be documented before the clinical chart for an intubation is finalised?",
    "options": [
     "The name of the receiving physician who verified placement",
     "The number of attempts and the blade used",
@@ -1063,7 +1063,7 @@
     "The Cormack-Lehane grade of the view"
    ],
    "answer_index": 0,
-   "explanation": "8.30 states the procedure must not be documented as successful without naming the physician who verified placement. If the crew is later told placement was incorrect, they must notify the CMOC immediately and complete a QM report.",
+   "explanation": "The RSI guideline states the procedure must not be documented as successful without naming the physician who verified placement. If the crew is later told placement was incorrect, they must notify the CMOC immediately and complete a QM report.",
    "priority": "core",
    "tags": [
     "procedure:rsi",
@@ -1079,7 +1079,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Laryngospasm develops during intubation. After stopping and ventilating with 100% oxygen via BVM with 10 cmH2O PEEP, which maneuver do the 8.30 PEARLS direct?",
+   "stem": "Laryngospasm develops during intubation. After stopping and ventilating with 100% oxygen via BVM with 10 cmH2O PEEP, which maneuver is directed?",
    "options": [
     "Larson's maneuver",
     "BURP",
@@ -1103,7 +1103,7 @@
    "type": "dose",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "If laryngospasm persists during RSI, the 8.30 PEARLS direct ensuring the patient has received what dose of ketamine before the paralytic is given?",
+   "stem": "If laryngospasm persists during RSI, the crew should ensure the patient has received what dose of ketamine before the paralytic is given?",
    "options": [
     "2 mg/kg",
     "1 mg/kg",
@@ -1127,7 +1127,7 @@
    "type": "adverse",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "A patient develops increased muscle tone with tonic and clonic movements after ketamine. How do the 8.30 PEARLS characterise this?",
+   "stem": "A patient develops increased muscle tone with tonic and clonic movements after ketamine given for RSI. How is this characterised?",
    "options": [
     "Not a true seizure or allergy; ketamine may be re-dosed",
     "An allergic reaction; ketamine must not be given again",
@@ -1151,7 +1151,7 @@
    "type": "equipment",
    "care_level": "PEARLS",
    "population": null,
-   "stem": "The 8.30 PEARLS nomogram gives ETT depth by height. What depth does it give for a patient 5 feet 10 inches tall?",
+   "stem": "The RSI nomogram gives ETT depth by height. What depth does it give for a patient 5 feet 10 inches tall?",
    "options": [
     "22 cm",
     "21 cm",
@@ -1174,7 +1174,7 @@
    "type": "procedure",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What do the 8.30 PEARLS direct for an advanced airway patient each time they are moved between surfaces?",
+   "stem": "What is directed for an intubated (advanced airway) patient each time they are moved between surfaces?",
    "options": [
     "Confirm placement with ETCO2 immediately after each transfer",
     "Confirm placement with ETCO2 on arrival at the receiving facility",
@@ -1198,7 +1198,7 @@
    "type": "indication",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What is the indication for spinal motion restriction under 8.31?",
+   "stem": "What is the indication for spinal motion restriction?",
    "options": [
     "Suspected spinal injury",
     "Any patient involved in a motor vehicle crash",
@@ -1206,7 +1206,7 @@
     "Any fall from greater than 10 feet"
    ],
    "answer_index": 0,
-   "explanation": "8.31 has a single indication — suspected spinal injury — and no contraindications. Which patients count as suspected is settled by the nine-item SMR assessment, not by mechanism alone.",
+   "explanation": "Spinal motion restriction has a single indication — suspected spinal injury — and no contraindications. Which patients count as suspected is settled by the nine-item SMR assessment, not by mechanism alone.",
    "priority": "core",
    "tags": [
     "procedure:spinal-motion-restriction",
@@ -1222,7 +1222,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "A trauma patient smells strongly of alcohol, denies any pain and moves all four extremities normally. What does the 8.31 SMR assessment direct?",
+   "stem": "A trauma patient smells strongly of alcohol, denies any pain and moves all four extremities normally. What does the spinal motion restriction (SMR) assessment direct?",
    "options": [
     "Apply SMR — evidence of intoxication is a positive finding",
     "Withhold SMR — there is no midline tenderness",
@@ -1246,7 +1246,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "pediatric",
-   "stem": "A child is found with torticollis after a fall. What does 8.31 direct?",
+   "stem": "A child is found with torticollis after a fall. How should spinal motion restriction be handled?",
    "options": [
     "Apply SMR, which may require immobilising in the position found",
     "Correct the head to neutral first, then apply SMR",
@@ -1270,7 +1270,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "A reliable, ambulatory patient on scene meets SMR criteria. How does 8.31 direct getting them onto the stretcher?",
+   "stem": "A reliable, ambulatory patient on scene meets spinal motion restriction criteria. How should they get onto the stretcher?",
    "options": [
     "Collar them and let them move themselves to the unloaded stretcher",
     "Log-roll them onto a backboard, then transfer to the stretcher",
@@ -1294,7 +1294,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "A patient with altered mental status required extrication on a scoop and is now on the stretcher. What does 8.31 direct next?",
+   "stem": "A patient with altered mental status needing spinal motion restriction required extrication on a scoop and is now on the stretcher. What is done next?",
    "options": [
     "Remove the scoop and secure the patient to the stretcher",
     "Leave the patient on the scoop for the entire transport",
@@ -1318,7 +1318,7 @@
    "type": "equipment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Which device does 8.31 list as preferred for moving a patient who requires SMR?",
+   "stem": "Which device is preferred for moving a patient who requires spinal motion restriction?",
    "options": [
     "A scoop",
     "A backboard",
@@ -1342,7 +1342,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "Which patients do the 8.31 PEARLS identify as more prone to skeletal injury from even minimal traumatic insult?",
+   "stem": "When considering spinal motion restriction, which patients are identified as more prone to skeletal injury from even minimal traumatic insult?",
    "options": [
     "Patients 65 years or older",
     "Patients with a communication barrier",
@@ -1366,7 +1366,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Under what condition do the 8.31 PEARLS accept transporting a patient on a hard backboard?",
+   "stem": "Under spinal motion restriction, when is transporting a patient on a hard backboard accepted?",
    "options": [
     "Already immobilised on it and flight time is under 20 minutes",
     "Any patient with a confirmed spinal fracture",
@@ -1390,7 +1390,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Who determines the need for continued immobilisation during transport, per the 8.31 PEARLS?",
+   "stem": "Who determines the need for continued spinal immobilisation during transport?",
    "options": [
     "The sending provider with the receiving physician",
     "The transport crew in consultation with OLMC",
@@ -1414,7 +1414,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which airway risk do the 8.31 PEARLS attach to every immobilised patient?",
+   "stem": "Which airway risk applies to every patient immobilised for spinal motion restriction?",
    "options": [
     "High risk of aspiration from vomiting or blood in the mouth",
     "High risk of hypoventilation from chest strap placement",
@@ -1438,7 +1438,7 @@
    "type": "landmark",
    "care_level": "ALS",
    "population": null,
-   "stem": "Where does 8.32 locate the cricothyroid membrane?",
+   "stem": "For surgical cricothyrotomy, where is the cricothyroid membrane located?",
    "options": [
     "Just below the thyroid cartilage and above the cricoid",
     "Just above the thyroid cartilage in the midline",
@@ -1461,7 +1461,7 @@
    "type": "landmark",
    "care_level": "ALS",
    "population": null,
-   "stem": "8.32 says the cricothyroid membrane sits approximately three to four finger breadths above which landmark?",
+   "stem": "For surgical cricothyrotomy, the cricothyroid membrane sits approximately three to four finger breadths above which landmark?",
    "options": [
     "The sternal notch",
     "The hyoid bone",
@@ -1484,7 +1484,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": null,
-   "stem": "A crew cannot palpate the cricothyroid membrane. What does 8.32 direct?",
+   "stem": "During a surgical cricothyrotomy the crew cannot palpate the cricothyroid membrane. What should they do?",
    "options": [
     "Make a 2\" vertical incision over the suspected location and dissect",
     "Make a horizontal incision at the sternal notch and dissect upward",
@@ -1507,7 +1507,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": null,
-   "stem": "How does 8.32 direct a patient be positioned for surgical cricothyrotomy when no c-spine injury is suspected?",
+   "stem": "How should a patient be positioned for surgical cricothyrotomy when no c-spine injury is suspected?",
    "options": [
     "Supine with support under the shoulders, neck mid-hyperextended",
     "Supine with the head flat and the neck neutral",
@@ -1515,7 +1515,7 @@
     "Supine with the tragus of the ear above the sternum"
    ],
    "answer_index": 0,
-   "explanation": "Mid-hyperextension pushes the larynx forward and makes the cartilages palpable. Ear-to-sternum positioning belongs to oral intubation in 8.30, where the goal is a line of sight, not an exposed neck.",
+   "explanation": "Mid-hyperextension pushes the larynx forward and makes the cartilages palpable. Ear-to-sternum positioning belongs to oral intubation during RSI, where the goal is a line of sight, not an exposed neck.",
    "priority": "detail",
    "tags": [
     "procedure:cricothyrotomy",
@@ -1530,7 +1530,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": null,
-   "stem": "After the pinpoint incision, how does 8.32 direct the Ruiz hook be used?",
+   "stem": "After the pinpoint incision in a surgical cricothyrotomy, how is the Ruiz hook used?",
    "options": [
     "Puncture the membrane, hook the inferior edge of the thyroid cartilage, lift toward the head",
     "Puncture the membrane, hook the superior edge of the cricoid cartilage, lift toward the feet",
@@ -1553,7 +1553,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": null,
-   "stem": "How does 8.32 direct the scalpel be used to puncture the cricothyroid membrane?",
+   "stem": "In a surgical cricothyrotomy, how is the scalpel used to puncture the cricothyroid membrane?",
    "options": [
     "Horizontal/sagittal, just inferior to where the hook penetrates",
     "Vertical, just superior to where the hook penetrates",
@@ -1576,7 +1576,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": null,
-   "stem": "After removing the scalpel blade from the membrane, what does 8.32 direct be done with the scalpel handle?",
+   "stem": "During a surgical cricothyrotomy, after the scalpel blade is removed from the membrane, what is done with the scalpel handle?",
    "options": [
     "Turn it upside down, place it transversely in the incision and twist",
     "Discard it and dilate the hole with the Ruiz hook",
@@ -1599,7 +1599,7 @@
    "type": "sequence",
    "care_level": "ALS",
    "population": null,
-   "stem": "At what point does 8.32 direct removal of the Ruiz hook?",
+   "stem": "At what point is the Ruiz hook removed during a surgical cricothyrotomy?",
    "options": [
     "Only once placement is confirmed",
     "Once the bougie is in the trachea",
@@ -1607,7 +1607,7 @@
     "Before the scalpel handle is inserted"
    ],
    "answer_index": 0,
-   "explanation": "8.32 notes it is not uncommon for the tube to end up outside the trachea, so the hook — the only thing holding the airway open and findable — stays until ETCO2, lung sounds and a rising SpO2 confirm placement.",
+   "explanation": "The surgical cricothyrotomy guideline notes it is not uncommon for the tube to end up outside the trachea, so the hook — the only thing holding the airway open and findable — stays until ETCO2, lung sounds and a rising SpO2 confirm placement.",
    "priority": "core",
    "tags": [
     "procedure:cricothyrotomy",
@@ -1622,7 +1622,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": null,
-   "stem": "How does 8.32 direct tube placement be verified after a surgical cricothyrotomy?",
+   "stem": "How is tube placement verified after a surgical cricothyrotomy?",
    "options": [
     "ETCO2, lung sounds and a rising SpO2",
     "ETCO2 alone",
@@ -1645,7 +1645,7 @@
    "type": "complication",
    "care_level": "ALS",
    "population": null,
-   "stem": "Which finding after a cricothyrotomy signals incorrect placement under 8.32?",
+   "stem": "Which finding after a surgical cricothyrotomy signals incorrect placement?",
    "options": [
     "Subcutaneous air in the neck",
     "Air forcibly expelled as the membrane is incised",
@@ -1668,7 +1668,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": null,
-   "stem": "Once the airway is secured by cricothyrotomy, what does 8.32 direct for the patient?",
+   "stem": "Once the airway is secured by surgical cricothyrotomy, what is directed for the patient?",
    "options": [
     "Maintain sedation and consider paralysis",
     "Maintain paralysis and consider sedation",
@@ -1691,7 +1691,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the indication for synchronized cardioversion under 8.33?",
+   "stem": "What is the indication for synchronized cardioversion?",
    "options": [
     "Unstable tachycardias",
     "Any wide-complex tachycardia",
@@ -1699,7 +1699,7 @@
     "Pulseless ventricular tachycardia"
    ],
    "answer_index": 0,
-   "explanation": "Instability is what makes a tachycardia a cardioversion problem rather than a drug problem. Pulseless VT is defibrillated, not cardioverted, and bradycardia belongs to transcutaneous pacing in 8.35.",
+   "explanation": "Instability is what makes a tachycardia a cardioversion problem rather than a drug problem. Pulseless VT is defibrillated, not cardioverted, and bradycardia belongs to transcutaneous pacing.",
    "priority": "core",
    "tags": [
     "procedure:cardioversion",
@@ -1715,7 +1715,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which rhythm does 8.33 list as a contraindication to synchronized cardioversion?",
+   "stem": "Which rhythm is a contraindication to synchronized cardioversion?",
    "options": [
     "Sinus tachycardia",
     "Atrial fibrillation with a rapid ventricular response",
@@ -1739,7 +1739,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which hands-free therapy pad placement does 8.33 prefer for cardioversion?",
+   "stem": "Which hands-free therapy pad placement is preferred for synchronized cardioversion?",
    "options": [
     "Anterior-posterior",
     "Anterior-lateral",
@@ -1763,7 +1763,7 @@
    "type": "equipment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which ECG source does 8.33 recommend during synchronized cardioversion?",
+   "stem": "Which ECG source is recommended during synchronized cardioversion?",
    "options": [
     "A standard ECG cable with ECG electrodes",
     "The hands-free therapy electrodes alone",
@@ -1787,7 +1787,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which additional intervention does 8.33 direct the crew to consider before cardioverting?",
+   "stem": "Which additional intervention should the crew consider before synchronized cardioversion?",
    "options": [
     "Procedural sedation for alert patients",
     "A fluid bolus for every patient",
@@ -1835,7 +1835,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "A first synchronized shock has been delivered and a second is needed. What does 8.33 direct before shocking again?",
+   "stem": "A first synchronized shock has been delivered and a second is needed. What must be done before shocking again?",
    "options": [
     "Press the Sync quick access key again",
     "Press the CHARGE button again only",
@@ -1859,7 +1859,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "When hands-free pads are used as the ECG source, when do the 8.33 PEARLS say the signal degrades?",
+   "stem": "When hands-free pads are used as the ECG source during synchronized cardioversion, when does the signal degrade?",
    "options": [
     "Immediately after a discharge, from muscle tremors",
     "Throughout charging, from capacitor interference",
@@ -1883,7 +1883,7 @@
    "type": "indication",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What is the indication for a CAT tourniquet under 8.34?",
+   "stem": "What is the indication for a CAT tourniquet?",
    "options": [
     "Extremity bleeding after direct pressure fails",
     "Any penetrating extremity wound",
@@ -1907,7 +1907,7 @@
    "type": "contraindication",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Which bleeding does 8.34 list as a contraindication to the CAT?",
+   "stem": "Which bleeding is a contraindication to the CAT tourniquet?",
    "options": [
     "Non-extremity hemorrhage",
     "Venous bleeding only",
@@ -1931,7 +1931,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Where does 8.34 direct the CAT band be placed relative to the injury?",
+   "stem": "Where is the CAT tourniquet band placed relative to the injury?",
    "options": [
     "At least 5 cm proximal, directly over exposed skin",
     "Directly over the wound, over clothing",
@@ -1955,7 +1955,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What endpoint does 8.34 give for twisting the windlass rod?",
+   "stem": "What is the endpoint for twisting the windlass rod of a CAT tourniquet?",
    "options": [
     "Bright red bleeding stops",
     "The distal pulse disappears",
@@ -1979,7 +1979,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "both",
-   "stem": "After locking the windlass rod with the clip, what does 8.34 direct?",
+   "stem": "After the CAT tourniquet windlass rod is locked with the clip, what should be done?",
    "options": [
     "Mark the application time on the strap",
     "Cover the tourniquet with a dressing",
@@ -2003,7 +2003,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "How does 8.34 direct a partial amputation be managed once the tourniquet is on?",
+   "stem": "How is a partial amputation managed once the CAT tourniquet is on?",
    "options": [
     "Splint it in anatomical position to avoid torsion",
     "Complete the amputation to simplify dressing",
@@ -2027,7 +2027,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the indication for transcutaneous pacing under 8.35?",
+   "stem": "What is the indication for transcutaneous pacing?",
    "options": [
     "Unstable bradycardia",
     "Asymptomatic bradycardia",
@@ -2051,7 +2051,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which lead selection does 8.35 direct before starting transcutaneous pacing?",
+   "stem": "Which lead should be selected before starting transcutaneous pacing?",
    "options": [
     "Lead I, II or III, whichever gives the largest QRS",
     "Lead aVR for the cleanest baseline",
@@ -2075,7 +2075,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which pacer mode does 8.35 direct be set?",
+   "stem": "Which pacer mode is set for transcutaneous pacing?",
    "options": [
     "Demand",
     "Fixed rate",
@@ -2099,7 +2099,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "An unstable bradycardic patient has an intrinsic rate of 38. What pacer rate does 8.35 direct?",
+   "stem": "An unstable bradycardic patient has an intrinsic rate of 38. What transcutaneous pacer rate is set?",
    "options": [
     "10 – 20 ppm above the intrinsic rate",
     "80 ppm regardless of the intrinsic rate",
@@ -2123,7 +2123,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "A patient being paced has no intrinsic rate at all. What pacer rate does 8.35 direct?",
+   "stem": "A patient being transcutaneously paced has no intrinsic rate at all. What pacer rate is set?",
    "options": [
     "80 ppm",
     "60 ppm",
@@ -2131,7 +2131,7 @@
     "70 ppm"
    ],
    "answer_index": 0,
-   "explanation": "With nothing to pace above, 8.35 sets a default of 80 ppm — enough to generate cardiac output without the demand cost of a faster rate.",
+   "explanation": "With nothing to pace above, the transcutaneous pacing guideline sets a default of 80 ppm — enough to generate cardiac output without the demand cost of a faster rate.",
    "priority": "core",
    "tags": [
     "procedure:transcutaneous-pacing",
@@ -2147,7 +2147,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "By what step does 8.35 say the pacer rate changes for rates below 100 ppm?",
+   "stem": "During transcutaneous pacing, by what step does the pacer rate change for rates below 100 ppm?",
    "options": [
     "5 ppm",
     "10 ppm",
@@ -2171,7 +2171,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How does 8.35 say the pacer output in milliamps is adjusted?",
+   "stem": "During transcutaneous pacing, how is the pacer output in milliamps adjusted?",
    "options": [
     "In 10 mA steps when increasing and 5 mA when decreasing",
     "In 5 mA steps when increasing and 10 mA when decreasing",
@@ -2195,7 +2195,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How does 8.35 define electrical capture during transcutaneous pacing?",
+   "stem": "How is electrical capture defined during transcutaneous pacing?",
    "options": [
     "A widened QRS with loss of the intrinsic rhythm",
     "A palpable femoral pulse with each pacer spike",
@@ -2219,7 +2219,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which pulse sites does 8.35 permit for assessing mechanical capture during pacing?",
+   "stem": "Which pulse sites may be used to assess mechanical capture during transcutaneous pacing?",
    "options": [
     "Femoral, or right brachial or radial",
     "Left radial or left brachial",
@@ -2243,7 +2243,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Once capture has been achieved, what pacer output does 8.35 identify as ideal?",
+   "stem": "Once capture has been achieved in transcutaneous pacing, what pacer output is ideal?",
    "options": [
     "About 10% above threshold",
     "The lowest output the device offers",
@@ -2267,7 +2267,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Which finding allows a crew to withhold resuscitation under 9.01?",
+   "stem": "Which finding allows a crew to withhold resuscitation as a death in the field?",
    "options": [
     "Rigor mortis in a warm environment",
     "Asystole on the monitor",
@@ -2290,7 +2290,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "A patient is found pulseless and apneic after an electrocution. What does 9.01 direct?",
+   "stem": "A patient is found pulseless and apneic after an electrocution. What should the crew do?",
    "options": [
     "Initiate resuscitation and transport to an appropriate hospital",
     "Withhold resuscitation as a presumed field death",
@@ -2298,7 +2298,7 @@
     "Resuscitate only if a shockable rhythm is present"
    ],
    "answer_index": 0,
-   "explanation": "9.01 singles out electrocution, lightning and drowning as special considerations: most such victims should have resuscitative efforts started and be transported, because the arrest is often primary and reversible in an otherwise healthy person.",
+   "explanation": "The Death in the Field guideline singles out electrocution, lightning and drowning as special considerations: most such victims should have resuscitative efforts started and be transported, because the arrest is often primary and reversible in an otherwise healthy person.",
    "priority": "core",
    "tags": [
     "topic:death-in-the-field",
@@ -2313,7 +2313,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "A pulseless, apneic patient does not meet DEATH IN THE FIELD criteria but is suspected to be a candidate for withholding resuscitation. What does 9.01 direct?",
+   "stem": "A pulseless, apneic patient does not meet DEATH IN THE FIELD criteria but is suspected to be a candidate for withholding resuscitation. What should the crew do?",
    "options": [
     "Begin CPR and contact OLMC",
     "Withhold CPR and contact OLMC",
@@ -2336,7 +2336,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "A family produces a hospital DNR order for a patient who has arrested at home. How does 9.01 treat it?",
+   "stem": "A family produces a hospital DNR order for a patient who has arrested at home. How should the crew treat it?",
    "options": [
     "It is not valid outside the hospital",
     "It is valid in any setting once signed",
@@ -2359,7 +2359,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "An Oregon patient's original POLST cannot be produced. 9.01 directs contacting the POLST Registry — what can the Registry do?",
+   "stem": "An Oregon patient's original POLST cannot be produced, so the crew contacts the POLST Registry. What can the Registry do?",
    "options": [
     "Relay Section A and B orders once identity is confirmed",
     "Interpret the orders for the crew on the phone",
@@ -2382,7 +2382,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Whose signature makes a POLST Do Not Attempt Resuscitation order one that EMS providers may honour under 9.01?",
+   "stem": "Whose signature makes a POLST Do Not Attempt Resuscitation order one that EMS providers may honour?",
    "options": [
     "Physician, naturopathic physician, NP or PA",
     "A physician or physician assistant only",
@@ -2405,7 +2405,7 @@
    "type": "assessment",
    "care_level": null,
    "population": null,
-   "stem": "What must a POLST form contain to be valid under 9.01?",
+   "stem": "What must a POLST form contain to be valid?",
    "options": [
     "Patient's name, date signed and the professional's signature",
     "Patient's name, patient's signature and a date within a year",
@@ -2413,7 +2413,7 @@
     "A notarised signature and the patient's date of birth"
    ],
    "answer_index": 0,
-   "explanation": "Those three elements are all that is required, and 9.01 adds that the forms do not expire and the patient's signature is optional. A crew refusing an otherwise valid POLST because the patient did not sign it is withholding a lawful order.",
+   "explanation": "Those three elements are all that is required, and the Death in the Field guideline adds that the forms do not expire and the patient's signature is optional. A crew refusing an otherwise valid POLST because the patient did not sign it is withholding a lawful order.",
    "priority": "core",
    "tags": [
     "topic:death-in-the-field",
@@ -2428,7 +2428,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "How does 9.01 distinguish POLST Section A from Section B?",
+   "stem": "How does POLST Section A differ from Section B?",
    "options": [
     "A applies only in cardiopulmonary arrest; B in all other circumstances",
     "B applies only in cardiopulmonary arrest; A in all other circumstances",
@@ -2436,7 +2436,7 @@
     "A records the patient's wishes; B records physician orders"
    ],
    "answer_index": 0,
-   "explanation": "Section A governs resuscitation in arrest; Section B governs the level of treatment in every other situation. That split is why 9.01 stresses that DNR does not mean do not treat.",
+   "explanation": "Section A governs resuscitation in arrest; Section B governs the level of treatment in every other situation. That split is why the Death in the Field guideline stresses that DNR does not mean do not treat.",
    "priority": "core",
    "tags": [
     "topic:death-in-the-field",
@@ -2451,7 +2451,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "A patient cannot make medical decisions and has no legal guardian and no health care power of attorney. Who does 9.01 name next as the legally authorised representative?",
+   "stem": "A patient cannot make medical decisions and has no legal guardian and no health care power of attorney. Who is next in line as the legally authorised representative?",
    "options": [
     "Spouse or legal domestic partner",
     "The patient's adult children",
@@ -2459,7 +2459,7 @@
     "The attending physician on call"
    ],
    "answer_index": 0,
-   "explanation": "The order is legal guardian, then health care power of attorney, then spouse or legal domestic partner, then adult children, then parent. When in doubt, or if there is unresolved conflict on scene, 9.01 directs contacting OLMC.",
+   "explanation": "The order is legal guardian, then health care power of attorney, then spouse or legal domestic partner, then adult children, then parent. When in doubt, or if there is unresolved conflict on scene, the guideline directs contacting OLMC.",
    "priority": "detail",
    "tags": [
     "topic:death-in-the-field",
@@ -2474,7 +2474,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "A crew has questions about the validity or enforceability of a health care instruction. What does 9.01 direct?",
+   "stem": "A crew has questions about the validity or enforceability of a health care instruction. What should they do?",
    "options": [
     "Begin BLS treatment and contact OLMC",
     "Withhold treatment until the family resolves it",
@@ -2497,7 +2497,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "A pre-established hospice patient dies during transport. What does 9.01 permit the crew to do?",
+   "stem": "A pre-established hospice patient dies during transport. What may the crew do?",
    "options": [
     "Continue to the home or hospice facility and place them in the bed",
     "Divert to the nearest emergency department",
@@ -2520,7 +2520,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "How does 9.01 direct crews to tell family and friends about a death?",
+   "stem": "How should crews tell family and friends about a death?",
    "options": [
     "Use the words \"death\" or \"dead\" and avoid euphemisms",
     "Use gentler phrases such as \"passed away\" or \"gone\"",
@@ -2528,7 +2528,7 @@
     "Avoid the subject until clergy are present"
    ],
    "answer_index": 0,
-   "explanation": "Euphemisms leave families uncertain about what has actually happened, so 9.01 directs honest, plain language. It also directs avoiding past-tense terms when speaking about the recently dead to survivors.",
+   "explanation": "Euphemisms leave families uncertain about what has actually happened, so the Death in the Field guideline directs honest, plain language. It also directs avoiding past-tense terms when speaking about the recently dead to survivors.",
    "priority": "detail",
    "tags": [
     "topic:death-in-the-field",
@@ -2543,7 +2543,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "On a scene call, statewide protocols, patient preference and local EMS direction do not settle the destination. What does 9.02 direct?",
+   "stem": "On a scene call, statewide protocols, patient preference and local EMS direction do not settle the destination. Where should the patient be taken?",
    "options": [
     "Transport to the closest appropriate facility for the illness",
     "Transport to the highest level trauma centre available",
@@ -2551,7 +2551,7 @@
     "Contact OLMC for every such patient"
    ],
    "answer_index": 0,
-   "explanation": "9.02 ranks statewide destination protocols, patient preference and local EMS or OLMC direction first; in the absence of those, the default is the closest appropriate facility for the patient's illness and condition.",
+   "explanation": "Destination Determination ranks statewide destination protocols, patient preference and local EMS or OLMC direction first; in the absence of those, the default is the closest appropriate facility for the patient's illness and condition.",
    "priority": "core",
    "tags": [
     "topic:destination",
@@ -2566,7 +2566,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "How does 9.02 distinguish a Level I from a Level II trauma facility?",
+   "stem": "For destination determination, what distinguishes a Level I from a Level II trauma facility?",
    "options": [
     "Level I also provides trauma education and research",
     "Level I accepts pediatric trauma; Level II does not",
@@ -2574,7 +2574,7 @@
     "Level I has a cardiac catheterisation lab"
    ],
    "answer_index": 0,
-   "explanation": "Both provide definitive care for severely injured patients — the difference 9.02 names is education and research. That matters because bypassing a Level II for a distant Level I does not buy better definitive care.",
+   "explanation": "Both provide definitive care for severely injured patients — the difference the Destination Determination guideline names is education and research. That matters because bypassing a Level II for a distant Level I does not buy better definitive care.",
    "priority": "core",
    "tags": [
     "topic:destination",
@@ -2589,7 +2589,7 @@
    "type": "threshold",
    "care_level": null,
    "population": null,
-   "stem": "Transport destination is not addressed in statewide protocols or in 9.02. By what extra transport time to the definitive-care hospital does 9.02 direct contacting the closest facility for advice?",
+   "stem": "Transport destination is not addressed in statewide protocols or in LFN destination policy. By what extra transport time to the definitive-care hospital should the crew contact the closest facility for advice?",
    "options": [
     "More than 30 minutes",
     "More than 60 minutes",
@@ -2597,7 +2597,7 @@
     "More than 90 minutes"
    ],
    "answer_index": 0,
-   "explanation": "When definitive care costs more than 30 extra minutes over the closest hospital and no protocol settles it, 9.02 directs strongly considering a call to the closest facility for advice on destination.",
+   "explanation": "When definitive care costs more than 30 extra minutes over the closest hospital and no protocol settles it, the Destination Determination guideline directs strongly considering a call to the closest facility for advice on destination.",
    "priority": "detail",
    "tags": [
     "topic:destination",
@@ -2612,7 +2612,7 @@
    "type": "threshold",
    "care_level": null,
    "population": null,
-   "stem": "A patient requests a facility beyond the closest appropriate one. At what distance does 9.02 direct advising them their insurance may not cover the additional cost?",
+   "stem": "A patient requests a facility beyond the closest appropriate one. At what distance should they be advised their insurance may not cover the additional cost?",
    "options": [
     "More than 25 NM beyond the closest appropriate facility",
     "More than 30 minutes beyond the closest appropriate facility",
@@ -2635,7 +2635,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "A patient with decision-making capacity insists on a destination the crew considers less than optimal. What does 9.02 direct?",
+   "stem": "A patient with decision-making capacity insists on a destination the crew considers less than optimal. What should the crew do?",
    "options": [
     "Consider OLMC and have the patient sign a refusal",
     "Transport to the closest facility regardless of the request",
@@ -2658,7 +2658,7 @@
    "type": "assessment",
    "care_level": null,
    "population": null,
-   "stem": "Why does 9.02 single out the presence of an extremity tourniquet?",
+   "stem": "Why is the presence of an extremity tourniquet singled out in destination determination?",
    "options": [
     "It is significant to trauma leveling and belongs in the report",
     "It requires transport to a Level I centre only",
@@ -2681,7 +2681,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Who determines patient destination for an interfacility transfer under 9.02?",
+   "stem": "Who determines patient destination for an interfacility transfer?",
    "options": [
     "The sending provider",
     "The transport crew",
@@ -2689,7 +2689,7 @@
     "The receiving facility"
    ],
    "answer_index": 0,
-   "explanation": "The sending provider decides, and under EMTALA is responsible for ensuring the transfer is appropriate. This is the opposite of a scene call, where the crew works through the 9.02 destination factors.",
+   "explanation": "The sending provider decides, and under EMTALA is responsible for ensuring the transfer is appropriate. This is the opposite of a scene call, where the crew works through the destination determination factors.",
    "priority": "core",
    "tags": [
     "topic:destination",
@@ -2704,7 +2704,7 @@
    "type": "scope",
    "care_level": null,
    "population": "pediatric",
-   "stem": "For flights originating in Idaho, where does 9.02 direct Level 1 and 2 pediatric traumas preferentially?",
+   "stem": "For flights originating in Idaho, where are Level 1 and 2 pediatric traumas preferentially transported?",
    "options": [
     "St. Luke's",
     "The closest Level I adult trauma centre",
@@ -2728,7 +2728,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "An Idaho prehospital trauma patient meets Priority 1 criteria on the TSE Field Trauma Triage Guidelines. Where does 9.02 direct transport?",
+   "stem": "An Idaho prehospital trauma patient meets Priority 1 criteria on the TSE Field Trauma Triage Guidelines. Where should they be transported?",
    "options": [
     "The highest level of care in the regional trauma system",
     "The closest appropriate trauma centre",
@@ -2752,7 +2752,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "An Idaho prehospital trauma patient meets Priority 3 criteria. Where does 9.02 direct transport?",
+   "stem": "An Idaho prehospital trauma patient meets Priority 3 criteria. Where should they be transported?",
    "options": [
     "The closest appropriate trauma centre",
     "The highest level of care in the regional trauma system",
@@ -2776,7 +2776,7 @@
    "type": "threshold",
    "care_level": null,
    "population": null,
-   "stem": "Within what transport time does 9.02 allow a prehospital STEMI patient to be taken to the closest facility with a cardiac catheterisation lab?",
+   "stem": "Within what transport time may a prehospital STEMI patient be taken to the closest facility with a cardiac catheterisation lab?",
    "options": [
     "Less than 60 minutes",
     "Less than 30 minutes",
@@ -2799,7 +2799,7 @@
    "type": "threshold",
    "care_level": null,
    "population": null,
-   "stem": "Under the Hawaii transport guidelines in 9.02a, which Glasgow Coma Scale value places a trauma patient in Triage Category 1?",
+   "stem": "Under the Hawaii transport guidelines, which Glasgow Coma Scale value places a trauma patient in Triage Category 1?",
    "options": [
     "Less than 14",
     "Less than 13",
@@ -2823,7 +2823,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "Under the Hawaii transport guidelines in 9.02a, what fall height places an adult in Trauma Triage Category 3?",
+   "stem": "Under the Hawaii transport guidelines, what fall height places an adult in Trauma Triage Category 3?",
    "options": [
     "Greater than 20 feet",
     "Greater than 10 feet",
@@ -2847,7 +2847,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "A patient meets Hawaii Trauma Triage Category 3 criteria. Which destination does 9.02a give?",
+   "stem": "A patient meets Hawaii Trauma Triage Category 3 criteria. Which destination do the Hawaii transport guidelines give?",
    "options": [
     "A Trauma Center I, II or III",
     "A Trauma Center I or II only",
@@ -2871,7 +2871,7 @@
    "type": "threshold",
    "care_level": null,
    "population": null,
-   "stem": "Within what time from last known well must tPA be given, per the Washington stroke triage procedure in 9.02?",
+   "stem": "Within what time from last known well must tPA be given, per the Washington stroke triage procedure?",
    "options": [
     "4.5 hours",
     "6 hours",
@@ -2895,7 +2895,7 @@
    "type": "threshold",
    "care_level": null,
    "population": null,
-   "stem": "By what time since last known well must thrombectomy begin, per the Washington stroke procedure in 9.02?",
+   "stem": "By what time since last known well must thrombectomy begin, per the Washington stroke triage procedure?",
    "options": [
     "24 hours",
     "4.5 hours",
@@ -2919,7 +2919,7 @@
    "type": "assessment",
    "care_level": null,
    "population": null,
-   "stem": "In the stroke severity score used in 9.02, how many points does an arm that falls rapidly score?",
+   "stem": "In the stroke severity score used for Washington stroke destination decisions, how many points does an arm that falls rapidly score?",
    "options": [
     "2 points",
     "1 point",
@@ -2943,7 +2943,7 @@
    "type": "treatment",
    "care_level": null,
    "population": null,
-   "stem": "A stroke patient scores 5 on the severity score and was last known well 3 hours ago. What does the Washington procedure in 9.02 direct?",
+   "stem": "A stroke patient scores 5 on the severity score and was last known well 3 hours ago. What does the Washington stroke triage procedure direct?",
    "options": [
     "Preferential transport to a thrombectomy stroke centre",
     "Transport to the nearest stroke centre of any level",
@@ -2967,7 +2967,7 @@
    "type": "threshold",
    "care_level": null,
    "population": null,
-   "stem": "A severe stroke patient is within 6 hours of last known well. How much extra travel time does 9.02 allow to reach a thrombectomy centre rather than the nearest stroke centre?",
+   "stem": "A severe stroke patient is within 6 hours of last known well. Under the Washington stroke triage procedure, how much extra travel time is allowed to reach a thrombectomy centre rather than the nearest stroke centre?",
    "options": [
     "No more than 15 extra minutes",
     "No more than 30 extra minutes",
@@ -2991,7 +2991,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "When does the Washington stroke procedure in 9.02 direct calling a stroke alert to the destination hospital?",
+   "stem": "When does the Washington stroke triage procedure direct calling a stroke alert to the destination hospital?",
    "options": [
     "When the patient is within 6 hours of last known well",
     "When the patient is within 24 hours of last known well",
@@ -3015,7 +3015,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "Which items does the Washington stroke procedure in 9.02 require be documented on a stroke transport?",
+   "stem": "Which items does the Washington stroke triage procedure require be documented on a stroke transport?",
    "options": [
     "FAST results, blood glucose, LKW time and whether an alert was called",
     "Only the FAST results and the destination chosen",
@@ -3039,7 +3039,7 @@
    "type": "threshold",
    "care_level": null,
    "population": null,
-   "stem": "Under the Washington trauma triage in 9.02, within what transport time should a patient meeting red criteria reach a Level I or II trauma service?",
+   "stem": "Under the Washington trauma triage procedure, within what transport time should a patient meeting red criteria reach a Level I or II trauma service?",
    "options": [
     "30 minutes",
     "60 minutes",
@@ -3063,7 +3063,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Under the Washington trauma triage in 9.02, a red-criteria patient is more than 30 minutes from any Level I or II trauma service. Where do they go?",
+   "stem": "Under the Washington trauma triage procedure, a red-criteria patient is more than 30 minutes from any Level I or II trauma service. Where do they go?",
    "options": [
     "The nearest most appropriate trauma service",
     "The closest Level I trauma service regardless of time",
@@ -3087,7 +3087,7 @@
    "type": "treatment",
    "care_level": null,
    "population": null,
-   "stem": "A trauma patient's airway cannot be maintained. What does the Washington trauma triage procedure in 9.02 suggest?",
+   "stem": "A trauma patient's airway cannot be maintained. What does the Washington trauma triage procedure suggest?",
    "options": [
     "Rendezvous with ALS or go to the nearest definitive airway facility",
     "Continue to the Level I trauma service regardless",
@@ -3111,7 +3111,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Where does the Washington trauma triage guidance in 9.02 direct a patient with combined burns and trauma?",
+   "stem": "Where does the Washington trauma triage procedure direct a patient with combined burns and trauma?",
    "options": [
     "A trauma centre with burn care capability",
     "The nearest burn centre regardless of trauma level",

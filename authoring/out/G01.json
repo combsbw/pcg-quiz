@@ -8,7 +8,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "A situation arises in flight that is not covered anywhere in these guidelines. What does 1.01 direct the crew to do?",
+   "stem": "A situation arises in flight that is not covered anywhere in these guidelines. What should the crew do?",
    "options": [
     "Act within your scope of practice, using 911 ground and on-line medical control",
     "Withhold any treatment not delineated in these guidelines",
@@ -16,7 +16,7 @@
     "Follow the receiving facility's protocols for that condition"
    ],
    "answer_index": 0,
-   "explanation": "1.01 states plainly that the PCGs cannot cover every injury, illness or complicating circumstance. When a situation falls outside them you must function within your scope of practice and, when time and circumstances permit, use other available resources including 911 ground and on-line medical control.",
+   "explanation": "The Introduction states plainly that the PCGs cannot cover every injury, illness or complicating circumstance. When a situation falls outside them you must function within your scope of practice and, when time and circumstances permit, use other available resources including 911 ground and on-line medical control.",
    "priority": "core",
    "tags": [
     "topic:scope-of-practice",
@@ -31,7 +31,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "How does 1.01 characterize the relationship between these Patient Care Guidelines and the standard of care?",
+   "stem": "How do LFN's Patient Care Guidelines relate to the standard of care?",
    "options": [
     "They are guidelines and do not represent a standard of care",
     "They are the standard of care for all LFN transports",
@@ -39,7 +39,7 @@
     "They replace state EMS protocols wherever the two differ"
    ],
    "answer_index": 0,
-   "explanation": "The opening sentence of 1.01 is explicit: as guidelines they do not represent a standard of care, because EMS is conducted in a stressful, dynamic and constantly changing environment. That framing is what allows — and requires — documented clinical judgement when a case departs from them.",
+   "explanation": "The opening sentence of the Introduction is explicit: as guidelines they do not represent a standard of care, because EMS is conducted in a stressful, dynamic and constantly changing environment. That framing is what allows — and requires — documented clinical judgement when a case departs from them.",
    "priority": "detail",
    "tags": [
     "topic:scope-of-practice",
@@ -54,7 +54,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Under 1.02, which treatment sections of a guideline may an ALS crew provide care from?",
+   "stem": "Which treatment sections of a guideline may an ALS crew provide care from?",
    "options": [
     "The BLS and ALS sections",
     "The ALS section only",
@@ -77,7 +77,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "A guideline has no CCT treatment section. What does 1.02 direct a CCT crew to do?",
+   "stem": "A guideline has no CCT treatment section. What should a CCT crew do?",
    "options": [
     "Refer to the BLS and ALS sections for treatment options",
     "Contact on-line medical control before providing any treatment",
@@ -85,7 +85,7 @@
     "Apply the nearest related CCT guideline"
    ],
    "answer_index": 0,
-   "explanation": "1.02 anticipates that some guidelines carry no black CCT band. That absence is not a prohibition — CCT teams take their treatment options from the BLS and ALS sections of that guideline.",
+   "explanation": "The Instructions for Use anticipate that some guidelines carry no black CCT band. That absence is not a prohibition — CCT teams take their treatment options from the BLS and ALS sections of that guideline.",
    "priority": "detail",
    "tags": [
     "topic:scope-of-practice",
@@ -100,7 +100,7 @@
    "type": "scope",
    "care_level": null,
    "population": "pediatric",
-   "stem": "How does 1.02 say pediatric-specific information is marked throughout the guidelines?",
+   "stem": "How is pediatric-specific information marked throughout the guidelines?",
    "options": [
     "In boxes with a pink background",
     "In boxes with a green background",
@@ -123,7 +123,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "A superscript number appears beside a treatment inside a guideline. What does 1.02 say it refers to?",
+   "stem": "A superscript number appears beside a treatment inside a guideline. What does it refer to?",
    "options": [
     "The matching number in that guideline's PEARLS section",
     "The matching medication entry in the formulary",
@@ -131,7 +131,7 @@
     "The matching entry in the Update Summary"
    ],
    "answer_index": 0,
-   "explanation": "Superscripts are cross-references into the PEARLS band of the same guideline, where the additional information sits. In 2.04 Combative Patient, for example, the superscript 9 on droperidol points to the PEARL about dystonic reactions.",
+   "explanation": "Superscripts are cross-references into the PEARLS band of the same guideline, where the additional information sits. In the Combative Patient guideline, for example, the superscript 9 on droperidol points to the PEARL about dystonic reactions.",
    "priority": "detail",
    "tags": [
     "topic:document-structure",
@@ -146,7 +146,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "What does 1.02 say about the order in which medications are listed within a guideline?",
+   "stem": "What is the significance of the order in which medications are listed within a guideline?",
    "options": [
     "They are not in order of preference unless otherwise stated",
     "They are listed in order of preference",
@@ -169,7 +169,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "What role does 1.02 assign to the formulary section of this document?",
+   "stem": "What role does the formulary section of the guidelines serve?",
    "options": [
     "A quick reference guide, not a replacement for a guideline",
     "The authoritative dosing source over the guidelines",
@@ -177,7 +177,7 @@
     "A record of medication changes since the last edition"
    ],
    "answer_index": 0,
-   "explanation": "1.02 flags this in bold red: the formulary is designed as a quick reference for medication information, NOT as a replacement for a specific guideline. Dose a patient from the guideline for the condition, then use the formulary for drug detail.",
+   "explanation": "The Instructions for Use flag this in bold red: the formulary is designed as a quick reference for medication information, NOT as a replacement for a specific guideline. Dose a patient from the guideline for the condition, then use the formulary for drug detail.",
    "priority": "detail",
    "tags": [
     "topic:document-structure",
@@ -192,7 +192,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "In what order does 1.02 direct that a guideline's treatment tables be worked through?",
+   "stem": "In what order should a guideline's treatment tables be worked through?",
    "options": [
     "Starting from the top and working to the bottom",
     "Starting at the crew's own care level and working up",
@@ -215,7 +215,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "At which care levels does the 1.03 LFN Medication Table list naloxone as available?",
+   "stem": "At which care levels does the LFN Medication Table list naloxone as available?",
    "options": [
     "CCT, ALS and BLS",
     "CCT and ALS only",
@@ -239,7 +239,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "What does an asterisk beside a medication name in the 1.03 table indicate?",
+   "stem": "What does an asterisk beside a medication name in the LFN Medication Table indicate?",
    "options": [
     "It is generally not carried by LFN and must come from the sending facility",
     "It requires on-line medical control before administration",
@@ -262,7 +262,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "At which care levels does the 1.03 table list ketamine as available?",
+   "stem": "At which care levels does the LFN Medication Table list ketamine as available?",
    "options": [
     "CCT and ALS",
     "CCT only",
@@ -270,7 +270,7 @@
     "ALS only"
    ],
    "answer_index": 0,
-   "explanation": "Ketamine is marked for CCT and ALS, which is consistent with its appearance in the ALS band of 2.04 Combative Patient. Note that any patient receiving ketamine requires continuous ETCO2 monitoring under 2.01 regardless of dose or indication.",
+   "explanation": "Ketamine is marked for CCT and ALS, which is consistent with its appearance in the ALS band of the Combative Patient guideline. Note that any patient receiving ketamine requires continuous ETCO2 monitoring under the Basic Approach to All Patient Contacts regardless of dose or indication.",
    "priority": "detail",
    "tags": [
     "drug:ketamine",
@@ -286,7 +286,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": null,
-   "stem": "A BLS crew is transporting a patient with bronchospasm. Which bronchodilator does the 1.03 table make available to them?",
+   "stem": "A BLS crew is transporting a patient with bronchospasm. Which bronchodilator does the LFN Medication Table make available to them?",
    "options": [
     "Albuterol",
     "Methylprednisolone",
@@ -294,7 +294,7 @@
     "Terbutaline"
    ],
    "answer_index": 0,
-   "explanation": "Albuterol is marked at all three levels, and 1.06 confirms an Oregon EMT may give it inhaled or nebulized. Methylprednisolone and magnesium are CCT/ALS agents and terbutaline is CCT only.",
+   "explanation": "Albuterol is marked at all three levels, and the Oregon BLS and ALS Scope of Practice Table confirms an Oregon EMT may give it inhaled or nebulized. Methylprednisolone and magnesium are CCT/ALS agents and terbutaline is CCT only.",
    "priority": "detail",
    "tags": [
     "drug:albuterol",
@@ -310,7 +310,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": null,
-   "stem": "Which medication for anaphylaxis does the 1.03 table make available to a BLS crew?",
+   "stem": "Which medication for anaphylaxis does the LFN Medication Table make available to a BLS crew?",
    "options": [
     "Epinephrine",
     "Diphenhydramine",
@@ -318,7 +318,7 @@
     "Dexamethasone"
    ],
    "answer_index": 0,
-   "explanation": "Epinephrine carries an X in the BLS column, and 1.06 limits the EMT to the IM or auto-injector route for anaphylaxis. Diphenhydramine and methylprednisolone are CCT/ALS agents, and dexamethasone is an asterisked CCT-only agent not normally carried.",
+   "explanation": "Epinephrine carries an X in the BLS column, and the Oregon BLS and ALS Scope of Practice Table limits the EMT to the IM or auto-injector route for anaphylaxis. Diphenhydramine and methylprednisolone are CCT/ALS agents, and dexamethasone is an asterisked CCT-only agent not normally carried.",
    "priority": "core",
    "tags": [
     "drug:epinephrine",
@@ -334,7 +334,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Which procedures does 1.04 interpret as being within LFN providers' scope of practice when the additional training is documented?",
+   "stem": "Which procedures does LFN interpret as being within its providers' scope of practice when the additional training is documented?",
    "options": [
     "Needle thoracostomy and intraosseous line placement",
     "Surgical cricothyrotomy and chest tube placement",
@@ -342,7 +342,7 @@
     "Surgical cricothyrotomy and intraosseous line placement"
    ],
    "answer_index": 0,
-   "explanation": "1.04 states that surgical cricothyrotomies and chest tubes are not in scope, but that LFN's interpretation is that needle thoracostomy and IO placement are, provided the additional training was approved by LFN's Medical Directors and is documented in the employee's education record.",
+   "explanation": "The Scope of Practice guideline states that surgical cricothyrotomies and chest tubes are not in scope, but that LFN's interpretation is that needle thoracostomy and IO placement are, provided the additional training was approved by LFN's Medical Directors and is documented in the employee's education record.",
    "priority": "core",
    "tags": [
     "procedure:needle-thoracostomy",
@@ -358,7 +358,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "In which state does 1.04 state that intraosseous line placement is not within the scope of practice?",
+   "stem": "In which state is intraosseous line placement not within LFN providers' scope of practice?",
    "options": [
     "Oregon",
     "Washington",
@@ -366,7 +366,7 @@
     "Montana"
    ],
    "answer_index": 0,
-   "explanation": "1.04 carves out a single exception to its own interpretation: intraosseous lines are not in the scope of practice in Oregon. Crews working across state lines have to know which side of the border they are on before reaching for the drill.",
+   "explanation": "The Scope of Practice guideline carves out a single exception to its own interpretation: intraosseous lines are not in the scope of practice in Oregon. Crews working across state lines have to know which side of the border they are on before reaching for the drill.",
    "priority": "core",
    "tags": [
     "procedure:intraosseous",
@@ -382,7 +382,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "What does 1.04 require before a paramedic in Oregon or Idaho may administer a medication not contained in these guidelines?",
+   "stem": "What is required before a paramedic in Oregon or Idaho may administer a medication not contained in these guidelines?",
    "options": [
     "A physician order plus documented LFN-approved training",
     "Only an order from the sending physician",
@@ -406,7 +406,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Under 1.04, who is responsible for administering an uncommon medication and its infusions when the paramedic has no training in it?",
+   "stem": "Who is responsible for administering an uncommon medication and its infusions when the paramedic has no training in it?",
    "options": [
     "The Flight Nurse",
     "The sending facility nurse",
@@ -414,7 +414,7 @@
     "The LFN Medical Director"
    ],
    "answer_index": 0,
-   "explanation": "1.04 assigns that responsibility to the Flight Nurse. This is the fallback when an Oregon or Idaho paramedic meets a drug outside the guidelines that they have not been trained on, and it should be settled before leaving the bedside.",
+   "explanation": "The Scope of Practice guideline assigns that responsibility to the Flight Nurse. This is the fallback when an Oregon or Idaho paramedic meets a drug outside the guidelines that they have not been trained on, and it should be settled before leaving the bedside.",
    "priority": "detail",
    "tags": [
     "topic:scope-of-practice",
@@ -429,7 +429,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "What does 1.04 require before a Washington paramedic may transport a patient with medications infusing?",
+   "stem": "What is required before a Washington paramedic may transport a patient with medications infusing?",
    "options": [
     "A department-approved MPD protocol and MPD supplementary training",
     "An order from the sending physician for each infusion",
@@ -453,7 +453,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "What limits the medications a Washington respiratory therapist may administer under 1.04?",
+   "stem": "What limits the medications a Washington respiratory therapist may administer?",
    "options": [
     "They must be agents related to respiratory care",
     "They must be listed in the LFN formulary",
@@ -477,7 +477,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Under 1.04, what does the critical care endorsement held by CFRN nurses in Montana allow them to do?",
+   "stem": "What does the critical care endorsement held by CFRN nurses in Montana allow them to do?",
    "options": [
     "Function as an EMR equivalent",
     "Function as a paramedic equivalent",
@@ -485,7 +485,7 @@
     "Pronounce death in the field"
    ],
    "answer_index": 0,
-   "explanation": "1.04 states verbatim that CFRN Montana nurses get a critical care endorsement which allows them to function as an EMR equivalent. The nurse's own license, not that endorsement, is what carries their medication and procedure authority.",
+   "explanation": "The Scope of Practice guideline states verbatim that CFRN Montana nurses get a critical care endorsement which allows them to function as an EMR equivalent. The nurse's own license, not that endorsement, is what carries their medication and procedure authority.",
    "priority": "detail",
    "tags": [
     "topic:scope-of-practice",
@@ -501,7 +501,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": null,
-   "stem": "What condition does 1.04 place on an EMT administering a medication contained in these guidelines?",
+   "stem": "What condition applies to an EMT administering a medication contained in these guidelines?",
    "options": [
     "The medication is in their state-specific scope of practice",
     "The medication appears in the BLS band of a guideline",
@@ -509,7 +509,7 @@
     "On-line medical control gives verbal authorization"
    ],
    "answer_index": 0,
-   "explanation": "An EMT may give a medication contained in these guidelines only where it also falls inside their state-specific scope of practice, and it must be given in accordance with the guidelines. The ALS & BLS Scope of Practice Table in 1.06 is the Oregon reference for that.",
+   "explanation": "An EMT may give a medication contained in these guidelines only where it also falls inside their state-specific scope of practice, and it must be given in accordance with the guidelines. The Oregon BLS and ALS Scope of Practice Table is the Oregon reference for that.",
    "priority": "detail",
    "tags": [
     "topic:scope-of-practice",
@@ -524,7 +524,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": null,
-   "stem": "Under 1.05, in which states may nurses pronounce death?",
+   "stem": "According to the CCT State Scope of Practice Table, in which states may nurses pronounce death?",
    "options": [
     "Oregon and Idaho",
     "Washington and Montana",
@@ -548,7 +548,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": null,
-   "stem": "Under 1.05, in which states may paramedics pronounce death?",
+   "stem": "According to the CCT State Scope of Practice Table, in which states may paramedics pronounce death?",
    "options": [
     "Washington and Montana",
     "Oregon and Idaho",
@@ -572,7 +572,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": null,
-   "stem": "For which arrests does 1.05 allow an Oregon paramedic to terminate resuscitation?",
+   "stem": "For which arrests may an Oregon paramedic terminate resuscitation?",
    "options": [
     "Medical arrests in asystole or PEA, and traumatic arrest",
     "Any medical arrest, but not traumatic arrest",
@@ -595,7 +595,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": null,
-   "stem": "What maximum potassium infusion rate does 1.05 place on a paramedic in Montana?",
+   "stem": "What is the maximum potassium infusion rate for a paramedic in Montana?",
    "options": [
     "10 mEq/hour",
     "20 mEq/hour",
@@ -619,7 +619,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": null,
-   "stem": "Under 1.05, in which state may a paramedic, as well as an RN, perform chest tube insertion?",
+   "stem": "In which state may a paramedic, as well as an RN, perform chest tube insertion?",
    "options": [
     "Idaho",
     "Oregon",
@@ -643,7 +643,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": null,
-   "stem": "What certification does 1.05 require of an Idaho paramedic to perform finger thoracostomy or initiate blood products?",
+   "stem": "What certification must an Idaho paramedic hold to perform finger thoracostomy or initiate blood products?",
    "options": [
     "FP-C or CCP-C certification from the IBSC",
     "A state-approved critical care endorsement",
@@ -667,7 +667,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": null,
-   "stem": "What does 1.05 permit a Washington paramedic to do with potassium, insulin and heparin infusions?",
+   "stem": "What may a Washington paramedic do with potassium, insulin and heparin infusions?",
    "options": [
     "Continue an existing infusion but not initiate one",
     "Initiate and titrate the infusion freely",
@@ -691,7 +691,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": null,
-   "stem": "Under 1.05, in which state is insulin administration restricted to RNs?",
+   "stem": "In which state is insulin administration restricted to RNs?",
    "options": [
     "Montana",
     "Oregon",
@@ -715,7 +715,7 @@
    "type": "route",
    "care_level": "BLS",
    "population": null,
-   "stem": "By which routes does 1.06 allow an Oregon EMT to give naloxone?",
+   "stem": "By which routes may an Oregon EMT give naloxone?",
    "options": [
     "IN or via auto-injector",
     "IV or IM",
@@ -739,7 +739,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": null,
-   "stem": "What limitation does 1.06 place on an Oregon EMT giving nitroglycerin?",
+   "stem": "What limitation applies to an Oregon EMT giving nitroglycerin?",
    "options": [
     "Patient assist only",
     "Auto-injector only",
@@ -747,7 +747,7 @@
     "For cardiac indications only"
    ],
    "answer_index": 0,
-   "explanation": "The EMT may only assist the patient with their own nitroglycerin, not administer a crew-carried supply. 2.02 adds the conditions: it must have been prescribed by the patient's personal physician and be in the patient's possession.",
+   "explanation": "The EMT may only assist the patient with their own nitroglycerin, not administer a crew-carried supply. The Basic Approach for BLS Transport Teams adds the conditions: it must have been prescribed by the patient's personal physician and be in the patient's possession.",
    "priority": "detail",
    "tags": [
     "drug:nitroglycerin",
@@ -762,7 +762,7 @@
    "type": "equipment",
    "care_level": "BLS",
    "population": null,
-   "stem": "Which airway device does 1.06 place within an Oregon EMT's scope?",
+   "stem": "Which airway device is within an Oregon EMT's scope?",
    "options": [
     "Supraglottic airway device",
     "Endotracheal tube",
@@ -786,7 +786,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": null,
-   "stem": "An Oregon EMT crew has a patient in ventricular fibrillation. Which defibrillation capability does 1.06 give them?",
+   "stem": "An Oregon EMT crew has a patient in ventricular fibrillation. Which defibrillation capability is within their scope?",
    "options": [
     "AED",
     "Manual defibrillation",
@@ -810,7 +810,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": null,
-   "stem": "Which medication for nausea does 1.06 place within an Oregon EMT's scope?",
+   "stem": "Which medication for nausea is within an Oregon EMT's scope?",
    "options": [
     "Isopropyl alcohol",
     "Ondansetron",
@@ -818,7 +818,7 @@
     "Diphenhydramine"
    ],
    "answer_index": 0,
-   "explanation": "Inhaled isopropyl alcohol is the EMT's antiemetic in the Oregon table. Ondansetron and promethazine are ALS/CCT agents in the 1.03 medication table.",
+   "explanation": "Inhaled isopropyl alcohol is the EMT's antiemetic in the Oregon table. Ondansetron and promethazine are ALS/CCT agents in the LFN Medication Table.",
    "priority": "detail",
    "tags": [
     "topic:nausea",
@@ -833,7 +833,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Under 1.06, when is a CCT team required for a transport?",
+   "stem": "Under the Oregon BLS and ALS scope rules, when is a CCT team required for a transport?",
    "options": [
     "When the receiving unit is a critical care unit",
     "When the patient has any infusion running",
@@ -856,7 +856,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Under 1.06, what is required in order to titrate an infusion continued from the referring facility?",
+   "stem": "Under the Oregon BLS and ALS scope rules, what is required in order to titrate an infusion continued from the referring facility?",
    "options": [
     "On-line medical control",
     "An order from the sending provider",
@@ -880,7 +880,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "Which patients does 2.01 say require full PPE rather than an N95 mask alone?",
+   "stem": "Which patients require full PPE rather than an N95 mask alone?",
    "options": [
     "Patients under investigation for COVID-19",
     "Patients with active tuberculosis",
@@ -903,7 +903,7 @@
    "type": "special",
    "care_level": null,
    "population": "adult",
-   "stem": "In a STEMI with arrest where no mechanical CPR device is available, which approach does 2.01 prefer?",
+   "stem": "In a STEMI with arrest where no mechanical CPR device is available, which approach to transport is preferred?",
    "options": [
     "A shorter duration of suboptimal CPR",
     "A longer duration of optimal CPR",
@@ -911,7 +911,7 @@
     "Staying on scene to optimize compressions"
    ],
    "answer_index": 0,
-   "explanation": "2.01 accepts degraded CPR in exchange for speed, because CPR alone is not indefinitely sustaining and the goal is rapid delivery to a center that can reverse the cause. It is the same logic behind the statement that no patient is too unstable for air transport.",
+   "explanation": "The Basic Approach to All Patient Contacts accepts degraded CPR in exchange for speed, because CPR alone is not indefinitely sustaining and the goal is rapid delivery to a center that can reverse the cause. It is the same logic behind the statement that no patient is too unstable for air transport.",
    "priority": "core",
    "tags": [
     "topic:cardiac-arrest",
@@ -927,7 +927,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "What position does 2.01 take on transporting a patient who is too unstable to fly?",
+   "stem": "What is LFN's position on a patient who seems too unstable to fly?",
    "options": [
     "No patient is too unstable for air transport",
     "Unstable patients require ground transport",
@@ -935,7 +935,7 @@
     "Unstable patients require OLMC approval"
    ],
    "answer_index": 0,
-   "explanation": "2.01 puts it in bold italics: after brief initial stabilization care you shall expedite air transport, because the assumption is that the patient will otherwise succumb to their injuries or illness without it.",
+   "explanation": "The Basic Approach to All Patient Contacts puts it in bold italics: after brief initial stabilization care you shall expedite air transport, because the assumption is that the patient will otherwise succumb to their injuries or illness without it.",
    "priority": "core",
    "tags": [
     "topic:transport-decision",
@@ -950,7 +950,7 @@
    "type": "assessment",
    "care_level": null,
    "population": null,
-   "stem": "Under 2.01, which medication obliges continuous ETCO2 monitoring in every patient who receives it, regardless of dose or indication?",
+   "stem": "Which medication obliges continuous ETCO2 monitoring in every patient who receives it, regardless of dose or indication?",
    "options": [
     "Ketamine",
     "Fentanyl",
@@ -974,7 +974,7 @@
    "type": "treatment",
    "care_level": null,
    "population": null,
-   "stem": "What does 2.01 require be confirmed immediately after each transfer of a patient with an advanced airway?",
+   "stem": "What must be confirmed immediately after each transfer of a patient with an advanced airway?",
    "options": [
     "Tube placement with ETCO2",
     "Bilateral breath sounds",
@@ -982,7 +982,7 @@
     "Ventilator circuit integrity"
    ],
    "answer_index": 0,
-   "explanation": "Every move of the patient is an extubation risk. 2.01 directs disconnecting the ventilator or BVETT if tolerated, verifying ETT or SGA securement in a commercial holder before movement, and confirming placement with ETCO2 immediately after each transfer.",
+   "explanation": "Every move of the patient is an extubation risk. The guidelines direct disconnecting the ventilator or BVETT if tolerated, verifying ETT or SGA securement in a commercial holder before movement, and confirming placement with ETCO2 immediately after each transfer.",
    "priority": "core",
    "tags": [
     "procedure:airway",
@@ -998,7 +998,7 @@
    "type": "max_dose",
    "care_level": null,
    "population": "pediatric",
-   "stem": "What ceiling does 2.01 place on pediatric medication dosages?",
+   "stem": "What ceiling applies to pediatric medication dosages?",
    "options": [
     "They must not exceed the maximum single or total adult dose",
     "They must not exceed half the adult dose",
@@ -1006,7 +1006,7 @@
     "They may exceed the adult dose if weight-based"
    ],
    "answer_index": 0,
-   "explanation": "Weight-based dosing in a large adolescent can calculate out above the adult figure, so 2.01 caps pediatric dosing at the maximum single or total adult dose. Handtevy is the approved reference for pediatric resuscitation.",
+   "explanation": "Weight-based dosing in a large adolescent can calculate out above the adult figure, so pediatric dosing is capped at the maximum single or total adult dose. Handtevy is the approved reference for pediatric resuscitation.",
    "priority": "core",
    "tags": [
     "topic:pediatric-dosing",
@@ -1021,7 +1021,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "pediatric",
-   "stem": "At what age does 2.01 say CAMTS defines a patient as pediatric?",
+   "stem": "At what age does CAMTS define a patient as pediatric?",
    "options": [
     "< 18 years old",
     "< 16 years old",
@@ -1029,7 +1029,7 @@
     "< 12 years old"
    ],
    "answer_index": 0,
-   "explanation": "CAMTS sets the line at under 18, but 2.01 immediately qualifies it: most patients with any evidence of secondary sexual characteristics — pubic, axillary or facial hair, or breast development — may be treated per adult guidelines.",
+   "explanation": "CAMTS sets the line at under 18, but the guidelines immediately qualify it: most patients with any evidence of secondary sexual characteristics — pubic, axillary or facial hair, or breast development — may be treated per adult guidelines.",
    "priority": "detail",
    "tags": [
     "topic:pediatric-definition",
@@ -1044,7 +1044,7 @@
    "type": "equipment",
    "care_level": null,
    "population": "pediatric",
-   "stem": "Using the 2.01 pediatric formulas, how is ETT insertion depth determined?",
+   "stem": "Using the pediatric formulas, how is ETT insertion depth determined?",
    "options": [
     "3 x ETT size",
     "2 x ETT size",
@@ -1068,7 +1068,7 @@
    "type": "dose",
    "care_level": null,
    "population": "pediatric",
-   "stem": "What maintenance fluid rate does 2.01 give for a child weighing less than 10 kg?",
+   "stem": "What pediatric maintenance fluid rate is used for a child weighing less than 10 kg?",
    "options": [
     "4 mL/kg",
     "2 mL/kg",
@@ -1076,7 +1076,7 @@
     "60 + 1 mL/kg for every kg > 20 kg"
    ],
    "answer_index": 0,
-   "explanation": "Under 10 kg the rate is a flat 4 mL/kg. The other two formulas are the real 2.01 rates for the 10 – 20 kg and over-20 kg bands, which is where crews most often grab the wrong line.",
+   "explanation": "Under 10 kg the rate is a flat 4 mL/kg. The other two formulas are the real rates for the 10 – 20 kg and over-20 kg bands, which is where crews most often grab the wrong line.",
    "priority": "core",
    "tags": [
     "topic:maintenance-fluids",
@@ -1091,7 +1091,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "pediatric",
-   "stem": "Which fluid does 2.01 direct for pediatric maintenance?",
+   "stem": "Which fluid is used for pediatric maintenance?",
    "options": [
     "D5NS",
     "D5 1/2 NS",
@@ -1114,7 +1114,7 @@
    "type": "special",
    "care_level": null,
    "population": "neonatal",
-   "stem": "Which maintenance fluid does 2.01 allow as an alternative to D5NS for infants 28 days old or younger?",
+   "stem": "Which maintenance fluid may be used as an alternative to D5NS for infants 28 days old or younger?",
    "options": [
     "D10",
     "D5 1/2 NS",
@@ -1137,7 +1137,7 @@
    "type": "contraindication",
    "care_level": null,
    "population": "pediatric",
-   "stem": "Under 2.01, when may a dextrose-containing solution be given to a child as a bolus?",
+   "stem": "When may a dextrose-containing solution be given to a child as a bolus?",
    "options": [
     "Only when treating hypoglycemia",
     "Only for infants 28 days old or younger",
@@ -1161,7 +1161,7 @@
    "type": "assessment",
    "care_level": null,
    "population": "both",
-   "stem": "How often does 2.01 require neurological assessment be performed and documented on a patient with neurological symptoms?",
+   "stem": "How often must neurological assessment be performed and documented on a patient with neurological symptoms?",
    "options": [
     "q 15 minutes",
     "q 5 minutes",
@@ -1184,7 +1184,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "What does 2.01 give as the normal systolic blood pressure range for an adult?",
+   "stem": "What is the normal systolic blood pressure range for an adult?",
    "options": [
     "90 – 120 mmHg",
     "80 – 90 mmHg",
@@ -1207,7 +1207,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "What SBP goal does 2.01 set for an adult with evidence of head injury?",
+   "stem": "What SBP goal is set for an adult with evidence of head injury?",
    "options": [
     "110 mmHg",
     "90 – 120 mmHg",
@@ -1231,7 +1231,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "pediatric",
-   "stem": "What SBP goal does 2.01 set for a child under 10 years old in hemorrhagic shock?",
+   "stem": "What SBP goal is set for a child under 10 years old in hemorrhagic shock?",
    "options": [
     "> 80 mmHg or a brachial pulse",
     "80 – 90 mmHg or a radial pulse",
@@ -1255,7 +1255,7 @@
    "type": "treatment",
    "care_level": null,
    "population": null,
-   "stem": "What does 2.01 require be labelled on a syringe of medication that is drawn up but not immediately administered?",
+   "stem": "What must be labelled on a syringe of medication that is drawn up but not immediately administered?",
    "options": [
     "The medication name and concentration",
     "The medication name and the time drawn",
@@ -1263,7 +1263,7 @@
     "The patient's name and the medication name"
    ],
    "answer_index": 0,
-   "explanation": "Name and concentration, with push-dose epinephrine given as the example — concentration is the detail that turns a labelled syringe into a safe one. 2.01 also directs drawing up only the amount you intend to give.",
+   "explanation": "Name and concentration, with push-dose epinephrine given as the example — concentration is the detail that turns a labelled syringe into a safe one. The guidelines also direct drawing up only the amount you intend to give.",
    "priority": "detail",
    "tags": [
     "topic:medication-safety",
@@ -1278,7 +1278,7 @@
    "type": "assessment",
    "care_level": null,
    "population": null,
-   "stem": "How often does 2.01 require vital signs on a scene call or an unstable transport?",
+   "stem": "How often must vital signs be taken on a scene call or an unstable transport?",
    "options": [
     "q 5 minutes",
     "q 15 minutes",
@@ -1302,7 +1302,7 @@
    "type": "threshold",
    "care_level": null,
    "population": null,
-   "stem": "When does 2.01 allow q 30-minute ventilator checks instead of q 15 minutes?",
+   "stem": "When are q 30-minute ventilator checks allowed instead of q 15 minutes?",
    "options": [
     "On stable transports that exceed 90 minutes",
     "On any transport exceeding 60 minutes",
@@ -1326,7 +1326,7 @@
    "type": "threshold",
    "care_level": null,
    "population": null,
-   "stem": "A ventilated patient has a plateau pressure greater than 30. What documentation does 2.01 require?",
+   "stem": "A ventilated patient has a plateau pressure greater than 30. How often must plateau pressure be documented?",
    "options": [
     "q 15 minutes until it is 30 or less",
     "q 30 minutes until it is 30 or less",
@@ -1350,7 +1350,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Up to what CPAP/PEEP level does 2.02 allow a BLS crew to maintain existing CPAP with a Flow-Safe II?",
+   "stem": "Up to what CPAP/PEEP level may a BLS crew maintain existing CPAP with a Flow-Safe II?",
    "options": [
     "10 cmH2O",
     "5 cmH2O",
@@ -1374,7 +1374,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "How does 2.02 direct a BLS crew to position a patient with suspected shock?",
+   "stem": "How should a BLS crew position a patient with suspected shock?",
    "options": [
     "Supine",
     "Trendelenburg",
@@ -1382,7 +1382,7 @@
     "Left lateral recumbent"
    ],
    "answer_index": 0,
-   "explanation": "Supine, with hemorrhage control. 2.02 specifically directs crews not to place the shock patient in Trendelenburg, which has no demonstrated benefit and worsens respiratory mechanics.",
+   "explanation": "Supine, with hemorrhage control. The BLS guidance specifically directs crews not to place the shock patient in Trendelenburg, which has no demonstrated benefit and worsens respiratory mechanics.",
    "priority": "core",
    "tags": [
     "topic:shock",
@@ -1397,7 +1397,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "How often does 2.02 require circulation, motor and sensation be checked and documented on a patient in restraints?",
+   "stem": "During BLS transport, how often must circulation, motor and sensation be checked and documented on a patient in restraints?",
    "options": [
     "Initially and q 15 minutes",
     "Initially and q 5 minutes",
@@ -1405,7 +1405,7 @@
     "Once on arrival at the receiving facility"
    ],
    "answer_index": 0,
-   "explanation": "CMS checks are documented at the time of application and every 15 minutes thereafter. The same 15-minute interval applies to restrained patients in 2.04, alongside continuous ETCO2 and SpO2.",
+   "explanation": "CMS checks are documented at the time of application and every 15 minutes thereafter. The same 15-minute interval applies to restrained patients under the Combative Patient guideline, alongside continuous ETCO2 and SpO2.",
    "priority": "core",
    "tags": [
     "topic:restraints",
@@ -1421,7 +1421,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What level of transport does 2.02 require for a violent patient?",
+   "stem": "What level of transport is required for a violent patient?",
    "options": [
     "ALS transport",
     "BLS transport",
@@ -1445,7 +1445,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Under what condition does 2.02 allow a BLS crew to assist a patient with sublingual nitroglycerin?",
+   "stem": "Under what condition may a BLS crew assist a patient with sublingual nitroglycerin?",
    "options": [
     "It is the patient's own prescribed medication",
     "On-line medical control authorizes it",
@@ -1469,7 +1469,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Which task does 2.02 allow a BLS crew member to perform in assisting a paramedic?",
+   "stem": "Which task may a BLS crew member perform in assisting a paramedic?",
    "options": [
     "Priming IV fluid administration sets",
     "Starting a peripheral IV",
@@ -1492,7 +1492,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What does 2.02 require be completed when a patient is placed in soft restraints?",
+   "stem": "During BLS transport, what must be completed when a patient is placed in soft restraints?",
    "options": [
     "A QM report",
     "An OLMC notification",
@@ -1516,7 +1516,7 @@
    "type": "indication",
    "care_level": null,
    "population": "both",
-   "stem": "What is the stated indication for 2.03 Anxiolysis?",
+   "stem": "What is the indication for anxiolysis?",
    "options": [
     "Mild sedation of the anxious patient",
     "Sedation of the agitated or combative patient",
@@ -1524,7 +1524,7 @@
     "Procedural sedation before cardioversion"
    ],
    "answer_index": 0,
-   "explanation": "2.03 covers one thing only — mild sedation of the anxious patient. The second and third options are listed on the same page as contraindications, and each has its own guideline: 2.04 for the combative patient, and the post-intubation sedation guidance for the intubated patient.",
+   "explanation": "The Anxiolysis guideline covers one thing only — mild sedation of the anxious patient. The second and third options are listed on the same page as contraindications, and each has its own guideline: Combative Patient for the agitated patient, and the post-intubation sedation guidance for the intubated patient.",
    "priority": "core",
    "tags": [
     "topic:anxiolysis",
@@ -1539,7 +1539,7 @@
    "type": "contraindication",
    "care_level": null,
    "population": "both",
-   "stem": "For which patient does 2.03 list anxiolysis as contraindicated?",
+   "stem": "For which patient is anxiolysis contraindicated?",
    "options": [
     "An intubated patient",
     "An anxious patient awaiting interfacility transfer",
@@ -1563,7 +1563,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult IV midazolam dose in 2.03 Anxiolysis?",
+   "stem": "What is the adult IV midazolam dose for anxiolysis?",
    "options": [
     "0.01 mg/kg IV",
     "2 – 5 mg IV/IM",
@@ -1571,7 +1571,7 @@
     "0.3 mg/kg IN"
    ],
    "answer_index": 0,
-   "explanation": "Anxiolysis uses a deliberately small weight-based dose — 0.01 mg/kg IV — because the goal is mild sedation with an intact airway and respiratory drive. The larger figures are the combative-patient doses from 2.04.",
+   "explanation": "Anxiolysis uses a deliberately small weight-based dose — 0.01 mg/kg IV — because the goal is mild sedation with an intact airway and respiratory drive. The larger figures are the combative-patient doses.",
    "priority": "core",
    "tags": [
     "drug:midazolam",
@@ -1588,7 +1588,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the maximum single dose of midazolam in 2.03 Anxiolysis?",
+   "stem": "What is the maximum single dose of midazolam for anxiolysis?",
    "options": [
     "5 mg",
     "1 mg",
@@ -1612,7 +1612,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the maximum dose of lorazepam in 2.03 Anxiolysis?",
+   "stem": "What is the maximum dose of lorazepam for anxiolysis?",
    "options": [
     "1 mg",
     "5 mg",
@@ -1620,7 +1620,7 @@
     "4 mg"
    ],
    "answer_index": 0,
-   "explanation": "Lorazepam is capped at 1 mg for anxiolysis, five times lower than the midazolam ceiling. In 2.04 Combative Patient the adult lorazepam range runs to 4 mg, so the drug's ceiling depends entirely on which guideline you are working from.",
+   "explanation": "Lorazepam is capped at 1 mg for anxiolysis, five times lower than the midazolam ceiling. For the combative patient the adult lorazepam range runs to 4 mg, so the drug's ceiling depends entirely on which guideline you are working from.",
    "priority": "core",
    "tags": [
     "drug:lorazepam",
@@ -1636,7 +1636,7 @@
    "type": "route",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "Which midazolam route does 2.03 list for pediatric patients that it does not list for adults?",
+   "stem": "For anxiolysis, which midazolam route is listed for pediatric patients but not for adults?",
    "options": [
     "IN",
     "IM",
@@ -1660,7 +1660,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How often may midazolam be repeated under 2.03 Anxiolysis?",
+   "stem": "How often may midazolam be repeated for anxiolysis?",
    "options": [
     "q 15 min",
     "q 20 min",
@@ -1684,7 +1684,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How often may lorazepam be repeated under 2.03 Anxiolysis?",
+   "stem": "How often may lorazepam be repeated for anxiolysis?",
    "options": [
     "q 20 min",
     "q 15 min",
@@ -1692,7 +1692,7 @@
     "q 5 min"
    ],
    "answer_index": 0,
-   "explanation": "Lorazepam repeats every 20 minutes PRN, reflecting its longer duration relative to midazolam's 15-minute interval. The same two intervals carry over to 2.04 Combative Patient.",
+   "explanation": "Lorazepam repeats every 20 minutes PRN, reflecting its longer duration relative to midazolam's 15-minute interval. The same two intervals carry over to the Combative Patient guideline.",
    "priority": "detail",
    "tags": [
     "drug:lorazepam",
@@ -1708,7 +1708,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What monitoring does 2.03 require for every patient receiving a sedative?",
+   "stem": "When giving anxiolysis, what monitoring is required for every patient receiving a sedative?",
    "options": [
     "Continuous ECG, BP, HR, SpO2 and ETCO2",
     "Continuous SpO2 and ETCO2 only",
@@ -1732,7 +1732,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What sequence does 2.03 direct when a patient is both in pain and anxious?",
+   "stem": "A patient is both in pain and anxious. In what sequence should they be treated?",
    "options": [
     "Treat the pain with narcotics first",
     "Give the anxiolytic first, then treat pain",
@@ -1756,7 +1756,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 2.03 advise about dosing when a benzodiazepine and a narcotic are given concurrently?",
+   "stem": "When a benzodiazepine and a narcotic are given concurrently for anxiolysis, how should they be dosed?",
    "options": [
     "Use doses lower than either agent alone",
     "Use the same doses as either agent alone",
@@ -1764,7 +1764,7 @@
     "Give the narcotic at half dose only"
    ],
    "answer_index": 0,
-   "explanation": "The combination is synergistic for respiratory depression, so both agents are dosed lower than they would be alone. 2.03 also warns that alternating agents with different mechanisms and durations can produce sudden, unexpected sedation and respiratory compromise.",
+   "explanation": "The combination is synergistic for respiratory depression, so both agents are dosed lower than they would be alone. The Anxiolysis guideline also warns that alternating agents with different mechanisms and durations can produce sudden, unexpected sedation and respiratory compromise.",
    "priority": "detail",
    "tags": [
     "topic:sedation",
@@ -1780,7 +1780,7 @@
    "type": "special",
    "care_level": null,
    "population": "both",
-   "stem": "What does 2.04 direct about loading a combative patient into an aircraft or ambulance?",
+   "stem": "When should a combative patient be loaded into an aircraft or ambulance?",
    "options": [
     "Do not load until the situation is mitigated and controlled",
     "Load and sedate once airborne",
@@ -1804,7 +1804,7 @@
    "type": "scope",
    "care_level": null,
    "population": "both",
-   "stem": "What does 2.04 state MUST be obtained before transporting a combative patient?",
+   "stem": "What MUST be obtained before transporting a combative patient?",
    "options": [
     "Consent for transport",
     "An on-line medical control order",
@@ -1827,7 +1827,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What does the BLS section of 2.04 direct be obtained when assessing a patient with altered LOC or violent behavior?",
+   "stem": "At the BLS level, what should be obtained when assessing a patient with altered LOC or violent behavior?",
    "options": [
     "A blood glucose level and baseline vital signs",
     "A 12-lead ECG and baseline vital signs",
@@ -1851,7 +1851,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "In which position does 2.04 prohibit restraining a patient?",
+   "stem": "In which position must a combative patient never be restrained?",
    "options": [
     "Prone",
     "Supine",
@@ -1875,7 +1875,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Which two parameters does 2.04 require to be continuously monitored on a restrained patient?",
+   "stem": "Which two parameters must be continuously monitored on a restrained combative patient?",
    "options": [
     "ETCO2 and SpO2",
     "ECG and blood pressure",
@@ -1899,7 +1899,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Under 2.04, when does pharmacologic therapy become indicated for a combative patient?",
+   "stem": "When does pharmacologic therapy become indicated for a combative patient?",
    "options": [
     "When de-escalation fails or is not practical",
     "As soon as physical restraints are applied",
@@ -1923,7 +1923,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult IV/IM midazolam dose in 2.04 for a combative patient?",
+   "stem": "What is the adult IV/IM midazolam dose for a combative patient?",
    "options": [
     "2 – 5 mg IV/IM",
     "0.05 – 0.1 mg/kg IV/IM",
@@ -1931,7 +1931,7 @@
     "1 – 4 mg IV/IM"
    ],
    "answer_index": 0,
-   "explanation": "Adults get a flat 2 – 5 mg IV or IM, repeatable every 15 minutes PRN, with a lower dose used in the elderly and those with significant comorbidities. The weight-based figures are the pediatric doses and the 0.01 mg/kg is the anxiolysis dose from 2.03.",
+   "explanation": "Adults get a flat 2 – 5 mg IV or IM, repeatable every 15 minutes PRN, with a lower dose used in the elderly and those with significant comorbidities. The weight-based figures are the pediatric doses and the 0.01 mg/kg is the anxiolysis dose.",
    "priority": "core",
    "tags": [
     "drug:midazolam",
@@ -1948,7 +1948,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult intranasal midazolam dose in 2.04 for a combative patient?",
+   "stem": "What is the adult intranasal midazolam dose for a combative patient?",
    "options": [
     "0.3 mg/kg IN",
     "0.01 mg/kg IN",
@@ -1973,7 +1973,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult IV/IM lorazepam dose in 2.04 for a combative patient?",
+   "stem": "What is the adult IV/IM lorazepam dose for a combative patient?",
    "options": [
     "1 – 4 mg IV/IM",
     "2 – 5 mg IV/IM",
@@ -1981,7 +1981,7 @@
     "0.01 mg/kg IV"
    ],
    "answer_index": 0,
-   "explanation": "Lorazepam is 1 – 4 mg IV or IM, repeatable every 20 minutes PRN. Note the ceiling here is four times the 1 mg maximum allowed for anxiolysis in 2.03 — the indication, not the drug, sets the dose.",
+   "explanation": "Lorazepam is 1 – 4 mg IV or IM, repeatable every 20 minutes PRN. Note the ceiling here is four times the 1 mg maximum allowed for anxiolysis — the indication, not the drug, sets the dose.",
    "priority": "core",
    "tags": [
     "drug:lorazepam",
@@ -1998,7 +1998,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the IV/IO ketamine dose in 2.04 for a combative patient?",
+   "stem": "What is the IV/IO ketamine dose for a combative patient?",
    "options": [
     "0.5 – 2 mg/kg IV/IO",
     "2 – 4 mg/kg IV/IO",
@@ -2023,7 +2023,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the IM ketamine dose in 2.04 for a severely agitated patient with no IV access?",
+   "stem": "What is the IM ketamine dose for a severely agitated combative patient with no IV access?",
    "options": [
     "2 – 4 mg/kg IM",
     "0.5 – 2 mg/kg IM",
@@ -2047,7 +2047,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult IM droperidol dose in 2.04 for a combative patient?",
+   "stem": "What is the adult IM droperidol dose for a combative patient?",
    "options": [
     "2.5 – 10 mg IM",
     "0.1 mg/kg IM",
@@ -2072,7 +2072,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What maximum total dose of droperidol does 2.04 allow?",
+   "stem": "What is the maximum total dose of droperidol for a combative patient?",
    "options": [
     "10 mg",
     "5 mg",
@@ -2096,7 +2096,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "In the extreme-situation pathway of 2.04 with no IV/IO access, what IM succinylcholine dose does the guideline give?",
+   "stem": "In the extreme-situation pathway for a combative patient with no IV/IO access, what is the IM succinylcholine dose?",
    "options": [
     "3 – 4 mg/kg IM",
     "2 – 4 mg/kg IM",
@@ -2121,7 +2121,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "Which agent and dose does 2.04 direct if succinylcholine is contraindicated in the extreme-situation pathway?",
+   "stem": "In the extreme-situation pathway for a combative patient, which agent and dose is used if succinylcholine is contraindicated?",
    "options": [
     "Rocuronium 2 mg/kg IM",
     "Ketamine 2 – 4 mg/kg IM",
@@ -2146,7 +2146,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 2.04 direct for a combative patient who cannot protect their airway or who continues to pose a significant safety threat?",
+   "stem": "What is indicated for a combative patient who cannot protect their airway or who continues to pose a significant safety threat?",
    "options": [
     "Consider rapid sequence induction",
     "Repeat the sedative dose",
@@ -2170,7 +2170,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the pediatric IV/IM midazolam dose in 2.04 for a combative patient?",
+   "stem": "What is the pediatric IV/IM midazolam dose for a combative patient?",
    "options": [
     "0.05 – 0.1 mg/kg IV/IM",
     "2 – 5 mg IV/IM",
@@ -2195,7 +2195,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the pediatric IM droperidol dose in 2.04 for a combative patient?",
+   "stem": "What is the pediatric IM droperidol dose for a combative patient?",
    "options": [
     "0.1 mg/kg IM",
     "2.5 – 10 mg IM",
@@ -2220,7 +2220,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 2.04 say should take priority over physical restraint and pharmacologic management?",
+   "stem": "When managing a combative patient, what should take priority over physical restraint and pharmacologic management?",
    "options": [
     "De-escalation techniques",
     "Physical restraint",
@@ -2244,7 +2244,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which scale does 2.04 direct providers to use in documenting sedation and restraint?",
+   "stem": "Which scale should be used to document sedation and restraint of a combative patient?",
    "options": [
     "RASS",
     "GCS",
@@ -2252,7 +2252,7 @@
     "CAM-ICU"
    ],
    "answer_index": 0,
-   "explanation": "The Richmond Agitation Sedation Scale is printed in the PEARLS band and is the tool for both the decision to sedate and the documentation of its effect. 2.01 requires a pain and/or RASS score whenever you dose outside the guideline.",
+   "explanation": "The Richmond Agitation Sedation Scale is printed in the PEARLS band and is the tool for both the decision to sedate and the documentation of its effect. The Basic Approach to All Patient Contacts requires a pain and/or RASS score whenever you dose outside the guideline.",
    "priority": "detail",
    "tags": [
     "topic:rass",
@@ -2268,7 +2268,7 @@
    "type": "adverse",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which medication does 2.04 direct for a dystonic reaction caused by droperidol?",
+   "stem": "Which medication is used for a dystonic reaction caused by droperidol?",
    "options": [
     "Diphenhydramine",
     "Midazolam",

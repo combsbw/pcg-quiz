@@ -1,0 +1,531 @@
+{
+ "q_68220b77e2": {
+  "stem": "Which patient meets the indication for pericardiocentesis?",
+  "explanation": "The pericardiocentesis guideline lists only pericardial effusion/tamponade with cardiovascular instability, or a physician order. A stable effusion is not drained in transport, and obstructive shock from a tension pneumothorax is treated by chest decompression instead."
+ },
+ "q_6d7abab359": {
+  "stem": "Pericardiocentesis is not covered by standing orders in any patient care guideline. What must be obtained before a crew performs it?"
+ },
+ "q_933bec9812": {
+  "stem": "Which complication is listed for pericardiocentesis?"
+ },
+ "q_797954f5b9": {
+  "stem": "Where is the needle inserted for pericardiocentesis?"
+ },
+ "q_135b72d5db": {
+  "stem": "During needle advancement for pericardiocentesis, which finding indicates epicardial contact and requires the needle be withdrawn?"
+ },
+ "q_708cb30a0c": {
+  "stem": "After the initial aspiration during pericardiocentesis, what does the crew do with the needle and catheter?"
+ },
+ "q_a5147c6a1d": {
+  "stem": "Cardiac tamponade is a form of obstructive shock. What is directed for ventilation and preload in these patients?"
+ },
+ "q_9b1946cfa5": {
+  "stem": "To which patients is pericardiocentesis limited?"
+ },
+ "q_dc884126f0": {
+  "stem": "Which patient meets the indication for push dose vasopressors?"
+ },
+ "q_519079e9f2": {
+  "stem": "Which patient is listed as a contraindication to push dose vasopressors?"
+ },
+ "q_3dfd4da732": {
+  "stem": "Which push dose vasopressor is preferred for a hypotensive patient who is bradycardic with no suspected cardiac ischemia?"
+ },
+ "q_3b1b49332d": {
+  "stem": "After push dose epinephrine is prepared as directed, what is the concentration in the syringe?"
+ },
+ "q_967e38aecf": {
+  "stem": "When preparing push dose epinephrine, what is done to the 10 mL saline flush before the epinephrine is added?"
+ },
+ "q_5d9d7167c8": {
+  "stem": "How is norepinephrine mixed for push dose use?"
+ },
+ "q_eb85828ce3": {
+  "stem": "What is the final concentration of the push dose norepinephrine mixture?"
+ },
+ "q_af75e89a9d": {
+  "stem": "When guiding fluids and push dose pressors, what shock index value is highly sensitive for occult shock?",
+  "explanation": "A shock index of 0.8 or more flags occult shock before the blood pressure falls, and may guide fluids and push dose pressors. The higher age-banded values of 0.9, 1.0 and 1.22 belong to the RSI pre-intubation optimization check."
+ },
+ "q_10c9ea1a5e": {
+  "stem": "Which Glasgow Coma Scale value is given as the example of altered mental status warranting RSI?"
+ },
+ "q_b3b92a5c37": {
+  "stem": "In which situation is a patient intubated without RSI?",
+  "explanation": "RSI has no absolute contraindications, but cardiac arrest, a difficult airway and a crash airway are intubated without the RSI sequence. Shock, combativeness and failure to protect the airway are indications for RSI, not reasons to skip it."
+ },
+ "q_65f45ce3d4": {
+  "stem": "What endotracheal tube preparation does the RSI Preparation step require?"
+ },
+ "q_3ce1e37f2e": {
+  "stem": "During RSI, how should the patient be positioned for intubation when spinal motion restriction does not apply?"
+ },
+ "q_d7571571ca": {
+  "stem": "What pre-oxygenation is directed before RSI?"
+ },
+ "q_ec45404707": {
+  "stem": "Despite five minutes of pre-oxygenation an RSI candidate's SpO2 remains 93%. What should be done next?"
+ },
+ "q_91935e710a": {
+  "stem": "In delayed sequence intubation, what ketamine dose is given first to the agitated patient who will not tolerate the mask?"
+ },
+ "q_ca55f3243a": {
+  "stem": "Hemodynamic resuscitation is required before any RSI medication is given if the patient is hypotensive. What systolic pressures define that?"
+ },
+ "q_0aa524536e": {
+  "stem": "In the RSI pre-intubation optimization check, what shock index is positive in a patient aged 13 or older?"
+ },
+ "q_3b10b2e693": {
+  "stem": "RSI includes a pre-treatment medication for patients 28 days old or younger. A three-week-old is to be intubated — what is given?"
+ },
+ "q_5b77f2acf2": {
+  "stem": "A pediatric patient is to be induced with midazolam for RSI. What pre-treatment is given, and when is it withheld?"
+ },
+ "q_94366ac9db": {
+  "stem": "What is the induction dose of ketamine for RSI?"
+ },
+ "q_2f7e37a38c": {
+  "stem": "During RSI, how long should the crew wait after ketamine before giving the paralytic?"
+ },
+ "q_ea0331a64b": {
+  "stem": "Which RSI induction agent requires the paralytic be administered immediately after it is given?",
+  "explanation": "Etomidate's effect is brief, so a delayed paralytic means the patient wakes mid-procedure; the RSI guideline also requires post-intubation sedation and analgesia be drawn up before it is given. Ketamine waits 30 seconds and midazolam three minutes."
+ },
+ "q_91abef5825": {
+  "stem": "What is the maximum adult dose of etomidate for RSI?"
+ },
+ "q_07c0f6399a": {
+  "stem": "What is the pediatric induction dose of midazolam for RSI?"
+ },
+ "q_6e4deed19d": {
+  "stem": "What is the maximum dose of succinylcholine for RSI?",
+  "explanation": "Succinylcholine is 1-2 mg/kg IV to a maximum of 200 mg, and the RSI guideline states the dose is not repeated. 100 mg is the rocuronium ceiling, 40 mg and 20 mg the adult and pediatric etomidate ceilings."
+ },
+ "q_baf6de5ee7": {
+  "stem": "Succinylcholine is the first-line paralytic for RSI except in certain patients. Which patient should receive a different paralytic?",
+  "explanation": "Succinylcholine is first line unless the patient is under 10 years old or has other contraindications — the RSI guideline also directs avoiding it when potassium is 6 mEq/L or above. Hypotension and head injury change the induction agent and its dose, not the paralytic."
+ },
+ "q_e81baa2776": {
+  "stem": "What is the intramuscular dose of rocuronium for RSI?"
+ },
+ "q_593907ef29": {
+  "stem": "During an RSI intubation attempt the patient's SpO2 drops below 90%. What should the crew do?"
+ },
+ "q_c31a8d6b85": {
+  "stem": "During RSI, how many intubation attempts are allowed per team member?"
+ },
+ "q_bccc370dfb": {
+  "stem": "An adult RSI patient remains bradycardic despite adequate re-oxygenation. What atropine dose is given?",
+  "explanation": "The RSI guideline first directs stopping the attempt, then atropine 1 mg IV every 3-5 minutes to a 3 mg ceiling in adults; the pediatric equivalent is 0.02 mg/kg on the same interval. Persistent bradycardia after re-oxygenation means vagal tone, not hypoxia alone."
+ },
+ "q_18e6fe4eec": {
+  "stem": "ETCO2 is mandatory with all RSI intubations. If there is no consistent ETCO2 waveform, what is directed?"
+ },
+ "q_b2eab9335b": {
+  "stem": "After intubation, how is ETT depth at the incisors estimated in a patient 5 feet tall or taller?"
+ },
+ "q_95e01882a2": {
+  "stem": "What ETT cuff pressure is targeted in an adult after intubation?"
+ },
+ "q_622b3bc5a4": {
+  "stem": "To maintain paralysis in a patient already intubated and paralysed, what rocuronium dose is given?",
+  "explanation": "Maintenance is half the induction dose — 0.5 mg/kg IV repeated every 30 minutes or more often as needed. The RSI guideline adds that not every patient needs ongoing paralysis; analgesia and sedation come first, with paralysis reserved for combativeness, patient size or crew safety."
+ },
+ "q_9bf9c06a08": {
+  "stem": "To re-initiate paralysis in an intubated patient who is no longer paralysed, what rocuronium doses are given?"
+ },
+ "q_4ec2c043b1": {
+  "stem": "Which intubated patients should be placed on a ventilator for transport?",
+  "explanation": "The RSI guideline requires the ventilator regardless of estimated transport time, because hand ventilation drifts in rate and volume exactly when a freshly intubated patient can least tolerate hypo- or hyperventilation."
+ },
+ "q_c5e532b48d": {
+  "stem": "What must be documented before the clinical chart for an intubation is finalised?",
+  "explanation": "The RSI guideline states the procedure must not be documented as successful without naming the physician who verified placement. If the crew is later told placement was incorrect, they must notify the CMOC immediately and complete a QM report."
+ },
+ "q_2aba5ef8b9": {
+  "stem": "Laryngospasm develops during intubation. After stopping and ventilating with 100% oxygen via BVM with 10 cmH2O PEEP, which maneuver is directed?"
+ },
+ "q_dd61c0bc7b": {
+  "stem": "If laryngospasm persists during RSI, the crew should ensure the patient has received what dose of ketamine before the paralytic is given?"
+ },
+ "q_e24b9c2298": {
+  "stem": "A patient develops increased muscle tone with tonic and clonic movements after ketamine given for RSI. How is this characterised?"
+ },
+ "q_4ab6d4b38b": {
+  "stem": "The RSI nomogram gives ETT depth by height. What depth does it give for a patient 5 feet 10 inches tall?"
+ },
+ "q_5fb85ecd3e": {
+  "stem": "What is directed for an intubated (advanced airway) patient each time they are moved between surfaces?"
+ },
+ "q_760b874e55": {
+  "stem": "What is the indication for spinal motion restriction?",
+  "explanation": "Spinal motion restriction has a single indication — suspected spinal injury — and no contraindications. Which patients count as suspected is settled by the nine-item SMR assessment, not by mechanism alone."
+ },
+ "q_93b64aa488": {
+  "stem": "A trauma patient smells strongly of alcohol, denies any pain and moves all four extremities normally. What does the spinal motion restriction (SMR) assessment direct?"
+ },
+ "q_74b0cca571": {
+  "stem": "A child is found with torticollis after a fall. How should spinal motion restriction be handled?"
+ },
+ "q_736c246288": {
+  "stem": "A reliable, ambulatory patient on scene meets spinal motion restriction criteria. How should they get onto the stretcher?"
+ },
+ "q_d311c74d5d": {
+  "stem": "A patient with altered mental status needing spinal motion restriction required extrication on a scoop and is now on the stretcher. What is done next?"
+ },
+ "q_8d39824579": {
+  "stem": "Which device is preferred for moving a patient who requires spinal motion restriction?"
+ },
+ "q_f8ce537bf6": {
+  "stem": "When considering spinal motion restriction, which patients are identified as more prone to skeletal injury from even minimal traumatic insult?"
+ },
+ "q_2bb712c2e0": {
+  "stem": "Under spinal motion restriction, when is transporting a patient on a hard backboard accepted?"
+ },
+ "q_a9b6cb21de": {
+  "stem": "Who determines the need for continued spinal immobilisation during transport?"
+ },
+ "q_117e551334": {
+  "stem": "Which airway risk applies to every patient immobilised for spinal motion restriction?"
+ },
+ "q_e551601829": {
+  "stem": "For surgical cricothyrotomy, where is the cricothyroid membrane located?"
+ },
+ "q_757c273775": {
+  "stem": "For surgical cricothyrotomy, the cricothyroid membrane sits approximately three to four finger breadths above which landmark?"
+ },
+ "q_cae21b08d6": {
+  "stem": "During a surgical cricothyrotomy the crew cannot palpate the cricothyroid membrane. What should they do?"
+ },
+ "q_c75d33cc35": {
+  "stem": "How should a patient be positioned for surgical cricothyrotomy when no c-spine injury is suspected?",
+  "explanation": "Mid-hyperextension pushes the larynx forward and makes the cartilages palpable. Ear-to-sternum positioning belongs to oral intubation during RSI, where the goal is a line of sight, not an exposed neck."
+ },
+ "q_b0733e98a6": {
+  "stem": "After the pinpoint incision in a surgical cricothyrotomy, how is the Ruiz hook used?"
+ },
+ "q_05146da47c": {
+  "stem": "In a surgical cricothyrotomy, how is the scalpel used to puncture the cricothyroid membrane?"
+ },
+ "q_8a5cba3a37": {
+  "stem": "During a surgical cricothyrotomy, after the scalpel blade is removed from the membrane, what is done with the scalpel handle?"
+ },
+ "q_31965e5f13": {
+  "stem": "At what point is the Ruiz hook removed during a surgical cricothyrotomy?",
+  "explanation": "The surgical cricothyrotomy guideline notes it is not uncommon for the tube to end up outside the trachea, so the hook — the only thing holding the airway open and findable — stays until ETCO2, lung sounds and a rising SpO2 confirm placement."
+ },
+ "q_26b70afbc5": {
+  "stem": "How is tube placement verified after a surgical cricothyrotomy?"
+ },
+ "q_2c9313dcd4": {
+  "stem": "Which finding after a surgical cricothyrotomy signals incorrect placement?"
+ },
+ "q_196cdd22cf": {
+  "stem": "Once the airway is secured by surgical cricothyrotomy, what is directed for the patient?"
+ },
+ "q_11afd43a1a": {
+  "stem": "What is the indication for synchronized cardioversion?",
+  "explanation": "Instability is what makes a tachycardia a cardioversion problem rather than a drug problem. Pulseless VT is defibrillated, not cardioverted, and bradycardia belongs to transcutaneous pacing."
+ },
+ "q_6ca2115b3b": {
+  "stem": "Which rhythm is a contraindication to synchronized cardioversion?"
+ },
+ "q_816c24cfbe": {
+  "stem": "Which hands-free therapy pad placement is preferred for synchronized cardioversion?"
+ },
+ "q_437e5cca64": {
+  "stem": "Which ECG source is recommended during synchronized cardioversion?"
+ },
+ "q_5cf479fc3a": {
+  "stem": "Which additional intervention should the crew consider before synchronized cardioversion?"
+ },
+ "q_a6af12ffae": {
+  "stem": "A first synchronized shock has been delivered and a second is needed. What must be done before shocking again?"
+ },
+ "q_04984a128c": {
+  "stem": "When hands-free pads are used as the ECG source during synchronized cardioversion, when does the signal degrade?"
+ },
+ "q_11d36aded1": {
+  "stem": "What is the indication for a CAT tourniquet?"
+ },
+ "q_f7413ca490": {
+  "stem": "Which bleeding is a contraindication to the CAT tourniquet?"
+ },
+ "q_1c25fad84f": {
+  "stem": "Where is the CAT tourniquet band placed relative to the injury?"
+ },
+ "q_fa9d8fc2ed": {
+  "stem": "What is the endpoint for twisting the windlass rod of a CAT tourniquet?"
+ },
+ "q_6f9656d6c7": {
+  "stem": "After the CAT tourniquet windlass rod is locked with the clip, what should be done?"
+ },
+ "q_2967c34089": {
+  "stem": "How is a partial amputation managed once the CAT tourniquet is on?"
+ },
+ "q_50dd3ba4d4": {
+  "stem": "What is the indication for transcutaneous pacing?"
+ },
+ "q_76c8f93826": {
+  "stem": "Which lead should be selected before starting transcutaneous pacing?"
+ },
+ "q_5155f4480f": {
+  "stem": "Which pacer mode is set for transcutaneous pacing?"
+ },
+ "q_1b607bf2fe": {
+  "stem": "An unstable bradycardic patient has an intrinsic rate of 38. What transcutaneous pacer rate is set?"
+ },
+ "q_741a654af0": {
+  "stem": "A patient being transcutaneously paced has no intrinsic rate at all. What pacer rate is set?",
+  "explanation": "With nothing to pace above, the transcutaneous pacing guideline sets a default of 80 ppm — enough to generate cardiac output without the demand cost of a faster rate."
+ },
+ "q_990d661e7c": {
+  "stem": "During transcutaneous pacing, by what step does the pacer rate change for rates below 100 ppm?"
+ },
+ "q_4f03ef9ad9": {
+  "stem": "During transcutaneous pacing, how is the pacer output in milliamps adjusted?"
+ },
+ "q_5eef66b2e3": {
+  "stem": "How is electrical capture defined during transcutaneous pacing?"
+ },
+ "q_1ee7ce28e0": {
+  "stem": "Which pulse sites may be used to assess mechanical capture during transcutaneous pacing?"
+ },
+ "q_6eec200027": {
+  "stem": "Once capture has been achieved in transcutaneous pacing, what pacer output is ideal?"
+ },
+ "q_b7e39f3db9": {
+  "stem": "Which finding allows a crew to withhold resuscitation as a death in the field?"
+ },
+ "q_68cbac1bd3": {
+  "stem": "A patient is found pulseless and apneic after an electrocution. What should the crew do?",
+  "explanation": "The Death in the Field guideline singles out electrocution, lightning and drowning as special considerations: most such victims should have resuscitative efforts started and be transported, because the arrest is often primary and reversible in an otherwise healthy person."
+ },
+ "q_bf8436ca32": {
+  "stem": "A pulseless, apneic patient does not meet DEATH IN THE FIELD criteria but is suspected to be a candidate for withholding resuscitation. What should the crew do?"
+ },
+ "q_6b04e4cce4": {
+  "stem": "A family produces a hospital DNR order for a patient who has arrested at home. How should the crew treat it?"
+ },
+ "q_c418347267": {
+  "stem": "An Oregon patient's original POLST cannot be produced, so the crew contacts the POLST Registry. What can the Registry do?"
+ },
+ "q_ec54cf997a": {
+  "stem": "Whose signature makes a POLST Do Not Attempt Resuscitation order one that EMS providers may honour?"
+ },
+ "q_011848d921": {
+  "stem": "What must a POLST form contain to be valid?",
+  "explanation": "Those three elements are all that is required, and the Death in the Field guideline adds that the forms do not expire and the patient's signature is optional. A crew refusing an otherwise valid POLST because the patient did not sign it is withholding a lawful order."
+ },
+ "q_2cfe887d6d": {
+  "stem": "How does POLST Section A differ from Section B?",
+  "explanation": "Section A governs resuscitation in arrest; Section B governs the level of treatment in every other situation. That split is why the Death in the Field guideline stresses that DNR does not mean do not treat."
+ },
+ "q_a523fbc6c5": {
+  "stem": "A patient cannot make medical decisions and has no legal guardian and no health care power of attorney. Who is next in line as the legally authorised representative?",
+  "explanation": "The order is legal guardian, then health care power of attorney, then spouse or legal domestic partner, then adult children, then parent. When in doubt, or if there is unresolved conflict on scene, the guideline directs contacting OLMC."
+ },
+ "q_37abe0f164": {
+  "stem": "A crew has questions about the validity or enforceability of a health care instruction. What should they do?"
+ },
+ "q_0c70c0e8b3": {
+  "stem": "A pre-established hospice patient dies during transport. What may the crew do?"
+ },
+ "q_2863c217eb": {
+  "stem": "How should crews tell family and friends about a death?",
+  "explanation": "Euphemisms leave families uncertain about what has actually happened, so the Death in the Field guideline directs honest, plain language. It also directs avoiding past-tense terms when speaking about the recently dead to survivors."
+ },
+ "q_4757cca5f5": {
+  "stem": "On a scene call, statewide protocols, patient preference and local EMS direction do not settle the destination. Where should the patient be taken?",
+  "explanation": "Destination Determination ranks statewide destination protocols, patient preference and local EMS or OLMC direction first; in the absence of those, the default is the closest appropriate facility for the patient's illness and condition."
+ },
+ "q_3b2bb2f671": {
+  "stem": "For destination determination, what distinguishes a Level I from a Level II trauma facility?",
+  "explanation": "Both provide definitive care for severely injured patients — the difference the Destination Determination guideline names is education and research. That matters because bypassing a Level II for a distant Level I does not buy better definitive care."
+ },
+ "q_44395fbe8f": {
+  "stem": "Transport destination is not addressed in statewide protocols or in LFN destination policy. By what extra transport time to the definitive-care hospital should the crew contact the closest facility for advice?",
+  "explanation": "When definitive care costs more than 30 extra minutes over the closest hospital and no protocol settles it, the Destination Determination guideline directs strongly considering a call to the closest facility for advice on destination."
+ },
+ "q_7a221c4f2b": {
+  "stem": "A patient requests a facility beyond the closest appropriate one. At what distance should they be advised their insurance may not cover the additional cost?"
+ },
+ "q_426de52b85": {
+  "stem": "A patient with decision-making capacity insists on a destination the crew considers less than optimal. What should the crew do?"
+ },
+ "q_9635ad51ae": {
+  "stem": "Why is the presence of an extremity tourniquet singled out in destination determination?"
+ },
+ "q_bedd26556d": {
+  "stem": "Who determines patient destination for an interfacility transfer?",
+  "explanation": "The sending provider decides, and under EMTALA is responsible for ensuring the transfer is appropriate. This is the opposite of a scene call, where the crew works through the destination determination factors."
+ },
+ "q_dd46a42c38": {
+  "stem": "For flights originating in Idaho, where are Level 1 and 2 pediatric traumas preferentially transported?"
+ },
+ "q_94b5d221b6": {
+  "stem": "An Idaho prehospital trauma patient meets Priority 1 criteria on the TSE Field Trauma Triage Guidelines. Where should they be transported?"
+ },
+ "q_758bae20a7": {
+  "stem": "An Idaho prehospital trauma patient meets Priority 3 criteria. Where should they be transported?"
+ },
+ "q_c1900d063c": {
+  "stem": "Within what transport time may a prehospital STEMI patient be taken to the closest facility with a cardiac catheterisation lab?"
+ },
+ "q_2994d6a420": {
+  "stem": "Under the Hawaii transport guidelines, which Glasgow Coma Scale value places a trauma patient in Triage Category 1?"
+ },
+ "q_7bc81024b0": {
+  "stem": "Under the Hawaii transport guidelines, what fall height places an adult in Trauma Triage Category 3?"
+ },
+ "q_42fc65d90a": {
+  "stem": "A patient meets Hawaii Trauma Triage Category 3 criteria. Which destination do the Hawaii transport guidelines give?"
+ },
+ "q_1ec16069e5": {
+  "stem": "Within what time from last known well must tPA be given, per the Washington stroke triage procedure?"
+ },
+ "q_e3a0e7fad0": {
+  "stem": "By what time since last known well must thrombectomy begin, per the Washington stroke triage procedure?"
+ },
+ "q_bf13e7b2b0": {
+  "stem": "In the stroke severity score used for Washington stroke destination decisions, how many points does an arm that falls rapidly score?"
+ },
+ "q_1da801ac7d": {
+  "stem": "A stroke patient scores 5 on the severity score and was last known well 3 hours ago. What does the Washington stroke triage procedure direct?"
+ },
+ "q_3afffc56ea": {
+  "stem": "A severe stroke patient is within 6 hours of last known well. Under the Washington stroke triage procedure, how much extra travel time is allowed to reach a thrombectomy centre rather than the nearest stroke centre?"
+ },
+ "q_033a899f7c": {
+  "stem": "When does the Washington stroke triage procedure direct calling a stroke alert to the destination hospital?"
+ },
+ "q_819f2fc4da": {
+  "stem": "Which items does the Washington stroke triage procedure require be documented on a stroke transport?"
+ },
+ "q_99cddd69f7": {
+  "stem": "Under the Washington trauma triage procedure, within what transport time should a patient meeting red criteria reach a Level I or II trauma service?"
+ },
+ "q_eabbb9e1f0": {
+  "stem": "Under the Washington trauma triage procedure, a red-criteria patient is more than 30 minutes from any Level I or II trauma service. Where do they go?"
+ },
+ "q_1b9cc4371b": {
+  "stem": "A trauma patient's airway cannot be maintained. What does the Washington trauma triage procedure suggest?"
+ },
+ "q_4a4b04d75a": {
+  "stem": "Where does the Washington trauma triage procedure direct a patient with combined burns and trauma?"
+ },
+ "q_e513fdc4a7": {
+  "stem": "A physician on scene offers assistance and medical direction. What must Life Flight Network personnel do first?",
+  "explanation": "In all cases the crew first establishes who the physician is and what their specialty is, because the specialty must be pertinent to the patient's condition before the offer can be accepted. Everything else in the Physician On Scene policy follows from that determination."
+ },
+ "q_74dc240e97": {
+  "stem": "Where must an on-scene physician hold a current license to practice medicine before they may provide assistance or medical direction?"
+ },
+ "q_0f6f72c6d7": {
+  "stem": "Whose approval is required before an on-scene physician may accompany the patient on a fixed-wing or rotor-wing transport?"
+ },
+ "q_4a8a35ecd6": {
+  "stem": "Which physicians are exempt from the LFN Physician On Scene policy, provided they are licensed to practice in the state where the call occurs?"
+ },
+ "q_b0606d0021": {
+  "stem": "An exempt physician on scene orders an intervention that is outside the crew's scope of practice and training. What should the crew do?",
+  "explanation": "At no time will LFN personnel render care outside their scope of practice and training at the direction of a physician on scene — and the Physician On Scene policy states this applies to the exempt physicians as well."
+ },
+ "q_2a637cee09": {
+  "stem": "When a physician is on scene, when must a Quality Management (QM) report be completed?"
+ },
+ "q_8fd2164d4e": {
+  "explanation": "The Physician On Scene policy sets a retention floor of 25 years for the signed electronic chart, which is why the crew must secure the physician's verbal agreement to sign at the time of the event."
+ },
+ "q_855b734b7c": {
+  "stem": "When assessing whether a patient refusing care has reasonable medical decision-making capacity, what must the patient be able to do with the risks of refusal?"
+ },
+ "q_1ba4202b54": {
+  "stem": "A patient who has taken an intentional overdose is awake, oriented, and refusing transport. What should the crew do?",
+  "explanation": "Intentional overdose is one of the categories LFN's refusal policy says may not refuse care, alongside attempted or threatened suicide, gross intoxication, minors and inadequate capacity. Apparent alertness does not restore the right to refuse in these patients."
+ },
+ "q_f9a83ae215": {
+  "stem": "For aviation safety reasons, what should the crew consider for a patient who cannot refuse care and is agitated or combative?",
+  "explanation": "An agitated patient who cannot legally refuse still has to be flown safely, so the refusal policy explicitly raises sedation or RSI as an aviation-safety consideration rather than a purely clinical one."
+ },
+ "q_739f125a77": {
+  "stem": "Whenever possible, what is preferable when an individual is refusing transport altogether?"
+ },
+ "q_a81d573047": {
+  "stem": "Which document must be used when a patient refuses a recommended treatment, refuses air transport, or refuses transport altogether?"
+ },
+ "q_4780d1da51": {
+  "stem": "Crew acting as patient advocates may speak with a refusing patient's family or friends. What constraint applies to that conversation?"
+ },
+ "q_e566e7fae8": {
+  "stem": "A 17-year-old in Idaho who is in active military service wishes to refuse transport. May they sign the refusal of treatment form?"
+ },
+ "q_1492645b30": {
+  "stem": "What makes a patient under 18 in Washington emancipated and therefore able to refuse treatment?"
+ },
+ "q_170b56e9e1": {
+  "stem": "In which of the four states covered by LFN's Safe Haven guideline may EMS personnel themselves serve as a Safe Haven accepting provider?",
+  "explanation": "Idaho lists certified first responders, EMTs and paramedics among its Safe Haven providers. Oregon, Montana and Washington all exclude EMS providers outside of fire departments, so their statutes are included in the Safe Haven guideline as a resource only."
+ },
+ "q_bb0a0e2dd4": {
+  "stem": "Under Idaho's Safe Haven Act, up to what age may a custodial parent leave their baby?"
+ },
+ "q_49262f9feb": {
+  "stem": "Under Washington's Safe Haven law, a newborn is defined as a live human being younger than what age?"
+ },
+ "q_4ee17abf6f": {
+  "stem": "Under Montana's Safe Haven provisions, what condition must be met for a newborn surrender in addition to the age limit?"
+ },
+ "q_1fb68f8bb9": {
+  "stem": "A parent presents an infant to an Idaho crew as a Safe Haven and law enforcement is neither present nor en route. What should the crew do?",
+  "explanation": "The Communications Center arranges law enforcement so the infant can be placed in protective custody. The crew does not detain the parent — the Safe Haven guideline is built around letting the parent leave anonymously."
+ },
+ "q_ffc2f9a56b": {
+  "stem": "What is directed regarding the identity of a parent surrendering an infant under the Safe Haven Act?"
+ },
+ "q_987b8c42d7": {
+  "stem": "How should a Safe Haven infant be transported to the hospital?"
+ },
+ "q_9951e9c60c": {
+  "stem": "What primary impression should the crew document in the patient care record for a Safe Haven infant?"
+ },
+ "q_9d0ad6d227": {
+  "stem": "Which location is an appropriate Safe Haven location under Washington law but not under Oregon law?"
+ },
+ "q_b1380b870c": {
+  "stem": "What two things must be in place before termination of resuscitation during transport can be performed at all?"
+ },
+ "q_2bc608fdad": {
+  "explanation": "A full 60 seconds of auscultation is required to verify absent heart tones, which is why the Termination of Resuscitation During Transport guideline stresses getting the patient out of the aircraft where pulses, heart sounds and airway can actually be evaluated."
+ },
+ "q_4998d73c2a": {
+  "explanation": "Inside 15 minutes, the Termination of Resuscitation During Transport guideline directs the crew to finish the transport and unload the patient before deciding, because pulses, heart sounds and airway status can be evaluated far better on the ground than in the aircraft."
+ },
+ "q_adb56b11f6": {
+  "stem": "Transport time to the original destination hospital is greater than 15 minutes. Under what condition may resuscitation be terminated during transport?"
+ },
+ "q_5e8995b810": {
+  "stem": "During transport the crew cannot reach on-line medical control, and termination of resuscitation falls within their state scope of practice. What may they do?",
+  "explanation": "Failure to reach OLMC does not block termination if the crew's state scope allows it; if it does not, the guideline directs them to continue the transport instead."
+ },
+ "q_c620ed3178": {
+  "stem": "What recordings must be obtained and uploaded to the PCR at the time resuscitation is terminated during transport?"
+ },
+ "q_33b4245916": {
+  "stem": "A 34-year-old in medical cardiac arrest meets every other termination of resuscitation criterion but is known to be 22 weeks pregnant. What should the crew do?"
+ },
+ "q_80e76da211": {
+  "stem": "Resuscitation is terminated aboard a rotor-wing aircraft in flight. What should the crew do?"
+ },
+ "q_fc19e7c6ef": {
+  "stem": "Resuscitation is terminated in an LFN ground ambulance. What should the crew do?"
+ },
+ "q_1eac0bf116": {
+  "stem": "After termination of resuscitation aboard a fixed-wing aircraft, where should the crew go?"
+ },
+ "q_a1de83b8d7": {
+  "stem": "A patient's findings do not meet the LAPSS screening criteria. What do the stroke scales note about this patient?"
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "q_048a0a7c15": {
+  "explanation": "Nitroglycerin is a venodilator that drops preload, so the formulary sets an SBP floor of >100 mmHg for the SL route. The >90 figure belongs to the infusion target and the >120 figure to the IV bolus."
+ },
+ "q_a807c943d5": {
+  "stem": "Which phosphodiesterase inhibitor bars nitroglycerin if taken within the previous 24 hours (rather than the 48-hour window)?",
+  "explanation": "Nitroglycerin has two exclusion windows: sildenafil within 24 hours, and vardenafil or tadalafil within 48 hours. Combining either with a nitrate can produce profound, refractory hypotension."
+ },
+ "q_fbd3c142bf": {
+  "stem": "Which of these is an adverse reaction to nitroglycerin?"
+ },
+ "q_c74e8d4810": {
+  "stem": "Which diluent is required for a nitroprusside infusion?"
+ },
+ "q_c78cb14bd5": {
+  "stem": "What handling precaution applies once nitroprusside is mixed?"
+ },
+ "q_03bf9c87ca": {
+  "stem": "Which toxicity is associated with prolonged or high-dose nitroprusside administration?"
+ },
+ "q_78bcd5b7b1": {
+  "stem": "Which condition is a contraindication to nitroprusside?"
+ },
+ "q_0c34ad32c8": {
+  "stem": "Which of these is an adverse reaction to norepinephrine?"
+ },
+ "q_eda96bf68d": {
+  "stem": "When may the norepinephrine maximum of 45 mcg/min be exceeded?"
+ },
+ "q_b96ab6e6d4": {
+  "stem": "Which metabolic derangement can octreotide cause?"
+ },
+ "q_a86e840670": {
+  "stem": "Which ECG finding is a contraindication to ondansetron?"
+ },
+ "q_f4b5506149": {
+  "stem": "What limitation applies to ondansetron's effectiveness?"
+ },
+ "q_d26e46c675": {
+  "stem": "In postpartum hemorrhage with no IV access available, what oxytocin dose is given?"
+ },
+ "q_fb64859cd2": {
+  "stem": "Which condition is a contraindication to oxytocin?"
+ },
+ "q_ed29396288": {
+  "stem": "Which of these is an adverse reaction to oxytocin?"
+ },
+ "q_9c43d6b46a": {
+  "stem": "Which paradoxical reaction can phenobarbital cause in pediatric patients?"
+ },
+ "q_7899629438": {
+  "stem": "An adult in DKA has a potassium of 4.8. How much potassium chloride, if any, is added to maintenance fluids?"
+ },
+ "q_f940e09260": {
+  "stem": "An adult in DKA has a potassium of 3.2. How much potassium chloride, if any, is added to maintenance fluids?"
+ },
+ "q_16d22cd3c4": {
+  "stem": "In DKA, above what potassium level is no potassium chloride added to maintenance fluids?"
+ },
+ "q_b533753478": {
+  "stem": "A pediatric DKA patient has a potassium of 4.8. How much potassium chloride, if any, is added to maintenance fluids?"
+ },
+ "q_2397479eb6": {
+  "stem": "Below what potassium level is IV potassium chloride replacement given to an asymptomatic hypokalemic patient?"
+ },
+ "q_d8f06b7d93": {
+  "stem": "Which route of potassium chloride administration is prohibited outright?"
+ },
+ "q_62434fe1e9": {
+  "stem": "A patient has organophosphate NERVE AGENT poisoning. How is the pralidoxime dose determined?"
+ },
+ "q_626e1b1a69": {
+  "stem": "Which patient group is a contraindication to promethazine?"
+ },
+ "q_9213568848": {
+  "stem": "A patient develops a dystonic reaction after promethazine. Which drug is used to treat it?"
+ },
+ "q_f2b6c10826": {
+  "stem": "In which patients should the promethazine dose be reduced?"
+ },
+ "q_2678f431c5": {
+  "stem": "Which of these is an adverse reaction to promethazine?"
+ },
+ "q_2e7aba06c8": {
+  "stem": "An adult already receiving a propofol infusion remains inadequately sedated. What is the next step?"
+ },
+ "q_f3682b04c9": {
+  "stem": "Which allergy is a contraindication to propofol?"
+ },
+ "q_4afdddfa0b": {
+  "stem": "How must a propofol IV bolus be delivered?"
+ },
+ "q_ac143312f1": {
+  "stem": "Why is analgesia usually required alongside propofol?"
+ },
+ "q_f0cc9caa61": {
+  "stem": "Which of these is an adverse reaction to racemic epinephrine?"
+ },
+ "q_1713701675": {
+  "stem": "In which patients is rocuronium the paralytic agent of choice?"
+ },
+ "q_1a710260a2": {
+  "stem": "In TCA overdose, above what heart rate is a sodium bicarbonate bolus given?"
+ },
+ "q_4baa63a70a": {
+  "stem": "A pediatric TCA overdose patient has a QRS of 180 ms. What sodium bicarbonate bolus is given?"
+ },
+ "q_5b5a4e97e2": {
+  "stem": "Which risk limits sodium bicarbonate use in pediatric patients?"
+ },
+ "q_aa9ebea8d4": {
+  "stem": "When is sodium bicarbonate indicated during cardiac arrest?"
+ }
+}

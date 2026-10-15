@@ -115,9 +115,11 @@ def numbers_in(s: str) -> set:
 # is a dose — so only real section numbers count, and only when no unit
 # follows.
 _SECTIONS: set = set()
+# The unit must end at a word boundary: without that, "list" read as litres
+# and "give" as grams, and "does 12.23 list dobutamine" slipped through.
 UNIT_AFTER = re.compile(
-    r"^\s*(mg|mcg|g|kg|ml|mL|l|L|meq|mEq|units?|%|j|J|cm|mm|mmhg|mmHg|"
-    r"hours?|hrs?|min|minutes?|seconds?|sec|lpm|LPM|kg/|mcg/|mg/|ml/|mL/)",
+    r"^\s*(mg|mcg|g|kg|ml|l|meq|units?|j|cm|mm|mmhg|"
+    r"hours?|hrs?|min|minutes?|seconds?|sec|lpm)(?![a-z])|^\s*%",
     re.I)
 
 

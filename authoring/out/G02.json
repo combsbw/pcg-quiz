@@ -8,7 +8,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Under 2.05, what oxygen saturation should supplemental oxygen be titrated to keep in most patients?",
+   "stem": "In general respiratory care, what oxygen saturation should supplemental oxygen be titrated to keep in most patients?",
    "options": [
     "> 94%",
     "> 90%",
@@ -16,7 +16,7 @@
     "≥ 87%"
    ],
    "answer_index": 0,
-   "explanation": "The BLS default target in 2.05 is SpO2 > 94%. The other numbers in this guideline are deliberate exceptions — > 95% for trauma at risk of ischemic injury, > 90% for cardiac patients, and ≥ 87% as the floor tolerated in COVID-19/ARDS when oxygen supply limits transport.",
+   "explanation": "The BLS default target in General Respiratory Care is SpO2 > 94%. The other numbers in this guideline are deliberate exceptions — > 95% for trauma at risk of ischemic injury, > 90% for cardiac patients, and ≥ 87% as the floor tolerated in COVID-19/ARDS when oxygen supply limits transport.",
    "priority": "core",
    "tags": [
     "topic:oxygenation",
@@ -31,7 +31,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What SpO2 does 2.05 direct for trauma patients at risk for ischemic injuries or hemorrhagic shock?",
+   "stem": "What SpO2 target applies to trauma patients at risk for ischemic injuries or hemorrhagic shock?",
    "options": [
     "> 95%",
     "> 94%",
@@ -55,7 +55,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "both",
-   "stem": "To what SpO2 does 2.05 direct that cardiac patients be treated with oxygen?",
+   "stem": "To what SpO2 should cardiac patients be treated with oxygen?",
    "options": [
     "> 90%",
     "> 94%",
@@ -79,7 +79,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "In COVID-19, ARDS and similar pathology, to what SpO2 does 2.05 allow the patient to be maintained if necessary?",
+   "stem": "In COVID-19, ARDS and similar pathology, to what SpO2 may the patient be maintained if necessary?",
    "options": [
     "≥ 87%",
     "> 90%",
@@ -87,7 +87,7 @@
     "> 95%"
    ],
    "answer_index": 0,
-   "explanation": "Higher ventilator rates/pressures and 100% FiO2 can harm lung tissue and consume more oxygen than is available to complete the transport, so 2.05 permits SpO2 to be maintained ≥ 87% in these patients if necessary.",
+   "explanation": "Higher ventilator rates/pressures and 100% FiO2 can harm lung tissue and consume more oxygen than is available to complete the transport, so the guidelines permit SpO2 to be maintained ≥ 87% in these patients if necessary.",
    "priority": "detail",
    "tags": [
     "topic:oxygenation",
@@ -103,7 +103,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "A scene patient with a supraglottic airway has an estimated six-minute flight time. How does 2.05 direct the crew to ventilate during transport?",
+   "stem": "A scene patient with a supraglottic airway has an estimated six-minute flight time. How should the crew ventilate during transport?",
    "options": [
     "On the mechanical ventilator",
     "By BVM, since the flight is under ten minutes",
@@ -111,7 +111,7 @@
     "On the ventilator only for interfacility transfers"
    ],
    "answer_index": 0,
-   "explanation": "2.05 states that all patients with an advanced airway must be placed on and transported via mechanical ventilator regardless of estimated transport time, and that this includes IFTs and scene calls. Hand ventilation is reserved for equipment failure or other rare extenuating circumstances, and the reason must be documented.",
+   "explanation": "All patients with an advanced airway must be placed on and transported via mechanical ventilator regardless of estimated transport time, and this includes IFTs and scene calls. Hand ventilation is reserved for equipment failure or other rare extenuating circumstances, and the reason must be documented.",
    "priority": "core",
    "tags": [
     "topic:ventilator",
@@ -126,7 +126,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "LFN is transferring an intubated patient out of a sending facility. Where does 2.05 direct the ventilator to be during the bedside pickup?",
+   "stem": "LFN is transferring an intubated patient out of a sending facility. Where should the ventilator be during the bedside pickup?",
    "options": [
     "Taken into the sending facility with the crew",
     "Left on the aircraft until the patient is loaded",
@@ -149,7 +149,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "A non-intubated patient is given fentanyl en route. What monitoring does 2.05 require for this patient?",
+   "stem": "A non-intubated patient is given fentanyl en route. What respiratory monitoring is required for this patient?",
    "options": [
     "Capnography via ETCO2 nasal cannula",
     "Pulse oximetry and respiratory rate only",
@@ -157,7 +157,7 @@
     "Capnography only if a sedative is also given"
    ],
    "answer_index": 0,
-   "explanation": "2.05 requires ETCO2 nasal cannula capnography for all non-intubated patients with respiratory compromise, with an altered level of consciousness, and those receiving sedation, narcotics, or any combination of the two. A narcotic alone triggers the requirement.",
+   "explanation": "ETCO2 nasal cannula capnography is required for all non-intubated patients with respiratory compromise, with an altered level of consciousness, and those receiving sedation, narcotics, or any combination of the two. A narcotic alone triggers the requirement.",
    "priority": "core",
    "tags": [
     "topic:capnography",
@@ -173,7 +173,7 @@
    "type": "scope",
    "care_level": "ALS",
    "population": "both",
-   "stem": "For which intubations does 2.05 waive the requirement to use the RSI checklist?",
+   "stem": "For which intubations is the RSI checklist not required?",
    "options": [
     "A crash airway",
     "A pediatric airway",
@@ -181,7 +181,7 @@
     "An IFT where the patient is already sedated"
    ],
    "answer_index": 0,
-   "explanation": "The RSI checklist is required for all intubations unless it is a crash airway, where there is no time to run it. No other circumstance in 2.05 excuses the checklist.",
+   "explanation": "The RSI checklist is required for all intubations unless it is a crash airway, where there is no time to run it. No other circumstance in General Respiratory Care excuses the checklist.",
    "priority": "core",
    "tags": [
     "procedure:rsi",
@@ -196,7 +196,7 @@
    "type": "equipment",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the smallest endotracheal tube size through which 2.05 directs the pediatric bougie to be used as a stylet?",
+   "stem": "What is the smallest endotracheal tube size through which the pediatric bougie should be used as a stylet?",
    "options": [
     "ETT size ≥ 3.5",
     "ETT size ≥ 4.0",
@@ -220,7 +220,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "2.05 requires a stylet for endotracheal tubes of what size when a Mac 3 or Mac 4 blade would be appropriate?",
+   "stem": "During intubation, a stylet is required for endotracheal tubes of what size when a Mac 3 or Mac 4 blade would be appropriate?",
    "options": [
     "ETT size ≤ 4.0",
     "ETT size ≤ 3.5",
@@ -243,7 +243,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "At which intubation attempt does 2.05 direct that the C-MAC be used?",
+   "stem": "At which intubation attempt should the C-MAC be used?",
    "options": [
     "The first attempt",
     "The second attempt, after failed direct laryngoscopy",
@@ -251,7 +251,7 @@
     "Only when a bougie is unavailable"
    ],
    "answer_index": 0,
-   "explanation": "2.05 directs that the C-MAC be used beginning with the first intubation attempt. Video laryngoscopy is the default here, not a rescue device held back for a failed attempt.",
+   "explanation": "The C-MAC is used beginning with the first intubation attempt. Video laryngoscopy is the default here, not a rescue device held back for a failed attempt.",
    "priority": "core",
    "tags": [
     "equipment:c-mac",
@@ -266,7 +266,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What non-pharmacologic measure does 2.06 offer BLS crews for nausea, and how is it used?",
+   "stem": "What non-pharmacologic measure may BLS crews offer for nausea, and how is it used?",
    "options": [
     "An isopropyl alcohol swab, self-administered with slow deep inhalations",
     "An isopropyl alcohol swab taped under the nares for the transport",
@@ -289,7 +289,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult ALS dose of ondansetron for nausea and vomiting in 2.06?",
+   "stem": "What is the adult ALS dose of ondansetron for nausea and vomiting?",
    "options": [
     "4 mg slow IVP over 2 minutes or IM",
     "0.1 mg/kg slow IVP or IM",
@@ -313,7 +313,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "A patient has a known ondansetron allergy. What is the adult dose of promethazine in 2.06?",
+   "stem": "A patient with nausea and vomiting has a known ondansetron allergy. What is the adult dose of promethazine?",
    "options": [
     "12.5 – 50 mg IV or deep IM",
     "4 mg slow IVP or IM",
@@ -337,7 +337,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the maximum concentration at which 2.06 allows promethazine to be given intravenously?",
+   "stem": "When promethazine is given intravenously for nausea and vomiting, what is the maximum concentration?",
    "options": [
     "25 mg/mL",
     "50 mg/mL",
@@ -361,7 +361,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which patients does 2.06 say must not receive promethazine?",
+   "stem": "Which patients must not receive promethazine?",
    "options": [
     "Unconscious or unresponsive patients",
     "Patients with a prolonged QT interval",
@@ -369,7 +369,7 @@
     "Patients with impaired hepatic function"
    ],
    "answer_index": 0,
-   "explanation": "2.06 states plainly that promethazine is not to be administered to unconscious or unresponsive patients. QT prolongation is the caution attached to ondansetron, and hepatic impairment is a caution rather than an absolute bar.",
+   "explanation": "The Nausea and Vomiting guideline states plainly that promethazine is not to be administered to unconscious or unresponsive patients. QT prolongation is the caution attached to ondansetron, and hepatic impairment is a caution rather than an absolute bar.",
    "priority": "core",
    "tags": [
     "drug:promethazine",
@@ -384,7 +384,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "When does 2.06 direct an ALS crew to use diphenhydramine for an adult with nausea and vomiting?",
+   "stem": "When should an ALS crew use diphenhydramine for an adult with nausea and vomiting?",
    "options": [
     "When ondansetron and promethazine are unavailable or the patient is allergic to both",
     "When nausea persists after a repeat dose of ondansetron",
@@ -408,7 +408,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the maximum adult dose of diphenhydramine for nausea and vomiting in 2.06?",
+   "stem": "What is the maximum adult dose of diphenhydramine for nausea and vomiting?",
    "options": [
     "50 mg",
     "25 mg",
@@ -431,7 +431,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the pediatric dose of ondansetron for nausea and vomiting in 2.06?",
+   "stem": "What is the pediatric dose of ondansetron for nausea and vomiting?",
    "options": [
     "0.1 mg/kg",
     "0.5 mg/kg",
@@ -454,7 +454,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "From what age does 2.06 permit ondansetron in pediatric patients?",
+   "stem": "From what age may ondansetron be given to pediatric patients for nausea and vomiting?",
    "options": [
     "Greater than 1 month",
     "2 years and older",
@@ -477,7 +477,7 @@
    "type": "special",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "Why does 2.06 restrict pediatric promethazine to patients 2 years and older or over 10 kg?",
+   "stem": "Why is pediatric promethazine for nausea and vomiting restricted to patients 2 years and older or over 10 kg?",
    "options": [
     "Risk of fatal respiratory depression",
     "Risk of QT prolongation",
@@ -501,7 +501,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the maximum pediatric dose of promethazine in 2.06?",
+   "stem": "What is the maximum pediatric dose of promethazine for nausea and vomiting?",
    "options": [
     "25 mg",
     "50 mg",
@@ -524,7 +524,7 @@
    "type": "indication",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "At CCT level in 2.06, when is lorazepam added for nausea and vomiting?",
+   "stem": "At CCT level, when is lorazepam added for nausea and vomiting?",
    "options": [
     "When nausea is refractory to ondansetron and/or promethazine",
     "As the first-line agent whenever the patient is also anxious",
@@ -548,7 +548,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the adult CCT dose of lorazepam for refractory nausea in 2.06?",
+   "stem": "What is the adult CCT dose of lorazepam for refractory nausea?",
    "options": [
     "0.5 – 1 mg IV/IM",
     "0.05 mg/kg IV/IM",
@@ -556,7 +556,7 @@
     "1 mg/kg IV"
    ],
    "answer_index": 0,
-   "explanation": "Adult lorazepam for refractory nausea is 0.5 – 1 mg IV/IM. The 1 – 4 mg range is the lorazepam dose used for post-intubation sedation in 2.08, a different indication at a higher dose.",
+   "explanation": "Adult lorazepam for refractory nausea is 0.5 – 1 mg IV/IM. The 1 – 4 mg range is the lorazepam dose used for post-intubation sedation, a different indication at a higher dose.",
    "priority": "detail",
    "tags": [
     "drug:lorazepam",
@@ -580,7 +580,7 @@
     "1 mg/kg IV"
    ],
    "answer_index": 0,
-   "explanation": "Pediatric lorazepam for refractory nausea is 0.05 mg/kg IV/IM, the low end of the 0.05 – 0.1 mg/kg range that 2.08 uses for post-intubation sedation.",
+   "explanation": "Pediatric lorazepam for refractory nausea is 0.05 mg/kg IV/IM, the low end of the 0.05 – 0.1 mg/kg range used for post-intubation sedation.",
    "priority": "detail",
    "tags": [
     "drug:lorazepam",
@@ -596,7 +596,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 2.06 require whenever ondansetron is administered?",
+   "stem": "What must be done whenever ondansetron is given?",
    "options": [
     "A cardiac monitor must be applied",
     "A 12-lead ECG before and after the dose",
@@ -620,7 +620,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "A patient develops a dystonic reaction after receiving promethazine. Which drug does 2.06 identify as the drug of choice?",
+   "stem": "A patient develops a dystonic reaction after receiving promethazine. What is the drug of choice?",
    "options": [
     "Diphenhydramine",
     "Lorazepam",
@@ -628,7 +628,7 @@
     "Midazolam"
    ],
    "answer_index": 0,
-   "explanation": "Diphenhydramine is named the drug of choice for dystonic reactions due to promethazine. Its anticholinergic action is also why 2.06 cautions against combining the two in the elderly.",
+   "explanation": "Diphenhydramine is named the drug of choice for dystonic reactions due to promethazine. Its anticholinergic action is also why the Nausea and Vomiting guideline cautions against combining the two in the elderly.",
    "priority": "core",
    "tags": [
     "drug:diphenhydramine",
@@ -644,7 +644,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult dose of fentanyl for pain in 2.07?",
+   "stem": "What is the adult dose of fentanyl for pain?",
    "options": [
     "1 – 2 mcg/kg",
     "0.1 – 0.2 mg/kg",
@@ -668,7 +668,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the maximum single dose of fentanyl for pain in 2.07?",
+   "stem": "What is the maximum single dose of fentanyl for pain?",
    "options": [
     "150 mcg",
     "400 mcg",
@@ -716,7 +716,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult IV/IO dose of hydromorphone for pain in 2.07?",
+   "stem": "What is the adult IV/IO dose of hydromorphone for pain?",
    "options": [
     "0.5 – 1 mg",
     "1 – 2 mg",
@@ -740,7 +740,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What total maximum dose of hydromorphone does 2.07 allow in an adult?",
+   "stem": "What is the total maximum dose of hydromorphone for pain in an adult?",
    "options": [
     "4 mg",
     "2 mg",
@@ -763,7 +763,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult dose of the acetaminophen infusion for pain in 2.07?",
+   "stem": "What is the adult dose of the acetaminophen infusion for pain?",
    "options": [
     "1000 mg",
     "750 mg",
@@ -787,7 +787,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "At what body weight does 2.07 switch an adult from the flat 1000 mg acetaminophen dose to weight-based dosing?",
+   "stem": "At what body weight does an adult switch from the flat 1000 mg acetaminophen dose to weight-based dosing for pain?",
    "options": [
     "50 kg or less",
     "25 kg or less",
@@ -810,7 +810,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which history rules out giving the acetaminophen infusion under 2.07?",
+   "stem": "Which history rules out giving the acetaminophen infusion for pain?",
    "options": [
     "Acetaminophen received within the past 4 hours",
     "Acetaminophen received within the past 6 hours",
@@ -833,7 +833,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult dose of ketamine when used for pain in 2.07?",
+   "stem": "What is the adult dose of ketamine for pain?",
    "options": [
     "0.1 – 0.2 mg/kg",
     "0.5 – 1 mg/kg",
@@ -857,7 +857,7 @@
    "type": "pearl",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How does 2.07 direct ketamine to be used in pain management?",
+   "stem": "How should ketamine be used in pain management?",
    "options": [
     "Generally as an adjunct to opioids",
     "As the sole agent once opioids have failed",
@@ -865,7 +865,7 @@
     "Only when opioids are contraindicated"
    ],
    "answer_index": 0,
-   "explanation": "2.07 states that ketamine should generally be used as an adjunct to opioids rather than replacing them. Its opioid-sparing effect is the point, which is also why any amount of ketamine mandates ETCO2 monitoring.",
+   "explanation": "The Pain Management guideline states that ketamine should generally be used as an adjunct to opioids rather than replacing them. Its opioid-sparing effect is the point, which is also why any amount of ketamine mandates ETCO2 monitoring.",
    "priority": "detail",
    "tags": [
     "drug:ketamine",
@@ -880,7 +880,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "Where does hydromorphone sit in the pediatric pain pathway of 2.07?",
+   "stem": "Where does hydromorphone sit in the pediatric pain management pathway?",
    "options": [
     "Second line, if fentanyl is contraindicated or unavailable",
     "First line for severe pain in children over 6 months",
@@ -903,7 +903,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the dose of hydromorphone for a child 6 months of age or older in 2.07?",
+   "stem": "What is the dose of hydromorphone for pain in a child 6 months of age or older?",
    "options": [
     "0.015 mg/kg",
     "0.005 mg/kg",
@@ -926,7 +926,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the dose of hydromorphone for an infant less than 6 months old in 2.07?",
+   "stem": "What is the dose of hydromorphone for pain in an infant less than 6 months old?",
    "options": [
     "0.005 mg/kg",
     "0.015 mg/kg",
@@ -950,7 +950,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What maximum total dose of fentanyl does 2.07 allow in a pediatric patient?",
+   "stem": "What is the maximum total dose of fentanyl for pain in a pediatric patient?",
    "options": [
     "4 mcg/kg",
     "2 mcg/kg",
@@ -973,7 +973,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "Below what weight does 2.07 require pediatric ketamine to be diluted to a concentration of 1 mg/mL?",
+   "stem": "Below what weight must pediatric ketamine for pain be diluted to a concentration of 1 mg/mL?",
    "options": [
     "25 kg",
     "10 kg",
@@ -981,7 +981,7 @@
     "13 kg"
    ],
    "answer_index": 0,
-   "explanation": "In children under 25 kg the calculated analgesic dose is very small, so 2.07 requires dilution to 1 mg/mL to make an accurate volume measurable and reduce the chance of a tenfold error.",
+   "explanation": "In children under 25 kg the calculated analgesic dose is very small, so the Pain Management guideline requires dilution to 1 mg/mL to make an accurate volume measurable and reduce the chance of a tenfold error.",
    "priority": "detail",
    "tags": [
     "drug:ketamine",
@@ -997,7 +997,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "Which pediatric patients does 2.07 direct to receive the adult 1000 mg acetaminophen dose?",
+   "stem": "Which pediatric patients receive the adult 1000 mg acetaminophen dose for pain?",
    "options": [
     "Age 13 years or older AND 50 kg or more",
     "Age 13 years or older OR 50 kg or more",
@@ -1020,7 +1020,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "At what rate does 2.07 direct a CCT crew to start an adult fentanyl infusion after the initial IV bolus?",
+   "stem": "For pain management, at what rate should a CCT crew start an adult fentanyl infusion after the initial IV bolus?",
    "options": [
     "1 mcg/kg/hour",
     "0.5 mcg/kg/hour",
@@ -1044,7 +1044,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "An adult on a fentanyl infusion still has inadequate pain control. What does 2.07 direct the CCT crew to do?",
+   "stem": "An adult on a fentanyl infusion for pain still has inadequate pain control. What should the CCT crew do?",
    "options": [
     "Bolus 1 mcg/kg and increase the infusion by 1 mcg/kg/hour",
     "Increase the infusion by 1 mcg/kg/hour without a bolus",
@@ -1052,7 +1052,7 @@
     "Add ketamine 0.1 – 0.2 mg/kg and hold the infusion rate"
    ],
    "answer_index": 0,
-   "explanation": "2.07 pairs the two deliberately: bolus 1 mcg/kg (100 mcg maximum) AND increase the infusion by 1 mcg/kg/hour, repeating the bolus and titration every 5 – 10 minutes PRN. The bolus treats the pain now; the rate increase keeps it treated.",
+   "explanation": "The Pain Management guideline pairs the two deliberately: bolus 1 mcg/kg (100 mcg maximum) AND increase the infusion by 1 mcg/kg/hour, repeating the bolus and titration every 5 – 10 minutes PRN. The bolus treats the pain now; the rate increase keeps it treated.",
    "priority": "core",
    "tags": [
     "drug:fentanyl",
@@ -1068,7 +1068,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What absolute hourly ceiling does 2.07 place on the adult fentanyl infusion?",
+   "stem": "What absolute hourly ceiling applies to an adult fentanyl infusion for pain?",
    "options": [
     "200 mcg/hour",
     "400 mcg/hour",
@@ -1092,7 +1092,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "At what rate does 2.07 direct a pediatric fentanyl infusion to be started after the initial IV bolus?",
+   "stem": "For pain management, at what rate should a pediatric fentanyl infusion be started after the initial IV bolus?",
    "options": [
     "0.5 mcg/kg/hour",
     "1 mcg/kg/hour",
@@ -1116,7 +1116,7 @@
    "type": "dose",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "In the equianalgesic figures given in 2.07, 1 mg of hydromorphone is approximately equivalent to how much fentanyl?",
+   "stem": "In the equianalgesic figures used for pain management, 1 mg of hydromorphone is approximately equivalent to how much fentanyl?",
    "options": [
     "75 mcg",
     "100 mcg",
@@ -1124,7 +1124,7 @@
     "50 mcg"
    ],
    "answer_index": 0,
-   "explanation": "2.07 lists approximate equianalgesic doses as 1 mg hydromorphone = 75 mcg fentanyl = 5 mg morphine. That conversion matters when a patient arrives already medicated with a different opioid.",
+   "explanation": "The Pain Management guideline lists approximate equianalgesic doses as 1 mg hydromorphone = 75 mcg fentanyl = 5 mg morphine. That conversion matters when a patient arrives already medicated with a different opioid.",
    "priority": "detail",
    "tags": [
     "drug:hydromorphone",
@@ -1140,7 +1140,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "A patient receives a single dose of ketamine for pain. What monitoring does 2.07 require?",
+   "stem": "A patient receives a single dose of ketamine for pain. What monitoring is required?",
    "options": [
     "ETCO2 monitoring",
     "A 12-lead ECG",
@@ -1164,7 +1164,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "In a medication-tolerant patient receiving narcotics, when does 2.07 warn that respiratory depression may appear?",
+   "stem": "In a medication-tolerant patient receiving narcotics for pain, when may respiratory depression appear?",
    "options": [
     "After the 2nd or 3rd appropriately administered dose",
     "Only after the maximum total dose is exceeded",
@@ -1172,7 +1172,7 @@
     "Only in elderly or debilitated patients"
    ],
    "answer_index": 0,
-   "explanation": "2.07 warns that even in medication-tolerant patients, respiratory depression may occur after the 2nd or 3rd appropriately administered dose — tolerance to analgesia does not mean tolerance to respiratory depression, so monitoring must not relax as doses accumulate.",
+   "explanation": "The Pain Management guideline warns that even in medication-tolerant patients, respiratory depression may occur after the 2nd or 3rd appropriately administered dose — tolerance to analgesia does not mean tolerance to respiratory depression, so monitoring must not relax as doses accumulate.",
    "priority": "core",
    "tags": [
     "topic:opioids",
@@ -1187,7 +1187,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 2.08 list as the contraindication to this sedation guideline?",
+   "stem": "What is the contraindication to post-intubation sedation?",
    "options": [
     "Sedation of the non-intubated patient",
     "Hypotension or catecholamine depletion",
@@ -1195,7 +1195,7 @@
     "A transport time under 15 minutes"
    ],
    "answer_index": 0,
-   "explanation": "2.08 applies to the intubated patient only; sedating a non-intubated patient under it is the stated contraindication. Hypotension is a reason to reduce the dose, not to withhold sedation, and chemical paralysis makes sedation more urgent rather than less.",
+   "explanation": "Post-intubation sedation applies to the intubated patient only; sedating a non-intubated patient under it is the stated contraindication. Hypotension is a reason to reduce the dose, not to withhold sedation, and chemical paralysis makes sedation more urgent rather than less.",
    "priority": "core",
    "tags": [
     "topic:sedation",
@@ -1210,7 +1210,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 2.08 direct be provided in addition to sedation for every intubated patient?",
+   "stem": "What should be provided in addition to sedation for every intubated patient?",
    "options": [
     "Analgesia",
     "A long-acting paralytic",
@@ -1218,7 +1218,7 @@
     "A vasopressor infusion"
    ],
    "answer_index": 0,
-   "explanation": "Analgesia is to be provided in addition to sedation, per the pain management guideline, and 2.08 notes this may actually reduce the amount of sedation required for transport. Sedation alone leaves a tube-bearing patient in pain.",
+   "explanation": "Analgesia is to be provided in addition to sedation, per the pain management guideline, and this may actually reduce the amount of sedation required for transport. Sedation alone leaves a tube-bearing patient in pain.",
    "priority": "core",
    "tags": [
     "topic:sedation",
@@ -1233,7 +1233,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "An intubated patient is hypotensive. How does 2.08 direct sedation to be managed?",
+   "stem": "An intubated patient is hypotensive. How should post-intubation sedation be managed?",
    "options": [
     "Consider reducing the sedative dose while aggressively treating the hypotension",
     "Withhold all sedation until the blood pressure normalizes",
@@ -1241,7 +1241,7 @@
     "Switch to a long-acting paralytic instead of a sedative"
    ],
    "answer_index": 0,
-   "explanation": "2.08 pairs the two actions: reduce the dose of sedatives in hypotensive or catecholamine-depleted patients, and treat the hypotension aggressively. Neither abandoning sedation nor ignoring the pressure is acceptable.",
+   "explanation": "The guideline pairs the two actions: reduce the dose of sedatives in hypotensive or catecholamine-depleted patients, and treat the hypotension aggressively. Neither abandoning sedation nor ignoring the pressure is acceptable.",
    "priority": "core",
    "tags": [
     "topic:sedation",
@@ -1256,7 +1256,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "A patient has received a long-acting paralytic. How does 2.08 direct sedation and analgesia to be dosed?",
+   "stem": "An intubated patient has received a long-acting paralytic. How should sedation and analgesia be dosed?",
    "options": [
     "Expedited, at the higher side of the dosing range as blood pressure permits",
     "At the lowest effective dose, because paralysis removes the stimulus",
@@ -1264,7 +1264,7 @@
     "Titrated to a RASS score documented every 15 minutes"
    ],
    "answer_index": 0,
-   "explanation": "Because there is no direct measure of dosing adequacy in a paralyzed patient, 2.08 directs expedited administration of sedatives and analgesia to avoid paralysis without sedation, using the higher end of the range as blood pressure permits. Blood pressure and heart rate elevations are only indirect measures of distress.",
+   "explanation": "Because there is no direct measure of dosing adequacy in a paralyzed patient, the guideline directs expedited administration of sedatives and analgesia to avoid paralysis without sedation, using the higher end of the range as blood pressure permits. Blood pressure and heart rate elevations are only indirect measures of distress.",
    "priority": "core",
    "tags": [
     "topic:sedation",
@@ -1279,7 +1279,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult dose of midazolam for post-intubation sedation in 2.08?",
+   "stem": "What is the adult dose of midazolam for post-intubation sedation?",
    "options": [
     "2 – 5 mg IV/IO",
     "1 – 4 mg IV/IO",
@@ -1303,7 +1303,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult dose of lorazepam for post-intubation sedation in 2.08?",
+   "stem": "What is the adult dose of lorazepam for post-intubation sedation?",
    "options": [
     "1 – 4 mg IV/IM",
     "2 – 5 mg IV/IM",
@@ -1327,7 +1327,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult ketamine loading dose for post-intubation sedation in 2.08?",
+   "stem": "What is the adult ketamine loading dose for post-intubation sedation?",
    "options": [
     "1 mg/kg slow IVP",
     "0.5 mg/kg slow IVP",
@@ -1335,7 +1335,7 @@
     "0.5 – 1 mg/kg slow IVP"
    ],
    "answer_index": 0,
-   "explanation": "Ketamine is loaded at 1 mg/kg IV/IO by slow IVP, then repeated at 0.5 mg/kg every 15 minutes PRN. The 0.1 – 0.2 mg/kg and 0.5 – 1 mg/kg figures are the analgesic and procedural sedation doses from 2.07 and 2.09.",
+   "explanation": "Ketamine is loaded at 1 mg/kg IV/IO by slow IVP, then repeated at 0.5 mg/kg every 15 minutes PRN. The 0.1 – 0.2 mg/kg and 0.5 – 1 mg/kg figures are the analgesic and procedural sedation doses.",
    "priority": "core",
    "tags": [
     "drug:ketamine",
@@ -1351,7 +1351,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "An intubated patient's last ketamine dose was 25 minutes ago and sedation is wearing off. What does 2.08 direct?",
+   "stem": "An intubated patient's last ketamine dose for post-intubation sedation was 25 minutes ago and sedation is wearing off. What should be done?",
    "options": [
     "Re-bolus at 1 mg/kg",
     "Give the 0.5 mg/kg repeat dose",
@@ -1359,7 +1359,7 @@
     "Start an infusion at 0.5 mg/kg/hour"
    ],
    "answer_index": 0,
-   "explanation": "The 0.5 mg/kg repeat dose assumes redosing within 15 minutes. If the dosing interval has run longer than 15 minutes the patient has effectively cleared the load, so 2.08 directs a re-bolus at the full 1 mg/kg.",
+   "explanation": "The 0.5 mg/kg repeat dose assumes redosing within 15 minutes. If the dosing interval has run longer than 15 minutes the patient has effectively cleared the load, so the guideline directs a re-bolus at the full 1 mg/kg.",
    "priority": "core",
    "tags": [
     "drug:ketamine",
@@ -1375,7 +1375,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which post-intubation patients does 2.08 identify as the primary candidates for ketamine?",
+   "stem": "Which post-intubation patients are the primary candidates for ketamine sedation?",
    "options": [
     "Hypotensive patients, and agitated patients in whom benzodiazepines are contraindicated",
     "Patients expected to need sedation for a long transport",
@@ -1399,7 +1399,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the pediatric dose of midazolam for post-intubation sedation in 2.08?",
+   "stem": "What is the pediatric dose of midazolam for post-intubation sedation?",
    "options": [
     "0.05 - 0.1 mg/kg IV/IO",
     "0.1 – 0.2 mg/kg IV/IO",
@@ -1423,7 +1423,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the maximum single dose of midazolam for a pediatric post-intubation patient in 2.08?",
+   "stem": "What is the maximum single dose of midazolam for post-intubation sedation in a pediatric patient?",
    "options": [
     "2.5 mg",
     "5 mg",
@@ -1446,7 +1446,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "At what rate does 2.08 direct an adult midazolam infusion to be started after the initial IV bolus?",
+   "stem": "For post-intubation sedation, at what rate should an adult midazolam infusion be started after the initial IV bolus?",
    "options": [
     "2 mg/hour",
     "4 mg/hour",
@@ -1470,7 +1470,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "At what patient weight does 2.08 direct the adult midazolam infusion to be started at 4 mg/hour instead?",
+   "stem": "For post-intubation sedation, at what patient weight is the adult midazolam infusion started at 4 mg/hour instead?",
    "options": [
     "100 kg or more",
     "75 kg or more",
@@ -1494,7 +1494,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the maximum adult midazolam infusion rate in 2.08?",
+   "stem": "What is the maximum adult midazolam infusion rate for post-intubation sedation?",
    "options": [
     "10 mg/hour",
     "4 mg/hour",
@@ -1518,7 +1518,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "At what rate does 2.08 direct the adult propofol infusion to run?",
+   "stem": "For post-intubation sedation, at what rate should the adult propofol infusion run?",
    "options": [
     "25 mcg/kg/min",
     "75 mcg/kg/min",
@@ -1542,7 +1542,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "To what maximum may the adult propofol infusion be titrated in 2.08?",
+   "stem": "For post-intubation sedation, to what maximum may the adult propofol infusion be titrated?",
    "options": [
     "75 mcg/kg/min",
     "25 mcg/kg/min",
@@ -1566,7 +1566,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "A CCT patient is not already on a propofol infusion. Under what authority does 2.08 allow propofol to be started?",
+   "stem": "An intubated CCT patient is not already on a propofol infusion. Under what authority may propofol be started for post-intubation sedation?",
    "options": [
     "Per sending physician order only",
     "At the discretion of the flight nurse",
@@ -1590,7 +1590,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "An adult arrives on a propofol drip with inadequate sedation. What bolus does 2.08 direct the crew to give?",
+   "stem": "An intubated adult arrives on a propofol drip with inadequate sedation. What bolus should the crew give?",
    "options": [
     "10 – 20 mg via IV pump",
     "1 mg/kg via IV pump",
@@ -1614,7 +1614,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What does 2.08 set as the minimum propofol infusion rate for a chemically paralyzed patient who is hemodynamically stable?",
+   "stem": "What is the minimum propofol infusion rate for a chemically paralyzed patient who is hemodynamically stable?",
    "options": [
     "25 mcg/kg/min",
     "10 mcg/kg/min",
@@ -1638,7 +1638,7 @@
    "type": "pearl",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What does 2.08 say must accompany a propofol infusion for patient comfort?",
+   "stem": "What must accompany a post-intubation propofol infusion for patient comfort?",
    "options": [
     "Pain management, because propofol has no analgesic properties",
     "A benzodiazepine, because propofol does not produce amnesia",
@@ -1661,7 +1661,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the starting dexmedetomidine dose for an adult in 2.08?",
+   "stem": "What is the starting dexmedetomidine dose for post-intubation sedation in an adult?",
    "options": [
     "0.2 – 0.4 mcg/kg/hour",
     "0.1 – 0.2 mcg/kg/hour",
@@ -1685,7 +1685,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What maximum dexmedetomidine dose does 2.08 give?",
+   "stem": "What is the maximum dexmedetomidine dose for post-intubation sedation?",
    "options": [
     "1.4 mcg/kg/hr",
     "0.4 mcg/kg/hr",
@@ -1693,7 +1693,7 @@
     "0.2 mcg/kg/hr"
    ],
    "answer_index": 0,
-   "explanation": "The stated maximum is 1.4 mcg/kg/hr, although 2.08 notes that some providers may titrate up to 2 mcg/kg/hr. The guideline also points crews to the LFN drug formulary for more specific information, including the risk of bradycardia.",
+   "explanation": "The stated maximum is 1.4 mcg/kg/hr, although the guideline notes that some providers may titrate up to 2 mcg/kg/hr. It also points crews to the LFN drug formulary for more specific information, including the risk of bradycardia.",
    "priority": "detail",
    "tags": [
     "drug:dexmedetomidine",
@@ -1708,7 +1708,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "At what rate does 2.08 direct a pediatric midazolam infusion to be started after the initial bolus?",
+   "stem": "For post-intubation sedation, at what rate should a pediatric midazolam infusion be started after the initial bolus?",
    "options": [
     "50 mcg/kg/hour",
     "10 mcg/kg/hour",
@@ -1732,7 +1732,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What propofol bolus does 2.08 direct for a pediatric patient with inadequate sedation on an existing infusion?",
+   "stem": "What propofol bolus is given to an intubated pediatric patient with inadequate sedation on an existing infusion?",
    "options": [
     "0.5 mg/kg, max 20 mg",
     "1 mg/kg, max 25 mg",
@@ -1756,7 +1756,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "How does 2.08 direct documentation of sedation for a chemically paralyzed patient?",
+   "stem": "How should sedation be documented for a chemically paralyzed intubated patient?",
    "options": [
     "Do not document RASS/CPOT scores; document \"Chemically Paralyzed\" under the GCS qualifier",
     "Document a RASS of -5 and a CPOT of 0 for the duration of paralysis",
@@ -1764,7 +1764,7 @@
     "Document the paralytic dose in place of any sedation score"
    ],
    "answer_index": 0,
-   "explanation": "A paralyzed patient cannot generate the motor responses RASS and CPOT measure, so scoring them is meaningless. 2.08 directs that no RASS/CPOT be documented and that \"Chemically Paralyzed\" be recorded under the GCS qualifier, with scoring resumed once paralysis has worn off.",
+   "explanation": "A paralyzed patient cannot generate the motor responses RASS and CPOT measure, so scoring them is meaningless. The guideline directs that no RASS/CPOT be documented and that \"Chemically Paralyzed\" be recorded under the GCS qualifier, with scoring resumed once paralysis has worn off.",
    "priority": "core",
    "tags": [
     "topic:documentation",
@@ -1780,7 +1780,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "A patient sedated with ketamine was kept light because of hypotension, and the blood pressure has now improved. What does 2.08 direct?",
+   "stem": "An intubated patient sedated with ketamine was kept light because of hypotension, and the blood pressure has now improved. What should be done?",
    "options": [
     "Give a concurrent dose of lorazepam or midazolam to blunt emergence phenomenon",
     "Give atropine to blunt emergence phenomenon",
@@ -1788,7 +1788,7 @@
     "Start a propofol infusion at 25 mcg/kg/min"
    ],
    "answer_index": 0,
-   "explanation": "2.08 ties this to the blood pressure recovering: once it improves, a concurrent benzodiazepine — lorazepam or midazolam — is given to blunt ketamine emergence phenomenon. Atropine in this guideline treats excessive post-ketamine salivation, not emergence.",
+   "explanation": "The guideline ties this to the blood pressure recovering: once it improves, a concurrent benzodiazepine — lorazepam or midazolam — is given to blunt ketamine emergence phenomenon. Atropine in this guideline treats excessive post-ketamine salivation, not emergence.",
    "priority": "core",
    "tags": [
     "drug:ketamine",
@@ -1804,7 +1804,7 @@
    "type": "dose",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What is the adult atropine dose for excessive salivation after ketamine administration in 2.08?",
+   "stem": "What is the adult atropine dose for excessive salivation after ketamine given for post-intubation sedation?",
    "options": [
     "0.25 mg IV",
     "0.5 mg IV",
@@ -1828,7 +1828,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "On the RASS scale reproduced in 2.08, what does a score of -4 (deep sedation) describe?",
+   "stem": "On the Richmond Agitation Sedation Scale (RASS), what does a score of -4 (deep sedation) describe?",
    "options": [
     "No response to voice, but movement or eye opening to physical stimulation",
     "No response to voice or physical stimulation",
@@ -1852,7 +1852,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What indication does 2.09 give for procedural sedation?",
+   "stem": "What is the indication for procedural sedation?",
    "options": [
     "Sedation prior to a painful procedure such as synchronized cardioversion or extrication",
     "Sedation of a patient who has just been intubated",
@@ -1860,7 +1860,7 @@
     "Sedation of a patient fighting the ventilator"
    ],
    "answer_index": 0,
-   "explanation": "2.09 covers sedation given before a painful procedure — synchronized cardioversion and extrication are the examples listed. Post-intubation sedation and sedation for behavioral reasons are both named contraindications to this guideline.",
+   "explanation": "Procedural sedation covers sedation given before a painful procedure — synchronized cardioversion and extrication are the examples listed. Post-intubation sedation and sedation for behavioral reasons are both named contraindications to this guideline.",
    "priority": "core",
    "tags": [
     "topic:procedural-sedation",
@@ -1875,7 +1875,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which use of sedation does 2.09 list as a contraindication to this guideline?",
+   "stem": "Which use of sedation is a contraindication to procedural sedation?",
    "options": [
     "Sedation for behavioral reasons",
     "Sedation before synchronized cardioversion",
@@ -1883,7 +1883,7 @@
     "Sedation of a patient who cannot tolerate positioning"
    ],
    "answer_index": 0,
-   "explanation": "2.09 names two contraindications — post-intubation sedation and sedation for behavioral reasons. Behavioral sedation of a patient with an unprotected airway is a different clinical problem with a different risk profile.",
+   "explanation": "The Procedural Sedation guideline names two contraindications — post-intubation sedation and sedation for behavioral reasons. Behavioral sedation of a patient with an unprotected airway is a different clinical problem with a different risk profile.",
    "priority": "core",
    "tags": [
     "topic:procedural-sedation",
@@ -1898,7 +1898,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 2.09 require be in place before any sedative agent is given for a procedure?",
+   "stem": "What must be in place before any sedative agent is given for procedural sedation?",
    "options": [
     "An ETCO2 nasal cannula, monitored throughout transport",
     "A supraglottic airway, ready to be placed",
@@ -1922,7 +1922,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the etomidate dose for procedural sedation in 2.09?",
+   "stem": "What is the etomidate dose for procedural sedation?",
    "options": [
     "0.1 mg/kg IV over 30 – 60 seconds",
     "0.05 mg/kg IV over 30 – 60 seconds",
@@ -1945,7 +1945,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How many total doses of etomidate does 2.09 allow for procedural sedation?",
+   "stem": "How many total doses of etomidate may be given for procedural sedation?",
    "options": [
     "3 doses",
     "2 doses",
@@ -1968,7 +1968,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the ketamine dose for procedural sedation in 2.09?",
+   "stem": "What is the ketamine dose for procedural sedation?",
    "options": [
     "0.5 – 1 mg/kg IV over 30 – 60 seconds",
     "0.1 – 0.2 mg/kg IV over 30 – 60 seconds",
@@ -1976,7 +1976,7 @@
     "0.1 mg/kg IV over 30 – 60 seconds"
    ],
    "answer_index": 0,
-   "explanation": "Procedural ketamine is 0.5 – 1 mg/kg IV over 30 – 60 seconds, repeatable every 15 minutes PRN. That sits between the 0.1 – 0.2 mg/kg analgesic dose in 2.07 and the 1 mg/kg post-intubation loading dose in 2.08.",
+   "explanation": "Procedural ketamine is 0.5 – 1 mg/kg IV over 30 – 60 seconds, repeatable every 15 minutes PRN. That sits between the 0.1 – 0.2 mg/kg analgesic dose and the 1 mg/kg post-intubation loading dose.",
    "priority": "core",
    "tags": [
     "drug:ketamine",
@@ -1991,7 +1991,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 2.09 direct crews to consider when etomidate is used for procedural sedation?",
+   "stem": "What should crews consider when etomidate is used for procedural sedation?",
    "options": [
     "Providing analgesia, when indicated and when vital signs allow",
     "Giving a benzodiazepine to prevent emergence phenomenon",
@@ -1999,7 +1999,7 @@
     "Doubling the repeat dose if the procedure is prolonged"
    ],
    "answer_index": 0,
-   "explanation": "Etomidate sedates but does not relieve pain, so 2.09 directs that analgesia be considered when indicated and when vital signs allow. Emergence phenomenon and salivation are ketamine problems, not etomidate ones.",
+   "explanation": "Etomidate sedates but does not relieve pain, so the guideline directs that analgesia be considered when indicated and when vital signs allow. Emergence phenomenon and salivation are ketamine problems, not etomidate ones.",
    "priority": "core",
    "tags": [
     "drug:etomidate",
@@ -2111,7 +2111,7 @@
    "type": "special",
    "care_level": null,
    "population": "pediatric",
-   "stem": "Which patients does the BLS section direct be treated as adults?",
+   "stem": "In basic life support, which patients should be treated as adults?",
    "options": [
     "Those with signs of puberty",
     "Those over 40 kg",
@@ -2614,7 +2614,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 3.02 warn about giving lidocaine to a patient in heart block?",
+   "stem": "What is the risk of giving lidocaine to a bradycardic patient in heart block?",
    "options": [
     "It can worsen the bradycardia and lead to cardiac arrest",
     "It can cause a dystonic reaction",
@@ -2638,7 +2638,7 @@
    "type": "landmark",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which pad placement does 3.02 identify as preferred for transcutaneous pacing?",
+   "stem": "Which pad placement is preferred for transcutaneous pacing in bradycardia?",
    "options": [
     "Anterior/posterior",
     "Anterior/lateral",
@@ -2661,7 +2661,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 3.02 direct crews to consider when a bradycardia is wide complex?",
+   "stem": "What underlying cause should crews consider when a bradycardia is wide complex?",
    "options": [
     "Hyperkalemia",
     "Hypoglycemia",
@@ -2997,7 +2997,7 @@
    "type": "dose",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "3.03 defines refractory VF/pVT as persisting despite three defibrillations, epinephrine and what total amount of amiodarone?",
+   "stem": "In medical cardiac arrest, refractory VF/pVT is defined as persisting despite three defibrillations, epinephrine and what total amount of amiodarone?",
    "options": [
     "450 mg",
     "300 mg",
@@ -3021,7 +3021,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "VF persists after three shocks, epinephrine and 450 mg of amiodarone. What does 3.03 direct the crew to consider?",
+   "stem": "VF persists after three shocks, epinephrine and 450 mg of amiodarone. What should the crew consider?",
    "options": [
     "Move or add pads 90° from the initial axis and defibrillate at full energy",
     "Double the next shock energy on the existing pad position",
@@ -3045,7 +3045,7 @@
    "type": "procedure",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "During the safety pause described in 3.03, how long does the crew feel for a pulse?",
+   "stem": "During the cardiac arrest safety pause, how long does the crew feel for a pulse?",
    "options": [
     "The full 10 seconds, while looking at the monitor",
     "No more than 5 seconds, while looking at the monitor",
@@ -3069,7 +3069,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "pediatric",
-   "stem": "At what weight does 3.03 direct a change from infant/pediatric to adult/child hands-free defibrillation pads?",
+   "stem": "In cardiac arrest, at what weight do you change from infant/pediatric to adult/child hands-free defibrillation pads?",
    "options": [
     "Over 10 kg",
     "Over 25 kg",
@@ -3093,7 +3093,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "pediatric",
-   "stem": "At what rate does 3.03 direct ventilation of a pediatric cardiac arrest patient, per PALS guidelines?",
+   "stem": "At what rate should a pediatric cardiac arrest patient be ventilated, per PALS guidelines?",
    "options": [
     "20 – 30 bpm",
     "10 bpm",
@@ -3101,7 +3101,7 @@
     "8 – 10 bpm"
    ],
    "answer_index": 0,
-   "explanation": "The pediatric PEARLS specify ventilation at 20 – 30 bpm per PALS guidelines, consistent with the algorithm's breath every 2 – 3 seconds once an advanced airway is in place.",
+   "explanation": "The pediatric PEARLS for medical cardiac arrest specify ventilation at 20 – 30 bpm per PALS guidelines, consistent with the algorithm's breath every 2 – 3 seconds once an advanced airway is in place.",
    "priority": "detail",
    "tags": [
     "topic:ventilation",
@@ -3117,7 +3117,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "pediatric",
-   "stem": "How does 3.03 direct pediatric IV push doses of epinephrine to be dosed and documented?",
+   "stem": "In pediatric cardiac arrest, how should IV push doses of epinephrine be dosed and documented?",
    "options": [
     "In mL/kg",
     "In mg/kg",
@@ -3141,7 +3141,7 @@
    "type": "scope",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 3.04 say about LFN standing orders for targeted temperature management or hypothermia?",
+   "stem": "After ROSC, what LFN standing orders exist for targeted temperature management or hypothermia?",
    "options": [
     "There are none; refer to sending or receiving provider orders",
     "Cooling to 32 – 37.5 °C is standing for all post-ROSC patients",
@@ -3149,7 +3149,7 @@
     "Cooling requires an OLMC consult before initiation"
    ],
    "answer_index": 0,
-   "explanation": "3.04 states that LFN has no standing orders for Targeted Temperature Management/hypothermia and directs crews to the sending or receiving provider's orders for treatment guidance. The temperature goal shown in the AHA algorithm is not an LFN standing order.",
+   "explanation": "The Post-ROSC Management guideline states that LFN has no standing orders for Targeted Temperature Management/hypothermia and directs crews to the sending or receiving provider's orders for treatment guidance. The temperature goal shown in the AHA algorithm is not an LFN standing order.",
    "priority": "core",
    "tags": [
     "topic:ttm",
@@ -3165,7 +3165,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What mean arterial pressure target does 3.04 set for an adult after ROSC?",
+   "stem": "What mean arterial pressure target is set for an adult after ROSC?",
    "options": [
     "65 mmHg or greater",
     "45 mmHg or greater",
@@ -3189,7 +3189,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which vasopressor does 3.04 name as the first line agent after ROSC?",
+   "stem": "Which vasopressor is the first line agent after ROSC?",
    "options": [
     "Epinephrine",
     "Norepinephrine",
@@ -3213,7 +3213,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "At what rate does 3.04 direct an adult epinephrine infusion to be started after ROSC?",
+   "stem": "At what rate should an adult epinephrine infusion be started after ROSC?",
    "options": [
     "2 – 10 mcg/min, or 0.05 mcg/kg/min",
     "5 – 20 mcg/kg/min, or 0.5 mcg/kg/min",
@@ -3237,7 +3237,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "To what maximum does 3.04 direct the post-ROSC epinephrine infusion to be titrated?",
+   "stem": "To what maximum may the post-ROSC epinephrine infusion be titrated?",
    "options": [
     "2 mcg/kg/min",
     "45 mcg/min",
@@ -3261,7 +3261,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "Above what adult epinephrine infusion rate does 3.04 direct that another agent be considered?",
+   "stem": "After ROSC, above what adult epinephrine infusion rate should another agent be considered?",
    "options": [
     "30 mcg/min",
     "45 mcg/min",
@@ -3285,7 +3285,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "To what maximum does 3.04 direct an adult norepinephrine infusion to be titrated after ROSC?",
+   "stem": "To what maximum may an adult norepinephrine infusion be titrated after ROSC?",
    "options": [
     "45 mcg/min",
     "30 mcg/min",
@@ -3309,7 +3309,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What amiodarone infusion rate does 3.04 give for post-ROSC anti-dysrhythmic therapy?",
+   "stem": "What amiodarone infusion rate is used for post-ROSC anti-dysrhythmic therapy?",
    "options": [
     "1 mg/min",
     "1 – 4 mg/min",
@@ -3333,7 +3333,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "A post-ROSC adult has a temperature of 38.1 °C. What does 3.04 direct?",
+   "stem": "A post-ROSC adult has a temperature of 38.1 °C. What treatment is indicated?",
    "options": [
     "Acetaminophen 1000 mg IV over 15 minutes",
     "Acetaminophen 750 mg IV over 15 minutes",
@@ -3357,7 +3357,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What maximum dose of acetaminophen does 3.04 allow for a febrile pediatric patient after ROSC?",
+   "stem": "What is the maximum dose of acetaminophen for a febrile pediatric patient after ROSC?",
    "options": [
     "750 mg",
     "1000 mg",
@@ -3381,7 +3381,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 3.04 identify as a significant cause of hypotension and cardiac arrest in the post-resuscitation phase?",
+   "stem": "What is a significant cause of hypotension and cardiac arrest in the post-resuscitation phase?",
    "options": [
     "Hyperventilation",
     "Hypothermia",
@@ -3389,7 +3389,7 @@
     "Hypoglycemia"
    ],
    "answer_index": 0,
-   "explanation": "Hyperventilation raises intrathoracic pressure, reduces venous return and drops cardiac output, and 3.04 names it a significant cause of hypotension and re-arrest after ROSC. This is why the PEARLS pair it with the direction to transport these patients on a mechanical ventilator.",
+   "explanation": "Hyperventilation raises intrathoracic pressure, reduces venous return and drops cardiac output, and the Post-ROSC Management guideline names it a significant cause of hypotension and re-arrest after ROSC. This is why the PEARLS pair it with the direction to transport these patients on a mechanical ventilator.",
    "priority": "core",
    "tags": [
     "topic:post-rosc",
@@ -3405,7 +3405,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "How does 3.04 direct most patients to be ventilated immediately after ROSC?",
+   "stem": "How should most patients be ventilated immediately after ROSC?",
    "options": [
     "Via mechanical ventilator",
     "By BVM with a crew member assigned to the airway",
@@ -3428,7 +3428,7 @@
    "type": "special",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Under what circumstances does 3.04 permit exceeding the stated maximum vasopressor dose?",
+   "stem": "After ROSC, under what circumstances may the stated maximum vasopressor dose be exceeded?",
    "options": [
     "When hypotension persists despite adequate fluid resuscitation and a second vasopressor",
     "When the transport time exceeds 30 minutes",
@@ -3436,7 +3436,7 @@
     "When the patient's MAP has not reached 65 within 5 minutes"
    ],
    "answer_index": 0,
-   "explanation": "3.04 allows the maximum to be exceeded when the patient remains hypotensive despite adequate fluid resuscitation and the initiation of a second vasopressor, noting that there is no maximum epinephrine dose per AHA or NRP. Both prior steps must have been taken first.",
+   "explanation": "The Post-ROSC Management guideline allows the maximum to be exceeded when the patient remains hypotensive despite adequate fluid resuscitation and the initiation of a second vasopressor, noting that there is no maximum epinephrine dose per AHA or NRP. Both prior steps must have been taken first.",
    "priority": "core",
    "tags": [
     "topic:post-rosc",
@@ -3522,7 +3522,7 @@
    "type": "dose",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What is the dose of aspirin for cardiac chest pain in 3.05?",
+   "stem": "What is the dose of aspirin for cardiac chest pain?",
    "options": [
     "324 mg PO",
     "300 mg PO",
@@ -3546,7 +3546,7 @@
    "type": "contraindication",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Which history rules out giving aspirin under 3.05?",
+   "stem": "In cardiac chest pain, which history rules out giving aspirin?",
    "options": [
     "324 mg of aspirin taken in the past four hours",
     "324 mg of aspirin taken in the past 24 hours",
@@ -3570,7 +3570,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "both",
-   "stem": "To what SpO2 does 3.05 direct oxygen be administered in cardiac chest pain?",
+   "stem": "To what SpO2 should oxygen be administered in cardiac chest pain?",
    "options": [
     "Greater than 90%",
     "Greater than 94%",
@@ -3578,7 +3578,7 @@
     "92% to 98%"
    ],
    "answer_index": 0,
-   "explanation": "3.05 sets the oxygen target at SpO2 > 90%, consistent with 2.05's direction that cardiac patients be treated with oxygen only to maintain > 90%. Routine high-flow oxygen in a patient already above target is not benign in ischemic myocardium.",
+   "explanation": "The oxygen target in cardiac chest pain is SpO2 > 90%, consistent with General Respiratory Care's direction that cardiac patients be treated with oxygen only to maintain > 90%. Routine high-flow oxygen in a patient already above target is not benign in ischemic myocardium.",
    "priority": "core",
    "tags": [
     "topic:oxygenation",
@@ -3594,7 +3594,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult dose, route and interval for nitroglycerin in 3.05?",
+   "stem": "What is the adult dose, route and interval for nitroglycerin in cardiac chest pain?",
    "options": [
     "0.4 mg SL every 3 - 5 min PRN",
     "0.4 mg SL every 15 min PRN",
@@ -3618,7 +3618,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What minimum systolic blood pressure does 3.05 require before giving sublingual nitroglycerin?",
+   "stem": "In cardiac chest pain, what minimum systolic blood pressure is required before giving sublingual nitroglycerin?",
    "options": [
     "Greater than 100 mmHg",
     "Greater than 90 mmHg",
@@ -3642,7 +3642,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "A chest pain patient reports taking tadalafil (Cialis). For how long does 3.05 contraindicate nitroglycerin?",
+   "stem": "A chest pain patient reports taking tadalafil (Cialis). For how long is nitroglycerin contraindicated?",
    "options": [
     "48 hours",
     "24 hours",
@@ -3650,7 +3650,7 @@
     "4 hours"
    ],
    "answer_index": 0,
-   "explanation": "3.05 splits the phosphodiesterase inhibitors by duration: 24 hours for Viagra, and 48 hours for Cialis, Stendra, Levitra and Staxyn. Giving nitroglycerin inside that window risks profound, refractory hypotension.",
+   "explanation": "The guideline splits the phosphodiesterase inhibitors by duration: 24 hours for Viagra, and 48 hours for Cialis, Stendra, Levitra and Staxyn. Giving nitroglycerin inside that window risks profound, refractory hypotension.",
    "priority": "core",
    "tags": [
     "drug:nitroglycerin",
@@ -3666,7 +3666,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "Chest pain is refractory to nitroglycerin. Which analgesic does 3.05 name as preferred?",
+   "stem": "Cardiac chest pain is refractory to nitroglycerin. Which analgesic is preferred?",
    "options": [
     "Fentanyl",
     "Hydromorphone",
@@ -3674,7 +3674,7 @@
     "Acetaminophen"
    ],
    "answer_index": 0,
-   "explanation": "For pain refractory to nitroglycerin, 3.05 sends crews to the Pain Management guideline and names fentanyl as preferred, and as first line again in the CCT band. Its hemodynamic stability is why it is chosen over other opioids in ischemia.",
+   "explanation": "For pain refractory to nitroglycerin, the chest pain guideline sends crews to the Pain Management guideline and names fentanyl as preferred, and as first line again in the CCT band. Its hemodynamic stability is why it is chosen over other opioids in ischemia.",
    "priority": "core",
    "tags": [
     "drug:fentanyl",
@@ -3690,7 +3690,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "A STEMI has already been diagnosed at the sending facility. What does 3.05 direct regarding the 12-lead ECG?",
+   "stem": "A STEMI has already been diagnosed at the sending facility. What is the direction regarding the 12-lead ECG?",
    "options": [
     "Do not delay transport to obtain a 12-lead on scene or at the bedside",
     "Obtain a confirmatory 12-lead before departing the bedside",
@@ -3714,7 +3714,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "To expedite loading and departure, which infusions does 3.05 allow a crew to disconnect?",
+   "stem": "When transporting a STEMI patient, which infusions may be disconnected to expedite loading and departure?",
    "options": [
     "Nitroglycerin, heparin and 2b3a inhibitors",
     "Anti-arrhythmics and vasopressors",
@@ -3738,7 +3738,7 @@
    "type": "scope",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 3.05 require before an infusion continued from the sending hospital is titrated?",
+   "stem": "For a cardiac chest pain or STEMI patient, what is required before an infusion continued from the sending hospital is titrated?",
    "options": [
     "An OLMC consult or sending provider orders",
     "A repeat 12-lead ECG confirming the rhythm",
@@ -3762,7 +3762,7 @@
    "type": "equipment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 3.05 direct be applied to every STEMI patient before transport?",
+   "stem": "What must be applied to every STEMI patient before transport?",
    "options": [
     "Multifunction defibrillation pads",
     "A transcutaneous pacing generator",
@@ -3786,7 +3786,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Within what transport time does 3.05 direct a stable patient be taken directly to a PCI center?",
+   "stem": "Within what transport time should a stable STEMI patient be taken directly to a PCI center?",
    "options": [
     "60 minutes",
     "120 minutes",
@@ -3810,7 +3810,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "At what rate does 3.05 direct a CCT crew to start an adult nitroglycerin infusion?",
+   "stem": "For cardiac chest pain, at what rate should a CCT crew start an adult nitroglycerin infusion?",
    "options": [
     "10 mcg/min",
     "5 mcg/min",
@@ -3834,7 +3834,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "To what maximum rate may the adult nitroglycerin infusion be titrated in 3.05?",
+   "stem": "For cardiac chest pain, to what maximum rate may the adult nitroglycerin infusion be titrated?",
    "options": [
     "400 mcg/min",
     "200 mcg/min",
@@ -3858,7 +3858,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What systolic blood pressure does 3.05 direct be maintained during a nitroglycerin infusion?",
+   "stem": "In cardiac chest pain, what systolic blood pressure must be maintained during a nitroglycerin infusion?",
    "options": [
     "Greater than 90 mmHg",
     "Greater than 100 mmHg",
@@ -3882,7 +3882,7 @@
    "type": "indication",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Which STEMI patients does 3.05 direct to receive metoprolol?",
+   "stem": "Which STEMI patients should receive metoprolol?",
    "options": [
     "Those with persistent hypertension AND tachycardia after nitroglycerin and pain management",
     "Those with persistent hypertension OR tachycardia after nitroglycerin and pain management",
@@ -3906,7 +3906,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the adult dose of metoprolol in 3.05, and how may it be repeated?",
+   "stem": "What is the adult dose of metoprolol in STEMI, and how may it be repeated?",
    "options": [
     "5 mg IV, repeated every 5 min PRN twice",
     "5 mg IV, as a single dose only",
@@ -3930,7 +3930,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the maximum total dose of metoprolol in 3.05?",
+   "stem": "What is the maximum total dose of metoprolol in STEMI?",
    "options": [
     "15 mg",
     "5 mg",
@@ -3954,7 +3954,7 @@
    "type": "contraindication",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Which findings does 3.05 direct should cause metoprolol to be held?",
+   "stem": "In STEMI, which findings should cause metoprolol to be held?",
    "options": [
     "Heart rate under 60, SBP under 120, evidence of CHF, or cardiogenic shock",
     "Heart rate over 90, SBP over 140, or ongoing chest pain",
@@ -3978,7 +3978,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the standard heparin bolus and infusion in 3.05?",
+   "stem": "What is the standard heparin bolus and infusion for ACS/STEMI?",
    "options": [
     "60 units/kg bolus, then 12 units/kg/hour",
     "70 units/kg bolus, then 12 units/kg/hour",
@@ -4002,7 +4002,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What maximum heparin infusion rate does 3.05 give?",
+   "stem": "What is the maximum heparin infusion rate for ACS/STEMI?",
    "options": [
     "1000 units/hr",
     "4000 units/hr",
@@ -4026,7 +4026,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "At a non-PCI capable facility, what first-medical-contact-to-balloon time does 3.05 use to decide between transferring for PCI and giving a fibrinolytic first?",
+   "stem": "For a STEMI patient at a non-PCI capable facility, what first-medical-contact-to-balloon time decides between transferring for PCI and giving a fibrinolytic first?",
    "options": [
     "120 minutes",
     "60 minutes",
@@ -4050,7 +4050,7 @@
    "type": "dose",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What is the ticagrelor dose in the interfacility STEMI transfer section of 3.05?",
+   "stem": "What is the ticagrelor dose for a STEMI patient on interfacility transfer for PCI?",
    "options": [
     "180 mg PO",
     "300 mg PO",
@@ -4074,7 +4074,7 @@
    "type": "dose",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "An 80-year-old has received a fibrinolytic before transfer. What clopidogrel dose does 3.05 give?",
+   "stem": "An 80-year-old STEMI patient has received a fibrinolytic before transfer. What clopidogrel dose is given?",
    "options": [
     "75 mg PO",
     "300 mg PO",
@@ -4098,7 +4098,7 @@
    "type": "contraindication",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What does 3.05 say about ticagrelor in a patient who has received fibrinolysis?",
+   "stem": "In a STEMI patient who has received fibrinolysis, what is the consideration regarding ticagrelor?",
    "options": [
     "Most consider fibrinolysis a relative contraindication to ticagrelor",
     "Ticagrelor is preferred over clopidogrel after fibrinolysis",
@@ -4106,7 +4106,7 @@
     "Ticagrelor may be given once the 12-lead is repeated at 30 minutes"
    ],
    "answer_index": 0,
-   "explanation": "3.05 notes that most consider fibrinolysis a relative contraindication to ticagrelor, which is why the fibrinolytic pathway specifies clopidogrel instead, dosed by age.",
+   "explanation": "The guideline notes that most consider fibrinolysis a relative contraindication to ticagrelor, which is why the fibrinolytic pathway specifies clopidogrel instead, dosed by age.",
    "priority": "core",
    "tags": [
     "drug:ticagrelor",
@@ -4122,7 +4122,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "When fibrinolytics have been administered before transfer, at what point does 3.05 direct that the 12-lead ECG be repeated?",
+   "stem": "After pre-transfer fibrinolytics in STEMI, when should the 12-lead ECG be repeated?",
    "options": [
     "30 minutes post administration",
     "60 minutes post administration",
@@ -4146,7 +4146,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "A STEMI patient is being transferred and no fibrinolytics have been given. What destination arrangement does 3.05 direct the crew to confirm?",
+   "stem": "A STEMI patient is being transferred and no fibrinolytics have been given. What destination arrangement should the crew confirm?",
    "options": [
     "Direct to the cardiac cath lab, or a designated ED room if no cath lab bed is available",
     "The closest emergency department regardless of PCI capability",
@@ -4170,7 +4170,7 @@
    "type": "dose",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What heparin bolus does the St. Charles Medical Center – Bend Heart One protocol use in 3.05?",
+   "stem": "What heparin bolus does the St. Charles Medical Center – Bend Heart One STEMI protocol use?",
    "options": [
     "70 units/kg",
     "60 units/kg",
@@ -4178,7 +4178,7 @@
     "20 units/kg"
    ],
    "answer_index": 0,
-   "explanation": "The Heart One protocol for STEMI patients destined for St. Charles Medical Center – Bend specifies a heparin bolus of 70 units/kg, rather than the 60 units/kg standard dose used elsewhere in 3.05.",
+   "explanation": "The Heart One protocol for STEMI patients destined for St. Charles Medical Center – Bend specifies a heparin bolus of 70 units/kg, rather than the 60 units/kg standard dose used elsewhere in the STEMI guideline.",
    "priority": "detail",
    "tags": [
     "drug:heparin",
@@ -4194,7 +4194,7 @@
    "type": "special",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "Which ECG finding does 3.05 say excludes a patient from the Heart One protocol?",
+   "stem": "Which ECG finding excludes a STEMI patient from the Heart One protocol?",
    "options": [
     "A left bundle branch block",
     "A right bundle branch block",
@@ -4218,7 +4218,7 @@
    "type": "scope",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What authority does 3.05 give LFN Flight Nurses and Paramedics operating under the Heart One Protocol Form?",
+   "stem": "What authority do LFN Flight Nurses and Paramedics have when operating under the Heart One Protocol Form?",
    "options": [
     "To give any medication on the form without OLMC or physician consult",
     "To give any medication on the form after an OLMC consult",
@@ -4226,7 +4226,7 @@
     "To titrate existing infusions, but not to initiate new medications"
    ],
    "answer_index": 0,
-   "explanation": "LFN Flight Nurses and Paramedics are authorized to administer any medication in accordance with the Heart One Protocol Form without OLMC or physician consult. 3.05 also directs calling SCMC Bend at least 20 minutes before arrival with an update and attaching a copy of the 12-lead to the chart.",
+   "explanation": "LFN Flight Nurses and Paramedics are authorized to administer any medication in accordance with the Heart One Protocol Form without OLMC or physician consult. The guideline also directs calling SCMC Bend at least 20 minutes before arrival with an update and attaching a copy of the 12-lead to the chart.",
    "priority": "detail",
    "tags": [
     "topic:scope-of-practice",

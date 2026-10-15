@@ -512,7 +512,7 @@
    "type": "dose",
    "care_level": null,
    "population": "adult",
-   "stem": "An adult in SVT does not convert after the first dose of adenosine. What repeat dosing does 12.04 allow?",
+   "stem": "An adult in SVT does not convert after the first dose of adenosine. What repeat dosing is allowed?",
    "options": [
     "One repeat dose of 12 mg",
     "Two repeat doses of 12 mg",
@@ -803,7 +803,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "For an asthma patient who is not improving with intermittent nebulized albuterol, what does 12.05 direct the crew to consider?",
+   "stem": "For an asthma patient who is not improving with intermittent nebulized albuterol, what should the crew consider?",
    "options": [
     "Continuous albuterol treatments",
     "Doubling the dose to 10 mg",
@@ -949,7 +949,7 @@
    "type": "procedure",
    "care_level": null,
    "population": "adult",
-   "stem": "Once the alteplase infusion is complete, what does 12.06 direct the crew to do?",
+   "stem": "Once an alteplase (tPA) infusion is complete, what should the crew do with the line?",
    "options": [
     "Infuse 100 mL NS through the tubing at the same rate",
     "Flush the line with 10 mL of normal saline",
@@ -1271,7 +1271,7 @@
     "0.5 mg/mL"
    ],
    "answer_index": 0,
-   "explanation": "Amiodarone is diluted in D5W to 1.8 mg/mL, which is 450 mg in 250 mL or 900 mg in 500 mL; 0.9% saline may be substituted if D5W is unavailable. This matches the LFN standard mix in 12.01.",
+   "explanation": "Amiodarone is diluted in D5W to 1.8 mg/mL, which is 450 mg in 250 mL or 900 mg in 500 mL; 0.9% saline may be substituted if D5W is unavailable. This matches the LFN standard mix in Recommended Infusion Mixtures.",
    "priority": "detail",
    "tags": [
     "drug:amiodarone",
@@ -1359,7 +1359,7 @@
    "type": "indication",
    "care_level": null,
    "population": "adult",
-   "stem": "Besides chest pain, STEMI and ACS, for what indication does 12.08 list aspirin?",
+   "stem": "Besides chest pain, STEMI and ACS, for what indication is aspirin given?",
    "options": [
     "Altitude related emergencies",
     "Ischemic stroke",
@@ -1406,7 +1406,7 @@
    "type": "mechanism",
    "care_level": null,
    "population": null,
-   "stem": "What is the mechanism of action of aspirin as listed in 12.08?",
+   "stem": "What is the mechanism of action of aspirin?",
    "options": [
     "Inhibits platelet function",
     "Inhibits calcium influx into vascular smooth muscle",
@@ -1699,7 +1699,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "neonatal",
-   "stem": "Up to what age does 12.09 list atropine as an RSI pretreatment?",
+   "stem": "Up to what age is atropine used as an RSI pretreatment?",
    "options": [
     "28 days or less",
     "7 days or less",
@@ -2068,7 +2068,7 @@
     "Half as much"
    ],
    "answer_index": 0,
-   "explanation": "One gram of calcium chloride contains 270 mg of elemental calcium, three times what the same weight of calcium gluconate delivers. This is why the gluconate doses in 12.12 are numerically much larger for the same indications.",
+   "explanation": "One gram of calcium chloride contains 270 mg of elemental calcium, three times what the same weight of calcium gluconate delivers. This is why calcium gluconate doses are numerically much larger for the same indications.",
    "priority": "core",
    "tags": [
     "drug:calcium chloride",

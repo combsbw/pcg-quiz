@@ -8,7 +8,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "With ongoing post-partum hemorrhage, what blood loss volume prompts consideration of immediate blood transfusion under 6.06?",
+   "stem": "With ongoing post-partum hemorrhage, what blood loss volume prompts consideration of immediate blood transfusion?",
    "options": [
     "2000 mL",
     "1000 mL",
@@ -16,7 +16,7 @@
     "1,500 mL"
    ],
    "answer_index": 3,
-   "explanation": "6.06 ties immediate transfusion to ongoing hemorrhage with blood loss of 1,500 mL or more, or to any woman with tachycardia and hypotension — the vital-sign trigger matters because measured loss is almost always underestimated.",
+   "explanation": "In post-partum hemorrhage, immediate transfusion is tied to ongoing hemorrhage with blood loss of 1,500 mL or more, or to any woman with tachycardia and hypotension — the vital-sign trigger matters because measured loss is almost always underestimated.",
    "priority": "core",
    "tags": [
     "topic:postpartum-hemorrhage",
@@ -32,7 +32,7 @@
    "type": "assessment",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Palpation of the fundus in a post-partum hemorrhage patient finds the uterus boggy rather than firm. What does 6.06 identify as the most likely etiology of the bleeding?",
+   "stem": "Palpation of the fundus in a post-partum hemorrhage patient finds the uterus boggy rather than firm. What is the most likely etiology of the bleeding?",
    "options": [
     "A perineal laceration",
     "Placenta previa",
@@ -40,7 +40,7 @@
     "Placental abruption"
    ],
    "answer_index": 2,
-   "explanation": "6.06 directs the crew to palpate the fundus for firmness or bogginess and its relation to the umbilicus; a boggy uterus makes atony the most likely source, which is why fundal massage and oxytocin follow immediately.",
+   "explanation": "In post-partum hemorrhage the crew palpates the fundus for firmness or bogginess and its relation to the umbilicus; a boggy uterus makes atony the most likely source, which is why fundal massage and oxytocin follow immediately.",
    "priority": "core",
    "tags": [
     "topic:postpartum-hemorrhage",
@@ -56,7 +56,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "After the placenta has been delivered, how much oxytocin does 6.06 direct be added to 1000 mL of NS/LR?",
+   "stem": "In post-partum hemorrhage after the placenta has been delivered, how much oxytocin is added to 1000 mL of NS/LR?",
    "options": [
     "20 units",
     "40 units",
@@ -80,7 +80,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "After the initial oxytocin infusion of up to 500 mL over 10 minutes, at what rate does 6.06 direct it be continued?",
+   "stem": "In post-partum hemorrhage, after the initial oxytocin infusion of up to 500 mL over 10 minutes, at what rate is it continued?",
    "options": [
     "50 mL/hr",
     "500 mL/hr",
@@ -104,7 +104,7 @@
    "type": "adverse",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Why does 6.06 warn against ever injecting undiluted oxytocin intravenously?",
+   "stem": "In post-partum hemorrhage, why must undiluted oxytocin never be injected intravenously?",
    "options": [
     "Fetal distress",
     "Bradycardia and arrhythmias",
@@ -112,7 +112,7 @@
     "Maternal hypotension"
    ],
    "answer_index": 3,
-   "explanation": "Undiluted IV oxytocin can drop maternal blood pressure sharply in a patient who is already hemorrhaging. If no IV is available, 6.06 directs 10 units IM instead.",
+   "explanation": "Undiluted IV oxytocin can drop maternal blood pressure sharply in a patient who is already hemorrhaging. If no IV is available, 10 units IM is given instead.",
    "priority": "detail",
    "tags": [
     "drug:oxytocin",
@@ -136,7 +136,7 @@
     "0.2 mg IV q 2 – 4 hours"
    ],
    "answer_index": 2,
-   "explanation": "Methylergonovine is the second-line uterotonic at 0.2 mg IM every 2 to 4 hours, used when oxytocin has not produced adequate contraction; 6.06 also suggests consulting the receiving physician or on-line medical control.",
+   "explanation": "Methylergonovine is the second-line uterotonic at 0.2 mg IM every 2 to 4 hours, used when oxytocin has not produced adequate contraction; consulting the receiving physician or on-line medical control is also suggested.",
    "priority": "core",
    "tags": [
     "drug:methylergonovine",
@@ -152,7 +152,7 @@
    "type": "contraindication",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "Which finding does 6.06 give as a reason not to administer methylergonovine?",
+   "stem": "In post-partum hemorrhage, which finding is a reason not to administer methylergonovine?",
    "options": [
     "HR > 120",
     "Respiratory rate < 12",
@@ -176,7 +176,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "In post-partum hemorrhage where the placenta has NOT yet been delivered, what does 6.06 direct the crew to do?",
+   "stem": "In post-partum hemorrhage where the placenta has NOT yet been delivered, what should the crew do?",
    "options": [
     "Begin fundal massage and start oxytocin at once",
     "Administer methylergonovine 0.2 mg IM",
@@ -200,7 +200,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What does the BLS band of 6.06 direct a crew to do about the possible source of post-partum bleeding?",
+   "stem": "In post-partum hemorrhage, what should a BLS crew do about the possible source of bleeding?",
    "options": [
     "Administer oxytocin 10 units IM",
     "Provide gentle traction on the umbilical cord",
@@ -224,7 +224,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the magnesium sulfate loading dose for pre-eclampsia or eclampsia under 6.07?",
+   "stem": "What is the magnesium sulfate loading dose for pre-eclampsia or eclampsia?",
    "options": [
     "6 grams over 30 min",
     "6 grams over 15 minutes",
@@ -248,7 +248,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "After the magnesium sulfate load in 6.07, at what rate is the maintenance infusion run?",
+   "stem": "In pre-eclampsia or eclampsia, after the magnesium sulfate load, at what rate is the maintenance infusion run?",
    "options": [
     "2 grams/hr",
     "10 grams/hr",
@@ -272,7 +272,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "If the patient is actively seizing when magnesium sulfate is started under 6.07, over what period is the loading dose given?",
+   "stem": "If an eclamptic patient is actively seizing when magnesium sulfate is started, over what period is the loading dose given?",
    "options": [
     "Over 30 minutes",
     "Over 2 minutes",
@@ -296,7 +296,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "At what respiratory rate does 6.07 direct that magnesium sulfate be discontinued?",
+   "stem": "In pre-eclampsia or eclampsia, at what respiratory rate should magnesium sulfate be discontinued?",
    "options": [
     "RR < 15",
     "RR < 8",
@@ -320,7 +320,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "A patient on a magnesium sulfate infusion develops a respiratory rate of 7 and new cardiac arrhythmias. What does 6.07 direct the crew to suspect?",
+   "stem": "A pre-eclamptic patient on a magnesium sulfate infusion develops a respiratory rate of 7 and new cardiac arrhythmias. What should the crew suspect?",
    "options": [
     "HELLP syndrome",
     "An eclamptic seizure",
@@ -344,7 +344,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the calcium gluconate dose for suspected magnesium toxicity under 6.07?",
+   "stem": "What is the calcium gluconate dose for suspected magnesium toxicity in a pre-eclamptic patient?",
    "options": [
     "2 grams of 10% solution IV over 3 – 5 min",
     "1 gram of 10% solution IV over 5 – 10 min",
@@ -368,7 +368,7 @@
    "type": "adverse",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What does 6.07 warn may happen if calcium gluconate is infused too rapidly?",
+   "stem": "When treating magnesium toxicity, what may happen if calcium gluconate is infused too rapidly?",
    "options": [
     "Pulmonary edema",
     "Maternal hypotension",
@@ -392,7 +392,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "Seizure activity occurs despite a running magnesium sulfate infusion. What additional magnesium bolus does 6.07 direct?",
+   "stem": "In eclampsia, seizure activity occurs despite a running magnesium sulfate infusion. What additional magnesium bolus is given?",
    "options": [
     "2 grams over 15 minutes",
     "6 grams over 30 min",
@@ -416,7 +416,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "Alongside the additional bolus for a breakthrough eclamptic seizure, how does 6.07 direct the magnesium sulfate infusion be changed?",
+   "stem": "Alongside the additional bolus for a breakthrough eclamptic seizure, how is the magnesium sulfate infusion changed?",
    "options": [
     "Decreased by 1 gram/hr",
     "Increased by 1 gram/hr",
@@ -440,7 +440,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "An eclamptic seizure persists more than 2 minutes despite magnesium sulfate. What does 6.07 direct the crew to consider?",
+   "stem": "An eclamptic seizure persists more than 2 minutes despite magnesium sulfate. What should the crew consider?",
    "options": [
     "Administering a benzodiazepine while infusing magnesium",
     "Doubling the magnesium sulfate infusion rate",
@@ -464,7 +464,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What blood pressure goals does 6.07 set when treating hypertension in pre-eclampsia?",
+   "stem": "What blood pressure goals are set when treating hypertension in pre-eclampsia?",
    "options": [
     "SBP 160 – 170 and DBP 110 – 120",
     "SBP 120 – 130 and DBP 80 – 90",
@@ -488,7 +488,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the initial labetalol dose for blood pressure control under 6.07?",
+   "stem": "What is the initial labetalol dose for blood pressure control in pre-eclampsia?",
    "options": [
     "80 mg IV over 2 minutes",
     "5 mg IV over 1 minute",
@@ -512,7 +512,7 @@
    "type": "sequence",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "Blood pressure thresholds are still exceeded 10 minutes after labetalol 20 mg IV. What dose does 6.07 direct next?",
+   "stem": "In pre-eclampsia, blood pressure thresholds are still exceeded 10 minutes after labetalol 20 mg IV. What dose is given next?",
    "options": [
     "20 mg IV over 2 minutes",
     "1 – 2 mg/min by infusion",
@@ -536,7 +536,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What maximum does 6.07 place on the labetalol infusion used when blood pressure remains uncontrolled?",
+   "stem": "In pre-eclampsia with uncontrolled blood pressure, what maximum applies to the labetalol infusion?",
    "options": [
     "150 mg in 24 hours",
     "300 mg in 24 hours",
@@ -560,7 +560,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the initial hydralazine dose for blood pressure control under 6.07?",
+   "stem": "What is the initial hydralazine dose for blood pressure control in pre-eclampsia?",
    "options": [
     "20 mg IV over 2 minutes",
     "5 mg IV over 2 minutes",
@@ -584,7 +584,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the maximum cumulative hydralazine dose under 6.07?",
+   "stem": "In pre-eclampsia, what is the maximum cumulative hydralazine dose?",
    "options": [
     "20 mg",
     "300 mg",
@@ -608,7 +608,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What total fluid goal does 6.07 set for a pre-eclamptic patient, counting LR/NS plus infusions?",
+   "stem": "What total fluid goal is set for a pre-eclamptic patient, counting LR/NS plus infusions?",
    "options": [
     "≤ 250 mL/hr",
     "≤ 100 mL/hr",
@@ -632,7 +632,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "A pre-eclamptic patient develops a worsening frontal headache, blurred vision and epigastric pain. What does 6.07 say these findings indicate?",
+   "stem": "A pre-eclamptic patient develops a worsening frontal headache, blurred vision and epigastric pain. What do these findings indicate?",
    "options": [
     "An imminent placental abruption",
     "Developing HELLP syndrome",
@@ -656,7 +656,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "Which finding does 6.07 give as a criterion for SEVERE pre-eclampsia rather than mild?",
+   "stem": "Which finding is a criterion for SEVERE pre-eclampsia rather than mild?",
    "options": [
     "SBP > 160 or DBP > 110 on 2 occasions, 6 hours apart",
     "Edema developing at or beyond 20 weeks gestation",
@@ -680,7 +680,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "Before transporting an interfacility patient with active contractions, at what cervical dilation does 6.08 require consultation with the sending and receiving providers?",
+   "stem": "Before transporting an interfacility pre-term labor patient with active contractions, at what cervical dilation is consultation with the sending and receiving providers required?",
    "options": [
     "More than 8 cm dilated",
     "More than 3 cm dilated",
@@ -704,7 +704,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "When delivery appears imminent during an interfacility pre-term labor transfer, what does 6.08 advise?",
+   "stem": "When delivery appears imminent during an interfacility pre-term labor transfer, what is advised?",
    "options": [
     "It is better to deliver in the aircraft",
     "Delay only if the patient is under 32 weeks",
@@ -728,7 +728,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "With no guidance from the sending provider, what contraction pattern prompts tocolysis under 6.08?",
+   "stem": "In pre-term labor with no guidance from the sending provider, what contraction pattern prompts tocolysis?",
    "options": [
     "Less than 10 minutes apart, lasting over 30 seconds",
     "Less than 5 minutes apart, lasting over 60 seconds",
@@ -752,7 +752,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the magnesium sulfate loading dose and maintenance rate for pre-term labor under 6.08?",
+   "stem": "What is the magnesium sulfate loading dose and maintenance rate for pre-term labor?",
    "options": [
     "6 grams over 30 minutes, then 1 gram/hour",
     "6 grams over 30 minutes, then 2 grams/hour",
@@ -776,7 +776,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "For which pre-term labor patients is magnesium sulfate the first-line tocolytic under 6.08?",
+   "stem": "For which pre-term labor patients is magnesium sulfate the first-line tocolytic?",
    "options": [
     "Under 32 weeks with delivery expected within 24 hours",
     "Over 32 weeks gestation with an SBP below 90",
@@ -800,7 +800,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the nifedipine dose, route and interval for tocolysis under 6.08?",
+   "stem": "What is the nifedipine dose, route and interval for tocolysis in pre-term labor?",
    "options": [
     "10 mg SL/PO q 15 min",
     "40 mg SL/PO q 15 min",
@@ -824,7 +824,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the maximum total nifedipine dose for tocolysis under 6.08?",
+   "stem": "What is the maximum total nifedipine dose for tocolysis in pre-term labor?",
    "options": [
     "30 mg",
     "40 mg",
@@ -848,7 +848,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "At what blood pressure does 6.08 direct nifedipine be held?",
+   "stem": "During tocolysis for pre-term labor, at what blood pressure should nifedipine be held?",
    "options": [
     "SBP < 100",
     "SBP < 110",
@@ -872,7 +872,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the terbutaline dose, route and interval for tocolysis under 6.08?",
+   "stem": "What is the terbutaline dose, route and interval for tocolysis in pre-term labor?",
    "options": [
     "0.25 mg IV q 30 minutes",
     "0.25 mg SQ q 15 min",
@@ -896,7 +896,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "At what heart rate does 6.08 direct terbutaline be held?",
+   "stem": "During tocolysis for pre-term labor, at what heart rate should terbutaline be held?",
    "options": [
     "HR > 120",
     "HR > 160",
@@ -920,7 +920,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "When does 6.08 direct terbutaline be used for tocolysis?",
+   "stem": "When is terbutaline used for tocolysis in pre-term labor?",
    "options": [
     "When the patient's systolic pressure is below 90",
     "As first line when delivery is expected within 24 hours",
@@ -944,7 +944,7 @@
    "type": "contraindication",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "Which of the following does 6.08 list as a contraindication to tocolysis?",
+   "stem": "Which of the following is a contraindication to tocolysis in pre-term labor?",
    "options": [
     "Contractions less than 10 minutes apart",
     "Pregnancy under 37 weeks gestation",
@@ -968,7 +968,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "After premature rupture of membranes, what fetal heart rate prompts consideration of chorioamnionitis under 6.08?",
+   "stem": "After premature rupture of membranes, what fetal heart rate prompts consideration of chorioamnionitis?",
    "options": [
     "Above 140 bpm",
     "Above 120 bpm",
@@ -992,7 +992,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "Why does 6.08 restrict concurrent use of nifedipine and magnesium sulfate to an order from the sending provider, receiving provider or OLMC?",
+   "stem": "In pre-term labor, why is concurrent use of nifedipine and magnesium sulfate restricted to an order from the sending provider, receiving provider or OLMC?",
    "options": [
     "Risk of fetal tachycardia",
     "Risk of magnesium toxicity",
@@ -1016,7 +1016,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What does 6.09 Trauma in Pregnancy identify as the highest priority in managing an injured pregnant patient?",
+   "stem": "What is the highest priority in managing an injured pregnant patient?",
    "options": [
     "Maternal resuscitation",
     "Fetal heart rate monitoring",
@@ -1040,7 +1040,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What does 6.09 give as the initial treatment for hypotension in a pregnant trauma patient?",
+   "stem": "What is the initial treatment for hypotension in a pregnant trauma patient?",
    "options": [
     "Trendelenburg positioning with the legs elevated",
     "Left lateral tilt by placing a wedge under the right hip",
@@ -1064,7 +1064,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "A pregnant trauma patient has a rigid, painful abdomen and no vaginal bleeding. What does 6.09 say this presentation often represents?",
+   "stem": "A pregnant trauma patient has a rigid, painful abdomen and no vaginal bleeding. What does this presentation often represent?",
    "options": [
     "Placenta previa",
     "Uterine atony",
@@ -1072,7 +1072,7 @@
     "Spontaneous abortion"
    ],
    "answer_index": 2,
-   "explanation": "6.09 directs crews to distinguish abdominal pain from contractions and notes that abruption often presents as a rigid, painful abdomen — with vaginal bleeding that may or may not be present.",
+   "explanation": "In trauma in pregnancy, crews distinguish abdominal pain from contractions; abruption often presents as a rigid, painful abdomen — with vaginal bleeding that may or may not be present.",
    "priority": "core",
    "tags": [
     "topic:trauma-in-pregnancy",
@@ -1088,7 +1088,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "Why does 6.09 emphasise assessment for chest injury in a pregnant trauma patient?",
+   "stem": "Why is assessment for chest injury emphasised in a pregnant trauma patient?",
    "options": [
     "Chest injury is a common cause of placental abruption",
     "The elevated diaphragm raises the risk of hypoventilation",
@@ -1112,7 +1112,7 @@
    "type": "scope",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "Who does 6.09 direct should perform the pelvic examination for cervical dilation and effacement on an interfacility pregnant trauma patient?",
+   "stem": "Who should perform the pelvic examination for cervical dilation and effacement on an interfacility pregnant trauma patient?",
    "options": [
     "The transport crew during flight",
     "The transport crew before departure",
@@ -1136,7 +1136,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What does 6.09 say about vasopressor use in a hypotensive pregnant trauma patient?",
+   "stem": "What is the role of vasopressors in a hypotensive pregnant trauma patient?",
    "options": [
     "They are a last resort, as they reduce uterine blood flow",
     "They are first line once 1000 mL of crystalloid is given",
@@ -1160,7 +1160,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "When transferring a pregnant trauma patient from another facility, what fetal monitor finding does 6.09 direct the crew to note specifically?",
+   "stem": "When transferring a pregnant trauma patient from another facility, what fetal monitor finding should the crew note specifically?",
    "options": [
     "A fetal heart rate above 160 bpm",
     "Absent beat-to-beat variability",
@@ -1184,7 +1184,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What oxygen saturation target does the BLS band of 6.10 set for a patient with vaginal bleeding?",
+   "stem": "At the BLS level, what oxygen saturation target is set for a patient with vaginal bleeding?",
    "options": [
     "≥ 94%",
     "≥ 88%",
@@ -1208,7 +1208,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "How does 6.10 direct a BLS crew to perform uterine massage for active post-partum hemorrhage from the vagina?",
+   "stem": "How should a BLS crew perform uterine massage for active post-partum hemorrhage from the vagina?",
    "options": [
     "From the pubis toward the umbilicus, clockwise",
     "In small circles centred on the umbilicus",
@@ -1232,7 +1232,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What does 6.10 note about maternal vital signs during ongoing obstetric hemorrhage?",
+   "stem": "How do maternal vital signs behave during ongoing obstetric hemorrhage?",
    "options": [
     "They typically do not change until blood loss is significant",
     "They change sooner than in a non-pregnant trauma patient",
@@ -1256,7 +1256,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "Which tocolytic does 6.10 identify as contraindicated in a patient with vaginal bleeding?",
+   "stem": "Which tocolytic is contraindicated in a patient with vaginal bleeding?",
    "options": [
     "Methylergonovine",
     "Terbutaline",
@@ -1280,7 +1280,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "With which condition does 6.10 identify speculum and digital pelvic exams as contraindicated?",
+   "stem": "In a patient with vaginal bleeding, with which condition are speculum and digital pelvic exams contraindicated?",
    "options": [
     "Placental abruption",
     "Placenta previa",
@@ -1304,7 +1304,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "For excessive vaginal bleeding with hypotension and/or tachycardia, what does the CCT band of 6.10 direct?",
+   "stem": "For excessive vaginal bleeding with hypotension and/or tachycardia, what should CCT crews do?",
    "options": [
     "Administer oxytocin 40 units in 1000 mL",
     "Begin tocolysis with magnesium sulfate",
@@ -1328,7 +1328,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What does 6.10 describe as the classic presentation of placenta previa?",
+   "stem": "What is the classic presentation of placenta previa?",
    "options": [
     "A rigid, painful abdomen with marked uterine tenderness",
     "Painless bleeding with fetal distress and early coagulopathy",
@@ -1352,7 +1352,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "How does 6.10 define abruptio placentae?",
+   "stem": "How is abruptio placentae defined?",
    "options": [
     "Separation of the placenta during the third stage of labor",
     "Implantation of the placenta over the internal cervical os",
@@ -1376,7 +1376,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "A burn patient has carbonaceous sputum and singed nasal hairs but an SpO2 of 99%. What oxygen does 7.01 direct?",
+   "stem": "A burn patient has carbonaceous sputum and singed nasal hairs but an SpO2 of 99%. What oxygen should be given?",
    "options": [
     "100% oxygen by maximum flow non-rebreather mask",
     "Oxygen titrated to maintain an SpO2 of at least 94%",
@@ -1384,7 +1384,7 @@
     "No oxygen unless the saturation falls below 90%"
    ],
    "answer_index": 0,
-   "explanation": "Signs of inhalation injury get 100% oxygen at maximum flow regardless of the pulse oximeter, because carboxyhemoglobin reads as saturated — 7.01 says explicitly not to base oxygen need on SpO2 values.",
+   "explanation": "Signs of inhalation injury get 100% oxygen at maximum flow regardless of the pulse oximeter, because carboxyhemoglobin reads as saturated — the Burns and Inhalation Injuries guideline says explicitly not to base oxygen need on SpO2 values.",
    "priority": "core",
    "tags": [
     "topic:burns",
@@ -1400,7 +1400,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What dressing does 7.01 direct a crew to place over a burn?",
+   "stem": "What dressing should be placed over a burn?",
    "options": [
     "Wet-to-dry gauze over the burned surface",
     "Dry, clean or sterile linen",
@@ -1408,7 +1408,7 @@
     "Moist dressings for burns under 10% TBSA"
    ],
    "answer_index": 1,
-   "explanation": "Burns are covered with dry, clean or sterile linen and the patient monitored for hypothermia; 7.01 states that moist dressings are no longer recommended for any size burn.",
+   "explanation": "Burns are covered with dry, clean or sterile linen and the patient monitored for hypothermia; moist dressings are no longer recommended for any size burn.",
    "priority": "core",
    "tags": [
     "topic:burns",
@@ -1424,7 +1424,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "How does 7.01 direct a crew to transport a patient with severe upper body burns?",
+   "stem": "How should a patient with severe upper body burns be transported?",
    "options": [
     "In a left lateral tilt position",
     "Prone, to limit airway swelling",
@@ -1448,7 +1448,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult pre-hospital fluid resuscitation rate for burns under 7.01?",
+   "stem": "What is the adult pre-hospital fluid resuscitation rate for burns?",
    "options": [
     "Lactated ringers at 125 mL/hr",
     "Lactated ringers at 1000 mL/hr",
@@ -1472,7 +1472,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What pre-hospital burn fluid rate does 7.01 set for a child aged 6 to 12 years?",
+   "stem": "What is the pre-hospital burn fluid rate for a child aged 6 to 12 years?",
    "options": [
     "500 mL/hr",
     "100 mL/hr",
@@ -1496,7 +1496,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What pre-hospital burn fluid rate does 7.01 set for a child aged 5 years or younger?",
+   "stem": "What is the pre-hospital burn fluid rate for a child aged 5 years or younger?",
    "options": [
     "50 mL/hr",
     "250 mL/hr",
@@ -1520,7 +1520,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "In addition to the burn resuscitation fluid, what does 7.01 direct for a pediatric burn patient weighing under 30 kg?",
+   "stem": "In addition to the burn resuscitation fluid, what is given to a pediatric burn patient weighing under 30 kg?",
    "options": [
     "Lactated ringers at 125 mL/hr",
     "Normal saline at twice maintenance",
@@ -1544,7 +1544,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "At what rate does 7.01 start norepinephrine in a pediatric burn patient still hypotensive after adequate fluid resuscitation?",
+   "stem": "At what rate is norepinephrine started in a pediatric burn patient still hypotensive after adequate fluid resuscitation?",
    "options": [
     "0.1 mcg/kg/min",
     "0.5 mcg/kg/min",
@@ -1568,7 +1568,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Norepinephrine is titrated every 3 to 5 minutes in 7.01 to what maximum rate?",
+   "stem": "In a burn patient, norepinephrine is titrated every 3 to 5 minutes to what maximum rate?",
    "options": [
     "45 mcg/min",
     "100 mcg/min",
@@ -1592,7 +1592,7 @@
    "type": "indication",
    "care_level": "CCT",
    "population": "both",
-   "stem": "For which burn transports does 7.01 direct insertion of a urinary catheter?",
+   "stem": "For which burn transports should a urinary catheter be inserted?",
    "options": [
     "Any transport of a patient with over 20% TBSA",
     "All scene responses involving burns",
@@ -1616,7 +1616,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the adult target urine output for a burn patient under the CCT band of 7.01?",
+   "stem": "At the CCT level, what is the adult target urine output for a burn patient?",
    "options": [
     "≥ 2 mL/kg/hr",
     "≥ 100 mL/hr",
@@ -1640,7 +1640,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "Because of catecholamine release and hypermetabolism after a burn, what does 7.01 consider a normal adult heart rate?",
+   "stem": "Because of catecholamine release and hypermetabolism after a burn, what is considered a normal adult heart rate?",
    "options": [
     "60 – 100 BPM",
     "120 – 140 BPM",
@@ -1648,7 +1648,7 @@
     "100 – 120 BPM"
    ],
    "answer_index": 3,
-   "explanation": "A burn patient at 110 is not necessarily under-resuscitated; 7.01 treats 100 to 120 as normal, and rates above that as a prompt to look for hypovolemia, hypoxemia or unrelieved pain.",
+   "explanation": "A burn patient at 110 is not necessarily under-resuscitated; 100 to 120 is treated as normal after a burn, and rates above that as a prompt to look for hypovolemia, hypoxemia or unrelieved pain.",
    "priority": "detail",
    "tags": [
     "topic:burns",
@@ -1664,7 +1664,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which burns does 7.01 direct be excluded from the TBSA estimate?",
+   "stem": "Which burns are excluded from the TBSA estimate?",
    "options": [
     "Superficial, first degree burns",
     "Circumferential burns of the limbs",
@@ -1688,7 +1688,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Under the Idaho burn trauma criteria in 7.01, what electrical injury voltage makes a patient Priority 1?",
+   "stem": "Under the Idaho burn trauma criteria, what electrical injury voltage makes a patient Priority 1?",
    "options": [
     "≥ 250V",
     "≥ 500V",
@@ -1712,7 +1712,7 @@
    "type": "dose",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "In the consensus burn formula in 7.01, what volume multiplier is used for a patient aged 14 years or older?",
+   "stem": "In the consensus burn formula, what volume multiplier is used for a patient aged 14 years or older?",
    "options": [
     "1 mL x weight in kg x TBSA",
     "3 mL x weight in kg x TBSA",
@@ -1736,7 +1736,7 @@
    "type": "sequence",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "How does 7.01 direct the calculated burn resuscitation volume be distributed over time?",
+   "stem": "How is the calculated burn resuscitation volume distributed over time?",
    "options": [
     "Half over the first 12 hours, the rest over the next 12",
     "Half over the first 8 hours, the rest over the next 16",
@@ -1760,7 +1760,7 @@
    "type": "special",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "To which facility does 7.01 direct burn patients in the Portland Metro area be transported?",
+   "stem": "To which facility are burn patients in the Portland Metro area transported?",
    "options": [
     "University of Utah",
     "Harborview Medical Center",
@@ -1784,7 +1784,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What does the BLS band of 7.02 say about tourniquet use in an entrapped patient?",
+   "stem": "At the BLS level, when should tourniquets be used on an entrapped patient?",
    "options": [
     "They should only be used to control active bleeding",
     "They should be applied before extrication begins",
@@ -1808,7 +1808,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "For a suspected pelvic crushing injury in an entrapped patient, what does 7.02 direct a BLS crew to consider?",
+   "stem": "For a suspected pelvic crushing injury in an entrapped patient, what should a BLS crew consider?",
    "options": [
     "Applying a proximal tourniquet",
     "Placing a pelvic binder",
@@ -1832,7 +1832,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which ECG changes does 7.02 direct a crew to treat as hyperkalemia in an entrapped crush patient?",
+   "stem": "Which ECG changes should be treated as hyperkalemia in an entrapped crush patient?",
    "options": [
     "A new left bundle branch block",
     "A prolonged QT interval",
@@ -1856,7 +1856,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "For an adult with severe crush injury, what fluid does 7.02 direct before extrication?",
+   "stem": "For an adult with severe crush injury, what fluid is given before extrication?",
    "options": [
     "NS/LR 10 to 20 mL/kg, then 5 mL/kg/hour",
     "NS/LR 500 mL, then an infusion at 250 mL/hr",
@@ -1880,7 +1880,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the pediatric fluid regimen before extrication for severe crush injury under 7.02?",
+   "stem": "What is the pediatric fluid regimen before extrication for severe crush injury?",
    "options": [
     "10 to 20 mL/kg, then 5 mL/kg/hour",
     "20 – 40 mL/kg, then twice maintenance",
@@ -1904,7 +1904,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the calcium gluconate dose for suspected or present hyperkalemia under 7.02?",
+   "stem": "In an entrapped crush patient with suspected or present hyperkalemia, what is the calcium gluconate dose?",
    "options": [
     "1 gram of 10% solution slow IV over 5-10 minutes",
     "50 mEq of 10% solution slow IV over 5 minutes",
@@ -1912,7 +1912,7 @@
     "1 gram of 10% solution IV over 3 – 5 minutes"
    ],
    "answer_index": 0,
-   "explanation": "Calcium stabilises the myocardium against hyperkalemia; 7.02 gives 1 gram of the 10% solution slowly over 5 to 10 minutes, and it must not share a line with sodium bicarbonate.",
+   "explanation": "Calcium stabilises the myocardium against hyperkalemia; in crush injury 1 gram of the 10% solution is given slowly over 5 to 10 minutes, and it must not share a line with sodium bicarbonate.",
    "priority": "core",
    "tags": [
     "drug:calcium-gluconate",
@@ -1928,7 +1928,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What sodium bicarbonate dose does 7.02 direct for suspected or present hyperkalemia?",
+   "stem": "In an entrapped crush patient with suspected or present hyperkalemia, what sodium bicarbonate dose is given?",
    "options": [
     "0.5 mEq/kg IV",
     "50 mEq IV",
@@ -1952,7 +1952,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What albuterol dose does 7.02 direct for suspected or present hyperkalemia?",
+   "stem": "In an entrapped crush patient with suspected or present hyperkalemia, what albuterol dose is given?",
    "options": [
     "2.5 mg in saline via nebulizer",
     "7.5 mg in saline via nebulizer",
@@ -1976,7 +1976,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What line precaution does 7.02 specify when giving calcium gluconate and sodium bicarbonate for hyperkalemia?",
+   "stem": "When giving calcium gluconate and sodium bicarbonate for hyperkalemia in a crush patient, what line precaution applies?",
    "options": [
     "They must not be given through the same IV line",
     "Calcium must be given by intraosseous access only",
@@ -1984,7 +1984,7 @@
     "Both must be diluted in the same 250 mL bag"
    ],
    "answer_index": 0,
-   "explanation": "Calcium and bicarbonate precipitate on contact, so each is given through its own line — a point 7.02 makes twice, once under each drug.",
+   "explanation": "Calcium and bicarbonate precipitate on contact, so each is given through its own line — a point the Entrapment guideline makes twice, once under each drug.",
    "priority": "core",
    "tags": [
     "drug:calcium-gluconate",
@@ -2000,7 +2000,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the adult sodium bicarbonate infusion rate in the CCT band of 7.02?",
+   "stem": "At the CCT level, what is the adult sodium bicarbonate infusion rate for an entrapped crush patient?",
    "options": [
     "500 mL/hr",
     "100 mL/hr",
@@ -2024,7 +2024,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What is the pediatric sodium bicarbonate infusion rate in the CCT band of 7.02?",
+   "stem": "At the CCT level, what is the pediatric sodium bicarbonate infusion rate for an entrapped crush patient?",
    "options": [
     "2 mL/kg/hr",
     "5 mL/kg/hr",
@@ -2048,7 +2048,7 @@
    "type": "procedure",
    "care_level": "CCT",
    "population": "both",
-   "stem": "How does 7.02 direct the sodium bicarbonate infusion be mixed?",
+   "stem": "For an entrapped crush patient, how is the sodium bicarbonate infusion mixed?",
    "options": [
     "3 amps in 250 mL of D5W",
     "3 amps in 1000 mL of normal saline",
@@ -2072,7 +2072,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What role does 7.02 describe for a venous tourniquet during extrication of a prolonged crush patient?",
+   "stem": "What role does a venous tourniquet play during extrication of a prolonged crush patient?",
    "options": [
     "Reducing the pain of extrication",
     "Preventing compartment syndrome in the trapped limb",
@@ -2096,7 +2096,7 @@
    "type": "landmark",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Where does 7.03 direct a tourniquet be placed for extremity bleeding uncontrolled by other means?",
+   "stem": "Where should a tourniquet be placed for extremity bleeding uncontrolled by other means?",
    "options": [
     "At least 5 cm proximal to the injury, over bare skin",
     "Directly over the wound, over bare skin",
@@ -2120,7 +2120,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Once a tourniquet has been applied under 7.03, what does the guideline direct?",
+   "stem": "Once a tourniquet has been applied for extremity bleeding, what is required?",
    "options": [
     "Remove it once a pressure dressing is in place",
     "Record the time applied; do not loosen without a physician order",
@@ -2144,7 +2144,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "both",
-   "stem": "How does 7.03 direct a crew to prepare an amputated part for transport?",
+   "stem": "How should an amputated part be prepared for transport?",
    "options": [
     "Submerge the part directly in a container of sterile saline",
     "Wrap in dry sterile gauze and keep it at room temperature",
@@ -2168,7 +2168,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "For an open fracture, what does 7.03 direct be applied over the wound before splinting, if time permits?",
+   "stem": "For an open fracture, what should be applied over the wound before splinting, if time permits?",
    "options": [
     "A saline moistened dressing",
     "A dry sterile dressing",
@@ -2192,7 +2192,7 @@
    "type": "indication",
    "care_level": "BLS",
    "population": "both",
-   "stem": "For which injury does 7.03 direct application of a traction splint when time permits?",
+   "stem": "For which injury should a traction splint be applied when time permits?",
    "options": [
     "A dislocated knee with vascular compromise",
     "A suspected unstable pelvic fracture",
@@ -2216,7 +2216,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "When does 7.03 direct the neurovascular examination of an injured extremity be repeated?",
+   "stem": "When should the neurovascular examination of an injured extremity be repeated?",
    "options": [
     "Only before analgesia is given",
     "Every 30 minutes during transport",
@@ -2240,7 +2240,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "both",
-   "stem": "Within what time from injury does 7.03 require tranexamic acid be given?",
+   "stem": "For hemorrhage from extremity trauma, within what time from injury must tranexamic acid be given?",
    "options": [
     "Within 6 hours",
     "Within 3 hours",
@@ -2264,7 +2264,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the adult tranexamic acid dose under 7.03?",
+   "stem": "What is the adult tranexamic acid dose for hemorrhage from extremity trauma?",
    "options": [
     "2 grams IV in 100 mL NS over 10 minutes",
     "15 mg/kg IV in 100 mL NS over 10 minutes",
@@ -2288,7 +2288,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What is the pediatric tranexamic acid dose and maximum under 7.03?",
+   "stem": "What is the pediatric tranexamic acid dose and maximum for hemorrhage from extremity trauma?",
    "options": [
     "30 mg/kg IV over 10 minutes; max 1 gram",
     "2 grams IV over 10 minutes; max 2 grams",
@@ -2312,7 +2312,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "For an open fracture in a patient over 50 kg, what cefazolin dose does 7.03 direct?",
+   "stem": "For an open fracture in a patient over 50 kg, what cefazolin dose is given?",
    "options": [
     "30 mg/kg SIVP over 3 – 5 min",
     "2 grams IV over 10 minutes",
@@ -2336,7 +2336,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "For an open fracture in a patient weighing 50 kg or less, what cefazolin dose does 7.03 direct?",
+   "stem": "For an open fracture in a patient weighing 50 kg or less, what cefazolin dose is given?",
    "options": [
     "30 mg/kg SIVP; max 2 grams",
     "15 mg/kg SIVP; max 1 gram",
@@ -2360,7 +2360,7 @@
    "type": "indication",
    "care_level": "CCT",
    "population": "both",
-   "stem": "Under 7.03, when should a grossly angulated limb or major joint dislocation be realigned?",
+   "stem": "When should a grossly angulated limb or major joint dislocation be realigned?",
    "options": [
     "Only after arrival at the receiving facility",
     "Whenever the limb is visibly deformed",
@@ -2384,7 +2384,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What oxygen delivery does 7.04 direct for most trauma patients during the rapid trauma assessment?",
+   "stem": "What oxygen delivery should most trauma patients receive during the rapid trauma assessment?",
    "options": [
     "Oxygen only if the SpO2 falls below 94%",
     "Oxygen via a non-rebreather mask",
@@ -2392,7 +2392,7 @@
     "Nasal cannula at 2 litres per minute"
    ],
    "answer_index": 1,
-   "explanation": "Airway assessment in 7.04 includes clearing the mouth and positioning, and the guideline states that most trauma patients should receive oxygen via an NRB mask.",
+   "explanation": "Airway assessment in general trauma care includes clearing the mouth and positioning, and the guideline states that most trauma patients should receive oxygen via an NRB mask.",
    "priority": "core",
    "tags": [
     "topic:general-trauma",
@@ -2408,7 +2408,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "For which trauma patients does 7.04 direct application of a cervical collar and cervical immobilization device?",
+   "stem": "For which trauma patients should a cervical collar and cervical immobilization device be applied?",
    "options": [
     "Penetrating trauma patients",
     "All trauma patients without exception",
@@ -2432,7 +2432,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "both",
-   "stem": "How does 7.04 direct the pelvis be evaluated for instability during the secondary assessment?",
+   "stem": "During the trauma secondary assessment, how should the pelvis be evaluated for instability?",
    "options": [
     "Rock the pelvis in both directions",
     "Compress the iliac crests once, from the side",
@@ -2456,7 +2456,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Why does 7.04 forbid repeated or vigorous manipulation of the pelvis in a patient with pelvic fractures?",
+   "stem": "Why is repeated or vigorous manipulation of the pelvis forbidden in a patient with pelvic fractures?",
    "options": [
     "It reliably causes pain that will require sedation",
     "It can injure the bladder and the urethra",
@@ -2480,7 +2480,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "How does 7.04 direct eviscerated abdominal organs be covered?",
+   "stem": "How should eviscerated abdominal organs be covered?",
    "options": [
     "With a sterile moist saline dressing",
     "By replacing them and binding the abdomen",
@@ -2504,7 +2504,7 @@
    "type": "contraindication",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What finding does 7.04 give as a reason not to place a urinary catheter on an interfacility trauma transport?",
+   "stem": "What finding is a reason not to place a urinary catheter on an interfacility trauma transport?",
    "options": [
     "Pelvic instability on examination",
     "An unstable blood pressure",
@@ -2528,7 +2528,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which cluster of findings does 7.04 list as signs of tension pneumothorax prompting needle thoracostomy?",
+   "stem": "In a trauma patient, which cluster of findings indicates tension pneumothorax and prompts needle thoracostomy?",
    "options": [
     "Hypoxia with diffuse wheezing and stridor",
     "Hypotension with a rigid, distended abdomen",
@@ -2536,7 +2536,7 @@
     "Hypotension, hypoxia, JVD and hypocarbia"
    ],
    "answer_index": 3,
-   "explanation": "7.04 lists hypotension, hypoxia, JVD, hypocarbia and respiratory distress or failure as the tension picture. The hypertension-bradycardia-irregular respiration triad is Cushing reflex, a head injury sign.",
+   "explanation": "General trauma care lists hypotension, hypoxia, JVD, hypocarbia and respiratory distress or failure as the tension picture. The hypertension-bradycardia-irregular respiration triad is Cushing reflex, a head injury sign.",
    "priority": "core",
    "tags": [
     "topic:general-trauma",
@@ -2552,7 +2552,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How does 7.04 direct an open pneumothorax be sealed?",
+   "stem": "How should an open pneumothorax be sealed?",
    "options": [
     "With a dry sterile dressing held by direct pressure",
     "With an occlusive dressing taped on all four sides",
@@ -2576,7 +2576,7 @@
    "type": "indication",
    "care_level": "CCT",
    "population": "both",
-   "stem": "On which patients does 7.04 direct bilateral finger thoracostomies be performed?",
+   "stem": "On which trauma patients should bilateral finger thoracostomies be performed?",
    "options": [
     "All patients with a suspected tension pneumothorax",
     "All intubated trauma patients",
@@ -2600,7 +2600,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": "both",
-   "stem": "Under what conditions does 7.04 permit chest tube insertion?",
+   "stem": "In a trauma patient, under what conditions is chest tube insertion permitted?",
    "options": [
     "Only on sending provider orders and in a sterile fashion",
     "Only after needle decompression has been attempted twice",
@@ -2608,7 +2608,7 @@
     "Whenever a finger thoracostomy has failed to decompress"
    ],
    "answer_index": 0,
-   "explanation": "Chest tube insertion is the one chest decompression procedure in 7.04 that requires an order from the sending provider, and it is done only when sterility can be maintained.",
+   "explanation": "Chest tube insertion is the one chest decompression procedure in general trauma care that requires an order from the sending provider, and it is done only when sterility can be maintained.",
    "priority": "detail",
    "tags": [
     "topic:general-trauma",
@@ -2624,7 +2624,7 @@
    "type": "procedure",
    "care_level": "CCT",
    "population": "both",
-   "stem": "How does 7.04 direct epinephrine 1:100,000 be prepared for injection into a bleeding scalp wound?",
+   "stem": "How is epinephrine 1:100,000 prepared for injection into a bleeding scalp wound?",
    "options": [
     "Mix 1 mL of 1:10,000 epinephrine in 99 mL of NS",
     "Mix 10 mL of 1:10,000 epinephrine in 1 mL of NS",
@@ -2648,7 +2648,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What pediatric maximum does 7.04 set for subcutaneous epinephrine 0.001 mg/mL used for refractory bleeding?",
+   "stem": "In trauma, what pediatric maximum applies to subcutaneous epinephrine 0.001 mg/mL used for refractory bleeding?",
    "options": [
     "1 mL/kg (10 mcg/kg)",
     "0.5 mL/kg (5 mcg/kg)",
@@ -2672,7 +2672,7 @@
    "type": "sequence",
    "care_level": "CCT",
    "population": "both",
-   "stem": "When does 7.04 direct tranexamic acid be given relative to blood products?",
+   "stem": "In a trauma patient, when is tranexamic acid given relative to blood products?",
    "options": [
     "Only when blood products are unavailable",
     "After blood administration, once life threats are addressed",
@@ -2696,15 +2696,15 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 7.04 direct a crew to do after following another trauma guideline?",
+   "stem": "After following a more specific trauma guideline, what should the crew do next?",
    "options": [
-    "Return to 7.04 for continued evaluation and management",
+    "Return to the General Trauma Care guideline for continued evaluation and management",
     "Repeat the primary survey only on arrival at the facility",
     "Contact on-line medical control before further treatment",
     "Document the deviation in the patient care record"
    ],
    "answer_index": 0,
-   "explanation": "7.04 is the base guideline that every other trauma guideline assumes has been started, and the crew returns to it for ongoing evaluation and management after any excursion.",
+   "explanation": "General Trauma Care is the base guideline that every other trauma guideline assumes has been started, and the crew returns to it for ongoing evaluation and management after any excursion.",
    "priority": "detail",
    "tags": [
     "topic:general-trauma",
@@ -2720,7 +2720,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 7.04 direct regarding IVs and lower priority treatments at a trauma scene?",
+   "stem": "When should IVs and lower priority treatments be done for a patient at a trauma scene?",
    "options": [
     "Start them once airborne rather than delaying transport",
     "Establish two large-bore IVs before moving the patient",
@@ -2744,7 +2744,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What ETCO2 range does 7.05 direct for a ventilated patient with a head injury?",
+   "stem": "What ETCO2 range should be maintained in a ventilated patient with a head injury?",
    "options": [
     "35 – 40 mmHg",
     "30 – 35 mmHg",
@@ -2768,7 +2768,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What does 7.05 suggest when ventilating an adult head-injured patient with a bag-valve mask?",
+   "stem": "When ventilating an adult head-injured patient with a bag-valve mask, what is suggested?",
    "options": [
     "Ventilate at a rate of 20 breaths per minute",
     "Hyperventilate to an ETCO2 of 30 mmHg",
@@ -2792,7 +2792,7 @@
    "type": "pearl",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which three conditions does 7.05 call the 'H-Bombs' in head injury management?",
+   "stem": "Which three conditions are the 'H-Bombs' in head injury management?",
    "options": [
     "Hypotension, hypoglycemia and hypothermia",
     "Hypoxia, hyperventilation and hypotension",
@@ -2816,7 +2816,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "To what systolic blood pressure does 7.05 direct fluid and blood resuscitation in an ADULT with a traumatic head injury?",
+   "stem": "In an ADULT with a traumatic head injury, to what systolic blood pressure are fluid and blood resuscitation directed?",
    "options": [
     "Above 140 mmHg",
     "Above 120 mmHg",
@@ -2840,7 +2840,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What systolic blood pressure target does 7.05 set for a PEDIATRIC head injury patient?",
+   "stem": "What systolic blood pressure target is set for a PEDIATRIC head injury patient?",
    "options": [
     "SBP > 80 + (age x 2)",
     "SBP > 90 + (age x 2)",
@@ -2864,7 +2864,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the adult hypertonic saline dose for signs of herniation under 7.05?",
+   "stem": "In a head-injured adult, what is the hypertonic saline dose for signs of herniation?",
    "options": [
     "250 mL of 3% IV over 30 minutes",
     "500 mL of 3% IV over 15 minutes",
@@ -2888,7 +2888,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What is the pediatric hypertonic saline dose and maximum for signs of herniation under 7.05?",
+   "stem": "In a head-injured child, what is the hypertonic saline dose and maximum for signs of herniation?",
    "options": [
     "10 mL/kg over 15 minutes; max 250 mL",
     "5 mL/kg over 15 minutes; max 250 mL",
@@ -2912,7 +2912,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What is the mannitol dose for signs of herniation under 7.05?",
+   "stem": "In a head-injured patient, what is the mannitol dose for signs of herniation?",
    "options": [
     "250 mL IV over 15 minutes",
     "0.5 – 1 gram/kg IV over 15 minutes",
@@ -2936,7 +2936,7 @@
    "type": "indication",
    "care_level": "CCT",
    "population": "both",
-   "stem": "When does 7.05 direct mannitol be used rather than hypertonic saline for herniation?",
+   "stem": "In a head-injured patient with signs of herniation, when is mannitol used rather than hypertonic saline?",
    "options": [
     "As the first-line agent in all pediatric patients",
     "When hypertonic saline is unavailable or ineffective",
@@ -2960,7 +2960,7 @@
    "type": "equipment",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What piece of equipment does 7.05 require for mannitol administration?",
+   "stem": "What piece of equipment is required for mannitol administration in a head-injured patient?",
    "options": [
     "A filter",
     "A fluid warmer",
@@ -2984,7 +2984,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 7.05 describe as the hallmark sign of herniation?",
+   "stem": "In head injury, what is the hallmark sign of herniation?",
    "options": [
     "Hemiparesis opposite the dilated pupil",
     "The Cushing reflex",
@@ -3008,7 +3008,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "In a patient whose initial GCS was 8 or less, what GCS change does 7.05 treat as a sign of rising intracranial pressure?",
+   "stem": "In a head-injured patient whose initial GCS was 8 or less, what GCS change is a sign of rising intracranial pressure?",
    "options": [
     "A decrease of more than four points",
     "A decrease of more than two points",
@@ -3032,7 +3032,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which triad does 7.05 describe as the Cushing reflex?",
+   "stem": "Which triad is the Cushing reflex in a head-injured patient?",
    "options": [
     "Hypotension, bradycardia and hyperventilation",
     "Hypertension, tachycardia and apnea",
@@ -3056,7 +3056,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What goal serum sodium does 7.05 set for a head-injured patient?",
+   "stem": "What is the goal serum sodium for a head-injured patient?",
    "options": [
     "140 – 150 mEq/L",
     "150 – 160 mEq/L",
@@ -3080,7 +3080,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What cerebral perfusion pressure goal does 7.05 set for adults?",
+   "stem": "What is the cerebral perfusion pressure goal for adults with a head injury?",
    "options": [
     "50 – 60 mmHg",
     "60 – 70 mmHg",
@@ -3104,7 +3104,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "A patient with penetrating head trauma is hypotensive with no obvious hemorrhage. What does 7.05 direct?",
+   "stem": "A patient with penetrating head trauma is hypotensive with no obvious hemorrhage. What is the management?",
    "options": [
     "Transfuse two units of blood",
     "Start a vasopressor infusion",

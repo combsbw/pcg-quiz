@@ -8,7 +8,7 @@
    "type": "indication",
    "care_level": null,
    "population": "adult",
-   "stem": "In the 10.07 Termination of Resuscitation Algorithm, what rhythm-and-time finding is the entry point that moves a crew toward termination rather than straight back to continued resuscitation?",
+   "stem": "In the Termination of Resuscitation Algorithm, what rhythm-and-time finding is the entry point that moves a crew toward termination rather than straight back to continued resuscitation?",
    "options": [
     "Asystole or agonal rhythm after 20 minutes of resuscitation",
     "Pulseless electrical activity after 20 minutes of resuscitation",
@@ -32,7 +32,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "pediatric",
-   "stem": "A 16-year-old remains in asystole after 25 minutes of guideline-compliant resuscitation, with a confirmed advanced airway, patent vascular access and no ROSC at any point. What does 10.07 direct?",
+   "stem": "A 16-year-old remains in asystole after 25 minutes of guideline-compliant resuscitation, with a confirmed advanced airway, patent vascular access and no ROSC at any point. What does the Termination of Resuscitation Algorithm direct?",
    "options": [
     "Continue resuscitation",
     "Contact Medical Control",
@@ -56,7 +56,7 @@
    "type": "procedure",
    "care_level": null,
    "population": "adult",
-   "stem": "What airway standard must be satisfied before resuscitation may be terminated under 10.07?",
+   "stem": "What airway standard must be satisfied before resuscitation may be terminated?",
    "options": [
     "An advanced airway in place and confirmed with waveform ETCO2",
     "A supraglottic airway in place with bilateral breath sounds",
@@ -80,7 +80,7 @@
    "type": "assessment",
    "care_level": null,
    "population": "adult",
-   "stem": "Under 10.07, for how long must a crew confirm that no heart tones are heard before resuscitation may be terminated?",
+   "stem": "For how long must a crew confirm that no heart tones are heard before resuscitation may be terminated?",
    "options": [
     "60 seconds",
     "30 seconds",
@@ -104,7 +104,7 @@
    "type": "contraindication",
    "care_level": null,
    "population": "adult",
-   "stem": "A cardiac arrest patient had a brief ROSC ten minutes into the resuscitation but is now in asystole at 25 minutes and meets every other 10.07 criterion. How does the earlier ROSC affect the decision?",
+   "stem": "A cardiac arrest patient had a brief ROSC ten minutes into the resuscitation but is now in asystole at 25 minutes and meets every other termination of resuscitation criterion. How does the earlier ROSC affect the decision?",
    "options": [
     "Termination is not permitted; resuscitation continues",
     "Termination is permitted if Medical Control concurs",
@@ -128,7 +128,7 @@
    "type": "scope",
    "care_level": null,
    "population": "adult",
-   "stem": "A patient meets every 10.07 termination criterion, Medical Control cannot be reached, and the crew's state scope of practice does not allow termination of resuscitation. What does the algorithm direct?",
+   "stem": "A patient meets every termination of resuscitation criterion, Medical Control cannot be reached, and the crew's state scope of practice does not allow termination of resuscitation. What should the crew do?",
    "options": [
     "Transport the patient to the closest facility",
     "Terminate resuscitation and document the rhythm",
@@ -152,7 +152,7 @@
    "type": "procedure",
    "care_level": null,
    "population": "adult",
-   "stem": "Once resuscitation has been terminated under 10.07, what documentation must be obtained and uploaded to the PCR?",
+   "stem": "Once resuscitation has been terminated, what documentation must be obtained and uploaded to the PCR?",
    "options": [
     "ETCO2 and ECG strips in two different leads at termination",
     "A 12-lead ECG and the ETCO2 waveform at termination",
@@ -176,7 +176,7 @@
    "type": "special",
    "care_level": null,
    "population": "both",
-   "stem": "The 10.07 algorithm gives a second route to the Medical Control decision point for a patient who is not in asystole or an agonal rhythm. What condition opens that route?",
+   "stem": "The Termination of Resuscitation Algorithm gives a second route to the Medical Control decision point for a patient who is not in asystole or an agonal rhythm. What condition opens that route?",
    "options": [
     "ACLS/PALS resuscitation for over 20 minutes without change",
     "ACLS/PALS resuscitation for over 10 minutes without change",
@@ -200,7 +200,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "In traumatic arrest, what priority does the 10.08 algorithm assign to CPR and epinephrine?",
+   "stem": "In traumatic arrest, what priority is given to CPR and epinephrine?",
    "options": [
     "They are not priorities in traumatic arrest",
     "They are the first priority in traumatic arrest",
@@ -224,7 +224,7 @@
    "type": "sequence",
    "care_level": null,
    "population": "both",
-   "stem": "How does 10.08 direct a crew to work through the reversible causes of traumatic arrest?",
+   "stem": "How should a crew work through the reversible causes of traumatic arrest?",
    "options": [
     "Address them simultaneously",
     "Address them in the listed order",
@@ -248,7 +248,7 @@
    "type": "procedure",
    "care_level": null,
    "population": "both",
-   "stem": "Under 10.08, how is tension pneumothorax addressed in a patient in traumatic arrest?",
+   "stem": "How is tension pneumothorax addressed in a patient in traumatic arrest?",
    "options": [
     "Bilateral chest decompression",
     "Unilateral decompression on the injured side",
@@ -272,7 +272,7 @@
    "type": "scope",
    "care_level": null,
    "population": "both",
-   "stem": "Which chest decompression technique does 10.08 specify for a CCT crew and which for an ALS crew in traumatic arrest?",
+   "stem": "In traumatic arrest, which chest decompression technique is used by a CCT crew and which by an ALS crew?",
    "options": [
     "Finger thoracostomy at CCT, needle thoracostomy at ALS",
     "Needle thoracostomy at CCT, finger thoracostomy at ALS",
@@ -296,7 +296,7 @@
    "type": "contraindication",
    "care_level": null,
    "population": "both",
-   "stem": "A traumatic arrest patient is in asystole with ongoing external hemorrhage. What does 10.08 direct regarding blood products?",
+   "stem": "A traumatic arrest patient is in asystole with ongoing external hemorrhage. What is the direction regarding blood products?",
    "options": [
     "Do not initiate blood products while the patient is in asystole",
     "Give blood products only after bilateral decompression",
@@ -320,7 +320,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "Reversible causes have been addressed in a traumatic arrest, no ROSC has been obtained, and the underlying rhythm is asystole. What does 10.08 direct next?",
+   "stem": "Reversible causes have been addressed in a traumatic arrest, no ROSC has been obtained, and the underlying rhythm is asystole. What is the next step?",
    "options": [
     "Consider termination of resuscitation",
     "Rapid transport to an appropriate hospital",
@@ -344,7 +344,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "ROSC is obtained while the reversible causes of a traumatic arrest are being treated. What does 10.08 direct next?",
+   "stem": "ROSC is obtained while the reversible causes of a traumatic arrest are being treated. What is the next step?",
    "options": [
     "Rapid transport to an appropriate hospital",
     "Consider termination of resuscitation",
@@ -368,7 +368,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "A patient in traumatic arrest after a high-speed collision has an unstable pelvis. What does 10.08 include for this among the simultaneous reversible-cause measures?",
+   "stem": "A patient in traumatic arrest after a high-speed collision has an unstable pelvis. Which measure is included for this among the simultaneous reversible-cause interventions?",
    "options": [
     "Apply a pelvic binder if available",
     "Apply a traction splint to both legs",
@@ -392,7 +392,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "How does 10.08 direct hypoxia to be addressed as a reversible cause of traumatic arrest?",
+   "stem": "How should hypoxia be addressed as a reversible cause of traumatic arrest?",
    "options": [
     "Secure and confirm an adequate airway, maximize oxygenation",
     "Perform bilateral chest decompression before airway management",

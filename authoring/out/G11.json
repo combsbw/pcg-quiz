@@ -8,7 +8,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "A physician on scene offers assistance and medical direction. What does 9.03 direct Life Flight Network personnel to do first?",
+   "stem": "A physician on scene offers assistance and medical direction. What must Life Flight Network personnel do first?",
    "options": [
     "Determine the physician's identity and medical specialty",
     "Contact on-line medical control for concurrence",
@@ -16,7 +16,7 @@
     "Confirm the pilot will allow the physician aboard"
    ],
    "answer_index": 0,
-   "explanation": "In all cases the crew first establishes who the physician is and what their specialty is, because the specialty must be pertinent to the patient's condition before the offer can be accepted. Everything else in 9.03 follows from that determination.",
+   "explanation": "In all cases the crew first establishes who the physician is and what their specialty is, because the specialty must be pertinent to the patient's condition before the offer can be accepted. Everything else in the Physician On Scene policy follows from that determination.",
    "priority": "core",
    "tags": [
     "topic:physician-on-scene",
@@ -31,7 +31,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Under 9.03, where must an on-scene physician hold a current license to practice medicine before they may provide assistance or medical direction?",
+   "stem": "Where must an on-scene physician hold a current license to practice medicine before they may provide assistance or medical direction?",
    "options": [
     "In the state where the receiving hospital is located",
     "In the state where the scene is located",
@@ -54,7 +54,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Whose approval is required before an on-scene physician may accompany the patient on a fixed-wing or rotor-wing transport under 9.03?",
+   "stem": "Whose approval is required before an on-scene physician may accompany the patient on a fixed-wing or rotor-wing transport?",
    "options": [
     "The Clinical Manager On Call",
     "An LFN Medical Director",
@@ -77,7 +77,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "Which physicians does 9.03 exempt from the on-scene physician policy, provided they are licensed to practice in the state where the call occurs?",
+   "stem": "Which physicians are exempt from the LFN Physician On Scene policy, provided they are licensed to practice in the state where the call occurs?",
    "options": [
     "Any emergency medicine or critical care physician on scene",
     "The receiving facility's physician and on-line medical control",
@@ -100,7 +100,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "An exempt physician on scene orders an intervention that is outside the crew's scope of practice and training. What does 9.03 direct?",
+   "stem": "An exempt physician on scene orders an intervention that is outside the crew's scope of practice and training. What should the crew do?",
    "options": [
     "Decline — crew never work outside their scope at a physician's direction",
     "Perform it, because exempt physicians may direct any care",
@@ -108,7 +108,7 @@
     "Perform it if the physician accompanies the patient to the hospital"
    ],
    "answer_index": 0,
-   "explanation": "At no time will LFN personnel render care outside their scope of practice and training at the direction of a physician on scene — and 9.03 states this applies to the exempt physicians as well.",
+   "explanation": "At no time will LFN personnel render care outside their scope of practice and training at the direction of a physician on scene — and the Physician On Scene policy states this applies to the exempt physicians as well.",
    "priority": "core",
    "tags": [
     "topic:physician-on-scene",
@@ -146,7 +146,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "Under 9.03, when must a Quality Management (QM) report be completed?",
+   "stem": "When a physician is on scene, when must a Quality Management (QM) report be completed?",
    "options": [
     "Only when the physician's orders exceed the crew's scope of practice",
     "Only when the physician accompanies the patient to the hospital",
@@ -177,7 +177,7 @@
     "Not less than 30 years"
    ],
    "answer_index": 2,
-   "explanation": "9.03 sets a retention floor of 25 years for the signed electronic chart, which is why the crew must secure the physician's verbal agreement to sign at the time of the event.",
+   "explanation": "The Physician On Scene policy sets a retention floor of 25 years for the signed electronic chart, which is why the crew must secure the physician's verbal agreement to sign at the time of the event.",
    "priority": "detail",
    "tags": [
     "topic:physician-on-scene",
@@ -192,7 +192,7 @@
    "type": "assessment",
    "care_level": null,
    "population": null,
-   "stem": "Among the findings 9.04 lists as suggesting reasonable medical decision-making capacity, what must the patient be able to do with the risks of refusal?",
+   "stem": "When assessing whether a patient refusing care has reasonable medical decision-making capacity, what must the patient be able to do with the risks of refusal?",
    "options": [
     "Sign an acknowledgement of the risks in front of a witness",
     "State a reason for refusing that the crew finds reasonable",
@@ -215,7 +215,7 @@
    "type": "scope",
    "care_level": null,
    "population": null,
-   "stem": "A patient who has taken an intentional overdose is awake, oriented, and refusing transport. What does 9.04 direct?",
+   "stem": "A patient who has taken an intentional overdose is awake, oriented, and refusing transport. What should the crew do?",
    "options": [
     "Transport to the closest appropriate facility — they may not refuse",
     "Honor the refusal if they can reiterate the risks of refusing",
@@ -223,7 +223,7 @@
     "Honor the refusal if a physician by radio agrees with it"
    ],
    "answer_index": 0,
-   "explanation": "Intentional overdose is one of the categories 9.04 says may not refuse care, alongside attempted or threatened suicide, gross intoxication, minors and inadequate capacity. Apparent alertness does not restore the right to refuse in these patients.",
+   "explanation": "Intentional overdose is one of the categories LFN's refusal policy says may not refuse care, alongside attempted or threatened suicide, gross intoxication, minors and inadequate capacity. Apparent alertness does not restore the right to refuse in these patients.",
    "priority": "core",
    "tags": [
     "topic:refusal",
@@ -238,7 +238,7 @@
    "type": "treatment",
    "care_level": null,
    "population": null,
-   "stem": "For aviation safety reasons, what does 9.04 direct the crew to consider for a patient who cannot refuse care and is agitated or combative?",
+   "stem": "For aviation safety reasons, what should the crew consider for a patient who cannot refuse care and is agitated or combative?",
    "options": [
     "Enlisting the patient's family or friends to help",
     "Sedation or RSI",
@@ -246,7 +246,7 @@
     "Documenting the episode on LFN 201.07, Addendum A"
    ],
    "answer_index": 1,
-   "explanation": "An agitated patient who cannot legally refuse still has to be flown safely, so 9.04 explicitly raises sedation or RSI as an aviation-safety consideration rather than a purely clinical one.",
+   "explanation": "An agitated patient who cannot legally refuse still has to be flown safely, so the refusal policy explicitly raises sedation or RSI as an aviation-safety consideration rather than a purely clinical one.",
    "priority": "core",
    "tags": [
     "topic:refusal",
@@ -262,7 +262,7 @@
    "type": "treatment",
    "care_level": null,
    "population": null,
-   "stem": "Whenever possible, what does 9.04 say is preferable when an individual is refusing transport altogether?",
+   "stem": "Whenever possible, what is preferable when an individual is refusing transport altogether?",
    "options": [
     "Have them sign LFN 201.07 in the presence of a witness",
     "Contact the Clinical Manager On Call for concurrence",
@@ -285,7 +285,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "Which document does 9.04 require be used when a patient refuses a recommended treatment, refuses air transport, or refuses transport altogether?",
+   "stem": "Which document must be used when a patient refuses a recommended treatment, refuses air transport, or refuses transport altogether?",
    "options": [
     "A Quality Management (QM) report",
     "An event log entry in the electronic chart",
@@ -308,7 +308,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "9.04 allows crew acting as patient advocates to speak with a refusing patient's family or friends. What constraint does the guideline place on that conversation?",
+   "stem": "Crew acting as patient advocates may speak with a refusing patient's family or friends. What constraint applies to that conversation?",
    "options": [
     "The patient's privacy and HIPAA rights must be protected",
     "It must take place with on-line medical control on the line",
@@ -331,7 +331,7 @@
    "type": "scope",
    "care_level": null,
    "population": "pediatric",
-   "stem": "A 17-year-old in Idaho who is in active military service wishes to refuse transport. Under 9.04, may they sign the refusal of treatment form?",
+   "stem": "A 17-year-old in Idaho who is in active military service wishes to refuse transport. May they sign the refusal of treatment form?",
    "options": [
     "Yes — but only after speaking with a physician via OLMC",
     "Yes — active military service makes an Idaho minor emancipated",
@@ -355,7 +355,7 @@
    "type": "scope",
    "care_level": null,
    "population": "pediatric",
-   "stem": "Under 9.04, what makes a patient under 18 in Washington emancipated and therefore able to refuse treatment?",
+   "stem": "What makes a patient under 18 in Washington emancipated and therefore able to refuse treatment?",
    "options": [
     "Married to a person of any age, or in active military service",
     "Emancipated by court order, or living independently of parents",
@@ -379,7 +379,7 @@
    "type": "scope",
    "care_level": null,
    "population": "neonatal",
-   "stem": "In which of the four states covered by 9.05 may EMS personnel themselves serve as a Safe Haven accepting provider?",
+   "stem": "In which of the four states covered by LFN's Safe Haven guideline may EMS personnel themselves serve as a Safe Haven accepting provider?",
    "options": [
     "Oregon",
     "Montana",
@@ -387,7 +387,7 @@
     "Idaho"
    ],
    "answer_index": 3,
-   "explanation": "Idaho lists certified first responders, EMTs and paramedics among its Safe Haven providers. Oregon, Montana and Washington all exclude EMS providers outside of fire departments, so their statutes are included in 9.05 as a resource only.",
+   "explanation": "Idaho lists certified first responders, EMTs and paramedics among its Safe Haven providers. Oregon, Montana and Washington all exclude EMS providers outside of fire departments, so their statutes are included in the Safe Haven guideline as a resource only.",
    "priority": "core",
    "tags": [
     "topic:safe-haven",
@@ -402,7 +402,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "neonatal",
-   "stem": "Under Idaho's Safe Haven Act as described in 9.05, up to what age may a custodial parent leave their baby?",
+   "stem": "Under Idaho's Safe Haven Act, up to what age may a custodial parent leave their baby?",
    "options": [
     "Up to 30 days old",
     "Up to 72 hours old",
@@ -425,7 +425,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "neonatal",
-   "stem": "Under Washington's Safe Haven law as described in 9.05, a newborn is defined as a live human being younger than what age?",
+   "stem": "Under Washington's Safe Haven law, a newborn is defined as a live human being younger than what age?",
    "options": [
     "24 hours",
     "72 hours",
@@ -448,7 +448,7 @@
    "type": "scope",
    "care_level": null,
    "population": "neonatal",
-   "stem": "Under Montana's Safe Haven provisions in 9.05, what condition must be met for a newborn surrender in addition to the age limit?",
+   "stem": "Under Montana's Safe Haven provisions, what condition must be met for a newborn surrender in addition to the age limit?",
    "options": [
     "There must be no evidence of abuse",
     "The parent must not be asked for their identity",
@@ -471,7 +471,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "neonatal",
-   "stem": "A parent presents an infant to an Idaho crew as a Safe Haven and law enforcement is neither present nor en route. What does 9.05 direct?",
+   "stem": "A parent presents an infant to an Idaho crew as a Safe Haven and law enforcement is neither present nor en route. What should the crew do?",
    "options": [
     "Ask the parent to remain with the crew until officers arrive",
     "Transport the infant and notify law enforcement from the hospital",
@@ -479,7 +479,7 @@
     "Notify the LFN Communications Center to send law enforcement"
    ],
    "answer_index": 3,
-   "explanation": "The Communications Center arranges law enforcement so the infant can be placed in protective custody. The crew does not detain the parent — 9.05 is built around letting the parent leave anonymously.",
+   "explanation": "The Communications Center arranges law enforcement so the infant can be placed in protective custody. The crew does not detain the parent — the Safe Haven guideline is built around letting the parent leave anonymously.",
    "priority": "core",
    "tags": [
     "topic:safe-haven",
@@ -494,7 +494,7 @@
    "type": "special",
    "care_level": null,
    "population": "neonatal",
-   "stem": "What does 9.05 direct regarding the identity of a parent surrendering an infant under the Safe Haven Act?",
+   "stem": "What is directed regarding the identity of a parent surrendering an infant under the Safe Haven Act?",
    "options": [
     "Do not ask for it; if it is known, keep it confidential",
     "Obtain it and document it in the patient care record",
@@ -517,7 +517,7 @@
    "type": "equipment",
    "care_level": null,
    "population": "neonatal",
-   "stem": "How does 9.05 direct that a Safe Haven infant be transported to the hospital?",
+   "stem": "How should a Safe Haven infant be transported to the hospital?",
    "options": [
     "Secured on the stretcher beside the accompanying parent",
     "In a child safety seat or other appropriate infant restraint device",
@@ -540,7 +540,7 @@
    "type": "special",
    "care_level": null,
    "population": "neonatal",
-   "stem": "What primary impression does 9.05 direct the crew to document in the patient care record for a Safe Haven infant?",
+   "stem": "What primary impression should the crew document in the patient care record for a Safe Haven infant?",
    "options": [
     "Abandoned child",
     "Protective custody",
@@ -564,7 +564,7 @@
    "type": "scope",
    "care_level": null,
    "population": "neonatal",
-   "stem": "Which location does 9.05 list as an appropriate Safe Haven location under Washington law but not under Oregon law?",
+   "stem": "Which location is an appropriate Safe Haven location under Washington law but not under Oregon law?",
    "options": [
     "A sheriff's office or police station",
     "A free standing birthing center",
@@ -587,7 +587,7 @@
    "type": "equipment",
    "care_level": null,
    "population": "adult",
-   "stem": "What two things does 9.06 state must be in place before termination of resuscitation can be performed at all?",
+   "stem": "What two things must be in place before termination of resuscitation during transport can be performed at all?",
    "options": [
     "An advanced airway in place and waveform ETCO2",
     "An advanced airway in place and patent vascular access",
@@ -664,7 +664,7 @@
     "2 minutes"
    ],
    "answer_index": 1,
-   "explanation": "A full 60 seconds of auscultation is required to verify absent heart tones, which is why 9.06 stresses getting the patient out of the aircraft where pulses, heart sounds and airway can actually be evaluated.",
+   "explanation": "A full 60 seconds of auscultation is required to verify absent heart tones, which is why the Termination of Resuscitation During Transport guideline stresses getting the patient out of the aircraft where pulses, heart sounds and airway can actually be evaluated.",
    "priority": "core",
    "tags": [
     "topic:termination-of-resuscitation",
@@ -687,7 +687,7 @@
     "20 minutes"
    ],
    "answer_index": 2,
-   "explanation": "Inside 15 minutes, 9.06 directs the crew to finish the transport and unload the patient before deciding, because pulses, heart sounds and airway status can be evaluated far better on the ground than in the aircraft.",
+   "explanation": "Inside 15 minutes, the Termination of Resuscitation During Transport guideline directs the crew to finish the transport and unload the patient before deciding, because pulses, heart sounds and airway status can be evaluated far better on the ground than in the aircraft.",
    "priority": "core",
    "tags": [
     "topic:termination-of-resuscitation"
@@ -701,7 +701,7 @@
    "type": "scope",
    "care_level": null,
    "population": "adult",
-   "stem": "Transport time to the original destination hospital is greater than 15 minutes. Under what condition does 9.06 allow resuscitation to be terminated?",
+   "stem": "Transport time to the original destination hospital is greater than 15 minutes. Under what condition may resuscitation be terminated during transport?",
    "options": [
     "The aircraft has landed and the patient has been unloaded",
     "The Clinical Manager On Call concurs with the decision",
@@ -724,7 +724,7 @@
    "type": "scope",
    "care_level": null,
    "population": "adult",
-   "stem": "The crew cannot reach on-line medical control, and termination of resuscitation falls within their state scope of practice. What does 9.06 permit?",
+   "stem": "During transport the crew cannot reach on-line medical control, and termination of resuscitation falls within their state scope of practice. What may they do?",
    "options": [
     "They must continue the transport and terminate on arrival",
     "They may terminate only after notifying the CMOC",
@@ -732,7 +732,7 @@
     "They may terminate resuscitation"
    ],
    "answer_index": 3,
-   "explanation": "Failure to reach OLMC does not block termination if the crew's state scope allows it; if it does not, 9.06 directs them to continue the transport instead.",
+   "explanation": "Failure to reach OLMC does not block termination if the crew's state scope allows it; if it does not, the guideline directs them to continue the transport instead.",
    "priority": "core",
    "tags": [
     "topic:termination-of-resuscitation",
@@ -747,7 +747,7 @@
    "type": "special",
    "care_level": null,
    "population": "adult",
-   "stem": "What recordings does 9.06 require be obtained and uploaded to the PCR at the time resuscitation is terminated?",
+   "stem": "What recordings must be obtained and uploaded to the PCR at the time resuscitation is terminated during transport?",
    "options": [
     "ETCO2 and ECG strips showing the rhythm in two different leads",
     "ETCO2 trend data and the defibrillator event summary",
@@ -771,7 +771,7 @@
    "type": "scope",
    "care_level": null,
    "population": "adult",
-   "stem": "A 34-year-old in medical cardiac arrest meets every other termination criterion but is known to be 22 weeks pregnant. What does 9.06 direct?",
+   "stem": "A 34-year-old in medical cardiac arrest meets every other termination of resuscitation criterion but is known to be 22 weeks pregnant. What should the crew do?",
    "options": [
     "Terminate, since the criteria address only the mother",
     "Criteria are not met — continue resuscitation",
@@ -794,7 +794,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "Resuscitation is terminated aboard a rotor-wing aircraft in flight. What does 9.06 direct the crew to do?",
+   "stem": "Resuscitation is terminated aboard a rotor-wing aircraft in flight. What should the crew do?",
    "options": [
     "Land at the nearest safe location and contact 911",
     "Divert to the nearest airport and await the Medical Examiner",
@@ -840,7 +840,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "Resuscitation is terminated in an LFN ground ambulance. What does 9.06 direct the crew to do?",
+   "stem": "Resuscitation is terminated in an LFN ground ambulance. What should the crew do?",
    "options": [
     "Continue to the receiving hospital and notify the ED en route",
     "Return to the scene location and await the Coroner",
@@ -863,7 +863,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "After termination of resuscitation aboard a fixed-wing aircraft, where does 9.06 direct the crew to go?",
+   "stem": "After termination of resuscitation aboard a fixed-wing aircraft, where should the crew go?",
    "options": [
     "Proceed to the destination airport",
     "Return to the departure airport",
@@ -2196,7 +2196,7 @@
    "type": "assessment",
    "care_level": null,
    "population": null,
-   "stem": "A patient's findings do not meet the LAPSS screening criteria. What does 10.06f note about this?",
+   "stem": "A patient's findings do not meet the LAPSS screening criteria. What do the stroke scales note about this patient?",
    "options": [
     "Stroke has been ruled out and another cause should be sought",
     "The screen should be repeated in fifteen minutes",

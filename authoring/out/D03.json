@@ -499,7 +499,7 @@
    "type": "treatment",
    "care_level": null,
    "population": null,
-   "stem": "What does 12.34 direct be given as soon as possible alongside glucagon?",
+   "stem": "What should be given as soon as possible alongside glucagon?",
    "options": [
     "IV dextrose",
     "IV calcium chloride",
@@ -967,7 +967,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "What monitoring does 12.37 require in patients receiving multiple doses of opiates or sedative agents?",
+   "stem": "What monitoring is required in patients receiving multiple doses of hydromorphone or other opiates or sedative agents?",
    "options": [
     "ETCO2",
     "Serum sodium",
@@ -1204,7 +1204,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "Below what serum sodium does 12.39 start hypertonic saline 3% for mild to moderate hyponatremic symptoms in an adult?",
+   "stem": "Below what serum sodium is hypertonic saline 3% started for mild to moderate hyponatremic symptoms in an adult?",
    "options": [
     "120 mEq/L",
     "130 mEq/L",
@@ -1557,7 +1557,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "What limitation does 12.41 place on the use of ipratropium bromide in acute bronchospasm?",
+   "stem": "What limitation applies to the use of ipratropium bromide in acute bronchospasm?",
    "options": [
     "It should not be the primary treatment when a rapid response is required",
     "It should only be used in intubated patients",
@@ -1863,7 +1863,7 @@
    "type": "threshold",
    "care_level": null,
    "population": null,
-   "stem": "Above what systolic blood pressure does 12.42 direct caution with ketamine?",
+   "stem": "Above what systolic blood pressure is caution advised with ketamine?",
    "options": [
     "SBP above 180",
     "SBP above 160",
@@ -2074,7 +2074,7 @@
    "type": "indication",
    "care_level": null,
    "population": "adult",
-   "stem": "Under 12.43, when is labetalol used for hemorrhagic stroke or cerebral edema?",
+   "stem": "When is labetalol used for blood pressure control in hemorrhagic stroke or cerebral edema?",
    "options": [
     "When the blood pressure is not controlled by nicardipine alone",
     "As the first line agent in all hemorrhagic strokes",
@@ -2223,7 +2223,7 @@
     "80 mg"
    ],
    "answer_index": 0,
-   "explanation": "Every labetalol indication in 12.43 converges on the same 300 mg ceiling per 24 hours, whether reached by intermittent pushes or by infusion. 200 mg per 100 mL is the recommended mixture, not a dose cap.",
+   "explanation": "Every labetalol indication converges on the same 300 mg ceiling per 24 hours, whether reached by intermittent pushes or by infusion. 200 mg per 100 mL is the recommended mixture, not a dose cap.",
    "priority": "core",
    "tags": [
     "drug:labetalol",
@@ -2284,7 +2284,7 @@
    "type": "contraindication",
    "care_level": null,
    "population": null,
-   "stem": "Which concurrent intravenous drug class does 12.43 warn against using with labetalol?",
+   "stem": "Which concurrent intravenous drug class should not be used with IV labetalol?",
    "options": [
     "Intravenous calcium channel blockers",
     "Intravenous loop diuretics",
@@ -2379,7 +2379,7 @@
    "type": "mechanism",
    "care_level": null,
    "population": null,
-   "stem": "Why does 12.44 warn against lactated ringers in a patient with alkalosis?",
+   "stem": "Why should lactated ringers be avoided in a patient with alkalosis?",
    "options": [
     "Lactate is metabolized to bicarbonate and may worsen alkalosis",
     "Lactate is metabolized to lactic acid and may worsen acidosis",

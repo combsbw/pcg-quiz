@@ -40,7 +40,7 @@
     "SBP > 50 mmHg"
    ],
    "answer_index": 1,
-   "explanation": "Nitroglycerin is a venodilator that drops preload, so 12.61 sets an SBP floor of >100 mmHg for the SL route. The >90 figure belongs to the infusion target and the >120 figure to the IV bolus.",
+   "explanation": "Nitroglycerin is a venodilator that drops preload, so the formulary sets an SBP floor of >100 mmHg for the SL route. The >90 figure belongs to the infusion target and the >120 figure to the IV bolus.",
    "priority": "core",
    "tags": [
     "drug:nitroglycerin",
@@ -198,7 +198,7 @@
    "type": "contraindication",
    "care_level": null,
    "population": "adult",
-   "stem": "Which phosphodiesterase inhibitor taken within the previous 24 hours bars nitroglycerin administration under 12.61?",
+   "stem": "Which phosphodiesterase inhibitor bars nitroglycerin if taken within the previous 24 hours (rather than the 48-hour window)?",
    "options": [
     "Sildenafil",
     "Vardenafil",
@@ -206,7 +206,7 @@
     "Alcohol"
    ],
    "answer_index": 0,
-   "explanation": "12.61 sets two windows: sildenafil within 24 hours, and vardenafil or tadalafil within 48 hours. Combining either with a nitrate can produce profound, refractory hypotension.",
+   "explanation": "Nitroglycerin has two exclusion windows: sildenafil within 24 hours, and vardenafil or tadalafil within 48 hours. Combining either with a nitrate can produce profound, refractory hypotension.",
    "priority": "core",
    "tags": [
     "drug:nitroglycerin",
@@ -244,7 +244,7 @@
    "type": "adverse",
    "care_level": null,
    "population": null,
-   "stem": "Which adverse reaction is listed for nitroglycerin in 12.61?",
+   "stem": "Which of these is an adverse reaction to nitroglycerin?",
    "options": [
     "Tissue necrosis with extravasation",
     "Blurred vision",
@@ -339,7 +339,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "Which diluent does 12.62 require for a nitroprusside infusion?",
+   "stem": "Which diluent is required for a nitroprusside infusion?",
    "options": [
     "Normal saline only",
     "Lactated Ringer's only",
@@ -362,7 +362,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "What handling precaution does 12.62 specify once nitroprusside is mixed?",
+   "stem": "What handling precaution applies once nitroprusside is mixed?",
    "options": [
     "Infuse through a large, stable vein to avoid necrosis",
     "Give boluses via IV pump rather than IV push",
@@ -385,7 +385,7 @@
    "type": "complication",
    "care_level": null,
    "population": null,
-   "stem": "Which toxicity does 12.62 attribute to prolonged or high-dose nitroprusside administration?",
+   "stem": "Which toxicity is associated with prolonged or high-dose nitroprusside administration?",
    "options": [
     "Cerebral edema",
     "Cyanide toxicity",
@@ -408,7 +408,7 @@
    "type": "contraindication",
    "care_level": null,
    "population": null,
-   "stem": "Which condition is listed as a contraindication to nitroprusside in 12.62?",
+   "stem": "Which condition is a contraindication to nitroprusside?",
    "options": [
     "Severe anemia",
     "Hypertonic uterus",
@@ -439,7 +439,7 @@
     "4 - 14 mcg/min"
    ],
    "answer_index": 0,
-   "explanation": "12.63 gives the adult dose two ways: 2-10 mcg/min, or weight-based at 0.05-0.1 mcg/kg/min. Either is titrated q3-5 min to patient response.",
+   "explanation": "Adult norepinephrine is dosed two ways: 2-10 mcg/min, or weight-based at 0.05-0.1 mcg/kg/min. Either is titrated q3-5 min to patient response.",
    "priority": "core",
    "tags": [
     "drug:norepinephrine",
@@ -527,7 +527,7 @@
    "type": "adverse",
    "care_level": null,
    "population": null,
-   "stem": "Which adverse reaction is listed for norepinephrine in 12.63?",
+   "stem": "Which of these is an adverse reaction to norepinephrine?",
    "options": [
     "Extrapyramidal symptoms",
     "Uterine rupture",
@@ -550,7 +550,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "Under what circumstance does 12.63 allow the listed norepinephrine maximum of 45 mcg/min to be exceeded?",
+   "stem": "When may the norepinephrine maximum of 45 mcg/min be exceeded?",
    "options": [
     "After additional vasopressors have been administered",
     "After two crystalloid boluses have been given",
@@ -596,7 +596,7 @@
    "type": "indication",
    "care_level": null,
    "population": "adult",
-   "stem": "For which indication does 12.64 list octreotide dosing?",
+   "stem": "What is octreotide indicated for?",
    "options": [
     "Organophosphate poisoning",
     "Status epilepticus",
@@ -690,7 +690,7 @@
    "type": "adverse",
    "care_level": null,
    "population": null,
-   "stem": "Which metabolic derangement does 12.64 warn octreotide can cause?",
+   "stem": "Which metabolic derangement can octreotide cause?",
    "options": [
     "Hypo- or hyperkalemia",
     "Hypo- or hypernatremia",
@@ -831,7 +831,7 @@
    "type": "contraindication",
    "care_level": null,
    "population": null,
-   "stem": "Which ECG finding is listed as a contraindication to ondansetron in 12.65?",
+   "stem": "Which ECG finding is a contraindication to ondansetron?",
    "options": [
     "QT prolongation greater than 500 milliseconds",
     "QRS duration greater than 100 milliseconds",
@@ -877,7 +877,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "What does 12.65 note about ondansetron's effectiveness?",
+   "stem": "What limitation applies to ondansetron's effectiveness?",
    "options": [
     "It is more effective given IM than IV",
     "It is less effective for active vomiting than for nausea",
@@ -996,7 +996,7 @@
    "type": "dose",
    "care_level": null,
    "population": "adult",
-   "stem": "In postpartum hemorrhage with no IV access available, what oxytocin dose does 12.66 direct?",
+   "stem": "In postpartum hemorrhage with no IV access available, what oxytocin dose is given?",
    "options": [
     "1 unit IM",
     "10 units IM",
@@ -1020,7 +1020,7 @@
    "type": "contraindication",
    "care_level": null,
    "population": null,
-   "stem": "Which condition is listed as a contraindication to oxytocin in 12.66?",
+   "stem": "Which condition is a contraindication to oxytocin?",
    "options": [
     "Hypertonic uterus",
     "Retained placenta",
@@ -1043,7 +1043,7 @@
    "type": "adverse",
    "care_level": null,
    "population": null,
-   "stem": "Which adverse reaction is listed for oxytocin in 12.66?",
+   "stem": "Which of these is an adverse reaction to oxytocin?",
    "options": [
     "Reflex bradycardia",
     "Prolonged QT",
@@ -1183,7 +1183,7 @@
    "type": "adverse",
    "care_level": null,
    "population": "pediatric",
-   "stem": "Which paradoxical reaction does 12.67 specifically associate with phenobarbital in pediatric patients?",
+   "stem": "Which paradoxical reaction can phenobarbital cause in pediatric patients?",
    "options": [
     "Drowsiness",
     "Respiratory depression",
@@ -1347,7 +1347,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "An adult in DKA has a potassium of 4.8. What does 12.69 direct for maintenance fluids?",
+   "stem": "An adult in DKA has a potassium of 4.8. How much potassium chloride, if any, is added to maintenance fluids?",
    "options": [
     "Add KCl 20 mEq/L to maintenance fluids",
     "Add KCl 40 mEq/L to maintenance fluids",
@@ -1370,7 +1370,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "An adult in DKA has a potassium of 3.2. What does 12.69 direct for maintenance fluids?",
+   "stem": "An adult in DKA has a potassium of 3.2. How much potassium chloride, if any, is added to maintenance fluids?",
    "options": [
     "Do not add KCl to maintenance fluids",
     "Add KCl 10 mEq/L to maintenance fluids",
@@ -1393,7 +1393,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "both",
-   "stem": "Above what potassium level does 12.69 direct that no KCl be added to maintenance fluids in DKA?",
+   "stem": "In DKA, above what potassium level is no potassium chloride added to maintenance fluids?",
    "options": [
     "2.5",
     "4.0",
@@ -1416,7 +1416,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "pediatric",
-   "stem": "A pediatric DKA patient has a potassium of 4.8. What does 12.69 direct for maintenance fluids?",
+   "stem": "A pediatric DKA patient has a potassium of 4.8. How much potassium chloride, if any, is added to maintenance fluids?",
    "options": [
     "Add KCl 20 mEq/L to maintenance fluids",
     "Add KCl 40 mEq/L to maintenance fluids",
@@ -1537,7 +1537,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "both",
-   "stem": "At what potassium level does 12.69 direct IV replacement in an asymptomatic hypokalemic patient?",
+   "stem": "Below what potassium level is IV potassium chloride replacement given to an asymptomatic hypokalemic patient?",
    "options": [
     "Less than 4.0",
     "Less than 3.5",
@@ -1584,7 +1584,7 @@
    "type": "route",
    "care_level": null,
    "population": null,
-   "stem": "Which route of potassium chloride administration does 12.69 prohibit outright?",
+   "stem": "Which route of potassium chloride administration is prohibited outright?",
    "options": [
     "IV push",
     "IV infusion",
@@ -1680,7 +1680,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "A patient has organophosphate NERVE AGENT poisoning. What does 12.70 direct for pralidoxime dosing?",
+   "stem": "A patient has organophosphate NERVE AGENT poisoning. How is the pralidoxime dose determined?",
    "options": [
     "Give 1 - 2 grams IV in 100 mL NS",
     "Refer to the Poisoning and Overdose PCG",
@@ -1821,7 +1821,7 @@
    "type": "contraindication",
    "care_level": null,
    "population": "pediatric",
-   "stem": "Which patient group is listed as a contraindication to promethazine in 12.71?",
+   "stem": "Which patient group is a contraindication to promethazine?",
    "options": [
     "Pregnancy under 10 weeks gestation",
     "Children under 2 years of age",
@@ -1845,7 +1845,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "A patient develops a dystonic reaction after promethazine. Which drug does 12.71 direct for treatment?",
+   "stem": "A patient develops a dystonic reaction after promethazine. Which drug is used to treat it?",
    "options": [
     "Ondansetron",
     "Phenobarbital",
@@ -1868,7 +1868,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "In which patients does 12.71 direct a reduced promethazine dose?",
+   "stem": "In which patients should the promethazine dose be reduced?",
    "options": [
     "The elderly and those already on sedating medications",
     "Patients with renal impairment",
@@ -1891,7 +1891,7 @@
    "type": "adverse",
    "care_level": null,
    "population": null,
-   "stem": "Which adverse reaction is listed for promethazine in 12.71?",
+   "stem": "Which of these is an adverse reaction to promethazine?",
    "options": [
     "Reflex bradycardia",
     "Uterine rupture",
@@ -2033,7 +2033,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "An adult already receiving a propofol infusion remains inadequately sedated. What does 12.72 direct?",
+   "stem": "An adult already receiving a propofol infusion remains inadequately sedated. What is the next step?",
    "options": [
     "Bolus 10-20 mg via IV pump, then increase the rate by 10 mcg/kg/min",
     "Bolus 1 mg/kg via IV pump, then increase the rate by 25 mcg/kg/min",
@@ -2057,7 +2057,7 @@
    "type": "contraindication",
    "care_level": null,
    "population": null,
-   "stem": "Which allergy is listed as a contraindication to propofol in 12.72?",
+   "stem": "Which allergy is a contraindication to propofol?",
    "options": [
     "Sulfa drugs",
     "Shellfish or iodinated contrast",
@@ -2080,7 +2080,7 @@
    "type": "route",
    "care_level": null,
    "population": null,
-   "stem": "How must a propofol IV bolus be delivered according to 12.72?",
+   "stem": "How must a propofol IV bolus be delivered?",
    "options": [
     "By rapid IV push",
     "Via IV pump",
@@ -2104,7 +2104,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "Why does 12.72 state that analgesia is usually required alongside propofol?",
+   "stem": "Why is analgesia usually required alongside propofol?",
    "options": [
     "Propofol antagonizes opioid receptors",
     "Propofol increases pain sensitivity",
@@ -2197,7 +2197,7 @@
    "type": "adverse",
    "care_level": null,
    "population": null,
-   "stem": "Which adverse reaction is listed for racemic epinephrine in 12.73?",
+   "stem": "Which of these is an adverse reaction to racemic epinephrine?",
    "options": [
     "Reflex bradycardia",
     "Uterine rupture",
@@ -2362,7 +2362,7 @@
    "type": "special",
    "care_level": null,
    "population": "pediatric",
-   "stem": "In which patients does 12.74 make rocuronium the paralytic agent of choice?",
+   "stem": "In which patients is rocuronium the paralytic agent of choice?",
    "options": [
     "Patients under 10 years of age",
     "Patients over 65 years of age",
@@ -2575,7 +2575,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "both",
-   "stem": "Above what heart rate does 12.75 direct a sodium bicarbonate bolus in TCA overdose?",
+   "stem": "In TCA overdose, above what heart rate is a sodium bicarbonate bolus given?",
    "options": [
     "100",
     "120",
@@ -2622,7 +2622,7 @@
    "type": "dose",
    "care_level": null,
    "population": "pediatric",
-   "stem": "A pediatric TCA overdose patient has a QRS of 180 ms. What bolus does 12.75 direct?",
+   "stem": "A pediatric TCA overdose patient has a QRS of 180 ms. What sodium bicarbonate bolus is given?",
    "options": [
     "1 mEq/kg IVP, max 50 mEq",
     "2 mEq/kg IVP, max 100 mEq",
@@ -2694,7 +2694,7 @@
    "type": "complication",
    "care_level": null,
    "population": "pediatric",
-   "stem": "Which risk does 12.75 cite for sodium bicarbonate in pediatric patients?",
+   "stem": "Which risk limits sodium bicarbonate use in pediatric patients?",
    "options": [
     "Cerebral edema",
     "Cyanide toxicity",
@@ -2718,7 +2718,7 @@
    "type": "special",
    "care_level": null,
    "population": null,
-   "stem": "When does 12.75 permit sodium bicarbonate during a cardiac arrest?",
+   "stem": "When is sodium bicarbonate indicated during cardiac arrest?",
    "options": [
     "Only for suspected hyperkalemia or TCA overdose",
     "After 20 minutes of resuscitation",

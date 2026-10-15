@@ -55,7 +55,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "A patient with a symptomatic pit viper bite has tolerated the first 10 minutes of a CroFab infusion with no allergic reaction. What does 12.16 direct?",
+   "stem": "A patient with a symptomatic pit viper bite has tolerated the first 10 minutes of a CroFab infusion with no allergic reaction. What is the next step for the infusion?",
    "options": [
     "Increase the infusion rate to 250 mL/hr",
     "Continue at 25-50 mL/hr for the full 60 minutes",
@@ -125,7 +125,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "A pit viper bite patient arrives with a tourniquet already in place. What does 12.16 direct regarding that tourniquet?",
+   "stem": "A pit viper bite patient arrives with a tourniquet already in place. When should that tourniquet be removed relative to CroFab antivenin?",
    "options": [
     "Leave it until antivenin is running and the full rate is tolerated",
     "Remove it immediately, before antivenin is started",
@@ -148,7 +148,7 @@
    "type": "pearl",
    "care_level": null,
    "population": "pediatric",
-   "stem": "The CroFab table lists the pediatric dose as 'Same as adult.' What reason does 12.16 give?",
+   "stem": "The pediatric CroFab dose is 'Same as adult.' Why?",
    "options": [
     "Antivenin dose reflects venom load, not patient size",
     "Pediatric clearance of Fab fragments is slower",
@@ -289,7 +289,7 @@
    "type": "adverse",
    "care_level": null,
    "population": null,
-   "stem": "Which pair of effects does 12.17 warn dexamethasone may cause?",
+   "stem": "Which pair of effects may dexamethasone cause?",
    "options": [
     "Hypertension and hyperglycemia",
     "Bradycardia and hypotension",
@@ -428,7 +428,7 @@
    "type": "adverse",
    "care_level": null,
    "population": null,
-   "stem": "Which adverse effect does 12.18 associate specifically with high maintenance doses of dexmedetomidine?",
+   "stem": "Which adverse effect is associated specifically with high maintenance doses of dexmedetomidine?",
    "options": [
     "Bradycardia",
     "Tachycardia",
@@ -451,7 +451,7 @@
    "type": "treatment",
    "care_level": null,
    "population": null,
-   "stem": "Which drug does 12.18 say dexmedetomidine-induced bradycardia and sinus arrest usually respond to?",
+   "stem": "Dexmedetomidine-induced bradycardia and sinus arrest usually respond to which drug?",
    "options": [
     "Atropine",
     "Epinephrine",
@@ -474,7 +474,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "Why does 12.18 warn against abruptly discontinuing dexmedetomidine?",
+   "stem": "Why should dexmedetomidine not be discontinued abruptly?",
    "options": [
     "It can cause withdrawal symptoms",
     "It causes rebound pulmonary hypertension",
@@ -544,7 +544,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "Below what blood glucose does 12.19 direct dextrose in an adult?",
+   "stem": "Below what blood glucose is dextrose given to a hypoglycemic adult?",
    "options": [
     "60 mg/dL",
     "40 mg/dL",
@@ -615,7 +615,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "neonatal",
-   "stem": "Below what blood glucose does 12.19 direct dextrose in a neonate?",
+   "stem": "Below what blood glucose is dextrose given to a hypoglycemic neonate?",
    "options": [
     "40 mg/dL",
     "60 mg/dL",
@@ -687,7 +687,7 @@
    "type": "procedure",
    "care_level": null,
    "population": null,
-   "stem": "How does 12.19 direct you to make D10 from D50?",
+   "stem": "How is D10 made from D50?",
    "options": [
     "Waste 50 mL from a 250 mL bag of NS, then add 50 mL of D50",
     "Draw 25 mL of D50 into a 60 mL syringe, then add 25 mL of NS",
@@ -711,7 +711,7 @@
    "type": "treatment",
    "care_level": null,
    "population": null,
-   "stem": "In which patients does 12.19 direct giving 100 mg of thiamine along with dextrose?",
+   "stem": "When giving dextrose, in which patients is 100 mg of thiamine given along with it?",
    "options": [
     "Those suspected of thiamine deficiency",
     "All patients with a BGL under 60 mg/dL",
@@ -734,7 +734,7 @@
    "type": "complication",
    "care_level": null,
    "population": null,
-   "stem": "Which patient group does 12.19 caution about when giving dextrose?",
+   "stem": "Which patient group warrants caution when giving dextrose?",
    "options": [
     "Patients with rising intracranial pressure",
     "Patients with asthma or COPD",
@@ -970,7 +970,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "Why does 12.20 direct that diazepam never be diluted before administration?",
+   "stem": "Why must diazepam never be diluted before administration?",
    "options": [
     "It precipitates",
     "It loses potency within minutes",
@@ -993,7 +993,7 @@
    "type": "treatment",
    "care_level": null,
    "population": null,
-   "stem": "Diazepam has extravasated. After stopping the infusion and disconnecting, what does 12.20 direct next?",
+   "stem": "Diazepam has extravasated. After stopping the infusion and disconnecting, what is the next step?",
    "options": [
     "Gently aspirate the extravasated solution",
     "Flush the line with normal saline",
@@ -1063,7 +1063,7 @@
    "type": "dose",
    "care_level": null,
    "population": "adult",
-   "stem": "The rate is still uncontrolled 15 minutes after the first diltiazem bolus. What repeat bolus does 12.21 direct?",
+   "stem": "In a tachycardia, the rate is still uncontrolled 15 minutes after the first diltiazem bolus. What is the repeat bolus dose?",
    "options": [
     "0.35 mg/kg",
     "0.25 mg/kg",
@@ -1109,7 +1109,7 @@
    "type": "dose",
    "care_level": null,
    "population": "adult",
-   "stem": "Once the rate is controlled in a narrow complex tachycardia, at what rate does 12.21 start the diltiazem infusion?",
+   "stem": "Once the rate is controlled in a narrow complex tachycardia, at what rate is the diltiazem infusion started?",
    "options": [
     "5-10 mg/hr",
     "5-20 mg/hr",
@@ -1203,7 +1203,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "Why does 12.21 warn against giving diltiazem with IV beta blockers?",
+   "stem": "Why should diltiazem not be given with IV beta blockers?",
    "options": [
     "Increased risk of congestive heart failure",
     "Increased risk of QT prolongation",
@@ -1227,7 +1227,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "What does 12.21 direct you to consider before giving diltiazem for tachycardia?",
+   "stem": "What should be considered before giving diltiazem for tachycardia?",
    "options": [
     "Physiologic causes such as heart failure, hypovolemia or pain",
     "The patient's most recent potassium level",
@@ -1366,7 +1366,7 @@
    "type": "indication",
    "care_level": null,
    "population": null,
-   "stem": "When does 12.22 indicate diphenhydramine for nausea and vomiting?",
+   "stem": "When is diphenhydramine indicated for nausea and vomiting?",
    "options": [
     "Only when refractory to ondansetron or promethazine",
     "As the first-line antiemetic in transport",
@@ -1576,7 +1576,7 @@
    "type": "indication",
    "care_level": null,
    "population": null,
-   "stem": "For which conditions does 12.23 list dobutamine?",
+   "stem": "For which conditions is dobutamine indicated?",
    "options": [
     "Cardiogenic shock and IABP failure",
     "Hypotension with bradycardia",
@@ -1622,7 +1622,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "What does 12.23 say about using dobutamine in hypovolemic shock?",
+   "stem": "What is the caution about using dobutamine in hypovolemic shock?",
    "options": [
     "Not as the sole agent unless fluid resuscitation is well underway",
     "It is the preferred first agent in hypovolemia",
@@ -1692,7 +1692,7 @@
    "type": "indication",
    "care_level": null,
    "population": null,
-   "stem": "In which patients does 12.24 say dopamine should typically be used as a first-line agent?",
+   "stem": "In which patients should dopamine typically be used as a first-line vasopressor?",
    "options": [
     "Those presenting with bradycardia and hypotension",
     "Those in cardiogenic shock with a failing balloon pump",
@@ -1740,7 +1740,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "Which drug does 12.24 state dopamine must NOT be mixed with?",
+   "stem": "Which drug must dopamine NOT be mixed with?",
    "options": [
     "Sodium bicarbonate",
     "Diazepam",
@@ -1786,7 +1786,7 @@
    "type": "adverse",
    "care_level": null,
    "population": null,
-   "stem": "Which adverse reactions does 12.24 list for dopamine?",
+   "stem": "Which adverse reactions are associated with dopamine?",
    "options": [
     "Tachycardia, hypertension and widening QRS",
     "Bradycardia and sinus arrest",
@@ -1856,7 +1856,7 @@
    "type": "route",
    "care_level": null,
    "population": "adult",
-   "stem": "By which route does 12.25 list droperidol for an adult combative patient?",
+   "stem": "By which route is droperidol given to an adult combative patient?",
    "options": [
     "IM",
     "IV",
@@ -1999,7 +1999,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "Dystonic symptoms develop in an adult after droperidol. What does 12.25 direct?",
+   "stem": "Dystonic symptoms develop in an adult after droperidol. What is the treatment?",
    "options": [
     "Diphenhydramine 25-50 mg IV/IO/IM",
     "Diazepam 1-5 mg IV",
@@ -2069,7 +2069,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "What does 12.25 say about droperidol's place among anti-emetic agents?",
+   "stem": "What is droperidol's place among anti-emetic agents?",
    "options": [
     "Not first line unless nothing else is available",
     "First line for refractory nausea in transport",
@@ -2259,7 +2259,7 @@
    "type": "dose",
    "care_level": null,
    "population": "both",
-   "stem": "Which epinephrine concentration does 12.26 specify for refractory anaphylaxis given SIVP?",
+   "stem": "Which epinephrine concentration is used for refractory anaphylaxis given SIVP?",
    "options": [
     "0.1 mg/mL",
     "1 mg/mL",
@@ -2307,7 +2307,7 @@
    "type": "dose",
    "care_level": null,
    "population": null,
-   "stem": "How does 12.26 direct you to prepare push dose epinephrine?",
+   "stem": "How is push dose epinephrine prepared?",
    "options": [
     "Mix 1 mL of 0.1 mg/mL epinephrine with 9 mL of saline",
     "Mix 1 mL of 1 mg/mL epinephrine with 9 mL of saline",
@@ -2474,7 +2474,7 @@
    "type": "equipment",
    "care_level": null,
    "population": null,
-   "stem": "What equipment does 12.27 require for an epoprostenol infusion?",
+   "stem": "What equipment is required to deliver an inhaled epoprostenol infusion?",
    "options": [
     "A high frequency nebulizer and syringe pump",
     "A standard small volume nebulizer",
@@ -2498,7 +2498,7 @@
    "type": "complication",
    "care_level": null,
    "population": null,
-   "stem": "What does 12.27 warn happens if an epoprostenol infusion is abruptly discontinued?",
+   "stem": "What happens if an inhaled epoprostenol infusion is abruptly discontinued?",
    "options": [
     "Rebound pulmonary hypertension",
     "Withdrawal agitation",
@@ -2615,7 +2615,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "Four minutes after the esmolol load, target vitals are still not met. What does 12.28 direct?",
+   "stem": "Four minutes after the esmolol loading bolus, target vitals are still not met. What is the next step?",
    "options": [
     "Repeat the bolus and increase the infusion to 100 mcg/kg/min",
     "Increase the infusion to 100 mcg/kg/min without a bolus",
@@ -2661,7 +2661,7 @@
    "type": "indication",
    "care_level": null,
    "population": "adult",
-   "stem": "Besides refractory VF or pulseless VT, for which conditions does 12.28 list esmolol?",
+   "stem": "Besides refractory VF or pulseless VT, for which conditions is esmolol indicated?",
    "options": [
     "Aortic emergencies and AF/flutter with RVR",
     "Cardiogenic shock and IABP failure",
@@ -2708,7 +2708,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "Which drugs does 12.28 state esmolol must NOT be mixed with?",
+   "stem": "Which drugs must esmolol NOT be mixed with?",
    "options": [
     "Sodium bicarbonate, diazepam, furosemide or thiopental",
     "Dopamine, dobutamine or epinephrine",
@@ -2872,7 +2872,7 @@
    "type": "dose",
    "care_level": null,
    "population": "both",
-   "stem": "What repeat dose does 12.29 give for procedural sedation with etomidate?",
+   "stem": "What is the repeat dose of etomidate for procedural sedation?",
    "options": [
     "0.05 mg/kg q 3-5 min PRN",
     "0.1 mg/kg q 3-5 min PRN",
@@ -2895,7 +2895,7 @@
    "type": "pearl",
    "care_level": null,
    "population": null,
-   "stem": "Why does 12.29 direct that post-intubation sedation be prepared before etomidate induction?",
+   "stem": "Why should post-intubation sedation be prepared before etomidate induction for RSI?",
    "options": [
     "Etomidate has a short duration and no analgesic effect",
     "Etomidate causes hypertension on emergence",
@@ -2919,7 +2919,7 @@
    "type": "adverse",
    "care_level": null,
    "population": null,
-   "stem": "Which adverse effect of etomidate does 12.29 highlight in patients with sepsis?",
+   "stem": "Which adverse effect of etomidate is a particular concern in patients with sepsis?",
    "options": [
     "Adrenal suppression",
     "Hyperkalemia",
@@ -2990,7 +2990,7 @@
    "type": "route",
    "care_level": null,
    "population": "both",
-   "stem": "By which routes may fentanyl be given for pain management under 12.30?",
+   "stem": "By which routes may fentanyl be given for pain management?",
    "options": [
     "IV, IO, IN or IM",
     "IV or IO only",
@@ -3132,7 +3132,7 @@
    "type": "treatment",
    "care_level": null,
    "population": null,
-   "stem": "What does 12.30 direct each time a fentanyl infusion is titrated?",
+   "stem": "What should be done each time a fentanyl infusion is titrated?",
    "options": [
     "Give a bolus dose with the titration",
     "Recheck the weight-based maximum",
@@ -3156,7 +3156,7 @@
    "type": "assessment",
    "care_level": null,
    "population": null,
-   "stem": "What monitoring does 12.30 require for patients receiving multiple doses of opiates or sedatives?",
+   "stem": "What monitoring is required for patients receiving multiple doses of fentanyl or other opiates or sedatives?",
    "options": [
     "ETCO2",
     "Serial temperatures",

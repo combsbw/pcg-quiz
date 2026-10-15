@@ -1,0 +1,173 @@
+{
+ "q_0beeaa7a20": {
+  "stem": "An adult in SVT does not convert after the first dose of adenosine. What repeat dosing is allowed?"
+ },
+ "q_ce2318a531": {
+  "stem": "For an asthma patient who is not improving with intermittent nebulized albuterol, what should the crew consider?"
+ },
+ "q_656a79056b": {
+  "stem": "Once an alteplase (tPA) infusion is complete, what should the crew do with the line?"
+ },
+ "q_6be76a6024": {
+  "stem": "What is the mechanism of action of aspirin?"
+ },
+ "q_11eb154684": {
+  "explanation": "One gram of calcium chloride contains 270 mg of elemental calcium, three times what the same weight of calcium gluconate delivers. This is why calcium gluconate doses are numerically much larger for the same indications."
+ },
+ "q_0a5ee764e9": {
+  "stem": "A patient with a symptomatic pit viper bite has tolerated the first 10 minutes of a CroFab infusion with no allergic reaction. What is the next step for the infusion?"
+ },
+ "q_9370bca69e": {
+  "stem": "A pit viper bite patient arrives with a tourniquet already in place. When should that tourniquet be removed relative to CroFab antivenin?"
+ },
+ "q_9f95022f72": {
+  "stem": "Which pair of effects may dexamethasone cause?"
+ },
+ "q_43fbede607": {
+  "stem": "Which adverse effect is associated specifically with high maintenance doses of dexmedetomidine?"
+ },
+ "q_cdc7dc04b8": {
+  "stem": "Dexmedetomidine-induced bradycardia and sinus arrest usually respond to which drug?"
+ },
+ "q_ba4b945551": {
+  "stem": "Why should dexmedetomidine not be discontinued abruptly?"
+ },
+ "q_fb08b44366": {
+  "stem": "Below what blood glucose is dextrose given to a hypoglycemic adult?"
+ },
+ "q_2ca29fb5b4": {
+  "stem": "Below what blood glucose is dextrose given to a hypoglycemic neonate?"
+ },
+ "q_d33fa5a122": {
+  "stem": "How is D10 made from D50?"
+ },
+ "q_76f3456e60": {
+  "stem": "When giving dextrose, in which patients is 100 mg of thiamine given along with it?"
+ },
+ "q_b58b5f801c": {
+  "stem": "Which patient group warrants caution when giving dextrose?"
+ },
+ "q_e162195839": {
+  "stem": "Why must diazepam never be diluted before administration?"
+ },
+ "q_27a835e6e0": {
+  "stem": "Diazepam has extravasated. After stopping the infusion and disconnecting, what is the next step?"
+ },
+ "q_168ffeb483": {
+  "stem": "In a tachycardia, the rate is still uncontrolled 15 minutes after the first diltiazem bolus. What is the repeat bolus dose?"
+ },
+ "q_2708db8a99": {
+  "stem": "Once the rate is controlled in a narrow complex tachycardia, at what rate is the diltiazem infusion started?"
+ },
+ "q_107d141909": {
+  "stem": "Why should diltiazem not be given with IV beta blockers?"
+ },
+ "q_c4a174412f": {
+  "stem": "What should be considered before giving diltiazem for tachycardia?"
+ },
+ "q_0a8edd3feb": {
+  "stem": "When is diphenhydramine indicated for nausea and vomiting?"
+ },
+ "q_8b3cecd4de": {
+  "stem": "What is the caution about using dobutamine in hypovolemic shock?"
+ },
+ "q_0d786d397d": {
+  "stem": "In which patients should dopamine typically be used as a first-line vasopressor?"
+ },
+ "q_0362727d43": {
+  "stem": "Which drug must dopamine NOT be mixed with?"
+ },
+ "q_9d5803416d": {
+  "stem": "Dystonic symptoms develop in an adult after droperidol. What is the treatment?"
+ },
+ "q_e85e43b1f1": {
+  "stem": "What is droperidol's place among anti-emetic agents?"
+ },
+ "q_ae6bf28f7d": {
+  "stem": "Which epinephrine concentration is used for refractory anaphylaxis given SIVP?"
+ },
+ "q_e9ddf8ab38": {
+  "stem": "How is push dose epinephrine prepared?"
+ },
+ "q_b90b231432": {
+  "stem": "What equipment is required to deliver an inhaled epoprostenol infusion?"
+ },
+ "q_b8ad511644": {
+  "stem": "What happens if an inhaled epoprostenol infusion is abruptly discontinued?"
+ },
+ "q_c244300049": {
+  "stem": "Four minutes after the esmolol loading bolus, target vitals are still not met. What is the next step?"
+ },
+ "q_946b3c7525": {
+  "stem": "Which drugs must esmolol NOT be mixed with?"
+ },
+ "q_60ec4c92f8": {
+  "stem": "Why should post-intubation sedation be prepared before etomidate induction for RSI?"
+ },
+ "q_e6d704b32e": {
+  "stem": "Which adverse effect of etomidate is a particular concern in patients with sepsis?"
+ },
+ "q_e4feb83343": {
+  "stem": "By which routes may fentanyl be given for pain management?"
+ },
+ "q_62c6e23ca9": {
+  "stem": "What should be done each time a fentanyl infusion is titrated?"
+ },
+ "q_651c8fb4d5": {
+  "stem": "What monitoring is required for patients receiving multiple doses of fentanyl or other opiates or sedatives?"
+ },
+ "q_3d4f4a4a88": {
+  "stem": "What should be given as soon as possible alongside glucagon?"
+ },
+ "q_25bcb9ef82": {
+  "stem": "What monitoring is required in patients receiving multiple doses of hydromorphone or other opiates or sedative agents?"
+ },
+ "q_a71e19957e": {
+  "stem": "Below what serum sodium is hypertonic saline 3% started for mild to moderate hyponatremic symptoms in an adult?"
+ },
+ "q_557c7bb9f7": {
+  "stem": "What limitation applies to the use of ipratropium bromide in acute bronchospasm?"
+ },
+ "q_e5348dc2bf": {
+  "stem": "Above what systolic blood pressure is caution advised with ketamine?"
+ },
+ "q_aa9e29491d": {
+  "stem": "When is labetalol used for blood pressure control in hemorrhagic stroke or cerebral edema?"
+ },
+ "q_660e219aac": {
+  "explanation": "Every labetalol indication converges on the same 300 mg ceiling per 24 hours, whether reached by intermittent pushes or by infusion. 200 mg per 100 mL is the recommended mixture, not a dose cap."
+ },
+ "q_5a2933b4b7": {
+  "stem": "Which concurrent intravenous drug class should not be used with IV labetalol?"
+ },
+ "q_176f873dc2": {
+  "stem": "Why should lactated ringers be avoided in a patient with alkalosis?"
+ },
+ "q_263bbab8f9": {
+  "explanation": "Amiodarone is diluted in D5W to 1.8 mg/mL, which is 450 mg in 250 mL or 900 mg in 500 mL; 0.9% saline may be substituted if D5W is unavailable. This matches the LFN standard mix in Recommended Infusion Mixtures."
+ },
+ "q_4fb859a49a": {
+  "stem": "Besides chest pain, STEMI and ACS, for what indication is aspirin given?"
+ },
+ "q_7429e3b7cd": {
+  "stem": "Up to what age is atropine used as an RSI pretreatment?"
+ },
+ "q_8f58e6421f": {
+  "stem": "The pediatric CroFab dose is 'Same as adult.' Why?"
+ },
+ "q_5e461bf091": {
+  "stem": "For which conditions is dobutamine indicated?"
+ },
+ "q_3d0b2e43b3": {
+  "stem": "Which adverse reactions are associated with dopamine?"
+ },
+ "q_70b22c75ae": {
+  "stem": "By which route is droperidol given to an adult combative patient?"
+ },
+ "q_2796dccc0d": {
+  "stem": "Besides refractory VF or pulseless VT, for which conditions is esmolol indicated?"
+ },
+ "q_ea1fb011d3": {
+  "stem": "What is the repeat dose of etomidate for procedural sedation?"
+ }
+}

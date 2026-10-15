@@ -8,7 +8,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "For which patient does 8.18 indicate intraosseous access?",
+   "stem": "For which patient is intraosseous access indicated?",
    "options": [
     "A critical patient who needs immediate vascular access",
     "A stable patient with historically difficult veins",
@@ -16,7 +16,7 @@
     "A patient refusing peripheral IV attempts"
    ],
    "answer_index": 0,
-   "explanation": "8.18 lists only two indications: immediate vascular access in the critical patient, and cardiac arrest. Difficult venous access in a stable patient is not, by itself, a reason to drill.",
+   "explanation": "There are only two indications for IO access: immediate vascular access in the critical patient, and cardiac arrest. Difficult venous access in a stable patient is not, by itself, a reason to drill.",
    "priority": "core",
    "tags": [
     "procedure:intraosseous",
@@ -32,7 +32,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which finding at or near the intended insertion site contraindicates IO placement under 8.18?",
+   "stem": "Which finding at or near the intended insertion site contraindicates IO placement?",
    "options": [
     "A prosthetic implant in the opposite limb",
     "A fracture of the intended insertion bone",
@@ -56,7 +56,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "An IO was placed in a patient's left tibia and has since been removed. Within what period does 8.18 treat further IO access in that same limb as contraindicated?",
+   "stem": "An IO was placed in a patient's left tibia and has since been removed. Within what period is further IO access in that same limb contraindicated?",
    "options": [
     "6 hours",
     "12 hours",
@@ -80,7 +80,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "At what patient weight does 8.18 direct use of the EZ-IO 45 mm (yellow hub) needle for a humeral head insertion?",
+   "stem": "At what patient weight is the EZ-IO 45 mm (yellow hub) needle used for a humeral head IO insertion?",
    "options": [
     "> 15 kg",
     "> 20 kg",
@@ -112,7 +112,7 @@
     "The 5-mm mark is visible above the skin"
    ],
    "answer_index": 3,
-   "explanation": "The 5-mm mark is the most proximal mark to the hub; if it is still visible above the skin once the tip is on bone, there is enough needle left to cross the cortex. If it is not visible, 8.18 directs a longer needle and/or a different insertion site.",
+   "explanation": "The 5-mm mark is the most proximal mark to the hub; if it is still visible above the skin once the tip is on bone, there is enough needle left to cross the cortex. If it is not visible, a longer needle and/or a different insertion site is needed.",
    "priority": "core",
    "tags": [
     "procedure:intraosseous",
@@ -152,7 +152,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "8.18 permits the distal femur as an adult IO insertion site only in patients up to what age?",
+   "stem": "The distal femur is permitted as an adult IO insertion site only in patients up to what age?",
    "options": [
     "8 years",
     "12 years",
@@ -176,7 +176,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What minimum weight does 8.18 set for the pediatric IO insertion sites?",
+   "stem": "What minimum weight applies to the pediatric IO insertion sites?",
    "options": [
     "> 3 kg",
     "> 15 kg",
@@ -200,7 +200,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How does 8.18 direct you to confirm IO placement once the cannula is seated and the stylet removed?",
+   "stem": "How is IO placement confirmed once the cannula is seated and the stylet removed?",
    "options": [
     "Aspirate bone marrow into the syringe",
     "Flush the cannula rapidly with saline",
@@ -224,7 +224,7 @@
    "type": "pearl",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Flow through a correctly placed IO is inadequate for the volume you need. What does 8.18 direct, and which site generally flows best?",
+   "stem": "Flow through a correctly placed IO is inadequate for the volume you need. What should be done, and which site generally flows best?",
    "options": [
     "Replace the needle with a longer one; the proximal tibia generally flows best",
     "Place a second IO in the same limb; the distal femur generally flows best",
@@ -232,7 +232,7 @@
     "Use a pressure bag or IV pump; the distal tibia generally flows best"
    ],
    "answer_index": 2,
-   "explanation": "IO flow is pressure dependent, so 8.18 directs a pressure bag or IV pump when rates are inadequate, and notes the humeral head generally provides a higher flow rate than the other insertion sites.",
+   "explanation": "IO flow is pressure dependent, so a pressure bag or IV pump is used when rates are inadequate, and the humeral head generally provides a higher flow rate than the other insertion sites.",
    "priority": "detail",
    "tags": [
     "procedure:intraosseous",
@@ -328,7 +328,7 @@
     "The arm must be abducted and externally rotated"
    ],
    "answer_index": 2,
-   "explanation": "8.18 states in red that you must be able to palpate the greater tubercle before insertion, to avoid errant placement. The arm is adducted and internally rotated — not abducted — to bring the tubercle up into the palm of your hand.",
+   "explanation": "It is stated in red that you must be able to palpate the greater tubercle before insertion, to avoid errant placement. The arm is adducted and internally rotated — not abducted — to bring the tubercle up into the palm of your hand.",
    "priority": "core",
    "tags": [
     "procedure:intraosseous",
@@ -344,7 +344,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult initial dose of 2% lidocaine for IO pain management under 8.18?",
+   "stem": "What is the adult initial dose of 2% lidocaine for IO pain management?",
    "options": [
     "0.5 mg/kg",
     "0.75 mg/kg",
@@ -352,7 +352,7 @@
     "40 mg"
    ],
    "answer_index": 3,
-   "explanation": "A conscious patient feels the infusate expanding the marrow cavity, so 8.18 gives 40 mg of 2% lidocaine before flushing. The weight-based figures are the lidocaine doses used for arrest and tachycardia, not for IO analgesia.",
+   "explanation": "A conscious patient feels the infusate expanding the marrow cavity, so 40 mg of 2% lidocaine is given before flushing. The weight-based figures are the lidocaine doses used for arrest and tachycardia, not for IO analgesia.",
    "priority": "core",
    "tags": [
     "drug:lidocaine",
@@ -369,7 +369,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the pediatric initial dose of 2% lidocaine for IO pain management under 8.18?",
+   "stem": "What is the pediatric initial dose of 2% lidocaine for IO pain management?",
    "options": [
     "0.5 mg/kg",
     "0.75 mg/kg",
@@ -444,7 +444,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "The patient still reports pain after the initial IO lidocaine dose. What repeat dose does 8.18 direct, and over what time?",
+   "stem": "The patient still reports pain after the initial IO lidocaine dose. What repeat dose is given, and over what time?",
    "options": [
     "Half the initial dose, infused over 60 seconds",
     "Half the initial dose, infused over 120 seconds",
@@ -469,7 +469,7 @@
    "type": "route",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Where is the lidocaine syringe attached when giving IO pain management under 8.18?",
+   "stem": "Where is the lidocaine syringe attached when giving IO pain management?",
    "options": [
     "To the primed EZ-Connect extension set",
     "Directly to the IO catheter hub, without the extension set",
@@ -494,7 +494,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "both",
-   "stem": "To what pressure does 8.19 direct you to inflate the pressure bag on an invasive monitoring set-up?",
+   "stem": "To what pressure is the pressure bag inflated on an invasive hemodynamic monitoring set-up?",
    "options": [
     "100 mmHg",
     "120 mmHg",
@@ -542,7 +542,7 @@
    "type": "procedure",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What does 8.19 direct a crew to repeat with any change in altitude during transport?",
+   "stem": "During invasive hemodynamic monitoring, what must be repeated with any change in altitude during transport?",
    "options": [
     "Priming the transducer tubing",
     "Replacing the dead-end caps",
@@ -550,7 +550,7 @@
     "Zeroing the transducer line"
    ],
    "answer_index": 3,
-   "explanation": "Ambient pressure is the reference for the transducer, so a change in cabin altitude shifts the zero and every reading with it. 8.19 builds the re-zero into the zeroing step rather than leaving it to judgement.",
+   "explanation": "Ambient pressure is the reference for the transducer, so a change in cabin altitude shifts the zero and every reading with it. The re-zero is built into the zeroing step rather than left to judgement.",
    "priority": "core",
    "tags": [
     "procedure:invasive-monitoring",
@@ -566,7 +566,7 @@
    "type": "sequence",
    "care_level": "CCT",
    "population": "both",
-   "stem": "During the zeroing sequence, what does 8.19 have you observe immediately after opening the stopcock to air?",
+   "stem": "When zeroing an invasive hemodynamic monitoring line, what is observed immediately after opening the stopcock to air?",
    "options": [
     "A square waveform test",
     "The IBP and NIBP difference",
@@ -590,7 +590,7 @@
    "type": "procedure",
    "care_level": "CCT",
    "population": "both",
-   "stem": "The sending facility's transducer is not compatible with LFN equipment. What does 8.19 direct?",
+   "stem": "For invasive hemodynamic monitoring, the sending facility's transducer is not compatible with LFN equipment. What should be done?",
    "options": [
     "Use the existing line and zero it to the LFN monitor",
     "Switch the line out and set up an LFN transducer",
@@ -598,7 +598,7 @@
     "Contact medical control before transport"
    ],
    "answer_index": 1,
-   "explanation": "8.19 permits using an existing line only when its transducer is compatible with LFN equipment; otherwise the line must be switched out and primed from step 3. An incompatible transducer cannot be reliably zeroed or read by the LFN monitor.",
+   "explanation": "An existing line may be used only when its transducer is compatible with LFN equipment; otherwise the line must be switched out and primed from step 3. An incompatible transducer cannot be reliably zeroed or read by the LFN monitor.",
    "priority": "detail",
    "tags": [
     "procedure:invasive-monitoring",
@@ -614,7 +614,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "An arterial waveform has become flat and over-dampened. Which check does 8.19 direct?",
+   "stem": "An arterial line waveform has become flat and over-dampened. Which check should be made?",
    "options": [
     "Increase the monitor's sweep speed",
     "Flush the catheter with a heparin syringe",
@@ -646,7 +646,7 @@
     "The right ventricular port"
    ],
    "answer_index": 3,
-   "explanation": "8.19 prohibits infusing medications through the distal PA port and directs that the right ventricular port be used; it may be capped and flushed. Drug delivered into the pulmonary artery bypasses mixing and the distal port is the pressure-monitoring lumen.",
+   "explanation": "Medications must not be infused through the distal PA port; the right ventricular port is used instead and may be capped and flushed. Drug delivered into the pulmonary artery bypasses mixing and the distal port is the pressure-monitoring lumen.",
    "priority": "core",
    "tags": [
     "procedure:invasive-monitoring",
@@ -662,7 +662,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 8.19 say about obtaining a PCWP during transport of a patient with a pulmonary artery catheter?",
+   "stem": "What is the guidance on obtaining a PCWP during transport of a patient with a pulmonary artery catheter?",
    "options": [
     "There is no indication to wedge; document a PCWP before departure if available",
     "Wedge only with medical control approval",
@@ -686,7 +686,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Monitoring shows a PCWP tracing even though the wedge balloon is deflated. What does 8.19 direct?",
+   "stem": "Monitoring of a pulmonary artery catheter shows a PCWP tracing even though the wedge balloon is deflated. What should be done?",
    "options": [
     "Flush the distal port and continue monitoring",
     "Contact medical control for guidance",
@@ -694,7 +694,7 @@
     "Inflate and deflate the balloon to reposition the tip"
    ],
    "answer_index": 1,
-   "explanation": "A spontaneous wedge means the catheter tip has migrated distally and the vessel is occluded, which risks infarction. 8.19 does not authorise crews to reposition the catheter; it directs contacting medical control.",
+   "explanation": "A spontaneous wedge means the catheter tip has migrated distally and the vessel is occluded, which risks infarction. Crews are not authorised to reposition the catheter; medical control is contacted.",
    "priority": "detail",
    "tags": [
     "procedure:invasive-monitoring",
@@ -710,7 +710,7 @@
    "type": "indication",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Which patient meets the indication for a King airway under 8.20?",
+   "stem": "Which patient meets the indication for a King airway?",
    "options": [
     "Unconscious following a caustic ingestion",
     "Unconscious with known esophageal disease",
@@ -734,7 +734,7 @@
    "type": "contraindication",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Which history contraindicates placing a King airway under 8.20?",
+   "stem": "Which history contraindicates placing a King airway?",
    "options": [
     "Suspected cervical spine injury",
     "Recent oral surgery",
@@ -814,7 +814,7 @@
     "Until the proximal cuff is level with the lips"
    ],
    "answer_index": 2,
-   "explanation": "The tube is advanced until the flange of the connector lines up with the teeth, and 8.20 specifically warns not to force insertion. Inflating the cuffs then lifts the device slightly as it seats.",
+   "explanation": "The tube is advanced until the flange of the connector lines up with the teeth, and insertion must not be forced. Inflating the cuffs then lifts the device slightly as it seats.",
    "priority": "core",
    "tags": [
     "procedure:king-airway",
@@ -830,7 +830,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What ETCO2 finding does 8.20 describe as indicating appropriate ventilation through a King airway?",
+   "stem": "What ETCO2 finding indicates appropriate ventilation through a King airway?",
    "options": [
     "A rising value over three breaths",
     "A sustained value above 30 mmHg",
@@ -854,7 +854,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Ventilation cannot be accomplished through a newly placed King airway. What is the first corrective step in 8.20?",
+   "stem": "Ventilation cannot be accomplished through a newly placed King airway. What is the first corrective step?",
    "options": [
     "Without deflating the cuff, pull back slightly and re-attempt ventilation",
     "Add air to the cuffs and apply firmer downward pressure",
@@ -878,7 +878,7 @@
    "type": "equipment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What does 8.20 direct you to do with the inflation syringe after the cuffs are inflated?",
+   "stem": "After the King airway cuffs are inflated, what is done with the inflation syringe?",
    "options": [
     "Leave it attached to the inflation port",
     "Place it to the right of the patient's head",
@@ -902,7 +902,7 @@
    "type": "scope",
    "care_level": "ALS",
    "population": "both",
-   "stem": "For which airways does 8.21 make continuous ETCO2 monitoring mandatory?",
+   "stem": "For which airways is continuous ETCO2 monitoring mandatory?",
    "options": [
     "Endotracheal tubes and surgical airways only",
     "Any airway when the patient is being transported by air",
@@ -926,7 +926,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "There is no consistent ETCO2 waveform on an intubated patient. What does 8.21 direct?",
+   "stem": "There is no consistent ETCO2 waveform on an intubated patient. What should be done?",
    "options": [
     "Replace the ETCO2 sensor and continue ventilating",
     "Auscultate the chest and epigastrium and continue if breath sounds are present",
@@ -950,7 +950,7 @@
    "type": "special",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Secretions and blood are interfering with ETCO2 measurement on an intubated patient. Which two options does 8.21 give?",
+   "stem": "Secretions and blood are interfering with ETCO2 measurement on an intubated patient. Which two options are sanctioned?",
    "options": [
     "Remove the tube and provide effective BVM, or directly visualise the tube witnessed by another provider",
     "Switch to colorimetric ETCO2, or document the absence of a waveform",
@@ -974,7 +974,7 @@
    "type": "equipment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Where does 8.21 direct an HMEF to be placed when secretions, blood or vomit are fouling the capnography line?",
+   "stem": "Where is an HMEF placed when secretions, blood or vomit are fouling the capnography line on a patient with an advanced airway?",
    "options": [
     "Immediately proximal to the oxygen source",
     "Between the ETT/SGA and the ETCO2 sensor",
@@ -998,7 +998,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 8.21 suggest considering to facilitate ventilation in a patient with an advanced airway?",
+   "stem": "What should be considered to facilitate ventilation in a patient with an advanced airway?",
    "options": [
     "A PEEP valve on the BVM",
     "A second ETCO2 sensor on the expiratory limb",
@@ -1006,7 +1006,7 @@
     "A nasopharyngeal airway alongside the ETT"
    ],
    "answer_index": 2,
-   "explanation": "Gastric distension from pre-intubation bagging splints the diaphragm and worsens compliance, so 8.21 directs considering an OG tube to decompress the stomach and make ventilation easier.",
+   "explanation": "Gastric distension from pre-intubation bagging splints the diaphragm and worsens compliance, so an OG tube should be considered to decompress the stomach and make ventilation easier.",
    "priority": "detail",
    "tags": [
     "procedure:etco2",
@@ -1022,7 +1022,7 @@
    "type": "indication",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "How does 8.22 direct a STEMI or other critical patient who has not arrested to be transported?",
+   "stem": "How should a STEMI or other critical patient who has not arrested be transported with respect to the mechanical CPR device?",
    "options": [
     "On the AutoPulse running in continuous mode",
     "On the AutoPulse in place with the LifeBand left open",
@@ -1094,7 +1094,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "When does 8.22 direct the LUCAS back plate to be slid beneath the patient, and to what level?",
+   "stem": "When is the LUCAS back plate slid beneath the patient, and to what level?",
    "options": [
     "Once the patient is on the stretcher, to the level of the shoulders",
     "Before manual CPR begins, to the level of the xiphoid",
@@ -1174,7 +1174,7 @@
     "The battery indicator shows three bars"
    ],
    "answer_index": 1,
-   "explanation": "8.22 states the infinity sign button should be lighted to provide continuous compressions. If it is not, the device is cycling 30:2 rather than compressing continuously.",
+   "explanation": "The infinity sign button should be lighted to provide continuous compressions. If it is not, the device is cycling 30:2 rather than compressing continuously.",
    "priority": "detail",
    "tags": [
     "procedure:mechanical-cpr",
@@ -1190,7 +1190,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "A mechanical CPR device alarms in flight and cannot be corrected immediately. What does 8.22 direct?",
+   "stem": "A mechanical CPR device alarms in flight and cannot be corrected immediately. What should be done?",
    "options": [
     "Cycle the power and allow the self-test to complete",
     "Continue the device and troubleshoot at the receiving facility",
@@ -1214,7 +1214,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "Which event does 8.22 accept as a reason to pause the mechanical CPR device during transport?",
+   "stem": "Which event is an accepted reason to pause the mechanical CPR device during transport?",
    "options": [
     "A scheduled battery change",
     "Obtaining a 12-lead ECG",
@@ -1238,7 +1238,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What maximum interruption in compressions does 8.22 set when a pause is necessary?",
+   "stem": "When a pause in mechanical CPR is necessary, what is the maximum interruption in compressions?",
    "options": [
     "Less than 10 seconds",
     "Less than 15 seconds",
@@ -1262,7 +1262,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What does 8.22 say crews may see on ETCO2 while a mechanical CPR device is running?",
+   "stem": "What may crews see on ETCO2 while a mechanical CPR device is running?",
    "options": [
     "Values higher than predicted because of the compression quality",
     "Loss of waveform during the compression phase",
@@ -1286,7 +1286,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "What does 8.22 say about using mechanical CPR on a patient with an IABP, Impella or VAD?",
+   "stem": "What is the guidance on using mechanical CPR on a patient with an IABP, Impella or VAD?",
    "options": [
     "It is permitted only with the LUCAS, not the AutoPulse",
     "It may be used when indicated",
@@ -1310,7 +1310,7 @@
    "type": "scope",
    "care_level": null,
    "population": "both",
-   "stem": "Which intubated patients does 8.23 require to be transported on a mechanical ventilator?",
+   "stem": "Which intubated patients must be transported on a mechanical ventilator?",
    "options": [
     "Intubated patients with an expected transport over 30 minutes",
     "Intubated patients who are not being hand-ventilated by a second crew member",
@@ -1318,7 +1318,7 @@
     "Intubated patients on flights longer than 15 minutes"
    ],
    "answer_index": 2,
-   "explanation": "8.23 opens with a blanket statement: all intubated patients will be transported on a mechanical ventilator regardless of flight time. Hand ventilation does not deliver a consistent tidal volume or rate and is not an alternative for short legs.",
+   "explanation": "The Mechanical Ventilation guideline opens with a blanket statement: all intubated patients will be transported on a mechanical ventilator regardless of flight time. Hand ventilation does not deliver a consistent tidal volume or rate and is not an alternative for short legs.",
    "priority": "core",
    "tags": [
     "procedure:mechanical-ventilation",
@@ -1334,7 +1334,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "Which mode does 8.23 select for a patient needing routine, standard lung protection?",
+   "stem": "Which ventilator mode is selected for a patient needing routine, standard lung protection?",
    "options": [
     "ASV",
     "PCV+",
@@ -1358,7 +1358,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "Which mode does 8.23 select for a pediatric patient or a challenging adult with pulmonary disease or obesity, and why?",
+   "stem": "Which ventilator mode is selected for a pediatric patient or a challenging adult with pulmonary disease or obesity, and why?",
    "options": [
     "PCV+, because it sets a consistent PIP for patient safety",
     "NIV-ST, because it adds a set respiratory rate",
@@ -1382,7 +1382,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "both",
-   "stem": "What starting tidal volume does 8.23 set for basic ventilator settings?",
+   "stem": "What starting tidal volume is used in the basic ventilator settings?",
    "options": [
     "4 - 8 mL/kg",
     "6 - 8 mL/kg",
@@ -1406,7 +1406,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "What starting respiratory rate does 8.23 set for an adult or a patient over 40 kg?",
+   "stem": "What starting ventilator rate is set for an adult or a patient over 40 kg?",
    "options": [
     "15 BPM",
     "17 BPM",
@@ -1430,7 +1430,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "pediatric",
-   "stem": "What starting respiratory rate does 8.23 set for a 7 kg infant?",
+   "stem": "What starting ventilator rate is set for a 7 kg infant?",
    "options": [
     "25 BPM",
     "30 BPM",
@@ -1438,7 +1438,7 @@
     "45 BPM"
    ],
    "answer_index": 1,
-   "explanation": "A 7 kg patient falls in the 6-9 kg band, which starts at 30 BPM with a range of 20-40. 8.23 also notes pediatric rates should start toward the lower end of the range because of the higher proportion of dead space, and that Vt is increased before rate.",
+   "explanation": "A 7 kg patient falls in the 6-9 kg band, which starts at 30 BPM with a range of 20-40. Pediatric rates should start toward the lower end of the range because of the higher proportion of dead space, and Vt is increased before rate.",
    "priority": "detail",
    "tags": [
     "procedure:mechanical-ventilation",
@@ -1454,7 +1454,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "What starting inspiratory time does 8.23 set for an adult?",
+   "stem": "What starting inspiratory time is set on the ventilator for an adult?",
    "options": [
     "0.4 - 0.6 seconds",
     "0.7 - 0.9 seconds",
@@ -1478,7 +1478,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "pediatric",
-   "stem": "What inspiratory time does 8.23 set for a patient under 1 year of age?",
+   "stem": "What ventilator inspiratory time is set for a patient under 1 year of age?",
    "options": [
     "0.4 - 0.6 seconds",
     "0.7 - 0.9 seconds",
@@ -1502,7 +1502,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "both",
-   "stem": "What starting PEEP does 8.23 set in the basic ventilator settings?",
+   "stem": "What starting PEEP is used in the basic ventilator settings?",
    "options": [
     "3 cmH2O",
     "5 cmH2O",
@@ -1526,7 +1526,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "both",
-   "stem": "Using the basic PEEP/FiO2 chart in 8.23, what PEEP corresponds to an FiO2 of 60?",
+   "stem": "Using the basic ventilator PEEP/FiO2 chart, what PEEP corresponds to an FiO2 of 60?",
    "options": [
     "5",
     "8",
@@ -1550,7 +1550,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "What ΔPcontrol does the Severe Hypoxia / ARDS strategy in 8.23 start at?",
+   "stem": "What ΔPcontrol does the Severe Hypoxia / ARDS ventilator strategy start at?",
    "options": [
     "10 cmH2O",
     "15 cmH2O",
@@ -1574,7 +1574,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "What adult respiratory rate does the Severe Hypoxia / ARDS strategy in 8.23 start at?",
+   "stem": "What adult rate does the Severe Hypoxia / ARDS ventilator strategy start at?",
    "options": [
     "10 BPM",
     "15 BPM",
@@ -1598,7 +1598,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "What PEEP does the Severe Hypoxia / ARDS strategy in 8.23 start at, and in what increments is it then titrated?",
+   "stem": "What PEEP does the Severe Hypoxia / ARDS ventilator strategy start at, and in what increments is it then titrated?",
    "options": [
     "A PEEP of 5 cmH2O, raised in 1-2 cmH2O increments",
     "A PEEP of 10 cmH2O, raised in 1-2 cmH2O increments",
@@ -1622,7 +1622,7 @@
    "type": "mechanism",
    "care_level": null,
    "population": "both",
-   "stem": "How is driving pressure calculated under 8.23?",
+   "stem": "On the ventilator, how is driving pressure calculated?",
    "options": [
     "PIP minus PEEP",
     "Pplat minus PIP",
@@ -1646,7 +1646,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "What adult respiratory rate does the Obstructive / High Resistance strategy in 8.23 start at?",
+   "stem": "What adult rate does the Obstructive / High Resistance ventilator strategy start at?",
    "options": [
     "10/min",
     "15/min",
@@ -1670,7 +1670,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "What minimum PEEP does the Obstructive / High Resistance strategy in 8.23 direct be maintained?",
+   "stem": "What minimum PEEP is maintained in the Obstructive / High Resistance ventilator strategy?",
    "options": [
     "3 cmH2O",
     "5 cmH2O",
@@ -1694,7 +1694,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "adult",
-   "stem": "What adult respiratory rate does the Extreme Metabolic Acidosis strategy in 8.23 start at?",
+   "stem": "What adult rate does the Extreme Metabolic Acidosis ventilator strategy start at?",
    "options": [
     "10/min",
     "15/min",
@@ -1718,7 +1718,7 @@
    "type": "pearl",
    "care_level": null,
    "population": "adult",
-   "stem": "Which formula does 8.23 give for determining the target PCO2 in extreme metabolic acidosis?",
+   "stem": "When ventilating a patient in extreme metabolic acidosis, which formula determines the target PCO2?",
    "options": [
     "PCO2 = (1.5 x HCO3) + 8 ± 2",
     "PCO2 = (1.5 x HCO3) - 8 ± 2",
@@ -1742,7 +1742,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "pediatric",
-   "stem": "What starting tidal volume does the Pediatric / Neonatal strategy in 8.23 set?",
+   "stem": "What starting tidal volume does the Pediatric / Neonatal ventilator strategy set?",
    "options": [
     "4 - 8 mL/kg",
     "6 - 8 mL/kg",
@@ -1766,7 +1766,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "pediatric",
-   "stem": "At what weight does 8.23 switch from the neonatal T1 circuit to the adult/pedi T1 circuit?",
+   "stem": "At what weight does the ventilator circuit switch from the neonatal T1 circuit to the adult/pedi T1 circuit?",
    "options": [
     "3 kg",
     "15 kg",
@@ -1790,7 +1790,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "pediatric",
-   "stem": "A ventilated child is hypercapnic. What does 8.23 direct you to increase first, and what changes that order?",
+   "stem": "A ventilated child is hypercapnic. What should be increased first, and what changes that order?",
    "options": [
     "Increase rate first; increase Vt once PIP reaches 30 cmH2O",
     "Increase Vt first; increase rate once PIP reaches 30 cmH2O",
@@ -1814,7 +1814,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "A ventilated patient's Rinsp has risen into the red zone. What does the monitoring guidance in 8.23 direct?",
+   "stem": "A ventilated patient's Rinsp has risen into the red zone. What should be done?",
    "options": [
     "Increase I-time and increase PEEP",
     "Increase tidal volume and decrease rate",
@@ -1838,7 +1838,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "both",
-   "stem": "What does a Low Oxygen alarm on the ventilator indicate under 8.23?",
+   "stem": "What does a Low Oxygen alarm on the ventilator indicate?",
    "options": [
     "Delivered FiO2 is more than 5% less than the set FiO2",
     "The patient's SpO2 has fallen below the set alarm limit",
@@ -1862,7 +1862,7 @@
    "type": "sequence",
    "care_level": null,
    "population": "both",
-   "stem": "A Pressure Limitation alarm is active. What is the first resolution listed in 8.23?",
+   "stem": "A ventilator Pressure Limitation alarm is active. What is the first resolution listed?",
    "options": [
     "Ensure adequate sedation and analgesia",
     "Fix mechanical obstructions",
@@ -1910,7 +1910,7 @@
    "type": "pearl",
    "care_level": null,
    "population": "both",
-   "stem": "What plateau pressure does 8.23 target for most ventilated patients, and what is the allowance for an obese or rigid chest?",
+   "stem": "What plateau pressure is targeted for most ventilated patients, and what is the allowance for an obese or rigid chest?",
    "options": [
     "≤ 25 for most patients, ≤ 30 if obese or rigid chest",
     "≤ 30 for most patients, ≤ 35 if obese or rigid chest",
@@ -1934,7 +1934,7 @@
    "type": "pearl",
    "care_level": null,
    "population": "both",
-   "stem": "Beyond ETCO2, how many of the listed confirmation techniques does 8.23 require to verify ETT placement?",
+   "stem": "Beyond ETCO2, how many of the listed confirmation techniques are required to verify ETT placement?",
    "options": [
     "At least three",
     "All four",
@@ -1958,7 +1958,7 @@
    "type": "pearl",
    "care_level": null,
    "population": "both",
-   "stem": "Which ventilator mode does 8.23 state is not approved for use?",
+   "stem": "Which ventilator mode is not approved for use?",
    "options": [
     "ASV",
     "PSIMV+",
@@ -2006,7 +2006,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "both",
-   "stem": "What bias flow does 8.23 specify for Low Pressure Oxygen on the LTV for adults and for pediatrics?",
+   "stem": "What bias flow is used for Low Pressure Oxygen on the LTV ventilator for adults and for pediatrics?",
    "options": [
     "5 LPM for adults and 10 LPM for pediatrics",
     "10 LPM for adults and 5 LPM for pediatrics",
@@ -2030,7 +2030,7 @@
    "type": "threshold",
    "care_level": null,
    "population": "pediatric",
-   "stem": "Below what weight does 8.23 direct the use of pediatric tubing on the LTV?",
+   "stem": "Below what weight is pediatric tubing used on the LTV ventilator?",
    "options": [
     "3 kg",
     "15 kg",
@@ -2054,7 +2054,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "In which patient does 8.24 indicate needle cricothyrotomy rather than a surgical airway?",
+   "stem": "In which patient is needle cricothyrotomy indicated rather than a surgical airway?",
    "options": [
     "Any age, when a single intubation attempt has failed",
     "Age under 8 years, as the first airway attempt in traumatic arrest",
@@ -2078,7 +2078,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What is the listed contraindication to needle cricothyrotomy under 8.24?",
+   "stem": "What is the listed contraindication to needle cricothyrotomy?",
    "options": [
     "Inability to palpate the cricothyroid membrane",
     "Age under 1 year",
@@ -2086,7 +2086,7 @@
     "Ability to ventilate and oxygenate less invasively"
    ],
    "answer_index": 3,
-   "explanation": "The only contraindication is that you can still ventilate and oxygenate some other way. An impalpable membrane is not a contraindication — 8.24 addresses it directly, since palpation is very difficult in infants and young children.",
+   "explanation": "The only contraindication is that you can still ventilate and oxygenate some other way. An impalpable membrane is not a contraindication — it is addressed directly, since palpation is very difficult in infants and young children.",
    "priority": "core",
    "tags": [
     "procedure:needle-cricothyrotomy",
@@ -2150,7 +2150,7 @@
    "type": "complication",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "Why must the metal needle not be advanced further once the catheter is being threaded?",
+   "stem": "During needle cricothyrotomy, why must the metal needle not be advanced further once the catheter is being threaded?",
    "options": [
     "It would kink the catheter",
     "It would lacerate the thyroid cartilage",
@@ -2174,7 +2174,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What oxygen flow rate does 8.24 set for the suction tubing and meconium aspirator set-up?",
+   "stem": "When ventilating through a needle cricothyrotomy, what oxygen flow rate is set for the suction tubing and meconium aspirator set-up?",
    "options": [
     "5 LPM",
     "10 LPM",
@@ -2198,7 +2198,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What I:E ratio does 8.24 direct for ventilating through a needle cricothyrotomy?",
+   "stem": "What I:E ratio is used for ventilating through a needle cricothyrotomy?",
    "options": [
     "Approximately 1:1",
     "Approximately 1:2",
@@ -2222,7 +2222,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "Which three findings does 8.24 use to confirm placement after a needle cricothyrotomy?",
+   "stem": "Which three findings confirm placement after a needle cricothyrotomy?",
    "options": [
     "ETCO2, aspiration of air and chest rise",
     "Breath sounds, chest rise and absence of subcutaneous emphysema",
@@ -2230,7 +2230,7 @@
     "ETCO2, breath sounds and an increase in SpO2"
    ],
    "answer_index": 3,
-   "explanation": "Confirmation is ETCO2, breath sounds and a rise in SpO2 together. 8.24 notes separately that ETCO2 readings through a needle airway may be inaccurate but will still be present with accurate placement, so the waveform's presence matters more than its number.",
+   "explanation": "Confirmation is ETCO2, breath sounds and a rise in SpO2 together. ETCO2 readings through a needle airway may be inaccurate but will still be present with accurate placement, so the waveform's presence matters more than its number.",
    "priority": "core",
    "tags": [
     "procedure:needle-cricothyrotomy",
@@ -2246,7 +2246,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "pediatric",
-   "stem": "What does 8.24 identify as the key to success when performing a needle cricothyrotomy on an infant or young child?",
+   "stem": "What is the key to success when performing a needle cricothyrotomy on an infant or young child?",
    "options": [
     "Immobilisation of the trachea throughout the procedure",
     "Using the smallest available catheter",
@@ -2254,7 +2254,7 @@
     "Having a second provider ventilate throughout"
    ],
    "answer_index": 0,
-   "explanation": "The infant larynx is small, soft and mobile, so the membrane slides away from the needle unless the trachea is held still throughout. 8.24 names immobilisation of the trachea as the key to success.",
+   "explanation": "The infant larynx is small, soft and mobile, so the membrane slides away from the needle unless the trachea is held still throughout. Immobilisation of the trachea is named as the key to success.",
    "priority": "core",
    "tags": [
     "procedure:needle-cricothyrotomy",
@@ -2270,7 +2270,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "pediatric",
-   "stem": "All attempts to place the needle have failed and the child cannot be oxygenated. What does 8.24 permit next?",
+   "stem": "During a needle cricothyrotomy, all attempts to place the needle have failed and the child cannot be oxygenated. What is permitted next?",
    "options": [
     "Place a supraglottic airway and transport",
     "Incise the skin over the membrane and dissect until it is visible",
@@ -2278,7 +2278,7 @@
     "Attempt the puncture one rib space lower over the trachea"
    ],
    "answer_index": 1,
-   "explanation": "When the membrane cannot be palpated and the patient cannot be oxygenated, 8.24 permits incising the skin over the area and gently dissecting until the membrane is visible, then placing the needle through it as described. This is an aid to seeing the membrane, not a conversion to a surgical airway.",
+   "explanation": "When the membrane cannot be palpated and the patient cannot be oxygenated, the crew may incise the skin over the area and gently dissect until the membrane is visible, then place the needle through it as described. This is an aid to seeing the membrane, not a conversion to a surgical airway.",
    "priority": "detail",
    "tags": [
     "procedure:needle-cricothyrotomy",
@@ -2294,7 +2294,7 @@
    "type": "special",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "A needle cricothyrotomy is found to have been incorrectly placed. What does 8.24 require?",
+   "stem": "A needle cricothyrotomy is found to have been incorrectly placed. What is required?",
    "options": [
     "Document the finding in the PCR at the end of the shift",
     "Notify the receiving physician and note it in the transfer report",
@@ -2318,7 +2318,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which finding is REQUIRED to be present before performing a needle thoracostomy under 8.25?",
+   "stem": "Which finding is REQUIRED to be present before performing a needle thoracostomy?",
    "options": [
     "Tracheal deviation",
     "Jugular venous distention",
@@ -2326,7 +2326,7 @@
     "Hypotension"
    ],
    "answer_index": 3,
-   "explanation": "8.25 states in red that hypotension must be present to perform a needle thoracostomy; the other findings — tachycardia, decreased breath sounds, JVD, hypoxia, hypocarbia, tracheal deviation — are supporting signs that accompany it. Traumatic arrest is the separate standalone indication.",
+   "explanation": "Hypotension must be present to perform a needle thoracostomy, as stated in red; the other findings — tachycardia, decreased breath sounds, JVD, hypoxia, hypocarbia, tracheal deviation — are supporting signs that accompany it. Traumatic arrest is the separate standalone indication.",
    "priority": "core",
    "tags": [
     "procedure:needle-thoracostomy",
@@ -2342,7 +2342,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What is the listed contraindication to needle thoracostomy under 8.25?",
+   "stem": "What is the listed contraindication to needle thoracostomy?",
    "options": [
     "A pneumothorax without tension physiology",
     "A chest tube already in place on that side",
@@ -2366,7 +2366,7 @@
    "type": "landmark",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Where is the anterior needle thoracostomy site located under 8.25?",
+   "stem": "Where is the anterior needle thoracostomy site located?",
    "options": [
     "2nd intercostal space at the mid-clavicular line",
     "2nd intercostal space at the anterior axillary line",
@@ -2390,7 +2390,7 @@
    "type": "landmark",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Where is the lateral needle thoracostomy site located under 8.25?",
+   "stem": "Where is the lateral needle thoracostomy site located?",
    "options": [
     "2nd or 3rd intercostal space, between the anterior and mid-axillary line",
     "4th or 5th intercostal space, between the anterior and mid-axillary line",
@@ -2398,7 +2398,7 @@
     "4th or 5th intercostal space, medial to the nipple line"
    ],
    "answer_index": 1,
-   "explanation": "The lateral site is the 4th or 5th intercostal space, lateral to the nipple or inframammary crease, between the anterior and mid-axillary line. If the level is hard to judge, 8.25 directs erring to the next rib level superior.",
+   "explanation": "The lateral site is the 4th or 5th intercostal space, lateral to the nipple or inframammary crease, between the anterior and mid-axillary line. If the level is hard to judge, err to the next rib level superior.",
    "priority": "core",
    "tags": [
     "procedure:needle-thoracostomy",
@@ -2414,7 +2414,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How does 8.25 direct the needle to be advanced in relation to the rib?",
+   "stem": "During needle thoracostomy, how is the needle advanced in relation to the rib?",
    "options": [
     "Contact the inferior aspect of the rib and advance through the intercostal muscle",
     "Walk the needle off the inferior aspect of the rib and advance below it",
@@ -2462,7 +2462,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "The catheter will not thread off the needle. How far beyond the depth measured at rib contact does 8.25 allow you to insert before reassessing landmarks and placement?",
+   "stem": "During needle thoracostomy, the catheter will not thread off the needle. How far beyond the depth measured at rib contact may you insert before reassessing landmarks and placement?",
    "options": [
     "1 cm",
     "2 cm",
@@ -2470,7 +2470,7 @@
     "5 cm"
    ],
    "answer_index": 2,
-   "explanation": "If the needle has gone 3 cm beyond the depth noted when rib contact was made and the catheter still will not thread, you are almost certainly not in the pleural space, and 8.25 directs reassessing landmarks and placement rather than pushing deeper.",
+   "explanation": "If the needle has gone 3 cm beyond the depth noted when rib contact was made and the catheter still will not thread, you are almost certainly not in the pleural space, so landmarks and placement are reassessed rather than pushing deeper.",
    "priority": "detail",
    "tags": [
     "procedure:needle-thoracostomy",
@@ -2486,7 +2486,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Tension physiology recurs after a successful needle thoracostomy. What does 8.25 direct?",
+   "stem": "Tension physiology recurs after a successful needle thoracostomy. What should be done?",
    "options": [
     "Repeat the needle decompression or perform a finger thoracostomy",
     "Remove the one-way valve and leave the catheter open to air",
@@ -2510,7 +2510,7 @@
    "type": "equipment",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "Which device does 8.25 specify for needle thoracostomy in infants and small children?",
+   "stem": "Which device is used for needle thoracostomy in infants and small children?",
    "options": [
     "A jet ventilation catheter",
     "A 16- or 18-gauge IV catheter",
@@ -2534,7 +2534,7 @@
    "type": "landmark",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "When decompressing at the lateral site, in what direction is the catheter threaded?",
+   "stem": "When performing needle thoracostomy at the lateral site, in what direction is the catheter threaded?",
    "options": [
     "Toward the diaphragm",
     "Straight in, perpendicular to the chest wall",
@@ -2558,7 +2558,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "Which patient meets an indication for non-invasive ventilation under 8.26?",
+   "stem": "Which patient meets an indication for non-invasive ventilation?",
    "options": [
     "A trauma patient with a flail chest and hypoxia",
     "A patient with severe altered level of consciousness",
@@ -2582,7 +2582,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "Below what systolic blood pressure does 8.26 contraindicate non-invasive ventilation?",
+   "stem": "Below what systolic blood pressure is non-invasive ventilation contraindicated?",
    "options": [
     "SBP < 80",
     "SBP < 90",
@@ -2606,7 +2606,7 @@
    "type": "equipment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What type of mask does 8.26 require for NIV, including when a mask is taken from the sending hospital?",
+   "stem": "What type of mask is required for NIV, including when a mask is taken from the sending hospital?",
    "options": [
     "A non-vented mask",
     "A vented mask",
@@ -2614,7 +2614,7 @@
     "A mask with an integral exhalation port"
    ],
    "answer_index": 0,
-   "explanation": "NIV delivered by a mechanical ventilator requires a non-vented mask, and 8.26 highlights in red that any mask borrowed from the hospital must be checked to be non-vented. A vented mask dumps the circuit pressure and the ventilator cannot support the patient.",
+   "explanation": "NIV delivered by a mechanical ventilator requires a non-vented mask, and it is highlighted in red that any mask borrowed from the hospital must be checked to be non-vented. A vented mask dumps the circuit pressure and the ventilator cannot support the patient.",
    "priority": "core",
    "tags": [
     "procedure:niv",
@@ -2630,7 +2630,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What initial Psupport (IPAP) does 8.26 set when starting CPAP?",
+   "stem": "What initial Psupport (IPAP) is set when starting CPAP on the ventilator?",
    "options": [
     "0 cmH2O",
     "2 cmH2O",
@@ -2654,7 +2654,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What initial Psupport (IPAP) and PEEP (EPAP) does 8.26 set when starting BiPAP?",
+   "stem": "What initial Psupport (IPAP) and PEEP (EPAP) are set when starting BiPAP on the ventilator?",
    "options": [
     "Psupport 0, PEEP 5",
     "Psupport 5, PEEP 5",
@@ -2678,7 +2678,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What difference does 8.26 direct be maintained between Psupport and PEEP while titrating NIV?",
+   "stem": "What difference should be maintained between Psupport and PEEP while titrating NIV?",
    "options": [
     "2 - 3 cmH2O",
     "4 - 5 cmH2O",
@@ -2726,7 +2726,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "A patient on NIV says \"I'm not getting enough air.\" Which adjustments does 8.26 direct?",
+   "stem": "A patient on NIV says \"I'm not getting enough air.\" Which adjustments should be made?",
    "options": [
     "Shorten the P-ramp, decrease Psupport, increase ETS% and Ti Max",
     "Lengthen the P-ramp, increase Psupport, increase ETS% and Ti Max",
@@ -2750,7 +2750,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "A patient on NIV says \"It's forcing air, I can't breathe out.\" What does 8.26 direct?",
+   "stem": "A patient on NIV says \"It's forcing air, I can't breathe out.\" What adjustment should be made?",
    "options": [
     "Decrease ETS% (Flow Term) and Ti Max",
     "Increase Psupport and shorten the P-ramp",
@@ -2774,7 +2774,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "VTE is rising on a patient receiving NIV. How does 8.26 interpret this and what does it direct?",
+   "stem": "VTE is rising on a patient receiving NIV. What does this indicate, and what should be done?",
    "options": [
     "The patient's condition improving; decrease Psupport",
     "A developing leak; check the mask seal",
@@ -2798,7 +2798,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "A patient remains intolerant of NIV after the P-ramp and ETS% have been adjusted. Which agents does 8.26 prefer for light sedation?",
+   "stem": "A patient remains intolerant of NIV after the P-ramp and ETS% have been adjusted. Which agents are preferred for light sedation?",
    "options": [
     "Low dose haloperidol or droperidol",
     "Low dose fentanyl or ketamine",
@@ -2806,7 +2806,7 @@
     "Low dose propofol or etomidate"
    ],
    "answer_index": 1,
-   "explanation": "Low dose fentanyl or ketamine are preferred, and 8.26 states in red that benzodiazepines should be avoided because their effects are unpredictable and may decrease mental status — which would then contraindicate the NIV. Settings must be adjusted before any drug is given.",
+   "explanation": "Low dose fentanyl or ketamine are preferred, and it is stated in red that benzodiazepines should be avoided because their effects are unpredictable and may decrease mental status — which would then contraindicate the NIV. Settings must be adjusted before any drug is given.",
    "priority": "core",
    "tags": [
     "procedure:niv",
@@ -2847,7 +2847,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "adult",
-   "stem": "A CHF patient on NIV needs nitroglycerin. What does 8.26 direct?",
+   "stem": "A CHF patient on NIV needs nitroglycerin. What should be done?",
    "options": [
     "Give nitroglycerin paste and continue NIV",
     "Withhold nitroglycerin until NIV is discontinued",
@@ -2872,7 +2872,7 @@
    "type": "indication",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "Which patient meets an indication for a pelvic binder under 8.27?",
+   "stem": "Which patient meets an indication for a pelvic binder?",
    "options": [
     "A mechanism consistent with pelvic fracture and shock with no other obvious source of hemorrhage",
     "Any high-speed motor vehicle collision, regardless of findings",
@@ -2896,7 +2896,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "pediatric",
-   "stem": "Below what age does 8.27 state a pelvic binder is not recommended?",
+   "stem": "Below what age is a pelvic binder not recommended?",
    "options": [
     "8 years",
     "10 years",
@@ -2968,7 +2968,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "Immediately after the SAM pelvic sling buckle clicks, what does 8.27 direct?",
+   "stem": "Immediately after the SAM pelvic sling buckle clicks, what should be done?",
    "options": [
     "Reassess the pelvis before securing the strap",
     "Add a second sling above the first for additional compression",
@@ -2992,7 +2992,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "What does 8.27 direct for male patients when preparing the pelvic area for a binder?",
+   "stem": "When preparing the pelvic area of a male patient for a pelvic binder, what should be done?",
    "options": [
     "Ensure the genitalia are elevated out of the groin area",
     "Apply a protective pad over the groin before the sling",
@@ -3016,7 +3016,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "adult",
-   "stem": "How often does 8.27 direct reassessment of the pelvic area, distal circulation, sensation and motor function after a binder is applied?",
+   "stem": "After a pelvic binder is applied, how often are the pelvic area, distal circulation, sensation and motor function reassessed?",
    "options": [
     "Every 5 minutes",
     "Every 10 minutes",

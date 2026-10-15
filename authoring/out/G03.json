@@ -8,7 +8,7 @@
    "type": "contraindication",
    "care_level": "CCT",
    "population": null,
-   "stem": "Which cardiac condition does 3.06 list as a contraindication to intra-aortic balloon pump therapy?",
+   "stem": "Which cardiac condition is a contraindication to intra-aortic balloon pump therapy?",
    "options": [
     "Aortic insufficiency",
     "Acute mitral regurgitation",
@@ -31,7 +31,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": null,
-   "stem": "Auto Mode is unavailable on a Maquet IABP being prepared for transport. What does 3.06 direct?",
+   "stem": "Auto Mode is unavailable on a Maquet IABP being prepared for transport. What should the crew do?",
    "options": [
     "Manually inflate the balloon every 5 minutes",
     "Contact CMOC",
@@ -54,7 +54,7 @@
    "type": "scope",
    "care_level": "CCT",
    "population": null,
-   "stem": "Who may remove the intra-aortic balloon under 3.06?",
+   "stem": "Who may remove an intra-aortic balloon?",
    "options": [
     "An LFN crew member after contacting CMOC",
     "A perfusionist accompanying the transport",
@@ -77,7 +77,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "At what rate does 3.06 direct a dobutamine infusion be started in the event of IABP failure?",
+   "stem": "At what rate is a dobutamine infusion started if the IABP fails?",
    "options": [
     "1 mcg/kg/min",
     "2 mcg/kg/min",
@@ -101,7 +101,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "To what maximum rate does 3.06 allow the dobutamine infusion be titrated after IABP failure?",
+   "stem": "After IABP failure, to what maximum rate may the dobutamine infusion be titrated?",
    "options": [
     "20 mcg/kg/min",
     "5 mcg/kg/min",
@@ -125,7 +125,7 @@
    "type": "landmark",
    "care_level": "CCT",
    "population": null,
-   "stem": "On chest x-ray, where should the intra-aortic balloon tip be visible per 3.06?",
+   "stem": "On chest x-ray, where should the intra-aortic balloon tip be visible?",
    "options": [
     "Between the right 3rd and 4th intercostal spaces",
     "Between the left 2nd and 3rd intercostal spaces",
@@ -148,7 +148,7 @@
    "type": "assessment",
    "care_level": "CCT",
    "population": null,
-   "stem": "On which extremity does 3.06 direct the SpO2 probe be placed in a patient on an IABP?",
+   "stem": "On which extremity should the SpO2 probe be placed in a patient on an IABP?",
    "options": [
     "The left foot",
     "The right foot",
@@ -171,7 +171,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": null,
-   "stem": "A patient supported by an IABP goes into PEA arrest. What does 3.06 direct the crew do with the ECG leads?",
+   "stem": "A patient supported by an IABP goes into PEA arrest. What should the crew do with the ECG leads?",
    "options": [
     "Leave them connected so the pump keeps its ECG trigger",
     "Move them to the posterior chest to improve the signal",
@@ -194,7 +194,7 @@
    "type": "complication",
    "care_level": "CCT",
    "population": null,
-   "stem": "A 'Gas Loss' alarm sounds on an IABP and blood is visible in the catheter tubing. What does 3.06 direct?",
+   "stem": "A 'Gas Loss' alarm sounds on an IABP and blood is visible in the catheter tubing. What should the crew do?",
    "options": [
     "Turn off the pump and alert the sending physician",
     "Use the HELP button on the alarm screen to troubleshoot",
@@ -217,7 +217,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": null,
-   "stem": "An IABP has been off and non-functional for more than 30 minutes in flight. What does 3.06 direct?",
+   "stem": "An IABP has been off and non-functional for more than 30 minutes in flight. What should the crew do?",
    "options": [
     "Detach the catheter extender and clamp the IAB catheter",
     "Manually inflate and deflate the IAB to prevent clot formation",
@@ -240,7 +240,7 @@
    "type": "procedure",
    "care_level": "CCT",
    "population": null,
-   "stem": "With what volume does 3.06 direct the IAB be manually inflated when the pump is non-functional?",
+   "stem": "With what volume should the IAB be manually inflated when the pump is non-functional?",
    "options": [
     "5 mL",
     "3 mL",
@@ -263,7 +263,7 @@
    "type": "equipment",
    "care_level": "CCT",
    "population": null,
-   "stem": "What does 3.06 direct regarding IABP alarms during transport?",
+   "stem": "How should IABP alarms be managed during transport?",
    "options": [
     "Alarms may be silenced once the condition is corrected",
     "Only the gas-loss alarm needs to remain enabled",
@@ -286,7 +286,7 @@
    "type": "contraindication",
    "care_level": "CCT",
    "population": null,
-   "stem": "Which finding does 3.07 list as a contraindication to Impella support?",
+   "stem": "Which finding is a contraindication to Impella support?",
    "options": [
     "Mural thrombus in the left ventricle",
     "Advanced heart failure",
@@ -309,7 +309,7 @@
    "type": "contraindication",
    "care_level": "CCT",
    "population": null,
-   "stem": "Which valve finding does 3.07 list as a contraindication to Impella placement?",
+   "stem": "Which valve finding is a contraindication to Impella placement?",
    "options": [
     "Tricuspid regurgitation",
     "A mechanical aortic valve",
@@ -332,7 +332,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": null,
-   "stem": "An Impella-supported patient goes into cardiac arrest. What does 3.07 direct in addition to BLS and Cardiac Arrest: Medical care?",
+   "stem": "An Impella-supported patient goes into cardiac arrest. In addition to BLS and Cardiac Arrest: Medical care, what should be done with the Impella?",
    "options": [
     "Stop the Impella and remove the catheter",
     "Switch the patient to the backup controller",
@@ -378,7 +378,7 @@
    "type": "assessment",
    "care_level": "CCT",
    "population": null,
-   "stem": "Which blood pressure does 3.07 direct the crew to treat in an Impella-supported patient?",
+   "stem": "Which blood pressure value is treated in an Impella-supported patient?",
    "options": [
     "The mean arterial pressure",
     "The systolic pressure",
@@ -401,7 +401,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": null,
-   "stem": "What MAP does 3.07 target in a patient on Impella support?",
+   "stem": "What MAP is targeted in a patient on Impella support?",
    "options": [
     "≥ 10 mmHg",
     "≥ 65 mmHg",
@@ -424,14 +424,14 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": null,
-   "stem": "How long will a fully charged Impella controller run on battery per 3.07?",
+   "stem": "How long will a fully charged Impella controller run on battery?",
    "options": [
     "15 minutes",
     "25 minutes",
     "60 minutes",
     "30 minutes"
    ],
-   "explanation": "A fully charged battery gives 60 minutes of operation, which is why 3.07 directs temporarily unplugging the controller before departure to prove the battery works and minimising time off AC power.",
+   "explanation": "A fully charged battery gives 60 minutes of operation, which is why the Impella guideline directs temporarily unplugging the controller before departure to prove the battery works and minimising time off AC power.",
    "priority": "core",
    "tags": [
     "topic:impella",
@@ -447,7 +447,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": null,
-   "stem": "What heparin concentration does 3.07 specify for Impella purge fluid?",
+   "stem": "What heparin concentration is used in Impella purge fluid?",
    "options": [
     "10 units/mL",
     "100 units/mL",
@@ -471,7 +471,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": null,
-   "stem": "How much purge fluid does 3.07 require be remaining before leaving the sending facility?",
+   "stem": "How much Impella purge fluid must remain before leaving the sending facility?",
    "options": [
     "≥ 500 mL",
     "≥ 250 mL",
@@ -540,7 +540,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": null,
-   "stem": "At what angle does 3.07 direct the head of the bed be kept for an Impella patient?",
+   "stem": "At what angle should the head of the bed be kept for an Impella patient?",
    "options": [
     "45 degrees or less",
     "15 degrees or less",
@@ -563,7 +563,7 @@
    "type": "assessment",
    "care_level": "CCT",
    "population": null,
-   "stem": "How often does 3.07 direct vitals, Impella flow rate, purge pressure and catheter position be documented?",
+   "stem": "How often should vitals, Impella flow rate, purge pressure and catheter position be documented?",
    "options": [
     "Every 15 minutes",
     "Every 5 minutes",
@@ -632,7 +632,7 @@
    "type": "equipment",
    "care_level": "CCT",
    "population": null,
-   "stem": "What is the flush port at the Tuohy lock used for per 3.07?",
+   "stem": "What is the flush port at the Impella Tuohy lock used for?",
    "options": [
     "Drawing blood samples during transport",
     "Connecting the purge fluid to the catheter",
@@ -701,7 +701,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": null,
-   "stem": "An 'Impella Position in Aorta' message appears during transport. What does 3.07 direct?",
+   "stem": "An 'Impella Position in Aorta' message appears during transport. What should the crew do?",
    "options": [
     "Withdraw the catheter to the documented insertion length",
     "Stop the pump and begin chest compressions",
@@ -724,7 +724,7 @@
    "type": "complication",
    "care_level": "CCT",
    "population": null,
-   "stem": "Which finding does 3.07 list as a cause of an Impella suction alarm?",
+   "stem": "Which finding is a recognized cause of an Impella suction alarm?",
    "options": [
     "A kink in the purge tubing",
     "Air in the purge line",
@@ -747,7 +747,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": null,
-   "stem": "If CVP monitoring is available during an Impella suction alarm, to what CVP does 3.07 direct fluids be given?",
+   "stem": "If CVP monitoring is available during an Impella suction alarm, to what CVP should fluids be given?",
    "options": [
     "≥ 10 mmHg",
     "≥ 5 mmHg",
@@ -793,7 +793,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": null,
-   "stem": "What does 3.07 direct for an Air-In-Purge System alarm on the Impella?",
+   "stem": "How is an Air-In-Purge System alarm on the Impella managed?",
    "options": [
     "Decrease the P level to P2 and notify the receiving facility",
     "Replace the purge cassette with the backup in flight",
@@ -839,7 +839,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "An unresponsive patient with a durable LVAD is found to have adequate perfusion. What does the 3.08 algorithm direct?",
+   "stem": "An unresponsive patient with a durable LVAD is found to have adequate perfusion. What should the crew do?",
    "options": [
     "Do not perform chest compressions; treat non-LVAD causes",
     "Begin external chest compressions immediately",
@@ -862,7 +862,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Which finding does the 3.08 algorithm accept as evidence of adequate perfusion in an LVAD patient?",
+   "stem": "Which finding is accepted as evidence of adequate perfusion in an unresponsive LVAD patient?",
    "options": [
     "PETCO2 above 30 mmHg",
     "MAP above 50 mmHg",
@@ -885,7 +885,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How does 3.08 direct defibrillation pads be placed on an LVAD patient?",
+   "stem": "How should defibrillation pads be placed on an LVAD patient?",
    "options": [
     "Over the pump with the VAD stopped",
     "Anterior/posterior with the VAD stopped",
@@ -908,7 +908,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "LVAD function cannot be restored. Alongside unresponsiveness and poor perfusion, what ETCO2 makes CPR indicated under 3.08?",
+   "stem": "An unresponsive LVAD patient has poor perfusion and device function cannot be restored. What ETCO2 makes CPR indicated?",
    "options": [
     "Below 10 mmHg",
     "Below 30 mmHg",
@@ -931,7 +931,7 @@
    "type": "landmark",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Where does 3.08 direct auscultation to confirm an LVAD is running?",
+   "stem": "Where should the crew auscultate to confirm an LVAD is running?",
    "options": [
     "At the lower left rib margin of the anterior chest",
     "At the left 5th intercostal space in the midclavicular line",
@@ -954,7 +954,7 @@
    "type": "assessment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 3.08 identify as the best way to obtain a blood pressure on an LVAD patient?",
+   "stem": "What is the best way to obtain a blood pressure on an LVAD patient?",
    "options": [
     "The pulse oximetry waveform",
     "Doppler",
@@ -977,7 +977,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "A VAD is alarming and the driveline and two power sources are confirmed connected. What does 3.08 direct next?",
+   "stem": "A VAD is alarming and the driveline and two power sources are confirmed connected. What is the next step?",
    "options": [
     "Change the system controller before touching the batteries",
     "Disconnect the driveline and reconnect it firmly",
@@ -1000,7 +1000,7 @@
    "type": "sequence",
    "care_level": "ALS",
    "population": "both",
-   "stem": "An LVAD pump has stopped. What does 3.08 direct first?",
+   "stem": "An LVAD pump has stopped. What is the first step?",
    "options": [
     "Change the system controller",
     "Begin chest compressions immediately",
@@ -1023,7 +1023,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "An LVAD patient is hypovolemic and treated per Cardiogenic Shock. What MAP goal does 3.08 set?",
+   "stem": "An LVAD patient is hypovolemic and treated per Cardiogenic Shock. What is the MAP goal?",
    "options": [
     "Above 50 mmHg",
     "Above 65 mmHg",
@@ -1046,7 +1046,7 @@
    "type": "equipment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 3.08 require to accompany the patient in the emergency travel pack?",
+   "stem": "What must the emergency travel pack that accompanies an LVAD patient contain?",
    "options": [
     "A hand pump and a spare outflow cannula",
     "Extra batteries, a backup controller and a contact number",
@@ -1069,7 +1069,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 3.08 direct regarding the driveline when loading an LVAD patient?",
+   "stem": "How should the driveline be handled when loading an LVAD patient?",
    "options": [
     "Disconnect it for the move and reconnect once loaded",
     "Loop it around the controller to take up the slack",
@@ -1092,7 +1092,7 @@
    "type": "mechanism",
    "care_level": "ALS",
    "population": null,
-   "stem": "Where does an LVAD pump drive blood to per 3.08?",
+   "stem": "Where does an LVAD pump drive blood?",
    "options": [
     "The pulmonary artery",
     "The left atrium",
@@ -1115,7 +1115,7 @@
    "type": "complication",
    "care_level": "ALS",
    "population": null,
-   "stem": "From what do LVAD complications usually result per 3.08?",
+   "stem": "From what do LVAD complications usually result?",
    "options": [
     "Anticoagulation or pump thrombus",
     "Driveline infection",
@@ -1138,7 +1138,7 @@
    "type": "equipment",
    "care_level": "ALS",
    "population": null,
-   "stem": "Which two devices does 3.08 say most of the areas served by LFN use?",
+   "stem": "Which two LVAD devices are used in most of the areas LFN serves?",
    "options": [
     "SynCardia or HeartWare",
     "Heartmate II or HeartWare",
@@ -1161,7 +1161,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What position does the BLS band of 3.09 direct for a patient in pulmonary edema or CHF?",
+   "stem": "At the BLS level, how should a patient in pulmonary edema or CHF be positioned?",
    "options": [
     "Left lateral recumbent with the head down",
     "Flat supine with the head of the bed lowered",
@@ -1184,7 +1184,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What NS/LR bolus does the ALS adult band of 3.09 direct for a hypotensive CHF patient?",
+   "stem": "What NS/LR bolus is given at the ALS level to a hypotensive adult with CHF?",
    "options": [
     "500 mL",
     "1 liter",
@@ -1208,7 +1208,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "To what MAP does 3.09 direct NS/LR boluses be titrated in a hypotensive adult?",
+   "stem": "In a hypotensive adult with pulmonary edema or CHF, to what MAP are NS/LR boluses titrated?",
    "options": [
     "≥ 65 mmHg",
     "≥ 50 mmHg",
@@ -1231,7 +1231,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult push-dose epinephrine dose in 3.09 when hypotension is unresponsive to fluids?",
+   "stem": "In an adult with CHF whose hypotension is unresponsive to fluids, what is the push-dose epinephrine dose?",
    "options": [
     "0.1 mL/kg (1 mcg/kg) IV q 3 – 5 min",
     "5 – 20 mcg IV q 3 – 5 min PRN",
@@ -1255,7 +1255,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "To what maximum does 3.09 direct a norepinephrine infusion be titrated in an adult?",
+   "stem": "In a hypotensive adult with pulmonary edema or CHF, to what maximum is a norepinephrine infusion titrated?",
    "options": [
     "20 mcg/min or 0.5 mcg/kg/min",
     "10 mcg/min or 0.3 mcg/kg/min",
@@ -1279,7 +1279,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult sublingual nitroglycerin dose in 3.09?",
+   "stem": "What is the adult sublingual nitroglycerin dose for pulmonary edema or CHF?",
    "options": [
     "0.5 mg",
     "5 mg",
@@ -1303,7 +1303,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What systolic pressure does 3.09 require before giving sublingual nitroglycerin?",
+   "stem": "In pulmonary edema or CHF, what systolic pressure is required before giving sublingual nitroglycerin?",
    "options": [
     "Above 100 mmHg",
     "Above 120 mmHg",
@@ -1326,7 +1326,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult furosemide dose in 3.09 for pulmonary edema?",
+   "stem": "What is the adult furosemide dose for pulmonary edema?",
    "options": [
     "0.4 mg IV",
     "20 mg IV",
@@ -1350,7 +1350,7 @@
    "type": "max_dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the maximum furosemide dose in 3.09?",
+   "stem": "What is the maximum furosemide dose for pulmonary edema or CHF?",
    "options": [
     "250 mg",
     "45 mg",
@@ -1374,7 +1374,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "A CHF patient in 3.09 is wheezing. What does the ALS band direct?",
+   "stem": "A patient with CHF is wheezing. What nebulized treatment is given at the ALS level?",
    "options": [
     "Albuterol 2.5 mg and ipratropium 0.5 mg via neb q 20 min",
     "Albuterol 10 mg and ipratropium 1 mg via neb q 10 min",
@@ -1399,7 +1399,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "A wheezing CHF patient in 3.09 is allergic to albuterol. What does the guideline direct?",
+   "stem": "A wheezing CHF patient is allergic to albuterol. What should be given?",
    "options": [
     "Ipratropium 0.5 mg via neb q 10 min x 3 doses",
     "Ipratropium 0.5 mg via neb as a single dose",
@@ -1423,7 +1423,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "At what rate does the CCT band of 3.09 start a nitroglycerin infusion?",
+   "stem": "At what rate is a nitroglycerin infusion started at the CCT level for pulmonary edema or CHF?",
    "options": [
     "400 mcg/min",
     "10 mcg/min",
@@ -1447,7 +1447,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "To what maximum does 3.09 direct the nitroglycerin infusion be titrated?",
+   "stem": "In pulmonary edema or CHF, to what maximum is the nitroglycerin infusion titrated?",
    "options": [
     "100 mcg/min",
     "40 mcg/min",
@@ -1471,7 +1471,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What nitroglycerin bolus does the CCT band of 3.09 direct for continued respiratory distress?",
+   "stem": "What nitroglycerin bolus is given at the CCT level for continued respiratory distress in pulmonary edema or CHF?",
    "options": [
     "400 mcg over 10 minutes via IV pump",
     "1000 mcg over 2 minutes via IV pump",
@@ -1495,7 +1495,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What systolic pressure does 3.09 require before the 400 mcg nitroglycerin bolus?",
+   "stem": "In pulmonary edema or CHF, what systolic pressure is required before the 400 mcg nitroglycerin bolus?",
    "options": [
     "Above 120 mmHg",
     "Above 100 mmHg",
@@ -1518,7 +1518,7 @@
    "type": "treatment",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "Which agents does 3.09 note a pediatric patient in pulmonary edema may require?",
+   "stem": "Which agents may a pediatric patient in pulmonary edema require?",
    "options": [
     "Albuterol or ipratropium",
     "Dobutamine or milrinone",
@@ -1541,7 +1541,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What tidal volume do the 3.09 PEARLS direct for the intubated pulmonary edema patient?",
+   "stem": "What tidal volume is recommended for an intubated patient with pulmonary edema?",
    "options": [
     "4 – 6 mL/kg",
     "10 – 12 mL/kg",
@@ -1564,7 +1564,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "At what airway pressures do the 3.09 PEARLS suggest keeping a patient sedated and paralyzed?",
+   "stem": "In an intubated patient with pulmonary edema, at what airway pressures should keeping the patient sedated and paralyzed be considered?",
    "options": [
     "PIP above 30 or P-plat above 20",
     "PIP above 35 or P-plat above 25",
@@ -1587,7 +1587,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "An adult with a persistent tachyarrhythmia is hypotensive with acutely altered mental status. What does the 3.10 adult algorithm direct?",
+   "stem": "An adult with a persistent tachyarrhythmia is hypotensive with acutely altered mental status. What does the adult tachycardia algorithm direct?",
    "options": [
     "Synchronized cardioversion, sedating whenever feasible",
     "Adenosine 12 mg IV/IO rapid bolus",
@@ -1610,7 +1610,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "What initial synchronized cardioversion energy does 3.10 give for an adult narrow regular tachycardia?",
+   "stem": "What initial synchronized cardioversion energy is used for an adult with a narrow regular tachycardia?",
    "options": [
     "120 J, repeat at 200 J",
     "100 J, repeat at 200 J PRN",
@@ -1633,7 +1633,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "What initial synchronized cardioversion energy does 3.10 give for an adult wide irregular tachycardia?",
+   "stem": "What initial synchronized cardioversion energy is used for an adult with a wide irregular tachycardia?",
    "options": [
     "50 J, repeat at 100 J",
     "120 J, repeat at 150 J",
@@ -1656,7 +1656,7 @@
    "type": "sequence",
    "care_level": null,
    "population": "adult",
-   "stem": "After how many synchronized cardioversions does 3.10 direct considering defibrillation at 200 J for a wide irregular rhythm?",
+   "stem": "In an adult with a wide irregular tachycardia, after how many synchronized cardioversions should defibrillation at 200 J be considered?",
    "options": [
     "After one",
     "After three",
@@ -1679,7 +1679,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "What adenosine dose does the adult tachycardia algorithm in 3.10 direct?",
+   "stem": "What adenosine dose is given to an adult with tachycardia with a pulse?",
    "options": [
     "12 mg IV/IO rapid bolus, may repeat once",
     "6 mg IV/IO rapid bolus, may repeat once",
@@ -1703,7 +1703,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "What amiodarone regimen does the adult tachycardia algorithm in 3.10 direct?",
+   "stem": "What amiodarone regimen is given to an adult with tachycardia with a pulse?",
    "options": [
     "20 mg IV/IO bolus, then 5 mg/hr for 6 hours",
     "150 mg IV/IO bolus, then 1 mg/min for 6 hours",
@@ -1727,7 +1727,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "What initial diltiazem bolus does the adult tachycardia algorithm in 3.10 direct?",
+   "stem": "What is the initial diltiazem bolus for an adult with tachycardia with a pulse?",
    "options": [
     "0.1 mg/kg IV/IO",
     "0.5 mg/kg IV/IO",
@@ -1751,7 +1751,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "After rate control with diltiazem, what infusion does the adult algorithm in 3.10 direct?",
+   "stem": "After rate control with diltiazem in an adult with tachycardia, what infusion is run?",
    "options": [
     "1 mg/min for the first 6 hours",
     "2 – 10 mg/hr to a max of 20 mg/hr",
@@ -1775,7 +1775,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "adult",
-   "stem": "What metoprolol dosing does the adult tachycardia algorithm in 3.10 direct?",
+   "stem": "What metoprolol dosing is used for an adult with tachycardia with a pulse?",
    "options": [
     "2.5 – 5 mg IV/IO, max total 15 mg",
     "5 – 10 mg IV/IO, max total 20 mg",
@@ -1799,7 +1799,7 @@
    "type": "assessment",
    "care_level": null,
    "population": "adult",
-   "stem": "What QRS duration defines a wide complex in the adult tachycardia algorithm of 3.10?",
+   "stem": "What QRS duration defines a wide complex in the adult tachycardia algorithm?",
    "options": [
     "Greater than 0.14 second",
     "0.12 second or greater",
@@ -1822,7 +1822,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "pediatric",
-   "stem": "What initial synchronized cardioversion energy does the pediatric algorithm in 3.10 direct?",
+   "stem": "What initial synchronized cardioversion energy is used for a pediatric tachycardia with a pulse?",
    "options": [
     "1 – 2 J/kg",
     "0.25 – 0.5 J/kg",
@@ -1846,7 +1846,7 @@
    "type": "treatment",
    "care_level": null,
    "population": "pediatric",
-   "stem": "What first adenosine dose does the pediatric algorithm in 3.10 direct?",
+   "stem": "What is the first adenosine dose for a child with tachycardia with a pulse?",
    "options": [
     "0.2 mg/kg, maximum 12 mg",
     "0.1 mg/kg, maximum 12 mg",
@@ -1870,7 +1870,7 @@
    "type": "assessment",
    "care_level": null,
    "population": "pediatric",
-   "stem": "Which finding points to probable SVT rather than sinus tachycardia in a child per 3.10?",
+   "stem": "Which finding points to probable SVT rather than sinus tachycardia in a child?",
    "options": [
     "Absent or abnormal P waves with a fixed RR interval",
     "Present, normal P waves with a variable RR interval",
@@ -1894,7 +1894,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What does 3.10 require be in place before any patient receives medications under this guideline?",
+   "stem": "What must be in place before a patient with tachycardia with a pulse receives rate-control or antiarrhythmic medication?",
    "options": [
     "A 12-lead ECG",
     "Defibrillation pads",
@@ -1917,7 +1917,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Before treating a rapid heart rate with medication, what do the 3.10 PEARLS direct?",
+   "stem": "Before treating a rapid heart rate with medication, what do the Tachycardia With a Pulse PEARLS direct?",
    "options": [
     "Place defibrillation pads and establish an arterial line",
     "Administer a 250 mL crystalloid fluid bolus first",
@@ -1940,7 +1940,7 @@
    "type": "contraindication",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which agent do the 3.10 PEARLS direct be avoided in atrial fibrillation with Wolff-Parkinson-White?",
+   "stem": "Which agent should be avoided in atrial fibrillation with Wolff-Parkinson-White?",
    "options": [
     "Amiodarone",
     "Magnesium sulfate",
@@ -1964,7 +1964,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which patients do the 3.10 PEARLS flag for caution with adenosine?",
+   "stem": "In which patients should adenosine be used with caution?",
    "options": [
     "Patients with asthma",
     "Patients with renal failure",
@@ -1988,7 +1988,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "When choosing between a beta blocker and a calcium channel blocker, what do the 3.10 PEARLS advise?",
+   "stem": "When choosing between a beta blocker and a calcium channel blocker for tachycardia, what is advised?",
    "options": [
     "Avoid both and use amiodarone instead",
     "Use the same class the patient takes orally",
@@ -2011,7 +2011,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What ECG pattern do the 3.10 PEARLS describe as the classic sign of preexcitation in sinus rhythm?",
+   "stem": "What ECG pattern is the classic sign of preexcitation in sinus rhythm?",
    "options": [
     "ST elevation in the inferior leads",
     "A fixed, non-variable RR interval",
@@ -2034,7 +2034,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What SpO2 does the BLS band of 4.01 direct be maintained in altitude illness?",
+   "stem": "At the BLS level, what SpO2 should be maintained in altitude illness?",
    "options": [
     "Above 94%",
     "Above 95%",
@@ -2057,7 +2057,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What does the BLS band of 4.01 identify as the treatment for altitude illness?",
+   "stem": "What is the primary treatment for altitude illness?",
    "options": [
     "Immediate descent until symptoms resolve",
     "Supplemental oxygen to keep the SpO2 above 90%",
@@ -2079,7 +2079,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult methylprednisolone dose in 4.01?",
+   "stem": "What is the adult methylprednisolone dose for altitude illness?",
    "options": [
     "324 mg PO",
     "125 mg IV",
@@ -2103,7 +2103,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "When does 4.01 direct methylprednisolone be used in a patient with HAPE?",
+   "stem": "When should methylprednisolone be used in a patient with HAPE?",
    "options": [
     "Only if descent cannot be achieved",
     "Only if CPAP has already failed",
@@ -2127,7 +2127,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult nifedipine dose in 4.01?",
+   "stem": "What is the adult nifedipine dose for altitude illness?",
    "options": [
     "15 mg PO",
     "50 mg PO",
@@ -2151,7 +2151,7 @@
    "type": "indication",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "For which altitude illness does 4.01 direct nifedipine?",
+   "stem": "For which altitude illness is nifedipine given?",
    "options": [
     "HAPE, as an adjunct to descent and oxygen therapy",
     "HACE, as an adjunct to descent and oxygen therapy",
@@ -2174,7 +2174,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What is the adult IV acetaminophen dose in 4.01 for altitude headache?",
+   "stem": "What is the adult IV acetaminophen dose for altitude headache?",
    "options": [
     "324 mg PO q 6 hours",
     "1000 mg IV over 15 minutes q 6 hours",
@@ -2198,7 +2198,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What acetaminophen dose does 4.01 direct for a patient weighing 50 kg or less?",
+   "stem": "For altitude headache, what acetaminophen dose is given to a patient weighing 50 kg or less?",
    "options": [
     "10 mg/kg IV, max single dose 750 mg",
     "20 mg/kg IV, max single dose 1000 mg",
@@ -2222,7 +2222,7 @@
    "type": "scope",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What does the ALS pediatric band of 4.01 direct beyond BLS care?",
+   "stem": "At the ALS level, what is directed beyond BLS care for a pediatric patient with altitude illness?",
    "options": [
     "Methylprednisolone 125 mg IV",
     "Acetaminophen 15 mg/kg IV",
@@ -2246,7 +2246,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Above what altitude do the 4.01 PEARLS describe altitude illness arising from lack of acclimatization?",
+   "stem": "Above what altitude does altitude illness from lack of acclimatization typically arise?",
    "options": [
     "8200 feet (2500 meters)",
     "6550 feet (2000 meters)",
@@ -2268,7 +2268,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which finding do the 4.01 PEARLS list under HAPE rather than HACE?",
+   "stem": "Which finding is a feature of HAPE rather than HACE?",
    "options": [
     "Lethargy",
     "Rales",
@@ -2291,7 +2291,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What symptom must be present for AMS under the 4.01 signs and symptoms table?",
+   "stem": "What symptom must be present for acute mountain sickness (AMS)?",
    "options": [
     "Dyspnea",
     "Cyanosis",
@@ -2314,7 +2314,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "In what position does 4.02 direct a patient with decompression sickness be placed?",
+   "stem": "In what position should a patient with decompression sickness be placed?",
    "options": [
     "Right lateral Trendelenburg",
     "Supine with the head elevated",
@@ -2337,7 +2337,7 @@
    "type": "mechanism",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Why does 4.02 direct left lateral Trendelenburg in decompression sickness?",
+   "stem": "Why is left lateral Trendelenburg used in decompression sickness?",
    "options": [
     "It helps keep bubbles out of the cerebral circulation",
     "It improves venous return in hypotension",
@@ -2360,7 +2360,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Why does 4.02 direct 100% oxygen in decompression sickness?",
+   "stem": "Why is 100% oxygen given in decompression sickness?",
    "options": [
     "To reduce the risk of barotrauma",
     "To assist in washing out nitrogen",
@@ -2383,7 +2383,7 @@
    "type": "procedure",
    "care_level": "ALS",
    "population": "both",
-   "stem": "If intubation is required in decompression sickness, what does 4.02 direct?",
+   "stem": "If intubation is required in decompression sickness, how should the ETT cuff be managed?",
    "options": [
     "Leave the cuff deflated until arrival",
     "Use an uncuffed endotracheal tube",
@@ -2406,7 +2406,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What fluid regimen does 4.02 direct for decompression sickness?",
+   "stem": "What fluid regimen is given for decompression sickness?",
    "options": [
     "LR 500 mL over the first hour, then 50 mL/hour",
     "NS 250 mL boluses titrated to a MAP of 65",
@@ -2430,7 +2430,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "At what altitude does 4.02 direct a patient with decompression sickness be flown?",
+   "stem": "At what altitude should a patient with decompression sickness be flown?",
    "options": [
     "Under 1,000 feet",
     "Under 2,500 feet",
@@ -2453,7 +2453,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "For a fixed-wing transport of a patient with decompression sickness, what does 4.02 direct?",
+   "stem": "For a fixed-wing transport of a patient with decompression sickness, what should be requested?",
    "options": [
     "Request the most direct routing available",
     "Request sea level cabin altitude",
@@ -2476,7 +2476,7 @@
    "type": "contraindication",
    "care_level": "ALS",
    "population": "both",
-   "stem": "Why does 4.02 direct that narcotics be avoided in decompression sickness?",
+   "stem": "Why should narcotics be avoided in decompression sickness?",
    "options": [
     "They interfere with hyperbaric therapy",
     "They mask the joint pain",
@@ -2499,14 +2499,14 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What does 4.02 offer for joint pain in decompression sickness?",
+   "stem": "What may be used to relieve joint pain in decompression sickness?",
    "options": [
     "Narcotic analgesia titrated to effect",
     "Ice packs applied over the joint",
     "Immobilization in a padded splint",
     "An inflated BP cuff over the joint"
    ],
-   "explanation": "Since narcotics are avoided, 4.02 suggests an inflated blood pressure cuff over the affected joint, which may relieve the pain of Type I bends by raising local tissue pressure.",
+   "explanation": "Since narcotics are avoided, the Decompression Sickness guideline suggests an inflated blood pressure cuff over the affected joint, which may relieve the pain of Type I bends by raising local tissue pressure.",
    "priority": "detail",
    "tags": [
     "topic:decompression-sickness",
@@ -2522,7 +2522,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "By when do the 4.02 PEARLS say most patients with decompression sickness develop symptoms?",
+   "stem": "By when do most patients with decompression sickness develop symptoms?",
    "options": [
     "75% within one hour, 90% within 12 hours",
     "50% within one hour, 75% within 12 hours",
@@ -2544,7 +2544,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which systems does Type II decompression sickness involve per the 4.02 PEARLS?",
+   "stem": "Which systems does Type II decompression sickness involve?",
    "options": [
     "Renal and hepatic",
     "Nervous and pulmonary",
@@ -2567,7 +2567,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What does 4.03 identify as of primary importance in the drowning patient?",
+   "stem": "What is of primary importance in the drowning patient?",
    "options": [
     "Rapid rewarming",
     "C-spine immobilization",
@@ -2590,7 +2590,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Foam appears in the airway during resuscitation of a drowning patient. What does 4.03 direct?",
+   "stem": "Foam appears in the airway during resuscitation of a drowning patient. What should the crew do?",
    "options": [
     "Aggressive suctioning until the foam has cleared",
     "Suction once, then intubate immediately",
@@ -2613,7 +2613,7 @@
    "type": "indication",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What do the 4.03 PEARLS say foam in the upper airway indicates?",
+   "stem": "In a drowning patient, what does foam in the upper airway indicate?",
    "options": [
     "An indication for endotracheal intubation",
     "Pulmonary edema requiring CPAP",
@@ -2636,7 +2636,7 @@
    "type": "assessment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "What does 4.03 say about cervical spine injury in drowning?",
+   "stem": "How should cervical spine injury be regarded in drowning?",
    "options": [
     "Excluded by a normal neurologic examination",
     "Rare, but consider it if the patient dove into shallow water",
@@ -2659,7 +2659,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "both",
-   "stem": "Below what submersion time does 4.03 direct resuscitation be initiated without further criteria?",
+   "stem": "In drowning, below what submersion time should resuscitation be initiated without further criteria?",
    "options": [
     "10 minutes",
     "20 minutes",
@@ -2682,7 +2682,7 @@
    "type": "indication",
    "care_level": "CCT",
    "population": "both",
-   "stem": "A patient was submerged for 45 minutes. Which finding supports initiating resuscitation under 4.03?",
+   "stem": "A drowning patient was submerged for 45 minutes. Which finding supports initiating resuscitation?",
    "options": [
     "Water temperature above 20° C (68° F)",
     "A submersion depth greater than 10 feet",
@@ -2705,7 +2705,7 @@
    "type": "threshold",
    "care_level": "CCT",
    "population": "both",
-   "stem": "What temperature does 4.03 target after ROSC in a drowning patient?",
+   "stem": "What temperature is targeted after ROSC in a drowning patient?",
    "options": [
     "36 – 37.5° C",
     "32 – 34° C",
@@ -2728,7 +2728,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What fluid bolus does the adult band of 4.03 direct for hypotension?",
+   "stem": "What fluid bolus is given to a hypotensive adult drowning patient?",
    "options": [
     "NS/LR 10 – 20 mL/kg to maintain a MAP of at least 65",
     "NS/LR 250 mL to maintain a MAP of at least 65",
@@ -2752,7 +2752,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What fluid bolus does the pediatric band of 4.03 direct for hypotension?",
+   "stem": "What fluid bolus is given to a hypotensive pediatric drowning patient?",
    "options": [
     "20 – 40 mL/kg",
     "5 – 10 mL/kg",
@@ -2776,7 +2776,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What is the pediatric push-dose epinephrine dose in 4.03?",
+   "stem": "What is the pediatric push-dose epinephrine dose for a hypotensive drowning patient?",
    "options": [
     "0.1 mg/kg IV q 3 – 5 min PRN",
     "5 – 20 mcg IV q 3 – 5 min PRN",
@@ -2801,7 +2801,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What is the maximum single pediatric push-dose of epinephrine in 4.03?",
+   "stem": "In a hypotensive pediatric drowning patient, what is the maximum single push-dose of epinephrine?",
    "options": [
     "20 mcg",
     "10 mcg",
@@ -2825,7 +2825,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "At what rate does 4.03 start an epinephrine infusion in a pediatric drowning patient?",
+   "stem": "At what rate is an epinephrine infusion started in a pediatric drowning patient?",
    "options": [
     "2 mcg/kg/min",
     "0.05 mcg/kg/min",
@@ -2850,7 +2850,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which factor do the 4.03 PEARLS identify as the most critical indicator of worse prognosis?",
+   "stem": "Which factor is the most critical indicator of worse prognosis in drowning?",
    "options": [
     "An arterial pH below 7.1 on presentation",
     "A Glasgow coma score below 5",
@@ -2873,7 +2873,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which drowning patient do the 4.03 PEARLS describe as having the better potential for recovery?",
+   "stem": "Which drowning patient has the better potential for recovery?",
    "options": [
     "Dead and then cold",
     "Warm and then dead",
@@ -2897,7 +2897,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "How do the 4.03 PEARLS define near drowning?",
+   "stem": "How is near drowning defined?",
    "options": [
     "Submersion with LOC and survival at least 24 hours",
     "Submersion leading to death within 24 hours",
@@ -2920,7 +2920,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What do the 4.03 PEARLS identify as the most life-threatening consequence of near drowning?",
+   "stem": "What is the most life-threatening consequence of near drowning?",
    "options": [
     "Electrolyte imbalance",
     "Hypoxemia",
@@ -2943,7 +2943,7 @@
    "type": "procedure",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What is the purpose of SALAD in the drowning patient per 4.03?",
+   "stem": "What is the purpose of SALAD in the drowning patient?",
    "options": [
     "To decompress the stomach prior to intubation",
     "To suction the pharynx after the tube is placed",
@@ -2966,7 +2966,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Why do the 4.03 PEARLS direct transport of any patient with respiratory symptoms after submersion?",
+   "stem": "Why should any patient with respiratory symptoms after submersion be transported?",
    "options": [
     "Delayed hypothermia from continued heat loss",
     "Delayed electrolyte imbalance from aspirated water",
@@ -2989,7 +2989,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "How does 4.04 direct a snakebite wound be cared for?",
+   "stem": "How should a snakebite wound be cared for?",
    "options": [
     "Wash with soap and water; cover with a moist dressing",
     "Apply ice and elevate the bitten extremity",
@@ -3012,7 +3012,7 @@
    "type": "procedure",
    "care_level": "BLS",
    "population": "both",
-   "stem": "At what distances proximal to a snakebite does 4.04 direct limb circumference be measured?",
+   "stem": "At what distances proximal to a snakebite should limb circumference be measured?",
    "options": [
     "15 cm and 30 cm",
     "10 cm and 20 cm",
@@ -3035,7 +3035,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "How does 4.04 direct the bitten extremity be positioned?",
+   "stem": "How should a snakebitten extremity be positioned?",
    "options": [
     "Elevated and actively ranged to disperse venom",
     "Immobilized at the level of the heart",
@@ -3058,7 +3058,7 @@
    "type": "contraindication",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Which action does 4.04 specifically direct against in snakebite?",
+   "stem": "Which action should specifically be avoided in snakebite?",
    "options": [
     "Removing rings and watches",
     "Immobilizing the bitten extremity",
@@ -3081,7 +3081,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "A patient with a possible envenomation has no symptoms. What does 4.04 direct?",
+   "stem": "A patient with a possible envenomation has no symptoms. How should they be managed?",
    "options": [
     "Observe closely; do not treat unless symptoms develop",
     "Administer antivenin empirically before transport",
@@ -3103,7 +3103,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "How does 4.04 direct hypotension and shock from envenomation be treated?",
+   "stem": "How are hypotension and shock from envenomation treated?",
    "options": [
     "With antivenin alone",
     "As hypovolemic shock",
@@ -3126,7 +3126,7 @@
    "type": "indication",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "When do the 4.04 PEARLS say prehospital antivenin should be considered?",
+   "stem": "When should prehospital antivenin be considered?",
    "options": [
     "Only for bites to the head, neck or trunk",
     "Only when more than ten vials can be obtained",
@@ -3149,7 +3149,7 @@
    "type": "threshold",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What proportion of rattlesnake bites do the 4.04 PEARLS describe as dry bites?",
+   "stem": "What proportion of rattlesnake bites are dry bites?",
    "options": [
     "About 25%",
     "About 50%",
@@ -3171,7 +3171,7 @@
    "type": "pearl",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "On what do the 4.04 PEARLS say antivenin dosing is based?",
+   "stem": "On what is antivenin dosing based?",
    "options": [
     "Severity of the envenomation",
     "Patient weight",
@@ -3194,7 +3194,7 @@
    "type": "treatment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "An allergic reaction develops during an antivenin infusion. What do the 4.04 PEARLS direct?",
+   "stem": "An allergic reaction develops during an antivenin infusion. What should be done?",
    "options": [
     "Stop the infusion and give a fluid bolus",
     "Stop the infusion and treat per Anaphylaxis",
@@ -3218,7 +3218,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which finding classifies a Crotalinae envenomation as severe in the 4.04 table?",
+   "stem": "Which finding classifies a Crotalinae (pit viper) envenomation as severe?",
    "options": [
     "Swelling of less than the full extremity",
     "Mild hypotension with normal coagulation",
@@ -3241,7 +3241,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which feature in the 4.04 figure identifies a venomous pit viper?",
+   "stem": "Which feature identifies a venomous pit viper?",
    "options": [
     "A round pupil",
     "An oval, egg-shaped head",
@@ -3264,7 +3264,7 @@
    "type": "threshold",
    "care_level": "BLS",
    "population": "both",
-   "stem": "At what core temperature does the BLS band of 4.05 direct ice bath immersion?",
+   "stem": "In hyperthermia, at what core temperature is ice bath immersion directed at the BLS level?",
    "options": [
     "Above 41° C (105.8° F)",
     "Above 39° C (102° F)",
@@ -3287,7 +3287,7 @@
    "type": "threshold",
    "care_level": "ALS",
    "population": "both",
-   "stem": "At what temperature does 4.05 direct cooling measures be discontinued?",
+   "stem": "In hyperthermia, at what temperature should cooling measures be discontinued?",
    "options": [
     "36° C (96.8° F)",
     "39° C (102° F)",
@@ -3310,7 +3310,7 @@
    "type": "treatment",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Which cooling measure does the BLS band of 4.05 direct?",
+   "stem": "Which cooling measure is used at the BLS level for hyperthermia?",
    "options": [
     "Immerse in ice water regardless of temperature",
     "Cover with wet sheets and warm blankets",
@@ -3333,7 +3333,7 @@
    "type": "landmark",
    "care_level": "BLS",
    "population": "both",
-   "stem": "Where does 4.05 direct cool packs be applied?",
+   "stem": "Where should cool packs be applied in hyperthermia?",
    "options": [
     "Chest and abdomen",
     "Neck and forehead",
@@ -3356,7 +3356,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "both",
-   "stem": "What saline temperature does the ALS band of 4.05 direct for routine resuscitation in hyperthermia?",
+   "stem": "What saline temperature is used for routine resuscitation in hyperthermia?",
    "options": [
     "Room temperature",
     "Chilled to 4° C",
@@ -3379,7 +3379,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What NS/LR bolus does the adult ALS band of 4.05 direct for hypotension?",
+   "stem": "What NS/LR bolus is given to a hypotensive adult with hyperthermia?",
    "options": [
     "20 mL/kg",
     "250 mL",
@@ -3403,7 +3403,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What volume of chilled (4° C) normal saline bolus does 4.05 direct for an adult?",
+   "stem": "What volume of chilled (4° C) normal saline bolus is given to an adult with hyperthermia?",
    "options": [
     "1 liter",
     "20 mL/kg",
@@ -3427,7 +3427,7 @@
    "type": "dose",
    "care_level": "ALS",
    "population": "pediatric",
-   "stem": "What volume of chilled (4° C) normal saline does 4.05 direct for a pediatric patient?",
+   "stem": "What volume of chilled (4° C) normal saline is given to a pediatric patient with hyperthermia?",
    "options": [
     "10 mL/kg",
     "500 mL",
@@ -3451,7 +3451,7 @@
    "type": "treatment",
    "care_level": "ALS",
    "population": "adult",
-   "stem": "What do the 4.05 guidelines say about oral rehydration in heat exhaustion?",
+   "stem": "How does oral rehydration compare with IV infusions in heat exhaustion?",
    "options": [
     "It is as beneficial as IV infusions",
     "It is contraindicated in heat exhaustion",
@@ -3474,7 +3474,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the adult lorazepam dose in 4.05 for shivering?",
+   "stem": "What is the adult lorazepam dose for shivering during hyperthermia cooling?",
    "options": [
     "0.05 mg/kg IV",
     "1 mg IV",
@@ -3498,7 +3498,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "adult",
-   "stem": "What is the maximum adult lorazepam dose in 4.05?",
+   "stem": "What is the maximum adult lorazepam dose for shivering during hyperthermia cooling?",
    "options": [
     "2 mg",
     "4 mg",
@@ -3522,7 +3522,7 @@
    "type": "dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What is the pediatric lorazepam dose in 4.05 for shivering?",
+   "stem": "What is the pediatric lorazepam dose for shivering during hyperthermia cooling?",
    "options": [
     "0.1 – 0.2 mg/kg IV",
     "0.01 mg/kg IV",
@@ -3547,7 +3547,7 @@
    "type": "max_dose",
    "care_level": "CCT",
    "population": "pediatric",
-   "stem": "What is the maximum single pediatric lorazepam dose in 4.05?",
+   "stem": "What is the maximum single pediatric lorazepam dose for shivering during hyperthermia cooling?",
    "options": [
     "1 mg",
     "5 mg",
@@ -3571,7 +3571,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "What do the 4.05 PEARLS say about core temperature in exertional heat stroke?",
+   "stem": "What is true of core temperature in exertional heat stroke?",
    "options": [
     "It is normal in most cases",
     "It may be below 41.1° C (106° F)",
@@ -3594,7 +3594,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which skin finding do the 4.05 PEARLS attribute to classic heat stroke?",
+   "stem": "Which skin finding is characteristic of classic heat stroke?",
    "options": [
     "Cool, pale and clammy skin",
     "Mottled skin with delayed refill",
@@ -3617,7 +3617,7 @@
    "type": "assessment",
    "care_level": "PEARLS",
    "population": "both",
-   "stem": "Which finding do the 4.05 PEARLS list under heat exhaustion?",
+   "stem": "Which finding is characteristic of heat exhaustion?",
    "options": [
     "Hot, dry skin",
     "Seizures",
