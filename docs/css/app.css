@@ -377,3 +377,7 @@ dl.kv dd { margin: 0; }
 .review-opt-row { display: flex; align-items: center; gap: var(--sp-3);
                   margin-bottom: var(--sp-2); }
 .review-opt-row input[type="radio"] { width: 20px; height: 20px; flex: none; accent-color: var(--ok); }
+
+/* A `display` declaration in a class beats the [hidden] attribute's own
+   display:none, so hidden elements with a layout display need this. */
+[hidden] { display: none !important; }
