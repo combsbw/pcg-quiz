@@ -527,3 +527,34 @@ modules must list section titles alongside numbers. (2) Dedicated modules for
 - [x] Suites: e2e 52, e2e2 22, pure 250, srs 70, icons 21, fixes 17,
       review 17, modules 11 — all pass; search top-3 30/30 and 27/28.
       sw CACHE_VERSION v4.
+
+## Workstream 4 — reference tables readable (2026-10-16)
+
+User report: 10.03 Hemodynamic Pressure Table rendered as one interleaved
+block of uppercase text — unusable as a reference.
+
+Cause: the outline extractor reads a page as lines in reading order, so every
+table row interleaved with the next.
+
+- [x] `tools/extract_tables.py`: finds data tables (skips care-level bands and
+      the History/Indications layout boxes), merges spanned columns and
+      overflow rows, re-reads each cell's words from inside its merged box
+      (keeps bullets with their text, bold sub-headings as headings).
+- [x] `tools/table_render.json`: tables shown as rows/columns only after the
+      grid was checked against the page by eye (10.01 x2, 10.03, 10.06 BEFAST,
+      8.23 strategy tables x4, 8.26 CPAP/BiPAP, 9.02 triage). All others show
+      the original table image (tap to enlarge). Every table carries its crop.
+- [x] Vector diagrams (8.18 p215, 8.23 p223) placed inline where they sit;
+      `tools/figure_regions.json` for composite graphics (8.23 p224 Pmean,
+      p227 monitoring gauges). Loose text inside removed from outline, kept for
+      search; figures not repeated in the Figures list.
+- [x] "View page N" on every band: original page image (`tools/build_pages.py`,
+      290 pages, 28 MB, cached on demand). Table images precached (1.7 MB).
+- [x] Band label: "Reference" for supplemental pages, "Overview" for non-
+      assessment BODY bands (was "Assessment" everywhere).
+- [x] Phone layout: one card per table row, each value under its column name.
+- [x] sw v5. Suites all pass; new tables suite 29/29.
+
+Rebuild order after a new edition: build_content → build_structure →
+build_pages → build_search_index; then re-check table_render.json and
+figure_regions.json against the new pages.

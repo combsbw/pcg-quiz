@@ -1,0 +1,5 @@
+{
+  "_doc": "Page regions shown inline as a picture because they are graphics the extractors cannot read: composites of small image pieces, filled arrows and text boxes. Key = guideline:page; value = list of [x0, y0, x1, y1] in PDF points (612 x 792 page). The loose text inside a region is removed from the outline (kept for search). Re-check after a new edition.",
+  "8.23:224": [[30, 503, 600, 750]],
+  "8.23:227": [[18, 95, 600, 700]]
+}

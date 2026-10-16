@@ -382,13 +382,29 @@ function renderItem({ path }) {
 
   // Render the nested outline rather than a flat bullet list: the indent is
   // what tells you which dose belongs to which condition.
-  const LEVEL_LABEL = { BODY: 'Assessment', BLS: 'BLS', ALS: 'ALS',
-                        CCT: 'CCT', PEARLS: 'Pearls' };
+  // BODY is the unbanded part of a page: the History/Assessment box on a
+  // guideline, but the whole page on a reference chart.
+  const isAssess = (b) => b.items.some((i) => i.kind === 'heading'
+    && /^(history|assessment|differential)$/i.test(i.text));
+  const bodyLabel = (b) => (isAssess(b) ? 'Assessment'
+    : g.section_number === '10' ? 'Reference' : 'Overview');
+  const LEVEL_LABEL = { BLS: 'BLS', ALS: 'ALS', CCT: 'CCT', PEARLS: 'Pearls' };
+  const bandLabel = (b) => (b.care_level === 'BODY' ? bodyLabel(b)
+    : LEVEL_LABEL[b.care_level] || b.care_level);
 
   function outline(items) {
     const wrap = el('.outline');
     for (const it of items) {
-      if (it.kind === 'heading') {
+      if (it.kind === 'table') {
+        wrap.append(refTable(it, g));
+      } else if (it.kind === 'figure') {
+        wrap.append(el('figure.ref-fig', {}, [
+          el('button.ref-imgbtn', { type: 'button', 'aria-label': 'Enlarge figure',
+            onclick: () => openZoom(`data/${it.image}`, `Figure from ${g.title}`) }, [
+            el('img.ref-img', { src: `data/${it.image}`, alt: `Figure from ${g.title}`, loading: 'lazy' })]),
+          el('figcaption', { text: 'Tap to enlarge' }),
+        ]));
+      } else if (it.kind === 'heading') {
         wrap.append(el('h4.ol-head', { text: it.text, dataset: { d: String(it.depth) } }));
       } else {
         wrap.append(el('div.ol-item', { dataset: { d: String(Math.min(it.depth, 3)) } }, [
@@ -407,6 +423,12 @@ function renderItem({ path }) {
         items: b.bullets.map((t) => ({ depth: 1, text: t, kind: 'item' })),
       }));
 
+  // Figures already placed inline (vector diagrams) are not repeated below.
+  const inline = new Set(bands.flatMap((b) => b.items)
+    .filter((i) => i.kind === 'figure')
+    .flatMap((i) => [i.image.replace(/^images\//, ''), ...(i.covers || [])]));
+  const figs = g.images.filter((f) => !inline.has(f));
+
   mount(view,
     el('.page-head', {}, [
       el('a.btn.btn-ghost.btn-sm', { href: '#/browse', text: '← Browse' }),
@@ -416,25 +438,85 @@ function renderItem({ path }) {
     el('.gl-nav', {}, bands.map((b, i) => el('a.chip', {
       href: `#gl-band-${i}`,
       class: b.care_level !== 'BODY' ? `chip-${b.care_level.toLowerCase()}` : '',
-      text: LEVEL_LABEL[b.care_level] || b.care_level,
+      text: bandLabel(b),
     }))),
     ...bands.map((b, i) => el('.card.gl-band', {
       id: `gl-band-${i}`,
       dataset: { lvl: b.care_level.toLowerCase() },
     }, [
       el('.gl-band-head', {}, [
-        el('h3', { text: LEVEL_LABEL[b.care_level] || b.care_level }),
-        el('span.gl-page', { text: `p.${b.page}` }),
+        el('h3', { text: bandLabel(b) }),
+        el('button.gl-page', {
+          type: 'button', title: 'View the original page',
+          text: `View page ${b.page}`,
+          onclick: () => openZoom(`data/pages/p${String(b.page).padStart(3, '0')}.webp`,
+            `${g.number} ${g.title}, page ${b.page}`),
+        }),
       ]),
       outline(b.items),
     ])),
-    g.images.length ? el('.card', {}, [
+    figs.length ? el('.card', {}, [
       el('h3', { text: 'Figures' }),
-      el('.figs', {}, g.images.map((f) => el('img', {
+      el('.figs', {}, figs.map((f) => el('img', {
         src: `data/images/${f}`, alt: `Figure from ${g.title}`, loading: 'lazy',
       }))),
     ]) : null,
   );
+}
+
+/** A data table from the guideline. Checked tables render as rows and columns
+ *  (stacked into one card per row on a phone); the rest show the original
+ *  table image, since a mis-gridded table would put a value beside the wrong
+ *  parameter. Either way the original is one tap away. */
+function refTable(it, g) {
+  const img = () => el('img.ref-img', {
+    src: `data/${it.image}`, alt: `Table from ${g.title}`, loading: 'lazy',
+    style: { aspectRatio: String(it.aspect || '') },
+  });
+  const zoom = () => openZoom(`data/${it.image}`, `Table from ${g.title}`);
+
+  if (it.render !== 'html') {
+    return el('figure.ref-fig', {}, [
+      el('button.ref-imgbtn', { type: 'button', 'aria-label': 'Enlarge table', onclick: zoom }, [img()]),
+      el('figcaption', { text: 'Tap to enlarge' }),
+    ]);
+  }
+  const head = it.header || null;
+  const cell = (tag, text, label) => el(tag, label ? { dataset: { label } } : {},
+    String(text || '').split('\n').map((ln) => (ln.startsWith('\u0001')
+      ? el('strong.ref-line.ref-sub', { text: ln.slice(1) })
+      : el('span.ref-line', { text: ln }))));
+  const plain = (x) => String(x || '').replace(/\u0001/g, '');
+  const table = el('table.ref-table', { dataset: { cols: String((head || it.rows[0] || []).length) } }, [
+    head ? el('thead', {}, [el('tr', {}, head.map((h) => el('th', { text: plain(h) })))]) : null,
+    el('tbody', {}, it.rows.map((r) => el('tr', {}, r.map((c, j) =>
+      cell(j === 0 ? 'th' : 'td', c, head && j > 0 ? plain(head[j]) : ''))))),
+  ]);
+  if (head) table.querySelectorAll('tbody th').forEach((th) => th.setAttribute('scope', 'row'));
+  return el('figure.ref-fig', {}, [
+    el('.ref-scroll', {}, [table]),
+    el('button.btn.btn-ghost.btn-sm.ref-orig', { type: 'button', text: 'View original table', onclick: zoom }),
+  ]);
+}
+
+/** Full-screen image viewer: fit to screen, tap to toggle actual size. */
+function openZoom(src, alt) {
+  let actual = false;
+  const im = el('img', { src, alt });
+  const close = () => { ov.remove(); document.removeEventListener('keydown', onKey); };
+  const onKey = (e) => { if (e.key === 'Escape') close(); };
+  const ov = el('.zoom', { role: 'dialog', 'aria-modal': 'true', 'aria-label': alt }, [
+    el('.zoom-bar', {}, [
+      el('button.btn.btn-sm', { type: 'button', text: 'Actual size', onclick: (e) => {
+        actual = !actual; ov.classList.toggle('zoom-actual', actual);
+        e.currentTarget.textContent = actual ? 'Fit to screen' : 'Actual size';
+      } }),
+      el('button.btn.btn-sm', { type: 'button', text: 'Close', onclick: close }),
+    ]),
+    el('.zoom-body', {}, [im]),
+  ]);
+  document.addEventListener('keydown', onKey);
+  document.body.append(ov);
 }
 
 /* -------------------------------------------------------- settings view */

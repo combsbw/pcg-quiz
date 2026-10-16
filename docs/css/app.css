@@ -301,7 +301,10 @@ dl.kv dd { margin: 0; }
 .gl-band-head { display: flex; align-items: baseline; justify-content: space-between;
                 gap: var(--sp-3); margin-bottom: var(--sp-3); }
 .gl-band-head h3 { margin: 0; }
-.gl-page { color: var(--text-3); font-size: var(--fs-xs); font-family: var(--font-mono); }
+.gl-page { color: var(--text-2); font: inherit; font-size: var(--fs-xs); font-weight: var(--fw-semi);
+  background: transparent; border: 1px solid var(--border); border-radius: 999px;
+  padding: 4px 10px; cursor: pointer; white-space: nowrap; }
+.gl-page:hover { border-color: var(--border-strong); color: var(--text); }
 
 /* The indent carries the clinical relationship (condition -> drug -> ceiling),
    so each level is set apart by position, weight and a distinct marker rather
@@ -387,3 +390,51 @@ dl.kv dd { margin: 0; }
 /* A `display` declaration in a class beats the [hidden] attribute's own
    display:none, so hidden elements with a layout display need this. */
 [hidden] { display: none !important; }
+
+/* ---- reference tables (Browse) ---- */
+.ref-fig { margin: var(--sp-3) 0; }
+.ref-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--border); border-radius: var(--r-md); }
+.ref-table { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); line-height: 1.4; }
+.ref-table th, .ref-table td { text-align: left; vertical-align: top;
+  padding: var(--sp-2) var(--sp-3); border-bottom: 1px solid var(--border); }
+.ref-table thead th { background: var(--surface-2, var(--bg)); color: var(--text-2);
+  font-size: var(--fs-xs); font-weight: var(--fw-semi); text-transform: uppercase;
+  letter-spacing: .04em; white-space: nowrap; }
+.ref-table tbody th { font-weight: var(--fw-semi); color: var(--text); }
+.ref-table tbody tr:last-child > * { border-bottom: 0; }
+.ref-table tbody tr:nth-child(even) { background: color-mix(in srgb, var(--text) 3%, transparent); }
+.ref-line { display: block; }
+.ref-sub { margin-top: var(--sp-1); font-weight: var(--fw-semi); }
+.ref-sub:first-child { margin-top: 0; }
+.ref-orig { margin-top: var(--sp-2); }
+.ref-imgbtn { display: block; width: 100%; padding: 0; border: 1px solid var(--border);
+  border-radius: var(--r-md); background: #fff; cursor: zoom-in; overflow: hidden; }
+.ref-img { display: block; width: 100%; height: auto; }
+.ref-fig figcaption { color: var(--text-3); font-size: var(--fs-xs); margin-top: var(--sp-1); }
+
+/* Phone: a row per card, each value under its column heading. */
+@media (max-width: 640px) {
+  .ref-scroll { border: 0; overflow: visible; }
+  .ref-table, .ref-table tbody, .ref-table tr, .ref-table th, .ref-table td { display: block; width: auto; }
+  .ref-table thead { display: none; }
+  .ref-table tbody tr { border: 1px solid var(--border); border-radius: var(--r-md);
+    padding: var(--sp-2) var(--sp-3); margin-bottom: var(--sp-2); background: var(--surface); }
+  .ref-table tbody tr:nth-child(even) { background: var(--surface); }
+  .ref-table th, .ref-table td { border: 0; padding: var(--sp-1) 0; }
+  .ref-table tbody th { font-size: var(--fs-base); }
+  .ref-table td[data-label]::before { content: attr(data-label); display: block;
+    color: var(--text-3); font-size: var(--fs-xs); font-weight: var(--fw-semi);
+    text-transform: uppercase; letter-spacing: .04em; }
+}
+
+/* Image viewer */
+.zoom { position: fixed; inset: 0; z-index: 1000; background: rgba(10, 14, 20, .94);
+  display: flex; flex-direction: column; }
+.zoom-bar { display: flex; justify-content: flex-end; gap: var(--sp-2);
+  padding: calc(env(safe-area-inset-top) + var(--sp-2)) var(--sp-3) var(--sp-2); }
+.zoom-body { flex: 1; overflow: auto; -webkit-overflow-scrolling: touch; display: flex;
+  align-items: flex-start; justify-content: center; padding: var(--sp-2); }
+.zoom-body img { max-width: 100%; height: auto; background: #fff; border-radius: 4px; }
+.zoom-actual .zoom-body { justify-content: flex-start; }
+.zoom-actual .zoom-body img { max-width: none; width: auto; }

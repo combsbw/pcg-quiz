@@ -1,0 +1,13 @@
+{
+  "_doc": "How each data table is shown in Browse. Key = guideline:page:index-on-page. 'html' = rows and columns (only after checking the grid against the page by eye); 'html-noheader' = same, but the first row is a label row, not a header; anything not listed is shown as the original table image, which is always correct. Re-check after a new edition.",
+  "10.03:290:0": "html",
+  "10.01:286:0": "html",
+  "10.01:287:0": "html",
+  "10.06:293:0": "html",
+  "8.23:224:0": "html-noheader",
+  "8.23:225:0": "html",
+  "8.23:225:1": "html",
+  "8.23:226:0": "html-noheader",
+  "8.26:236:0": "html",
+  "9.02:265:0": "html"
+}

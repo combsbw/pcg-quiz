@@ -3,14 +3,17 @@
  * Two caches with deliberately different policies:
  *   SHELL  — app code and the three JSON data files (~3.6 MB). Precached on
  *            install so a cold, offline first launch works.
- *   MEDIA  — guideline figures (~10 MB across 122 PNGs). Cached on demand.
+ *            Plus every reference-table image (data/tables/, ~2 MB), listed in
+ *            data/tables/manifest.json: a crew needs the BP chart offline.
+ *   MEDIA  — guideline figures (~10 MB across 122 PNGs) and original page
+ *            images (data/pages/, ~28 MB). Cached on demand.
  *            Precaching these would make the first load hostile on a phone
  *            tether for images most learners will never open.
  *
  * Bump CACHE_VERSION whenever the app or the guideline edition changes; the
  * activate handler drops every cache that does not match.
  */
-const CACHE_VERSION = 'v4-2026.09.15';
+const CACHE_VERSION = 'v5-2026.09.15';
 const SHELL = `lfn-shell-${CACHE_VERSION}`;
 const MEDIA = `lfn-media-${CACHE_VERSION}`;
 
@@ -50,7 +53,12 @@ self.addEventListener('install', (e) => {
     const cache = await caches.open(SHELL);
     // addAll fails the whole install if any single request 404s; add
     // individually so one missing asset cannot leave the app with no cache.
-    await Promise.all(SHELL_ASSETS.map(async (url) => {
+    let tables = [];
+    try {
+      const r = await fetch('data/tables/manifest.json', { cache: 'reload' });
+      if (r.ok) tables = await r.json();
+    } catch { /* offline install: tables fill in on first view */ }
+    await Promise.all([...SHELL_ASSETS, ...tables].map(async (url) => {
       try { await cache.add(new Request(url, { cache: 'reload' })); }
       catch (err) { console.warn('[sw] skipped', url, err); }
     }));
@@ -79,7 +87,7 @@ self.addEventListener('fetch', (e) => {
   if (url.origin !== location.origin) return;
 
   // Figures: cache-first, then fill the media cache.
-  if (/\/data\/images\//.test(url.pathname)) {
+  if (/\/data\/(images|pages)\//.test(url.pathname)) {
     e.respondWith((async () => {
       const cached = await caches.match(req);
       if (cached) return cached;

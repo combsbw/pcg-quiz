@@ -654,6 +654,17 @@ def extract_vector_figures(page, outdir: Path, page_no: int, dpi=170):
 
     Returns list of (filename, y_top).
     """
+    bbox = vector_figure_bbox(page)
+    if bbox is None:
+        return []
+    pix = page.get_pixmap(clip=bbox, dpi=dpi)
+    fname = f"p{page_no:03d}_vec.png"
+    pix.save(str(outdir / fname))
+    return [(fname, bbox.y0)]
+
+
+def vector_figure_bbox(page):
+    """The region of a vector-drawn diagram on this page, or None."""
     shapes = []
     curves = 0
     for d in page.get_drawings():
@@ -670,11 +681,11 @@ def extract_vector_figures(page, outdir: Path, page_no: int, dpi=170):
         shapes.append((r, has_curve))
 
     if curves < VECTOR_FIGURE_MIN_CURVES:
-        return []
+        return None
 
     curved = [r for r, c in shapes if c]
     if not curved:
-        return []
+        return None
     bbox = curved[0]
     for r in curved[1:]:
         bbox = bbox | r
@@ -685,12 +696,8 @@ def extract_vector_figures(page, outdir: Path, page_no: int, dpi=170):
     bbox = bbox + (-3, -2, 3, 3)
     bbox = bbox & page.rect
     if bbox.width < 120 or bbox.height < 90:
-        return []
-
-    pix = page.get_pixmap(clip=bbox, dpi=dpi)
-    fname = f"p{page_no:03d}_vec.png"
-    pix.save(str(outdir / fname))
-    return [(fname, bbox.y0)]
+        return None
+    return bbox
 
 
 def build_blocks_for_subsection(doc, sub: Subsection, header_xref, img_dir: Path):
