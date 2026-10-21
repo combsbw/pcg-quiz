@@ -342,10 +342,34 @@ export function mountQuiz(root, deps, route) {
     const perReview = pace || EST_REVIEW_MS;
     const estMs = dueCount * perReview + newCount * perReview * NEW_MULTIPLIER;
 
-    const modChips = enabled.slice(0, 6).map((id) => el('span.chip', { text: moduleLabel(id) }));
-    if (enabled.length > 6) {
-      modChips.push(el('span.chip', { text: `+${enabled.length - 6} more` }));
-    }
+    // Every module in scope, each removable. Removing changes what is
+    // scheduled, nothing else: progress on its cards is kept, and putting the
+    // module back picks up exactly where it was.
+    const refresh = () => { buildSession(); renderStart(); };
+    const removeModule = (id) => {
+      const before = [...enabled];
+      store.toggleModule(id, false);
+      toast(`Removed ${moduleLabel(id)}`, 6000, {
+        label: 'Undo', onclick: () => { store.setEnabledModules(before); refresh(); },
+      });
+      refresh();
+    };
+    const clearAll = () => {
+      const before = [...enabled];
+      store.setEnabledModules([]);
+      toast(`Cleared ${plural(before.length, 'module')} from scope`, 6000, {
+        label: 'Undo', onclick: () => { store.setEnabledModules(before); refresh(); },
+      });
+      refresh();
+    };
+    const modChips = enabled.map((id) => el('span.chip.chip-removable', {}, [
+      el('span', { text: moduleLabel(id) }),
+      el('button.chip-x', {
+        type: 'button', title: 'Remove from scope',
+        'aria-label': `Remove ${moduleLabel(id)} from scope`,
+        onclick: () => removeModule(id),
+      }, [el('span', { 'aria-hidden': 'true', text: '×' })]),
+    ]));
 
     const startBtn = el('button.btn.btn-primary.btn-hero', {
       type: 'button',
@@ -373,7 +397,10 @@ export function mountQuiz(root, deps, route) {
       ]),
 
       el('.card', { style: { marginBottom: 'var(--sp-5)' } }, [
-        el('h3', { text: 'In scope' }),
+        el('.scope-head', {}, [
+          el('h3', { text: `In scope (${enabled.length})` }),
+          el('button.btn.btn-sm', { type: 'button', text: 'Clear all', onclick: clearAll }),
+        ]),
         el('.chip-row', {}, modChips),
         S.skipped
           ? el('p', {

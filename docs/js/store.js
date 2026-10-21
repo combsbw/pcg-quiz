@@ -111,6 +111,16 @@ export function toggleModule(id, on) {
   return s.settings.enabledModules;
 }
 
+/** Replace the whole in-scope list (clear all, and undo of a clear). Only the
+ *  scope changes: cards, history, flags and edits are untouched. */
+export function setEnabledModules(ids) {
+  const s = loadProgress();
+  s.settings.enabledModules = [...new Set(ids || [])];
+  saveProgress();
+  emit('settings');
+  return s.settings.enabledModules;
+}
+
 /* ---------------------------------------------------------------- cards */
 export function getCard(id) { return loadProgress().cards[id] || null; }
 export function allCards() { return loadProgress().cards; }

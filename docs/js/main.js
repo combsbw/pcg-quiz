@@ -138,8 +138,26 @@ function renderModules({ params }) {
     groups.get(g).push(m);
   }
 
+  const nOn = enabled.size;
+  const clearAll = () => {
+    const before = [...enabled];
+    store.setEnabledModules([]);
+    toast(`Cleared ${before.length === 1 ? '1 module' : `${before.length} modules`}`, 6000, {
+      label: 'Undo', onclick: () => { store.setEnabledModules(before); renderModules({ params }); },
+    });
+    renderModules({ params });
+  };
+
   const header = el('.page-head', {}, [
-    el('h1', { text: 'Modules' }),
+    el('.page-head-row', {}, [
+      el('h1', { text: 'Modules' }),
+      el('button.btn.btn-sm', {
+        type: 'button', disabled: nOn === 0,
+        title: 'Switch off every module, in all groupings',
+        text: nOn ? `Clear all (${nOn} on)` : 'Nothing on',
+        onclick: clearAll,
+      }),
+    ]),
     el('p', { text: tax.description }),
     el('.seg', { style: { marginTop: 'var(--sp-4)' }, role: 'tablist' },
       taxonomies().map((t) => el('button', {

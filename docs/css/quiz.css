@@ -375,3 +375,15 @@ a.lapse-row:hover { background: var(--bad-soft); text-decoration: none; }
   .q-opt, .gbtn, .q-key { transition: none; }
   .q-opt:active { transform: none; }
 }
+
+/* Study start: removable module chips */
+.scope-head { display: flex; align-items: center; justify-content: space-between;
+  gap: var(--sp-3); margin-bottom: var(--sp-3); }
+.scope-head h3 { margin: 0; }
+.chip-removable { display: inline-flex; align-items: center; gap: var(--sp-1);
+  padding-right: 2px; white-space: normal; text-align: left; }
+.chip-x { flex: none; display: inline-grid; place-items: center; width: 28px; height: 28px;
+  margin-left: 2px; border: 0; border-radius: 999px; background: transparent;
+  color: var(--text-3); font: inherit; font-size: 18px; line-height: 1; cursor: pointer; }
+.chip-x:hover { background: color-mix(in srgb, var(--text) 10%, transparent); color: var(--text); }
+.chip-x:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }

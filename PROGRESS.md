@@ -558,3 +558,12 @@ table row interleaved with the next.
 Rebuild order after a new edition: build_content → build_structure →
 build_pages → build_search_index; then re-check table_render.json and
 figure_regions.json against the new pages.
+
+## Workstream 5 — clearing modules (2026-10-21)
+- [x] Study start screen: "In scope (N)" lists every enabled module as a chip
+      with an × to remove it, plus a Clear all button.
+- [x] Modules page: "Clear all (N on)" in the header, across all groupings
+      (scope is one global list); disabled when nothing is on.
+- [x] Both show a toast with Undo (6 s). Clearing changes scope only — cards,
+      history, flags and edits are untouched.
+- [x] store.setEnabledModules(); ui.toast takes an optional action. sw v6.

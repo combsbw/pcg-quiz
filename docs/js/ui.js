@@ -39,15 +39,24 @@ export function mount(root, ...nodes) {
   return root;
 }
 
-export function toast(msg, ms = 2600) {
+export function toast(msg, ms = 2600, action = null) {
   const wrap = document.getElementById('toasts');
   if (!wrap) return;
-  const t = el('.toast', { text: msg, role: 'status' });
-  wrap.append(t);
-  setTimeout(() => {
+  const t = el('.toast', { role: 'status' }, [el('span', { text: msg })]);
+  const hide = () => {
     t.style.transition = 'opacity .25s'; t.style.opacity = '0';
     setTimeout(() => t.remove(), 260);
-  }, ms);
+  };
+  if (action && action.label) {
+    // An undoable action gets a little longer on screen.
+    ms = Math.max(ms, 6000);
+    t.append(el('button.toast-action', {
+      type: 'button', text: action.label,
+      onclick: () => { try { action.onclick(); } finally { hide(); } },
+    }));
+  }
+  wrap.append(t);
+  setTimeout(hide, ms);
 }
 
 /* ------------------------------------------------------------ formatting */

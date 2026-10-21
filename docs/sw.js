@@ -13,7 +13,7 @@
  * Bump CACHE_VERSION whenever the app or the guideline edition changes; the
  * activate handler drops every cache that does not match.
  */
-const CACHE_VERSION = 'v5-2026.09.15';
+const CACHE_VERSION = 'v6-2026.09.15';
 const SHELL = `lfn-shell-${CACHE_VERSION}`;
 const MEDIA = `lfn-media-${CACHE_VERSION}`;
 

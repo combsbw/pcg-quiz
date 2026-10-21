@@ -438,3 +438,10 @@ dl.kv dd { margin: 0; }
 .zoom-body img { max-width: 100%; height: auto; background: #fff; border-radius: 4px; }
 .zoom-actual .zoom-body { justify-content: flex-start; }
 .zoom-actual .zoom-body img { max-width: none; width: auto; }
+
+.page-head-row { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-3); }
+.page-head-row h1 { margin: 0; }
+.toast { display: flex; align-items: center; gap: var(--sp-3); }
+.toast-action { flex: none; border: 0; background: transparent; color: inherit;
+  font: inherit; font-weight: var(--fw-semi); padding: 4px 8px; margin: -4px -8px -4px 0;
+  border-radius: var(--r-sm, 6px); cursor: pointer; text-decoration: underline; }
